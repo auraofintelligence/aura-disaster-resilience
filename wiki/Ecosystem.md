@@ -40,6 +40,7 @@ The kiosk and its resilience network are the first delivery focus. The wider eco
 | Grain by Grain capability and documentary sources | Use documentary, storytelling and capability-building material to connect practical learning across generations. Grain by Grain explores repair, materials and useful local skills. Treatments, scenarios and public evidence can support discussion as film, learning and infrastructure ideas each progress through their own development milestones. | context | [ECO-01](Question-ECO-01.md), [TWIN-01](Question-TWIN-01.md), [OPS-06](Question-OPS-06.md) |
 | Micronova and excursions future-readiness sources | Explore longer-horizon continuity through retained knowledge, food, water, repair and strong relationships. Micronova and excursions material can inform clearly labelled voluntary scenarios alongside established local hazards. Particular forecasts and solar-mechanism hypotheses would retain their research status while participants test useful preparedness skills. | context | [ECO-01](Question-ECO-01.md), [TEST-01](Question-TEST-01.md), [TWIN-01](Question-TWIN-01.md) |
 | Luke Nathan Hayes open record | Provide the author-selected reference for Luke Nathan Hayes and his public record. Link author context here while keeping the kiosk service, evidence, responsibilities and community decisions clear in their own records. | context | [WRK-01](Question-WRK-01.md), [GOV-01](Question-GOV-01.md) |
+| Community Club Builder: Sandy Sports example | Adapt the shared roles, backups, practical meeting rhythm and human-reviewed AI administration into a proposed Ready S.E.T. Co-op working-together model for councils, teams and committees. Develop near-future XR, personal Aura, AI/SI and robotics participation through clear mandates, accessible participation and traceable delegated tasks. Co-operative formation and meeting rules develop through their own applicable process. | interface | [GOV-01](Question-GOV-01.md), [GOV-02](Question-GOV-02.md), [DAT-05](Question-DAT-05.md), [WRK-01](Question-WRK-01.md), [WRK-03](Question-WRK-03.md), [WRK-04](Question-WRK-04.md) |
 
 ## Explore the source projects
 
@@ -170,3 +171,7 @@ The kiosk and its resilience network are the first delivery focus. The wider eco
 **Luke Nathan Hayes open record**
 
 [open-record-luke-nathan-hayes](https://github.com/auraofintelligence/open-record-luke-nathan-hayes)
+
+**Community Club Builder: Sandy Sports example**
+
+[community-club-builder-sandy-sports](https://github.com/auraofintelligence/community-club-builder-sandy-sports) · [community-club-builder-sandy-sports](https://auraofintelligence.github.io/community-club-builder-sandy-sports/)

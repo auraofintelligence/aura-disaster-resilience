@@ -4,7 +4,7 @@
     "work_status": "ready_for_review",
     "github_issue_url": "https://github.com/auraofintelligence/aura-disaster-resilience/issues/1",
     "proposal": {
-      "version": 2,
+      "version": 3,
       "title": "Work together through linked questions and human decisions",
       "scope": "working_method",
       "scope_label": "The planning workflow",
@@ -29,17 +29,20 @@
       "recommendation": "Use the linked wiki as the reading and question map, GitHub issues for review conversations, and versioned repository records for evidence and history.",
       "authorises": [
         "Use the question IDs, work labels, agent job sheets and review records for planning.",
-        "Prepare research and design alternatives in parallel, with clear file ownership and handovers."
+        "Prepare research and design alternatives in parallel, with clear file ownership and handovers.",
+        "Prepare the shared working-together handbook proposal and organising-meeting trial for participant discussion, using the kiosk as the first worked example."
       ],
       "later_reviews": [
         "Each technical design, spending commitment, site use and operating service receives its relevant review.",
-        "Repository protection settings and reviewer roles are checked during GitHub setup."
+        "Repository protection settings and reviewer roles are checked during GitHub setup.",
+        "Participants agree actual mandates, roles and meeting arrangements; formal co-operative formation and any Trust Hub handbook implementation follow their applicable authorisation and process."
       ],
       "review_checks": [
         "Can a newcomer find a useful job and understand what to bring back?",
         "Can a reviewer see the exact proposal, evidence, responsibilities and next action?",
         "Do changed proposals return to review while earlier decisions remain traceable?",
-        "Does the proposal identify overlapping professional responsibilities, applicable practice and legal sources, and the comparison of differences, improvements and deficiencies?"
+        "Does the proposal identify overlapping professional responsibilities, applicable practice and legal sources, and the comparison of differences, improvements and deficiencies?",
+        "Does the proposed councils, teams and committees process support near-future XR, personal Auras, AI/SI and robotics while keeping actual mandates, decisions and delegated tasks traceable?"
       ],
       "question_ids": [
         "WRK-01",
@@ -52,7 +55,12 @@
       "files": [
         "content/Agent-work.md",
         "content/Human-review.md",
-        "content/Professional-review.md"
+        "content/Professional-review.md",
+        "content/Working-together.md",
+        "templates/body-charter.md",
+        "templates/organising-meeting.md",
+        "templates/meeting-record.md",
+        "templates/agent-and-robot-task.md"
       ],
       "required_roles": [
         "design_curator"

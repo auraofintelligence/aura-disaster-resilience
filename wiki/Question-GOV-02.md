@@ -14,6 +14,7 @@ An engagement plan with accessible participation, groups to seek out, ways to de
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 8 and 10)
 - supporting research — reviewed source; public copy can be added through the evidence process (GAJRA values and UNGA81 contribution)
+- [Proposed councils, teams and committees model for the Aura age](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Working-together) (Proposed shared handbook home, organising meeting, XR/Aura/AI/SI/robot participation, delegated tasks and records; adoption and appointments are development milestones.)
 
 ## People and connected choices
 

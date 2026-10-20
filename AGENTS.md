@@ -10,6 +10,8 @@ Use Ready S.E.T. Co-op or Ready Sustainable Employment and Training Cooperative.
 
 A digital twin represents a person, place or system. Use the author's [open record](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) when linking context about Luke Nathan Hayes. The current legal explorations are Your Relevance, P4A Legal RAG and Australian Legal Engine, linked in the source register and ecosystem records.
 
+Design for near-future XR, personal Auras, AI/SI and robotics as an explicit planning assumption. Keep actual tool capability, permitted participation, representation, decision authority, delegated execution and observed results traceable. content/Working-together.md proposes the shared council/team/committee model and recommends the existing Ready S.E.T. Co-op Trust Hub as the handbook's shared home. Its adoption, handbook migration, appointments and formal formation remain development milestones.
+
 ## Parallel work
 
 - Own a bounded task, question IDs and explicit files. Keep unrelated source repositories intact.

@@ -36,7 +36,13 @@ The Ready S.E.T. Co-op historical pitch, trust and cultural-node material, healt
 
 The supplied *Joyful Responsible Abundance Human and SI Alignment Revised*, *Web3 Sensorium for Science Debate* and *AI Alignment CYOA for Film* also inform personal agency, evidence, scenario learning and future readiness. Observations, tested models, proposals and fiction keep their own labels. Luke's current directions govern C-Hours and public participation.
 
-## Preserved documents and sites
+## Working together in the near future
+
+[Community Club Builder: Sandy Sports](https://github.com/auraofintelligence/community-club-builder-sandy-sports) adds the practical foundation for roles with backups, short meetings, shared records and human-reviewed AI administration. The [proposed working-together model](../wiki/Working-together.md) adapts those patterns for Ready S.E.T. Co-op councils, teams and committees, with XR, personal Auras, AI/SI and robotics included as near-future design assumptions. Its club-specific incorporated-association resolutions and proposed voting choices retain their original context.
+
+Queensland's [rules guidance](https://www.qld.gov.au/community/fair-trading/associations-charities-and-non-for-profits/cooperatives/registering-a-cooperative/create-the-rules-for-your-cooperative), [formation-meeting guidance](https://www.qld.gov.au/community/fair-trading/associations-charities-and-non-for-profits/cooperatives/registering-a-cooperative/hold-a-formation-meeting), [board guidance](https://www.qld.gov.au/community/fair-trading/associations-charities-and-non-for-profits/cooperatives/run-a-cooperative/board-of-directors-for-a-cooperative) and [current cooperative law](https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-2020-cnl) provide official review routes for the cooperative adaptation. [OAIC's AI-product guidance](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products) informs the proposed approach to meeting recording, personal information and human-confirmed records. Current applicability is checked when the actual rules and arrangements are developed.
+
+## Preserved source editions
 
 The source library packages original documents and website-source snapshots with full checksums, edition notes and restore/verification helpers. The manifests record duplicate aliases and capture boundaries. Each source retains its existing licence and third-party conditions. Local working paths and the temporary chat screenshot stay outside the public package.
 

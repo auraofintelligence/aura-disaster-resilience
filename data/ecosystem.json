@@ -545,6 +545,16 @@
     "scope": "context",
     "question_ids": ["WRK-01", "GOV-01"],
     "status": "public reference supplied by the author"
+  },
+  {
+    "id": "community-club-builder",
+    "name": "Community Club Builder: Sandy Sports example",
+    "repositories": ["https://github.com/auraofintelligence/community-club-builder-sandy-sports"],
+    "public_urls": ["https://auraofintelligence.github.io/community-club-builder-sandy-sports/"],
+    "role": "Adapt the shared roles, backups, practical meeting rhythm and human-reviewed AI administration into a proposed Ready S.E.T. Co-op working-together model for councils, teams and committees. Develop near-future XR, personal Aura, AI/SI and robotics participation through clear mandates, accessible participation and traceable delegated tasks. Co-operative formation and meeting rules develop through their own applicable process.",
+    "scope": "interface",
+    "question_ids": ["GOV-01", "GOV-02", "DAT-05", "WRK-01", "WRK-03", "WRK-04"],
+    "status": "source playbook exists; co-operative adaptation proposed"
   }
 ]
 

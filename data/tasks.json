@@ -154,5 +154,20 @@
     ],
     "status": "ready for research and alternatives",
     "assigned_to": null
+  },
+  {
+    "id": "JOB-14",
+    "title": "Prepare the first organising meeting and shared handbook trial",
+    "output": "Proposed charter, 90-minute meeting pack, chosen records arrangement and four-week kiosk exercise, designed for XR, personal Auras, AI/SI and robotics",
+    "question_ids": [
+      "GOV-01",
+      "GOV-02",
+      "DAT-05",
+      "WRK-01",
+      "WRK-03",
+      "WRK-04"
+    ],
+    "status": "model and templates prepared; participant discussion and adoption are next",
+    "assigned_to": null
   }
 ]

@@ -6,6 +6,7 @@
 - [All-weather design](All-weather-design.md)
 - [Questions](Question-register.md)
 - [Progress](Progress.md)
+- [Working together](Working-together.md)
 - [People decide](Human-review.md)
 - [Professional review](Professional-review.md)
 - [AI assistant jobs](Agent-work.md)

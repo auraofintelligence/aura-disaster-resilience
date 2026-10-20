@@ -440,28 +440,49 @@
       "public_path": "sources/web-pages/14-pages-legal-rag.html/response.html",
       "captured_utc": "2026-10-20T08:21:09+00:00",
       "edition": "Exact received HTTP response-body bytes; page edition, with source/assets held separately."
+    },
+    {
+      "id": "WEB-15",
+      "url": "https://auraofintelligence.github.io/community-club-builder-sandy-sports/",
+      "request_started_utc": "2026-10-20T12:12:44+00:00",
+      "final_url": "https://auraofintelligence.github.io/community-club-builder-sandy-sports/",
+      "http_status": 200,
+      "status": "captured",
+      "http_reason": "OK",
+      "server_date": "Tue, 20 Oct 2026 12:12:45 GMT",
+      "content_type": "text/html; charset=utf-8",
+      "content_encoding": null,
+      "declared_content_length": "11000",
+      "last_modified": "Wed, 09 Sep 2026 10:18:09 GMT",
+      "etag": "\"6aa13261-2af8\"",
+      "bytes": 11000,
+      "sha256": "e00a0aa1dfe4719ca806a35602d555219e467de1d39af0f3d113b757ecec4715",
+      "public_path": "sources/web-pages/15-community-club-builder-sandy-sports/response.html",
+      "captured_utc": "2026-10-20T12:12:45+00:00",
+      "edition": "Exact received HTTP response-body bytes; page edition, with source/assets held separately."
     }
   ],
-  "capture_completed_utc": "2026-10-20T08:21:09+00:00",
+  "capture_completed_utc": "2026-10-20T12:12:45+00:00",
   "summary": {
-    "supplied_unique_urls": 14,
-    "address_records": 14,
-    "attempts_recorded": 25,
-    "successful_page_captures": 14,
+    "supplied_unique_urls": 15,
+    "address_records": 15,
+    "attempts_recorded": 26,
+    "successful_page_captures": 15,
     "http_error_responses": 0,
     "network_or_size_failures": 0,
-    "saved_response_bytes": 523097
+    "saved_response_bytes": 534097
   },
   "verification": {
-    "checked_utc": "2026-10-20T08:21:09+00:00",
+    "checked_utc": "2026-10-20T12:12:45+00:00",
     "result": "passed_for_recorded_response_bytes",
-    "saved_response_bodies_verified": 14,
+    "saved_response_bodies_verified": 15,
     "checks": [
       "Each saved body byte count matches its response record",
       "Each saved body SHA-256 matches its response record",
       "All unique supplied public URLs have recorded attempts",
       "The first 11 response bodies and attempt records remain unchanged after adding WEB-12",
-      "The first 12 response bodies and attempt records remain unchanged after adding WEB-13 and WEB-14"
+      "The first 12 response bodies and attempt records remain unchanged after adding WEB-13 and WEB-14",
+      "The first 14 response bodies and attempt records remain unchanged after adding WEB-15"
     ],
     "scope": "Exact received response-body editions; no remote JavaScript execution, asset crawl or external database/hosting export."
   }

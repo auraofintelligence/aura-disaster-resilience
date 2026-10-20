@@ -17,6 +17,7 @@ This wiki turns that ambition into connected questions, clear jobs and reviewabl
 | [All-weather kiosk design](All-weather-design.md) | Work through shelter, weather exposure, cabinet design, power and maintenance. |
 | [The question register](Question-register.md) | Choose a question, inspect its evidence and prepare a useful answer. |
 | [AI assistant jobs](Agent-work.md) | Give an assistant a bounded job while other work moves alongside it. |
+| [Working together](Working-together.md) | Explore the proposed council, team and committee model, including XR, personal Auras, AI/SI and robotics. |
 | [Progress](Progress.md) | See work produced, decisions awaiting people and the next milestones. |
 | [Documents and site sources](Source-library.md) | Read the originals, find preserved source editions and carry the work into the next job. |
 | [People decide](Human-review.md) | Understand who reviews each choice and exactly what an approval covers. |

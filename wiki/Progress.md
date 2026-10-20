@@ -31,6 +31,7 @@ This board separates work produced, human decisions and performance demonstrated
 | JOB-11 Define the first project connections | Public notice/calendar/media and later resource/mobility/energy interfaces | [ECO-01](Question-ECO-01.md), [ECO-02](Question-ECO-02.md), [ECO-03](Question-ECO-03.md) | ready for research and alternatives |
 | JOB-12 Plan measurements and exercises | Bench, network, accessibility, nine-day scenario and later field evidence | [TEST-01](Question-TEST-01.md), [TEST-02](Question-TEST-02.md), [TEST-03](Question-TEST-03.md) | ready for research and alternatives |
 | JOB-13 Check the wiki as a practical workshop | Clear questions, working links, review checks and the next useful jobs | [WRK-01](Question-WRK-01.md), [WRK-04](Question-WRK-04.md), [WRK-05](Question-WRK-05.md), [WRK-06](Question-WRK-06.md) | ready for research and alternatives |
+| JOB-14 Prepare the first organising meeting and shared handbook trial | Proposed charter, 90-minute meeting pack, chosen records arrangement and four-week kiosk exercise, designed for XR, personal Auras, AI/SI and robotics | [GOV-01](Question-GOV-01.md), [GOV-02](Question-GOV-02.md), [DAT-05](Question-DAT-05.md), [WRK-01](Question-WRK-01.md), [WRK-03](Question-WRK-03.md), [WRK-04](Question-WRK-04.md) | model and templates prepared; participant discussion and adoption are next |
 
 ## Keep the record useful
 

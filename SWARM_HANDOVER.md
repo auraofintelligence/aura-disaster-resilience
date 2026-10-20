@@ -6,7 +6,9 @@ The planning workshop is built: a linked wiki, stable question records, review t
 
 Project home: [Aura Disaster Resilience](https://github.com/auraofintelligence/aura-disaster-resilience). Begin with [Home](wiki/Home.md), the [whole-system map](wiki/Stack-map.md), [questions](wiki/Question-register.md), [first review](wiki/First-review.md) and [source library](wiki/Source-library.md).
 
-**Latest governance direction, 20 October 2026:** Luke initiates and drives the project. Professional overlap calls for the applicable good-practice and legal-source comparison, with differences, improvements and deficiencies recorded in either approach. This is now carried through 36 responsibility descriptions, 86 relevant question cards, the review method and templates. D-001, D-002 and D-003 are proposal revision 2 and include the professional-review method in their fingerprinted evidence. Existing human-review records remain empty. Read [Professional review](wiki/Professional-review.md) before preparing the next packet.
+**Professional-review update, 20 October 2026:** Luke initiates and drives the project. Professional overlap calls for the applicable good-practice and legal-source comparison, with differences, improvements and deficiencies recorded in either approach. This is carried through 36 responsibility descriptions, 86 relevant question cards, the review method and templates. That update produced revision 2 of D-001, D-002 and D-003 and included the professional-review method in their fingerprinted evidence. Existing human-review records remain empty. Read [Professional review](wiki/Professional-review.md) before preparing the next packet.
+
+**Working-together proposal:** The user next requested meetings, information flow, decisions, records and team commencement for councils, teams and committees, using Community Club Builder: Sandy Sports as a source. They explicitly asked to assume near-future XR, personal Auras, AI/SI and robotics. [Working together](wiki/Working-together.md) now proposes the shared model and recommends the existing Ready S.E.T. Co-op Trust Hub as its eventual shared handbook home, with the kiosk as the first worked example. Four new templates cover a charter, 90-minute organising meeting, meeting record and agent/robot task. D-001 is now revision 3 with that proposed method and its templates bound into the review packet; D-002 and D-003 remain revision 2. This work prepares discussion and a four-week exercise. Adoption, actual appointments, formal formation and Trust Hub implementation are future milestones.
 
 ## What is completed, and what to check next
 
@@ -18,9 +20,9 @@ This is the recorded build state at handover. Check the current local files and 
 | Question workshop | 96 questions across 13 work areas, with stable IDs, connected questions and 13 starter jobs. | Maintain `data/questions.json` and `data/tasks.json`; the earlier seed files are lineage. |
 | Human decisions | Three proposals ready for review; GitHub conversations 1, 2 and 3 created. Zero recorded human approvals. | Read the actual issue comments and current `data/reviews.json` before reporting a new decision. |
 | Source documents | 32 distinct files verified and uploaded: 27 PDFs and five Word documents, 56,989,754 bytes. All 29 user-supplied originals are included; 59 source aliases identify shared copies and public locations. | Use the manifest and preserved files; add a new edition deliberately when sources change. |
-| Saved project sources | 43 source packages verified, preserving 9,968 files, with a contents list and restoration tools. | Check the manifest for coverage, package paths and any separate hosting/source-export items. Verify the current published edition before using it. |
-| Public-page editions | All 14 linked public pages captured and uploaded, 523,097 exact response-body bytes, each with a recorded HTTP 200 response. | Read response dates and boundaries in the page manifest; source packages hold the related code and assets. |
-| Native GitHub Wiki | The workshop now contains 128 reading pages plus navigation and footer, including Professional review. Initial publication was wiki commit `d83ab40`; the governance update follows it in the wiki history. | Compare the current source and wiki publication records before editing or republishing. |
+| Saved project sources | 44 source packages verified, preserving 10,018 files, including the club-builder source, with a contents list and restoration tools. | Check the manifest for coverage, package paths and any separate hosting/source-export items. Verify the current published edition before using it. |
+| Public-page editions | All 15 linked public pages captured, 534,097 exact response-body bytes, each with a recorded HTTP 200 response. | Read response dates and boundaries in the page manifest; source packages hold the related code and assets. |
+| Native GitHub Wiki | The workshop now contains 129 reading pages plus navigation and footer, including Professional review and Working together. Initial publication was wiki commit `d83ab40`; later governance and meeting proposals follow it in the wiki history. | Compare the current source and wiki publication records before editing or republishing. |
 | Automated checks | 26 local tests passed. [GitHub checks passed](https://github.com/auraofintelligence/aura-disaster-resilience/actions/runs/39392927825) for source commit `010481b`, including document, source-package and page-byte verification. | Run the relevant checks after changes and confirm results for the new revision. |
 | Field capability | Service planning and design are underway. | Community agreements, installations, equipment measurements, field trials and continuing support are the next real-world milestones. |
 
@@ -34,6 +36,7 @@ Read [Constraints](wiki/Constraints.md) and [AGENTS.md](AGENTS.md). These choice
 
 - Focus the current work on the complete disaster kiosk and resilience network: useful every day and dependable through storms, cyclones, fires and prolonged disruption. Wider projects connect through agreed information and support relationships as capability grows.
 - Luke is the initiator driving research, coordination and proposals. Where decisions overlap SES, police, fire and rescue, ambulance, Defence or other qualified professionals, his opinions and research are reviewed against applicable industry and international good practice and relevant legal sources. Record differences, reasonable improvements and deficiencies in either approach. Use [Professional review](wiki/Professional-review.md) and the comparison template; actual professional participation, operational responsibility and statutory authority retain their own records.
+- Design the meeting and organisational model for near-future XR, personal Auras, AI/SI and robotics. Give each form of participation and delegated work a clear scope, information permissions, authoritative record, actual capability evidence and continuity route. Councils, teams and committees share a working method while their actual mandates and decisions remain clear.
 - Use **Ready S.E.T. Co-op** or **Ready Sustainable Employment and Training Cooperative**. It is the proposed intermediary; its formation, mandate, members, hosts, staffing and funding are development work.
 - **Aura of Intelligence** is Luke's personal AI operating system in development, from light to ultra high definition. It supports network navigation and just-in-time learning: explain the next task, rehearse it, apply it and check the result.
 - Keep personal context/model depth, presentation detail, computing location, communications and emergency energy state independently understandable. Public information and assistance remain available to guests without a personal profile, biometrics, a pledge or permission to train on their data.
@@ -158,8 +161,8 @@ https://github.com/auraofintelligence/aura-disaster-resilience
 
 Read SWARM_HANDOVER.md, AGENTS.md, README.md and wiki/Constraints.md first.
 The planning workshop is built: 96 questions across 13 areas, three review
-proposals and a verified library of 32 documents plus 43 project-source
-packages and 14 public-page captures. The full library was uploaded and
+proposals and a verified library of 32 documents plus 44 project-source
+packages and 15 public-page captures. The original full library was uploaded and
 checked at source commit 010481b; native Wiki publication was d83ab40.
 Read docs/publication-record.json, then check current local and remote
 commits and subsequent GitHub results. Preserve work already produced
@@ -176,6 +179,12 @@ weather-ready equipment/energy/connections, and Aura-guided learning and
 exercises. Claim question IDs and files, keep shared records with one
 editor, and produce concrete evidence, options, costs, checks and handovers.
 Follow the existing user authorisation and carry settled choices forward.
+
+Read wiki/Working-together.md and the four new organising/meeting/task
+templates. This is the proposed shared process for councils, teams and
+committees, designed for near-future XR, Auras, AI/SI and robotics. The
+recommended shared home is the existing Ready S.E.T. Co-op Trust Hub;
+its implementation and actual group formation remain future milestones.
 
 Keep the immediate scope on the everyday and hardened disaster kiosk
 network. Use Ready S.E.T. Co-op, Aura of Intelligence and GAJRA Earth

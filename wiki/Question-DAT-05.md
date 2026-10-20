@@ -15,6 +15,7 @@ A data and consent schedule showing necessary and optional fields, public/privat
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 4 and 8)
 - supporting research — reviewed source; public copy can be added through the evidence process (Aura personal operating system and GAJRA values)
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
+- [Proposed councils, teams and committees model for the Aura age](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Working-together) (Proposed shared handbook home, organising meeting, XR/Aura/AI/SI/robot participation, delegated tasks and records; adoption and appointments are development milestones.)
 
 ## People and connected choices
 

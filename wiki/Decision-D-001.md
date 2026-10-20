@@ -22,11 +22,13 @@ Use the linked wiki as the reading and question map, GitHub issues for review co
 
 - Use the question IDs, work labels, agent job sheets and review records for planning.
 - Prepare research and design alternatives in parallel, with clear file ownership and handovers.
+- Prepare the shared working-together handbook proposal and organising-meeting trial for participant discussion, using the kiosk as the first worked example.
 
 ## Later milestones with their own reviews
 
 - Each technical design, spending commitment, site use and operating service receives its relevant review.
 - Repository protection settings and reviewer roles are checked during GitHub setup.
+- Participants agree actual mandates, roles and meeting arrangements; formal co-operative formation and any Trust Hub handbook implementation follow their applicable authorisation and process.
 
 ## What people review
 
@@ -34,6 +36,7 @@ Use the linked wiki as the reading and question map, GitHub issues for review co
 - Can a reviewer see the exact proposal, evidence, responsibilities and next action?
 - Do changed proposals return to review while earlier decisions remain traceable?
 - Does the proposal identify overlapping professional responsibilities, applicable practice and legal sources, and the comparison of differences, improvements and deficiencies?
+- Does the proposed councils, teams and committees process support near-future XR, personal Auras, AI/SI and robotics while keeping actual mandates, decisions and delegated tasks traceable?
 
 **Questions:** [WRK-01](Question-WRK-01.md), [WRK-02](Question-WRK-02.md), [WRK-03](Question-WRK-03.md), [WRK-04](Question-WRK-04.md), [WRK-05](Question-WRK-05.md), [WRK-06](Question-WRK-06.md)
 
@@ -45,14 +48,14 @@ Use the linked wiki as the reading and question map, GitHub issues for review co
 
 The fingerprint below identifies this exact proposal and its supporting files. A changed proposal gets a fresh fingerprint and review. A person may approve, request changes or reject it. [How reviews work](Human-review.md).
 
-`740a95295bb9b381dd3f709650a2af41841b0d95cf569710840268f3d6a2484b`
+`5ad3f7f47426963f1681529eb4d69398f6e17cb4c72d202b013adaf4cd709b6d`
 
-Evidence fingerprint: `9ae90cff044e392af83c7986bc269590da5107622d6fc3a329e8082024c67a23`.
+Evidence fingerprint: `615f821a90891744ef50c91ca390c5929be874d9bb45b8480efe67a974defd7d`.
 
 For approval, the named person posts this line in the linked GitHub issue after reading the proposal:
 
 ```text
-HITL APPROVE D-001 740a95295bb9b381dd3f709650a2af41841b0d95cf569710840268f3d6a2484b scope=working_method
+HITL APPROVE D-001 5ad3f7f47426963f1681529eb4d69398f6e17cb4c72d202b013adaf4cd709b6d scope=working_method
 Conditions: none
 ```
 

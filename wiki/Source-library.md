@@ -92,6 +92,7 @@ The source library keeps the documents and site editions behind the work availab
 | [straddie-twin-prototype](https://github.com/auraofintelligence/straddie-twin-prototype) | 571 | 29.3 MiB | [Part 1](../sources/sites/straddie-twin-prototype/source.zip) |
 | [straddie-twins](https://github.com/auraofintelligence/straddie-twins) | 44 | 4.4 MiB | [Part 1](../sources/sites/straddie-twins/source.zip) |
 | [open-record-luke-nathan-hayes](https://github.com/auraofintelligence/open-record-luke-nathan-hayes) | 339 | 24.6 MiB | [Part 1](../sources/sites/open-record-luke-nathan-hayes/source.zip) |
+| [community-club-builder-sandy-sports](https://github.com/auraofintelligence/community-club-builder-sandy-sports) | 50 | 11.4 MiB | [Part 1](../sources/sites/community-club-builder-sandy-sports/source.zip) |
 
 [Site packing list, source revisions and checksums](../data/site-manifest.json). Large ZIPs use numbered parts that the restore helper joins and checks. Source snapshots preserve website files; live outside services retain their own operating arrangements.
 
@@ -115,6 +116,7 @@ These dated HTML copies preserve the linked public pages as received. HTML is th
 | [https://auraofintelligence.github.io/minjerribah-screen-media-network/](https://auraofintelligence.github.io/minjerribah-screen-media-network/) | [Open saved edition](../sources/web-pages/12-minjerribah-screen-media-network/response.html) | 2026-10-20T08:17:19+00:00 |
 | [https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html) | [Open saved edition](../sources/web-pages/13-australian-law-2012-lukes-relevance-pages-your-relevance.html/response.html) | 2026-10-20T08:21:09+00:00 |
 | [https://p4a.xyz/pages/legal-rag.html](https://p4a.xyz/pages/legal-rag.html) | [Open saved edition](../sources/web-pages/14-pages-legal-rag.html/response.html) | 2026-10-20T08:21:09+00:00 |
+| [https://auraofintelligence.github.io/community-club-builder-sandy-sports/](https://auraofintelligence.github.io/community-club-builder-sandy-sports/) | [Open saved edition](../sources/web-pages/15-community-club-builder-sandy-sports/response.html) | 2026-10-20T12:12:45+00:00 |
 
 [Public-page packing list, response details and checksums](../data/web-page-manifest.json).
 

@@ -121,6 +121,14 @@
       ],
       "relationship": "external canonical address with mapped public source",
       "capture": "The current local public source tree is packaged; live host configuration and external records have their own handover."
+    },
+    {
+      "url": "https://auraofintelligence.github.io/community-club-builder-sandy-sports/",
+      "source_repositories": [
+        "community-club-builder-sandy-sports"
+      ],
+      "relationship": "GitHub Pages address mapped to repository source",
+      "capture": "The selected local source files are packaged with their recorded edition."
     }
   ],
   "records": [
@@ -1670,22 +1678,54 @@
         ]
       },
       "capture_completed_utc": "2026-10-20T08:20:40+00:00"
+    },
+    {
+      "slug": "community-club-builder-sandy-sports",
+      "repository": "https://github.com/auraofintelligence/community-club-builder-sandy-sports",
+      "state": "source_packaged",
+      "head": "c54728632931cf60b3ad0c74df1bdc2bd0b9b064",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 50,
+      "source_bytes": 12276577,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/community-club-builder-sandy-sports/source-manifest.json",
+        "bytes": 9867,
+        "sha256": "c002a9c72ae9a0b4575e609869da6bd864af1124f76b79a3f8b88143fdb09e9b"
+      },
+      "files_sha256": "98dda6093cf89a35d3fc082fbd0323ffaafa31be8c32e42d89c464601d1aaf33",
+      "archive": {
+        "format": "zip",
+        "bytes": 11979123,
+        "sha256": "c0ccedab035ea1a287958494492e246b33588e878b27302d172fd57c29e2cca9",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/community-club-builder-sandy-sports/source.zip",
+            "bytes": 11979123,
+            "sha256": "c0ccedab035ea1a287958494492e246b33588e878b27302d172fd57c29e2cca9"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T12:12:26+00:00"
     }
   ],
   "summary": {
-    "repository_destinations": 44,
-    "source_packages": 43,
+    "repository_destinations": 45,
+    "source_packages": 44,
     "versioned_destinations": 1,
     "missing_sources": [],
-    "source_files": 9968,
-    "source_bytes": 2376380209,
-    "archive_bytes": 1717096359,
-    "archive_parts": 76,
+    "source_files": 10018,
+    "source_bytes": 2388656786,
+    "archive_bytes": 1729075482,
+    "archive_parts": 77,
     "excluded_files": 0
   },
-  "capture_completed_utc": "2026-10-20T08:20:40+00:00",
+  "capture_completed_utc": "2026-10-20T12:12:26+00:00",
   "verification": {
-    "checked_utc": "2026-10-20T08:20:40+00:00",
+    "checked_utc": "2026-10-20T12:12:26+00:00",
     "result": "passed_for_recorded_bytes",
     "checks": [
       "Every archive part SHA-256 and byte count",
@@ -1695,18 +1735,29 @@
       "Single ZIP restoration: Minjerribah-Resilience, 9 files",
       "Five-part ZIP restoration: australian-law-2012-lukes-relevance, 43 files"
     ],
-    "source_packages_verified": 43,
-    "source_files_verified": 9968,
+    "source_packages_verified": 44,
+    "source_files_verified": 10018,
     "restoration_check_directories": "Temporary check copies were removed after successful restoration.",
     "scope": "These checks establish package integrity and source restoration. Each restored project has its own running, dependency, security and hosting checks as its next milestones.",
     "last_addition": {
-      "slug": "open-record-luke-nathan-hayes",
+      "slug": "community-club-builder-sandy-sports",
       "checks": [
         "New ZIP and every saved file fingerprint verified",
-        "Existing 42 package records preserved unchanged",
+        "Existing 43 package records preserved unchanged",
         "Overall repository coverage checked against current ecosystem list"
       ],
-      "head": "01a2bb64c66cdeff278dc659ebc6a91cad8035d7"
-    }
+      "head": "c54728632931cf60b3ad0c74df1bdc2bd0b9b064"
+    },
+    "addition_history": [
+      {
+        "slug": "open-record-luke-nathan-hayes",
+        "checks": [
+          "New ZIP and every saved file fingerprint verified",
+          "Existing 42 package records preserved unchanged",
+          "Overall repository coverage checked against current ecosystem list"
+        ],
+        "head": "01a2bb64c66cdeff278dc659ebc6a91cad8035d7"
+      }
+    ]
   }
 }

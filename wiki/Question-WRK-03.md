@@ -13,6 +13,7 @@ A job sheet and assignment board with file boundaries, evidence expectations, co
 ## What we know so far
 
 - User directions for a linked GitHub wiki and human decisions, 20 October 2026 — reviewed source; public copy can be added through the evidence process (Planning conversation)
+- [Proposed councils, teams and committees model for the Aura age](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Working-together) (Proposed shared handbook home, organising meeting, XR/Aura/AI/SI/robot participation, delegated tasks and records; adoption and appointments are development milestones.)
 
 ## People and connected choices
 

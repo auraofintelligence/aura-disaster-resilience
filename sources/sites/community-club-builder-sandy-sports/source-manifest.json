@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/community-club-builder-sandy-sports",
+  "slug": "community-club-builder-sandy-sports",
+  "capture_started_utc": "2026-10-20T12:12:25+00:00",
+  "capture_completed_utc": "2026-10-20T12:12:26+00:00",
+  "source_version_start": {
+    "head": "c54728632931cf60b3ad0c74df1bdc2bd0b9b064",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "c54728632931cf60b3ad0c74df1bdc2bd0b9b064",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 63,
+      "sha256": "297ca6a361c486a6983954768d7483fb958fc7a65a9dae8a6d142193df286893"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 896,
+      "sha256": "05a0dd6deb458211918dc7b8b99ce2adae339f53bae7e4bf4f44d8e906d1c0fa"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 503,
+      "sha256": "5a6edf461816c66d8d7f9e6c5d25c5a4586434cd36878b1ccda30c0cdc3593e1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11843,
+      "sha256": "97668fb8d402f4d7623142f9f40cfc744b3b04cee04c6d0e09ff1da0180f0a2e"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 23598,
+      "sha256": "068977dc2b02dfea82ce47a1b9df5485c23790c70e3e99cc624bae415a4e4d05"
+    },
+    {
+      "path": "assets/css/styles.css",
+      "bytes": 22367,
+      "sha256": "d3999c7099033f4081a91c60a3cdddabac9df33f0666bacc66aba3683edac897"
+    },
+    {
+      "path": "assets/design/concept-homepage.png",
+      "bytes": 2288756,
+      "sha256": "8ffbdaa3069b1d28067ff90e3c3d311630d589cd9f82c8ac3df9d4fc2ee45092"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 26459,
+      "sha256": "db013d35fd1aeb368dcc629efc54b81bdf74fd3fc734f20d63d44d2b8c02ac3c"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 1307,
+      "sha256": "dbcc6bf4490f94a65309b3041b6607326d800f224df10dc75886c9c47e929bef"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 167615,
+      "sha256": "2fbd565aec627c623daf0d75968c9ce4507394ded1611457d4119e525ca97ac3"
+    },
+    {
+      "path": "assets/img/admin-system.png",
+      "bytes": 2648898,
+      "sha256": "518ff6f1aac2bb3a89936533d2d41df01ec20c322842aa302dcf4cbcee063a03"
+    },
+    {
+      "path": "assets/img/ecosystem-map.png",
+      "bytes": 2589283,
+      "sha256": "65ff4f94fdf713361c8c014e1eb456f9781ab4cc78ec9b5f4ae776b3c6e88747"
+    },
+    {
+      "path": "assets/img/hero-community.png",
+      "bytes": 2184039,
+      "sha256": "1f3a23b64c4c77df554f66ae8bc331dc4da5cce9a5ee99ae6352c54efb4de404"
+    },
+    {
+      "path": "assets/img/women-led-setup.png",
+      "bytes": 2134545,
+      "sha256": "a664ac85fefa55fee34f8d8e68c71187488d09a190421d19546420b60c30d3dc"
+    },
+    {
+      "path": "assets/js/site.js",
+      "bytes": 3589,
+      "sha256": "dd16ecb6adfddeab5da21ae9a833db0e5643eb01abcafaef1604ec9be54f53a3"
+    },
+    {
+      "path": "background.html",
+      "bytes": 6548,
+      "sha256": "467431e33e4a6e267c1542848401e1dbac196aabaed9c7ddfe4c165565b0977c"
+    },
+    {
+      "path": "builders.html",
+      "bytes": 5614,
+      "sha256": "625aa7d61084342b9fdb917369901673d22cb6c9a980f5aa790b72a892b9ee0b"
+    },
+    {
+      "path": "constitution-agenda.html",
+      "bytes": 25265,
+      "sha256": "16e517096a347c2b71ffcbdeb150c871b158985ba895bad838373f217fc73eba"
+    },
+    {
+      "path": "data/source-register.json",
+      "bytes": 5677,
+      "sha256": "774ed6defa5b8f52d9515d948d510a4ca3af56fd2e48d252e4950ac910fbf9ac"
+    },
+    {
+      "path": "docs/00-orientation.md",
+      "bytes": 2243,
+      "sha256": "5d96204788ce2121ee0e219c0aa6cdf29ebc1462eb6d43e4aeef537ffc637603"
+    },
+    {
+      "path": "docs/01-legitimate-process-qld.md",
+      "bytes": 6067,
+      "sha256": "f8f44f28f313989d5e9aeec442e2780f33f624e51f623627c50b2793fd5be1be"
+    },
+    {
+      "path": "docs/02-constitution-and-rules.md",
+      "bytes": 3536,
+      "sha256": "6ab32fb91b91f339660bd991a70a45726ac483f0bce15920ebdd46170994f080"
+    },
+    {
+      "path": "docs/03-leadership-without-burnout.md",
+      "bytes": 3274,
+      "sha256": "7e42c5b23bd89f75485acbe482f348e19a5ddef39d7ec496e312c9550a2b722f"
+    },
+    {
+      "path": "docs/04-recruiting-members-volunteers.md",
+      "bytes": 2549,
+      "sha256": "2d97e04e82aaf961a11170c3d2f9e0ae55ca622cc7ebb4e21f69cc1f8fb3e818"
+    },
+    {
+      "path": "docs/05-marketing-and-community-trust.md",
+      "bytes": 2012,
+      "sha256": "6fcbbe59f362fd9026f0ec375210ec9fd14f5aef9211f1f3a2658616df7c98ce"
+    },
+    {
+      "path": "docs/06-ai-first-admin-system.md",
+      "bytes": 2451,
+      "sha256": "e8d7f294d73b7111e06931ebd1fd5c494b354ce3a896e82a38106724a2ab5811"
+    },
+    {
+      "path": "docs/07-sand-sports-straddie-example.md",
+      "bytes": 3130,
+      "sha256": "a483d6d2868b5630aec0f97eb0fb94daf45b628656dca35111f698c8088b2b44"
+    },
+    {
+      "path": "docs/08-milestones-and-evidence-loops.md",
+      "bytes": 1859,
+      "sha256": "0175c7e51ba22eaa2cb9229178086e574311f11110a05f3683d8f80be30972b1"
+    },
+    {
+      "path": "docs/09-source-map.md",
+      "bytes": 5247,
+      "sha256": "afe5d2e3a5ec7be16efe0673d6867f63f2ab297b8d1a7c470dd10b290041442d"
+    },
+    {
+      "path": "ecosystem.html",
+      "bytes": 13285,
+      "sha256": "4dc2fefe64077bee53b002ab210844d73e5b44163928219d3ebff162c63bb59e"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 308,
+      "sha256": "01ac50fd56fa1d3c4ce62d272cf6052949fa1d257a15aa412cf7d2a6a6127600"
+    },
+    {
+      "path": "governance.html",
+      "bytes": 5833,
+      "sha256": "d8a6c863a6c49ea319e3bc391679de3e7397a4bf4a66b3dac638147ba314080d"
+    },
+    {
+      "path": "human-team.html",
+      "bytes": 12092,
+      "sha256": "8c5b7968a3d975db85efecc0b482323757970137bf75c77d4a1c464c2b6ac9da"
+    },
+    {
+      "path": "index.html",
+      "bytes": 11220,
+      "sha256": "00548b5be05e4960c568961e7d1832a77520a8d0da1ba118efe13a49a8e44eb8"
+    },
+    {
+      "path": "licence.html",
+      "bytes": 3683,
+      "sha256": "e7a0866b9256ef50b27d884ae1443546e8c94a96dbd9e169004eb3d7c9a24df1"
+    },
+    {
+      "path": "operating-system.html",
+      "bytes": 5477,
+      "sha256": "010b7ecdd16d9481f0afe8b2ead17d7450216328859db9608f1891bc8bf026a1"
+    },
+    {
+      "path": "opportunity-stack.html",
+      "bytes": 8606,
+      "sha256": "25bd252617a3705e4270fda43960fccd588e5d6cd1d59f8e398f7bc4fdd11bb1"
+    },
+    {
+      "path": "pathway.html",
+      "bytes": 6355,
+      "sha256": "969ca17deb86ae851db383e4563a49eb288a83046065b4666e8ccc07553c0628"
+    },
+    {
+      "path": "sandy-sports.html",
+      "bytes": 5993,
+      "sha256": "ff8b5b311271b17a5115d620de1e8a53898a088a2f6a6dcec0a1610383db3701"
+    },
+    {
+      "path": "scripts/check_repo.py",
+      "bytes": 3009,
+      "sha256": "33e5d832bef14c03b744f6e05ba8c43873d63baf76eea74d37f5d51f20586046"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 6133,
+      "sha256": "6dbc67be4fd18374084359dabd6b9be0dd9f919c529900103bc1ffa0bb0db835"
+    },
+    {
+      "path": "templates.html",
+      "bytes": 7316,
+      "sha256": "bb1f505fe120291e2f5153e5fc56a6c030d56a3c64730e7ab9ee1bc03d47ef70"
+    },
+    {
+      "path": "templates/ai-prompts.md",
+      "bytes": 1561,
+      "sha256": "4a8e7693612a9a397305225ca25359f7ea492b2c8dd7c06b18c307ad145eacde"
+    },
+    {
+      "path": "templates/committee-role-cards.md",
+      "bytes": 1697,
+      "sha256": "a00b00f2fa8372f8dd3792479928731271601b06cbe6c2ba0e7f220945d20ec1"
+    },
+    {
+      "path": "templates/founding-meeting-agenda.md",
+      "bytes": 1531,
+      "sha256": "78648c7a3c7b2c8426565711d806e72c046cf93c18a6a68d5171bd590f93960e"
+    },
+    {
+      "path": "templates/grant-evidence-log.csv",
+      "bytes": 149,
+      "sha256": "a54b5c91734d57fcea58fbb0292c4a24134267c2977a0e2748c353dacaf45548"
+    },
+    {
+      "path": "templates/member-and-volunteer-onboarding.md",
+      "bytes": 1056,
+      "sha256": "88c52acf3b48afa903f8f04493604af49e4048dfcfb061506ba9d42ac3b6eee4"
+    },
+    {
+      "path": "templates/policy-register.md",
+      "bytes": 1020,
+      "sha256": "3d012354e30143076abc7231c89ca758fb70bcc7e47a11b4bb1e41fb04548aac"
+    },
+    {
+      "path": "templates/risk-register.csv",
+      "bytes": 1018,
+      "sha256": "95e413142acc81f9366c45d569786ac1b8e41016b1c17a482e9fe1ccbf624467"
+    }
+  ],
+  "files_sha256": "98dda6093cf89a35d3fc082fbd0323ffaafa31be8c32e42d89c464601d1aaf33",
+  "file_count": 50,
+  "source_bytes": 12276577,
+  "excluded": []
+}
