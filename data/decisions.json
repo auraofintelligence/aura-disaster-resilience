@@ -4,7 +4,7 @@
     "work_status": "ready_for_review",
     "github_issue_url": "https://github.com/auraofintelligence/aura-disaster-resilience/issues/1",
     "proposal": {
-      "version": 3,
+      "version": 4,
       "title": "Work together through linked questions and human decisions",
       "scope": "working_method",
       "scope_label": "The planning workflow",
@@ -60,7 +60,11 @@
         "templates/body-charter.md",
         "templates/organising-meeting.md",
         "templates/meeting-record.md",
-        "templates/agent-and-robot-task.md"
+        "templates/agent-and-robot-task.md",
+        "content/Council-integration.md",
+        "content/Council-plan-crosswalk.md",
+        "data/council-analysis-record.json",
+        "templates/council-integration-evidence.md"
       ],
       "required_roles": [
         "design_curator"
@@ -72,7 +76,7 @@
     "work_status": "ready_for_review",
     "github_issue_url": "https://github.com/auraofintelligence/aura-disaster-resilience/issues/2",
     "proposal": {
-      "version": 2,
+      "version": 3,
       "title": "Design a kiosk family around its weather and working conditions",
       "scope": "design_brief",
       "scope_label": "The physical design brief and comparison drawings",
@@ -120,7 +124,11 @@
       ],
       "files": [
         "content/All-weather-design.md",
-        "content/Professional-review.md"
+        "content/Professional-review.md",
+        "content/Council-integration.md",
+        "content/Council-plan-crosswalk.md",
+        "data/council-analysis-record.json",
+        "templates/council-integration-evidence.md"
       ],
       "required_roles": [
         "design_curator"
@@ -132,7 +140,7 @@
     "work_status": "ready_for_review",
     "github_issue_url": "https://github.com/auraofintelligence/aura-disaster-resilience/issues/3",
     "proposal": {
-      "version": 2,
+      "version": 3,
       "title": "Build a complete everyday-to-disaster service demonstration",
       "scope": "prototype_service",
       "scope_label": "The first software and service demonstration",
@@ -182,7 +190,11 @@
       ],
       "files": [
         "docs/service-demonstration.md",
-        "content/Professional-review.md"
+        "content/Professional-review.md",
+        "content/Council-integration.md",
+        "content/Council-plan-crosswalk.md",
+        "data/council-analysis-record.json",
+        "templates/council-integration-evidence.md"
       ],
       "required_roles": [
         "design_curator"

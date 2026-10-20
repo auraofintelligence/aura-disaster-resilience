@@ -13,6 +13,7 @@ A tested question and decision record, links between records, a content fingerpr
 ## What we know so far
 
 - User directions for a linked GitHub wiki and human decisions, 20 October 2026 — reviewed source; public copy can be added through the evidence process (Planning conversation)
+- [Council plan crosswalk and proposed Aura integration](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Council-plan-crosswalk) (Relevant question row identifies the management/recovery source section and printed/PDF page. AI-generated analysis, 21 October 2026; proposed checks and actual review/operating agreements retain separate status.)
 
 ## AI-generated potential answers
 

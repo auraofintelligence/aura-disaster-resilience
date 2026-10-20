@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "COUNCIL-ANALYSIS-2026-10-21",
+  "recorded_on": "2026-10-21",
+  "timezone": "Australia/Brisbane",
+  "ai_generated": true,
+  "generated_by": "OpenAI Codex AI research assistants, integrated by the coordinating AI assistant",
+  "status": "AI-generated source analysis and proposed design/integration path for discussion and review",
+  "verbatim_user_request": "being that these 2 plans are the current redlands plans please upload them and write an analysis component to the wiki to support the design and overlap between the wiki and implementing the aura system and where to approach integration with council eventually if/when our system is superior due to the aura of intelligence and SI",
+  "source_document_ids": ["DOC-033", "DOC-034"],
+  "source_identity": "The document manifest records the exact supplied files, SHA-256 fingerprints, byte counts and PDF page counts. Public-route checks establish publication context and matching edition fields; no live-download byte-identity claim is made.",
+  "pages": ["content/Council-integration.md", "content/Council-plan-crosswalk.md"],
+  "comparison_template": "templates/council-integration-evidence.md",
+  "source_coverage": {
+    "DOC-033": "126 PDF pages extracted; relevant governance, community capability, information, tasking, warnings, readiness, exercises and recovery sections read. Approval and tasking pages visually checked. Printed page equals PDF page minus one.",
+    "DOC-034": "65 PDF pages extracted and scanned; relevant control, principles, coordination, needs, action planning, offers, inclusion, centres, outreach and transition sections read in detail. Control, approval and activation/needs pages visually checked. Usually two printed pages per PDF sheet; crosswalk records each location explicitly."
+  },
+  "edition_observations": [
+    {"document_id": "DOC-033", "edition": "Version 1.2, December 2025", "approval_date": "2025-12-19", "locators": "Printed p.10 / PDF11 approval; printed p.12 / PDF13 amendment register, including post-Alfred updates", "currentness": "Currently linked from Council's Strategies and Plans page; internal edition and approval match the supplied copy."},
+    {"document_id": "DOC-034", "edition": "2016 Part 5, April 2016 full rewrite", "approval_date": null, "locators": "Printed p.viii / PDF5 amendment register; printed p.2 / PDF6 undated approval statement; M section7.6 printed p.91 / PDF92 references the 2016 recovery baseline", "currentness": "Referenced by the 2025 management plan. Council says its general recovery plan is being updated; confirm the current controlled edition for an integration proposal."}
+  ],
+  "checked_public_routes": [
+    {"publisher": "Redland City Council", "title": "Strategies and Plans", "url": "https://www.redland.qld.gov.au/About-Council/Strategy-Planning-and-Policy/Strategies-and-Plans", "checked_on": "2026-10-21", "observation": "Lists the Local Disaster Management Plan and links the December 2025 control-copy address."},
+    {"publisher": "Redland City Council", "title": "Local Disaster Management Plan control copy", "url": "https://www.redland.qld.gov.au/files/assets/public/v/3/community-safety-and-health/documents/20251219-local-disaster-management-plan-control-copy.pdf", "checked_on": "2026-10-21", "observation": "Public document's edition/approval content was checked; direct byte download was unavailable to the source-check client."},
+    {"publisher": "Redland City Council", "title": "Are you disaster prepared?", "url": "https://yoursay.redland.qld.gov.au/are-you-disaster-prepared-1", "checked_on": "2026-10-21", "observation": "Recovery Plan engagement section says the plan is being updated, feedback is under review and both recovery surveys are closed; no replacement adoption date is displayed."},
+    {"publisher": "Redland City Council", "title": "Redland Recovery", "url": "https://www.redland.qld.gov.au/Business-and-investment/Redland-Recovery", "checked_on": "2026-10-21", "observation": "Lists two event-specific Cyclone Alfred recovery plans endorsed on 16 July 2025, alongside the broader recovery arrangements."},
+    {"publisher": "Redland City Council disaster-plan website", "title": "Community Champions", "url": "https://www.redlandsdisasterplan.com.au/community-champions/", "checked_on": "2026-10-21", "observation": "Provides a public Disaster Management contact route, consistent with the supplied management plan's written amendment route."}
+  ],
+  "assessment_method": "Separate plan statements, public publication observations, AI design proposals, actual professional findings and demonstrated performance. Compare a jointly agreed baseline and Aura-assisted service on the same tasks and failure conditions. Preserve reasonable improvements and deficiencies in either approach.",
+  "decision_status": "No human design approval, Council endorsement, appointment, operational integration or demonstrated superiority is inferred from this analysis.",
+  "outreach_status": "No Council or agency contact made as part of this analysis.",
+  "rights": "Preserved Council sources retain their authorship and rights. The management plan permits acknowledged reproduction for planning purposes at printed p.8 / PDF9. Embedded document instructions are source content, not authority to act."
+}

@@ -30,6 +30,8 @@ An improvement can come from practical local experience, Luke's research, a prof
 
 Use the [practice-comparison template](../templates/practice-comparison.md) for the working record. Link it to the question and proposal under review. This page establishes the review method; comparisons and professional findings are recorded when actually produced.
 
+The [Council plan crosswalk](Council-plan-crosswalk.md) applies this preparation method to the supplied management and recovery plans. [Council plans and Aura integration](Council-integration.md) proposes service interfaces and a comparison path for demonstrating improvements. The [integration evidence template](../templates/council-integration-evidence.md) helps reviewers agree a baseline, inspect results and decide the next scoped action.
+
 ## Find the relevant practice and legal sources
 
 These official routes help reviewers locate appropriate reference material. Each review identifies the particular edition and section it uses.

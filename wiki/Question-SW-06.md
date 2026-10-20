@@ -16,6 +16,7 @@ Draw the request's journey from draft to delivery, acknowledgement, acceptance, 
 - [site-data.js](https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/assets/site-data.js) (supplier-request, risk-incident and run-sheet definitions)
 - [Aura_Teacher_Training_60_Days.pdf](https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf) (p.55)
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
+- [Council plan crosswalk and proposed Aura integration](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Council-plan-crosswalk) (Relevant question row identifies the management/recovery source section and printed/PDF page. AI-generated analysis, 21 October 2026; proposed checks and actual review/operating agreements retain separate status.)
 
 ## AI-generated potential answers
 

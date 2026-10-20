@@ -14,6 +14,7 @@ A recognition workflow covering voluntary consent, elapsed-time verification, co
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Section 8)
 - supporting research — reviewed source; public copy can be added through the evidence process (C-Hour introduction and UNGA81 source distinctions)
+- [Council plan crosswalk and proposed Aura integration](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Council-plan-crosswalk) (Relevant question row identifies the management/recovery source section and printed/PDF page. AI-generated analysis, 21 October 2026; proposed checks and actual review/operating agreements retain separate status.)
 
 ## AI-generated potential answers
 

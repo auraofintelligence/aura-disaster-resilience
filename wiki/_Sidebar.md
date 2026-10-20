@@ -10,6 +10,8 @@
 - [People decide](Human-review.md)
 - [Professional review](Professional-review.md)
 - [AI assistant jobs](Agent-work.md)
+- [Council integration](Council-integration.md)
+- [Council plan crosswalk](Council-plan-crosswalk.md)
 - [Connections](Ecosystem.md)
 - [Agreed direction](Constraints.md)
 - [Evidence](Evidence.md)

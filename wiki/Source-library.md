@@ -6,7 +6,7 @@ The source library keeps the documents and site editions behind the work availab
 
 ## Original documents
 
-**32 distinct documents · 29 supplied originals accounted for · 0 awaiting a file.** Identical copies share one preserved file with their source aliases recorded.
+**34 distinct documents · 31 supplied originals accounted for · 0 awaiting a file.** Identical copies share one preserved file with their source aliases recorded.
 
 | Document | Format and extent | Size |
 | --- | --- | --- |
@@ -42,6 +42,8 @@ The source library keeps the documents and site editions behind the work availab
 | [Verse_Box_Trial_Proposal_Version_1_Corrected.pdf](../sources/documents/variants/verse-box-version-1/repository-reviewed/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf) | PDF, 26 pages | 0.13 MiB |
 | [When_Redlands_Discovers_Luke_Hayes_v4.0.pdf](../sources/documents/variants/redlands-version-4/repository-reviewed/When_Redlands_Discovers_Luke_Hayes_v4.0.pdf) | PDF, 25 pages | 0.34 MiB |
 | [Minjerribah_Sovereign_Mesh.pdf](../sources/documents/Minjerribah_Sovereign_Mesh.pdf) | PDF, 15 pages | 21.00 MiB |
+| [redland-city-local-disaster-management-plan.pdf](../sources/documents/redland-city-local-disaster-management-plan.pdf) | PDF, 126 pages | 3.66 MiB |
+| [redland-city-disaster-recovery-plan-2016.pdf](../sources/documents/redland-city-disaster-recovery-plan-2016.pdf) | PDF, 65 pages | 22.38 MiB |
 
 [Document packing list and full checksums](../data/document-manifest.json).
 
@@ -123,3 +125,7 @@ These dated HTML copies preserve the linked public pages as received. HTML is th
 ## Carry the work forward
 
 [Swarm handover](../SWARM_HANDOVER.md) · [Question register](Question-register.md) · [Evidence](Evidence.md). The handover gives the next team the agreed direction, current work, decisions and next jobs.
+
+## Council plans and design analysis
+
+The supplied management and recovery plans are preserved above as DOC-033 and DOC-034. [Council plans and Aura integration](Council-integration.md) records their editions, current publication context, proposed interfaces and evidence for improvements. The [detailed crosswalk](Council-plan-crosswalk.md) gives printed/PDF page references and linked design questions.

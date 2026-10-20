@@ -15,6 +15,7 @@ Specify record sizes, priorities, waiting-message capacity, retry and receipt ru
 - Straddie Disaster Kiosk Pitch.pdf — reviewed source; public copy can be added through the evidence process
 - GPT Straddie Disaster Kiosks.pdf — reviewed source; public copy can be added through the evidence process
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
+- [Council plan crosswalk and proposed Aura integration](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Council-plan-crosswalk) (Relevant question row identifies the management/recovery source section and printed/PDF page. AI-generated analysis, 21 October 2026; proposed checks and actual review/operating agreements retain separate status.)
 
 ## AI-generated potential answers
 

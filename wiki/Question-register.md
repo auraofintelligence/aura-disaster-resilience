@@ -8,6 +8,8 @@ Work labels describe preparation: **open**, **researching**, **options ready**, 
 
 **AI-generated potential answers:** The inline options draw on existing services, equipment, regional communities, councils, jurisdictions, businesses and plausible future concepts. Open a question for the alternatives, local differences and next checks. [The user prompt and research method](Research-brief.md) preserve the request; the [source catalogue](Research-sources.md) separates source facts from AI local-fit assessments. These options are prepared for discussion and professional review. An agreed answer is recorded through its own human decision.
 
+The [Council plan crosswalk](Council-plan-crosswalk.md) maps the supplied management and recovery plans to these questions, with precise source pages and practical checks. [Council plans and Aura integration](Council-integration.md) sets out the proposed interfaces, comparison measures and approach to Council as capability develops.
+
 | Work area | Questions | Where it helps |
 | --- | --- | --- |
 | [Everyday service and disaster work](Domain-OPS.md) | 8 | Start with the jobs people need to complete and the support that makes those jobs dependable. |

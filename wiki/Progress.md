@@ -10,6 +10,7 @@ This board separates work produced, human decisions and performance demonstrated
 | Work areas connected | 13 |
 | Questions with AI-generated options prepared | 96 |
 | Primary research references | 51 |
+| Council integration analysis | [Two supplied plans, source crosswalk and proposed comparison path](Council-integration.md) |
 | Review packages prepared | 3 |
 | Human approvals recorded and checked | 0 |
 | Operating pilot sites | Site discussions and pilot preparation are ahead |
@@ -34,6 +35,7 @@ This board separates work produced, human decisions and performance demonstrated
 | JOB-12 Plan measurements and exercises | Bench, network, accessibility, nine-day scenario and later field evidence | [TEST-01](Question-TEST-01.md), [TEST-02](Question-TEST-02.md), [TEST-03](Question-TEST-03.md) | ready for research and alternatives |
 | JOB-13 Check the wiki as a practical workshop | Clear questions, working links, review checks and the next useful jobs | [WRK-01](Question-WRK-01.md), [WRK-04](Question-WRK-04.md), [WRK-05](Question-WRK-05.md), [WRK-06](Question-WRK-06.md) | ready for research and alternatives |
 | JOB-14 Prepare the first organising meeting and shared handbook trial | Proposed charter, 90-minute meeting pack, chosen records arrangement and four-week kiosk exercise, designed for XR, personal Auras, AI/SI and robotics | [GOV-01](Question-GOV-01.md), [GOV-02](Question-GOV-02.md), [DAT-05](Question-DAT-05.md), [WRK-01](Question-WRK-01.md), [WRK-03](Question-WRK-03.md), [WRK-04](Question-WRK-04.md) | model and templates prepared; participant discussion and adoption are next |
+| JOB-15 Prepare the Council-facing comparison exercise | Plan-mapped interface proposal, agreed-baseline questions, comparison measures and sample-record demonstration for eventual Council discussion | [OPS-05](Question-OPS-05.md), [DAT-01](Question-DAT-01.md), [SW-06](Question-SW-06.md), [GOV-02](Question-GOV-02.md), [TEST-01](Question-TEST-01.md), [TWIN-06](Question-TWIN-06.md), [WRK-04](Question-WRK-04.md) | AI analysis and evidence template prepared; exercise design and reviewer discussion are next |
 
 ## Keep the record useful
 

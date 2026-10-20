@@ -16,6 +16,7 @@ This wiki turns that ambition into connected questions, clear jobs and reviewabl
 | [The first choices](First-review.md) | Read concrete alternatives and help decide the starting design. |
 | [All-weather kiosk design](All-weather-design.md) | Work through shelter, weather exposure, cabinet design, power and maintenance. |
 | [The question register](Question-register.md) | Choose a question, inspect its evidence and prepare a useful answer. |
+| [Council plans and Aura integration](Council-integration.md) | Connect the design to documented arrangements and demonstrate improvements through a shared comparison. |
 | [AI assistant jobs](Agent-work.md) | Give an assistant a bounded job while other work moves alongside it. |
 | [Working together](Working-together.md) | Explore the proposed council, team and committee model, including XR, personal Auras, AI/SI and robotics. |
 | [Progress](Progress.md) | See work produced, decisions awaiting people and the next milestones. |

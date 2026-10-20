@@ -52,6 +52,16 @@ Facts are stated once in source records, with publisher, exact address, evidence
 
 The source collections are `data/research-hardware.json`, `data/research-service.json` and `data/research-digital.json`, with the exact prompt and provenance in `data/research-brief.json`. The generated options retain a separate status from human-reviewed answers. Relevant research becomes part of the exact evidence fingerprint for each affected review proposal.
 
+## Council plans and Aura integration
+
+On 21 October 2026, Luke supplied two Council PDFs for publication and a design/integration analysis. [DOC-033](../sources/documents/redland-city-local-disaster-management-plan.pdf) preserves the 126-page management plan, version 1.2, December 2025, approved 19 December 2025. [DOC-034](../sources/documents/redland-city-disaster-recovery-plan-2016.pdf) preserves the 65-sheet recovery plan, with an April 2016 full rewrite and two printed pages on most PDF sheets. Their full fingerprints, page counts, source aliases and bytes are in the [document manifest](../data/document-manifest.json).
+
+The management plan's §7.6 still references the 2016 recovery baseline. Council's [current engagement page](https://yoursay.redland.qld.gov.au/are-you-disaster-prepared-1) says the recovery plan is being updated and its surveys are closed. Council also lists [event-specific Alfred recovery plans](https://www.redland.qld.gov.au/Business-and-investment/Redland-Recovery) endorsed on 16 July 2025. Those edition contexts are kept distinct; the supplied originals remain preserved while future controlled editions can be added deliberately.
+
+[Council plans and Aura integration](../wiki/Council-integration.md) proposes interfaces, measures for demonstrating improvement and a staged Council approach. The [detailed crosswalk](../wiki/Council-plan-crosswalk.md) identifies source sections, printed/PDF pages, 55 linked questions and concrete checks. The [analysis record](../data/council-analysis-record.json) retains the user's request, coverage, public-route checks, AI provenance and currentness limits. The [comparison template](../templates/council-integration-evidence.md) supports an agreed baseline, recorded results, professional findings and a scoped next decision.
+
+The public-route review establishes matching edition fields and publication context; it does not claim live-download byte identity. Proposed capability, measured performance, human review and actual Council integration retain their separate evidence. The library now contains 34 documents, including all 31 supplied originals; earlier publication receipts continue to describe their original editions.
+
 ## Preserved source editions
 
 The source library packages original documents and website-source snapshots with full checksums, edition notes and restore/verification helpers. The manifests record duplicate aliases and capture boundaries. Each source retains its existing licence and third-party conditions. Local working paths and the temporary chat screenshot stay outside the public package.

@@ -17,6 +17,7 @@ Build a dated exercise set with starting conditions, timed events, resource assu
 - [Straddie_Disaster_Kiosk_Pitch.pdf](https://github.com/auraofintelligence/straddie-disaster-kiosks/blob/main/docs/Straddie_Disaster_Kiosk_Pitch.pdf)
 - [Web3_Sensorium_for_Science_Debate.pdf](https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Web3_Sensorium_for_Science_Debate.pdf) (pp.19-22)
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
+- [Council plan crosswalk and proposed Aura integration](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Council-plan-crosswalk) (Relevant question row identifies the management/recovery source section and printed/PDF page. AI-generated analysis, 21 October 2026; proposed checks and actual review/operating agreements retain separate status.)
 
 ## AI-generated potential answers
 

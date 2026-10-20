@@ -1,6 +1,6 @@
 # Continue the Aura Disaster Resilience workshop
 
-**Build handover: 20 October 2026, Australia/Brisbane. Start here after a chat or context change.**
+**Build handover updated: 21 October 2026, Australia/Brisbane. Start here after a chat or context change.**
 
 The planning workshop is built: a linked wiki, stable question records, review tools, source documents and saved project sources. The next stage turns those foundations into service agreements, comparison drawings, measured requirements and reviewable demonstrations.
 
@@ -14,6 +14,12 @@ Project home: [Aura Disaster Resilience](https://github.com/auraofintelligence/a
 
 The preceding working-together edition was published at main `4b589d23913d1373b49646c772446fc18e388cd1`, native Wiki `c359116`, with [GitHub checks passed](https://github.com/auraofintelligence/aura-disaster-resilience/actions/runs/39421294755). The answer-research publication follows that edition. Read its subsequent commit and check records when continuing. The original library receipt below remains an immutable historical record.
 
+**Council-plan analysis, 21 October 2026:** Both newly supplied Council PDFs are preserved as DOC-033/REQ-030 and DOC-034/REQ-031. The library now contains 34 documents, all 31 supplied originals, 61 aliases and 84,298,430 document bytes. [Council plans and Aura integration](wiki/Council-integration.md) and the [plan crosswalk](wiki/Council-plan-crosswalk.md) add an explicitly AI-generated analysis, exact printed/PDF locations, 55 question connections, a proposed exchange design and staged approach to Council. The management plan is version 1.2, December 2025, approved 19 December. The recovery plan is the 2016 baseline referenced by that management plan; Council reports a new general plan in development and also publishes separate 2025 Alfred recovery plans. Confirm the current controlled editions when developing an actual integration proposal.
+
+JOB-15 prepares the Council-facing comparison exercise. The evidence template covers an agreed baseline, named outcomes, source fidelity, offline continuity, request ownership, resource readiness and continuing support. The design aims to demonstrate substantial improvements with Aura of Intelligence and future AI/SI, XR and robotics; superiority is established by recorded results for a stated scope. No Council contact, appointment, service agreement or design approval is inferred. D-001 is now version 4; D-002 and D-003 are version 3, with the analysis, crosswalk, provenance record and comparison template bound into their evidence. Use their new generated fingerprints.
+
+The AI-options edition preceding this analysis was published at main `5f25ca7af3423cbe7a89a2487971475918d7872d` and native Wiki `3354f93`, with [GitHub checks passed](https://github.com/auraofintelligence/aura-disaster-resilience/actions/runs/39430978457). The Council analysis follows that edition; inspect its source/wiki commits and checks in the subsequent history.
+
 ## What is completed, and what to check next
 
 This is the recorded build state at handover. Check the current local files and remote publication before continuing; publication may have advanced since this edition.
@@ -21,13 +27,13 @@ This is the recorded build state at handover. Check the current local files and 
 | Part | Recorded state | Continuation check |
 | --- | --- | --- |
 | Core project and repository wiki | Complete build published and checked at source commit `010481b`; [publication record](docs/publication-record.json) identifies the exact edition. | Compare the current local and remote main commits; preserve subsequent work. |
-| Question workshop | 96 questions across 13 work areas, with stable IDs, connected questions and 14 starter jobs; AI-generated options cover all 96. | Maintain question/task records and the three research collections; the earlier seed files are lineage. |
+| Question workshop | 96 questions across 13 work areas, 15 starter jobs and AI-generated options for all 96; 55 questions also connect to the Council plan crosswalk. | Maintain question/task records and the three research collections; the earlier seed files are lineage. |
 | Human decisions | Three proposals ready for review; GitHub conversations 1, 2 and 3 created. Zero recorded human approvals. | Read the actual issue comments and current `data/reviews.json` before reporting a new decision. |
-| Source documents | 32 distinct files verified and uploaded: 27 PDFs and five Word documents, 56,989,754 bytes. All 29 user-supplied originals are included; 59 source aliases identify shared copies and public locations. | Use the manifest and preserved files; add a new edition deliberately when sources change. |
+| Source documents | 34 distinct files packaged: 29 PDFs and five Word documents, 84,298,430 bytes. All 31 supplied originals are included; 61 aliases identify shared copies and public locations. | Verify the current manifest and publication; add a new edition deliberately when sources change. |
 | Saved project sources | 44 source packages verified, preserving 10,018 files, including the club-builder source, with a contents list and restoration tools. | Check the manifest for coverage, package paths and any separate hosting/source-export items. Verify the current published edition before using it. |
 | Public-page editions | All 15 linked public pages captured, 534,097 exact response-body bytes, each with a recorded HTTP 200 response. | Read response dates and boundaries in the page manifest; source packages hold the related code and assets. |
-| Native GitHub Wiki | The answer-research build contains 131 reading pages plus navigation and footer, including the preserved prompt and primary-source catalogue. Initial publication was wiki commit `d83ab40`; later editions follow in wiki history. | Compare current source and wiki commits before editing or republishing. |
-| Automated checks | All 38 local tests passed for answer-research, including coverage, provenance, same-snapshot review and review ordering. All 32 documents, 44 source packages (including every saved file) and 15 saved page responses verified. | Confirm GitHub results for the published source revision and repeat relevant checks after changes. |
+| Native GitHub Wiki | The Council-analysis build contains 133 reading pages plus navigation and footer, including both new analysis pages. Initial publication was wiki commit `d83ab40`; later editions follow in wiki history. | Compare current source and wiki commits before editing or republishing. |
+| Automated checks | All 38 local tests passed for Council analysis, including coverage, provenance, same-snapshot review and review ordering. All 34 documents verified with PDF page counts. The preceding edition also verified every saved file in 44 source packages and all 15 saved page responses. | Confirm GitHub results for the published source revision and repeat relevant checks after changes. |
 | Field capability | Service planning and design are underway. | Community agreements, installations, equipment measurements, field trials and continuing support are the next real-world milestones. |
 
 The full library is uploaded. The remote file-object comparison matched all 338 files in source commit `010481b`, including every expected document, source manifest and archive part. The publication record and this handover are subsequent documentation of that checked edition. Follow later commit and check records when continuing.
@@ -62,6 +68,7 @@ Write for people who learn quickly by doing: tradespeople, trade assistants, dri
 | --- | --- |
 | `data/questions.json`, `data/domains.json` | The maintained questions, work areas and dependencies. A dependency is a result or decision another job needs. |
 | `data/research-brief.json`, `data/research-hardware.json`, `data/research-service.json`, `data/research-digital.json` | Exact request, AI provenance, all 96 potential answers, 51 source records, future concepts, local differences and next checks. Keep separate from human-reviewed answers. |
+| `data/council-analysis-record.json`, `content/Council-integration.md`, `content/Council-plan-crosswalk.md` | The Council-analysis request, source coverage, edition/currentness checks, AI proposals, question crosswalk and approach path. The comparison template is under `templates/`. |
 | `data/tasks.json` | Starter jobs and their assignment state. Confirm ownership before starting. |
 | `data/decisions.json`, `data/reviews.json`, `data/roles.json` | Exact proposals, attributable human responses and the roles permitted to decide their scopes. |
 | `content/` | Longer source explanations, including the working method and weather-ready design. |
@@ -166,7 +173,7 @@ https://github.com/auraofintelligence/aura-disaster-resilience
 
 Read SWARM_HANDOVER.md, AGENTS.md, README.md and wiki/Constraints.md first.
 The planning workshop is built: 96 questions across 13 areas, three review
-proposals and a verified library of 32 documents plus 44 project-source
+proposals and a library of 34 documents plus 44 project-source
 packages and 15 public-page captures. The original full library was uploaded and
 checked at source commit 010481b; native Wiki publication was d83ab40.
 Read docs/publication-record.json, then check current local and remote
@@ -197,6 +204,13 @@ for the exact user request, wiki/Research-sources.md for the 51 primary
 references and data/research-*.json for the maintained records. Keep
 options distinct from human-reviewed answers. Relevant research changes
 the affected proposal fingerprint; use current generated review statements.
+
+Read wiki/Council-integration.md and wiki/Council-plan-crosswalk.md.
+The two supplied Council plans are DOC-033 and DOC-034. The management
+plan is December 2025; the 2016 recovery baseline is referenced by that
+plan and is being reviewed. Keep separate event-specific Alfred plans
+and future controlled editions identifiable. JOB-15 prepares a comparison
+exercise; no Council contact or integration has occurred through this work.
 
 Keep the immediate scope on the everyday and hardened disaster kiosk
 network. Use Ready S.E.T. Co-op, Aura of Intelligence and GAJRA Earth

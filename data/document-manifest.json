@@ -4,19 +4,19 @@
   "prepared_at_utc": "2026-10-20T07:54:32+00:00",
   "package_root": "sources/documents",
   "availability": "packaged",
-  "scope": "All 29 explicitly supplied planning and research originals, the reviewed Verse Box and Redlands variants, and the reviewed kiosk mesh document.",
+  "scope": "The original 29 supplied planning and research originals, two Council disaster plans supplied 21 October 2026, the reviewed Verse Box and Redlands variants, and the reviewed kiosk mesh document.",
   "identity_method": "Full SHA-256 content fingerprints. Identical bytes share one packaged document with filename and public-location aliases. Different bytes retain separate originals.",
   "public_path_policy": "Public records use original filenames, relative package paths and public repository references.",
   "rights_note": "Original documents retain their attached authorship, source rights and third-party rights. Packaging preserves the source bytes and records their planning or research role.",
   "publication_note": "This collection makes the evidence available for the resilience workshop. Source proposals, claims and embedded prompts remain source material for review.",
   "maximum_document_bytes": 94371840,
   "summary": {
-    "unique_documents": 32,
-    "unique_bytes": 56989754,
-    "user_supplied_requests": 29,
-    "packaged_requests": 29,
+    "unique_documents": 34,
+    "unique_bytes": 84298430,
+    "user_supplied_requests": 31,
+    "packaged_requests": 31,
     "missing_requests": 0,
-    "source_aliases": 59,
+    "source_aliases": 61,
     "oversize_documents": 0
   },
   "requests": [
@@ -280,6 +280,24 @@
       "document_id": "DOC-029",
       "public_path": "sources/documents/Subterranean Super Civilization Master Plan.pdf",
       "sha256": "5da9f0dc5968253a9f2ed2bd5dc3c9b7a75ff3ee28a7e39259ae3a01ba4e71f2"
+    },
+    {
+      "id": "REQ-030",
+      "category": "council_plans",
+      "original_filename": "redland-city-local-disaster-management-plan.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-033",
+      "public_path": "sources/documents/redland-city-local-disaster-management-plan.pdf",
+      "sha256": "172a0454958c657b580ef184eb9e2393867af5b481b8c683eebc7d935d0ea2bb"
+    },
+    {
+      "id": "REQ-031",
+      "category": "council_plans",
+      "original_filename": "redland-city-disaster-recovery-plan-2016.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-034",
+      "public_path": "sources/documents/redland-city-disaster-recovery-plan-2016.pdf",
+      "sha256": "6e9fc07a51956979aab6018d6a9f1c658b30b89fbc13f038c8f572c40c74017b"
     }
   ],
   "variants": [
@@ -1529,6 +1547,58 @@
         "matches_committed_revision": true,
         "url": "https://github.com/auraofintelligence/straddie-disaster-kiosks/blob/d95c87519624b09528fff322676ffeb379081415/docs/Minjerribah_Sovereign_Mesh.pdf"
       }
+    },
+    {
+      "id": "DOC-033",
+      "sha256": "172a0454958c657b580ef184eb9e2393867af5b481b8c683eebc7d935d0ea2bb",
+      "size_bytes": 3837346,
+      "format": "PDF",
+      "original_filename": "redland-city-local-disaster-management-plan.pdf",
+      "public_path": "sources/documents/redland-city-local-disaster-management-plan.pdf",
+      "availability": "packaged",
+      "categories": [
+        "council_plans"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "redland-city-local-disaster-management-plan.pdf",
+          "public_path": "sources/documents/redland-city-local-disaster-management-plan.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-030"
+        }
+      ],
+      "pages": 126,
+      "edition_note": "Council local disaster-management control copy; version 1.2 December 2025, approved 19 December 2025.",
+      "added_on": "2026-10-21"
+    },
+    {
+      "id": "DOC-034",
+      "sha256": "6e9fc07a51956979aab6018d6a9f1c658b30b89fbc13f038c8f572c40c74017b",
+      "size_bytes": 23471330,
+      "format": "PDF",
+      "original_filename": "redland-city-disaster-recovery-plan-2016.pdf",
+      "public_path": "sources/documents/redland-city-disaster-recovery-plan-2016.pdf",
+      "availability": "packaged",
+      "categories": [
+        "council_plans"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "redland-city-disaster-recovery-plan-2016.pdf",
+          "public_path": "sources/documents/redland-city-disaster-recovery-plan-2016.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-031"
+        }
+      ],
+      "pages": 65,
+      "edition_note": "Council general recovery baseline; April 2016 rewrite, referenced by the 2025 management plan. Council reports a replacement plan in development, checked 21 October 2026.",
+      "added_on": "2026-10-21"
     }
-  ]
+  ],
+  "updated_on": "2026-10-21",
+  "update_timezone": "Australia/Brisbane"
 }

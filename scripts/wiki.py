@@ -283,6 +283,7 @@ This wiki turns that ambition into connected questions, clear jobs and reviewabl
 ('[The first choices](First-review.md)', 'Read concrete alternatives and help decide the starting design.'),
 ('[All-weather kiosk design](All-weather-design.md)', 'Work through shelter, weather exposure, cabinet design, power and maintenance.'),
 ('[The question register](Question-register.md)', 'Choose a question, inspect its evidence and prepare a useful answer.'),
+('[Council plans and Aura integration](Council-integration.md)', 'Connect the design to documented arrangements and demonstrate improvements through a shared comparison.'),
 ('[AI assistant jobs](Agent-work.md)', 'Give an assistant a bounded job while other work moves alongside it.'),
 ('[Working together](Working-together.md)', 'Explore the proposed council, team and committee model, including XR, personal Auras, AI/SI and robotics.'),
 ('[Progress](Progress.md)', 'See work produced, decisions awaiting people and the next milestones.'),
@@ -303,6 +304,8 @@ Each question is a job we can work through. It explains why the answer matters, 
 Work labels describe preparation: **open**, **researching**, **options ready**, **in review**, **answer recorded**, or **planned for later**. A produced drawing or report is progress. Human approval is recorded separately.
 
 **AI-generated potential answers:** The inline options draw on existing services, equipment, regional communities, councils, jurisdictions, businesses and plausible future concepts. Open a question for the alternatives, local differences and next checks. [The user prompt and research method](Research-brief.md) preserve the request; the [source catalogue](Research-sources.md) separates source facts from AI local-fit assessments. These options are prepared for discussion and professional review. An agreed answer is recorded through its own human decision.
+
+The [Council plan crosswalk](Council-plan-crosswalk.md) maps the supplied management and recovery plans to these questions, with precise source pages and practical checks. [Council plans and Aura integration](Council-integration.md) sets out the proposed interfaces, comparison measures and approach to Council as capability develops.
 
 ''' + table(['Work area', 'Questions', 'Where it helps'], [(f'[{d["name"]}](Domain-{d["id"]}.md)',
               sum(q['domain'] == d['id'] for q in questions), d['purpose']) for d in data['domains']]) + '\n\n' +
@@ -411,6 +414,7 @@ This board separates work produced, human decisions and performance demonstrated
 {table(['Measure', 'Current record'], [
 ('Questions mapped', len(questions)), ('Work areas connected', len(data['domains'])),
 ('Questions with AI-generated options prepared', len(ai_answers)), ('Primary research references', len(ai_sources)),
+('Council integration analysis', '[Two supplied plans, source crosswalk and proposed comparison path](Council-integration.md)'),
 ('Review packages prepared', len(data['decisions'])), ('Human approvals recorded and checked', len(approved)),
 ('Operating pilot sites', 'Site discussions and pilot preparation are ahead'),
 ('All-weather performance', 'Design basis, drawings and measurements are the next evidence'),
@@ -482,6 +486,7 @@ For a new piece of evidence, record the question IDs it helps answer, the file o
                  r.get('captured_utc', 'See the packing list')) for r in web_pages['records']])
             library += '\n\n[Public-page packing list, response details and checksums](../data/web-page-manifest.json).\n'
     library += '\n## Carry the work forward\n\n[Swarm handover](../SWARM_HANDOVER.md) · [Question register](Question-register.md) · [Evidence](Evidence.md). The handover gives the next team the agreed direction, current work, decisions and next jobs.\n'
+    library += '\n## Council plans and design analysis\n\nThe supplied management and recovery plans are preserved above as DOC-033 and DOC-034. [Council plans and Aura integration](Council-integration.md) records their editions, current publication context, proposed interfaces and evidence for improvements. The [detailed crosswalk](Council-plan-crosswalk.md) gives printed/PDF page references and linked design questions.\n'
     page('Source-library', 'Documents and website source library', library)
     if research.get('brief'):
         out['Research-brief.md'] = research_options.brief_page(research)
@@ -491,6 +496,7 @@ For a new piece of evidence, record the question IDs it helps answer, the file o
     out['_Sidebar.md'] = '\n'.join(['**Aura Disaster Resilience**', '', '- [Start here](Home.md)', '- [The whole system](Stack-map.md)',
         '- [First choices](First-review.md)', '- [All-weather design](All-weather-design.md)', '- [Questions](Question-register.md)',
         '- [Progress](Progress.md)', '- [Working together](Working-together.md)', '- [People decide](Human-review.md)', '- [Professional review](Professional-review.md)', '- [AI assistant jobs](Agent-work.md)',
+        '- [Council integration](Council-integration.md)', '- [Council plan crosswalk](Council-plan-crosswalk.md)',
         '- [Connections](Ecosystem.md)', '- [Agreed direction](Constraints.md)', '- [Evidence](Evidence.md)',
         '- [Source library](Source-library.md)', '- [AI research and prompt](Research-brief.md)', '- [Research sources](Research-sources.md)', '- [Useful words](Glossary.md)', '- [Rights and discovery](Rights-and-discovery.md)', '', '**Work areas**', ''] +
         [f'- [{d["name"]}](Domain-{d["id"]}.md)' for d in data['domains']]) + '\n'

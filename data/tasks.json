@@ -169,5 +169,21 @@
     ],
     "status": "model and templates prepared; participant discussion and adoption are next",
     "assigned_to": null
+  },
+  {
+    "id": "JOB-15",
+    "title": "Prepare the Council-facing comparison exercise",
+    "output": "Plan-mapped interface proposal, agreed-baseline questions, comparison measures and sample-record demonstration for eventual Council discussion",
+    "question_ids": [
+      "OPS-05",
+      "DAT-01",
+      "SW-06",
+      "GOV-02",
+      "TEST-01",
+      "TWIN-06",
+      "WRK-04"
+    ],
+    "status": "AI analysis and evidence template prepared; exercise design and reviewer discussion are next",
+    "assigned_to": null
   }
 ]

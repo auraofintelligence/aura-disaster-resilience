@@ -14,6 +14,7 @@ A job sheet and assignment board with file boundaries, evidence expectations, co
 
 - User directions for a linked GitHub wiki and human decisions, 20 October 2026 — reviewed source; public copy can be added through the evidence process (Planning conversation)
 - [Proposed councils, teams and committees model for the Aura age](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Working-together) (Proposed shared handbook home, organising meeting, XR/Aura/AI/SI/robot participation, delegated tasks and records; adoption and appointments are development milestones.)
+- [Council plan crosswalk and proposed Aura integration](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Council-plan-crosswalk) (Relevant question row identifies the management/recovery source section and printed/PDF page. AI-generated analysis, 21 October 2026; proposed checks and actual review/operating agreements retain separate status.)
 
 ## AI-generated potential answers
 
