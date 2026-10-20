@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/stradbroke-grants-lab",
+  "slug": "stradbroke-grants-lab",
+  "capture_started_utc": "2026-10-20T08:00:27+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:27+00:00",
+  "source_version_start": {
+    "head": "45227eab2994b3751f139a19e253f3ff62185fca",
+    "branch": "master",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "45227eab2994b3751f139a19e253f3ff62185fca",
+    "branch": "master",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".github/workflows/validate-data.yml",
+      "bytes": 350,
+      "sha256": "b9e64eaf0194a38a98aba4b1065af999a6a5ad561a6824904d4ebbf930efb8fa"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 41,
+      "sha256": "f191b9a6fbc5312ffadc62ed216646b481ff6a127ea9e40addb24645e7025605"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3605,
+      "sha256": "4e7ca484855790f2c31809fd3858115231767a2594eefc8844c2d9936fefa681"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8015,
+      "sha256": "00d6fdb8d87b7129aaddc50abe248b5f1b20a85e5315d6e09296f2bc2280af12"
+    },
+    {
+      "path": "assets/app.js",
+      "bytes": 47507,
+      "sha256": "4f0b359627162a90eaf190b5d9e2f7247a878744c5f25b2b3e1e8b57e9a85d25"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 42791,
+      "sha256": "18119873f41d0c672b90887d5a6b98658cba1f6a23624d75fe4206cca420009d"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 666,
+      "sha256": "675af8639024d69348ee13058c51de42e077bfdc4b8a40d83b2a7c8627863f02"
+    },
+    {
+      "path": "assets/hero-funding-stacks.webp",
+      "bytes": 437200,
+      "sha256": "296e3367c6ca8512a4b5bd3904e1d83a04f2bf4069121d283683c5873905cb13"
+    },
+    {
+      "path": "assets/hero-potential-connections.webp",
+      "bytes": 184824,
+      "sha256": "b378fdde9257be3bb196e56a044acb8c39d9a48ce39f8eaf405e7c5d579c1795"
+    },
+    {
+      "path": "assets/hero-straddie-momentum.webp",
+      "bytes": 485266,
+      "sha256": "045b463fb3526f3c275de98650eb5da07c7bc81be1b30c9bc8469b9a396a08de"
+    },
+    {
+      "path": "assets/styles.css",
+      "bytes": 28680,
+      "sha256": "76727a72df37112650503caf1f157c8394626193e417a0a3aec0b2c7b7b79c74"
+    },
+    {
+      "path": "council-grants.html",
+      "bytes": 907,
+      "sha256": "3f8fe79fee7d58d31eb365c4e3e758db2dc74a70fe2693c4b1a15cfb1084d8f3"
+    },
+    {
+      "path": "data/entities.json",
+      "bytes": 93988,
+      "sha256": "ce6e9f6b6c6eccb6e0d1c17f748d9a66d89184c2d1281785d576088b09f9574e"
+    },
+    {
+      "path": "data/grant-project-matches.json",
+      "bytes": 189609,
+      "sha256": "469032c7c363ec5fac31b573c5dc9e2a980f89ff83983ba01b760bb6e5efb213"
+    },
+    {
+      "path": "data/grant-watchlist.json",
+      "bytes": 147940,
+      "sha256": "e5ffd5cd9dfb626bcfeb4b27e46b512c00ddf5b4ba5cbd74f720905af02578b1"
+    },
+    {
+      "path": "data/grant-windows.json",
+      "bytes": 74984,
+      "sha256": "5f8c00fa96680383e227a2b2e5a4be4f83714ebea9e59087a54ce452b28673b7"
+    },
+    {
+      "path": "data/grants.json",
+      "bytes": 128505,
+      "sha256": "6df3fc64581d40e67a1297ad4d2343c3e4e9e7d7543eedfbe418fdc259310cf0"
+    },
+    {
+      "path": "data/ledger-projects.json",
+      "bytes": 42947,
+      "sha256": "c46e9e1ac2f0670a8e91e36f077d8b00d4e02de45662824ffd60eff43e284e5f"
+    },
+    {
+      "path": "data/partner-pathways.json",
+      "bytes": 42155,
+      "sha256": "3d6a1931d931f7dbb5de48629f05ae6006fae1d8ff4b507269c0dced41e619a6"
+    },
+    {
+      "path": "data/project-atlas-scope.json",
+      "bytes": 8781,
+      "sha256": "94a7c2e552d7496488d07d4a54ac1cd70755991564db09a5a5ffe100140f8d0a"
+    },
+    {
+      "path": "data/projects.json",
+      "bytes": 7994,
+      "sha256": "968ee04f4c558246b0081959ac96a7db5a17bc54df83477b3ff5496c9aec31e3"
+    },
+    {
+      "path": "data/source-docs.json",
+      "bytes": 2223,
+      "sha256": "d98cc9bdbe7d878f84a522ac91f40b5c7f991e6c60a70c8730121c76b3507161"
+    },
+    {
+      "path": "entities.html",
+      "bytes": 3508,
+      "sha256": "34d3eb00827008671ce759d1d41df88c2990a9db1ab5c351a66fac105db3a8cd"
+    },
+    {
+      "path": "federal-grants.html",
+      "bytes": 909,
+      "sha256": "00d52fe7fdde5d814ec5be20bd6615ca6b676180a00dcc157e781141242d8de9"
+    },
+    {
+      "path": "global-grants.html",
+      "bytes": 944,
+      "sha256": "f7a8670ee9e9beee43de0899f05e4a7ad54c190089337a7473f169a4195eafa9"
+    },
+    {
+      "path": "grant-matches.html",
+      "bytes": 3027,
+      "sha256": "4433d5961d551fcc457d062ea68f0015ffc2cd93d0b3fbcbd79b4016a232f77f"
+    },
+    {
+      "path": "grant-watchlist.html",
+      "bytes": 4695,
+      "sha256": "7370dc26063e02328483b45d3dbda2156c4b5525f73e7554482b88f8a830c609"
+    },
+    {
+      "path": "grant-windows.html",
+      "bytes": 1857,
+      "sha256": "823c195f85bb217570933456a6aac3b084f49797b676057076a951b8fb547188"
+    },
+    {
+      "path": "index.html",
+      "bytes": 10854,
+      "sha256": "f790bdea694eeb3b197d04f45085211c7cf7ece5aa2f79dd6d79a119a76e1593"
+    },
+    {
+      "path": "indigenous-grants.html",
+      "bytes": 948,
+      "sha256": "92a89600d53ca1bdfcad8d733cabb4f175e3ba284d1461d792045dfc7651584b"
+    },
+    {
+      "path": "island-grants.html",
+      "bytes": 956,
+      "sha256": "a873963fc027c8db059cfba4985443065b94710d2b351ff53d6ae0ee625545af"
+    },
+    {
+      "path": "ledger-projects.html",
+      "bytes": 3475,
+      "sha256": "11c052fa92d5167563e0c8a61637480c000859ff4bf1669c96b67723b2e12089"
+    },
+    {
+      "path": "partner-pathways.html",
+      "bytes": 3036,
+      "sha256": "082d353cef1f848a6e741ee99d02dab2d5a8db40e78f8c4d63aa28ffe63b52e2"
+    },
+    {
+      "path": "profile-kit.html",
+      "bytes": 12953,
+      "sha256": "f9f50ba088c2f0603a2290a0e26c9e196ef7ec490da67c8199a06e0d1963b85b"
+    },
+    {
+      "path": "profiles/templates/aura.md",
+      "bytes": 593,
+      "sha256": "9e3bfe2a4496e69593629e653974718f940335e8654e6afc67acf1916bb6b039"
+    },
+    {
+      "path": "profiles/templates/business-profile.md",
+      "bytes": 942,
+      "sha256": "dd3aebc26e8f2684cd91f7daa3263cda32b38c19a64ca02a787df1c811af1678"
+    },
+    {
+      "path": "profiles/templates/grant-notice.md",
+      "bytes": 587,
+      "sha256": "c57c991124e48f55292199e8351da08e2c68cf382b2ec01d7d4762d62e1ea50f"
+    },
+    {
+      "path": "profiles/templates/grant-readiness-checklist.md",
+      "bytes": 777,
+      "sha256": "18a3f371b5491831e66b0b53e9ded29a2860ba7f9e95681eb5bdc7fb45e6022b"
+    },
+    {
+      "path": "profiles/templates/grant-watchlist-agent.md",
+      "bytes": 8923,
+      "sha256": "9474f38eb63907097676ec9018d6c70c8be2ed17047a070ce158fbd7758dd9ea"
+    },
+    {
+      "path": "profiles/templates/milestone-report.md",
+      "bytes": 316,
+      "sha256": "8126a3ceb6927ecde1e3d60a6be30b3140fa7887892997ddadc9bef733cbc07f"
+    },
+    {
+      "path": "profiles/templates/noticeboard.md",
+      "bytes": 315,
+      "sha256": "908795c411075e498f12acea8b9508eb12170e02c9556ab05e2195a97fa7f218"
+    },
+    {
+      "path": "projects.html",
+      "bytes": 1040,
+      "sha256": "32372b2c56786b4f9239226b78e3c22d741fc906522ce03be3ad66f5cde2fb34"
+    },
+    {
+      "path": "queensland-grants.html",
+      "bytes": 959,
+      "sha256": "524206f4d70ccd02424fa4cefdba39b7a3ec38971e953880a269dac8c0c5cffa"
+    },
+    {
+      "path": "tools/build_partner_pathways.py",
+      "bytes": 2257,
+      "sha256": "5b7e685faf9e48349849de571c6581a203b172d7d22a36e2ad200604640189a8"
+    },
+    {
+      "path": "tools/build_profile.py",
+      "bytes": 867,
+      "sha256": "9aa59afc6eab47ded43d0a6b2e7e21cedd56f6f44cd6fc24bfeb4e613da98c76"
+    },
+    {
+      "path": "tools/build_watchlist.py",
+      "bytes": 2491,
+      "sha256": "8984f46439f00ded81b057c9e296cd7fc24313af7e0d7bc0c8dc15e70797412a"
+    },
+    {
+      "path": "tools/normalise_funding_stacks.py",
+      "bytes": 2272,
+      "sha256": "d85ef26883120bbd86ac6d5bbf2e25681dc4e17d8862e245d732f39e4f762741"
+    },
+    {
+      "path": "tools/prune_expired_pathways.py",
+      "bytes": 1827,
+      "sha256": "694d373a58e27bfe78e72e5576469b690f73ccc4a3579e032b48748834efde37"
+    },
+    {
+      "path": "tools/sync_ledger_projects.py",
+      "bytes": 5812,
+      "sha256": "ff93d5f21f548c7c16dc59beaf30c63567f705a53d3da605d6d75612993336b7"
+    },
+    {
+      "path": "tools/validate_data.py",
+      "bytes": 13768,
+      "sha256": "b63c50c28f594e1ad194d9829a68c895cb1dd79154410dbf00455db23ff2c6d2"
+    },
+    {
+      "path": "workflow.html",
+      "bytes": 3700,
+      "sha256": "4ed923dfa5a60cdd76845fe907c4b8a5df097fceb99da9b1d3721ff644e6e827"
+    }
+  ],
+  "files_sha256": "05afc8394cfc26eb085cedb27e6cef3a2859a01c96160337ba21ea1da7a9fbf9",
+  "file_count": 51,
+  "source_bytes": 2073586,
+  "excluded": []
+}

@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+  "slug": "UNGA81-Luke-Hayes",
+  "capture_started_utc": "2026-10-20T07:57:04+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:06+00:00",
+  "source_version_start": {
+    "head": "12afc71ba7375a2096ab4c307934198568e58bed",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "12afc71ba7375a2096ab4c307934198568e58bed",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1269,
+      "sha256": "f9d066a85026e15af1754d3cbafd1e3b9ba8e5e9f229966f93ad7353135e949d"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 43,
+      "sha256": "23d7d4d236c32ab8cbbe1903fe5775aa98470c2c801a74b4d7cb9be98941c996"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 557,
+      "sha256": "3be0742fed4b6f6e617247f7f53a0444552354ee2c2e43166c77a6e3ad4ea01b"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3631,
+      "sha256": "3e622d39ee40e414b3fb0a48a80db04196e08e79fd2a02bb3610767848340134"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14350,
+      "sha256": "45605722fa555db4f7874e422d5de160b8c8cf1a740c07b5c683a607326dd9b3"
+    },
+    {
+      "path": "about.html",
+      "bytes": 15857,
+      "sha256": "98a675acb048132cdb525bd7f7bf29260fd5d985e1c5ef50b519fe094463bd55"
+    },
+    {
+      "path": "assets/apple-touch-icon.png",
+      "bytes": 49809,
+      "sha256": "c5b516f7d3a2c2f73be52b647b9ea45a6d628bbaed244a6bb5ba2d295255cf25"
+    },
+    {
+      "path": "assets/brand-garland.png",
+      "bytes": 16164,
+      "sha256": "91fcea4990096ac2cf89fb0ff3fe6c24c4a51b2b676a7d2ae44b2144b8848b0f"
+    },
+    {
+      "path": "assets/favicon-32.png",
+      "bytes": 2503,
+      "sha256": "8b11a4ebe89dce2f3025a416b8bdd057f4960fe2f301d450a31cf03277e87a87"
+    },
+    {
+      "path": "assets/icon-192.png",
+      "bytes": 56066,
+      "sha256": "de3f439e7d06c16d910068ff2551d991ec2fc24d67e65bb3107c93622d473465"
+    },
+    {
+      "path": "assets/icon-512.png",
+      "bytes": 343860,
+      "sha256": "de9c57fb4c535d1f81dd2926936bae57e537eb69f6b48a968471041b41eca050"
+    },
+    {
+      "path": "assets/images/about-1536.webp",
+      "bytes": 320172,
+      "sha256": "e52ac4ee80c31e28e7e65032e5d7f0c5950ff3798b4c7812e867115e963946db"
+    },
+    {
+      "path": "assets/images/about-768.webp",
+      "bytes": 105926,
+      "sha256": "dff6e5f0e06698a57aad9da973c787268d2490ea6a8b8b4c366f1b1a4dc71e47"
+    },
+    {
+      "path": "assets/images/capability-1536.webp",
+      "bytes": 315490,
+      "sha256": "5b735d0376dc28ace0653582799345a6aa9b23bca1badd5a6030fc5344274012"
+    },
+    {
+      "path": "assets/images/capability-768.webp",
+      "bytes": 109656,
+      "sha256": "2797fe0c0255e4f7a2b80bc6915600d7460cdb4dc119ae44bc1034a6ab2408a6"
+    },
+    {
+      "path": "assets/images/futures-1536.webp",
+      "bytes": 392764,
+      "sha256": "9a71ac17c0f55e6becf701f6f015da22fb4ee837a3c68e07561a5f8d5fde0732"
+    },
+    {
+      "path": "assets/images/futures-768.webp",
+      "bytes": 130502,
+      "sha256": "c60ba94793070e37327c586bf206a9ff9dfa3c07a44f97c63a12df86e5597690"
+    },
+    {
+      "path": "assets/images/gajra-icon-master.png",
+      "bytes": 1775821,
+      "sha256": "cceda5f8cc3508d8ee001401d068a076e593c6a655db2b514a70f6d15d8b690f"
+    },
+    {
+      "path": "assets/images/index-1536.webp",
+      "bytes": 532548,
+      "sha256": "dcb5f0b233051265376adf04adb6240a7be89059f9235795cd4209fc205fd96d"
+    },
+    {
+      "path": "assets/images/index-768.webp",
+      "bytes": 158716,
+      "sha256": "3e011cae60876b56e7e32852d1369fc6ec316af9b17b6fae7be3ad100933d253"
+    },
+    {
+      "path": "assets/images/intelligence-1536.webp",
+      "bytes": 240300,
+      "sha256": "211bebcc676234e3721eb56ad153de2d638cce7f28ca7fa4658158aa129874ae"
+    },
+    {
+      "path": "assets/images/intelligence-768.webp",
+      "bytes": 92264,
+      "sha256": "8e3abb3a27bc658a2b83999517c09c1d73b556e20a8798aba5deac5b0cc31651"
+    },
+    {
+      "path": "assets/images/invitation-1536.webp",
+      "bytes": 338860,
+      "sha256": "557e9cc4f2752829a1b58662400ff602ca14698201c0376949005ac740b346d8"
+    },
+    {
+      "path": "assets/images/invitation-768.webp",
+      "bytes": 120788,
+      "sha256": "5ad185d63dbf27ff372ee003218a0e81719e0528024c62c089b9bf192adfc6b1"
+    },
+    {
+      "path": "assets/images/library-1536.webp",
+      "bytes": 305436,
+      "sha256": "0b9f0eca869a03e2855b2831f4307b04704c7230ddffdd524b6e3226354891a5"
+    },
+    {
+      "path": "assets/images/library-768.webp",
+      "bytes": 112380,
+      "sha256": "a3fcd200f9e258b18be0a9ec4acbb504fcde64d3d3ec4b8bc662858a1f0ef69e"
+    },
+    {
+      "path": "assets/images/livelihoods-1536.webp",
+      "bytes": 392936,
+      "sha256": "e3092d781987ca35715b0059a71fe0767641e09efbd5d66339c1dca48b32c96e"
+    },
+    {
+      "path": "assets/images/livelihoods-768.webp",
+      "bytes": 134954,
+      "sha256": "a0a62230ef95e97cd16085e4561dcf526ecdb139c06b68accebc86a6587d393a"
+    },
+    {
+      "path": "assets/images/reading-aura-repair-guidance-1536.webp",
+      "bytes": 288310,
+      "sha256": "e8cfdaeb42a014772cf5c813fc8e64d69d36eac5e82df18408d114066a60d506"
+    },
+    {
+      "path": "assets/images/reading-aura-repair-guidance-768.webp",
+      "bytes": 104848,
+      "sha256": "74eda19f28058c0ac1fbd509b928b989c1f4ab3ff3e423654776eb0718e3a55e"
+    },
+    {
+      "path": "assets/images/reading-aura-shared-learning-1536.webp",
+      "bytes": 294334,
+      "sha256": "a29b2d1ab402a398199cba4ebc2b6f18938d46346f65f843e138e24de19b0c24"
+    },
+    {
+      "path": "assets/images/reading-aura-shared-learning-768.webp",
+      "bytes": 103508,
+      "sha256": "a2eeca9fcc225f0aa453a67c61d4d35fdcab56ed34f48f3e9844224f7b9aac4b"
+    },
+    {
+      "path": "assets/images/reading-aura-timely-travel-1536.webp",
+      "bytes": 246338,
+      "sha256": "a6e505271b56b61975095500aad1336cd0cedb1bc0d2f2c0968f9c875ac6643e"
+    },
+    {
+      "path": "assets/images/reading-aura-timely-travel-768.webp",
+      "bytes": 89120,
+      "sha256": "07bd41250dc5714db51a30003b83680cd9f7ff9e8ec579578170b639b00122e5"
+    },
+    {
+      "path": "assets/images/reading-civic-compute-1536.webp",
+      "bytes": 358564,
+      "sha256": "8465cfcb85e0117d93bac25cbccf72260a60b84318f0e41ddcb64c12beffa3a5"
+    },
+    {
+      "path": "assets/images/reading-civic-compute-768.webp",
+      "bytes": 129852,
+      "sha256": "a6388b2cae467a6c917c830544bbc666f20c96c9e83ac8dbd0f263e9941ce34c"
+    },
+    {
+      "path": "assets/images/reading-civic-voices-1536.webp",
+      "bytes": 324652,
+      "sha256": "3d9b3b432898a81fb15175ca9db91665584ea45bcb3bde91229c7a5684c27d97"
+    },
+    {
+      "path": "assets/images/reading-civic-voices-768.webp",
+      "bytes": 115848,
+      "sha256": "d638dcc2e87b82c37037cb07453d48c80b5a9082aee658528a8c0ddfc8560eda"
+    },
+    {
+      "path": "assets/images/reading-community-care-1536.webp",
+      "bytes": 288254,
+      "sha256": "0f95a621d43df126be6e89b4477c24c7d40d4b39ae50253e8ae955d2498092e7"
+    },
+    {
+      "path": "assets/images/reading-community-care-768.webp",
+      "bytes": 104782,
+      "sha256": "f5aeadd02eb683688e2498340a109b41fc28469f4a00e6c07229b0904bdcce1b"
+    },
+    {
+      "path": "assets/images/reading-dialogue-1536.webp",
+      "bytes": 315132,
+      "sha256": "08812855da6bd2211d5141080573a873a06c9445a0f891c4477fa795ca580422"
+    },
+    {
+      "path": "assets/images/reading-dialogue-768.webp",
+      "bytes": 111928,
+      "sha256": "cfacf84c60ebced4cbc7ccd4f13b5215cabd4737db334e2609506a3483db3783"
+    },
+    {
+      "path": "assets/images/reading-heat-twice-1536.webp",
+      "bytes": 428444,
+      "sha256": "9b6960ead882ad2e643005b1d836eb542f05852c256730dc30a5f99fa069f9a0"
+    },
+    {
+      "path": "assets/images/reading-heat-twice-768.webp",
+      "bytes": 130258,
+      "sha256": "55238ab50eb79764e79d49d23df44998db8c51427817af3905b56762b83ab182"
+    },
+    {
+      "path": "assets/images/reading-learning-garland-1536.webp",
+      "bytes": 321296,
+      "sha256": "4837e307eb589b9d158be0d085321a59ff41351087dd12047076760bdff76bd0"
+    },
+    {
+      "path": "assets/images/reading-learning-garland-768.webp",
+      "bytes": 106104,
+      "sha256": "aaef2aa2cf8cb0e6035be49a9e70691c739c24be030fc3c469c44a3ab71da55d"
+    },
+    {
+      "path": "assets/images/reading-past-present-future-1536.webp",
+      "bytes": 301902,
+      "sha256": "924ad0bcec36856112ef7436576a52b2627a14c6cf2068b98fd8d8d2947ad418"
+    },
+    {
+      "path": "assets/images/reading-past-present-future-768.webp",
+      "bytes": 103980,
+      "sha256": "27688a3b4538826b8a95df72e9ec504c384d5956b75ccc684aca93aef4a8b164"
+    },
+    {
+      "path": "assets/images/reading-possibility-1536.webp",
+      "bytes": 310986,
+      "sha256": "045810118818bfeff5daba1776417b836ad4ec4fe800bbc225e8cc7144a26081"
+    },
+    {
+      "path": "assets/images/reading-possibility-768.webp",
+      "bytes": 114936,
+      "sha256": "59674b093e2be87224c74bfbe6ecd64690184e43bbe7ba7f4f8dc2ab62ae9375"
+    },
+    {
+      "path": "assets/images/reading-reasons-to-continue-1536.webp",
+      "bytes": 480894,
+      "sha256": "f6eb5851f9673cf9d0cd5fd621993e74d00ce94ab27e9afce5985f375e4dbe14"
+    },
+    {
+      "path": "assets/images/reading-reasons-to-continue-768.webp",
+      "bytes": 152642,
+      "sha256": "61f24dea5518154bfdf777f2f9a654906ccc8f11b8ad615c54b1084476fe05bf"
+    },
+    {
+      "path": "assets/images/reading-shared-ownership-1536.webp",
+      "bytes": 300198,
+      "sha256": "8e022e08e0f23a8925481916bbc136f5306c75f0b16fbe33b6e7a523b3965e5e"
+    },
+    {
+      "path": "assets/images/reading-shared-ownership-768.webp",
+      "bytes": 115618,
+      "sha256": "07b286efdfa9c2b572639daa786949e8d8062816f4cd680fcf65e448bae33b7d"
+    },
+    {
+      "path": "assets/images/reading-time-to-live-1536.webp",
+      "bytes": 294462,
+      "sha256": "04781d1e24c7fb9b174bdb94b5cbb322990c0b7165ac70e73bd871503ca8ab89"
+    },
+    {
+      "path": "assets/images/reading-time-to-live-768.webp",
+      "bytes": 111524,
+      "sha256": "6a8b6294792a46f82c3cd37e7b022d4df9fc86e5ea2f727b57eac843665e4c40"
+    },
+    {
+      "path": "assets/images/social.jpg",
+      "bytes": 337897,
+      "sha256": "ef9e919bd0d97f7f4aeb3cdb574d5c37f131169f29550858148e60d08905b0c2"
+    },
+    {
+      "path": "assets/site.css",
+      "bytes": 22127,
+      "sha256": "b2876d548ee36a58a5a065b4af6353bf2074d37438228e818ad7b8f9861f143e"
+    },
+    {
+      "path": "assets/site.js",
+      "bytes": 3772,
+      "sha256": "c8262f6728d71a269ed4678f9c13ac36bf4c37c62a73ab15e7bac7f7d6cd1b32"
+    },
+    {
+      "path": "capability.html",
+      "bytes": 15900,
+      "sha256": "27fe0e0b34de24ccb67560e684c1c4cebc1237a45167938e788cc38e2a031419"
+    },
+    {
+      "path": "data/content.json",
+      "bytes": 43476,
+      "sha256": "4ea4410954e89ad002e500896a5a7e12fdd4dc30cc9180a7b9248cdd0f61ce58"
+    },
+    {
+      "path": "data/document-provenance.json",
+      "bytes": 5932,
+      "sha256": "dafec635bcff2e7cdd97c044be8f1cb6f46cd456fdf46ed2fcc7e727ae431b19"
+    },
+    {
+      "path": "data/favicon-prompt.json",
+      "bytes": 1361,
+      "sha256": "4eb22faad251e016d284299caeff3ac4f54db8196bba73e54c7572567517a666"
+    },
+    {
+      "path": "data/image-prompts.json",
+      "bytes": 17815,
+      "sha256": "f4dd5fee381acbf106046124a2f696316b2cfdba454e1d66f34686eba5f5f0d7"
+    },
+    {
+      "path": "data/inline-illustrations.json",
+      "bytes": 32376,
+      "sha256": "51e868d8a3ca8c8ebfc69ad4376ac54f6cf4c0aaa9aca5842f26ed30c3010b9d"
+    },
+    {
+      "path": "data/references.json",
+      "bytes": 31316,
+      "sha256": "d552a73f90bf1163b1a5d081a03eb43a1e101b8b2adceef80c7ef5bd3ddeee28"
+    },
+    {
+      "path": "data/source-transcript.txt",
+      "bytes": 40006,
+      "sha256": "cbf06f4785b4618e697fc43c5f735b2c02c768d5981502fdfc229494a5f27a72"
+    },
+    {
+      "path": "data/visual-direction.md",
+      "bytes": 6722,
+      "sha256": "d3a8890208e16363e1a007524b9ba2980b38a3ce933ef8c6c0c817bf215a3703"
+    },
+    {
+      "path": "documents/AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+      "bytes": 43828,
+      "sha256": "1fcc88fe31b0192107683880a9c21c4ce7e83b63e91b576316e618e43363ffea"
+    },
+    {
+      "path": "documents/BE_LAU_Protopian_Gambit_Pacific_Discussion_Paper_2026.docx",
+      "bytes": 119498,
+      "sha256": "efec152fbe572db281a3fe30ccb7a8b585324b5e3beaa1363072a6fd0ed7c3f9"
+    },
+    {
+      "path": "documents/Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+      "bytes": 40964,
+      "sha256": "71532df9fdd542df9a77506608746f187f71c82ed01b35ffee3e7f25c500060a"
+    },
+    {
+      "path": "documents/README.md",
+      "bytes": 1151,
+      "sha256": "ee96793a12b406ac066306fc66d97a0468b217acbdf2fcedaf7fef10c64c22b0"
+    },
+    {
+      "path": "documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+      "bytes": 112210,
+      "sha256": "0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14"
+    },
+    {
+      "path": "documents/fiji-australia-vuvale-union-submission.docx",
+      "bytes": 52947,
+      "sha256": "f62ae877f90e437583d9ecc2db29f3b11f20253c05b6feda573d7e694c3e8af0"
+    },
+    {
+      "path": "documents/local-government-funding-submission.pdf",
+      "bytes": 276605,
+      "sha256": "06e5d3e4f3c9bfb14a9d2439b9117e00a24176c4a2c6de9e9b18eeb187234d80"
+    },
+    {
+      "path": "documents/senate-ai-and-data-centres-submission.docx",
+      "bytes": 39348,
+      "sha256": "1ab01da1abd6cf456c8cf345e09425d3c8cf59e892897ce750e75f815766ed65"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 8314,
+      "sha256": "e78445142c902fdb9b03fdbe7a7b714778973c260e3aa568d3ce10b866c5ef73"
+    },
+    {
+      "path": "futures.html",
+      "bytes": 19950,
+      "sha256": "8d6a04a8b5a3da481e0c82f9a9bd7f480395b52567897ce00e311d4893da3612"
+    },
+    {
+      "path": "index.html",
+      "bytes": 12685,
+      "sha256": "ecf6a971fb4ad4d141e4be2323dea0f74f8c7a680811680f5d5929432c3eefae"
+    },
+    {
+      "path": "intelligence.html",
+      "bytes": 12765,
+      "sha256": "ee7a81ed685ecabd4c128d648c0ec90b6b853ad08d54d9d7dba9ea3f8046dc5b"
+    },
+    {
+      "path": "invitation.html",
+      "bytes": 17492,
+      "sha256": "46034759316a15139f51e8dbf3bbc47ef2d738f530391fc32bd37619afbdd3dd"
+    },
+    {
+      "path": "library.html",
+      "bytes": 41080,
+      "sha256": "a7285824920d1785b43c0ab3a966b7a7d47abee914a4c62aa4008b8a546ed4f6"
+    },
+    {
+      "path": "livelihoods.html",
+      "bytes": 18319,
+      "sha256": "c2cde3f90dc136854e902390835aac5d817adbac96603f8c2d73f865085d70d7"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 102,
+      "sha256": "642a40183495a283ca4f13123c6a23f60c2aab46753bc16bb3125af36cca734a"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 23775,
+      "sha256": "26d03e1fe7f876bf71105db9576ef42c4818d6579103bbf17b11b5778d8429af"
+    },
+    {
+      "path": "scripts/export.py",
+      "bytes": 500,
+      "sha256": "726b1d78b7ebd2c7e54024e6cdd243ed8c7ceacb7fb526430f0a7770ec98263a"
+    },
+    {
+      "path": "scripts/validate.py",
+      "bytes": 4254,
+      "sha256": "74c81a88ec3c5104ce9709e1f5a2e62b15af7a07e7105ee62176934ac7a8233c"
+    },
+    {
+      "path": "site.webmanifest",
+      "bytes": 426,
+      "sha256": "f58f7b19d6c14234a8f69dc882bbad9e9cf6a32dd78904528c544b84bdc84519"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 824,
+      "sha256": "695ded3cb3b492965a010144490eca233d27a91b0839ef3d93034c50ad3b90db"
+    }
+  ],
+  "files_sha256": "bb38dbe21bd4d848b9237c65658f93e4e01e46cd0557f35e5adbf1f53de43867",
+  "file_count": 90,
+  "source_bytes": 13638073,
+  "excluded": []
+}

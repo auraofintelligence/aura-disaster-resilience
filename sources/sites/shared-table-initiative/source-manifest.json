@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/shared-table-initiative",
+  "slug": "shared-table-initiative",
+  "capture_started_utc": "2026-10-20T08:00:26+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:26+00:00",
+  "source_version_start": {
+    "head": "183453dbd3414a1d2ff22dc0898e4c7280bab060",
+    "branch": "master",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "183453dbd3414a1d2ff22dc0898e4c7280bab060",
+    "branch": "master",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 40,
+      "sha256": "14479f8c4215809e021e33b2393adfdfb0af4dfc24341df84b3890458f578e94"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3611,
+      "sha256": "88d923e403ee03ee0da6b26945c2d7441bfb35444a410e0761a0306054c8f64a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6700,
+      "sha256": "618a3677329d3bbf14de5409dec63500a5e740cbf401d23b2f69d40a8d090eff"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 41681,
+      "sha256": "89a5989c1228b0746d110d8dfff7835dbec4a957a5ea589c7a19f2617149196e"
+    },
+    {
+      "path": "assets/community-ledger-bridge.webp",
+      "bytes": 125902,
+      "sha256": "67b2c964807c9e15f2bf6a5d120f95b6c1dc33ca35a5479d4105118c9304e856"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 46716,
+      "sha256": "7c641f2be6168de9f9636d1d7819418a4b791d7a08c9c28a31dec4a0c5288df2"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 1952,
+      "sha256": "582bb4882ff099c611812c134c30644fa921ad6ab10863a68efad01aa0d9966a"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 274451,
+      "sha256": "f1697f9bc275dc51eaa53978114e6ccf0bfccd8c70f57961b0f951479036d049"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 72352,
+      "sha256": "fa2116e029b208d19204c20ce0aa2f1ac1af92e626b6dd78694cbbb71ecd3a64"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1531,
+      "sha256": "1c09ca1798e17b5e6e39c95ae16941a99a4cb16508d4d802f849ff9165917d15"
+    },
+    {
+      "path": "assets/garden-mate-backyard.webp",
+      "bytes": 174324,
+      "sha256": "448b94026fdd8f7c01a93494e9f8485523c0fae7a1ee39292019974683dd6b54"
+    },
+    {
+      "path": "assets/garden-mate-balcony.webp",
+      "bytes": 136096,
+      "sha256": "6fb80196f1139d8b801ce4b541766960792f9cd1a88ab65f1cd232290ac9d33c"
+    },
+    {
+      "path": "assets/garden-mate-harvest-loop.webp",
+      "bytes": 144300,
+      "sha256": "ad33f6ac9ddf23d721d93b1fccb11cb28d7314e70c50f194ef6c4ad6d3271609"
+    },
+    {
+      "path": "assets/garden-mate-school-club.webp",
+      "bytes": 142702,
+      "sha256": "60b1bd8aa7c21833e2a5e6bf01f3cc56deda821fc39bcbedc7517a77cba48009"
+    },
+    {
+      "path": "assets/grants-readiness.webp",
+      "bytes": 175176,
+      "sha256": "ca5b57895a821ef76937830d3366eb30627c5961261869d4730202c7ac7f3269"
+    },
+    {
+      "path": "assets/kitchen-mate.webp",
+      "bytes": 115852,
+      "sha256": "709161ac2682bcca08d18ef9ca9caa47baa498087e0275bf74e2362eef7319dc"
+    },
+    {
+      "path": "assets/noticeboard-bridge.webp",
+      "bytes": 164784,
+      "sha256": "a24dd3129c3ddd8587760ffa7b0c00ecc40b3cebc00c4b00f1a0564b631a4acf"
+    },
+    {
+      "path": "assets/safety-gate.webp",
+      "bytes": 132146,
+      "sha256": "dcd8a3da21d38f606833be30085026496f3775647306000e4d434c80e34d3804"
+    },
+    {
+      "path": "assets/shared-table-hero.webp",
+      "bytes": 242244,
+      "sha256": "915910ab7416780558434da574caeab80c5e0fbb4aca32621433a7699de93387"
+    },
+    {
+      "path": "assets/shared-table-loop.webp",
+      "bytes": 235062,
+      "sha256": "73f51391604705d39d5ed4c5b0cd231821e83a2414669ebf1c1fbb915f40d459"
+    },
+    {
+      "path": "assets/sovereign-space-builder.webp",
+      "bytes": 216252,
+      "sha256": "8b5433125da82fa31545b871b86f23fb01523c5a62fbe19cd384a0f813e24c63"
+    },
+    {
+      "path": "garden-mate.html",
+      "bytes": 9807,
+      "sha256": "325f90c40e0151ac5c59de093a241affe13233231ab6ee30aabe85c30245d75c"
+    },
+    {
+      "path": "grants.html",
+      "bytes": 5345,
+      "sha256": "46c523d51330520b81d147df90d8c06448abf174e65244fff4bb98be5ec652c3"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8637,
+      "sha256": "8cf3a406b0b87a4ecfe0a1d082ea70c701cbcfe77af8e0b4eebd7dbacd409267"
+    },
+    {
+      "path": "kitchen-mate.html",
+      "bytes": 8694,
+      "sha256": "dfd7190c8134b6dc60c2430e4d2defc2e5e66c6e2fadcb2ea4ec11ea8944ada9"
+    },
+    {
+      "path": "ledger.html",
+      "bytes": 5704,
+      "sha256": "775f6b6b77f0848f7c3a34288387a5e8f45edceb43c78d7a3d1cfae1aae45cda"
+    },
+    {
+      "path": "noticeboard.html",
+      "bytes": 6350,
+      "sha256": "203104ace7bcab779aad42a9d4d9ae45c250d0ac263f76ee16d15507d6158ddb"
+    },
+    {
+      "path": "partner-media.html",
+      "bytes": 4807,
+      "sha256": "59996a799c165df272c70ceb78cd361e10325bfaebc78afdbe614a1b5083bc51"
+    },
+    {
+      "path": "safety.html",
+      "bytes": 4715,
+      "sha256": "dc91fd4e9a7bedd8101b5f470f0b60a36d02a499acf47e90191f76461b420deb"
+    },
+    {
+      "path": "script.js",
+      "bytes": 11016,
+      "sha256": "9bdc34ae2b1b82f414fd2583d08224a2621ec27cb45e79d741f4dc2850a670f9"
+    },
+    {
+      "path": "source-map.html",
+      "bytes": 13348,
+      "sha256": "de6084e6cc4356eb2217c3f34fa3083103c645c71c3dfd59e440701820e5817b"
+    },
+    {
+      "path": "sovereign-space-builder.html",
+      "bytes": 4927,
+      "sha256": "b64d0b6d6f02c7452d97adbaba465ee6cf83598e546ab06e267ac6fe861a98b3"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 20431,
+      "sha256": "6df5281a7809424d1d4cb4298be808aea61644073b4bfbaebd5b2afd23cc28c6"
+    },
+    {
+      "path": "table.html",
+      "bytes": 6301,
+      "sha256": "773878539f768a46dbefb02eda57770cdac34ba2f44ce4ee230b7904741942b5"
+    }
+  ],
+  "files_sha256": "e2d66b54e70948c82caf9a8218fae2210369836d3683f728f510c952b3c9a5d0",
+  "file_count": 35,
+  "source_bytes": 2563958,
+  "excluded": []
+}

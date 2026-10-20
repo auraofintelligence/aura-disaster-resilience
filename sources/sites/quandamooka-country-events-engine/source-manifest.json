@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/quandamooka-country-events-engine",
+  "slug": "quandamooka-country-events-engine",
+  "capture_started_utc": "2026-10-20T08:00:20+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:21+00:00",
+  "source_version_start": {
+    "head": "be7e463c2e36a6563acfcee4345c5c36051cc560",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "be7e463c2e36a6563acfcee4345c5c36051cc560",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 54,
+      "sha256": "d4d234ca4257a017c83d9a5680e767264cdc14ddfa607da7f2d0eeeb27a6ebbb"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3641,
+      "sha256": "b2f2c78aa1536d4624a814918ab116b6718acd5cae1416d3d2c01c33cfd3faa8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7106,
+      "sha256": "5761a03e6fcb9409601c89705016d8ceb7092417028d6063dfec2681b9c9c838"
+    },
+    {
+      "path": "approvals.html",
+      "bytes": 1201,
+      "sha256": "4e2eaf63dc719d9a1739d49704243ec9e586fef8aa48545447c7b13d064278a4"
+    },
+    {
+      "path": "assets/app.js",
+      "bytes": 88005,
+      "sha256": "9a7958d0fdcf58bdb5e43591ece07c968553ef2491a2f239a5a738d1a03888b2"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 28791,
+      "sha256": "fd5f518deb40c63a08108d83d27c05aa41a062589c580f71998d0b8fd2f11876"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 32622,
+      "sha256": "fcb2077dbfcb2f12effc380994e4e4e1c4e67ad83533d2c29240da6c90c56637"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 1786,
+      "sha256": "25e0fed75f7cdd31905038192a4e08141aa37d5b246760ca6a4bfc1bf8d556ae"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 1006506,
+      "sha256": "90eab4dbc319fad04582af961af0962af6b265370c3432fff829b1c91e3550b6"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 80682,
+      "sha256": "a10ad84cf280f095bc899997e18b2ea65f23766fbd6ac1c1c6e003909cb0c51b"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1597,
+      "sha256": "47130dcd3b17af2128a9bfbec68d5b8a39d5794d204fe39c0701242ffa2e768a"
+    },
+    {
+      "path": "assets/images/hero-builders.webp",
+      "bytes": 249190,
+      "sha256": "7f40c7c8926a70018ba07c3e6c0051e268371dc14c44370e2d65d902288f1158"
+    },
+    {
+      "path": "assets/images/hero-calendar.webp",
+      "bytes": 333204,
+      "sha256": "6ada31c00ae97031ea4cb45e4f42b2ae80961205db9fc40c8639ddeb9feded34"
+    },
+    {
+      "path": "assets/images/hero-ecosystem.webp",
+      "bytes": 266996,
+      "sha256": "45e9e2d2dfac73bb475525b2ba0f4655805bfce231df5dbee5320f07dd0a13c5"
+    },
+    {
+      "path": "assets/images/hero-engine.webp",
+      "bytes": 276544,
+      "sha256": "4f90a565fb8ce40d9a07d33bdd1c62e00bfa3302c37aac7a3dccf10d09d45a0b"
+    },
+    {
+      "path": "assets/images/hero-simulation.webp",
+      "bytes": 313778,
+      "sha256": "d1011a9b24ca66ccc5f5a84e1fdb8006b8c5a7045f89cc83c9933f1aa1e85ec0"
+    },
+    {
+      "path": "assets/noticeboard-data.js",
+      "bytes": 75078,
+      "sha256": "37b6868bb0f98c7d23e65366c30f9896d24179d0337ac4819855a7396a48ebe7"
+    },
+    {
+      "path": "assets/place-data-extra.js",
+      "bytes": 63738,
+      "sha256": "4ac3f45927fa5e4016782a15219e327020dd91caeede5c283c751c51d3d206eb"
+    },
+    {
+      "path": "assets/site-data.js",
+      "bytes": 220357,
+      "sha256": "23078f0a66cb331d5a0979366dbeec4ca616fc4e2210916a9d69616bc76dc66b"
+    },
+    {
+      "path": "assets/styles.css",
+      "bytes": 42346,
+      "sha256": "f35b6e5b3b8ab800810e3fe4b66f88ccb92d3913c953065a3f89120905e680a7"
+    },
+    {
+      "path": "builder-assets.html",
+      "bytes": 1245,
+      "sha256": "09eb3a53f3d704b7e91c413b6aa1ca4f989361fdd09d1fbf5f5f0a98a256c2d5"
+    },
+    {
+      "path": "builder-events.html",
+      "bytes": 1214,
+      "sha256": "b2f0182d53ad8fe560381ab2273703e60988887b16a209ba9b859f07ae0beb2c"
+    },
+    {
+      "path": "builder-notices.html",
+      "bytes": 1228,
+      "sha256": "a3e302ea2063fe726983ca388085d6669fd042d1ffd899866a60ada6b3fd2012"
+    },
+    {
+      "path": "builder-run.html",
+      "bytes": 1235,
+      "sha256": "0db015d557c7966a9f8a6292dc59a33b4c53d57c5ffcbb83fc09dd80d2ea6d14"
+    },
+    {
+      "path": "builder-simulation.html",
+      "bytes": 1250,
+      "sha256": "8131a3e4630677030253f508295ced01fd86c88a59c39ef4f003433b2df9e0c6"
+    },
+    {
+      "path": "builders.html",
+      "bytes": 1202,
+      "sha256": "317b13c0d0306a9e54f1f82cf6755fd3210501059a5b260ef213c7ecb8e56cc7"
+    },
+    {
+      "path": "calendar.html",
+      "bytes": 1169,
+      "sha256": "51415924ce5b74ac2bf650883dd0734eda0408c387a5671ecbe42a352d6f9379"
+    },
+    {
+      "path": "docs/BUILDER_LINK_MAP.md",
+      "bytes": 3937,
+      "sha256": "7742cc4a606243b499fe009fde913015f4adccae50ecb64837a7ef5048ddbeed"
+    },
+    {
+      "path": "docs/BUILD_NOTES.md",
+      "bytes": 1874,
+      "sha256": "a519a1f5706460cad313104799964520e7b66f2f5c1614ae8465f9fdd098a3b7"
+    },
+    {
+      "path": "docs/FIELD_MAP_WORKFLOW.md",
+      "bytes": 1009,
+      "sha256": "ed9f010785f1b33522d0e42501853897c7db9dea76c04575309af5af193f2fa8"
+    },
+    {
+      "path": "docs/HERO_IMAGE_PROMPTS.md",
+      "bytes": 1476,
+      "sha256": "d1062355b31646394a9eb3ab14fc50b5a6ccbf4695afadfe2e5074c86f9484f2"
+    },
+    {
+      "path": "docs/PLACE_COORDINATE_AUDIT.md",
+      "bytes": 32749,
+      "sha256": "f9298a775054cbe2cbbf827340a3d5e981c27dfa2087f4dc8787b2ec492a58b3"
+    },
+    {
+      "path": "docs/PUBLIC_BOUNDARY.md",
+      "bytes": 1337,
+      "sha256": "0c99a9152890ed98e354999abf98e0e2b9297a155f9ac7c58d57a6b4e406233e"
+    },
+    {
+      "path": "docs/SOURCE_NOTES.md",
+      "bytes": 3212,
+      "sha256": "dcc80db3e8e511a2808425b0f2db66733fdaf954bf422b92c2d19aaedc3cc19e"
+    },
+    {
+      "path": "ecosystem.html",
+      "bytes": 1220,
+      "sha256": "6ddc10c5c264fcb2b65e2cee3fdfd8f09abe4daef49807894e24cec8c78faa19"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1616,
+      "sha256": "4fbfb02d34dca825e39249d80c927ad215c5437c684fe7afde7339c9e92e8042"
+    },
+    {
+      "path": "places.html",
+      "bytes": 1425,
+      "sha256": "91649a3245b33985f888c02a25f524c12b1ee8b66ff55fe06ed21e1f1496601a"
+    },
+    {
+      "path": "simulation.html",
+      "bytes": 1172,
+      "sha256": "764d5686eebe9946e20634e0e56a4844688cb0132dc5c486e05c1f2fa5ec3218"
+    },
+    {
+      "path": "supply.html",
+      "bytes": 1183,
+      "sha256": "d96e8296811c231f828f5bc406a4f5cfee413ba95b529fb6c08c05bd75740bc0"
+    },
+    {
+      "path": "tools/audit-place-data.mjs",
+      "bytes": 7933,
+      "sha256": "63bee52b4f1332a802f306fafce70080ad3fb3c853e73c78bce392c531c1219d"
+    }
+  ],
+  "files_sha256": "3d730ae90e562bd85d97f070109df42be3955d522567eb88bc9997a1be3301b8",
+  "file_count": 40,
+  "source_bytes": 3161908,
+  "excluded": []
+}

@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/straddie-clean-energy-superpower",
+  "slug": "straddie-clean-energy-superpower",
+  "capture_started_utc": "2026-10-20T08:00:27+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:28+00:00",
+  "source_version_start": {
+    "head": "420affbc14f5df6998fec4c08638cdd1e581b938",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "420affbc14f5df6998fec4c08638cdd1e581b938",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 47,
+      "sha256": "20b6f34610e1d1077f28e1003eaec81a094aa60994ed06935f696832dd72c4bf"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3638,
+      "sha256": "e64fdb34710e25caa10962f1f5bc4e05e8ff4873d730c409bf39d9093721d4c7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4444,
+      "sha256": "8032a0d827aac203dd2bc0d8546504d10d2a18ca19807068469be12939daa5a3"
+    },
+    {
+      "path": "assets/css/styles.css",
+      "bytes": 28909,
+      "sha256": "854aa3bcb4b5cefae26d151b1c8884d65f8431496830afdb9524b8dac2bda1b9"
+    },
+    {
+      "path": "assets/img/favicon.svg",
+      "bytes": 510,
+      "sha256": "54a840741e577faa45c4bfc58c99241f32378397d0fae02d8884c4cfa0766aae"
+    },
+    {
+      "path": "assets/img/heroes/boundaries-care-map.webp",
+      "bytes": 93416,
+      "sha256": "b99716f921055017c5068f2b427e51556f705f8c025e83e4ac2cd9a7128809b7"
+    },
+    {
+      "path": "assets/img/heroes/builders.webp",
+      "bytes": 79260,
+      "sha256": "4958e257d0e839cc59cff5c4aff5c440079273d1dbbc1c4df54a0f7605b98c40"
+    },
+    {
+      "path": "assets/img/heroes/community-wealth.webp",
+      "bytes": 185178,
+      "sha256": "5bcf09d51594219a2e9a4e56ffa9d88933f9b6226938363fccb894b51f4da604"
+    },
+    {
+      "path": "assets/img/heroes/ferry-gateway.webp",
+      "bytes": 108720,
+      "sha256": "9ee6e636a54b1dd1792d539ab3332ff7f75ad6eb5408b469b162f9cc246d0363"
+    },
+    {
+      "path": "assets/img/heroes/fractal-wind-lab.webp",
+      "bytes": 129016,
+      "sha256": "b547ebf6691c377c31f2d263f93bdc1f842c8ead123215b17d422d0932240b0c"
+    },
+    {
+      "path": "assets/img/heroes/home-energy.webp",
+      "bytes": 253020,
+      "sha256": "71d90cca388994fe1db8b1abdc94da3f566e3e5f441057cfa8bcc051c3d1521c"
+    },
+    {
+      "path": "assets/img/heroes/hydrogen-water-loop.webp",
+      "bytes": 162146,
+      "sha256": "a22f118f6ac43e5b458f3ccc980cc7f1532def14ad6004c1964fafed00597c5a"
+    },
+    {
+      "path": "assets/img/heroes/local-labs-network.webp",
+      "bytes": 138296,
+      "sha256": "3d9126cb7623f0309be5f1cb4e72dd4fabf0a0d37a0d1bbba2d6a8476f416fef"
+    },
+    {
+      "path": "assets/img/heroes/makerspace-lab.webp",
+      "bytes": 260700,
+      "sha256": "ed03d59f7a41f6a17a323705abb2f8ba468a83d535b8a61def4d13f076de07b8"
+    },
+    {
+      "path": "assets/img/heroes/marine-energy.webp",
+      "bytes": 194556,
+      "sha256": "69b9689cd52be135a38564f26c3b62505eff5a93acecbaa1882c86578201796e"
+    },
+    {
+      "path": "assets/img/heroes/options-atlas.webp",
+      "bytes": 150098,
+      "sha256": "9c434d28ca02d841856adc226a92a63d7652f9ee39846e10425f3f3ed62f2788"
+    },
+    {
+      "path": "assets/img/heroes/reef-sand-surf-banks.webp",
+      "bytes": 257300,
+      "sha256": "debd6305c5ed1f3b56004ce624f02d9f50055fd8f3c52fcc1b31ac10c3bc2baf"
+    },
+    {
+      "path": "assets/img/heroes/sharing-commons.webp",
+      "bytes": 155954,
+      "sha256": "2bb622405c7449fa80f27b7d413e3aaab2c9558a83c44bf87ab4591b13eb1fab"
+    },
+    {
+      "path": "assets/img/heroes/site-map-tabletop.webp",
+      "bytes": 98992,
+      "sha256": "3e7204c64d823c7754d42f10e2181a05e91b53488bbf294a1d07af595fa1020e"
+    },
+    {
+      "path": "assets/img/heroes/sources.webp",
+      "bytes": 93058,
+      "sha256": "e147fc5ef413bd3d230be9b6f8624abbfdffb7abf0dadd45ced35110771f7fe3"
+    },
+    {
+      "path": "assets/img/heroes/storage-abundance.webp",
+      "bytes": 221054,
+      "sha256": "1edb8bc7485e2485c3c3dce9eecfea299806dce964551d3ceef64c19fb14cd7c"
+    },
+    {
+      "path": "assets/img/heroes/water-height-geography.webp",
+      "bytes": 111922,
+      "sha256": "08624a3f369da665a6f4f297b32686c46904251f730f162a7e035c6d4f689b6c"
+    },
+    {
+      "path": "assets/img/heroes/wealth-hours.webp",
+      "bytes": 169408,
+      "sha256": "a48f5251df8c20077b991d33d75de880ad0e9ae80740aeb92a045a3342794da7"
+    },
+    {
+      "path": "assets/js/form-builder.js",
+      "bytes": 3633,
+      "sha256": "3f14ae2ab19cb5c78e5129c5994abb8749cb215951faea1fc068f8e80c91d211"
+    },
+    {
+      "path": "assets/js/reef-calculator.js",
+      "bytes": 71420,
+      "sha256": "20295d77fc75684b172f7efb0550a3efbb062721ea847ff6320398afcaaa26e2"
+    },
+    {
+      "path": "assets/js/site-data.js",
+      "bytes": 8726,
+      "sha256": "31c32b17f729af8f61d012a72f38b797cb8d39841f745a18cfe0c079d5d86295"
+    },
+    {
+      "path": "assets/js/site-nav.js",
+      "bytes": 4867,
+      "sha256": "7d25a1fcf603482abb32a129f1456665e43ff78ef7528672fa6bff1aa6a0bad8"
+    },
+    {
+      "path": "boundaries.html",
+      "bytes": 5544,
+      "sha256": "9c9546cc3fc0c8c8edc65b0459d1302b19db1a9ea5a22ed536153703b63d21d7"
+    },
+    {
+      "path": "builders/boundary-check.html",
+      "bytes": 6415,
+      "sha256": "ea6d04251cc36fefcfd90470addd79a2d83fd7347f1c850b9308e6e5eb3aa723"
+    },
+    {
+      "path": "builders/boundary-check.md",
+      "bytes": 1183,
+      "sha256": "3e053ecfcc28233b5c9d9be880918af30becbfa44ef04ad67c2b3e54dbb366f7"
+    },
+    {
+      "path": "builders/entry-trail.html",
+      "bytes": 5760,
+      "sha256": "430652875b254eb0a36e05b6b9478f02eaec2abd8406bfbba2837280a14bf5e1"
+    },
+    {
+      "path": "builders/entry-trail.md",
+      "bytes": 909,
+      "sha256": "96908332a50c156360541fcded5eb009648d80443968b17576f3f051eedc2100"
+    },
+    {
+      "path": "builders/index.html",
+      "bytes": 5943,
+      "sha256": "f004f525aa43376bc67b00967792dd61f5beb3147b59ae0de168ac51acb734a7"
+    },
+    {
+      "path": "builders/marine-no-turbine.html",
+      "bytes": 7312,
+      "sha256": "dc165fe1289989b834f28451ac188d016fb3bee9a0a075d6eb5d9b41c76523ba"
+    },
+    {
+      "path": "builders/marine-no-turbine.md",
+      "bytes": 1510,
+      "sha256": "38856f2fd2e36f86f2f0273dd04a9d140040da3043c9a70ead1f8d47414ca47d"
+    },
+    {
+      "path": "builders/perched-lake-boundary.html",
+      "bytes": 7067,
+      "sha256": "6daa0fe94c24d58c893772e1e2cbbf1828a95a001e237b66ee44da7a6d20bd94"
+    },
+    {
+      "path": "builders/perched-lake-boundary.md",
+      "bytes": 1443,
+      "sha256": "4428d587e20045cb4983a2eccb0af4506955ec80ebab2360db3f2d015bd476e6"
+    },
+    {
+      "path": "builders/power-sharing-ledger.html",
+      "bytes": 6730,
+      "sha256": "a0a16003f3f6d27c10e461f81d73c2e91f7788b50c55e780bd82bce72822a918"
+    },
+    {
+      "path": "builders/power-sharing-ledger.md",
+      "bytes": 1329,
+      "sha256": "3129dd917dee0d5217b63f5aacf33c6b97362bb2b50dcb4ecb4a4c0a4ea5967a"
+    },
+    {
+      "path": "builders/sand-air-storage.html",
+      "bytes": 6886,
+      "sha256": "57ad9f38e712c121c8ac3783853fa61d702c72f518fc939bd5f3d81822e6eef2"
+    },
+    {
+      "path": "builders/sand-air-storage.md",
+      "bytes": 1409,
+      "sha256": "851a436f72d8a846a5f9e176c9209a2252c7937ae5b64cc900037faceaea98a1"
+    },
+    {
+      "path": "builders/solar-rooftop-note.html",
+      "bytes": 6485,
+      "sha256": "9e8c9ef13b5e16c4660afeadaeed790472375a1c0b8bc3d5ba6389e00fc11a4b"
+    },
+    {
+      "path": "builders/solar-rooftop-note.md",
+      "bytes": 1234,
+      "sha256": "0470e0edafd285b9fa1cec7c6d217885492efb7b45af5010eef0727a2fa44d43"
+    },
+    {
+      "path": "builders/wealth-grant-readiness.html",
+      "bytes": 6555,
+      "sha256": "9c59a098e87552049d35d1fd98dddfc94b5d39fccb6ec377440674c15174786d"
+    },
+    {
+      "path": "builders/wealth-grant-readiness.md",
+      "bytes": 1213,
+      "sha256": "e646597b977adcae98bf19328d0fd1f12737f7a8883f2ea016d332835b1b39c2"
+    },
+    {
+      "path": "docs/public-post.md",
+      "bytes": 2546,
+      "sha256": "d186ecd70199d4e624f937c68c40030c64c53af6cd520a6b8e043e4284963323"
+    },
+    {
+      "path": "docs/site-map.md",
+      "bytes": 6943,
+      "sha256": "fb87e6453e01e163280c31c5d71e850b1b8adfd90912276e1c626092c6c957e0"
+    },
+    {
+      "path": "docs/source-notes.md",
+      "bytes": 21722,
+      "sha256": "3b3742d5a8d8390404c95e8a8092f2c147a30daf30914a096eea82870e2e379c"
+    },
+    {
+      "path": "hydrogen.html",
+      "bytes": 6984,
+      "sha256": "36bae30b8f37794ac3e805642d2f981ae2eff1249a6714e4d5f8aca84c7e72ea"
+    },
+    {
+      "path": "index.html",
+      "bytes": 13567,
+      "sha256": "223b02bca728030b8484a484ae3e8566ada3862a6ca9a511484ef8e1f6230640"
+    },
+    {
+      "path": "licence.html",
+      "bytes": 4710,
+      "sha256": "8ea316da90168c765e24ca163bf61cda230c9af465061e37c429bcf73e672cc4"
+    },
+    {
+      "path": "marine.html",
+      "bytes": 7858,
+      "sha256": "53a109cb2769a4be570b06a3f57ebb0afe5bc4a383a554083e491866430eb61f"
+    },
+    {
+      "path": "network.html",
+      "bytes": 10023,
+      "sha256": "5a5981a742d9b623004b6e2db93230ae11d59ef50fa4c5f0f768695afad45212"
+    },
+    {
+      "path": "options.html",
+      "bytes": 11736,
+      "sha256": "5bc8e478cf24b6e2b0fea8396e99ade52c3b889c9638d0248386c3c7f3a8d648"
+    },
+    {
+      "path": "reefs.html",
+      "bytes": 28681,
+      "sha256": "732649a2b9363ca167c13f85e6ef69ea77ced9a65e52afa61fd6d6bee60dccc1"
+    },
+    {
+      "path": "sharing.html",
+      "bytes": 9035,
+      "sha256": "7c71ca6ea98842e1e930698a40c784c1f3693c2c41854f8fe83e0657e13681f2"
+    },
+    {
+      "path": "site-map.html",
+      "bytes": 16318,
+      "sha256": "b4e88792899c72681aaf06248b58b160dd5c1823f89f4e28fbbaca661066d601"
+    },
+    {
+      "path": "solar.html",
+      "bytes": 5578,
+      "sha256": "57173cc6400f1d6cbad135127307ae34a83dc788035d969775b34da7485bb3f5"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 43166,
+      "sha256": "73cfd9af99feba59571b2bcea1277988c467282273861724931b969caddb79f3"
+    },
+    {
+      "path": "storage.html",
+      "bytes": 8343,
+      "sha256": "3bb9299feee76464ce5c23b257e40521c76891634f93872ca7e56d25ceff5a38"
+    },
+    {
+      "path": "tools/build_site.py",
+      "bytes": 143250,
+      "sha256": "b69c1ef29f57db115683f65a8cfe5bc24c83deb79436957746692699634052ee"
+    },
+    {
+      "path": "tools/optimise_images.py",
+      "bytes": 1749,
+      "sha256": "3513438f7852e5205438422af599dcf2b64b1fe5bc87dccdfaf365c49884f7e5"
+    },
+    {
+      "path": "water-height.html",
+      "bytes": 7586,
+      "sha256": "3efa828ab51970d2b63e8aeefbd478e08acca5607cbf53b2678824f7615181fd"
+    },
+    {
+      "path": "wealth.html",
+      "bytes": 6323,
+      "sha256": "51f71c2518b61b1ba282b947c0fdc185df7c8d54a9fe1b13f0a9ad2c09b0f2e0"
+    },
+    {
+      "path": "wind.html",
+      "bytes": 7097,
+      "sha256": "590d3504b94a247bac0c77a763547ad4b08c17b1b9bc141e36a7ddb8482de157"
+    }
+  ],
+  "files_sha256": "0b115e9ac4148f8bb66c665745eab617dc6eb2b8e0b0f22705e415939a5b18a7",
+  "file_count": 65,
+  "source_bytes": 3426430,
+  "excluded": []
+}

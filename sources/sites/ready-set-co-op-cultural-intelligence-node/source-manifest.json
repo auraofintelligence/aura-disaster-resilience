@@ -1,0 +1,403 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
+  "slug": "ready-set-co-op-cultural-intelligence-node",
+  "capture_started_utc": "2026-10-20T08:00:21+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:23+00:00",
+  "source_version_start": {
+    "head": "34bf9d82147eb0f3d99b2f2bab176de961ff3c27",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "34bf9d82147eb0f3d99b2f2bab176de961ff3c27",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 37,
+      "sha256": "1006a3d2e3fd7ab008f22ae7e879c88970375f90cd83e81621966bf3d09e8ed5"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 3444,
+      "sha256": "273e5a2b48a0e285d3e6dd63951435900cbe1f8609699635ddd8929c0df17ae0"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2458,
+      "sha256": "d5605bfaefe2defeda57284a432a7013054fb3316aded6ea06b1fe01c8efa7a9"
+    },
+    {
+      "path": "GITHUB-ABOUT.md",
+      "bytes": 463,
+      "sha256": "00c788e8fb370d7fd8e6a6cc6098d3c53a594f6cec5b763dca0424241cc79072"
+    },
+    {
+      "path": "IMAGE-PROMPTS.md",
+      "bytes": 3673,
+      "sha256": "2eb270f46f6b12de082565ea4e11bb593a03d715ad8856355c572a0d1833278d"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 3026,
+      "sha256": "eba04f05a3c10f87bd59524ba554e5a8ec7aec6a93c78d232b920382e5def506"
+    },
+    {
+      "path": "PUBLISH.md",
+      "bytes": 650,
+      "sha256": "3369034e1e5c065219b8604c8941860b9710ac0299e8452c522c8f9f9147b224"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4636,
+      "sha256": "279f0874cf6db7c3cdcaacefa8417f72cdd2e62e5e1c23b01935e02045f6efca"
+    },
+    {
+      "path": "assets/apple-touch-icon.png",
+      "bytes": 36739,
+      "sha256": "b940db1a64a52caf4fc485363ee98fdaf87c97e6cb6d3c28510e31cc4c2092e7"
+    },
+    {
+      "path": "assets/favicon-192.png",
+      "bytes": 41890,
+      "sha256": "159de14083198b73ac135c3225304dcbf0230d41b6eec45c7b30dd9d93263a3c"
+    },
+    {
+      "path": "assets/favicon-32.png",
+      "bytes": 1589,
+      "sha256": "7f17b3a881a069a3a62c1becb813a6bad3114fd90d91401b689dc5f31313b923"
+    },
+    {
+      "path": "assets/favicon.png",
+      "bytes": 1411429,
+      "sha256": "3e24cc32fced648b2432ce942aa4b265961942501ffab832ec83bed4aa24b23b"
+    },
+    {
+      "path": "assets/heroes/cooperative.webp",
+      "bytes": 242972,
+      "sha256": "4e925ce13c2add2c4a1adc2db49d58c6567907c06f52cc69e9df213449902047"
+    },
+    {
+      "path": "assets/heroes/culture.webp",
+      "bytes": 190700,
+      "sha256": "b57a3f20e2bd39036de220771b9e24522201bc808d5c73f1e271aef9beb0b613"
+    },
+    {
+      "path": "assets/heroes/digital-twin.webp",
+      "bytes": 256622,
+      "sha256": "70318172a352cd22ab3ba4a4f9b6c098a19eff291fb44eb27ec28404383bc55f"
+    },
+    {
+      "path": "assets/heroes/dunwich.webp",
+      "bytes": 395718,
+      "sha256": "e3af99747565772468312ca5132c51693a128878bf45ab2fbdc2274f0a1f45ad"
+    },
+    {
+      "path": "assets/heroes/home.webp",
+      "bytes": 208654,
+      "sha256": "b209fd0ccdd6e14dfe35748b1228c32de5ae26cae5470269c3ac4e04835e2f76"
+    },
+    {
+      "path": "assets/heroes/network.webp",
+      "bytes": 237380,
+      "sha256": "3182c148e94684633021704a966317786bfc436b8b79c31497374c131289990f"
+    },
+    {
+      "path": "assets/heroes/node.webp",
+      "bytes": 141610,
+      "sha256": "4893995c171d98ec73f8bcda575c316540424647f4859d361b93bd22fee1f796"
+    },
+    {
+      "path": "assets/heroes/not-found.webp",
+      "bytes": 165322,
+      "sha256": "36b6d019a93a36dfd4d7981a6895ee2f0f5bb78ff43700dab451b7c14c6fe57f"
+    },
+    {
+      "path": "assets/heroes/process.webp",
+      "bytes": 185996,
+      "sha256": "5c01b82e5dc40d8c6f9ecae31caf431fa8c420f5c06bd854991d341daf3d4dd6"
+    },
+    {
+      "path": "assets/heroes/projects.webp",
+      "bytes": 291054,
+      "sha256": "b1fae48441e09a036d981306199e19e7d0dc47d789f17b0257ec9447077e2abf"
+    },
+    {
+      "path": "assets/heroes/sitemap.webp",
+      "bytes": 326478,
+      "sha256": "25d670b7134daa0495bf87f03339050c614e4ce422bad14ad43848e62571c3fa"
+    },
+    {
+      "path": "assets/heroes/uses.webp",
+      "bytes": 284738,
+      "sha256": "c022da23fcae604573b6d8e0f038e425dd0ab6e54f5162683edef41131477c4f"
+    },
+    {
+      "path": "assets/projects/ballow-road.webp",
+      "bytes": 204356,
+      "sha256": "bc32cc66634bec77202cc050963cb1223769a4f45267760cda785e586a9d27d8"
+    },
+    {
+      "path": "assets/projects/clean-energy.webp",
+      "bytes": 253020,
+      "sha256": "71d90cca388994fe1db8b1abdc94da3f566e3e5f441057cfa8bcc051c3d1521c"
+    },
+    {
+      "path": "assets/projects/community-ledger.webp",
+      "bytes": 146478,
+      "sha256": "ff29d22fda994dd731694fc1cb70f67a20c2489cce7bdc680011baabf0078508"
+    },
+    {
+      "path": "assets/projects/community-wealth.webp",
+      "bytes": 264212,
+      "sha256": "d277ef8305eb57fbde8aa784df40bee8603f3e638bf9544aa234afdf2f32fbd5"
+    },
+    {
+      "path": "assets/projects/events-engine.webp",
+      "bytes": 276544,
+      "sha256": "4f90a565fb8ce40d9a07d33bdd1c62e00bfa3302c37aac7a3dccf10d09d45a0b"
+    },
+    {
+      "path": "assets/projects/extreme-matter.png",
+      "bytes": 172004,
+      "sha256": "adcf201e5c5f373631947a0665338a692888d026f37530ec0374a5815b6d0d1c"
+    },
+    {
+      "path": "assets/projects/grain-by-grain.webp",
+      "bytes": 170960,
+      "sha256": "4bcf89fc8a247da0144d704899b410effff55b36f4993ee5e0d1fcafb05af9dc"
+    },
+    {
+      "path": "assets/projects/gumpi-terminal.webp",
+      "bytes": 212826,
+      "sha256": "934a70ed1ae4251add7183820b48e177b482ccafde6322665bc52accc2f5b695"
+    },
+    {
+      "path": "assets/projects/infinity-engine.png",
+      "bytes": 72412,
+      "sha256": "62d8477cc8950e5df29990f7c618d915fd78c1caacb46a1fc5f22a199667b0fb"
+    },
+    {
+      "path": "assets/projects/legal-engine.png",
+      "bytes": 72229,
+      "sha256": "4ca6fcc8701aad71224f43f9b6e6d26928b3590020c6abe889d71e5df9b3397e"
+    },
+    {
+      "path": "assets/projects/makerspace.webp",
+      "bytes": 392662,
+      "sha256": "dbee370b0a049a2d9a895285f2167b2dc4c1b34e804ffc91c924014d4aef4848"
+    },
+    {
+      "path": "assets/projects/media-network.png",
+      "bytes": 2017763,
+      "sha256": "fc62973582a0bb0e79188053b9441bcf12e856bec7004b249363ec9a5641c79b"
+    },
+    {
+      "path": "assets/projects/music-universe.webp",
+      "bytes": 28646,
+      "sha256": "2eea3fa59933c948a90bdfb79c9e7adafc219d2fe45f7a9121123e4ca0537f98"
+    },
+    {
+      "path": "assets/projects/sandworm.webp",
+      "bytes": 218714,
+      "sha256": "b5e83724e74d436a8cc49a2408fca6d1db58891b935f34f58604bd7ef4fc9182"
+    },
+    {
+      "path": "assets/projects/sandy-sports.webp",
+      "bytes": 165348,
+      "sha256": "f12699d2490f29379512a707fb882aebc48162d14a8eba1978a492f901748b87"
+    },
+    {
+      "path": "assets/projects/tip-loop.webp",
+      "bytes": 312898,
+      "sha256": "a8b0ac465d43306ea9a34fd31973f27e7df027b2896f34a4236da4ac09718591"
+    },
+    {
+      "path": "assets/projects/trust-hub.webp",
+      "bytes": 68054,
+      "sha256": "ce3337e30c98451afd82d19c516d263ffac5503e9084edd745ba12dbf0261653"
+    },
+    {
+      "path": "assets/projects/twin-builders.webp",
+      "bytes": 169062,
+      "sha256": "23a8502bcf92a2e744b10d438a9acfc35189a0fe23f7139ebd08db625a0115e1"
+    },
+    {
+      "path": "assets/projects/wildlife-rescue.jpg",
+      "bytes": 71006,
+      "sha256": "dbf85444c0cab7ed6df37ca91a2a2c48b3a4054f1b1cd93f748ca4bc263a5850"
+    },
+    {
+      "path": "assets/site.js",
+      "bytes": 9734,
+      "sha256": "1db9f1f873f494640cedf53fd6df58ad66d4a39c2fa5b2bddfdb677db95a970c"
+    },
+    {
+      "path": "assets/styles.css",
+      "bytes": 70700,
+      "sha256": "ac75dea37ac6229acb3bdab86313368829507d00ab5d2a7b92fc602e5d6db458"
+    },
+    {
+      "path": "cooperative.html",
+      "bytes": 7204,
+      "sha256": "388ed474d1ca5caaee466911d939c1dd3104057db2d56cfe0584a6d99ae3fdb9"
+    },
+    {
+      "path": "culture.html",
+      "bytes": 8949,
+      "sha256": "6ea2af7272bf7dd8cadb819133956e83fa04e903032181ce5837d4f7ae4757f0"
+    },
+    {
+      "path": "digital-twin.html",
+      "bytes": 12691,
+      "sha256": "98a05664c42a04a496feb6f0cd7819f45a9ea29bd496e6ef6084c5384fc034ac"
+    },
+    {
+      "path": "dunwich.html",
+      "bytes": 13131,
+      "sha256": "73293f706b0c1132cac312d289ebd3aa37f4a27ceff0d0c2ad9c14710a339368"
+    },
+    {
+      "path": "index.html",
+      "bytes": 9965,
+      "sha256": "fa83147f47468753576593bfebc283251208b9610002009d69090661c3e9ba83"
+    },
+    {
+      "path": "model.html",
+      "bytes": 474,
+      "sha256": "c38727e19ab28f4be4f8fd507d6a03b4f789663079babe96dde7f748ecdcd747"
+    },
+    {
+      "path": "network.html",
+      "bytes": 6378,
+      "sha256": "0ab9a94b8f4271cdeba8003f85bd1ab2b994d472b3db6e9826d2c4ea7e395bb7"
+    },
+    {
+      "path": "node.html",
+      "bytes": 8105,
+      "sha256": "ca0aea324c733a2db2914c7d494b87ee2c011eb084e582c35dcf0ba30dc25a03"
+    },
+    {
+      "path": "package.json",
+      "bytes": 206,
+      "sha256": "b3a28da674925cd55e772268cd8988875c3a35e68680ba90fd51cc9e5f91c47e"
+    },
+    {
+      "path": "process.html",
+      "bytes": 10518,
+      "sha256": "a89829697f5173668643fbf642a3b0275ab07204f181b53a97d18eb85ed6886a"
+    },
+    {
+      "path": "projects.html",
+      "bytes": 20359,
+      "sha256": "1f69ebac19686388c9afb6f5d45a61dcf9334d96404e7c624af9ddb139e4f138"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 127,
+      "sha256": "59f57b7425626b7305a4414c850922b72e0f4b2f46aa7a8abce5b93dcb0973b1"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 82783,
+      "sha256": "f4b4333e16f6dd71acd27e9f1e27b511d167639d8117babffb7d13f43f6caaec"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 8734,
+      "sha256": "f8ca2cd63313a3cbbe1626860a590a464161285b4f4308888fa64884e7b40237"
+    },
+    {
+      "path": "scripts/convert-docx-to-md.py",
+      "bytes": 3734,
+      "sha256": "96d58dd448a9c55ab699667e2efe3daabb4cfcf387fd40bb53eb2b12b54e3aa3"
+    },
+    {
+      "path": "site.webmanifest",
+      "bytes": 563,
+      "sha256": "a30e67399eb4a5f641e0395c31b24c53ec046597bf1ab1d885a060c849db4ffe"
+    },
+    {
+      "path": "sitemap.html",
+      "bytes": 10465,
+      "sha256": "a2f381ea3e4d0f19a65caa89e9fbc744555239fc3c74bf57e9eef98a7f4e8deb"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 2754,
+      "sha256": "e990a769b99e6a511944c902b73c1996069477c0b3a06da96ee97135f9dbaed8"
+    },
+    {
+      "path": "supporting-documents/README.md",
+      "bytes": 1344,
+      "sha256": "d3bc47e956b0686459cd427f9d38d103a466c36bee07395e87ad2bdd84ce0128"
+    },
+    {
+      "path": "supporting-documents/a-fair-go-for-the-ai-age.md",
+      "bytes": 62070,
+      "sha256": "44b7439a3fb4a8c8759a48c099883f0ce2b7d1816a47c606cc83ee32bb96bdf1"
+    },
+    {
+      "path": "supporting-documents/aukus-public-inquiry-submission-2026.md",
+      "bytes": 11414,
+      "sha256": "3a652200bcccda2e2f09bd5c028053761cdc4dacb5a01c7611bb928a593e1fb4"
+    },
+    {
+      "path": "supporting-documents/do-not-put-all-our-eggs-in-one-basket.md",
+      "bytes": 67437,
+      "sha256": "c12b1bafad6840ea835c10a8d67d91dd648b9afb775c29953462841224bae347"
+    },
+    {
+      "path": "supporting-documents/fiji-australia-vuvale-union-submission-2026.md",
+      "bytes": 38369,
+      "sha256": "ad15d8996a78d2a7679cd6fd60831760533cc2e23056eb5667d4065acfed9db6"
+    },
+    {
+      "path": "supporting-documents/local-government-funding-inquiry-submission.md",
+      "bytes": 36631,
+      "sha256": "ac71b14806220ac4c06b3b7fc8c74a050e9ead1a9fb09dd4054eeee31550ea74"
+    },
+    {
+      "path": "supporting-documents/ocean-of-peace-alliance-veitacini-treaty-submission-2026.md",
+      "bytes": 15373,
+      "sha256": "4652eb0be023c8d88cd6a1ea6749026c0c998710511db11f68ebb6e2b7990628"
+    },
+    {
+      "path": "supporting-documents/senate-ai-and-data-centres-submission-2026.md",
+      "bytes": 14248,
+      "sha256": "b7e0205e5e39c1bd8858a7d3d7d956c6e6aaf67acecf8a3e409a23018ea21712"
+    },
+    {
+      "path": "supporting-documents/setco-2026-pitch-plan-revision.md",
+      "bytes": 30341,
+      "sha256": "00ffda8789b63a97fa7c8833708983b06678084b2dda90f59b50c23242ea54e1"
+    },
+    {
+      "path": "uses.html",
+      "bytes": 7548,
+      "sha256": "ac0206be769f50cc8110dc5b38150184485bfef825aaa102fe0e5273f92f55f3"
+    }
+  ],
+  "files_sha256": "a69996623b3377b2e39b4795988c92c872b9ecbecb2147b968aac53d50b67b3f",
+  "file_count": 74,
+  "source_bytes": 10298821,
+  "excluded": []
+}

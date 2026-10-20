@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/sandworm-subterranean-systems",
+  "slug": "sandworm-subterranean-systems",
+  "capture_started_utc": "2026-10-20T08:00:24+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:25+00:00",
+  "source_version_start": {
+    "head": "bbddf4073a66526b90ad25451330a988a75d7b14",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "bbddf4073a66526b90ad25451330a988a75d7b14",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 91,
+      "sha256": "e1379efcf3317232204171dad71e6050206d35ac37e8dd94420a429f4dfb62ba"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3629,
+      "sha256": "f9b2c605ba281545c3c8088d8ef43f2aa9c9d92cf78f13e178b38526b189ca9c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5116,
+      "sha256": "8d00910e1a5b00f12e255cd40490747901ec2207a429a9768b4527f3242a07c1"
+    },
+    {
+      "path": "assets/css/styles.css",
+      "bytes": 16426,
+      "sha256": "91862826c0fcb51b1dc670fbdda90a2ea17461f9fe9deef4bf5ddb17c5e0c69a"
+    },
+    {
+      "path": "assets/img/concepts/sandworm-subterranean-systems-concept.png",
+      "bytes": 3030846,
+      "sha256": "7e490dce426084646bfae6d3f3a0112b7474ee6f09b4fe710cb55dcda3439fcf"
+    },
+    {
+      "path": "assets/img/favicon.svg",
+      "bytes": 540,
+      "sha256": "a5c9b638c09ad2eb79861aec275ea37b790fb8083f3426dce96dc6c22296e5a5"
+    },
+    {
+      "path": "assets/img/heroes/boundaries.webp",
+      "bytes": 110982,
+      "sha256": "df407307e150a5ff3a7f5642e43dbfa11bc5b9f9ba630e2983010a12fee26423"
+    },
+    {
+      "path": "assets/img/heroes/builders.webp",
+      "bytes": 85326,
+      "sha256": "89ae22e739fa71f31b6bfac39acdd749f96e3ae528636aa6e4998c7536981121"
+    },
+    {
+      "path": "assets/img/heroes/film-case.webp",
+      "bytes": 90854,
+      "sha256": "9dbff71288b9acec3e3459e719d1bc88e68570b474db19a761a3ab45fd683ad5"
+    },
+    {
+      "path": "assets/img/heroes/gumpi-terminal.webp",
+      "bytes": 180618,
+      "sha256": "84bee960a015129a9cf482cc2f76c361fa7b2520d2daade80c76cc6c3f5bba07"
+    },
+    {
+      "path": "assets/img/heroes/home-system.webp",
+      "bytes": 218714,
+      "sha256": "b5e83724e74d436a8cc49a2408fca6d1db58891b935f34f58604bd7ef4fc9182"
+    },
+    {
+      "path": "assets/img/heroes/reef-energy.webp",
+      "bytes": 198522,
+      "sha256": "8328e1ab70cde2686099c6490f7ea4b650e01007d3f373197309d3c62183813f"
+    },
+    {
+      "path": "assets/img/heroes/sources.webp",
+      "bytes": 102846,
+      "sha256": "4dc8953018c96c2caaf33f4b5b0af775b26a0e616fca161575ce6f09a3f1a86d"
+    },
+    {
+      "path": "assets/img/heroes/spoil-loop.webp",
+      "bytes": 253356,
+      "sha256": "c56ead6c52b3a6c849225c4ba764bf4af161926bf3cf97b0213831a48ecf2f62"
+    },
+    {
+      "path": "assets/img/heroes/twin-layer.webp",
+      "bytes": 197682,
+      "sha256": "423c9ab5c9cca9e1d8fe770f37d3f2ec06561e9386815960e828d342d902ac3f"
+    },
+    {
+      "path": "assets/img/heroes/wealth-hours.webp",
+      "bytes": 174082,
+      "sha256": "e4257e79bb0b9bae7a46ad41168b79cc908859caafadd7a7c247c3d9698ec5f5"
+    },
+    {
+      "path": "assets/img/heroes/why-dig.webp",
+      "bytes": 173734,
+      "sha256": "e11d6726fe975cc83b1918da36dabe971bf3b01e4a92e82d959f2b2b7bd0878e"
+    },
+    {
+      "path": "assets/img/sandworm-subterranean-systems-hero.png",
+      "bytes": 3030846,
+      "sha256": "7e490dce426084646bfae6d3f3a0112b7474ee6f09b4fe710cb55dcda3439fcf"
+    },
+    {
+      "path": "assets/js/form-builder.js",
+      "bytes": 4636,
+      "sha256": "9d36d3627c95f400ba18a4bc47715b801a1116791234b7dd9f4c294525838823"
+    },
+    {
+      "path": "assets/js/site-data.js",
+      "bytes": 7935,
+      "sha256": "688ce5062bee49a534b06c088547cb39bdf49915d83c3da8d38285c10fe0bc9c"
+    },
+    {
+      "path": "assets/js/site-nav.js",
+      "bytes": 5111,
+      "sha256": "b9aa8d39c33e7be564ad3b6ee0a6dd487c8dbb9fcb16555286f57d9024e35d68"
+    },
+    {
+      "path": "boundaries.html",
+      "bytes": 5224,
+      "sha256": "c56502200155f2ae9edbc99696b1b637084f0341306eb0928aac4b24c0e1cd14"
+    },
+    {
+      "path": "builders/boundary-check.html",
+      "bytes": 10562,
+      "sha256": "d10203f3369517db41aedd40b0c3075394785500fbc701ea89af4bbbccaf489f"
+    },
+    {
+      "path": "builders/boundary-check.md",
+      "bytes": 2874,
+      "sha256": "5fb7651dbcc31d4353dbf0f2fa19b9f946b6f85bc5aee0573a08b809118e7e0e"
+    },
+    {
+      "path": "builders/digital-twin-brief.html",
+      "bytes": 10602,
+      "sha256": "3fc3daf2936223b6a2b789c895502b1c774137be741b29afc3dbebba74ad8674"
+    },
+    {
+      "path": "builders/digital-twin-brief.md",
+      "bytes": 2941,
+      "sha256": "2b4abeba971b75f2c419f58f6ce95afee2c8134a43fc65b713acc62df5f16aa8"
+    },
+    {
+      "path": "builders/entry-trail.html",
+      "bytes": 10208,
+      "sha256": "206b5fff5b6238d5b714a133b35e046ae35e41878442ad499d03344dd94f7b1b"
+    },
+    {
+      "path": "builders/entry-trail.md",
+      "bytes": 2789,
+      "sha256": "4ef6203d1c244e7b138131a96138ab62cc597d9f30377dc4ed7c199efed04d12"
+    },
+    {
+      "path": "builders/film-documentary-trail.html",
+      "bytes": 10687,
+      "sha256": "1bf2ec18b8ea24b4df5f5e24957e05d61ecd8900f6accaa3d003575e85b21bf1"
+    },
+    {
+      "path": "builders/film-documentary-trail.md",
+      "bytes": 2962,
+      "sha256": "ad05d1bd4d3fcf629ec77e39b0fb719da403d9e0226480ac52ad3a8a01171978"
+    },
+    {
+      "path": "builders/index.html",
+      "bytes": 8750,
+      "sha256": "0e0ebb0a02449dcf3436269041c00af0403b471808a7f1cd879eeae61edc9bb7"
+    },
+    {
+      "path": "builders/maker-space-brief.html",
+      "bytes": 10735,
+      "sha256": "ecf5f3df06393d40e6cee093df16291171bde582c299d3a19247c871ff66c612"
+    },
+    {
+      "path": "builders/maker-space-brief.md",
+      "bytes": 3046,
+      "sha256": "9aad5369649f9e7253a487a38981832f6f01b2d8fa7a61e1a4df6a8bf8f442e3"
+    },
+    {
+      "path": "builders/reef-energy-brief.html",
+      "bytes": 10650,
+      "sha256": "3aac8a4efdbe95c213495613496ba89b7ce43011c6eec6124f3fe685af2ac76c"
+    },
+    {
+      "path": "builders/reef-energy-brief.md",
+      "bytes": 2987,
+      "sha256": "4b7d2d6595ae2a016d82f65c2706dea62476bab3035f7b9f984d28ee296c090c"
+    },
+    {
+      "path": "builders/sandworm-experiment.html",
+      "bytes": 10481,
+      "sha256": "3ca99755431dcdfc78f7dd6143e37bf26bc295c98c1b9143734d61248220c031"
+    },
+    {
+      "path": "builders/sandworm-experiment.md",
+      "bytes": 2916,
+      "sha256": "4e2aa3238804e7409f69c8dde3af4fbdbee0575e669f5d202c44d2e447d9e207"
+    },
+    {
+      "path": "builders/source-trail.html",
+      "bytes": 10487,
+      "sha256": "3ce93655f409d888be27d7defef496a9b107dc2203f351ed08df461bee9a7642"
+    },
+    {
+      "path": "builders/source-trail.md",
+      "bytes": 2912,
+      "sha256": "138c75b7bf10cf268f83688ad068cedbd702945a3143e39452e6348c1990de45"
+    },
+    {
+      "path": "builders/spoil-loop-brief.html",
+      "bytes": 10629,
+      "sha256": "860d73efd0e65753ac6e807265f31f3c1a5683fc7dedcfa54978190f75e9c93f"
+    },
+    {
+      "path": "builders/spoil-loop-brief.md",
+      "bytes": 2938,
+      "sha256": "287f57763f92253c077b28f0af055ace1d353042378f18debd7ae85a68c33b27"
+    },
+    {
+      "path": "builders/wealth-stewardship-brief.html",
+      "bytes": 10705,
+      "sha256": "df1d4c0cb214bec1328aa647a6ce89352d6e362902899662984dd4bd9e5055ad"
+    },
+    {
+      "path": "builders/wealth-stewardship-brief.md",
+      "bytes": 2995,
+      "sha256": "468f1ec92df773aa6c15d59f5d03bcf5fb1089323fcbf9e9576bc743c3a3a92c"
+    },
+    {
+      "path": "civilisation-of-sand.html",
+      "bytes": 5428,
+      "sha256": "ed4c9f866f4b2a791d86f8cdef95ccd183997c5060a36321dd975dfe536ffb0b"
+    },
+    {
+      "path": "digital-twin.html",
+      "bytes": 5312,
+      "sha256": "d5d84dab914de4ee637759fcec7a47d3a0b0b8dd4abecaea1a275b62d1a1627e"
+    },
+    {
+      "path": "docs/site-map.md",
+      "bytes": 6100,
+      "sha256": "dcf14f9360ca4dec083a46eff656f903cb28f987b5729e4f11f8a9ec10587765"
+    },
+    {
+      "path": "film-documentary-trail.html",
+      "bytes": 5510,
+      "sha256": "4bd7d77909e1023ff789d628c44fd188111a31b51f2ea75aca188db69e8614fa"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8260,
+      "sha256": "35dcfba8f4397b8a0c45d133d7f808fca665c38f73c2af2393689f648f6df512"
+    },
+    {
+      "path": "licence.html",
+      "bytes": 4698,
+      "sha256": "6809b1c776a0bc4687fe5e703f4a3939aee06009fc0396d2da9a71e5f79cc360"
+    },
+    {
+      "path": "makerspace.html",
+      "bytes": 7783,
+      "sha256": "59cd9349ea51127bcea34b36b5c2e12c26bead5242cb974069af3428ee23ed74"
+    },
+    {
+      "path": "sandworm-lab.html",
+      "bytes": 5709,
+      "sha256": "517ebe70fa3b1fcbe2ac3f9b1d8575a205a007ceb6263c8182685c040dc20667"
+    },
+    {
+      "path": "site-map.html",
+      "bytes": 15704,
+      "sha256": "65f2376c1abf884d20f1514ebba4e039e05857ac9031c13292e25ec89761e2bc"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 12784,
+      "sha256": "0ac77c6eb627700eb2b75293041cccb1b6b19c37448445c8dd19625a957b3af8"
+    },
+    {
+      "path": "start.html",
+      "bytes": 5645,
+      "sha256": "00f014c56fea811c3ff85c9cd2c4726e28aed32526d0137198d6e5caccb20e1c"
+    },
+    {
+      "path": "tools/build_site.py",
+      "bytes": 70925,
+      "sha256": "68ee17f8ca37fcb29f6bca29c922db2a8b1315f4f2a459c034a37837dcfbbeee"
+    },
+    {
+      "path": "wealth-fund.html",
+      "bytes": 6175,
+      "sha256": "417d994fd0ebb861f8f08c39aa8e31924f113945e291b34ba95ba7c083814b8b"
+    }
+  ],
+  "files_sha256": "35532f77471bc2eb6497dbd20a0c4eb9f503a98e20bdaa674b51c70b84d8cbcf",
+  "file_count": 57,
+  "source_bytes": 8201007,
+  "excluded": []
+}

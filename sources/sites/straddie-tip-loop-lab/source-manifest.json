@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/straddie-tip-loop-lab",
+  "slug": "straddie-tip-loop-lab",
+  "capture_started_utc": "2026-10-20T08:00:37+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:37+00:00",
+  "source_version_start": {
+    "head": "d77d97464533e75c6798ae334c21556c7f28be6e",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "d77d97464533e75c6798ae334c21556c7f28be6e",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 36,
+      "sha256": "f5f86c54d2e28c75733ea29ae4e5077c1a78bf04c021f473caca181444154ca6"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3605,
+      "sha256": "f79f51ba0c6b7f43fd59929d0a89d619fded6e3c757db370d6a6eb6c7a514a5c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4129,
+      "sha256": "d7c11ee3b233673100212184930a6c48f6d67ae21303870a581ab16887743e46"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 3774,
+      "sha256": "b41d2d17c3b63ce653be899e0720c94de5063b87ab6eb47079007616f9bf6b86"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 686,
+      "sha256": "02a24ebec3ab0d769dc79c5bff39379b84fc3aba9e0963ff721f13f7e3f8d4b4"
+    },
+    {
+      "path": "assets/img/heroes/ecosystem-links.webp",
+      "bytes": 156088,
+      "sha256": "f7f997e8e74fa82b79b8cf6940613770a7199abfa5c46783790b7937be32fce4"
+    },
+    {
+      "path": "assets/img/heroes/field-records.webp",
+      "bytes": 92934,
+      "sha256": "ecfeb72b14f333a27fba25530644bf7c84224e8d0f2a4ee1fd344af81da8f013"
+    },
+    {
+      "path": "assets/img/heroes/governance-evidence.webp",
+      "bytes": 93568,
+      "sha256": "410b2b11362066c7dd070ace52b0ef1eeb8c646c94d2cf6ea2ddf54eb80f4181"
+    },
+    {
+      "path": "assets/img/heroes/home-reuse-depot.webp",
+      "bytes": 312898,
+      "sha256": "a8b0ac465d43306ea9a34fd31973f27e7df027b2896f34a4236da4ac09718591"
+    },
+    {
+      "path": "assets/img/heroes/lawful-loop-design.webp",
+      "bytes": 202998,
+      "sha256": "e5356c792705a25544e588d186468e9a275b07dd5318d9cb0396d64ee7142ac8"
+    },
+    {
+      "path": "assets/img/heroes/material-streams.webp",
+      "bytes": 165986,
+      "sha256": "2e5e346905e8cc94801fbc01bccd18cc16f48b6474f802be9a88894b20a9c015"
+    },
+    {
+      "path": "assets/img/heroes/microfactory-tools.webp",
+      "bytes": 136818,
+      "sha256": "08dd8f93d04ec633847a5e7db742e014c7e1b6aeda7ae6b23047f32791883446"
+    },
+    {
+      "path": "assets/img/heroes/sources-trail.webp",
+      "bytes": 107374,
+      "sha256": "713e64f8f0b5c95e8ad7c98d8f72088d23708cca3d93893d72e3ecc5f1d62058"
+    },
+    {
+      "path": "assets/img/previews/cubes/ballow-road.webp",
+      "bytes": 4270,
+      "sha256": "84330a5dec6da9a06006be79301901b38d6a016d8a5dee9b2eaf1c7b1cfc6a0d"
+    },
+    {
+      "path": "assets/img/previews/cubes/civilisation-sand.webp",
+      "bytes": 6076,
+      "sha256": "adf61600916771dc75296a3f7e03a9a80b6e352de7ba9f71c40f52db36a8d2c9"
+    },
+    {
+      "path": "assets/img/previews/cubes/clean-energy.webp",
+      "bytes": 7226,
+      "sha256": "956cd8d1a0634936ac9c99a20a21bb9e79bb2899f2a67db31b19c996e5439fe6"
+    },
+    {
+      "path": "assets/img/previews/cubes/ferry-terminal.webp",
+      "bytes": 2282,
+      "sha256": "cacba79242b7a722e36452c7d83252d28f0b02535f9deb71a727fb1b33eccdda"
+    },
+    {
+      "path": "assets/img/previews/cubes/grants-lab.webp",
+      "bytes": 2522,
+      "sha256": "c013573e7de5dfc9cc15436f0114b835db67d06d995740216bab5a806ab652c8"
+    },
+    {
+      "path": "assets/img/previews/cubes/legal-memory.webp",
+      "bytes": 1016,
+      "sha256": "cba9917b47345f9f785266ab293a1c48f71e3535e461e9a7ca38fc2794010802"
+    },
+    {
+      "path": "assets/img/previews/cubes/maker-space.webp",
+      "bytes": 7946,
+      "sha256": "ca1f30a5d7b0697c600df5bebfc9501dcd7d795c80c144b0de866b9749fd1c99"
+    },
+    {
+      "path": "assets/img/previews/cubes/mineral-supercomputers.webp",
+      "bytes": 5272,
+      "sha256": "a9e757ca44694d608fbd46faebd814c5ca343c2bf49c187f13418e696c683d1a"
+    },
+    {
+      "path": "assets/img/previews/cubes/noticeboards.webp",
+      "bytes": 8034,
+      "sha256": "bb9b5c071eccf0a1b6eeab897dd0c10fb21b1c4b435f40c7c382ddeab62410d1"
+    },
+    {
+      "path": "assets/img/previews/cubes/p4a-architecture.webp",
+      "bytes": 5324,
+      "sha256": "36efe09776c4e17b98a9dfebfcc9d9fe76dab8ec6b6abe8b16f0bba867590af0"
+    },
+    {
+      "path": "assets/img/previews/cubes/sandworm.webp",
+      "bytes": 6286,
+      "sha256": "5c686defe0b58a82fc822b1b950bbdfced361b916c00e60b7eb6bda346f84766"
+    },
+    {
+      "path": "assets/img/previews/cubes/trust-hub.webp",
+      "bytes": 7204,
+      "sha256": "41dcaf2ff534899d67953bbd6b50d4494ced7209d0f4cc824613329c160baa39"
+    },
+    {
+      "path": "docs/image-prompts.md",
+      "bytes": 1528,
+      "sha256": "5fa8e75730cd916b70fd175780561943a5ad8a5c1f88309d7dbff8949569ed81"
+    },
+    {
+      "path": "docs/source-notes.md",
+      "bytes": 1056,
+      "sha256": "4d707d8732247a0b41203ce76a9675ed3cb464ddb12d3234ef4df0389b739803"
+    },
+    {
+      "path": "ecosystem.html",
+      "bytes": 9806,
+      "sha256": "f6b4deff49db9b40a97ffbda5a65fc01ae2a00adc6c2ecebbc5c35909f4c8bee"
+    },
+    {
+      "path": "forms.html",
+      "bytes": 8962,
+      "sha256": "c30726e76ba019ad964f8b7602c88ebfb6a8172679f3f53524a422c116961dff"
+    },
+    {
+      "path": "governance.html",
+      "bytes": 9354,
+      "sha256": "2d4b401abb5c45f80cc225bb6a12a2af33d70b8202c8fd6f2abbc89c03486816"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8840,
+      "sha256": "f524a9278e914bee2db709b20e86f79ecd1d3dafde158a7db71524a7de3fc71b"
+    },
+    {
+      "path": "loop.html",
+      "bytes": 8635,
+      "sha256": "cb281eea5a40841b70ec5adab2734eef8db2a5be393cb0995270276fc8d44f04"
+    },
+    {
+      "path": "microfactory.html",
+      "bytes": 9638,
+      "sha256": "40bc8b9ba57f8c48bd9ab24f99232462fcec75217416baaa069ff3a4466db8de"
+    },
+    {
+      "path": "script.js",
+      "bytes": 12142,
+      "sha256": "f9a5fce2b4a907c4bd7240b41cfb88a713c7a657b71be9bcd8d8495a7ed1075a"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 7225,
+      "sha256": "e446dd3aeb57716056fb7ca3e716e0239a2bcba5f9a91359501912242201363b"
+    },
+    {
+      "path": "streams.html",
+      "bytes": 7555,
+      "sha256": "1fa1a4231e17af4fd56d915de79f61f25a9c265b8fe46dc8e7f7ea071d75db55"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 14397,
+      "sha256": "694a1ec86b2e40ea37da4459a33c9302401ea56a7cb2be1cd7ec8ed20ee6368d"
+    },
+    {
+      "path": "tip-loop-builder.js",
+      "bytes": 8807,
+      "sha256": "e219edef53007dc828afc7a481628737c734f23300cd2b9887a6d7be70bb8527"
+    },
+    {
+      "path": "tools/build_site.py",
+      "bytes": 53807,
+      "sha256": "5321466e7fe25eb96bf10a0ca596d78816c995a8ae58c82a145f56a82cf1733e"
+    }
+  ],
+  "files_sha256": "79a0eccd6ef77f3139168e4b1a3cc311b70f60fea25cd115de440e4b227e6c13",
+  "file_count": 40,
+  "source_bytes": 1506106,
+  "excluded": []
+}

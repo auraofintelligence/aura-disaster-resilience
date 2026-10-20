@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/straddie-disaster-kiosks",
+  "slug": "straddie-disaster-kiosks",
+  "capture_started_utc": "2026-10-20T08:00:29+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:34+00:00",
+  "source_version_start": {
+    "head": "d95c87519624b09528fff322676ffeb379081415",
+    "branch": "main",
+    "working_status": [
+      {
+        "path": "README.md",
+        "index_status": " ",
+        "working_status": "M"
+      },
+      {
+        "path": "docs/comprehensive-rebuild-plan.md",
+        "index_status": "?",
+        "working_status": "?"
+      },
+      {
+        "path": "docs/supporting-research.md",
+        "index_status": "?",
+        "working_status": "?"
+      }
+    ]
+  },
+  "source_version_end": {
+    "head": "d95c87519624b09528fff322676ffeb379081415",
+    "branch": "main",
+    "working_status": [
+      {
+        "path": "README.md",
+        "index_status": " ",
+        "working_status": "M"
+      },
+      {
+        "path": "docs/comprehensive-rebuild-plan.md",
+        "index_status": "?",
+        "working_status": "?"
+      },
+      {
+        "path": "docs/supporting-research.md",
+        "index_status": "?",
+        "working_status": "?"
+      }
+    ]
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": "LICENCE.md",
+      "bytes": 3614,
+      "sha256": "53d526f89771efd4dbe9c2252c4fe979ee6d0a4a22df4b024ed48ffa3a17d09e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6629,
+      "sha256": "3140f253833d47d648bf813d3ea144e4adb48a1028ea632923d5a5df16815a2a"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 23606,
+      "sha256": "3f37fd991ed86b83196824159a101524d4fbfc2e4b7025ffc522860a82fef1e1"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 26869,
+      "sha256": "03f4150f2a0ef89105a8361a80572fc852d5824b2f2de30555adf9e5344947c0"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 1327,
+      "sha256": "4cb76da42947c3ff057ce25d1909cec0b172d8d8ecd7ee7ce9b2c926df5f9ab6"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 948762,
+      "sha256": "d0549dd2ab56a878428fb0e546c2551168fb632185c6a5aa8d573dca4fc52b76"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 76594,
+      "sha256": "dedd09c5e539fd916d280d6a279714373f49daf01f87bab347831ec594b47fb1"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1515,
+      "sha256": "3a76a75071b4610177248b6eb295ae7f49e19ba5e8efc39837e6aede9adbd03e"
+    },
+    {
+      "path": "assets/heroes/build.webp",
+      "bytes": 158978,
+      "sha256": "72c2ba082cb9a5b429e9c070b2027ca6bcf7002f88c68ac776b1e4b18e7981d1"
+    },
+    {
+      "path": "assets/heroes/home.webp",
+      "bytes": 220770,
+      "sha256": "e8d4a3181408d40da43a94a467b57f8ae291ceb8e1942290789aa7a944b04598"
+    },
+    {
+      "path": "assets/heroes/network.webp",
+      "bytes": 150722,
+      "sha256": "2f5d88d1904d834746edb982d32075bea39b614628f632f169f7b94ffc123710"
+    },
+    {
+      "path": "assets/heroes/nodes.webp",
+      "bytes": 218014,
+      "sha256": "325d2281a119073999f4764628101c4f7311c0a1f669636e3fab83d930ae6a0a"
+    },
+    {
+      "path": "assets/heroes/places.webp",
+      "bytes": 280782,
+      "sha256": "7fe7156054dba9069cb983970aaaf85c6b45c908869ce4088d42a587acb971c7"
+    },
+    {
+      "path": "assets/heroes/public-value.webp",
+      "bytes": 235172,
+      "sha256": "339b987a8c52162bfd941f9687ceb5bb307d0c729ac41b52ea4622cfda259361"
+    },
+    {
+      "path": "assets/heroes/signals.webp",
+      "bytes": 154642,
+      "sha256": "702e61c98254fd75d3e30d7ef877d4954e94e46da701b42c4bac3135e70e7a68"
+    },
+    {
+      "path": "assets/heroes/team.webp",
+      "bytes": 145612,
+      "sha256": "d48fa2c305b31fe02ba47e9d032b97b270608452981b40efaaa63a141476df76"
+    },
+    {
+      "path": "assets/resilience-as-joy.png",
+      "bytes": 2905765,
+      "sha256": "6faf57a03792e835f17705d3849ab91d377dd566239ec4f5d7ce183a668e3cc0"
+    },
+    {
+      "path": "assets/resilience-as-joy.webp",
+      "bytes": 141730,
+      "sha256": "f9ffee47dfe4ad6e83b7a7ea9bd7bc15b0af9c714d7244912b3fc0fa22333fb7"
+    },
+    {
+      "path": "assets/resilient-island-network.png",
+      "bytes": 2348457,
+      "sha256": "a3c565a11f2dd4323a45b385f34b48e697d3a8fcddb8d376d6479ce3bb418c24"
+    },
+    {
+      "path": "assets/resilient-island-network.webp",
+      "bytes": 113436,
+      "sha256": "fe6d93ec3ad2a9c39b963b6b3a2c80c3c4eb3f65331ac5df39308029aaf3cd30"
+    },
+    {
+      "path": "assets/roadmap.png",
+      "bytes": 3006370,
+      "sha256": "80cc6552afcd8a3a46a04c918b35efb303e39de8adf199e08af6271daf59850d"
+    },
+    {
+      "path": "assets/roadmap.webp",
+      "bytes": 142466,
+      "sha256": "7788ea6023380d04a18603626258ede4626c9b73ed0b15449f5aad9f303a8c8e"
+    },
+    {
+      "path": "assets/sovereign-atm.png",
+      "bytes": 3396105,
+      "sha256": "d49b0e33270c39685496ac9a10e993c719c17e47aa06d36767ad157913336a59"
+    },
+    {
+      "path": "assets/sovereign-atm.webp",
+      "bytes": 154684,
+      "sha256": "bfdaf97e4d0651d2727073dfd353a05ad8429071154705ce1041d41e2d84e13e"
+    },
+    {
+      "path": "assets/sovereign-node.png",
+      "bytes": 2802526,
+      "sha256": "a6f709264c85173b97e2108f1145027ed247d00998a02e738fed54f568b6be1a"
+    },
+    {
+      "path": "assets/sovereign-node.webp",
+      "bytes": 126322,
+      "sha256": "ce519df3c2c8309187e1a3bbf382f1cef575d43c087dfcc98686d8f2998d5313"
+    },
+    {
+      "path": "assets/utility-resilience.png",
+      "bytes": 3290521,
+      "sha256": "57aa4c73e57eb03780cfe4a417dd343e87698700adda237684ff9e35e93baa28"
+    },
+    {
+      "path": "assets/utility-resilience.webp",
+      "bytes": 159576,
+      "sha256": "f864a8f8a8143d7c9727c4de5889e17053059b08032b4d561cd6fb251eb74e05"
+    },
+    {
+      "path": "cameras.html",
+      "bytes": 8625,
+      "sha256": "2dfbbb2fd619f18867ff94d5f3cd226b45481f8bd9d47823a2308c30a0c6b5b9"
+    },
+    {
+      "path": "docs/Minjerribah_Sovereign_Mesh.pdf",
+      "bytes": 22016158,
+      "sha256": "8fa91cc89490426e247b27edfd580785157940f01b9da9d9039822fa9e92adfa"
+    },
+    {
+      "path": "docs/Straddie_Disaster_Kiosk_Pitch.pdf",
+      "bytes": 8751061,
+      "sha256": "2160c83b20144ab4d8093d20d4f036e65facc5381d875d1667a1424735bf69d3"
+    },
+    {
+      "path": "docs/comprehensive-rebuild-plan.md",
+      "bytes": 39709,
+      "sha256": "3172136b8409c90e589157ef387aec6ab9cf8ac865db832fa4284b5d26f39190"
+    },
+    {
+      "path": "docs/supporting-research.md",
+      "bytes": 58770,
+      "sha256": "383955fbfb18e2106fbfd62867a440147f98efa9d918305e97c86909e7105384"
+    },
+    {
+      "path": "index.html",
+      "bytes": 10087,
+      "sha256": "ac9262c5c3edbf4bcdbdfe5c6028fbe2964d740c79d24eaf70399ed85e2acaa8"
+    },
+    {
+      "path": "kiosks.html",
+      "bytes": 9155,
+      "sha256": "e7e987df4385f0eaf7e09e1b6e011d3a8e9ae7323730e303d1ec9790d7f489d2"
+    },
+    {
+      "path": "noticeboards.html",
+      "bytes": 7637,
+      "sha256": "bc6f874611717536e2361f45771b090fa8cf31cbacb806130c4338bfcb4a6f25"
+    },
+    {
+      "path": "ready-set.html",
+      "bytes": 9378,
+      "sha256": "7669c4afe285bfdd2da87e6707b77515f9691bd08126fcf335fc35db96f46c36"
+    },
+    {
+      "path": "roadmap.html",
+      "bytes": 8800,
+      "sha256": "f5f00ed5ef44330f049fd8a15c812c2b33a99088298d286ad5eaad050f1ea70e"
+    },
+    {
+      "path": "site.js",
+      "bytes": 504,
+      "sha256": "90693fb44a5d3c34254fde8ce6c8a46d26221e9d1774b6be46cfeed91416140a"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 11802,
+      "sha256": "c771a6bb126aa5472c5a10397a1910a82d657b96e87b2af496fcd39fc5624eec"
+    },
+    {
+      "path": "venues.html",
+      "bytes": 9665,
+      "sha256": "f5a5267f1cf276f05b583875a426780d021ed53a925f88c7bf542973ca8b25ab"
+    }
+  ],
+  "files_sha256": "bd825b6f1e606bf2e702ac1051190e3132f2adfe108f1876c0358faafa21558d",
+  "file_count": 41,
+  "source_bytes": 52182917,
+  "excluded": []
+}

@@ -1,0 +1,1098 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/straddie-noticeboard-network",
+  "slug": "straddie-noticeboard-network",
+  "capture_started_utc": "2026-10-20T08:00:35+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:36+00:00",
+  "source_version_start": {
+    "head": "d5b5aa99efe2ca1c0076d34a31f958ca76dd13a7",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "d5b5aa99efe2ca1c0076d34a31f958ca76dd13a7",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 11,
+      "sha256": "6493424232a0410ee0a95e58caf8235f13bad287ca941d414e77503928f6c3c9"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3626,
+      "sha256": "4091e882e429ee886fa67e08d7a38f8b04a1eadc4ce14290a9f3945e1cc0a6b7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6052,
+      "sha256": "a906b0ef38ed217991b72d495712126dda53762a07a3a9fa18d16c145e207ff9"
+    },
+    {
+      "path": "agents.html",
+      "bytes": 2600,
+      "sha256": "579c61da878c608cbbdac39ac63ada0a10c06296a3329260abcdac1f10702aec"
+    },
+    {
+      "path": "app.js",
+      "bytes": 10422,
+      "sha256": "4c157e2d4ca295bd177dabaa775e05ae302021931fc1b711aad2ced0357e4d4a"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 31601,
+      "sha256": "e9e1b57f9e38dfcb5aafd7fb581007f46f51df6448d2bb3a683b75696ff5cf12"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 35446,
+      "sha256": "de45c26fb3bd35927a943b6238cba91da1c9eb9ad4b692481369535aae254792"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 1744,
+      "sha256": "5d0e55f15729a4b667d3b8fa0a36b9df99a87696f41d486831fb45ae1afe0c4b"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 1117383,
+      "sha256": "b3114f710293fafdefaacf60925cb6f0d89145b85c7de39911a93a7a11cd25d9"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 75961,
+      "sha256": "95f2ce8fa3b2422b4f2234e2b902b738ef2520ccaf86958cd6f8997e500109e2"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1519,
+      "sha256": "2de10a7b192cd1e87bcfa3f90c6a39bfc4b8b5b80c60050999655b6a80fa1bb2"
+    },
+    {
+      "path": "assets/noticeboard-device-pipeline.png",
+      "bytes": 2751148,
+      "sha256": "95550fd3bf5de7c920672d29158b990c8b55d7e5c252fffb4acbb7034703e7be"
+    },
+    {
+      "path": "assets/noticeboard-device-pipeline.webp",
+      "bytes": 271946,
+      "sha256": "2a7dab7946c6294c58afd1a35786e958784e2d27c929b5d39e169660a6e37d90"
+    },
+    {
+      "path": "assets/noticeboard-network-fields.png",
+      "bytes": 2894741,
+      "sha256": "ba13564f1526ca884bb5c9e28164339dc704749e65dd0413ac9ae580bc866adc"
+    },
+    {
+      "path": "assets/noticeboard-network-fields.webp",
+      "bytes": 321126,
+      "sha256": "368e9b8ba1fb597b5d7a9f281ff048a4c398d96041c05a714040e37b000ad70f"
+    },
+    {
+      "path": "categories/artists-and-creative-hubs.html",
+      "bytes": 3164,
+      "sha256": "b2e785d05d5201026649195b29a2231e1c46b811a59d12a466e736ef9fa0191c"
+    },
+    {
+      "path": "categories/civic-care-and-community.html",
+      "bytes": 3175,
+      "sha256": "fd23d116128673db70613e228f4f5c96cba28936a39c88cfb100a168ad22bdad"
+    },
+    {
+      "path": "categories/community-safety-and-sport.html",
+      "bytes": 2665,
+      "sha256": "c7f081e9a893740067034a873c0301e114a7feb86225d1eb79aefc6c31d1ebea"
+    },
+    {
+      "path": "categories/environment-safety-and-emergency.html",
+      "bytes": 3191,
+      "sha256": "c2889c058b6b5053ffc918ccb266576b15b6e34d52b5f8135c29b1193b5dd619"
+    },
+    {
+      "path": "categories/events.html",
+      "bytes": 3137,
+      "sha256": "476a1227a78dc2f79aa4d62097165d9e88f53e244670e29c941ab033a3d3456c"
+    },
+    {
+      "path": "categories/hospitality-and-retail.html",
+      "bytes": 3171,
+      "sha256": "4af3646b2a5648f3faf48cfce4a6758a533a0a4d88d85699a35196478c7ddd1d"
+    },
+    {
+      "path": "categories/index.html",
+      "bytes": 7287,
+      "sha256": "08049e200a9d0896d363cbc3f13f93c0c23ca047167e066cdbeb88cf297b3468"
+    },
+    {
+      "path": "categories/public-figures-and-legacies.html",
+      "bytes": 3190,
+      "sha256": "47ea5e94782c891ff282c09bde26f85d6bc3419d4cdc9d288ef040ed22f66951"
+    },
+    {
+      "path": "categories/sport-recreation-and-clubs.html",
+      "bytes": 3153,
+      "sha256": "06622a449898c03499d54fbcbae2d020eac7f050f6e6c68954b62d5edd504e51"
+    },
+    {
+      "path": "categories/tourism-property-and-transport.html",
+      "bytes": 3185,
+      "sha256": "aff44477339ecfcdb6469107fec4434f37bf0a5b8dbf0659806bd66dcfebadee"
+    },
+    {
+      "path": "categories/trades-and-services.html",
+      "bytes": 3170,
+      "sha256": "299eb158f061ea1edef4e130cb05403a1c024eda83319a8922f6350ed67f8f51"
+    },
+    {
+      "path": "category.js",
+      "bytes": 16520,
+      "sha256": "3a6a27148040b00b9f8a7577664c9fc17e3f7a547d17915630f76d24ea5e9624"
+    },
+    {
+      "path": "data.js",
+      "bytes": 73519,
+      "sha256": "85c39a73101ef178a1c28ecdffaa7c4c0486af78bccf264224aecb155246534f"
+    },
+    {
+      "path": "entities.html",
+      "bytes": 3207,
+      "sha256": "23eb248a643b55350f6bbb1bd7a4c6ff4d3d821499a0a2cf988cd605a8b7e6c7"
+    },
+    {
+      "path": "entities.js",
+      "bytes": 11124,
+      "sha256": "4659542c9f82f6b9d3506f89af1bfa0e8025422173e31545c3a4d02a856aeb3f"
+    },
+    {
+      "path": "entities/amity-fishing-club.html",
+      "bytes": 4485,
+      "sha256": "6d65103f1831770a08bdb2f6d8c7e3cf5c744be593d7dbbee3d50f2f7e86eda8"
+    },
+    {
+      "path": "entities/amity-point-community-club.html",
+      "bytes": 4528,
+      "sha256": "0deacc7c477898c796da6bd631c8c550b14a0bdd33f8fecb5bd51376648e1fe8"
+    },
+    {
+      "path": "entities/amity-point-cricket-club.html",
+      "bytes": 4513,
+      "sha256": "6709ed501cf4d1c015b6205cfb15401b969369c1688cff611239dc94448d536f"
+    },
+    {
+      "path": "entities/amity-point-general-store.html",
+      "bytes": 4580,
+      "sha256": "3eba46761f31db4b9f28795012940468b73c4dafe3a4efd770de9bf9a295390f"
+    },
+    {
+      "path": "entities/amity-point-progress-association.html",
+      "bytes": 4629,
+      "sha256": "7b9c8a94775c904273f5ed1e75a31b60f6ca55a23f7924859665f7bab81fdb44"
+    },
+    {
+      "path": "entities/australia-post-amity-point-lpo.html",
+      "bytes": 4614,
+      "sha256": "c6527a537ad2dc5194a4f499a0b2e1e3755b5737ae6f4d462f62673717086d49"
+    },
+    {
+      "path": "entities/australia-post-dunwich-lpo.html",
+      "bytes": 4594,
+      "sha256": "1ecbc072f52da36f8e2f5db44dbc643a237be843d48447003b4d00da665c5cc4"
+    },
+    {
+      "path": "entities/australia-post-point-lookout-lpo.html",
+      "bytes": 4621,
+      "sha256": "682c2f29b522e6a8e13b64ef780ee2a69fc32278082ed683fee34c826baacac3"
+    },
+    {
+      "path": "entities/bay-players-theatre-group.html",
+      "bytes": 4522,
+      "sha256": "189316697166dbc914dbf5963e19c858edd015f32cb991c8fd7ee9653b3a5f05"
+    },
+    {
+      "path": "entities/bede-durbidge.html",
+      "bytes": 4531,
+      "sha256": "017992c05349804f43f22fcd5489c7edd9d60ff671171393b3d7cf7b5a03a12a"
+    },
+    {
+      "path": "entities/belinda-close.html",
+      "bytes": 4537,
+      "sha256": "62e9b39acc4b3708fea77e7c614e1a68c9a1effeff4142ffb9c4867999b488a6"
+    },
+    {
+      "path": "entities/bo-beans-coffee.html",
+      "bytes": 4512,
+      "sha256": "f87e8a0629eec854f9f7b7cc9cb2b590b4755a95def6c848cb5fa1279f04e1f9"
+    },
+    {
+      "path": "entities/bob-minty-surfboards.html",
+      "bytes": 4512,
+      "sha256": "2482feb05af813ea9dc21bbd1e900a8732848874abfbf39b5b5e116ed214486f"
+    },
+    {
+      "path": "entities/budla-malu.html",
+      "bytes": 4452,
+      "sha256": "61645c5b7daeae5836e15e34bba6ccccbb51752e5e64d91f34cd3376af12af03"
+    },
+    {
+      "path": "entities/cath-carroll.html",
+      "bytes": 4453,
+      "sha256": "bc79ca02de3457db1d89fb5c080a0e26a8f7b70e65d82db807df71f811a6a602"
+    },
+    {
+      "path": "entities/cellarbrations-bottle-shop.html",
+      "bytes": 4534,
+      "sha256": "9be38362567391471dcbb4a700ec25148f4b3a75a81fbf74b755294ac91a638b"
+    },
+    {
+      "path": "entities/coco-may-mccabe.html",
+      "bytes": 4494,
+      "sha256": "9c566e9555aaadd8e126dfe78c4c8a29eacd7c71d8a2502944892dbf1e6a0d0c"
+    },
+    {
+      "path": "entities/craig-henderson.html",
+      "bytes": 4481,
+      "sha256": "6d6c15faf8344ba6f800f63a1778acf4c0e5152d92e8dc39fce9694e46774442"
+    },
+    {
+      "path": "entities/delvene-cockatoo-collins.html",
+      "bytes": 4593,
+      "sha256": "9cdde74bafcf9878fa0a1526d42ea4a9a83f6fa3727d9d435273a588b04b79da"
+    },
+    {
+      "path": "entities/discover-stradbroke-real-estate.html",
+      "bytes": 4589,
+      "sha256": "8f3e7274070aea85ce70b9e213b2aa90a1f29ef5f032180b11e02714940c1ef0"
+    },
+    {
+      "path": "entities/dolphin-property-sales.html",
+      "bytes": 4537,
+      "sha256": "d0a12ba83e0a42ccbf59bdc080c67bcfc87fe7ccde78bb63c5138e9f9c61b896"
+    },
+    {
+      "path": "entities/donna-wright.html",
+      "bytes": 4447,
+      "sha256": "23497383d2187ba417708a93bfc2cc54bfed90e874e923e71329dd6fb53d1712"
+    },
+    {
+      "path": "entities/dr-sandra-delaney.html",
+      "bytes": 4500,
+      "sha256": "993bf8568214caf7615c4ced6ffcc9fb9944ea2a9ff4287ac5b2c6fc32663f30"
+    },
+    {
+      "path": "entities/dunwich-swimming-pool-club.html",
+      "bytes": 4521,
+      "sha256": "d334a1499443578fb7d6630a9187d1f4b79e969f843f7cc9f49888413eb9e722"
+    },
+    {
+      "path": "entities/elizabeth-borey.html",
+      "bytes": 4466,
+      "sha256": "03d794cf2efb5ce9408502eaec089c64becbe37c776b7724ae3fe9cc503ffe54"
+    },
+    {
+      "path": "entities/ethan-ewing.html",
+      "bytes": 4530,
+      "sha256": "58aa4df92449b8c20d2ad3b892b4d27f2c5722d7d5aa5e5f13b76f9550243d3a"
+    },
+    {
+      "path": "entities/fever-pitch.html",
+      "bytes": 4477,
+      "sha256": "a1530723e988cecae976ebcdd48bb31e9e5f239cac771b8dc64854c3f94bdae5"
+    },
+    {
+      "path": "entities/fight-night-beer-vs-wine.html",
+      "bytes": 4477,
+      "sha256": "cce6f6e4c311457ae677aa1548b956d49909555d7659ffd83b7ba3dc8c7ff48e"
+    },
+    {
+      "path": "entities/friends-of-stradbroke-island.html",
+      "bytes": 4592,
+      "sha256": "7de6fc400ded203b34e5bcf23691b0e457b39a171fffb5b9198363e0b466d5b5"
+    },
+    {
+      "path": "entities/gabriel-d-hage-craig.html",
+      "bytes": 4503,
+      "sha256": "a887fa23498be0f71f2b7dcb0ee71ebc523ba5094a54c51ec9e36e12c2a7afde"
+    },
+    {
+      "path": "entities/geoff-pettingill.html",
+      "bytes": 4498,
+      "sha256": "88b31f4a524ece76e7d3756dc7d3ac2d854eff4f3849df11bddde819b3e65b12"
+    },
+    {
+      "path": "entities/gil-scrine.html",
+      "bytes": 4452,
+      "sha256": "bc7e273b4a42542d4211bb6a8da5ae99074ae0e5e815a09825709ecfe22ea15d"
+    },
+    {
+      "path": "entities/glen-campbell.html",
+      "bytes": 4478,
+      "sha256": "e1cc264ed9f0028078b51e24f4840d3678a158c47682689ff50e4b5c6842aa51"
+    },
+    {
+      "path": "entities/goldie-goodbun.html",
+      "bytes": 4478,
+      "sha256": "0c8d95c550bcd912ca313507626367f9163f49a4d7a7337e4926ab56264db3da"
+    },
+    {
+      "path": "entities/goompi-trail.html",
+      "bytes": 4495,
+      "sha256": "551fa93e10fafc556a2e6f6a622195a43547d82bc3f1a8d4efd23e119cec3387"
+    },
+    {
+      "path": "entities/grass-roots-live-music.html",
+      "bytes": 4467,
+      "sha256": "69c90dbf5944820f90689c525e515052a678fdca6214453a089f94465c2a6aaf"
+    },
+    {
+      "path": "entities/henderson-construction.html",
+      "bytes": 4511,
+      "sha256": "5ba0a92822369f29c0ed528d6d44488d16cfc804c584bee904c182df59219ed8"
+    },
+    {
+      "path": "entities/hidden-oasis-art-show.html",
+      "bytes": 4508,
+      "sha256": "0665224c86fc610eecca79ff5e6f22cc03051eab803a02fde4f340c3528a0d26"
+    },
+    {
+      "path": "entities/hutch-welding.html",
+      "bytes": 4480,
+      "sha256": "afe3a39051fb7ef129ee814cb32b904881fe47ed6e133e53141bef740707fc0f"
+    },
+    {
+      "path": "entities/jane-milburn-oam.html",
+      "bytes": 4480,
+      "sha256": "2827cf129c44224317dd593f07520c53d621683d796ecb37d76624859e639743"
+    },
+    {
+      "path": "entities/jani-haenke.html",
+      "bytes": 4526,
+      "sha256": "efb40c1c93de4d0385dee455b929fef6c3bd90d223cb97b11157c44a1bdb1933"
+    },
+    {
+      "path": "entities/jasper-coleman.html",
+      "bytes": 4466,
+      "sha256": "b56e4beab96acf89d237ed1656090876b549bb2fdb2b5c6e28b4edaf3f68648d"
+    },
+    {
+      "path": "entities/jesse-williams.html",
+      "bytes": 4530,
+      "sha256": "149423a960121f6ff0c4613544be8ca85b03d6056819b891e9ff567e348ff901"
+    },
+    {
+      "path": "entities/jimmy-holt.html",
+      "bytes": 4459,
+      "sha256": "f3a07bd507baee0b9e299792f89f8fb20cb27d9bc71b1332c48473515d46b8fd"
+    },
+    {
+      "path": "entities/jo-fay-duncan.html",
+      "bytes": 4464,
+      "sha256": "dbd3c2083164e06140b9cdb51003d8025b6b996c6a52574b292a21ec116706da"
+    },
+    {
+      "path": "entities/johannes-jochim-jack-borey.html",
+      "bytes": 4590,
+      "sha256": "10d04ea03bf5e08b47e99c3eb8546eb40f79df57c58dce0f8d8d8b535aea15af"
+    },
+    {
+      "path": "entities/jordan-patrick-smith.html",
+      "bytes": 4549,
+      "sha256": "f8c7440d99ab88a44fffbbbdd59410022c9acbe107f9ea44c41cf09d0549575b"
+    },
+    {
+      "path": "entities/julie-elliot.html",
+      "bytes": 4446,
+      "sha256": "513003c568e77ea8f9e6a413762015e3a34f3098979fc8baa035f66aa9e2ea7f"
+    },
+    {
+      "path": "entities/julie-sisco.html",
+      "bytes": 4446,
+      "sha256": "a35f089da2a99d060a036141a3f45c4de725fec64201b14febbf0ddb57ef3207"
+    },
+    {
+      "path": "entities/karen-thurecht.html",
+      "bytes": 4468,
+      "sha256": "555672ba296182849a61a6d69bd9e3283a6c3292c6d8b0fc8c6c68dadb99de01"
+    },
+    {
+      "path": "entities/karl-stefanovic.html",
+      "bytes": 4555,
+      "sha256": "38362b6c206f70b2b41be075ea12da44a6844f7dd38f9cc7234c9d93b4693e74"
+    },
+    {
+      "path": "entities/kay-danes.html",
+      "bytes": 4500,
+      "sha256": "b24cf5adccb3f3cb03df615e3f3daf427d544743fe064e81dbc5193aa0a5e017"
+    },
+    {
+      "path": "entities/kevin-long.html",
+      "bytes": 4458,
+      "sha256": "013deb80358d01f42e3656de38cc3d0b4d0d7b90db48b23436cedb60250267b8"
+    },
+    {
+      "path": "entities/kieron-anderson.html",
+      "bytes": 4486,
+      "sha256": "1e86b92a2458bb046b955fb522957c49b6728be36b4bf5ee960a39d8426ccb8b"
+    },
+    {
+      "path": "entities/lanndam-pty-ltd.html",
+      "bytes": 4481,
+      "sha256": "733aca715aaaf387cf2c721ec7a6daceb7bbe7b65bb6d78ac79ab3c401db851a"
+    },
+    {
+      "path": "entities/lauri-anderson.html",
+      "bytes": 4468,
+      "sha256": "bd814b98402f7855ad97953e92c8c3b11a07558c4696d5b2bf7c5cd8c6cd4576"
+    },
+    {
+      "path": "entities/lighthouse-community-church.html",
+      "bytes": 4539,
+      "sha256": "8b8ab485149e11589ac00f04c318a6be176b70de95cf90bb68c6c1c5a7b0d6af"
+    },
+    {
+      "path": "entities/lincoln-lewis.html",
+      "bytes": 4540,
+      "sha256": "7eb72cd41652a2d0e175529b4392d61916eadf13a25773bda002f97ab1f8e9e7"
+    },
+    {
+      "path": "entities/linen-caravan.html",
+      "bytes": 4473,
+      "sha256": "d69f5ad252cc4c86d980b89db5ae8ec6639747fb3312145d44d2bfd9a451dd35"
+    },
+    {
+      "path": "entities/lisa-iselin.html",
+      "bytes": 4450,
+      "sha256": "28144b06c40a317b149b4ff6ff58ee4dd7e1fd6c59cac516e3a6ce93ce1f6f06"
+    },
+    {
+      "path": "entities/locked-in-services.html",
+      "bytes": 4498,
+      "sha256": "2caee0d08f82193be1f7e18307f06496d952387d070099df3ab3924f298a87d2"
+    },
+    {
+      "path": "entities/mahala-burns.html",
+      "bytes": 4464,
+      "sha256": "7d832f2f17ca5dcc55d869e68d9576b7033400c84dbab4426c2ec5c675a09d20"
+    },
+    {
+      "path": "entities/mal-starkey-seafood-and-charters.html",
+      "bytes": 4601,
+      "sha256": "df7b3667038c7aa0e219e36ff253252e06b5da7e4ec4a42c8d48cd20497bbdd7"
+    },
+    {
+      "path": "entities/marianne-de-pierres.html",
+      "bytes": 4560,
+      "sha256": "62d070d217b5f2a8299ac825179e17c14bcc00fc4140130375cfa8b6bc7982cf"
+    },
+    {
+      "path": "entities/marie-cole.html",
+      "bytes": 4441,
+      "sha256": "f78da56ebb419a692c611b712a2e625da1d3b2747d4806d3cd27def00d2f6423"
+    },
+    {
+      "path": "entities/mason.html",
+      "bytes": 4430,
+      "sha256": "def7e1eb7866fb5ba49e4ce15995a47698fc1fd2bd9bef0b41ee4c1fe6ecb1cb"
+    },
+    {
+      "path": "entities/matt-burns.html",
+      "bytes": 4520,
+      "sha256": "d76a71a4d98f668e8f6c436bf56ed5f0e7d43246f0916cdbc9348529ab1a4c8c"
+    },
+    {
+      "path": "entities/mazzoni-plant-hire.html",
+      "bytes": 4500,
+      "sha256": "96a11cc6454101329d20d4b4bb0f1cb38b20ceadac770294d09c3e92148a0cb6"
+    },
+    {
+      "path": "entities/megan-forward.html",
+      "bytes": 4472,
+      "sha256": "cf2b439bc4300433509bec750db78f84a3edb1590a6f505176d76be45b77f9c0"
+    },
+    {
+      "path": "entities/melany-cordier.html",
+      "bytes": 4461,
+      "sha256": "1ecc457d1f1f2dfb496f8ce6f7d75bef98b68de5b7151778b5a0ed533738848c"
+    },
+    {
+      "path": "entities/meredith-coyle.html",
+      "bytes": 4466,
+      "sha256": "4d14ddfa92e1885bfb8b2d644c821c40755827aa27376c40b1dd7fe204d2fa54"
+    },
+    {
+      "path": "entities/merri-millar.html",
+      "bytes": 4454,
+      "sha256": "a6800a1da2feedb3c237680be21b338f30914fdc8f8e634fde53181822e0449c"
+    },
+    {
+      "path": "entities/minjerribah-and-moorgumpin-elders-in-council.html",
+      "bytes": 4639,
+      "sha256": "f68ee72de2ef03f64cd0242bcd013862272d4cf11c12da9ed49bce1d7df3be17"
+    },
+    {
+      "path": "entities/nareeba-moopi-moopi-pa-aged-care.html",
+      "bytes": 4572,
+      "sha256": "3a77e998d151ccf6ba9d052a1396d5e64ac17f47e252775d281f2c323823447a"
+    },
+    {
+      "path": "entities/natalie-cook-oam.html",
+      "bytes": 4535,
+      "sha256": "e426038fb2f22c569649ae068a43c64f5a8ed4005bd70aada3229fe6ae75b118"
+    },
+    {
+      "path": "entities/noreen-s-seaside-shop.html",
+      "bytes": 4514,
+      "sha256": "75ac65f5c7fde83653120089998550274778eb7047959156105315f5d967c14d"
+    },
+    {
+      "path": "entities/north-stradbroke-island-aboriginal-and-islander-housing-society.html",
+      "bytes": 4736,
+      "sha256": "a3f7c870ba522fb07058b5dcc581f47b559dbc363d939423d0c769316199775a"
+    },
+    {
+      "path": "entities/north-stradbroke-island-buddhist-group.html",
+      "bytes": 4594,
+      "sha256": "5dad457a4a6c27046374eac215776da0b717c1687281b44de8fa299f1882bba9"
+    },
+    {
+      "path": "entities/north-stradbroke-island-golf-club.html",
+      "bytes": 4562,
+      "sha256": "a3c5fdf3dd03a709823a4e1ce60e3b07e063551ca596cf6ca7f81f8f6c9ca0aa"
+    },
+    {
+      "path": "entities/north-stradbroke-island-historical-museum.html",
+      "bytes": 4620,
+      "sha256": "d86271665fa4cca0623b14a12d108c2449e8f266cab967b784763d5487365633"
+    },
+    {
+      "path": "entities/north-stradbroke-island-surf-school.html",
+      "bytes": 4608,
+      "sha256": "efc68070c1b6f1a30f5c12c85a237acc08735470a1a1b06161bea8e6186642c6"
+    },
+    {
+      "path": "entities/nourish-naturally.html",
+      "bytes": 4509,
+      "sha256": "2aabf540372189c31e7a594cadd88a9fdfe90a41fbb4c18cc749191069798114"
+    },
+    {
+      "path": "entities/nsi-property-maintenance.html",
+      "bytes": 4533,
+      "sha256": "3c5af42045a126658f3adfcdcd74dd0d0ed9272dee790381ba17a9b96f4b3ad2"
+    },
+    {
+      "path": "entities/oodgeroo-noonuccal-kath-walker.html",
+      "bytes": 4650,
+      "sha256": "d4c2ee3f770e4b19f708677d944cc7d79150deefd34b1fa146f9b6823d251923"
+    },
+    {
+      "path": "entities/paul-bishop.html",
+      "bytes": 4510,
+      "sha256": "925a64b86ac7d4172237ee77b7d20fda18e1ae5295f34959c46c2a55e28f4f61"
+    },
+    {
+      "path": "entities/paula-boo.html",
+      "bytes": 4441,
+      "sha256": "12e90e837583ce9318c2e3151b116db8ffc4d1e04790f302a451e35d856a2c91"
+    },
+    {
+      "path": "entities/penny-gillespie.html",
+      "bytes": 4470,
+      "sha256": "3b217996b669fc79fcc0cd5afc784697f954527420a520c7cd611c3269309a2e"
+    },
+    {
+      "path": "entities/peter-stefanovic.html",
+      "bytes": 4548,
+      "sha256": "3882965fa0ce085bf25feeab0beb848561be6f7b131a68712b94bf4a0bcff7ed"
+    },
+    {
+      "path": "entities/phillip-and-theresa-bowman.html",
+      "bytes": 4538,
+      "sha256": "9c85353db718a08d364d0c300dbb5d2f27a83f177c73f4c9d1ac3979f6404580"
+    },
+    {
+      "path": "entities/point-lookout-boardriders.html",
+      "bytes": 4516,
+      "sha256": "19b821242d07740b83b6acc367b295b2eedc1019f76a4fb707a75711633f71b0"
+    },
+    {
+      "path": "entities/point-lookout-bowls-club.html",
+      "bytes": 4518,
+      "sha256": "9cb3cec193817b4ca4aded8d772977975d4488924c680aa44c5a824891660cb5"
+    },
+    {
+      "path": "entities/point-lookout-bushcare.html",
+      "bytes": 4561,
+      "sha256": "51b421f42903c9087fc1c207bb9220e1c1e9cc5b21bc8d401f835c665ed2e098"
+    },
+    {
+      "path": "entities/point-lookout-fishing-club.html",
+      "bytes": 4551,
+      "sha256": "3806200b3addce6bec183ba2214d20caf23f072fea9a07681ede92a7b3d3bb15"
+    },
+    {
+      "path": "entities/point-lookout-markets.html",
+      "bytes": 4451,
+      "sha256": "771ae9e3c3cd8fcd6c8b9dc24fbdc6cafb8182cbfd263fc7aa79eba543249dd6"
+    },
+    {
+      "path": "entities/point-lookout-news-agent.html",
+      "bytes": 4527,
+      "sha256": "4f1e30671c24a5355a5d39b4e73e65dbb9fad7356ac5339dbd2f613ea506ee65"
+    },
+    {
+      "path": "entities/point-lookout-pharmacy.html",
+      "bytes": 4531,
+      "sha256": "70db340f03d03b41e5389c71b77743da638fb508e645b0fe89b491637eccbf41"
+    },
+    {
+      "path": "entities/point-lookout-surf-life-saving-club.html",
+      "bytes": 4611,
+      "sha256": "b4ec94157e2a4d585d2eeffc0fa273f0295e109c29b8dbcd380b222da30aebc0"
+    },
+    {
+      "path": "entities/point-lookout-tennis-club.html",
+      "bytes": 4512,
+      "sha256": "6eab6d7997d6eed03c52b6c08c8cbf45ae56511d300206685bd71668a3d65e31"
+    },
+    {
+      "path": "entities/quandamooka-festival.html",
+      "bytes": 4465,
+      "sha256": "312908fc54f46fb1a297e804cb65b5705ffca13622b9859e269a087aa673f420"
+    },
+    {
+      "path": "entities/quandamooka-yoolooburrabee-aboriginal-corporation.html",
+      "bytes": 4675,
+      "sha256": "3f4e350d60ec94ff5e23c24b2fda95d24c3fe33f258dcbce3c0273f8e287f74c"
+    },
+    {
+      "path": "entities/redlands-coast-adventurefest.html",
+      "bytes": 4488,
+      "sha256": "35127ffcb9870296ce3881ab8a9f449827159945f4fd1cb2687da84852743422"
+    },
+    {
+      "path": "entities/renata-buziak.html",
+      "bytes": 4466,
+      "sha256": "0703474161e44a526fe7c01c5113ed400e99f8aae693f7a089cd9af6e26974d3"
+    },
+    {
+      "path": "entities/rowena-cory-daniells.html",
+      "bytes": 4543,
+      "sha256": "5fc4ea2bee1262afe7da1e37dff2577c6c40b194f4ccccb5955d7963097f367f"
+    },
+    {
+      "path": "entities/ruby-poole.html",
+      "bytes": 4441,
+      "sha256": "5838431b6f5f01cc16f0c07197edb83cc087724d52c92dd78045feba776c23e4"
+    },
+    {
+      "path": "entities/rufus-king-seafoods.html",
+      "bytes": 4550,
+      "sha256": "7eaf257d9396b6a73273740cd12910188995cc62dc285fc7b605a7c0cba15ced"
+    },
+    {
+      "path": "entities/rural-fire-brigade.html",
+      "bytes": 4551,
+      "sha256": "e87fd6213358bf1ed3ead39608852f5916d08124501573f937d8f5ca5c49b692"
+    },
+    {
+      "path": "entities/russell-specht-carpentry.html",
+      "bytes": 4540,
+      "sha256": "186bc82d678e9c98c8729675e7017c195c63149592320b8c07cf01fa91d91af4"
+    },
+    {
+      "path": "entities/salt-water-murris.html",
+      "bytes": 4489,
+      "sha256": "995fc034b942e388d1c671e2d7360e71db08fadd0047e202ba55d1d321bc2c35"
+    },
+    {
+      "path": "entities/sealink-south-east-queensland.html",
+      "bytes": 4585,
+      "sha256": "329b7cb878e3662c6afbc66c6bf57726c0fc84a8f9e8e75bac72ae77fb0fbd62"
+    },
+    {
+      "path": "entities/shara-delaney.html",
+      "bytes": 4470,
+      "sha256": "73a24d5e64543101766408752c5e2fcd00972301c5242ce6ee721e03db400b53"
+    },
+    {
+      "path": "entities/sharon-walker.html",
+      "bytes": 4454,
+      "sha256": "7831aa4ac313cbb7ffa2f4de21d0c121e216846a3d6f1466df994d2e207e85ec"
+    },
+    {
+      "path": "entities/six-by-fifty-pty-ltd.html",
+      "bytes": 4513,
+      "sha256": "8b51c10b634edf7b83d1a002d542948f0f564252fde373086d7cf51a6e169dfe"
+    },
+    {
+      "path": "entities/spar-express-dunwich.html",
+      "bytes": 4521,
+      "sha256": "d72038c178e1125dd08b0ebe9781ebf2635d7453931db17863ae94e13aedcc5d"
+    },
+    {
+      "path": "entities/st-mark-s-thrift-shop.html",
+      "bytes": 4525,
+      "sha256": "f56bdd1adb1434c58820022e4e309bb2f45cf9db9016cfd1dbdcee9c27a9d0d1"
+    },
+    {
+      "path": "entities/st-paul-of-the-cross-catholic-church.html",
+      "bytes": 4592,
+      "sha256": "bb8cab548e3a8c0cf9b28ad1d6791545b7ba1784bc042ce272c055ec3425fe97"
+    },
+    {
+      "path": "entities/st-peter-chanel-church.html",
+      "bytes": 4518,
+      "sha256": "4edc47e31ab8bf701762df14636b4436331e2653d826f657ea90f0784711076c"
+    },
+    {
+      "path": "entities/st-stradbroke-wine-bar-and-cellar-door.html",
+      "bytes": 4588,
+      "sha256": "ab03bb34adc3d7cadb151d17edd8d0bcd396151d1374264d101553961d7526f3"
+    },
+    {
+      "path": "entities/starfish-studio.html",
+      "bytes": 4466,
+      "sha256": "dad5bc68edfd21077a83649ee49dc2d3f255a9cabbcb5595805b781bce70e1b8"
+    },
+    {
+      "path": "entities/steve-barwell.html",
+      "bytes": 4460,
+      "sha256": "bfe8819f54da2f264a8b7a447e79415ec585920ace6a44fb232a26d2b4d7392b"
+    },
+    {
+      "path": "entities/stradbroke-chamber-music-festival.html",
+      "bytes": 4518,
+      "sha256": "24b231fe5cccb996392359e7f05261c39b1a31c61e4db8ad393b62607879441d"
+    },
+    {
+      "path": "entities/stradbroke-island-beach-hotel.html",
+      "bytes": 4562,
+      "sha256": "afc6ec42bfef89724ff4b53015aa6ecdd427221e7fdf7f504e020756008e2af9"
+    },
+    {
+      "path": "entities/stradbroke-island-butchery.html",
+      "bytes": 4548,
+      "sha256": "33950d3194b80fc4b7a50716139307f5380eadee001353b1b7c1998f62276cc7"
+    },
+    {
+      "path": "entities/stradbroke-island-events.html",
+      "bytes": 4488,
+      "sha256": "96bfc2e2abe03efccaa9f2a41b14d2c46c1a4b0fc04b6e504d2180d3b64ba468"
+    },
+    {
+      "path": "entities/stradbroke-island-foodworks.html",
+      "bytes": 4562,
+      "sha256": "f7e5ee771ce733e7080d67225c68372fec70ebd3a1bef3bcc665b7fe94ea189a"
+    },
+    {
+      "path": "entities/stradbroke-island-management-organisation.html",
+      "bytes": 4648,
+      "sha256": "d3155743c447323fd1da047d864d5f7b6556030a96eaed8146af8199f96af566"
+    },
+    {
+      "path": "entities/stradbroke-island-singers.html",
+      "bytes": 4523,
+      "sha256": "e090de8bd6d5066aaed816a5eb0b12b0e3a8480eed009691283303f5f8b75a8f"
+    },
+    {
+      "path": "entities/stradbroke-net-marketing.html",
+      "bytes": 4540,
+      "sha256": "ab0f44838bc176460c958327646be10af585a7b86ac5d4c56e195cb223adfeb3"
+    },
+    {
+      "path": "entities/stradbroke-pharmacy.html",
+      "bytes": 4522,
+      "sha256": "12af0df22c9541e3d6ef057f05e5cffe6270c20a545bb2cb5bbe40378b445a5a"
+    },
+    {
+      "path": "entities/stradbroke-trail-riders-horse-club.html",
+      "bytes": 4554,
+      "sha256": "3c7069f6442d2e21cc195ab52cc8d3edba5f3ed7fce9e0ced1b295469b6f2d9e"
+    },
+    {
+      "path": "entities/straddie-arts-trail.html",
+      "bytes": 4452,
+      "sha256": "bde21723fc9f3f33f15d0a17a9f466e5919d8c079aaa9a757de28f16a96d9366"
+    },
+    {
+      "path": "entities/straddie-brewing-co.html",
+      "bytes": 4514,
+      "sha256": "49e7c2a7e1d8b1a3f0023527029e610cd4b0d1fa5955f1e09b254fe03859423a"
+    },
+    {
+      "path": "entities/straddie-chamber-of-commerce.html",
+      "bytes": 4568,
+      "sha256": "1ed4bf6986114e10ba5b2086089896bd1f1211ec0e9381ce444614560c3ab2d4"
+    },
+    {
+      "path": "entities/straddie-hotel-new-year-s-eve.html",
+      "bytes": 4492,
+      "sha256": "8bb624a9f92cfff2d66aa06ab73831dbe404add21363d508db9a7c1f6b175c30"
+    },
+    {
+      "path": "entities/straddie-invitational.html",
+      "bytes": 4459,
+      "sha256": "0bab9d4c7fe0aa4f3a03144c5b01c191c7e313ee88626528dffdfbc13cfebbdd"
+    },
+    {
+      "path": "entities/straddie-island-news-facebook-group.html",
+      "bytes": 4603,
+      "sha256": "d7354b1bea1098ca23139fc469966a8c974b49bdfc4a475475798d0263dca600"
+    },
+    {
+      "path": "entities/straddie-market-co.html",
+      "bytes": 4498,
+      "sha256": "3a919cb931b4c0ab4eef73b995369806aafd2b37a0e7ec5df0e0ceb99c958628"
+    },
+    {
+      "path": "entities/straddie-oyster-festival.html",
+      "bytes": 4474,
+      "sha256": "2e46c21cb755c85c6194645c1fc993b0efcb2d92cf3d40852d1714873986dddb"
+    },
+    {
+      "path": "entities/straddie-salute-triathlon.html",
+      "bytes": 4476,
+      "sha256": "e99f981948319c7aef6ace75282dd41cfd71a1a939d0d72fc6fd18a33d15ff4a"
+    },
+    {
+      "path": "entities/straddie-servo-and-hardware.html",
+      "bytes": 4559,
+      "sha256": "4241d541a82e02d1ab8f917877a435fe8b4a43dcf9cd4a0204a381c583c7eba0"
+    },
+    {
+      "path": "entities/straddie-sharks-allsports-rugby-league-club.html",
+      "bytes": 4610,
+      "sha256": "280ad52d3701649c5306255a18eb58cd0631e38cb50d0309f3c2718480d20c94"
+    },
+    {
+      "path": "entities/straddie-sharks-easter-carnival.html",
+      "bytes": 4501,
+      "sha256": "503021305990ca7a21fd7e939423d0675fb186e9418c23f886fc881a357f9433"
+    },
+    {
+      "path": "entities/straddie-signs.html",
+      "bytes": 4485,
+      "sha256": "e0876db86940f3a2dc68d80a0b6df113b1ca3f6ec4997c185a070caad9411540"
+    },
+    {
+      "path": "entities/straddie-super-sports.html",
+      "bytes": 4520,
+      "sha256": "7defbc932f1ad12b8ecb7859e559a25265ae5a45fbdd13a4e3b97d89a9b177d7"
+    },
+    {
+      "path": "entities/tamara-armstrong.html",
+      "bytes": 4489,
+      "sha256": "9e575b8234733573bd0ce891102fa33c3b4475254d9779072112c24fc7018672"
+    },
+    {
+      "path": "entities/taste-of-straddie.html",
+      "bytes": 4505,
+      "sha256": "2a1a01f12dd84b8cbe45a30dc1f9bc15379202aca95126df8afe19eea43d08d7"
+    },
+    {
+      "path": "entities/the-amity-pavilion.html",
+      "bytes": 4549,
+      "sha256": "e22d0ff27f040c6a97bbc122e065b2b30f2c3dfc33b5d1b85e444350948376fd"
+    },
+    {
+      "path": "entities/the-green-room.html",
+      "bytes": 4473,
+      "sha256": "685fcc7f6e811aed72e68a5b4372b2868c47b4de96359cbf55a2097555fb819d"
+    },
+    {
+      "path": "entities/the-point-bar-and-bistro.html",
+      "bytes": 4532,
+      "sha256": "6eac80801fa6b337bcf0986a3c605f3890d9c87bbe470c6241777c5588c8507b"
+    },
+    {
+      "path": "entities/tom-welsby.html",
+      "bytes": 4516,
+      "sha256": "fc73469c558d61f16e2733a550686c96fda596398c19c99aca44275cb1bbb088"
+    },
+    {
+      "path": "entities/tracey-and-bernie-gee.html",
+      "bytes": 4513,
+      "sha256": "44dbdaac736ce64cb8fdbf2c7ca1b5b959633fb4852a2f77384c2529ce44aaa5"
+    },
+    {
+      "path": "entities/trish-lake.html",
+      "bytes": 4434,
+      "sha256": "838108c39cd2ea4be9345f95ab5b8fed37862515cc8b3a3ae65e7baa3b38c407"
+    },
+    {
+      "path": "entities/troy-groombridge.html",
+      "bytes": 4497,
+      "sha256": "d00e5536dcc0391b2971dc007419e367dc67d5b14de45ed4327dfbc9c6a8e83a"
+    },
+    {
+      "path": "entities/twist-weave-workshop.html",
+      "bytes": 4446,
+      "sha256": "75bdb097a9e5ae897adeb3d290c5c11c54fab069705623279b2d4a31e8a48359"
+    },
+    {
+      "path": "entities/val-lehman.html",
+      "bytes": 4488,
+      "sha256": "c6cb65da147ca9ab24c9d6e9dbddd615b9a79196b0d5b91dcc6f64b3e45b0ce7"
+    },
+    {
+      "path": "entities/volunteer-marine-rescue-north-stradbroke.html",
+      "bytes": 4636,
+      "sha256": "302ccd3d7d9e27a623293dcb4f03cd4c7fb9d386140acd8e576e08dc927a3714"
+    },
+    {
+      "path": "entities/wally-lewis.html",
+      "bytes": 4509,
+      "sha256": "4a108cf9a2ce5f6dc5bd5faa7a883345873663e10f9916c99543ff956826504f"
+    },
+    {
+      "path": "entities/wendy-bailye.html",
+      "bytes": 4456,
+      "sha256": "b4977c112ff16b5a933881cae41cde09d8eb0ea15d7a1a01ad922ad6f08b1299"
+    },
+    {
+      "path": "entities/wesley-enoch-am.html",
+      "bytes": 4535,
+      "sha256": "205c07d6ca293ce5dde9c83673ba59e7f9bd99fd128db97284e840ab5c88dfa9"
+    },
+    {
+      "path": "entities/whale-tail-gelati-and-coffee-bar.html",
+      "bytes": 4580,
+      "sha256": "11cebc582d9bd206d7a3d2c799ee0e971a32ab18809b7e359f02ea8a0381e0a9"
+    },
+    {
+      "path": "entities/wildcare-straddie.html",
+      "bytes": 4525,
+      "sha256": "23ce1478c68c1c46159f13e4ad43d59b07d88eb640953ce9dcd57300b1ca5c3b"
+    },
+    {
+      "path": "entities/wildlife-rescue-minjerribah.html",
+      "bytes": 4584,
+      "sha256": "8d8dad622946cf70806fdec63e17d7bdc11c9f761e79da0bb4e6642055c1226e"
+    },
+    {
+      "path": "entities/youthlink.html",
+      "bytes": 4466,
+      "sha256": "bd26bc728cc924b825880ef1d123b100cca0f138faef569e8fa7d77acfa4dfa2"
+    },
+    {
+      "path": "entities/yura-tours.html",
+      "bytes": 4481,
+      "sha256": "8456c5edbd015a34ad73ce8fcb05f83dab757af0478ccc17f56e5f71d8d6f4f6"
+    },
+    {
+      "path": "entities/zoe-maskell.html",
+      "bytes": 4448,
+      "sha256": "afb83b94e1ed994eb31b19d9f22bb233ee2bb7808edfb2cb48d9249e3d124894"
+    },
+    {
+      "path": "entity-page.js",
+      "bytes": 9551,
+      "sha256": "7f416d56fa03530f15f593f229012915861c22c9b960fd853277907d77aa13c9"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7551,
+      "sha256": "5c58a8178f77e6a0555eadca546b19445ee9fb35930437769bcaab5216d9b3f3"
+    },
+    {
+      "path": "noticeboard/README.md",
+      "bytes": 1476,
+      "sha256": "0753f1b4adbba10ab3d783042deaebbd9e3c0b1a2f09de0cd51cc05823bbe1ef"
+    },
+    {
+      "path": "noticeboard/devices/dunwich-ferry-kiosk.md",
+      "bytes": 729,
+      "sha256": "dc666ee5fbe8a5f9826a337cc5743bb2ba3860648c469e133f185d372864bb2a"
+    },
+    {
+      "path": "noticeboard/devices/plfc-wall-installation.md",
+      "bytes": 734,
+      "sha256": "44b36ea92622f59cfc14537ef9bd393776e6daa12a26276b774066c38217b2f1"
+    },
+    {
+      "path": "noticeboard/feeds/plfc-junior-clinic.md",
+      "bytes": 710,
+      "sha256": "c97a6bdbe1f94727f60dfa9e076c6466d8285182467fc073a7d2b7d6495966e5"
+    },
+    {
+      "path": "noticeboard/feeds/sealink-ferry-pressure.md",
+      "bytes": 682,
+      "sha256": "5bd3d43d687292d97ac74dada87fa289568eaeefc98764a58f290ce678ca7d3d"
+    },
+    {
+      "path": "noticeboard/feeds/shared-table-produce-callout.md",
+      "bytes": 623,
+      "sha256": "2db65e3022a5b7980d3ad86b9d97ea7ece228eda30d6bc9a820b9dea25cbb518"
+    },
+    {
+      "path": "noticeboard/feeds/starfish-studio-artist-window.md",
+      "bytes": 588,
+      "sha256": "3dde021e24a638f2d7a3df68bb008a2617c626f06f3c3639446eb88eeb270e7b"
+    },
+    {
+      "path": "noticeboard/feeds/straddie-brewing-live-music.md",
+      "bytes": 613,
+      "sha256": "5f1d903dd62c20325e484cbe603eb1a77a05c754c5a98d8c55741d4fd53737d5"
+    },
+    {
+      "path": "noticeboard/public_noticeboard.md",
+      "bytes": 1419,
+      "sha256": "876ef8f59a38821f646028bcfff5a0ca23a955128e0d9023ce2d58d320fe6d2e"
+    },
+    {
+      "path": "pipeline.html",
+      "bytes": 4406,
+      "sha256": "7423a022afa8bf5978237f94e898faa5aa8124d0c4acb007f4a249a4c3ca1b1a"
+    },
+    {
+      "path": "public-noticeboard-builder.html",
+      "bytes": 11523,
+      "sha256": "f316c493318b50449f99df20fd85a8f39aac272bf8e472b73bb314964ebb9876"
+    },
+    {
+      "path": "public-noticeboard-builder.js",
+      "bytes": 13685,
+      "sha256": "b5c68e44b449c3afa4767bfa3cc1f4bae75b89c0dd5ba40e853cd5f6989ffdee"
+    },
+    {
+      "path": "public-noticeboard.html",
+      "bytes": 6825,
+      "sha256": "977602c2ac5b54410757ea7df859336e3787ff87368b48e00a0434524d1997e6"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 23569,
+      "sha256": "242c9a631b1a7b6dafe9feafaa832636ce82b9a5d5358b8593c3e5b29f3be00b"
+    },
+    {
+      "path": "themes.html",
+      "bytes": 2952,
+      "sha256": "fe19661f60420964f178869edec310d408b5e30da370c96f08fbb08e7ffd6ed1"
+    },
+    {
+      "path": "tools/build-entity-pages.js",
+      "bytes": 5531,
+      "sha256": "c48afcdea74bee6e6de5441d53fd1ae402d65e849d17949cb1ada4173f977dfb"
+    }
+  ],
+  "files_sha256": "843ec453931a473e66e3bc59d8e7a6931a59bb677cbcf9b4adc897b83f6712d9",
+  "file_count": 213,
+  "source_bytes": 8502378,
+  "excluded": []
+}

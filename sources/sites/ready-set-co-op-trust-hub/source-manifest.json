@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub",
+  "slug": "ready-set-co-op-trust-hub",
+  "capture_started_utc": "2026-10-20T08:00:23+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:23+00:00",
+  "source_version_start": {
+    "head": "63d2b49843806a6a84b3d10609993104fce200f7",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "63d2b49843806a6a84b3d10609993104fce200f7",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 11,
+      "sha256": "7676d38f283996775643ecafe263e6eb2e3517b6dba9c7a48d0abbf4414154af"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3617,
+      "sha256": "22f6a8e0f6e29d6d87a981a5be92ddabef5e627f20fd0eee69327374e9c29f93"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9633,
+      "sha256": "46c734a2991d88e285db426216cbbb24f3e7769c6e0418c05605cc15e85096ff"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 29582,
+      "sha256": "2402a66b8ff91852d2b9e6af793af53c201b79d64e6769b440ce9a7dddad24ac"
+    },
+    {
+      "path": "assets/ballow/concept-food-prep-wet-lab.webp",
+      "bytes": 75432,
+      "sha256": "73b8693062d470b9806528fb146fa6c23e0665d0922d17ea0bc63e112be4f595"
+    },
+    {
+      "path": "assets/ballow/concept-main-interior-maker-film-tech.webp",
+      "bytes": 171112,
+      "sha256": "c23ed4bcb7a0879495d3b8c4d4851ed441303c462437f92db424fbb8930656b8"
+    },
+    {
+      "path": "assets/ballow/concept-rear-logistics.webp",
+      "bytes": 132188,
+      "sha256": "fdde62bf2d08fa5779aa79620487414f129a253288b020a7ddcfc8ff0d0e10d8"
+    },
+    {
+      "path": "assets/ballow/real-back-parking.webp",
+      "bytes": 131002,
+      "sha256": "bff37306967935cc92851b7c1f8eb097961cd8605f763e0ff082bd8b70ae15f2"
+    },
+    {
+      "path": "assets/ballow/real-footprint.webp",
+      "bytes": 53040,
+      "sha256": "f182e58151217a11d0d4a9fd36581fbbf53d38b666fcf044f1ea1b2bd3820abc"
+    },
+    {
+      "path": "assets/ballow/real-front.webp",
+      "bytes": 261810,
+      "sha256": "aaae3ced3cde042e0d899f57cbf4602d8993d2ee0bc6c9f67aa063a1bac48268"
+    },
+    {
+      "path": "assets/ballow/real-inside-back.webp",
+      "bytes": 104206,
+      "sha256": "d2edb0991b2498b16e5587ddac988b48dc52a9b91e4a78df4aca05b0eeabd365"
+    },
+    {
+      "path": "assets/ballow/real-inside-front-view.webp",
+      "bytes": 158144,
+      "sha256": "38aca5947e6c14aa3e76ed5040cde0c1cd90b6b0069b169a137a221f4d402b37"
+    },
+    {
+      "path": "assets/ballow/real-inside-right.webp",
+      "bytes": 114414,
+      "sha256": "8750f0cbcc40da97a7e5f492bbb763a77842f2f57d7e061f0416c485dfb2440d"
+    },
+    {
+      "path": "assets/ballow/real-main-entrance.webp",
+      "bytes": 127234,
+      "sha256": "b4a83a7c841a3720837a6bda152a57a7b35bf984952c739c426908f226488b1f"
+    },
+    {
+      "path": "assets/ballow/real-wet-area.webp",
+      "bytes": 62030,
+      "sha256": "c1f1f0a34a8eb07a17595d31bcf849e6e32d9dfd20cee7caa2e91988f76661c2"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 32825,
+      "sha256": "447f147d09b5b36ab9a4d14a9d3efb2fa0ccd4f3584799110e944b6a3d3500af"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 1976,
+      "sha256": "81ec88552ac7447df4556264f7cd74f8a8cc297a19372371a90c2472b39ecd55"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 780277,
+      "sha256": "ae4bc43b9f51b7329eb78197fd61385a20f1017c7030790d140cbe80609d6a3b"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 75225,
+      "sha256": "e03925996a7d21858ad63ba0f71d5c1f905fd29ef4e87c13e44394cb29b1d045"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1678,
+      "sha256": "8d6f645f5d86e96ada4c3ee2f1cd9c0d06611f334f334b77c8ac00a5f2644b41"
+    },
+    {
+      "path": "assets/heroes/ballow-interior-fitout.webp",
+      "bytes": 127084,
+      "sha256": "804e9d24b4a88dc5ea02c79cdc1bfd1d51c1da689863cadd8405855916a747ea"
+    },
+    {
+      "path": "assets/heroes/ballow-road-hero.webp",
+      "bytes": 256494,
+      "sha256": "844b14621662c756b75e504e15335d826e1094a8a2afef2a7dd90ec30808f805"
+    },
+    {
+      "path": "assets/heroes/boundaries-hero.webp",
+      "bytes": 80288,
+      "sha256": "d37497239abcf464c5f00c86d149ff39558b695d27a8d854b352a76c476aeb02"
+    },
+    {
+      "path": "assets/heroes/ecosystem-links-hero.webp",
+      "bytes": 216540,
+      "sha256": "c50e5a4a6a831ab1d8da4e950fcf6d09f4ac5ec5fc3ae9bd7b4dfd59834ff183"
+    },
+    {
+      "path": "assets/heroes/grant-roadmap-hero.webp",
+      "bytes": 91692,
+      "sha256": "de30a05e238c97d326b174a8900be95ae5495ee0d440820b3a368f8e45de71a8"
+    },
+    {
+      "path": "assets/heroes/home-hero.webp",
+      "bytes": 68054,
+      "sha256": "ce3337e30c98451afd82d19c516d263ffac5503e9084edd745ba12dbf0261653"
+    },
+    {
+      "path": "assets/heroes/horizon-hero.webp",
+      "bytes": 124102,
+      "sha256": "37427ab27489b02dcc10a3234bb3ef6134d9ef3610296fd5f6de04205967030e"
+    },
+    {
+      "path": "assets/heroes/jobs-hero.webp",
+      "bytes": 94692,
+      "sha256": "abba90abcb8a579f9886193e9cd1a141f1fa011a6e97cc0a7b337573c58beb40"
+    },
+    {
+      "path": "assets/heroes/media-assets-hero.webp",
+      "bytes": 80394,
+      "sha256": "1725d47f1c9bf847176f6d0e6e1a2dfa71f764a9cf24b8a1407f745a0249001d"
+    },
+    {
+      "path": "assets/heroes/site-map-hero.webp",
+      "bytes": 112710,
+      "sha256": "b2b97ae03edb951407bf0dd04120611321e4268e3dd8b01cbe43fc9ad46fc25f"
+    },
+    {
+      "path": "assets/heroes/trust-hero.webp",
+      "bytes": 92986,
+      "sha256": "5dbe77c650b592e1f884dc9faea2f35eba5353b7df47a5b006c83dc6803252e2"
+    },
+    {
+      "path": "assets/resilience-as-joy.webp",
+      "bytes": 74468,
+      "sha256": "65195d1a678fdccb85f8d50efccc05e46519d1d716270d04be6bf551ce25c69d"
+    },
+    {
+      "path": "assets/sbt-icon.webp",
+      "bytes": 17866,
+      "sha256": "b0f7a3960b099331535876329480d8ffe98375ca9e45aec3fa0cbdb8d93e3af5"
+    },
+    {
+      "path": "assets/strange-but-true-banner.webp",
+      "bytes": 42116,
+      "sha256": "784d3c8d8fb9e92117cd49db840144ce8bc08a0000638f0638a06723a734f12c"
+    },
+    {
+      "path": "assets/utility-resilience.webp",
+      "bytes": 84770,
+      "sha256": "9a1a08c4c3fc976c9958eb72c2fd28f83cd4ef3868cb52bd67adb517c87e719a"
+    },
+    {
+      "path": "ballow-road.html",
+      "bytes": 17020,
+      "sha256": "c50d827a12411777831e8f8a2339dd358f5df6169d3c5b4d92a92e1dc3afa6d6"
+    },
+    {
+      "path": "boundaries.html",
+      "bytes": 8034,
+      "sha256": "de0395d2614ce10d32181a76c55ca700b232c1bd2871f6b8499fbcd23d241a7f"
+    },
+    {
+      "path": "docs/media-shot-list.md",
+      "bytes": 2440,
+      "sha256": "96576c075ab760f0407920524f42e0c4ac8b1fb8d15a50dfe98210e714593433"
+    },
+    {
+      "path": "docs/source-notes.md",
+      "bytes": 4697,
+      "sha256": "7e8a574ad3b28fc168686901c703a197ee17ae9b7607ffcaffa4de131535f48d"
+    },
+    {
+      "path": "ecosystem-links.html",
+      "bytes": 15095,
+      "sha256": "e5bd207f67721e8b886bb644325d3d374c1f9d3cc6b95d029ba6cfbd2aa4649f"
+    },
+    {
+      "path": "grant-roadmap.html",
+      "bytes": 9298,
+      "sha256": "77b70f5d485e7c78fae138f62dd90bca7e4a5ec9f9948a5ec93a52b0c62547ee"
+    },
+    {
+      "path": "horizon.html",
+      "bytes": 8070,
+      "sha256": "f9f05e9329f8d4448175a317ee8fbad4650b44fefa3395ed92de7a2b1fc9bd11"
+    },
+    {
+      "path": "index.html",
+      "bytes": 12216,
+      "sha256": "e5477c309a97a26c0947d24e0ff6f0f58b5a830ab120fce33122a61b7f5d1707"
+    },
+    {
+      "path": "jobs.html",
+      "bytes": 13754,
+      "sha256": "0430422243673b0b100be5ac31a6221ede92555242f4e9070f73bc3a636c8210"
+    },
+    {
+      "path": "media-assets.html",
+      "bytes": 13075,
+      "sha256": "76a0ed98a6c9e52c6f5c9292cdb3d18679f64b9277d5d884cd40db1f10b25b1a"
+    },
+    {
+      "path": "script.js",
+      "bytes": 716,
+      "sha256": "79b09900d8cc98beeeff80b813ebee6e30a4c19c19cbe971624bf049f446660f"
+    },
+    {
+      "path": "site-map.html",
+      "bytes": 9590,
+      "sha256": "6420a4595f6c51d0bfc3e948fbc4d172b4460f9a1beb91416a9a3f294d1aeebf"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 19287,
+      "sha256": "536be3eb0a3b60ff59fe762cd40d8a0c1c0834eacf9beb0cba59cb72bc07e806"
+    },
+    {
+      "path": "trust-ladder.html",
+      "bytes": 9861,
+      "sha256": "ac2129eb28b6792f9117e36ece8e005e78fc5ba079adbb4933823776fe3e70f1"
+    }
+  ],
+  "files_sha256": "cb8cacb7aff977ff67d39cce446dc873dac45078e89fdbf96bd79e1eeb669dba",
+  "file_count": 50,
+  "source_bytes": 4032847,
+  "excluded": []
+}

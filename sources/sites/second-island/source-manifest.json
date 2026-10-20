@@ -1,0 +1,738 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/second-island",
+  "slug": "second-island",
+  "capture_started_utc": "2026-10-20T08:00:25+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:26+00:00",
+  "source_version_start": {
+    "head": "74972f246a61b00f285257db88ded956c51c9dd4",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "74972f246a61b00f285257db88ded956c51c9dd4",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".claude/launch.json",
+      "bytes": 349,
+      "sha256": "08c83bea23f22d82e9ef0129c89a4c68650c48c2d99d45d631b6224235b43313"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 50,
+      "sha256": "dc293b3849715ea4c5a0a8d6e52f042c49a18c259e28637d6fa7c326275259d4"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 1802,
+      "sha256": "e160156a8ec98309585e4a795b55ebde42bf85951e66223988ad37fdded7d9cc"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 4509,
+      "sha256": "9373bb8ffa558900c4692043e7143919f574e4ce385c1ef25d2a0f06b48c8552"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5467,
+      "sha256": "dfde879260bf20881b15742747ec5d382cb22c60b79a43a102234065f65f49eb"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 36436,
+      "sha256": "bd6ea5367326cf549c2b1ed06fec43116eeda61deaa7b34584f9b6979ab0b224"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 41666,
+      "sha256": "19f4f2e435b2c65001e610a4d10532a9a45055f12ea741d2fc4a398fa364671f"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 1571,
+      "sha256": "9994220ae5ab38bef44dba6e6d3a76f0e80a01dd360b9ecadf41175f183d2937"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 1242853,
+      "sha256": "baee5b362a8c466c76e9702362c079a417ebf588389e48bd213a6ff6657eb195"
+    },
+    {
+      "path": "data/_sources.json",
+      "bytes": 22968,
+      "sha256": "8f1f68f8854ccc6797dc3bf142bc5e727675d7ffb13992b94d6c096af65cc0d2"
+    },
+    {
+      "path": "data/crossings.json",
+      "bytes": 122573,
+      "sha256": "8e206e37ffd415c07e3aadb664798366f49e72c957030abe46b31755cab653be"
+    },
+    {
+      "path": "data/lore.json",
+      "bytes": 72593,
+      "sha256": "0d3e65ceee59c1711b729c81a83a669f96ba1f17e6c36acb139111ed12b016d0"
+    },
+    {
+      "path": "data/tide.json",
+      "bytes": 6157,
+      "sha256": "641a7c58f617614de60b4fe88f6223f2bb1eaff226d7361d6a1329bee6aa8b72"
+    },
+    {
+      "path": "data/transport-gtfs.json",
+      "bytes": 432407,
+      "sha256": "b5417960a914b4465784e36a1a653456a17745f0352138c9fb7e696665de7cc1"
+    },
+    {
+      "path": "docs/ALREADY-DECIDED.md",
+      "bytes": 10014,
+      "sha256": "36e84e0c85ade5571a467cb6ea6a571ebac123e1ab0c4e2a51c8c0584ee61e7a"
+    },
+    {
+      "path": "docs/CHEERLEADER.md",
+      "bytes": 4366,
+      "sha256": "ba8fd61868569d42f8c3c15e641189ddba7fec9eb149bfd83332145d01a5afdd"
+    },
+    {
+      "path": "docs/CONTRACT.md",
+      "bytes": 9378,
+      "sha256": "4c540ab4d89ce6a33a1a317b44fc8b4f993d41f2b9157e527d93e382dc1fc0a5"
+    },
+    {
+      "path": "docs/CRITIC.md",
+      "bytes": 6194,
+      "sha256": "557df62b10cbc57b1a59a8e00db1ff316c676e99f4acfa6e73cd8e4fa517f13d"
+    },
+    {
+      "path": "docs/CULTURAL-QUEUE.md",
+      "bytes": 13051,
+      "sha256": "47210ea989b675b897501d819b26d7c02b2b4904991f36bd336df10bbb56ffb3"
+    },
+    {
+      "path": "docs/FOUNDING-PROMPT.md",
+      "bytes": 21410,
+      "sha256": "4f9cddfe853e53be2a5a51e170512cf6e3273ced63234f1208115b8d8d079735"
+    },
+    {
+      "path": "docs/GROUND-TRUTH.md",
+      "bytes": 5142,
+      "sha256": "07341a8a20dc44a730d576ee472cc14a7ba5ddefa85d9cc28249e51569a4febd"
+    },
+    {
+      "path": "docs/INGEST-STATUS.md",
+      "bytes": 29465,
+      "sha256": "7005227eb8f9e61e36408fb6b8fc1d9a6c213baf00cd48246d68febef832a14f"
+    },
+    {
+      "path": "docs/JURISDICTION.md",
+      "bytes": 17951,
+      "sha256": "a82f54eb4c5d28f1c45a9d5704cb4ffc0f4393562461181dd422f17595ce7521"
+    },
+    {
+      "path": "docs/LICENCE-QUESTIONS.md",
+      "bytes": 39813,
+      "sha256": "1c42e929c9eda35e26b9c77a3b5900aa43aabfeb94b51e7a8af032d8b0f8d3d3"
+    },
+    {
+      "path": "docs/SCOUT.md",
+      "bytes": 4861,
+      "sha256": "482363f1c4a4d5709f0d4eb10aa0ab8b5a00128b368842005bcc10f70db5dec0"
+    },
+    {
+      "path": "docs/STAGE-0.md",
+      "bytes": 8015,
+      "sha256": "5175e2ee103cb8c2a6b025b5acb90534d69287f1679fcbf3e11e350cac1b0ab8"
+    },
+    {
+      "path": "docs/STATE-OF-PLAY.md",
+      "bytes": 39577,
+      "sha256": "f358a7036b2eeb533271a812038938e70f27ba08979ae014e556ccac35c47906"
+    },
+    {
+      "path": "docs/WINS.md",
+      "bytes": 6615,
+      "sha256": "0cdb62d07920ed288eb9bdd467a084a647e927491685e516b1521f9c77a2d13a"
+    },
+    {
+      "path": "docs/board/001-confirm-the-repository-name-second-island-before.md",
+      "bytes": 2129,
+      "sha256": "59bacfbc1afeda92bbfc235d0ecaa09ee769495748d6d7c7deea033ef7b543cd"
+    },
+    {
+      "path": "docs/board/002-a-cultural-correction-the-first-build-made-in-co.md",
+      "bytes": 3899,
+      "sha256": "5e44bfe77c131c9f750ddb9d1c4d23432b9eaba4f07e31700ac4be10fd36799e"
+    },
+    {
+      "path": "docs/board/003-no-day-zero-data-is-downloaded-so-stage-2-cannot.md",
+      "bytes": 1818,
+      "sha256": "8d0e03ba0233e896b4fbb1b6bf1bcba3bd8d7c5464f11e2d7a6a59d400dc92b5"
+    },
+    {
+      "path": "docs/board/004-the-tide-has-no-published-constituent-table.md",
+      "bytes": 2977,
+      "sha256": "532970a37bee07f67de452869e6c0270910ffcb638f7ee82c7a415d33b3c7d01"
+    },
+    {
+      "path": "docs/board/005-licence-md-points-at-two-files-that-do-not-exist.md",
+      "bytes": 1963,
+      "sha256": "6bbaf19416fd41899f533b43fa1d7ebe371cfdc089cd4b603885a8d5952bcf38"
+    },
+    {
+      "path": "docs/board/006-two-seams-in-the-board-s-own-machinery.md",
+      "bytes": 3561,
+      "sha256": "836fa39776f76449d56b7932adab6fdaf9f056c561dff2670a12ed95e05e3361"
+    },
+    {
+      "path": "docs/board/007-the-odbl-share-alike-question-is-unresolved-and.md",
+      "bytes": 2772,
+      "sha256": "efedfd0c2cf2a04b9bd2d88a63766dc9159f66ab9cf465737087172eba811dbf"
+    },
+    {
+      "path": "docs/board/008-six-of-the-eight-stage-0-instruments-do-not-exis.md",
+      "bytes": 3104,
+      "sha256": "7ab752f51ae1b5c45ee6ed8349343a6abed3465c4bcf93f27d007c8e6e24d8bb"
+    },
+    {
+      "path": "docs/board/009-the-page-exists-webgpu-is-the-live-render-path-a.md",
+      "bytes": 7768,
+      "sha256": "be1350e84d08501dedeb696dc15c5c438a8d5e6bc2d935b6d7c633432972e31e"
+    },
+    {
+      "path": "docs/board/010-the-interface-probe-and-the-frame-time-instrumen.md",
+      "bytes": 8485,
+      "sha256": "6829ad80ac12d5d4700a83f76ff9d65607392b55daf4b14f8f9ae6149ede354b"
+    },
+    {
+      "path": "docs/board/011-the-fault-registry-runs-18-of-22-rows-green-and.md",
+      "bytes": 9261,
+      "sha256": "c3cbd7bc9822e72559d84d6eaec1967f34746215714a087aae3eb864bc3c5a47"
+    },
+    {
+      "path": "docs/board/012-stage-0-is-complete-22-of-22-fault-rows-watched.md",
+      "bytes": 2032,
+      "sha256": "0ff09d75b27c533ff0ee163f0f34edbb363c4399b86ee155462e3329dd8a79c5"
+    },
+    {
+      "path": "docs/board/013-the-odbl-question-is-answerable-one-directory-on.md",
+      "bytes": 1453,
+      "sha256": "2cea0d499b19fe216a94fc8ccd259a8ee2a1bf4866309b2c88a04693752be1b8"
+    },
+    {
+      "path": "docs/board/014-real-ground-601-building-outlines-on-this-island.md",
+      "bytes": 8842,
+      "sha256": "75d918201cdc44213bb67c338decc56485160e92e4c89891b4d365d9f9527b73"
+    },
+    {
+      "path": "docs/board/015-fourteen-real-gazetted-road-names-trip-the-inven.md",
+      "bytes": 5966,
+      "sha256": "f86defab1daab3edf00b1a7740f86ad2cc43a2697b9e07565914c8a921376820"
+    },
+    {
+      "path": "docs/board/016-the-style-gate-blocks-a-verbatim-quotation-of-th.md",
+      "bytes": 3730,
+      "sha256": "249eb6c7aa84456c26f3e1aebc8d6d17516bf05724b22422e73a80ee5ae013a0"
+    },
+    {
+      "path": "docs/board/017-the-880-and-881-are-not-in-the-seq-gtfs-feed-and.md",
+      "bytes": 9893,
+      "sha256": "a5ff55f0771a8688f20462a3fec38e4208b9d76941da2bcf8c97a921782deeea"
+    },
+    {
+      "path": "docs/board/018-the-bitemporal-spine-runs-and-the-fault-registry.md",
+      "bytes": 8737,
+      "sha256": "a4d3533c9bf61ce3ecafe940e313107df3c238b657cf8899d6392e2c779d2ebb"
+    },
+    {
+      "path": "docs/board/019-the-fault-registry-now-covers-stage-2-and-stage.md",
+      "bytes": 12289,
+      "sha256": "1369bb0abfefb3262041f234d8b6ec4349fe91d587c870e5bc665a4ef498b8d6"
+    },
+    {
+      "path": "docs/board/020-a-year-of-real-past-weather-and-the-first-outsid.md",
+      "bytes": 6699,
+      "sha256": "754e15c0f63fee499a52662d47bb8fc39272c2a0fb4fa4084695971db03a4a04"
+    },
+    {
+      "path": "docs/board/021-the-sa1-census-pack-is-reachable-with-no-account.md",
+      "bytes": 7409,
+      "sha256": "0435673056545a4a4ed4d1503effb8b111c7f91d1494c6707df521b157b274fb"
+    },
+    {
+      "path": "docs/board/022-14-507-real-occurrence-records-on-this-island-an.md",
+      "bytes": 10865,
+      "sha256": "02f85c0ee1a4b05672ee8df58808f3c326bf86321c645bf2b37001b2f0590036"
+    },
+    {
+      "path": "docs/board/023-the-friday-bus-day-is-already-real-and-licence-s.md",
+      "bytes": 18731,
+      "sha256": "3e13e076c1b3c2696eca08dae79b92f403efb194c037aadfaffce5c8b336361e"
+    },
+    {
+      "path": "docs/board/024-one-licence-switch-decides-four-lanes-and-the-st.md",
+      "bytes": 4599,
+      "sha256": "43fa5f16e6b9b010b75649d79c122f9b6f055e7f7116354a67d5f3657b7ba434"
+    },
+    {
+      "path": "docs/board/025-no-fabrication-found-in-wave-5-and-a-silent-8-mb.md",
+      "bytes": 13359,
+      "sha256": "e502010d58952525d5a569972488d419cd37a359da12bc2021a2752d33abb88a"
+    },
+    {
+      "path": "docs/board/026-the-silent-8-mb-skip-is-closed-and-it-found-a-nu.md",
+      "bytes": 1838,
+      "sha256": "49413d6b2ea5303f2dbaf9ce65cb819aa47d506d86fb0116632d58a31931524d"
+    },
+    {
+      "path": "docs/board/027-osm-has-601-buildings-the-island-has-at-least-17.md",
+      "bytes": 2588,
+      "sha256": "8f4ee6d7107ab7f5b48cfb62dee2a95f53a5e092c51fa3f39abb5a0a26aa28cd"
+    },
+    {
+      "path": "docs/board/028-the-founding-prompt-is-demoted-docs-already-deci.md",
+      "bytes": 2764,
+      "sha256": "4b7f12901ac45e9f14fb4b79f84c8592afae0b3e0a0cf883f0c459c2419b0294"
+    },
+    {
+      "path": "docs/board/029-the-crossings-from-the-owner-two-operators-two-l.md",
+      "bytes": 2344,
+      "sha256": "2f16f04f6eb244d0ea116f1cb4a9eeb233fc2941b33ce850b5768460068e6a48"
+    },
+    {
+      "path": "docs/board/030-the-ferry-timetables-are-pinned-to-the-cleveland.md",
+      "bytes": 3610,
+      "sha256": "769d0860668be4bdf53990e43d2fb1526f60cf905d7f5eb6611c1d9ab6ee7ec8"
+    },
+    {
+      "path": "docs/board/031-the-store-is-in-the-world-one-field-one-resolver.md",
+      "bytes": 16051,
+      "sha256": "d9e1276052c3b159c45370889815b85aad40b253c75f2ab7250b053d6465418e"
+    },
+    {
+      "path": "docs/board/032-the-crossings-are-data-76-sailings-three-service.md",
+      "bytes": 14229,
+      "sha256": "e849d31d4c8a71d743f74f1326ef44862e701ce9158e2fd6455b5e19425fc5fc"
+    },
+    {
+      "path": "docs/board/033-does-the-bus-meet-the-boat-six-sailings-on-a-fri.md",
+      "bytes": 14574,
+      "sha256": "e7f4b4b34e20aa3dd7722546d527d485c4dad0c74cc1cb4eb0e093f6c9302c3d"
+    },
+    {
+      "path": "docs/board/034-the-owner-s-timetable-is-sealed-and-gate-crossin.md",
+      "bytes": 13399,
+      "sha256": "cb55f737fe80d7fa20a2175a112b36f3a3d81428345ab28337ed26a4f6faeb69"
+    },
+    {
+      "path": "docs/board/035-the-everyday-view-runs-two-answers-that-are-neve.md",
+      "bytes": 11060,
+      "sha256": "010ed8fe5658cae9cd2ff50776b6826382386adfd306c6d4b2fe0c3b0fc86206"
+    },
+    {
+      "path": "docs/board/036-the-timetable-holds-against-a-third-transcriptio.md",
+      "bytes": 17746,
+      "sha256": "44a56fa83b91b20174e6557e5df1abb024df5c078605ebe9aa0113fc6a954b01"
+    },
+    {
+      "path": "docs/board/037-the-front-page-is-for-a-person-and-the-bench-mov.md",
+      "bytes": 5015,
+      "sha256": "b36022bde91716a741aef3cfbe29d90ba2f5eee627fb88d1cbf8fa5590aaa7db"
+    },
+    {
+      "path": "docs/board/038-the-instruments-follow-the-bench-witnesses-retak.md",
+      "bytes": 4033,
+      "sha256": "85225763476b50e5f3148925864aa15092523eadb5b72d4be387c4946580cb9c"
+    },
+    {
+      "path": "docs/board/README.md",
+      "bytes": 5813,
+      "sha256": "22f91cd16b99074d079e90f04de38c20b9c1ef15b1937583c99de7f91c198e3e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5367,
+      "sha256": "da69547ce873b938f6be6a0758a5f229df6dd77fbaba1c6855c167f014682bf8"
+    },
+    {
+      "path": "lab.html",
+      "bytes": 7334,
+      "sha256": "71e559e4448122b602e3c6891c62c5eac0f3651071d315805e262f2efe2a18f2"
+    },
+    {
+      "path": "progress/index.html",
+      "bytes": 8290,
+      "sha256": "486e9f5367d73287f829a6a1cf6119d468fc201b9b06934cb9975d7037d82952"
+    },
+    {
+      "path": "src/kernel/clock.js",
+      "bytes": 3994,
+      "sha256": "cb39aa788a12547228a00f39330363ba3d3015bfd977d74f6e50feaf036c7918"
+    },
+    {
+      "path": "src/kernel/faults.js",
+      "bytes": 1485,
+      "sha256": "5f5c3fd231acb83a5fb8ff4225f85d4d85c60e699f4df7302c7b4be1a6d3371e"
+    },
+    {
+      "path": "src/kernel/hash.js",
+      "bytes": 2969,
+      "sha256": "52bf830aca5271abccb50b5df6d61550a78c36470f554fe1314b019cedad8f49"
+    },
+    {
+      "path": "src/kernel/record.js",
+      "bytes": 5404,
+      "sha256": "b2b34aedfa8e9164944e48bc2a1a42a4f11073e3e8f0b9a30b939d694aa783ff"
+    },
+    {
+      "path": "src/kernel/rng.js",
+      "bytes": 3726,
+      "sha256": "e9536219b551439c8cacfa1a7c0e0bc486e034a9e36574331b6e7383954b8e3d"
+    },
+    {
+      "path": "src/kernel/store.js",
+      "bytes": 5115,
+      "sha256": "87b8a62ce8ad8b1b106e95628b3d5e773f013e737ed71299905effa29ad18c08"
+    },
+    {
+      "path": "src/kernel/world.js",
+      "bytes": 8792,
+      "sha256": "6243d7d813512a0c6410ead722df6a6c4e246bf820686af3217dc19c7c78a13c"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 18825,
+      "sha256": "7d76e33089d7d94d39eb602a15058b25269b3be42ba8b0c0e543fc6e077cc266"
+    },
+    {
+      "path": "src/render/calibration.js",
+      "bytes": 15369,
+      "sha256": "996bce92eb12db3f24b9f23ecdc7833a286790cf9257738b5461585051675da0"
+    },
+    {
+      "path": "src/systems/crossings.js",
+      "bytes": 17986,
+      "sha256": "896333f529466ea63c8f5309e1b5bc5b5060c2ab08a5da71939baf8ca7f1b619"
+    },
+    {
+      "path": "src/systems/solar.js",
+      "bytes": 9577,
+      "sha256": "6780c1f54cd1bf348c4ed78a831e5ebcc605fb0d2183b6c95428d49c268d7545"
+    },
+    {
+      "path": "src/systems/tide.js",
+      "bytes": 8584,
+      "sha256": "9a653e5319330920e7ed8aa1235f3a2c3eccc2f906149c9480722779161a829b"
+    },
+    {
+      "path": "src/ui/crossings-view.js",
+      "bytes": 39752,
+      "sha256": "a4b8e0b6d57fdd6f002286927b1a241eab6acc641630a0e577bce3133e21167c"
+    },
+    {
+      "path": "src/ui/panel.js",
+      "bytes": 16146,
+      "sha256": "28798133841b593617b3f4aabfdc20ea4d1c8854db108eab210ad86fc1254b71"
+    },
+    {
+      "path": "src/world/bitemporal.js",
+      "bytes": 23724,
+      "sha256": "b71e64bd2f6d92258125560828a13fc602933e100e48cfe4f6ec29bd34d40a8b"
+    },
+    {
+      "path": "src/world/data.js",
+      "bytes": 5815,
+      "sha256": "2dd208473228e917cfa383df8c2d9347e7e1de2a01f7ced2d59b1cc65e510c8d"
+    },
+    {
+      "path": "src/world/ground.js",
+      "bytes": 28160,
+      "sha256": "143d5d613308dbe5182ee50f5992cf72ae4e4369ee7eb776605d2a128b61a0d0"
+    },
+    {
+      "path": "src/world/island.js",
+      "bytes": 17173,
+      "sha256": "50bf7f2319c0c467b6cf8d73d6d1b3de1f9d308927b02ec0367159e56d5259e0"
+    },
+    {
+      "path": "src/world/ladder.js",
+      "bytes": 12557,
+      "sha256": "df5fd6cd30fc57d37e57065e8f39bb336ff0f6d99f9b689b5ef41e99d636d904"
+    },
+    {
+      "path": "src/world/tunnels.js",
+      "bytes": 6516,
+      "sha256": "68465bf0bfd1b05fd96c19519e58240da173ef82f9f42475753dd0cb634717cc"
+    },
+    {
+      "path": "tools/bench.mjs",
+      "bytes": 11313,
+      "sha256": "dc74bbdedc3057e6c3caadd5525468e46143812598ecbaf44a72dc1fd9939658"
+    },
+    {
+      "path": "tools/bitemporal.mjs",
+      "bytes": 23464,
+      "sha256": "cb44bfc8837cde9d7fbe5d982fdced75a883350756fa006064169cd520a3a628"
+    },
+    {
+      "path": "tools/board.mjs",
+      "bytes": 22122,
+      "sha256": "e181d9193bc6b6d601e465700b67921c78230d6d183568f767d0681002bb3753"
+    },
+    {
+      "path": "tools/budgets.json",
+      "bytes": 924,
+      "sha256": "b5a227073d854c54928c1b498c25ea1a4aeaef7b50c5913182cbe111347275a9"
+    },
+    {
+      "path": "tools/check-crossings.mjs",
+      "bytes": 24087,
+      "sha256": "0a07a8e2c894c4d0d9070d5ffef08f4f1a26bfe0d6a99f9eb0e1ab3e8c0cce6f"
+    },
+    {
+      "path": "tools/check-island.mjs",
+      "bytes": 13219,
+      "sha256": "225b9a46a3fc43d762416a5da5990661ee19ef638e9c9e7e2dfe5358e6775f59"
+    },
+    {
+      "path": "tools/check-wiring.mjs",
+      "bytes": 16656,
+      "sha256": "5db1c1f7a7c1dc0601485f9cbe282079c37865ebe4cc6583c31bf4a085f4beed"
+    },
+    {
+      "path": "tools/connections.mjs",
+      "bytes": 40839,
+      "sha256": "b39f2858ff9fb106109b42974e8705355749dc5125e59a29fe10f96c97f72a40"
+    },
+    {
+      "path": "tools/determinism.mjs",
+      "bytes": 17726,
+      "sha256": "d1b461429fab05317c798a5eb9573a58ecc28c01c539e2dd256fa88974d12cd8"
+    },
+    {
+      "path": "tools/faults.mjs",
+      "bytes": 54527,
+      "sha256": "550107a5501d5048584887c06cd6812393b6a452729b232cf7737fa5d67b4b66"
+    },
+    {
+      "path": "tools/fixtures/bitemporal-records.json",
+      "bytes": 9496,
+      "sha256": "0fd84db5f6f35cb610abae67597785a60f6afc49f254f9b773b4a87364299dda"
+    },
+    {
+      "path": "tools/fixtures/spin.js",
+      "bytes": 11108,
+      "sha256": "375b0a038f403f6f638cb8f417d68ee07eb7af5a1a65ae1516d65c58eda549c4"
+    },
+    {
+      "path": "tools/gate.mjs",
+      "bytes": 8978,
+      "sha256": "79d88a74544a8864ccb70825779a35202cb1a0c3dcc0dc17b5591b1a37a52930"
+    },
+    {
+      "path": "tools/gate/board.mjs",
+      "bytes": 7956,
+      "sha256": "c0914a7f624e1989029d9103bd17e7d6912b17fd5c6b94ae6d0017f183f661bc"
+    },
+    {
+      "path": "tools/gate/crossings.mjs",
+      "bytes": 22714,
+      "sha256": "4e7b59ad4fbab80e499695bd53104d7a0d42a5f582cbdf0b805a16984c9c452a"
+    },
+    {
+      "path": "tools/gate/derived.mjs",
+      "bytes": 26416,
+      "sha256": "02823671e427254b56cb9399305336fe8064700e0641d5e77b784a501a52c5bd"
+    },
+    {
+      "path": "tools/gate/failure-modes.mjs",
+      "bytes": 5283,
+      "sha256": "595a83d41fc32571cbc7c3000d0a8959a08d324144c185475b8256bf91b4a040"
+    },
+    {
+      "path": "tools/gate/ground-truth.mjs",
+      "bytes": 15149,
+      "sha256": "4ff16a623f2a9c49f710ee0946e559f896b031370c08e9bc56243deabe4640e5"
+    },
+    {
+      "path": "tools/gate/imports.mjs",
+      "bytes": 8464,
+      "sha256": "c851f2f3a190939e879cc444eb71b121c025c7e2bf88cd99889a4e6e027d166d"
+    },
+    {
+      "path": "tools/gate/instruments.mjs",
+      "bytes": 10375,
+      "sha256": "cd26747378fbdb5a54b14207639203078935c25507919cc7d699eb0c74a6c090"
+    },
+    {
+      "path": "tools/gate/lore.mjs",
+      "bytes": 55385,
+      "sha256": "80f13c2eec630386d6f25ba231004852d6db24acc3fd18273fd9281693ca61bc"
+    },
+    {
+      "path": "tools/gate/no-wallclock.mjs",
+      "bytes": 5550,
+      "sha256": "bd7958205d6c82ca1b1f2c8110ba389031fdf424d3f6f7908386ef871f6f2c8b"
+    },
+    {
+      "path": "tools/gate/personal.mjs",
+      "bytes": 7998,
+      "sha256": "91e02a7afa34d8f3e066206977ae5b1c6966a7824403a3bff6a833dd460b2bba"
+    },
+    {
+      "path": "tools/gate/ports.mjs",
+      "bytes": 6016,
+      "sha256": "7a624188613f3ef54624c0d3ccc267162f30c2515191ce1c873b2cec6547179a"
+    },
+    {
+      "path": "tools/gate/provenance.mjs",
+      "bytes": 8475,
+      "sha256": "bf9245d2f639bc1d26f6ecdc3283e935859479d832dd493ff7f755ec324c8547"
+    },
+    {
+      "path": "tools/gate/sealed.mjs",
+      "bytes": 8854,
+      "sha256": "52a5c9769d7bdb63f6875300f08fd45d6317f3bf1e1df781d10e3705513cc9f8"
+    },
+    {
+      "path": "tools/gate/style.mjs",
+      "bytes": 12558,
+      "sha256": "54dc039d118c6e27dcaf9c142871f76eda087ac1e53d52f62ba9b117821c5501"
+    },
+    {
+      "path": "tools/ground.mjs",
+      "bytes": 6878,
+      "sha256": "6b983fbcc78950d4a3e143721af4d09dec24f8c78449d744f9b0cad5b422ecb8"
+    },
+    {
+      "path": "tools/headless.mjs",
+      "bytes": 20532,
+      "sha256": "8926cfa9e73b2c95fe16debdd6c9b833975cf0f88892131fcdadb3664bb2a600"
+    },
+    {
+      "path": "tools/hooks/commit-msg",
+      "bytes": 1118,
+      "sha256": "88c6f1ae38429be4babfc8982c4d415829fd452ac774dc9d606ccf13caeeea1b"
+    },
+    {
+      "path": "tools/hooks/install.mjs",
+      "bytes": 1857,
+      "sha256": "fe29246db3e3209d0facd8038fe161fcf8cdd96d0b9400721e9f0b362f1ec1ff"
+    },
+    {
+      "path": "tools/ingest/census.mjs",
+      "bytes": 35308,
+      "sha256": "8a8a1a00dad9394442cef85068097fc320d49d29172066fa882ba8a59e65a54f"
+    },
+    {
+      "path": "tools/ingest/ecology.mjs",
+      "bytes": 36398,
+      "sha256": "02ec50a6c971da65d380375cab13864e9d7d9f85d89a7149805356baea0fe9b4"
+    },
+    {
+      "path": "tools/ingest/gtfs.mjs",
+      "bytes": 55247,
+      "sha256": "66d77373baff5938a2416638dfd9749e973c165c99ba9b6a2040f1b019d7f34b"
+    },
+    {
+      "path": "tools/ingest/osm.mjs",
+      "bytes": 39181,
+      "sha256": "88780b27d830d2b2699704e72a71d92cae017af74a62a9b905ad398284c5f1b1"
+    },
+    {
+      "path": "tools/ingest/weather.mjs",
+      "bytes": 36276,
+      "sha256": "64725f6aa76ddcbdcf6c8172e329e7474fc394ccf3b084484a52db1bb78180ef"
+    },
+    {
+      "path": "tools/panels/calibration.json",
+      "bytes": 2663,
+      "sha256": "3aad20d87162a8a0bf1969315eb4b43c2a14ec976fdb96bb2d5c772ec9fddbf5"
+    },
+    {
+      "path": "tools/panels/front.json",
+      "bytes": 4817,
+      "sha256": "54418d155d354c9d6169eaf9cb2a9e5aac0909d2d2f2a0831e24cf78a053ece0"
+    },
+    {
+      "path": "tools/png-encode.mjs",
+      "bytes": 4337,
+      "sha256": "cd1e2a69ebb11002de28cfc7733acc270d2185a62160788fdbf31a165060895c"
+    },
+    {
+      "path": "tools/png.mjs",
+      "bytes": 9453,
+      "sha256": "ed6fed0a331fa0b813f5a91865f4dd6527ccb5e83ba8b6f0a476c7ee11bc4765"
+    },
+    {
+      "path": "tools/scenes/calibration.json",
+      "bytes": 7583,
+      "sha256": "cc797ea1de9ff9ae7b4d32c701d7c1ca8e120f6da1fbe1e3039081fd97b2575b"
+    },
+    {
+      "path": "tools/selftest.mjs",
+      "bytes": 36277,
+      "sha256": "b0f5a3033d5587affd28fefa392a4da882875730c78977dbf054f9725fdd8c9c"
+    },
+    {
+      "path": "tools/serve-progress.mjs",
+      "bytes": 6301,
+      "sha256": "533d7d01b1f80de7d3d18008bdf1e113027f8f1c2581df8686bebca361bcc7db"
+    },
+    {
+      "path": "tools/serve.mjs",
+      "bytes": 14225,
+      "sha256": "71c4e4a8c097d297391e18681074c79e5f8c63561cdd9044234017de323c6d9c"
+    },
+    {
+      "path": "tools/shot.mjs",
+      "bytes": 18995,
+      "sha256": "68d8de63682265c789f72c8254fa65f19c6fc2e626f6ce06d2ba61ed06224df2"
+    },
+    {
+      "path": "tools/tunnel.mjs",
+      "bytes": 6280,
+      "sha256": "bae552d99fd966a1415c975dd3c852f39c42cbc81b9c5462fe3f78f6a0077717"
+    },
+    {
+      "path": "tools/uicompare.mjs",
+      "bytes": 27515,
+      "sha256": "6f59ecfd0c05d3998a18f29f4d3828bfc4a8f068545359bf495e3f112b190518"
+    },
+    {
+      "path": "tools/uiprobe.mjs",
+      "bytes": 31520,
+      "sha256": "5a1422deb3178699b3f35b956707db0adbf0a4eb3dba02dd94c81fb81555724f"
+    },
+    {
+      "path": "tools/zip.mjs",
+      "bytes": 8898,
+      "sha256": "67018d6e55acb090c98c5f9e53966e98d886a9b2e19e88a90872828732b7b419"
+    }
+  ],
+  "files_sha256": "74a3569ef8407bdb11d2540291039763e826858d743142f7f2486760bfb39595",
+  "file_count": 141,
+  "source_bytes": 3624648,
+  "excluded": []
+}

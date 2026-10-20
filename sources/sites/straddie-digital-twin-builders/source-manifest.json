@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/straddie-digital-twin-builders",
+  "slug": "straddie-digital-twin-builders",
+  "capture_started_utc": "2026-10-20T08:00:28+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:29+00:00",
+  "source_version_start": {
+    "head": "c8a7b3f72a2046c2a4486157b7aa0b2f082c1686",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "c8a7b3f72a2046c2a4486157b7aa0b2f082c1686",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": "LICENCE.md",
+      "bytes": 3632,
+      "sha256": "fbe8b372a47374903eed4931ea5c1f3f1ced329d8f63f854dcbcafa37a07571c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4727,
+      "sha256": "63059ef31813387bf3797b2ea51310320126bef1fd0768855e4c679fe09f26ea"
+    },
+    {
+      "path": "architecture.html",
+      "bytes": 6561,
+      "sha256": "f594ff8a23d1e7ae49bd933a4572283d0c4ade91b4f0f94e10444ea0824d0894"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 37459,
+      "sha256": "0687afdfda513eb39a54f35cff14ae8ef2e0321e6e5ad324930be75157ee8cc9"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 41899,
+      "sha256": "3bbc2177efe821f18ed8795cde562c6473b546814cc23f9325ef2eaaeee6ca1e"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 2029,
+      "sha256": "eb70ca7cc3e1258a30a784a7fef8ed52eeb448c9884e731008aaa8fd3c78c8b1"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 1068915,
+      "sha256": "74cc74f89e3032a4ee8298faf061fef422c85f733e4670cc2823cda3a7e18e3f"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 76594,
+      "sha256": "dedd09c5e539fd916d280d6a279714373f49daf01f87bab347831ec594b47fb1"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1521,
+      "sha256": "f998d2485f0077ae6450c896af9a6d733fc91bd849cf1da20c987d869644364a"
+    },
+    {
+      "path": "assets/img/capsule-surge-lab-concept.webp",
+      "bytes": 370866,
+      "sha256": "c3c7abbb83e86062e2cc79dbdd117a78287d70241084be6a45377bf99f78fe28"
+    },
+    {
+      "path": "assets/img/digital-twin-builders-hero.webp",
+      "bytes": 169062,
+      "sha256": "23a8502bcf92a2e744b10d438a9acfc35189a0fe23f7139ebd08db625a0115e1"
+    },
+    {
+      "path": "assets/img/dunwich-ferry-terminal-board.webp",
+      "bytes": 212826,
+      "sha256": "934a70ed1ae4251add7183820b48e177b482ccafde6322665bc52accc2f5b695"
+    },
+    {
+      "path": "assets/img/forms-intake-desk.webp",
+      "bytes": 183942,
+      "sha256": "c7bdb9272b1bd9c2c91db115026ecfcfa66bdd7e507eb0b98b01cb19e7e5d724"
+    },
+    {
+      "path": "assets/img/noticeboard-device-pipeline.webp",
+      "bytes": 271946,
+      "sha256": "2a7dab7946c6294c58afd1a35786e958784e2d27c929b5d39e169660a6e37d90"
+    },
+    {
+      "path": "assets/img/p4a-map-card.webp",
+      "bytes": 28998,
+      "sha256": "15881467b8c6525332156457b392a77c1e4271f9edcc28d7594408e65cf66428"
+    },
+    {
+      "path": "assets/img/resilient-island-network.webp",
+      "bytes": 113436,
+      "sha256": "fe6d93ec3ad2a9c39b963b6b3a2c80c3c4eb3f65331ac5df39308029aaf3cd30"
+    },
+    {
+      "path": "boundaries.html",
+      "bytes": 5359,
+      "sha256": "465065328cdec91f7e011c6062939bdecc2687b089280b5f15fb5f547eae5b0a"
+    },
+    {
+      "path": "builder.js",
+      "bytes": 26124,
+      "sha256": "d9bb6b56dd7a27a49afad80bb05b4959d10386ac3805bb2d3f92c8004dc82fde"
+    },
+    {
+      "path": "builders.html",
+      "bytes": 7488,
+      "sha256": "563c31870cb8bf1189b7288eea7baf036325c7a150e72277202be7b2d5662566"
+    },
+    {
+      "path": "docs/source-index.md",
+      "bytes": 3021,
+      "sha256": "cf8c852fcd43fdda4e1cefb7170368eeb67805d900454f9e24f8f6796a219c49"
+    },
+    {
+      "path": "dunwich-ferry-terminal.html",
+      "bytes": 10568,
+      "sha256": "2c8be65243d9e5610efbe426b84cd7d1c4eead65bb8d9beb7141237aef4cd924"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8916,
+      "sha256": "9bb51aa3ced6a9e6687dcadf3d8b876a918cbfc7b02ed7db992ce77a68f4e86b"
+    },
+    {
+      "path": "l0.html",
+      "bytes": 5958,
+      "sha256": "cca894a0d1476199ed609f8df101212bf7594a8de3b5efd9cfaf1f235b43aebc"
+    },
+    {
+      "path": "l1.html",
+      "bytes": 8625,
+      "sha256": "e6915c1f280a5107a03913b444f95fd41d3745e2ce4cfb8d350c3147a6f56950"
+    },
+    {
+      "path": "l2.html",
+      "bytes": 6880,
+      "sha256": "b18020ff95622f2e68273f5f67e558eafdebf56c3495db3ea93e81039d7b4518"
+    },
+    {
+      "path": "network.html",
+      "bytes": 7876,
+      "sha256": "63696e519561ff8ab02e3d39164f2cc201a505b8e7e00f0ea1013002a7c10ece"
+    },
+    {
+      "path": "script.js",
+      "bytes": 3739,
+      "sha256": "f18c205af18a79662b006593db9e37bd8edb18eda9e37a9359b69db7c87715fe"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 14342,
+      "sha256": "8b9a43d5113e0d45499797671d1147480692b599f5ac99cdc12b98d20a1887e8"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 22087,
+      "sha256": "0828455500751d7b0a6cdba92e1fa0364ad095e9d4fd100f901cfb1456a99345"
+    }
+  ],
+  "files_sha256": "409f4da08b904951f058f9ccdb781fc767bab33f76330a728c3eef95f706d6db",
+  "file_count": 29,
+  "source_bytes": 2725396,
+  "excluded": []
+}

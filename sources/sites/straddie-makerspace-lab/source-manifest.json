@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/straddie-makerspace-lab",
+  "slug": "straddie-makerspace-lab",
+  "capture_started_utc": "2026-10-20T08:00:34+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:35+00:00",
+  "source_version_start": {
+    "head": "5e2978fd7361c7b0f4bace256f986a08d70eb67b",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "5e2978fd7361c7b0f4bace256f986a08d70eb67b",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3611,
+      "sha256": "e75c69f2e3a4dd9492658b2b36726c54c9e44cf9ddf699e5cf35e9a7dca1adf4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3899,
+      "sha256": "13b003d8dcd5413e30e121df36d13458e6b7de942d03c7f56217eb03ef38e765"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 28522,
+      "sha256": "ac6599ccd6aa50cfe9226853f63414f4b1906c2a9aafffbe0387c8a3a3de78bc"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 31806,
+      "sha256": "fc170152c9642ad390b6a191d57ff0c07fa7f0b6bfbde7ec955b37b1d1d15a88"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 2250,
+      "sha256": "305d01e5d423659797263e9a653cd92404dda218b4b4a07d207e04119974a1b4"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 699637,
+      "sha256": "09d0f5d255e5692cd91e9aa8e201fe0327aad871d4eb3421a684ab9ade8f31e9"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 75981,
+      "sha256": "e3c1e1e32762d000180990fc3fe0c959f7ca544f750d02be5f502a2855eeceb1"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1514,
+      "sha256": "e909df31a4e4815b205e9a2087cce4fc6cbae7549b2c6bfd8692d79d5d2316c2"
+    },
+    {
+      "path": "assets/img/concrete-batch-plant-bush.webp",
+      "bytes": 278108,
+      "sha256": "a20aa2f095d79f18a0b28e4e14c504b69e0eb5760de4b761d1460b32a536bed7"
+    },
+    {
+      "path": "assets/img/experiments-bench.webp",
+      "bytes": 227672,
+      "sha256": "5acf138e49f81d6eea6eca86f43f850a66f0c93e03fcda72138ff2398c94a88b"
+    },
+    {
+      "path": "assets/img/forms-intake-desk.webp",
+      "bytes": 183942,
+      "sha256": "c7bdb9272b1bd9c2c91db115026ecfcfa66bdd7e507eb0b98b01cb19e7e5d724"
+    },
+    {
+      "path": "assets/img/future-disaster-kiosk-container.webp",
+      "bytes": 341488,
+      "sha256": "9bb3f5f0c07af8855985275abb12e87ea49bde9563aa10c22483d8fa32f32aa7"
+    },
+    {
+      "path": "assets/img/home-container-lab.webp",
+      "bytes": 392662,
+      "sha256": "dbee370b0a049a2d9a895285f2167b2dc4c1b34e804ffc91c924014d4aef4848"
+    },
+    {
+      "path": "assets/img/maker-space-workshop.webp",
+      "bytes": 208772,
+      "sha256": "d247eaa189c590afd60146ffa7f7b3fee73bba2bcde5fb0bb3e77fb6919cacfd"
+    },
+    {
+      "path": "assets/img/network-noticeboard-fields.webp",
+      "bytes": 320356,
+      "sha256": "347176f48c9d2ac4c74d3cee73c59fdab6663845c63c95de06ca211feceec85e"
+    },
+    {
+      "path": "assets/img/proposal-site-options.webp",
+      "bytes": 239388,
+      "sha256": "80c285b4ecf5c5ac0b9b2ec8d5cff822317c548b9cab91a214580387b59c63ca"
+    },
+    {
+      "path": "assets/img/sand-materials-display.webp",
+      "bytes": 242028,
+      "sha256": "c0b329eb9f38571ee1006605169ca2d94756450f46de02605b857546f45f4ca0"
+    },
+    {
+      "path": "assets/img/sources-documentation-desk.webp",
+      "bytes": 196788,
+      "sha256": "6e476a21c8b9bcfc4ef465bf9ddf47a6542b7cd0d8e332e2f9eb9b1f5bd646be"
+    },
+    {
+      "path": "assets/img/tip-loop-container-depot.webp",
+      "bytes": 384354,
+      "sha256": "9c57fffe2b6e29fd1eb222c57cf72e6bbcac38dbf67e0831363fb8a7f9c195b5"
+    },
+    {
+      "path": "assets/img/tools-container-workshop.webp",
+      "bytes": 234002,
+      "sha256": "c4531d9fb197aa3fce53c8d7cbbe035e2c00b7da6e4353f44ed9dd5f23e5459a"
+    },
+    {
+      "path": "concrete.html",
+      "bytes": 10519,
+      "sha256": "d9c7e38f79464e0ad2e0002f0973134d79e08b1c8169af2166a40644d7496feb"
+    },
+    {
+      "path": "docs/design-concept-home.webp",
+      "bytes": 157276,
+      "sha256": "315b34719080ec60bbef88fe0280e8b54e769327a53ccd1a3c87782f28306700"
+    },
+    {
+      "path": "docs/source-notes.md",
+      "bytes": 5610,
+      "sha256": "609ccdd180e0512633fc2aef550fbe4d62665eea4fbc3050149ac3568695228d"
+    },
+    {
+      "path": "experiments.html",
+      "bytes": 7173,
+      "sha256": "96cd755ad7621984111b50e3e7f9e43b1473949e017e9b16175943e60f1510ed"
+    },
+    {
+      "path": "forms.html",
+      "bytes": 9582,
+      "sha256": "8f9a7018ac28a386db59f8aaacb1d35b47750b89377d786b5117d80dfaafca3f"
+    },
+    {
+      "path": "future.html",
+      "bytes": 6946,
+      "sha256": "eb2d7a628db893d9961188c309a3fae4202ddbf554c5d33aa6abe659988d0cd7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 9746,
+      "sha256": "1a4efa6b2217615afad42eecf14d7c50bf9c839132b1b68836192761adb44f8f"
+    },
+    {
+      "path": "makerspace-builder.js",
+      "bytes": 7882,
+      "sha256": "e297e09f3faf9788f78d9d222daa522e05b7139a07e53a489523c55d0a7cc294"
+    },
+    {
+      "path": "network.html",
+      "bytes": 12024,
+      "sha256": "54dda70200d9b592334fa25bd8126a0a46fc5559e407153f5adc3970c9698ff9"
+    },
+    {
+      "path": "proposal.html",
+      "bytes": 10467,
+      "sha256": "2e9ca9c22dbaad62b96ec811c9377b49285b90679c2b7b637309a078f6ee3db2"
+    },
+    {
+      "path": "sand.html",
+      "bytes": 11235,
+      "sha256": "131796bba32d0fe73b27d01b0657bf1dab2a7ebd9af8485626bde67c5282f553"
+    },
+    {
+      "path": "script.js",
+      "bytes": 6613,
+      "sha256": "1de04a3decdf0e15675a6b88a719fdcaed8df77560b6290c80032ccde6f9586b"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 9974,
+      "sha256": "4a8f3ea0301485290e65a4000ae9fe07e703fa9b8c9ed4da0972b9b1f95ea32e"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 13674,
+      "sha256": "d176c62a7b33b88dd494923cea735a2b777fa082469e428f9e1627560725b7df"
+    },
+    {
+      "path": "tip-loop.html",
+      "bytes": 11714,
+      "sha256": "7318c7a15f58157d946869fb6ec0e6978f000bd1965b5eeb9b11d3f0b6c97e16"
+    },
+    {
+      "path": "tools.html",
+      "bytes": 8504,
+      "sha256": "fdfb63c2ca4adfddfea4e6fd1db62ef331db209500de428f055a52a98da5e613"
+    }
+  ],
+  "files_sha256": "dd2debe814ddb0540c2591fc9d3ad4b8e7e9a396980b8bcb351814ca170ee789",
+  "file_count": 37,
+  "source_bytes": 4395721,
+  "excluded": []
+}

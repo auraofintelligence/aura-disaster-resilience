@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+  "slug": "Redlands_discovers_Luke_Hayes",
+  "capture_started_utc": "2026-10-20T07:56:59+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:04+00:00",
+  "source_version_start": {
+    "head": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 54,
+      "sha256": "c60a5cc29a259f77f55db79b494a172f4e4bdbd9a3b582961990e6076d573423"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1102,
+      "sha256": "053c26516c5ed85a81166d18df83cd3cb5328f086ba08c6d2efa63217637ad78"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3592,
+      "sha256": "7e8b4d179047e59c1139be3af2775d90c892187ee80be562dbc23aa0d1983f2f"
+    },
+    {
+      "path": "PUBLISHING.md",
+      "bytes": 1412,
+      "sha256": "822bb55a229cee37a5b49f598f5ff3a72a33cb924007c82222312dbae1e39f44"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2267,
+      "sha256": "3597b59e8285a0e5208b7595e699724cc5e43b245bf1a68031dc83bcf2901e5a"
+    },
+    {
+      "path": "When_Redlands_Discovers_Luke_Hayes_v4.0.docx",
+      "bytes": 70167,
+      "sha256": "3c4267e50a697dc41b1b941890628e608288b8426d50957228e242a92220151e"
+    },
+    {
+      "path": "When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+      "bytes": 356241,
+      "sha256": "4c0a71004bbbb6c4a15dedae77063575b89774eacca4dee5f9dee0bd7d97502b"
+    },
+    {
+      "path": "assets/css/site.css",
+      "bytes": 28180,
+      "sha256": "12f9a9b375af2bb15553be1be9baf0037b2d765475e83dede3a2ca4b95d38965"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 300,
+      "sha256": "08a6684a5ca37f37c1f24b1ebe9dc09bb40985c67668192229f28f7acef4d6e6"
+    },
+    {
+      "path": "assets/images/aura-genesis.png",
+      "bytes": 2513455,
+      "sha256": "11a417297aa2a839dd757c842521af32323db6d81f397590fe5d79bd6846f23a"
+    },
+    {
+      "path": "assets/images/australia-world.png",
+      "bytes": 2780622,
+      "sha256": "f69a947034dc655c82072f50329c52c386cdf97f4ba0ac80465c57a45ccdb105"
+    },
+    {
+      "path": "assets/images/community.png",
+      "bytes": 2787260,
+      "sha256": "967445e682f3d33148d6923308361a2b93a99357b9e99f18f44b90d72ff653f5"
+    },
+    {
+      "path": "assets/images/continuity.png",
+      "bytes": 2770803,
+      "sha256": "dfadb519b6be25c813dda1ae1f7091b564b9e119b876caccb1ac2f32061accc4"
+    },
+    {
+      "path": "assets/images/future.png",
+      "bytes": 2776160,
+      "sha256": "133fe11fa411977690da4282b39d79e43cd893071d0af5268866ac32bda2db54"
+    },
+    {
+      "path": "assets/images/gajra-earth.png",
+      "bytes": 2624284,
+      "sha256": "51c3f77674552944750ca79bf59a9d4d9c9a4190e4b43b78157f5249d3ceeccc"
+    },
+    {
+      "path": "assets/images/hbot-geode-solo.webp",
+      "bytes": 102734,
+      "sha256": "33d4bc295a6e062bfccc93821904594f42e8cd371d13b65acf77d4b9e483360b"
+    },
+    {
+      "path": "assets/images/home.png",
+      "bytes": 3083700,
+      "sha256": "21d8b33941c0f48d3d1138c696359cb2270c9d87e8ce8ae8092988ce722a9902"
+    },
+    {
+      "path": "assets/images/licence.png",
+      "bytes": 2914545,
+      "sha256": "684aed78524fccc10de10dd2cbf67b89fee7ce1674caf81e2ae0a36dd41481d3"
+    },
+    {
+      "path": "assets/images/lives-worth-living.png",
+      "bytes": 3017125,
+      "sha256": "8e076abfae37c52a2e321679dbc0ff15d255d5efc14ef67a089d546c6b0cb892"
+    },
+    {
+      "path": "assets/images/p4a-music.png",
+      "bytes": 2663774,
+      "sha256": "09fda743c479f1bb305503bf0bab3f693326a4bd7fc51d9c7910784f3e409f38"
+    },
+    {
+      "path": "assets/images/provenance.json",
+      "bytes": 18861,
+      "sha256": "efd9437a6d01defdc9e23ccfd1325d0e7d8076e79792056fbc1f6167d4ec9335"
+    },
+    {
+      "path": "assets/images/redlands.png",
+      "bytes": 3281077,
+      "sha256": "709d0cec499752787a1073a9824a664934c19cfe0db552373c0a4572c399d8d0"
+    },
+    {
+      "path": "assets/images/sitemap.png",
+      "bytes": 3479293,
+      "sha256": "61a757fa305fbaf6b7a9dbf549b649224c4b4656f41413612fb38ef4c61c207d"
+    },
+    {
+      "path": "assets/images/sources.png",
+      "bytes": 2456917,
+      "sha256": "6a3f0dcadbb2db87e67a87f39d5e54bd9b51e8551ece880cc6dd0436412daab6"
+    },
+    {
+      "path": "assets/js/site.js",
+      "bytes": 2069,
+      "sha256": "e92d3aa9cea471ac9528bdf81d3f4c03cfdcd313f03631422494182f5430886e"
+    },
+    {
+      "path": "aura-genesis.html",
+      "bytes": 16437,
+      "sha256": "01901d7db84a748c93aa0a8bf943ec728e77d577272a0628eb8ba2e8999e7f79"
+    },
+    {
+      "path": "australia-world.html",
+      "bytes": 16780,
+      "sha256": "f223a7c6e171dc0705216ad86e3f51ab14ea717c3fe000a8171f1763594cf04a"
+    },
+    {
+      "path": "community.html",
+      "bytes": 13254,
+      "sha256": "4d22c9ea37c2541ff13543fdcd89d224c2fd4457e93f117843b312751e5e802f"
+    },
+    {
+      "path": "continuity.html",
+      "bytes": 10264,
+      "sha256": "274b91756e5272af4eb354d3321f1c8461f3550c7eab8e980f668b68ac1d9743"
+    },
+    {
+      "path": "future.html",
+      "bytes": 10121,
+      "sha256": "738be91ad1d8d8a38779b812e445d8baca31a294a98ddaa2508c66caa8b76d03"
+    },
+    {
+      "path": "gajra-earth.html",
+      "bytes": 10321,
+      "sha256": "bf9b7938ac0fae3736f954c30612eca41608a6f4cf545015f0c39a5a75217063"
+    },
+    {
+      "path": "hbot-geode.html",
+      "bytes": 14964,
+      "sha256": "7dc6c658bdc4b19233f65ca2170272641c475cf37ee02c82f2275d70f419f53e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14044,
+      "sha256": "1adb7c9feb772eedbaf99c8c0786ea211f5e8b686ce8bd01aa9b3b9187e19647"
+    },
+    {
+      "path": "licence.html",
+      "bytes": 9434,
+      "sha256": "b4af6820999e4885fd693e3e5380cdd700c5212e71cc2ef188a0bb9f8d14e759"
+    },
+    {
+      "path": "lives-worth-living.html",
+      "bytes": 16570,
+      "sha256": "6936f0d7d7e92b28d6ca8276bdbf4c2dc728651f7bcd7f86437205531c31006d"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 3436,
+      "sha256": "61f2c2a993a5495c0ef126bd1f97c56d82ac56eabcff25d7963278cd92099b86"
+    },
+    {
+      "path": "p4a-music.html",
+      "bytes": 13658,
+      "sha256": "3844d70bec20fbf2251baa633de1bd21b11618c8560c0bc73ed0fb09abac6dd0"
+    },
+    {
+      "path": "publication/SHA256SUMS.txt",
+      "bytes": 7032,
+      "sha256": "2745a021faff74053249daccfe1b246abce278d44187316408c3efc41d28923c"
+    },
+    {
+      "path": "publication/github-settings.json",
+      "bytes": 767,
+      "sha256": "03e70ac1c6920b1d1a1149b5977ba105a7d64b01a866f2cc75b056fcdada8e92"
+    },
+    {
+      "path": "publication/validation.json",
+      "bytes": 5415,
+      "sha256": "2e71906b90ddfdf41b6c4a20e187a041907ebc689c7b77a4dda56b75fa75f65c"
+    },
+    {
+      "path": "redlands.html",
+      "bytes": 19398,
+      "sha256": "d3338d847a79e1d2beba9eae10c448ea457a6eadf5eeb7475df06ca87b31a21a"
+    },
+    {
+      "path": "references/files/hayes-aukus-public-inquiry-distributed-civic-ai-2026-08-24.docx",
+      "bytes": 43828,
+      "sha256": "1fcc88fe31b0192107683880a9c21c4ce7e83b63e91b576316e618e43363ffea"
+    },
+    {
+      "path": "references/files/hayes-aura-teacher-training-sixty-days-2026-10-14.pdf",
+      "bytes": 458131,
+      "sha256": "13bb521a9f754aedb2cb88c5af981efa778bd7ec844297d92d7256534ea2418c"
+    },
+    {
+      "path": "references/files/hayes-community-hours-jra-plan-edition-5-2026-09-23.pdf",
+      "bytes": 455417,
+      "sha256": "56eb762e28b1a4c759312694035ebc9bb8f87b3ce045b4d120d76b8c934542db"
+    },
+    {
+      "path": "references/files/hayes-constitutional-matrix-of-participation-2014-07-15.pdf",
+      "bytes": 126800,
+      "sha256": "422988511a83dbd301aa1374189f72ab8552087a7a3c01c7dcc877704268b932"
+    },
+    {
+      "path": "references/files/hayes-decentralized-global-sensorium-strategic-plan-undated.pdf",
+      "bytes": 604459,
+      "sha256": "f3808a7e57262f416d792639080e68b6010fcb1c53573cac9d8ea9d829a30122"
+    },
+    {
+      "path": "references/files/hayes-fair-go-age-intelligence-unga81-2026-09.pdf",
+      "bytes": 112210,
+      "sha256": "0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14"
+    },
+    {
+      "path": "references/files/hayes-fair-go-ai-age-postcode-sovereign-compute-2026-08-18.docx",
+      "bytes": 44117,
+      "sha256": "ccc0b69b4044892cbd5a50eed16e1c47656db8db03b6630d62a96836967d2c8d"
+    },
+    {
+      "path": "references/files/hayes-fiji-australia-vuvale-union-submission-2026-08-29.docx",
+      "bytes": 52947,
+      "sha256": "f62ae877f90e437583d9ecc2db29f3b11f20253c05b6feda573d7e694c3e8af0"
+    },
+    {
+      "path": "references/files/hayes-gift-for-generations-82-claytons-road-2026-09-22.pdf",
+      "bytes": 135711,
+      "sha256": "e984ef8f737cb24ee8604d0c16b956baeaa13a69d6820835b16ab1467dab181d"
+    },
+    {
+      "path": "references/files/hayes-jra-human-superintelligence-alignment-revised-2026-10-11.pdf",
+      "bytes": 410402,
+      "sha256": "bf5ba0b11ad990c7829432f7949d5bd2989c8351db7566ea0d5969753e30a678"
+    },
+    {
+      "path": "references/files/hayes-local-government-funding-submission-2-undated.pdf",
+      "bytes": 276605,
+      "sha256": "7371d879ee5397b509cbad76d28593e288030bed973ba085d0d44ad8aaa27eb1"
+    },
+    {
+      "path": "references/files/hayes-ocean-of-peace-veitacini-treaty-submission-2026-08-27.docx",
+      "bytes": 40964,
+      "sha256": "71532df9fdd542df9a77506608746f187f71c82ed01b35ffee3e7f25c500060a"
+    },
+    {
+      "path": "references/files/hayes-project-aura-geode-hbot-cooperative-framework-undated.pdf",
+      "bytes": 630789,
+      "sha256": "191d3e8cb601b089aeed9e4cb400a8433246e75cb4910db3b8d994a3564f074b"
+    },
+    {
+      "path": "references/files/hayes-queensland-heart-first-ai-surge-plan-undated.pdf",
+      "bytes": 284688,
+      "sha256": "a84dc84255c903967686c2c98ad4726ef859642eac9b88d349f6bd555e8295f5"
+    },
+    {
+      "path": "references/files/hayes-ready-set-co-2026-strategy-undated.pdf",
+      "bytes": 293853,
+      "sha256": "1be16446dc69d8dc6c8caee9dc9e1fd924826a65d5a3750560011960e73e0411"
+    },
+    {
+      "path": "references/files/hayes-redlands-mayoral-by-election-assessment-2026-10-14.pdf",
+      "bytes": 857248,
+      "sha256": "b72f9af7cdf57e37330aba49d30d3b7af991374f389c4adc79222b81b7d5755d"
+    },
+    {
+      "path": "references/files/hayes-sovereign-space-builder-part-2-specification-undated.pdf",
+      "bytes": 655325,
+      "sha256": "9cd835754187b5e8bcac2ec6c1d437b645df8442f4135ef656f207673431aea7"
+    },
+    {
+      "path": "references/files/ic-infinity-a-protopian-gambit-lyrics-updated-2026-07-04.pdf",
+      "bytes": 416222,
+      "sha256": "6b1c8d953c5285937a781b0f031e50f53b0a95804593cbb7bc8d8c0a3b62f627"
+    },
+    {
+      "path": "references/files/ic-infinity-straddie-fun-lyrics-updated-2026-07-17.pdf",
+      "bytes": 310617,
+      "sha256": "4ee1ba4eb58928b32e70b3a6ce3c8f58c4d598f50ca774f49c80080f612345a9"
+    },
+    {
+      "path": "references/files/project-atlas-projects-snapshot-2026-10-09.json",
+      "bytes": 1071115,
+      "sha256": "4fd7a479032e8f7da287c1a0bd4a40c2da71251270ba76bb2a91a238f47a1b5d"
+    },
+    {
+      "path": "references/index.html",
+      "bytes": 7459,
+      "sha256": "f5c8bd88b7cda31fe4f13ec3541fe66f469496512931ec68cdd7431589ecbb24"
+    },
+    {
+      "path": "references/source-register.json",
+      "bytes": 89921,
+      "sha256": "7b4553586b5be7eb75d5ec147e11ea494c356a6920c39768a50dd5ca05bd3f14"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 112,
+      "sha256": "70d68143caa0e6f8c40c7bf71d305321a2168d9d8b6d7de197096f8919132f26"
+    },
+    {
+      "path": "sitemap.html",
+      "bytes": 8045,
+      "sha256": "90bae259b81b1a1f5c5f8fc4c29e97b1a01affacc564b871e962141a0bdd2ed0"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 1998,
+      "sha256": "05a9a18e35f281f69e78d78a974a6bc445d536febc10b9ab808daae704e33ea0"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 57934,
+      "sha256": "72d2966bbc6247b45feecf3f8547291388c28f239ec45105764b0195a52602ea"
+    },
+    {
+      "path": "version.json",
+      "bytes": 313,
+      "sha256": "c7e8908caaddb1ced22d18734a16bf0b37b850e1728d40817cb9fa483f3aa459"
+    }
+  ],
+  "files_sha256": "3b139d579c1e317b86e0d7f41a0b7caf6526b5467c1de4290d9421e7a1504d01",
+  "file_count": 69,
+  "source_bytes": 45365119,
+  "excluded": []
+}

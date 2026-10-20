@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/straddie-twins",
+  "slug": "straddie-twins",
+  "capture_started_utc": "2026-10-20T08:00:42+00:00",
+  "capture_completed_utc": "2026-10-20T08:00:43+00:00",
+  "source_version_start": {
+    "head": "b934b0e5cb81eddee0f1b09d9a1f6848c4297a24",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "b934b0e5cb81eddee0f1b09d9a1f6848c4297a24",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "DATA-PROVENANCE.md",
+      "bytes": 2125,
+      "sha256": "e2b03b77b460acbb027c36698c55773412bc9912ceab0389c76b102b52dccb02"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3653,
+      "sha256": "8d989cb49efe08d111eaf915f18aaf9b22641d18dfd0be8805216402292983e8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1067,
+      "sha256": "b7aaaa8f17d710fffd5a601b58f9f192b80ca5d251277369d09a6ec05cf606be"
+    },
+    {
+      "path": "about.html",
+      "bytes": 9370,
+      "sha256": "5a5ce5cae4c4048480a88ccb7e695139a0a7c0d3d63b0e80eca28087e1fb8098"
+    },
+    {
+      "path": "assets/components.js",
+      "bytes": 27198,
+      "sha256": "f351803429f97a898ecc67a758b75a0208afe7a68b475dab040f7aa210433467"
+    },
+    {
+      "path": "assets/island/detail-amity.jpg",
+      "bytes": 93178,
+      "sha256": "978e3b4ef16ad6086fc02365f5b09200e2d3a7a32c398d5ace84c7bf34cfda39"
+    },
+    {
+      "path": "assets/island/detail-bay.jpg",
+      "bytes": 40153,
+      "sha256": "97b7287d501b916fe3a4911a321f0db55f4ba3ccbe0fda030e34543b41d95a26"
+    },
+    {
+      "path": "assets/island/detail-dunwich.jpg",
+      "bytes": 116398,
+      "sha256": "a6f9588dad08af174c3d456db71b28a77ee5e923271579b1455de2b9c36c5dac"
+    },
+    {
+      "path": "assets/island/detail-eighteen-mile.jpg",
+      "bytes": 55486,
+      "sha256": "eb85a796aefa219ba5d205c1177a35896ae9a4ebf03d5ab063ce42e6172157a6"
+    },
+    {
+      "path": "assets/island/detail-point-lookout.jpg",
+      "bytes": 93712,
+      "sha256": "459aeb2d63d783e83200c8de0ad318ae95654da0b28cc468c76a6c264a8e23d4"
+    },
+    {
+      "path": "assets/island/detail-sandmine.jpg",
+      "bytes": 91346,
+      "sha256": "079ae85ba59bd94f2cab21db5c75e207eaf6839d81ea08d8a06dc7f85454b92b"
+    },
+    {
+      "path": "assets/island/island-colour.jpg",
+      "bytes": 498841,
+      "sha256": "21d4788ffd0b7aafb27800dee3a4028f5690ee585b17906d14efa706ed1a16d6"
+    },
+    {
+      "path": "assets/island/island-height.png",
+      "bytes": 122092,
+      "sha256": "f003a016a0f56658dc901b1af829bc48103fc45bf6faee0441fd779b60776007"
+    },
+    {
+      "path": "assets/island/island-meta.json",
+      "bytes": 783,
+      "sha256": "f9673945307b9f780423dde00662655f1ef1e81b1181731c705542450a6d4f89"
+    },
+    {
+      "path": "assets/island/island-relief.jpg",
+      "bytes": 140568,
+      "sha256": "ffd8eadc90b65ed41c09ae8af33380d83116605cd03e69b023341a9876faa268"
+    },
+    {
+      "path": "assets/shots/first-amity.png",
+      "bytes": 266808,
+      "sha256": "f5f39bb42cb117fd3efe6cbc23cb52531e05c11854a546fa8b018a3c684d758a"
+    },
+    {
+      "path": "assets/shots/first-arrival.png",
+      "bytes": 432161,
+      "sha256": "bd6d69925f4ebc5152ac7188a57326751946914f31cb6085b5f6e1e88ca34dd6"
+    },
+    {
+      "path": "assets/shots/first-boot.png",
+      "bytes": 432375,
+      "sha256": "e16fdffe58e032d7bdb62a228d652d87235000def99eab9c5d9ccd489f131952"
+    },
+    {
+      "path": "assets/shots/first-dunwich.png",
+      "bytes": 274299,
+      "sha256": "5fa46300c9591b4c7ace187bc0c29e10caaa7bc7a0f109f09b8a93021431a2d9"
+    },
+    {
+      "path": "assets/shots/first-island-clean.png",
+      "bytes": 253754,
+      "sha256": "32c0e2133d1e5cc0a00d6e4fd628dbac55ad7fa152f23fc2460ee966cad38b53"
+    },
+    {
+      "path": "assets/shots/first-island-day-clean.png",
+      "bytes": 302373,
+      "sha256": "86b0e8ebe678b3643fa2ddc42acc1077d27f95546e4e4579086657c7b56388ff"
+    },
+    {
+      "path": "assets/shots/first-island-day.png",
+      "bytes": 315695,
+      "sha256": "b940eba0bdc166be0a01eb3e9016ae727531d3eab028a76ba0df7ed2af1dae46"
+    },
+    {
+      "path": "assets/shots/first-island.png",
+      "bytes": 298363,
+      "sha256": "a13d73d9da3dad86a2d69c24cbfb84792e52f43119f88561bddb9d72f911343f"
+    },
+    {
+      "path": "assets/shots/first-point-lookout.png",
+      "bytes": 281119,
+      "sha256": "7041044187644a5557ce2903d0977638354affd99d3d60e0a27020b9bc6b23b6"
+    },
+    {
+      "path": "assets/shots/second-front.png",
+      "bytes": 395535,
+      "sha256": "d424157f5277cb578f79141a83e4569112681fc0ce90ceb97f3bf35536f455cc"
+    },
+    {
+      "path": "assets/shots/second-lab.png",
+      "bytes": 57082,
+      "sha256": "e2cb6d81530e3a9ce09c29000b5ce2a0c83f5e226de14d93e81e59545365c41a"
+    },
+    {
+      "path": "assets/site.css",
+      "bytes": 24114,
+      "sha256": "aff468f4f78896f166de1507100997bd7d4872d67075ed460b53942c6cfcd3b1"
+    },
+    {
+      "path": "assets/site.js",
+      "bytes": 11707,
+      "sha256": "6e172a58875bec31bb3fb535f34d7b56a9d01b1605d2ef87f2cd470d4d35adac"
+    },
+    {
+      "path": "assets/terrain.js",
+      "bytes": 12527,
+      "sha256": "2ff1b467beee3812ec1c858cbcf99a3254dd23b7f0a48929aedbcec1bf845588"
+    },
+    {
+      "path": "chain.html",
+      "bytes": 19520,
+      "sha256": "1b2b68a02eddd833c5739490dde525f1bf562a0b050ea0c91822019de28b556a"
+    },
+    {
+      "path": "data.html",
+      "bytes": 12055,
+      "sha256": "cd7412f2862b7815ce9d868f48cb5674e6ebd747c44dd03b52c0f92c25b11b07"
+    },
+    {
+      "path": "ferry-page.html",
+      "bytes": 12577,
+      "sha256": "b82b6f301ae36771f229193a413d0ba529860e943a532df8e54e010cbd469379"
+    },
+    {
+      "path": "first-build.html",
+      "bytes": 21636,
+      "sha256": "006428aa4827f22780da02a3ba5b1077da6fd8ad5bea01da08aec42b93a385fc"
+    },
+    {
+      "path": "glossary.html",
+      "bytes": 14859,
+      "sha256": "b92d7812c2c89643add615400712af21877a7be14ae3b3ba099d41ba3e169ac9"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7992,
+      "sha256": "6cbd54b5f36b0b8e00bb41479fd80d8e9375020e791747befa942781c4fc815d"
+    },
+    {
+      "path": "island.html",
+      "bytes": 11270,
+      "sha256": "72af2f9f01753e3a17466e9eba0890eba28c855f79693cf148b11e8d44230ee4"
+    },
+    {
+      "path": "next.html",
+      "bytes": 11368,
+      "sha256": "9ba609c100ee1b612eea3b0b5f776a077023d8763bc7d4e18d9a4ae77a8e44f8"
+    },
+    {
+      "path": "purpose.html",
+      "bytes": 12046,
+      "sha256": "d3321065a712d4b3e575013bb01f917e7561f24ca5692b02a5ea4aa04b7ca3ad"
+    },
+    {
+      "path": "run.html",
+      "bytes": 9656,
+      "sha256": "cfdc4180f5a01f97c0b47cfda879b1d91d3fbc87aa59be3e00d0b317aae1133c"
+    },
+    {
+      "path": "second-build.html",
+      "bytes": 17128,
+      "sha256": "7485630977eb61ed6b89411f20a2f64c25dedbd80f9a433951bbdf6c79e282a9"
+    },
+    {
+      "path": "systems.html",
+      "bytes": 12305,
+      "sha256": "6b088cfd05131192895be747d428b3dda64d3a9241764622a09536b96fcf5229"
+    },
+    {
+      "path": "twin.html",
+      "bytes": 11282,
+      "sha256": "e3881c3c75366d938fe60b61670d387d0108ed08d32967134e7a0c6dc06759e9"
+    },
+    {
+      "path": "two-builds.html",
+      "bytes": 18376,
+      "sha256": "90f15cb192536e9fe3adcfd9cce1651502f9fafad4245942ff0a9d13bbb929e2"
+    }
+  ],
+  "files_sha256": "8b0f196c0fc3d467a40bd1089e375f620719d5b6794db243137518f65efd987b",
+  "file_count": 44,
+  "source_bytes": 4845952,
+  "excluded": []
+}
