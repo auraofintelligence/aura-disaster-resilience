@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/Minjerribah-Resilience",
+  "slug": "Minjerribah-Resilience",
+  "capture_started_utc": "2026-10-20T07:56:52+00:00",
+  "capture_completed_utc": "2026-10-20T07:56:52+00:00",
+  "source_version_start": {
+    "head": "70d370d23b8bb4076ed44b73494567bcda80b9c3",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "70d370d23b8bb4076ed44b73494567bcda80b9c3",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 3608,
+      "sha256": "cf3cc59f30313e4b70c0d012893fc2c2ec4ba1a9db646f49ca6719ec0221fdb1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6174,
+      "sha256": "eb05e704915f2defe0ca15a96ae19d582f7920ff0166aca10122f55045e01220"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 25770,
+      "sha256": "30947674c2bef7b54c68181cf59f82189502015a19862fdeb8bd0878f59929ce"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 28539,
+      "sha256": "4838f34146521e589eb6aa54c13ee38604c54efcafb61163108f16dcf03f6fd5"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 2108,
+      "sha256": "c6c6a637b529d828378a1fc7b679f84f62550f0817bb7def7cebadcce7f114c4"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 542794,
+      "sha256": "ad2dece853c11177f916bb209df27b76d0f66f679949108c4948dbbc8204e5cd"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 71799,
+      "sha256": "68d8de040eeac9b5997f23dc6f54935d8fdf37bb4c9cba2d420ac90721a1766a"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1513,
+      "sha256": "bb10c9de5c1e9a8a775c44233011a3c1f247b824ab29bb9a6c682f128c6e146e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 35806,
+      "sha256": "e74da87263571a4191077b832d102cf2a8f2c5874fea11c7232493ee8a5698e2"
+    }
+  ],
+  "files_sha256": "941780a734fd4629617d2ee08abd22bf609a754e60266ce5384346a40ac18691",
+  "file_count": 9,
+  "source_bytes": 718111,
+  "excluded": []
+}

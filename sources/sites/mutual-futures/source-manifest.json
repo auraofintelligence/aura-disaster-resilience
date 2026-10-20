@@ -1,0 +1,1323 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/mutual-futures",
+  "slug": "mutual-futures",
+  "capture_started_utc": "2026-10-20T07:57:59+00:00",
+  "capture_completed_utc": "2026-10-20T07:58:09+00:00",
+  "source_version_start": {
+    "head": "f10343567d115b354c12b689da373cd93203542d",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "f10343567d115b354c12b689da373cd93203542d",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 86,
+      "sha256": "f29fbee66e0fac7f1164dd49c409156bedcf5e8f38dcb0f4eb2fdd8f576f5d26"
+    },
+    {
+      "path": ".github/workflows/audit-connections.yml",
+      "bytes": 1289,
+      "sha256": "34d29e2fe0d9379d15e5ee82fb8c90105df24132e744aabad6d9c4ae2bbdda48"
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "bytes": 4370,
+      "sha256": "ccc45de684d4bf8f08dd678f0c1f62db1c6a1c7af36b2e25043bb1090cfa4059"
+    },
+    {
+      "path": ".github/workflows/reciprocal-link.yml",
+      "bytes": 3788,
+      "sha256": "cfb790a21971cb09ae2779095989d3cf5de694713521af4a0cf4a2d8fb24153a"
+    },
+    {
+      "path": ".github/workflows/verify-live.yml",
+      "bytes": 2135,
+      "sha256": "8e5a9a8c96bdc2fdb2b4a28d11bc81a1a23621d780fd9dc5356bed637475d206"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 88,
+      "sha256": "f6c6a83ae1b586db74ae67cc9587b7bb61623195b70be3918a87988c1e473f3a"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 795,
+      "sha256": "960e7d4f96e96296544a486170679df67a3adda070b3f370c119a5548c2f3a73"
+    },
+    {
+      "path": "ABOUT.md",
+      "bytes": 2617,
+      "sha256": "6903e194c12794813f7c241f22c250c1060c1554e608c47642583e535853b7f1"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3444,
+      "sha256": "23255ab40c163cc508112b3c9a8352155ce38197afdc78612051d77302b6d7ab"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6592,
+      "sha256": "2f51f31a256c8b9b04fc0e8f22a178f3d660ca88cbccd53a44d222c219a1c08c"
+    },
+    {
+      "path": "about.html",
+      "bytes": 11952,
+      "sha256": "57f87330471fc6dd413126a8b096753137211b8258913002fa4de0c98d25f216"
+    },
+    {
+      "path": "assets/app.js",
+      "bytes": 20604,
+      "sha256": "0eaa6e951c7e3a092ef5cf92a656f9d4c6af2492513cfce7e4b4ab8d050e6d88"
+    },
+    {
+      "path": "assets/asset-manifest.json",
+      "bytes": 26399,
+      "sha256": "51a75666aa55144c3212c3a8b850f8ed22bfafad2152f63ade96532c0580de6a"
+    },
+    {
+      "path": "assets/images/about.webp",
+      "bytes": 292762,
+      "sha256": "7b0f7661d1c816d84e6c1c5aa9d0ba0d4bdfa1306b9b6e56c392170591bb8bfb"
+    },
+    {
+      "path": "assets/images/australian-aviation-original.png",
+      "bytes": 2179543,
+      "sha256": "b6de74729e8a3a1707923ffa874b7a5405a07a50afe2e1d6156561e6f3c73f2c"
+    },
+    {
+      "path": "assets/images/australian-aviation-v2-original.png",
+      "bytes": 2158264,
+      "sha256": "4b20ee3b1137f834d1b855e375430484c2d5459770adc887fe9670f61de90ecb"
+    },
+    {
+      "path": "assets/images/australian-aviation-v2.webp",
+      "bytes": 204580,
+      "sha256": "3dd31c797a74ef9e98c1aee06172bfcf4de72cd56874581e9319aec627ffabf2"
+    },
+    {
+      "path": "assets/images/australian-aviation.webp",
+      "bytes": 216650,
+      "sha256": "4b68f7b12c8bcdb5068b7bdefb13a5069fa006aa6371fc93b206d048c2909624"
+    },
+    {
+      "path": "assets/images/australian-building-original.png",
+      "bytes": 2548215,
+      "sha256": "ff8b9a8d2b0fbbc2ff11e631912a36d2cd4c3a3e60550e80ef0f71ce935a4592"
+    },
+    {
+      "path": "assets/images/australian-building.webp",
+      "bytes": 305326,
+      "sha256": "05108ae0585508c34295b06a83d37b6381504e4f0e232adfdb4136fb58c575bc"
+    },
+    {
+      "path": "assets/images/australian-design-original.png",
+      "bytes": 2352358,
+      "sha256": "9c353c2b4d516e015e9233b3e795843750c5fb7ff5bd135b9a702040a72f7460"
+    },
+    {
+      "path": "assets/images/australian-design.webp",
+      "bytes": 248912,
+      "sha256": "6895289aeb5809d02cd6433f5dba7c064079126aa90ce1c7ec5ca2169563d2ff"
+    },
+    {
+      "path": "assets/images/australian-energy-original.png",
+      "bytes": 2519323,
+      "sha256": "a99ca9dcdb2dcb189ce83a333d7d154b82aec6473e380240e634fc6091e35a58"
+    },
+    {
+      "path": "assets/images/australian-energy.webp",
+      "bytes": 285934,
+      "sha256": "eed40df00ef6e74d962a50fedb1e22a24bf4e5a4ab9de3a56595d92ce310922f"
+    },
+    {
+      "path": "assets/images/australian-food-original.png",
+      "bytes": 2311417,
+      "sha256": "d974eaab09a8c2f51f38edfb728b259a32a5ea4efe97372ab881ff24dadcb1e1"
+    },
+    {
+      "path": "assets/images/australian-food.webp",
+      "bytes": 258236,
+      "sha256": "5f234666f264bd63c1331262817555e661f4fcad776c3e9b7bbf19866f550da0"
+    },
+    {
+      "path": "assets/images/australian-health-original.png",
+      "bytes": 2110709,
+      "sha256": "9222696679efcb2a7282c92f01a9d70475922784f3b2a7f13e2ebd18c0de07b1"
+    },
+    {
+      "path": "assets/images/australian-health.webp",
+      "bytes": 182586,
+      "sha256": "94eda5d6f67f698b29295db2655e5891cc58df2f7990dfd7a2d182dc05d1d541"
+    },
+    {
+      "path": "assets/images/australian-logistics-original.png",
+      "bytes": 2413268,
+      "sha256": "f1ee118630b7325d1dcb802f057bc8b44e32c27c5e673dafe8a7c7c27c1f386e"
+    },
+    {
+      "path": "assets/images/australian-logistics.webp",
+      "bytes": 275420,
+      "sha256": "1089aa17812ec0dedd035559458e0e7b46b742f854426bbbdf15747ffa54b55c"
+    },
+    {
+      "path": "assets/images/australian-marine-original.png",
+      "bytes": 2609941,
+      "sha256": "31063012e1eae1cf5848062e11eab99144acc804401fe0ba8595bc3269bfd6b9"
+    },
+    {
+      "path": "assets/images/australian-marine-v2-original.png",
+      "bytes": 2066067,
+      "sha256": "d15cb090ab05569606143d17febbb08b0ec6cf5495be30ab415a6ad7f697eb44"
+    },
+    {
+      "path": "assets/images/australian-marine-v2.webp",
+      "bytes": 176652,
+      "sha256": "879a55b8ce251c72113467d040bf9752bc28b52d934d2d29e3b0537de12db7a7"
+    },
+    {
+      "path": "assets/images/australian-marine.webp",
+      "bytes": 348372,
+      "sha256": "7099850032ea37e1bf964e8cc186edc04361c9ae23c396a29f72b75bcd4ed089"
+    },
+    {
+      "path": "assets/images/australian-robotics-original.png",
+      "bytes": 2442256,
+      "sha256": "e5923bd7c3b57cbde8eef823fe8ec959d4621d243e197a590a9c0d9579bebc36"
+    },
+    {
+      "path": "assets/images/australian-robotics-v2-original.png",
+      "bytes": 2171536,
+      "sha256": "b6802a3dfdc78756d69d78d3c801a902fe7552ab510c7ea5d2b56a907c868e1d"
+    },
+    {
+      "path": "assets/images/australian-robotics-v2.webp",
+      "bytes": 206218,
+      "sha256": "6617f59c645bb929121b60cf5e2df107bb2c81763ba86d22ae2bd7337fa0cd2f"
+    },
+    {
+      "path": "assets/images/australian-robotics.webp",
+      "bytes": 277954,
+      "sha256": "c613876214270be333800f2d624db544e1012c07ec22244b297c8228da5d8604"
+    },
+    {
+      "path": "assets/images/australian-space-original.png",
+      "bytes": 2396940,
+      "sha256": "edcc2aa137cb36bb78134035b4c15914ff1a48191162c98e66d8dc4dd56f0004"
+    },
+    {
+      "path": "assets/images/australian-space-v2-original.png",
+      "bytes": 2350995,
+      "sha256": "960f799c21d8aaa81e32ba8ff153212d8a3ee2694935e5179bb99132a9d74002"
+    },
+    {
+      "path": "assets/images/australian-space-v2.webp",
+      "bytes": 254220,
+      "sha256": "d27f5f376b0476e3a7d8d19da1496486fbff67702d2d4b820d1c04272245f1bb"
+    },
+    {
+      "path": "assets/images/australian-space.webp",
+      "bytes": 263628,
+      "sha256": "7aab7aec107ef096e37896d986e3ba68b7ee42f0ef57df7344f8d4e9a4ae2c81"
+    },
+    {
+      "path": "assets/images/australian-water-original.png",
+      "bytes": 2439430,
+      "sha256": "4e66024a9c369e7988897175d26a9671389bc7d3b5ccdd7a9e0c379cdbf5e10e"
+    },
+    {
+      "path": "assets/images/australian-water.webp",
+      "bytes": 264340,
+      "sha256": "fd0304c45c19f503b76245752e08ab78462a34f120462a53384b6a0afdcd7736"
+    },
+    {
+      "path": "assets/images/capital.webp",
+      "bytes": 247058,
+      "sha256": "039ec37b5975cb68982a5b3023f450e01245512bd30a27be7e130bd5e08a7e89"
+    },
+    {
+      "path": "assets/images/civilisation-upgrade-original.png",
+      "bytes": 3042116,
+      "sha256": "2d268db81677ae8826df2d2b34116ad797e28232a88a4bbdd5186fc136ca7db1"
+    },
+    {
+      "path": "assets/images/civilisation-upgrade.webp",
+      "bytes": 555500,
+      "sha256": "021b1026d9a51a286d10f378b28dea8072e60e03d683dd624e95e39edc57ea61"
+    },
+    {
+      "path": "assets/images/culture.webp",
+      "bytes": 223658,
+      "sha256": "6bdf6c53db1c03b05a6105865642994abeedd51a395d42dbbceb2a48bd50603b"
+    },
+    {
+      "path": "assets/images/galactic.webp",
+      "bytes": 444244,
+      "sha256": "4c48dd3038c16531f2d2ba0e2f159d13edb7752eb81feee34454ed7799770f32"
+    },
+    {
+      "path": "assets/images/handover-ai-original.png",
+      "bytes": 2304787,
+      "sha256": "1ac9e5039b96c5ab088cdad73bfb650dfed7a6925f52945dbc7ad5dab61da706"
+    },
+    {
+      "path": "assets/images/handover-ai.webp",
+      "bytes": 282916,
+      "sha256": "ff5a49c7f50d98e983700a082c239f45d59edd7633ceeb5a9f5dcf0293ae6607"
+    },
+    {
+      "path": "assets/images/health.webp",
+      "bytes": 146198,
+      "sha256": "140c3d0e1ccfc485dfe6a8b56fdfdacc514d8aa0b77c17374f4aff0c848058cf"
+    },
+    {
+      "path": "assets/images/home.webp",
+      "bytes": 170960,
+      "sha256": "4bcf89fc8a247da0144d704899b410effff55b36f4993ee5e0d1fcafb05af9dc"
+    },
+    {
+      "path": "assets/images/intelligence.webp",
+      "bytes": 195548,
+      "sha256": "7160b5656a58f2b12b024ff6d6e6b1af14c101eed2127287acb714c6eb21725f"
+    },
+    {
+      "path": "assets/images/law.webp",
+      "bytes": 92222,
+      "sha256": "6466f952f962286a0822f7e2e99da3b4fb018e20bde5fe4de8fadac11e42b8db"
+    },
+    {
+      "path": "assets/images/library.webp",
+      "bytes": 178372,
+      "sha256": "518e50ea6ee6d19e70c446fa44f183d6ff00a045002d1019f951fcb958fa69ed"
+    },
+    {
+      "path": "assets/images/licence.webp",
+      "bytes": 192942,
+      "sha256": "76185dbf86e4bea7b16615f7eb4b097ca5c7f6f9da96197da78008ae82c5fda6"
+    },
+    {
+      "path": "assets/images/livelihoods.webp",
+      "bytes": 207492,
+      "sha256": "bccf9c366dc018ffda638f9b575efc9e7dcb0c7bf6fa95aa187ba95a676674e8"
+    },
+    {
+      "path": "assets/images/mutual-futures-icon-192.png",
+      "bytes": 38783,
+      "sha256": "78626c6a7462c130dd9b94dc3f4de7ee9d664a626c30c34ee9113778f14a3086"
+    },
+    {
+      "path": "assets/images/mutual-futures-icon-32.png",
+      "bytes": 2210,
+      "sha256": "d69c26dd9f7bf2eb37fc74ea6c8ed9724ca82dd1f3d985144b04cf07ddfce3a7"
+    },
+    {
+      "path": "assets/images/mutual-futures-original.png",
+      "bytes": 930434,
+      "sha256": "8c498ce305f5d4350e1c8ba2b400aac4c143fa1815ef110a2d19bc595bc1dcdf"
+    },
+    {
+      "path": "assets/images/oceania.webp",
+      "bytes": 28998,
+      "sha256": "15881467b8c6525332156457b392a77c1e4271f9edcc28d7594408e65cf66428"
+    },
+    {
+      "path": "assets/images/ownership.webp",
+      "bytes": 236172,
+      "sha256": "441f7defc0f2740b89c34eeabcce62ee75a97f5e57a2c996af56dd372c7d6d4f"
+    },
+    {
+      "path": "assets/images/resilience.webp",
+      "bytes": 175532,
+      "sha256": "5fcf58973cfde8c65f0a1153573173dcdb977f9a5d63104417fc8b0cf6e405a0"
+    },
+    {
+      "path": "assets/images/roadmap.webp",
+      "bytes": 272900,
+      "sha256": "b4d837dcc9d2f31520747cc78b497bcc4f07b3ccc5afb1193fd63328e3713120"
+    },
+    {
+      "path": "assets/images/simulation.webp",
+      "bytes": 205988,
+      "sha256": "ac27012bc116f0697f0d6c4187fdb8ca609897fa99445e4b8d4facec02d84e54"
+    },
+    {
+      "path": "assets/images/sitemap.webp",
+      "bytes": 251838,
+      "sha256": "bc86261abf8b688563f4b97eec1e25a0f112a7967a675923ecdd25b472716899"
+    },
+    {
+      "path": "assets/images/sources.webp",
+      "bytes": 220660,
+      "sha256": "2b20a8df43d1f2d2e3944d81ddfffa058eb31991ccabb82fb4722360573974c0"
+    },
+    {
+      "path": "assets/images/succession.webp",
+      "bytes": 144652,
+      "sha256": "92ec835276745ba0c1806cbf6fdbb7511f150f82665646a16a7b0bf36d06847e"
+    },
+    {
+      "path": "assets/images/travel.webp",
+      "bytes": 132470,
+      "sha256": "bfe50558ebe6e7e451003fec6eb6585e128d92ba1b3d5fcd2c698b40a6d1597f"
+    },
+    {
+      "path": "assets/images/workforce.webp",
+      "bytes": 223196,
+      "sha256": "4b917ddaae097cb0d27461efdb1eef1bd88b9e170ad0e55165dffc8d3024f268"
+    },
+    {
+      "path": "assets/images/xr-learning-original.png",
+      "bytes": 2111509,
+      "sha256": "c9a412299bb23eaff189e8e094b8e226fd2b80983afd0754735de3741afbdad2"
+    },
+    {
+      "path": "assets/images/xr-learning.webp",
+      "bytes": 229398,
+      "sha256": "ab5424e37aeb09bd5cbd4218db08b36ef1c05f4de8443be68e0330634302f0a8"
+    },
+    {
+      "path": "assets/style.css",
+      "bytes": 14508,
+      "sha256": "bb4fff94b4ff812d464bc02efc4a39dbfef6f52ab09f17b754962cfa76b9d17c"
+    },
+    {
+      "path": "capital.html",
+      "bytes": 17846,
+      "sha256": "344f33f7feb96b96e4bd8c9fe3af90685f85c138e98749f06a7843c4100bed28"
+    },
+    {
+      "path": "community-hours.html",
+      "bytes": 13212,
+      "sha256": "dc704a18ba84e97ea9212d078776e3c574a8748bc1e47290801df381a8de367a"
+    },
+    {
+      "path": "content/assets.json",
+      "bytes": 2693,
+      "sha256": "3ae5564c443654f04f24543c14fdd1808e8952ff70f501944a30b4379fe0f053"
+    },
+    {
+      "path": "content/chapters/01.py",
+      "bytes": 21923,
+      "sha256": "268e6ba47510452c2e9065bcbd83d93dd0ce967a47883249f6fe88e6f93a8561"
+    },
+    {
+      "path": "content/chapters/02.py",
+      "bytes": 12084,
+      "sha256": "0b879b7ce1847bde56dfefe2f4d07ca2ce43c4c8c398628db994c0b3fd17430d"
+    },
+    {
+      "path": "content/chapters/03.py",
+      "bytes": 12736,
+      "sha256": "1b1072d03fa49005971250e545587fabf82cd22b512c8c1c613a9bcc379c699d"
+    },
+    {
+      "path": "content/chapters/04.py",
+      "bytes": 12572,
+      "sha256": "8c5030a2957a5782ca9ff7c34e8bb73bdf1cb9d2a0f5c3b875f752391ce5eaa9"
+    },
+    {
+      "path": "content/chapters/05.py",
+      "bytes": 10025,
+      "sha256": "a44457fbe2313260fd77d6d2d2e332363c457e008cf81c92c73af13f8f4035cb"
+    },
+    {
+      "path": "content/chapters/06.py",
+      "bytes": 6124,
+      "sha256": "2b6f869732096dbc2a7409753a734332765a2e50ac080fc6f23a375c80c1bd98"
+    },
+    {
+      "path": "content/chapters/07.py",
+      "bytes": 4644,
+      "sha256": "e5e878beaf91fa4c6fc915310a5c3d7c78015619d2f310fb877c3f442ec0b369"
+    },
+    {
+      "path": "content/chapters/08.py",
+      "bytes": 21533,
+      "sha256": "e5d4aff01f2084a63fb83123e0ba12b26889d13ce4cdbafc0ff8b265330331db"
+    },
+    {
+      "path": "content/documents.json",
+      "bytes": 16326,
+      "sha256": "d7ca0d8dd4c40a676370744efb829cc5e6b5c0b4eddb6b00741901e2b7aec1b9"
+    },
+    {
+      "path": "content/local-assets.json",
+      "bytes": 36599,
+      "sha256": "84061c08eb493d9ad0fcda22c67d626dd3cf194389de6d5c97a1ba5d786df427"
+    },
+    {
+      "path": "content/site.py",
+      "bytes": 14961,
+      "sha256": "ef6d82764a08decca59cc49236d21efe349fb853428fa6eb9377ccef472edd7a"
+    },
+    {
+      "path": "culture.html",
+      "bytes": 10730,
+      "sha256": "49e82b9db1770fb109287c86ba5cd59e273565455d1bc225251aeb62e6d44bcd"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "bytes": 2199,
+      "sha256": "7f2d1912223744ed754d0ef024dd3b7c9f5ff8cc141bc3b93e397a2b5bc9838a"
+    },
+    {
+      "path": "docs/favicon-generation.md",
+      "bytes": 1226,
+      "sha256": "032ff6c02b5f9984c6543af932b209412b70e079091c1ea6c5989c281c849040"
+    },
+    {
+      "path": "docs/generated-visuals.md",
+      "bytes": 31276,
+      "sha256": "f22037039ed9bc233046be77b659dca2dcb1e26311cc9ed6273d700c055acf86"
+    },
+    {
+      "path": "docs/live-check.json",
+      "bytes": 19079,
+      "sha256": "7ed264cc97dd78a6785af1c8480fe022fe62ba6767ef28acac92c0c871356614"
+    },
+    {
+      "path": "docs/readability-check.md",
+      "bytes": 1722,
+      "sha256": "7da1d5d856efa8cafa6de0c95001e72a8a585ab73a2b9f27d4aa0efd3f6a5b02"
+    },
+    {
+      "path": "docs/reciprocal-links.json",
+      "bytes": 7880,
+      "sha256": "54e027780701aacf4cacbd888c50cb6b96eb4c411f3ce9d57d825392c22b098c"
+    },
+    {
+      "path": "docs/whole-systems-editorial-review.md",
+      "bytes": 16436,
+      "sha256": "f7b3bf24535298de7792cff06fd697e6a2cb334e0ff59b9e07b7430389138b27"
+    },
+    {
+      "path": "documents/guides/aukus-public-inquiry.md",
+      "bytes": 1689,
+      "sha256": "0b6eb5706e4f446f6247b599001d45d28ad5f030ec79d10ef9aefdaee7b4ce70"
+    },
+    {
+      "path": "documents/guides/belau-protopian-gambit.md",
+      "bytes": 1934,
+      "sha256": "8308673e29ec28c571e479ecae6c6e46b4702b3bf3848e6bf34f5eb0e411eb65"
+    },
+    {
+      "path": "documents/guides/c-hour-plan.md",
+      "bytes": 1631,
+      "sha256": "e0047dd09efb1cb1e74da0a09f528d5b42374b332dcca210f9bba0093946e24c"
+    },
+    {
+      "path": "documents/guides/eggs-and-baskets.md",
+      "bytes": 1786,
+      "sha256": "3e00adc6ae953b5669ac267dfee14e02fb2e49ac89e133862e750b8060a5ba1f"
+    },
+    {
+      "path": "documents/guides/fair-go-ai-age.md",
+      "bytes": 1831,
+      "sha256": "7e5ae493a73cb5c92ecf40007ee080eb50b110a20302aab39627b9e39ffbbdb2"
+    },
+    {
+      "path": "documents/guides/local-government-funding.md",
+      "bytes": 1832,
+      "sha256": "d2950f282fc02bb05efff57c9692774f8e339ca5a6b696e6cd63daf961bc8c19"
+    },
+    {
+      "path": "documents/guides/ocean-of-peace.md",
+      "bytes": 1736,
+      "sha256": "90cdba8c220b4087a47f184f8db6066ee68f03a8d71013029a268872b4952177"
+    },
+    {
+      "path": "documents/guides/oceania-health-ai-surge.md",
+      "bytes": 1745,
+      "sha256": "6f052e894e2748d6309d606b87629cd552c38bbd0effc1cab6583e52b98a73b7"
+    },
+    {
+      "path": "documents/guides/queens-planning.md",
+      "bytes": 1657,
+      "sha256": "949a74dccc9bc100a54ff61477f10b55f210163d4733f93fa950381fe00b7f41"
+    },
+    {
+      "path": "documents/guides/queensland-heart-first.md",
+      "bytes": 1742,
+      "sha256": "05055ad8dd69365abfc97723cd34de41e6eb444ec1ffccb3468ad27b140b6910"
+    },
+    {
+      "path": "documents/guides/spec-driven-governance.md",
+      "bytes": 1864,
+      "sha256": "c62132002f792548fc291ced982e652b4d5168c0c1c12696b6ee0b09e0944b10"
+    },
+    {
+      "path": "documents/guides/unga81-abundance.md",
+      "bytes": 1600,
+      "sha256": "2cbaed049e1e2b6e53601b71c73e26fca76f54666a2a349c84874715bc437714"
+    },
+    {
+      "path": "documents/guides/vuvale-union.md",
+      "bytes": 1818,
+      "sha256": "21cff7e0ac1cdd452186dece9e69361d9bc9c72cd7ae684bbcebcd122fada412"
+    },
+    {
+      "path": "documents/manifest.json",
+      "bytes": 16752,
+      "sha256": "8611934e7d9ab312580b15cd93fa0c0dc25018d32bf4428814c97e1ce45762c4"
+    },
+    {
+      "path": "documents/originals/c-hour-plan.docx",
+      "bytes": 79407,
+      "sha256": "8b816f04578f028e0590eb72f266eeae50082a60499d45939b139da3c2b25a73"
+    },
+    {
+      "path": "documents/originals/queens-planning.pdf",
+      "bytes": 403297,
+      "sha256": "cbd502197f1b30791141ddfcdb538806b8e26da5271292cc23f6f1ba0e69bb00"
+    },
+    {
+      "path": "documents/originals/unga81-abundance.pdf",
+      "bytes": 112210,
+      "sha256": "0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14"
+    },
+    {
+      "path": "gajra.html",
+      "bytes": 14242,
+      "sha256": "c5ad82eb7c4fe45d3a34125f8f56738a46c15cdfef511bb80b953e735ca20ef0"
+    },
+    {
+      "path": "galactic.html",
+      "bytes": 12615,
+      "sha256": "af3dfc3693d8696205226408a7afa18b4a23237806e53bc82f2fff1ff65e5f8c"
+    },
+    {
+      "path": "health.html",
+      "bytes": 11527,
+      "sha256": "a35adcb05d955917a794f27121e9d7db3902ba1ab47c324c79b750939dd6aba4"
+    },
+    {
+      "path": "index.html",
+      "bytes": 16832,
+      "sha256": "17c08112951a0d644b158694f12e3f5a4e6e88874295d55beed774a67251de1b"
+    },
+    {
+      "path": "intelligence.html",
+      "bytes": 17112,
+      "sha256": "5184e24fd3907bdf3cbe88e914c66349a579d166047b81e012b5f479eb5031fb"
+    },
+    {
+      "path": "law.html",
+      "bytes": 12642,
+      "sha256": "fac3988ce02b55f1431e3bc229f85025b365ac2ed6c2b5ebaef8a3abb70b9cc8"
+    },
+    {
+      "path": "leadership.html",
+      "bytes": 12244,
+      "sha256": "5ae577e9572f91d1acd2092a1a6d39a63d092d81b30501393cee924d3e8ef0f9"
+    },
+    {
+      "path": "library.html",
+      "bytes": 28030,
+      "sha256": "cb992b75110eff574aed8ab74498807fac050b3bf17e8d9153c6ee649df8028f"
+    },
+    {
+      "path": "licence.html",
+      "bytes": 11222,
+      "sha256": "0258aa38a46db449b2b9a919ef08aaaf555c2576fae7b4dfb4f9ef79ccdf1099"
+    },
+    {
+      "path": "livelihoods.html",
+      "bytes": 11870,
+      "sha256": "00a30efb9dbd42a389e148563e18bf1c36a7639d132df7392cc4dfaaeb441232"
+    },
+    {
+      "path": "oceania.html",
+      "bytes": 11414,
+      "sha256": "3e1dc9f590d88c3a5baf2aa26cf97779129590fafb887461b59d465a6b180cac"
+    },
+    {
+      "path": "ownership.html",
+      "bytes": 12665,
+      "sha256": "f3a816ddf6c9d8239b6e7815c2cdd3343990643320f71cac7a952e25b53b7198"
+    },
+    {
+      "path": "repository-metadata.json",
+      "bytes": 778,
+      "sha256": "539b0495f4ed3cb4eb640a37f4c398c0cb403a2f315c3153aaa7f2531f3dbf41"
+    },
+    {
+      "path": "resilience.html",
+      "bytes": 12507,
+      "sha256": "9f1d9f595496cc11895ccb8e43161a661e854867dd6bf7dc632aab57777a9be7"
+    },
+    {
+      "path": "roadmap.html",
+      "bytes": 13233,
+      "sha256": "5eb47df1c6295436835bd2c151498ba398bb32e6e6c44907adcaf121f8ce14dd"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 96,
+      "sha256": "a0b706063eb1134283b4e91d70e092db0657665dc5eb77024479845843bd5f89"
+    },
+    {
+      "path": "simulation.html",
+      "bytes": 14107,
+      "sha256": "7ee414706c8e156b7aefbf68a17c6dfb9a6a18ca832cae245705b5f9123a09ae"
+    },
+    {
+      "path": "site-map.html",
+      "bytes": 14570,
+      "sha256": "259acbb5afd8ee63c59bf4aec70b863ece22911e746a8eb2697873eeac3a4775"
+    },
+    {
+      "path": "site/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "site/404.html",
+      "bytes": 795,
+      "sha256": "960e7d4f96e96296544a486170679df67a3adda070b3f370c119a5548c2f3a73"
+    },
+    {
+      "path": "site/LICENCE.md",
+      "bytes": 3444,
+      "sha256": "23255ab40c163cc508112b3c9a8352155ce38197afdc78612051d77302b6d7ab"
+    },
+    {
+      "path": "site/about.html",
+      "bytes": 11952,
+      "sha256": "57f87330471fc6dd413126a8b096753137211b8258913002fa4de0c98d25f216"
+    },
+    {
+      "path": "site/assets/app.js",
+      "bytes": 20604,
+      "sha256": "0eaa6e951c7e3a092ef5cf92a656f9d4c6af2492513cfce7e4b4ab8d050e6d88"
+    },
+    {
+      "path": "site/assets/asset-manifest.json",
+      "bytes": 26399,
+      "sha256": "51a75666aa55144c3212c3a8b850f8ed22bfafad2152f63ade96532c0580de6a"
+    },
+    {
+      "path": "site/assets/images/about.webp",
+      "bytes": 292762,
+      "sha256": "7b0f7661d1c816d84e6c1c5aa9d0ba0d4bdfa1306b9b6e56c392170591bb8bfb"
+    },
+    {
+      "path": "site/assets/images/australian-aviation-original.png",
+      "bytes": 2179543,
+      "sha256": "b6de74729e8a3a1707923ffa874b7a5405a07a50afe2e1d6156561e6f3c73f2c"
+    },
+    {
+      "path": "site/assets/images/australian-aviation-v2-original.png",
+      "bytes": 2158264,
+      "sha256": "4b20ee3b1137f834d1b855e375430484c2d5459770adc887fe9670f61de90ecb"
+    },
+    {
+      "path": "site/assets/images/australian-aviation-v2.webp",
+      "bytes": 204580,
+      "sha256": "3dd31c797a74ef9e98c1aee06172bfcf4de72cd56874581e9319aec627ffabf2"
+    },
+    {
+      "path": "site/assets/images/australian-aviation.webp",
+      "bytes": 216650,
+      "sha256": "4b68f7b12c8bcdb5068b7bdefb13a5069fa006aa6371fc93b206d048c2909624"
+    },
+    {
+      "path": "site/assets/images/australian-building-original.png",
+      "bytes": 2548215,
+      "sha256": "ff8b9a8d2b0fbbc2ff11e631912a36d2cd4c3a3e60550e80ef0f71ce935a4592"
+    },
+    {
+      "path": "site/assets/images/australian-building.webp",
+      "bytes": 305326,
+      "sha256": "05108ae0585508c34295b06a83d37b6381504e4f0e232adfdb4136fb58c575bc"
+    },
+    {
+      "path": "site/assets/images/australian-design-original.png",
+      "bytes": 2352358,
+      "sha256": "9c353c2b4d516e015e9233b3e795843750c5fb7ff5bd135b9a702040a72f7460"
+    },
+    {
+      "path": "site/assets/images/australian-design.webp",
+      "bytes": 248912,
+      "sha256": "6895289aeb5809d02cd6433f5dba7c064079126aa90ce1c7ec5ca2169563d2ff"
+    },
+    {
+      "path": "site/assets/images/australian-energy-original.png",
+      "bytes": 2519323,
+      "sha256": "a99ca9dcdb2dcb189ce83a333d7d154b82aec6473e380240e634fc6091e35a58"
+    },
+    {
+      "path": "site/assets/images/australian-energy.webp",
+      "bytes": 285934,
+      "sha256": "eed40df00ef6e74d962a50fedb1e22a24bf4e5a4ab9de3a56595d92ce310922f"
+    },
+    {
+      "path": "site/assets/images/australian-food-original.png",
+      "bytes": 2311417,
+      "sha256": "d974eaab09a8c2f51f38edfb728b259a32a5ea4efe97372ab881ff24dadcb1e1"
+    },
+    {
+      "path": "site/assets/images/australian-food.webp",
+      "bytes": 258236,
+      "sha256": "5f234666f264bd63c1331262817555e661f4fcad776c3e9b7bbf19866f550da0"
+    },
+    {
+      "path": "site/assets/images/australian-health-original.png",
+      "bytes": 2110709,
+      "sha256": "9222696679efcb2a7282c92f01a9d70475922784f3b2a7f13e2ebd18c0de07b1"
+    },
+    {
+      "path": "site/assets/images/australian-health.webp",
+      "bytes": 182586,
+      "sha256": "94eda5d6f67f698b29295db2655e5891cc58df2f7990dfd7a2d182dc05d1d541"
+    },
+    {
+      "path": "site/assets/images/australian-logistics-original.png",
+      "bytes": 2413268,
+      "sha256": "f1ee118630b7325d1dcb802f057bc8b44e32c27c5e673dafe8a7c7c27c1f386e"
+    },
+    {
+      "path": "site/assets/images/australian-logistics.webp",
+      "bytes": 275420,
+      "sha256": "1089aa17812ec0dedd035559458e0e7b46b742f854426bbbdf15747ffa54b55c"
+    },
+    {
+      "path": "site/assets/images/australian-marine-original.png",
+      "bytes": 2609941,
+      "sha256": "31063012e1eae1cf5848062e11eab99144acc804401fe0ba8595bc3269bfd6b9"
+    },
+    {
+      "path": "site/assets/images/australian-marine-v2-original.png",
+      "bytes": 2066067,
+      "sha256": "d15cb090ab05569606143d17febbb08b0ec6cf5495be30ab415a6ad7f697eb44"
+    },
+    {
+      "path": "site/assets/images/australian-marine-v2.webp",
+      "bytes": 176652,
+      "sha256": "879a55b8ce251c72113467d040bf9752bc28b52d934d2d29e3b0537de12db7a7"
+    },
+    {
+      "path": "site/assets/images/australian-marine.webp",
+      "bytes": 348372,
+      "sha256": "7099850032ea37e1bf964e8cc186edc04361c9ae23c396a29f72b75bcd4ed089"
+    },
+    {
+      "path": "site/assets/images/australian-robotics-original.png",
+      "bytes": 2442256,
+      "sha256": "e5923bd7c3b57cbde8eef823fe8ec959d4621d243e197a590a9c0d9579bebc36"
+    },
+    {
+      "path": "site/assets/images/australian-robotics-v2-original.png",
+      "bytes": 2171536,
+      "sha256": "b6802a3dfdc78756d69d78d3c801a902fe7552ab510c7ea5d2b56a907c868e1d"
+    },
+    {
+      "path": "site/assets/images/australian-robotics-v2.webp",
+      "bytes": 206218,
+      "sha256": "6617f59c645bb929121b60cf5e2df107bb2c81763ba86d22ae2bd7337fa0cd2f"
+    },
+    {
+      "path": "site/assets/images/australian-robotics.webp",
+      "bytes": 277954,
+      "sha256": "c613876214270be333800f2d624db544e1012c07ec22244b297c8228da5d8604"
+    },
+    {
+      "path": "site/assets/images/australian-space-original.png",
+      "bytes": 2396940,
+      "sha256": "edcc2aa137cb36bb78134035b4c15914ff1a48191162c98e66d8dc4dd56f0004"
+    },
+    {
+      "path": "site/assets/images/australian-space-v2-original.png",
+      "bytes": 2350995,
+      "sha256": "960f799c21d8aaa81e32ba8ff153212d8a3ee2694935e5179bb99132a9d74002"
+    },
+    {
+      "path": "site/assets/images/australian-space-v2.webp",
+      "bytes": 254220,
+      "sha256": "d27f5f376b0476e3a7d8d19da1496486fbff67702d2d4b820d1c04272245f1bb"
+    },
+    {
+      "path": "site/assets/images/australian-space.webp",
+      "bytes": 263628,
+      "sha256": "7aab7aec107ef096e37896d986e3ba68b7ee42f0ef57df7344f8d4e9a4ae2c81"
+    },
+    {
+      "path": "site/assets/images/australian-water-original.png",
+      "bytes": 2439430,
+      "sha256": "4e66024a9c369e7988897175d26a9671389bc7d3b5ccdd7a9e0c379cdbf5e10e"
+    },
+    {
+      "path": "site/assets/images/australian-water.webp",
+      "bytes": 264340,
+      "sha256": "fd0304c45c19f503b76245752e08ab78462a34f120462a53384b6a0afdcd7736"
+    },
+    {
+      "path": "site/assets/images/capital.webp",
+      "bytes": 247058,
+      "sha256": "039ec37b5975cb68982a5b3023f450e01245512bd30a27be7e130bd5e08a7e89"
+    },
+    {
+      "path": "site/assets/images/civilisation-upgrade-original.png",
+      "bytes": 3042116,
+      "sha256": "2d268db81677ae8826df2d2b34116ad797e28232a88a4bbdd5186fc136ca7db1"
+    },
+    {
+      "path": "site/assets/images/civilisation-upgrade.webp",
+      "bytes": 555500,
+      "sha256": "021b1026d9a51a286d10f378b28dea8072e60e03d683dd624e95e39edc57ea61"
+    },
+    {
+      "path": "site/assets/images/culture.webp",
+      "bytes": 223658,
+      "sha256": "6bdf6c53db1c03b05a6105865642994abeedd51a395d42dbbceb2a48bd50603b"
+    },
+    {
+      "path": "site/assets/images/galactic.webp",
+      "bytes": 444244,
+      "sha256": "4c48dd3038c16531f2d2ba0e2f159d13edb7752eb81feee34454ed7799770f32"
+    },
+    {
+      "path": "site/assets/images/handover-ai-original.png",
+      "bytes": 2304787,
+      "sha256": "1ac9e5039b96c5ab088cdad73bfb650dfed7a6925f52945dbc7ad5dab61da706"
+    },
+    {
+      "path": "site/assets/images/handover-ai.webp",
+      "bytes": 282916,
+      "sha256": "ff5a49c7f50d98e983700a082c239f45d59edd7633ceeb5a9f5dcf0293ae6607"
+    },
+    {
+      "path": "site/assets/images/health.webp",
+      "bytes": 146198,
+      "sha256": "140c3d0e1ccfc485dfe6a8b56fdfdacc514d8aa0b77c17374f4aff0c848058cf"
+    },
+    {
+      "path": "site/assets/images/home.webp",
+      "bytes": 170960,
+      "sha256": "4bcf89fc8a247da0144d704899b410effff55b36f4993ee5e0d1fcafb05af9dc"
+    },
+    {
+      "path": "site/assets/images/intelligence.webp",
+      "bytes": 195548,
+      "sha256": "7160b5656a58f2b12b024ff6d6e6b1af14c101eed2127287acb714c6eb21725f"
+    },
+    {
+      "path": "site/assets/images/law.webp",
+      "bytes": 92222,
+      "sha256": "6466f952f962286a0822f7e2e99da3b4fb018e20bde5fe4de8fadac11e42b8db"
+    },
+    {
+      "path": "site/assets/images/library.webp",
+      "bytes": 178372,
+      "sha256": "518e50ea6ee6d19e70c446fa44f183d6ff00a045002d1019f951fcb958fa69ed"
+    },
+    {
+      "path": "site/assets/images/licence.webp",
+      "bytes": 192942,
+      "sha256": "76185dbf86e4bea7b16615f7eb4b097ca5c7f6f9da96197da78008ae82c5fda6"
+    },
+    {
+      "path": "site/assets/images/livelihoods.webp",
+      "bytes": 207492,
+      "sha256": "bccf9c366dc018ffda638f9b575efc9e7dcb0c7bf6fa95aa187ba95a676674e8"
+    },
+    {
+      "path": "site/assets/images/mutual-futures-icon-192.png",
+      "bytes": 38783,
+      "sha256": "78626c6a7462c130dd9b94dc3f4de7ee9d664a626c30c34ee9113778f14a3086"
+    },
+    {
+      "path": "site/assets/images/mutual-futures-icon-32.png",
+      "bytes": 2210,
+      "sha256": "d69c26dd9f7bf2eb37fc74ea6c8ed9724ca82dd1f3d985144b04cf07ddfce3a7"
+    },
+    {
+      "path": "site/assets/images/mutual-futures-original.png",
+      "bytes": 930434,
+      "sha256": "8c498ce305f5d4350e1c8ba2b400aac4c143fa1815ef110a2d19bc595bc1dcdf"
+    },
+    {
+      "path": "site/assets/images/oceania.webp",
+      "bytes": 28998,
+      "sha256": "15881467b8c6525332156457b392a77c1e4271f9edcc28d7594408e65cf66428"
+    },
+    {
+      "path": "site/assets/images/ownership.webp",
+      "bytes": 236172,
+      "sha256": "441f7defc0f2740b89c34eeabcce62ee75a97f5e57a2c996af56dd372c7d6d4f"
+    },
+    {
+      "path": "site/assets/images/resilience.webp",
+      "bytes": 175532,
+      "sha256": "5fcf58973cfde8c65f0a1153573173dcdb977f9a5d63104417fc8b0cf6e405a0"
+    },
+    {
+      "path": "site/assets/images/roadmap.webp",
+      "bytes": 272900,
+      "sha256": "b4d837dcc9d2f31520747cc78b497bcc4f07b3ccc5afb1193fd63328e3713120"
+    },
+    {
+      "path": "site/assets/images/simulation.webp",
+      "bytes": 205988,
+      "sha256": "ac27012bc116f0697f0d6c4187fdb8ca609897fa99445e4b8d4facec02d84e54"
+    },
+    {
+      "path": "site/assets/images/sitemap.webp",
+      "bytes": 251838,
+      "sha256": "bc86261abf8b688563f4b97eec1e25a0f112a7967a675923ecdd25b472716899"
+    },
+    {
+      "path": "site/assets/images/sources.webp",
+      "bytes": 220660,
+      "sha256": "2b20a8df43d1f2d2e3944d81ddfffa058eb31991ccabb82fb4722360573974c0"
+    },
+    {
+      "path": "site/assets/images/succession.webp",
+      "bytes": 144652,
+      "sha256": "92ec835276745ba0c1806cbf6fdbb7511f150f82665646a16a7b0bf36d06847e"
+    },
+    {
+      "path": "site/assets/images/travel.webp",
+      "bytes": 132470,
+      "sha256": "bfe50558ebe6e7e451003fec6eb6585e128d92ba1b3d5fcd2c698b40a6d1597f"
+    },
+    {
+      "path": "site/assets/images/workforce.webp",
+      "bytes": 223196,
+      "sha256": "4b917ddaae097cb0d27461efdb1eef1bd88b9e170ad0e55165dffc8d3024f268"
+    },
+    {
+      "path": "site/assets/images/xr-learning-original.png",
+      "bytes": 2111509,
+      "sha256": "c9a412299bb23eaff189e8e094b8e226fd2b80983afd0754735de3741afbdad2"
+    },
+    {
+      "path": "site/assets/images/xr-learning.webp",
+      "bytes": 229398,
+      "sha256": "ab5424e37aeb09bd5cbd4218db08b36ef1c05f4de8443be68e0330634302f0a8"
+    },
+    {
+      "path": "site/assets/style.css",
+      "bytes": 14508,
+      "sha256": "bb4fff94b4ff812d464bc02efc4a39dbfef6f52ab09f17b754962cfa76b9d17c"
+    },
+    {
+      "path": "site/build-report.md",
+      "bytes": 369,
+      "sha256": "8f93c587acff23220dde4b02d1f29a5ee985f41f370da500d571fd030be0afcb"
+    },
+    {
+      "path": "site/capital.html",
+      "bytes": 17846,
+      "sha256": "344f33f7feb96b96e4bd8c9fe3af90685f85c138e98749f06a7843c4100bed28"
+    },
+    {
+      "path": "site/check-report.json",
+      "bytes": 199,
+      "sha256": "bd695ee808906a9fdf1362a1c62cc89816ddddf5977306660c07e56286715e44"
+    },
+    {
+      "path": "site/community-hours.html",
+      "bytes": 13212,
+      "sha256": "dc704a18ba84e97ea9212d078776e3c574a8748bc1e47290801df381a8de367a"
+    },
+    {
+      "path": "site/culture.html",
+      "bytes": 10730,
+      "sha256": "49e82b9db1770fb109287c86ba5cd59e273565455d1bc225251aeb62e6d44bcd"
+    },
+    {
+      "path": "site/documents/guides/aukus-public-inquiry.md",
+      "bytes": 1689,
+      "sha256": "0b6eb5706e4f446f6247b599001d45d28ad5f030ec79d10ef9aefdaee7b4ce70"
+    },
+    {
+      "path": "site/documents/guides/belau-protopian-gambit.md",
+      "bytes": 1934,
+      "sha256": "8308673e29ec28c571e479ecae6c6e46b4702b3bf3848e6bf34f5eb0e411eb65"
+    },
+    {
+      "path": "site/documents/guides/c-hour-plan.md",
+      "bytes": 1631,
+      "sha256": "e0047dd09efb1cb1e74da0a09f528d5b42374b332dcca210f9bba0093946e24c"
+    },
+    {
+      "path": "site/documents/guides/eggs-and-baskets.md",
+      "bytes": 1786,
+      "sha256": "3e00adc6ae953b5669ac267dfee14e02fb2e49ac89e133862e750b8060a5ba1f"
+    },
+    {
+      "path": "site/documents/guides/fair-go-ai-age.md",
+      "bytes": 1831,
+      "sha256": "7e5ae493a73cb5c92ecf40007ee080eb50b110a20302aab39627b9e39ffbbdb2"
+    },
+    {
+      "path": "site/documents/guides/local-government-funding.md",
+      "bytes": 1832,
+      "sha256": "d2950f282fc02bb05efff57c9692774f8e339ca5a6b696e6cd63daf961bc8c19"
+    },
+    {
+      "path": "site/documents/guides/ocean-of-peace.md",
+      "bytes": 1736,
+      "sha256": "90cdba8c220b4087a47f184f8db6066ee68f03a8d71013029a268872b4952177"
+    },
+    {
+      "path": "site/documents/guides/oceania-health-ai-surge.md",
+      "bytes": 1745,
+      "sha256": "6f052e894e2748d6309d606b87629cd552c38bbd0effc1cab6583e52b98a73b7"
+    },
+    {
+      "path": "site/documents/guides/queens-planning.md",
+      "bytes": 1657,
+      "sha256": "949a74dccc9bc100a54ff61477f10b55f210163d4733f93fa950381fe00b7f41"
+    },
+    {
+      "path": "site/documents/guides/queensland-heart-first.md",
+      "bytes": 1742,
+      "sha256": "05055ad8dd69365abfc97723cd34de41e6eb444ec1ffccb3468ad27b140b6910"
+    },
+    {
+      "path": "site/documents/guides/spec-driven-governance.md",
+      "bytes": 1864,
+      "sha256": "c62132002f792548fc291ced982e652b4d5168c0c1c12696b6ee0b09e0944b10"
+    },
+    {
+      "path": "site/documents/guides/unga81-abundance.md",
+      "bytes": 1600,
+      "sha256": "2cbaed049e1e2b6e53601b71c73e26fca76f54666a2a349c84874715bc437714"
+    },
+    {
+      "path": "site/documents/guides/vuvale-union.md",
+      "bytes": 1818,
+      "sha256": "21cff7e0ac1cdd452186dece9e69361d9bc9c72cd7ae684bbcebcd122fada412"
+    },
+    {
+      "path": "site/documents/manifest.json",
+      "bytes": 16752,
+      "sha256": "8611934e7d9ab312580b15cd93fa0c0dc25018d32bf4428814c97e1ce45762c4"
+    },
+    {
+      "path": "site/documents/originals/c-hour-plan.docx",
+      "bytes": 79407,
+      "sha256": "8b816f04578f028e0590eb72f266eeae50082a60499d45939b139da3c2b25a73"
+    },
+    {
+      "path": "site/documents/originals/queens-planning.pdf",
+      "bytes": 403297,
+      "sha256": "cbd502197f1b30791141ddfcdb538806b8e26da5271292cc23f6f1ba0e69bb00"
+    },
+    {
+      "path": "site/documents/originals/unga81-abundance.pdf",
+      "bytes": 112210,
+      "sha256": "0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14"
+    },
+    {
+      "path": "site/gajra.html",
+      "bytes": 14242,
+      "sha256": "c5ad82eb7c4fe45d3a34125f8f56738a46c15cdfef511bb80b953e735ca20ef0"
+    },
+    {
+      "path": "site/galactic.html",
+      "bytes": 12615,
+      "sha256": "af3dfc3693d8696205226408a7afa18b4a23237806e53bc82f2fff1ff65e5f8c"
+    },
+    {
+      "path": "site/health.html",
+      "bytes": 11527,
+      "sha256": "a35adcb05d955917a794f27121e9d7db3902ba1ab47c324c79b750939dd6aba4"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 16832,
+      "sha256": "17c08112951a0d644b158694f12e3f5a4e6e88874295d55beed774a67251de1b"
+    },
+    {
+      "path": "site/intelligence.html",
+      "bytes": 17112,
+      "sha256": "5184e24fd3907bdf3cbe88e914c66349a579d166047b81e012b5f479eb5031fb"
+    },
+    {
+      "path": "site/law.html",
+      "bytes": 12642,
+      "sha256": "fac3988ce02b55f1431e3bc229f85025b365ac2ed6c2b5ebaef8a3abb70b9cc8"
+    },
+    {
+      "path": "site/leadership.html",
+      "bytes": 12244,
+      "sha256": "5ae577e9572f91d1acd2092a1a6d39a63d092d81b30501393cee924d3e8ef0f9"
+    },
+    {
+      "path": "site/library.html",
+      "bytes": 28030,
+      "sha256": "cb992b75110eff574aed8ab74498807fac050b3bf17e8d9153c6ee649df8028f"
+    },
+    {
+      "path": "site/licence.html",
+      "bytes": 11222,
+      "sha256": "0258aa38a46db449b2b9a919ef08aaaf555c2576fae7b4dfb4f9ef79ccdf1099"
+    },
+    {
+      "path": "site/livelihoods.html",
+      "bytes": 11870,
+      "sha256": "00a30efb9dbd42a389e148563e18bf1c36a7639d132df7392cc4dfaaeb441232"
+    },
+    {
+      "path": "site/oceania.html",
+      "bytes": 11414,
+      "sha256": "3e1dc9f590d88c3a5baf2aa26cf97779129590fafb887461b59d465a6b180cac"
+    },
+    {
+      "path": "site/ownership.html",
+      "bytes": 12665,
+      "sha256": "f3a816ddf6c9d8239b6e7815c2cdd3343990643320f71cac7a952e25b53b7198"
+    },
+    {
+      "path": "site/resilience.html",
+      "bytes": 12507,
+      "sha256": "9f1d9f595496cc11895ccb8e43161a661e854867dd6bf7dc632aab57777a9be7"
+    },
+    {
+      "path": "site/roadmap.html",
+      "bytes": 13233,
+      "sha256": "5eb47df1c6295436835bd2c151498ba398bb32e6e6c44907adcaf121f8ce14dd"
+    },
+    {
+      "path": "site/robots.txt",
+      "bytes": 96,
+      "sha256": "a0b706063eb1134283b4e91d70e092db0657665dc5eb77024479845843bd5f89"
+    },
+    {
+      "path": "site/simulation.html",
+      "bytes": 14107,
+      "sha256": "7ee414706c8e156b7aefbf68a17c6dfb9a6a18ca832cae245705b5f9123a09ae"
+    },
+    {
+      "path": "site/site-map.html",
+      "bytes": 14570,
+      "sha256": "259acbb5afd8ee63c59bf4aec70b863ece22911e746a8eb2697873eeac3a4775"
+    },
+    {
+      "path": "site/sitemap.xml",
+      "bytes": 2274,
+      "sha256": "6463919252d124843a08c9e686388370289f3d94b81adb3001099d8e608e90f6"
+    },
+    {
+      "path": "site/sources.html",
+      "bytes": 28921,
+      "sha256": "5d5bba9b7da71b0e6308a3a4067d8084235b076ba287ed17cdc0420ddac6503b"
+    },
+    {
+      "path": "site/succession.html",
+      "bytes": 15128,
+      "sha256": "be67149c0c438bed956b4f9e60b58388cfba615af4e7c101cc5bd6ca64f9f422"
+    },
+    {
+      "path": "site/take-part.html",
+      "bytes": 11401,
+      "sha256": "d60cf563818d8f4862d3204b9807c3f51ae9c9e068acab816f7f8d9c418477d9"
+    },
+    {
+      "path": "site/travel.html",
+      "bytes": 11739,
+      "sha256": "2f7971318552253443a62aa9bd1095e7f5e98df1f16c47a7e95c1d4aeb23394a"
+    },
+    {
+      "path": "site/workforce.html",
+      "bytes": 15483,
+      "sha256": "de56219f43b724c2771fb5cfeabde33f98afb39bf21ed8a23b8302f24889b550"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 2274,
+      "sha256": "6463919252d124843a08c9e686388370289f3d94b81adb3001099d8e608e90f6"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 28921,
+      "sha256": "5d5bba9b7da71b0e6308a3a4067d8084235b076ba287ed17cdc0420ddac6503b"
+    },
+    {
+      "path": "succession.html",
+      "bytes": 15128,
+      "sha256": "be67149c0c438bed956b4f9e60b58388cfba615af4e7c101cc5bd6ca64f9f422"
+    },
+    {
+      "path": "take-part.html",
+      "bytes": 11401,
+      "sha256": "d60cf563818d8f4862d3204b9807c3f51ae9c9e068acab816f7f8d9c418477d9"
+    },
+    {
+      "path": "tools/audit_connections.py",
+      "bytes": 2046,
+      "sha256": "f52c6e765b84a0edf7fec3ec1c70b3ddc7e93ac90f767c74b956725d1449e3f7"
+    },
+    {
+      "path": "tools/build.py",
+      "bytes": 33479,
+      "sha256": "0468db02120ef267d6023f9a237385f38d0ce34269be1ab2eaeaaea1ccd29abb"
+    },
+    {
+      "path": "tools/check.py",
+      "bytes": 3560,
+      "sha256": "9d2eba8667f2fedcbfa0abfe424299ec65d16965d29b8b88c92d35504ee6f596"
+    },
+    {
+      "path": "tools/check_publishing.py",
+      "bytes": 1171,
+      "sha256": "5190b8fdf1670ca83af1b4a2e8f424d98f1ce7d256fcdae5ae47a328db0fb911"
+    },
+    {
+      "path": "tools/configure-repository.sh",
+      "bytes": 1043,
+      "sha256": "f66f1f569ed0932695754ea1f84f06ee8b83e4ad2e79f6be7a899c9f4f63b911"
+    },
+    {
+      "path": "tools/fetch_assets.py",
+      "bytes": 3064,
+      "sha256": "51280cb3803d34bbf5676f92c794790bfbfcd8598652084377ca6015059a339d"
+    },
+    {
+      "path": "tools/publish_root.py",
+      "bytes": 736,
+      "sha256": "23e75e622c108d7c8287ac6061b5b144dc526533c1a8f49b2a71570e6fdd089d"
+    },
+    {
+      "path": "tools/verify_live.py",
+      "bytes": 3936,
+      "sha256": "88d704b7dceb020fed8b851b55326ad76bc7622cc41f12a90e30947f1239c233"
+    },
+    {
+      "path": "travel.html",
+      "bytes": 11739,
+      "sha256": "2f7971318552253443a62aa9bd1095e7f5e98df1f16c47a7e95c1d4aeb23394a"
+    },
+    {
+      "path": "workforce.html",
+      "bytes": 15483,
+      "sha256": "de56219f43b724c2771fb5cfeabde33f98afb39bf21ed8a23b8302f24889b550"
+    }
+  ],
+  "files_sha256": "fda95f1f2332b2c04bffb7bf9e2c6248c4c62fc7ae3b92a0590e307ad578c384",
+  "file_count": 258,
+  "source_bytes": 107696784,
+  "excluded": []
+}

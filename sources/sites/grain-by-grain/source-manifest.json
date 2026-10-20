@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/grain-by-grain",
+  "slug": "grain-by-grain",
+  "capture_started_utc": "2026-10-20T07:57:51+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:52+00:00",
+  "source_version_start": {
+    "head": "28c4fe9f1bf5b3578950f7c60e6d9a3cde3a8a6e",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "28c4fe9f1bf5b3578950f7c60e6d9a3cde3a8a6e",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3584,
+      "sha256": "cd18de3cbec61fb757239441ffa0d59e23be635d5a271b7913269f43ad6b08eb"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 43700,
+      "sha256": "2980de4fc9b4f30314b9c39cd062e914b487b615f4aa8171329831d94a3f9586"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7026,
+      "sha256": "5bccd61951a951661a730ee5493d635787971927d4a875b88015128137f32ccd"
+    },
+    {
+      "path": "ages.html",
+      "bytes": 13204,
+      "sha256": "c3f143e80991191739c93db5e81d1771104546a2a22c18c25cfc5df105867238"
+    },
+    {
+      "path": "alchemy.html",
+      "bytes": 46241,
+      "sha256": "f22f611e9eb25f5531ff6364cd234501559ec05f7ad73f418cb49c5856c88df5"
+    },
+    {
+      "path": "assets/css/styles.css",
+      "bytes": 27123,
+      "sha256": "84fd612bf0ecee3feee6199c78cd0b7800b408472d4f4d001f8651f4e3f67cba"
+    },
+    {
+      "path": "assets/data/alchemy-corpus-verified-raw.json",
+      "bytes": 134500,
+      "sha256": "dbb26352a4c0e67a1268edd2340bfa50e89d79ccfd234300c526b38ddb0316d0"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 484,
+      "sha256": "20f0f4d8756f316fde446bbb0f6c0c13f10b3ec8a47d2fcc206d3626140a231b"
+    },
+    {
+      "path": "assets/fonts/archivo-var.woff2",
+      "bytes": 90104,
+      "sha256": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    {
+      "path": "assets/fonts/jetbrains-mono-var.woff2",
+      "bytes": 40404,
+      "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e"
+    },
+    {
+      "path": "assets/js/cinematic.js",
+      "bytes": 9599,
+      "sha256": "7d0e12389c352055f34f51063e5c51ce8d3e9d6d105348eb5e3de401cb941258"
+    },
+    {
+      "path": "assets/js/converters.js",
+      "bytes": 3019,
+      "sha256": "5fae7a7e5ce3ef9d1af2f11db3444626f49fea96903932da57b6199980483e54"
+    },
+    {
+      "path": "assets/js/elements.js",
+      "bytes": 10808,
+      "sha256": "7772b1cbaa472bbab0dd31b7e7384f765ba5e46ac5f0475dedcc6759a17e930a"
+    },
+    {
+      "path": "assets/media/ages-ledger.webp",
+      "bytes": 236108,
+      "sha256": "38b92a9d9662c9d7acabc754e074e0045e34003d314e5fccfd589f4cc1734a5f"
+    },
+    {
+      "path": "assets/media/capital-fund.webp",
+      "bytes": 169408,
+      "sha256": "a48f5251df8c20077b991d33d75de880ad0e9ae80740aeb92a045a3342794da7"
+    },
+    {
+      "path": "assets/media/care-community.webp",
+      "bytes": 155954,
+      "sha256": "2bb622405c7449fa80f27b7d413e3aaab2c9558a83c44bf87ab4591b13eb1fab"
+    },
+    {
+      "path": "assets/media/country-consent.webp",
+      "bytes": 229734,
+      "sha256": "0c4b15a5d421de89a36ef6b910050cbb1f91ac9a45e3fabbbbce99583eae02e0"
+    },
+    {
+      "path": "assets/media/hero-subterranean-city.webp",
+      "bytes": 286960,
+      "sha256": "56e297e3cd77685d568b1f90704b2e032d5915485abeca2519c18539457b3f44"
+    },
+    {
+      "path": "assets/media/imagination-bench.webp",
+      "bytes": 227672,
+      "sha256": "5acf138e49f81d6eea6eca86f43f850a66f0c93e03fcda72138ff2398c94a88b"
+    },
+    {
+      "path": "assets/media/materials-stack.webp",
+      "bytes": 133012,
+      "sha256": "f8d111c4e3af6fe0f36496ffab35c9e2dc6f59f7eabb1739d0da0a41b29499c2"
+    },
+    {
+      "path": "assets/media/method-register.webp",
+      "bytes": 272096,
+      "sha256": "43ec24e086c1a39f17340c066cc0a18f7fe48b1d8d891b866f3cda76e0b014bd"
+    },
+    {
+      "path": "assets/media/reclaim-tip-loop.webp",
+      "bytes": 384354,
+      "sha256": "9c57fffe2b6e29fd1eb222c57cf72e6bbcac38dbf67e0831363fb8a7f9c195b5"
+    },
+    {
+      "path": "assets/media/rung00-gumpi-terminal.webp",
+      "bytes": 180618,
+      "sha256": "84bee960a015129a9cf482cc2f76c361fa7b2520d2daade80c76cc6c3f5bba07"
+    },
+    {
+      "path": "assets/media/rung01-community-wealth.webp",
+      "bytes": 185178,
+      "sha256": "5bcf09d51594219a2e9a4e56ffa9d88933f9b6226938363fccb894b51f4da604"
+    },
+    {
+      "path": "assets/media/rung02-sand-materials.webp",
+      "bytes": 242028,
+      "sha256": "c0b329eb9f38571ee1006605169ca2d94756450f46de02605b857546f45f4ca0"
+    },
+    {
+      "path": "assets/media/rung03-sandworm.webp",
+      "bytes": 218714,
+      "sha256": "b5e83724e74d436a8cc49a2408fca6d1db58891b935f34f58604bd7ef4fc9182"
+    },
+    {
+      "path": "assets/media/rung04-energy.webp",
+      "bytes": 253020,
+      "sha256": "71d90cca388994fe1db8b1abdc94da3f566e3e5f441057cfa8bcc051c3d1521c"
+    },
+    {
+      "path": "assets/media/rung05-great-filters.webp",
+      "bytes": 316028,
+      "sha256": "a066202e524a32c423e96047987130ee35a5c035cd781de8711eaead26930124"
+    },
+    {
+      "path": "assets/media/solar-structures.webp",
+      "bytes": 253020,
+      "sha256": "71d90cca388994fe1db8b1abdc94da3f566e3e5f441057cfa8bcc051c3d1521c"
+    },
+    {
+      "path": "assets/media/storage-abundance.webp",
+      "bytes": 221054,
+      "sha256": "1edb8bc7485e2485c3c3dce9eecfea299806dce964551d3ceef64c19fb14cd7c"
+    },
+    {
+      "path": "assets/media/thermal-breath.webp",
+      "bytes": 245578,
+      "sha256": "4c64fa051e055109efd094eabcc7de48a4fb6fc304b04d7f0391fa3b77fd70fd"
+    },
+    {
+      "path": "assets/media/walls-boundaries.webp",
+      "bytes": 202400,
+      "sha256": "182d764989d3aa98a36922976b0ba02288aec4463486571604f33ec366a73c5f"
+    },
+    {
+      "path": "assets/media/watchtower.webp",
+      "bytes": 270498,
+      "sha256": "66ef9e4cf2907c006224ae31387abc8b2b6bf77b2c2ad781c205bf424c02d782"
+    },
+    {
+      "path": "assets/media/waves-marine.webp",
+      "bytes": 194556,
+      "sha256": "69b9689cd52be135a38564f26c3b62505eff5a93acecbaa1882c86578201796e"
+    },
+    {
+      "path": "assets/media/wind-bladeless.webp",
+      "bytes": 129016,
+      "sha256": "b547ebf6691c377c31f2d263f93bdc1f842c8ead123215b17d422d0932240b0c"
+    },
+    {
+      "path": "asteroid.html",
+      "bytes": 10433,
+      "sha256": "c2183ccc329a2485098542c79617a50c1ef8e5c015c58d7e53f001ae4ae4e339"
+    },
+    {
+      "path": "bench.html",
+      "bytes": 8599,
+      "sha256": "af62f414acf375e70a62abd96d29c67b613a4f9a94563904286702e5d4717533"
+    },
+    {
+      "path": "boring.html",
+      "bytes": 12185,
+      "sha256": "d948700d25f1e554697381881cc99a10bb2074b380f8cad281f39a9b6fb23ef6"
+    },
+    {
+      "path": "capital.html",
+      "bytes": 21047,
+      "sha256": "e7b7ad7a1785b526acd3c64017283e51a56aabfbb998860b1da012ffa0ac4b24"
+    },
+    {
+      "path": "care.html",
+      "bytes": 16559,
+      "sha256": "eb5494b7dabed90e308d471460a6a990c324c3591b13cb6b498dc0701dfb209a"
+    },
+    {
+      "path": "community-builds.html",
+      "bytes": 11059,
+      "sha256": "e61bcf4fbcc3de33ac084b9935f42f95976b2b5a2a56d960f0b945d009f9a6f3"
+    },
+    {
+      "path": "corridor.html",
+      "bytes": 14009,
+      "sha256": "544ca5cd5f82c8158dd5c99b0f0076779bbaffa4c2a42188b97f832ca1a7558c"
+    },
+    {
+      "path": "country.html",
+      "bytes": 9276,
+      "sha256": "bbf7d66b96c2c776e7a6e5571445801015481b42470c4c297e522d7963fc8c9c"
+    },
+    {
+      "path": "dig.html",
+      "bytes": 14319,
+      "sha256": "b3bfaf5645d19582c9d1a4629d18a2660b9a67973f0265df78038a42673866d9"
+    },
+    {
+      "path": "docs/PLAN-archive-2026-07-17.md",
+      "bytes": 43033,
+      "sha256": "f3ad0eaa9ea30083a11f1ceb9d2474e78e0e727b0423431cd525dd1303fb2afa"
+    },
+    {
+      "path": "energy.html",
+      "bytes": 11420,
+      "sha256": "afb7ea8c0a0fdbb6b2c42718b429e2600bc6b6bd595988b02e030cb19c44f80e"
+    },
+    {
+      "path": "gathering.html",
+      "bytes": 10942,
+      "sha256": "484a3965926be2a17bf86f3bea85de5efad89b02c6c1c794b3b28fa44120e33b"
+    },
+    {
+      "path": "genesis.html",
+      "bytes": 18013,
+      "sha256": "c0a007a7766b9b51a4368d65f7e6358371f265fcd3f3684b7fbcef980ed01eaa"
+    },
+    {
+      "path": "highwater.html",
+      "bytes": 11863,
+      "sha256": "dd301ddb79b2a9fe967a8aa2c2fe63b63203aef303d764c745a5478ed98dae2e"
+    },
+    {
+      "path": "homemade.html",
+      "bytes": 11497,
+      "sha256": "b0d9a0d2bfdf39a090369bb07b88c19aeb12b2e47e9cb642f3a2f9bdf27eba72"
+    },
+    {
+      "path": "imagination.html",
+      "bytes": 17221,
+      "sha256": "f2935e662f771b149cf5bb79abac169a1f9fdb2d9a4ba2cfd1b85528197be5d6"
+    },
+    {
+      "path": "index.html",
+      "bytes": 16553,
+      "sha256": "24a86dbbd0cd7b64a800e54e2ca694a6cda774e462dd0fcffcd9222d150a191d"
+    },
+    {
+      "path": "kardashev.html",
+      "bytes": 9852,
+      "sha256": "57a11226e8fa79a2c3f204a22a6e054f7a35faf6239ae305bb4cd69d207f7922"
+    },
+    {
+      "path": "materials.html",
+      "bytes": 12642,
+      "sha256": "1e0f66d465d4957df6f798b024709736404caeb1dd88a1c1ef8a961d1e210c09"
+    },
+    {
+      "path": "method.html",
+      "bytes": 11463,
+      "sha256": "c83402fdcd735404e6d272cc294311abe420cac9701ec8c7c3f7417b2f9bd1f5"
+    },
+    {
+      "path": "monazite.html",
+      "bytes": 9578,
+      "sha256": "0b4e603d6b0069e539c2657c635af6f5bb2f1bbdee5ab69243c74715265b5210"
+    },
+    {
+      "path": "oysters.html",
+      "bytes": 12521,
+      "sha256": "ac2f8ef3858c63511efbe691dd2d6dfdee1c6b1400dd1867b76a299421a09ddb"
+    },
+    {
+      "path": "people.html",
+      "bytes": 11852,
+      "sha256": "c7e4f34ea1203dc9f7f805da74fac1d7aef87b3526ac9a0aed6968870b03064e"
+    },
+    {
+      "path": "prepared.html",
+      "bytes": 12704,
+      "sha256": "71240f0992b36c3aad4b21caa97d996e7fbe1a5e44760d872c067ce394ed47a8"
+    },
+    {
+      "path": "projects.html",
+      "bytes": 11389,
+      "sha256": "e37802d69f86c579ba388bd691dbbab8251ee22bcb7e190cf74250256bcb2311"
+    },
+    {
+      "path": "quartz.html",
+      "bytes": 9891,
+      "sha256": "3c0003b6b17f8e3009f9dca025dfca284d354daa8c90fdc49054fbcba9f68298"
+    },
+    {
+      "path": "reclaim.html",
+      "bytes": 15962,
+      "sha256": "4679d7e01f0bc6dcda0e1572dd4f52a460ad1fd188b20a052c481d194645d25a"
+    },
+    {
+      "path": "rooms.html",
+      "bytes": 10864,
+      "sha256": "dba0cfb01ea2645aedeb0402b954f65a10074e22af1d6cba4dd3d4d246c4f31d"
+    },
+    {
+      "path": "sensorium.html",
+      "bytes": 7511,
+      "sha256": "ba635a82723940b284c54e7cafc897cc8a65c8f21f950c64ad7277b18cd3ca48"
+    },
+    {
+      "path": "shoreline.html",
+      "bytes": 15641,
+      "sha256": "9f9f0839987135d1ba216ef87841ef27b57908830073275a43740b7e0fcfa36c"
+    },
+    {
+      "path": "sitemap.html",
+      "bytes": 18869,
+      "sha256": "d3383fcda09cb0260edb8d3f9ac969ea1d4ef031111af939a1134cf097061d5d"
+    },
+    {
+      "path": "smart-tools.html",
+      "bytes": 9289,
+      "sha256": "c0c6a72ba8faaf1172cb1492e1037214cdd668be517bca246a89e3bb717e8e30"
+    },
+    {
+      "path": "solar.html",
+      "bytes": 11173,
+      "sha256": "afa5829788df6c1ce1a9fcfd86a0c242cac43e98028e77c7279eb86885277a9e"
+    },
+    {
+      "path": "spaceweather.html",
+      "bytes": 11328,
+      "sha256": "709deb6bf4147a008d832dbc07c87a5aeeba9294e84b1f1ef6f463bb01d6f824"
+    },
+    {
+      "path": "storage.html",
+      "bytes": 17312,
+      "sha256": "5cb773a7dcbe9145e67acba02cf2ef10d233a0bbd3fa388c701c3787d66bac80"
+    },
+    {
+      "path": "surfbanks.html",
+      "bytes": 12130,
+      "sha256": "6402d0723a42b158a2f0e45c9885916c37d2b69907518993aed09d12a00c9d8a"
+    },
+    {
+      "path": "thermal.html",
+      "bytes": 10384,
+      "sha256": "a28257a6803a640b4fc5ce97141047cef605afda2c06084a3ed582d8691dee69"
+    },
+    {
+      "path": "threats.html",
+      "bytes": 39136,
+      "sha256": "1f90aab8bf26e6355abf1ef8973c76c3e26a89decf8c50de11368c7b2639666b"
+    },
+    {
+      "path": "titanium.html",
+      "bytes": 10191,
+      "sha256": "fa469d4bcb154ef1460124be81c26473a1225af50ba280c36fe79eb8b9870446"
+    },
+    {
+      "path": "tunnels.html",
+      "bytes": 11980,
+      "sha256": "b9976a3376203ce572f570354b16b74c5dd1b8eba359c2dc6738a08335e3db05"
+    },
+    {
+      "path": "underland.html",
+      "bytes": 11273,
+      "sha256": "8fd125d5996220014f7dfbf79b2dc17c8f084f6d0ce73878511e5fc60711bffa"
+    },
+    {
+      "path": "walls.html",
+      "bytes": 17456,
+      "sha256": "43c2cc5737919f6ca322b1592fb0f5f128f791819e6325523c5dbbc7bebb251b"
+    },
+    {
+      "path": "watchtower.html",
+      "bytes": 16414,
+      "sha256": "ca7003f69e2d811591a9735f827e5df536f24e742af5d24ce6201ca1a1ce6b0a"
+    },
+    {
+      "path": "waves.html",
+      "bytes": 16782,
+      "sha256": "0e981ebdc7c859104ba114b7cfc5d5889a95053b8aa582667d2079b4b42c6a49"
+    },
+    {
+      "path": "wind.html",
+      "bytes": 8191,
+      "sha256": "6ee2e07fb2223c4d865564288b0f6d35622f1cd6ea1b090770a5b8909b241712"
+    },
+    {
+      "path": "zircon.html",
+      "bytes": 10523,
+      "sha256": "221640c0a5364b787241c325033215c754e79966dbdbe414ee9fa7b25959c061"
+    }
+  ],
+  "files_sha256": "8723bc78e1affdcfe873a5dd5c7e93056d31897ca7ab97e51c4151cd85f66b15",
+  "file_count": 82,
+  "source_bytes": 6079131,
+  "excluded": []
+}

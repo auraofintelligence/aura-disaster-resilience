@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/moreton-bay-autonomous-mobility",
+  "slug": "moreton-bay-autonomous-mobility",
+  "capture_started_utc": "2026-10-20T07:57:57+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:58+00:00",
+  "source_version_start": {
+    "head": "75aa7fd60fc539e5f8a7c56c1a7738e2ccbcf143",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "75aa7fd60fc539e5f8a7c56c1a7738e2ccbcf143",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3635,
+      "sha256": "8b3f5743d428e497cf1d4ed56de81cc8a11c520ca95c2920313757f92e6956dc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19583,
+      "sha256": "2dedf10264e3ae1962989630838e921ae673ab5daae361a5cf131232dc6c8f8c"
+    },
+    {
+      "path": "assets/css/styles.css",
+      "bytes": 41428,
+      "sha256": "f0fd51f34f939627e95813508cd0b13e1757c775c551dd798df09b0e85a524cb"
+    },
+    {
+      "path": "assets/images/IMAGE-PROMPTS.md",
+      "bytes": 8881,
+      "sha256": "1938352dd4c1843eebb65a8d964695cbdef3b6071601fc5c3750f9dbd19c10a6"
+    },
+    {
+      "path": "assets/images/brand/apple-touch-icon.png",
+      "bytes": 34744,
+      "sha256": "72b7595550f5a1e1369a9bb40ecd6b69986d6d1313ad2c899dbe0eb7bca27ac9"
+    },
+    {
+      "path": "assets/images/brand/favicon-32.png",
+      "bytes": 2237,
+      "sha256": "6469bd4587846733d709160552b34beae977ea56bdb86b2316fb3d9a98d4e3b2"
+    },
+    {
+      "path": "assets/images/brand/favicon-48.png",
+      "bytes": 4219,
+      "sha256": "16435c25aa882e163770ca861559b1032e7308d4f42f5dca14d92f848a3ffa3b"
+    },
+    {
+      "path": "assets/images/brand/logo.png",
+      "bytes": 294955,
+      "sha256": "0ae9f1180d7fefe0fdc29348c5b6c99ba008a3f96f69c1bc80737194138f23ef"
+    },
+    {
+      "path": "assets/images/heroes/everyday-journeys.webp",
+      "bytes": 366610,
+      "sha256": "876fdf129304a0c6e9417a90440ce2a67c34fca9cfdd728057873bb6815459f9"
+    },
+    {
+      "path": "assets/images/heroes/global-trajectory.webp",
+      "bytes": 256048,
+      "sha256": "ddd80dc0d9c92035ee080c0e484634f3fcf7deb03d96c5dc9f82c6941e0ef097"
+    },
+    {
+      "path": "assets/images/heroes/home.webp",
+      "bytes": 287976,
+      "sha256": "d9f4c32b029ea9c43bef0192b8dfc3105c38ddd547c47680ad8f7ce0f0d8184f"
+    },
+    {
+      "path": "assets/images/heroes/how-it-works.webp",
+      "bytes": 404666,
+      "sha256": "6e34b575011d73fffaefb2d11adf6ae2d52c69b017f5c39392a3d012d4019813"
+    },
+    {
+      "path": "assets/images/heroes/island-spectrum.png",
+      "bytes": 1924907,
+      "sha256": "8cb1cd57cc189e86bc3a7cdeac57e2c568a50a32a6a57c40250211fa603ef0a4"
+    },
+    {
+      "path": "assets/images/heroes/pilot-plan.webp",
+      "bytes": 309898,
+      "sha256": "9689cd15c235e78a4fecf5622e2ebc6d2b28c3dc78ca158173421020e17525ed"
+    },
+    {
+      "path": "assets/images/heroes/safety-and-trust.webp",
+      "bytes": 595568,
+      "sha256": "fb71983fcb22c96a72c11cbcb4a9e97fdbcd526f2ddea40e99efb8d9425015b4"
+    },
+    {
+      "path": "assets/images/heroes/site-map.webp",
+      "bytes": 414072,
+      "sha256": "919e332084083e5710b6ba3954a306ac7c30d0eb0d82d32681f24fb0efe9775a"
+    },
+    {
+      "path": "assets/images/heroes/take-part.webp",
+      "bytes": 316038,
+      "sha256": "e8ce8d5a2a1852b575ebe01e0864e880a1699e2ce394636e77a7282ee0c3083c"
+    },
+    {
+      "path": "assets/images/heroes/why-moreton-bay.webp",
+      "bytes": 402492,
+      "sha256": "d0e95b36ef90c78341e1b2495f772dd29fbe847d52c3a421bcff3251df3298a5"
+    },
+    {
+      "path": "assets/js/site.js",
+      "bytes": 7976,
+      "sha256": "c892ff70eb7eca91920be1ae39aa5d6c68ee45c5fa63254085082d83bc41dc4b"
+    },
+    {
+      "path": "everyday-journeys.html",
+      "bytes": 8089,
+      "sha256": "f7686e27c95a99dbf29fc5d8e1e94d7a4935e4a409556bf7482b1172097375ff"
+    },
+    {
+      "path": "global-trajectory.html",
+      "bytes": 9580,
+      "sha256": "484e062128e1f8678a342822aab17586a3fdd88c3deb1ed618d6d1b090d9d734"
+    },
+    {
+      "path": "how-it-works.html",
+      "bytes": 8344,
+      "sha256": "fbd49b065b4aff764032951a1d14462baf59054b942f12e7464dbf867983edfe"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8157,
+      "sha256": "27b95e8876d4fcb2f2f8dc57f2afc738e3f0a292e1ae95f5c42dbca8de0acfa4"
+    },
+    {
+      "path": "island-spectrum.html",
+      "bytes": 15655,
+      "sha256": "df356bee845de6c3e4d9111467125210e3042e501012b15fe5d4fbe206530763"
+    },
+    {
+      "path": "package.json",
+      "bytes": 273,
+      "sha256": "834b797e2adfb4637396321ec1bf69fd54ea038372abb463ead2ddb5ad90837a"
+    },
+    {
+      "path": "pilot-plan.html",
+      "bytes": 8461,
+      "sha256": "bb5d7aca06420b6cba18cc507f8e066db8bb2ef5e11ba0a0590fa0de8e371e60"
+    },
+    {
+      "path": "research/island-spectrum-notes.md",
+      "bytes": 9170,
+      "sha256": "307b35979924632c1f242730dce7f85607cebfa1bcfadb8232b425ff7186ada2"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 118,
+      "sha256": "d2533dd948784988e477897fba5a2d00d594b5910081abfec3a3301f381c1468"
+    },
+    {
+      "path": "safety-and-trust.html",
+      "bytes": 7591,
+      "sha256": "c9a90a353e71313c1a8e8adf7c696490c5003db8f1c73be516089607f8c3e1d2"
+    },
+    {
+      "path": "site-map.html",
+      "bytes": 28580,
+      "sha256": "0f17c3e7a27145d2f86c6df0d2b143ac56b0875e800d120f008233012e60ae72"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 1227,
+      "sha256": "ea8f2aded6246cb0e95e890b32b7d8ab49ceb46574a1e391aaf1834e0ef46a0b"
+    },
+    {
+      "path": "take-part.html",
+      "bytes": 11794,
+      "sha256": "314867680b677715c107f25650a475f96a5a8661055ae478f66924cd55889fda"
+    },
+    {
+      "path": "tools/check-site.mjs",
+      "bytes": 20429,
+      "sha256": "3ab86a0c52e4816a56b7f0424724e526098b85ad348b358be4fe433a7806556c"
+    },
+    {
+      "path": "why-moreton-bay.html",
+      "bytes": 7829,
+      "sha256": "fb045b179dbd65c2d4d8ecfc7a1930290145f89fcf547cba0e318496bd6c78ff"
+    }
+  ],
+  "files_sha256": "b4127d3e180d4dc778b28ef6d540fb0a9c9900369dbc55aa4103c48a3a7dc0ea",
+  "file_count": 35,
+  "source_bytes": 5841232,
+  "excluded": []
+}

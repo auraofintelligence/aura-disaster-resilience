@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/GAJRA-earth-infinity",
+  "slug": "GAJRA-earth-infinity",
+  "capture_started_utc": "2026-10-20T07:56:50+00:00",
+  "capture_completed_utc": "2026-10-20T07:56:51+00:00",
+  "source_version_start": {
+    "head": "ca920d7711fb4ae2e2c17b0f5dbfcdb4d6bd6951",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "ca920d7711fb4ae2e2c17b0f5dbfcdb4d6bd6951",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 42,
+      "sha256": "1f9a36032bc725e2751c89a46f14b8092e44a9912c6f3f0340d48e5cacd3c95f"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "404.html",
+      "bytes": 1100,
+      "sha256": "d8cf0ea5b1f492ac30474785df8cf9c306042eb63485822e091e2cfa1a0d484e"
+    },
+    {
+      "path": "BUILD_LOG.md",
+      "bytes": 10942,
+      "sha256": "90f8933d3320c92870057594ca8ef4c5f32c7b468b0fafda39560244d9573f92"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 3602,
+      "sha256": "fecfb64f79bee92f44f7fee70fe7b98be99db04eae95f5d5c2fdccf481b2dd11"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6416,
+      "sha256": "618ae4b7b56324e36eb2753bdcdf48fed37aba08ca0103890f93f44357ea9c37"
+    },
+    {
+      "path": "about.html",
+      "bytes": 8563,
+      "sha256": "62040aa6e0f7116f784dbd8fbe2a08486c21489f793823ea665f7650a7fe9413"
+    },
+    {
+      "path": "ai-builders.html",
+      "bytes": 1079,
+      "sha256": "f51829297156d4681bbc82c3771732ebefdae6577230ce80094d903edc6cde4d"
+    },
+    {
+      "path": "alignment-lab.html",
+      "bytes": 20192,
+      "sha256": "618dbeaffc5c4b222837fffd89d528330c2448bea83ca07f97b1081c11cf0ebb"
+    },
+    {
+      "path": "archive.html",
+      "bytes": 1102,
+      "sha256": "74874a1fc19a2a23e040ea35cefc61a48d7200f5a6a95ba1dae8c1cade52024a"
+    },
+    {
+      "path": "assets/alignment-lab.js",
+      "bytes": 14685,
+      "sha256": "e240cfca3096674151dff7cd75fd5396312bd24b98e86984e2985981d3b35aa4"
+    },
+    {
+      "path": "assets/aura-heart-180.png",
+      "bytes": 21901,
+      "sha256": "1039f71aa3cbd1d4f486805ef81331783846f6b0d24b565844840e1a0135c125"
+    },
+    {
+      "path": "assets/aura-heart-192.png",
+      "bytes": 24012,
+      "sha256": "628519b04dbb607bcdaff01838364c5818c8983fa63cae3cfd0ff88eb45bfbfa"
+    },
+    {
+      "path": "assets/aura-heart-32.png",
+      "bytes": 1690,
+      "sha256": "d69270afc0089682951aed328eb262ca0468a5d1210822faf2cb3eed966600ea"
+    },
+    {
+      "path": "assets/aura-heart-full.png",
+      "bytes": 104987,
+      "sha256": "d7f0cc751841f9275235d774043126094fab132b9373aa7ebb59944d43ee14bd"
+    },
+    {
+      "path": "assets/contribution-tool.js",
+      "bytes": 7607,
+      "sha256": "f302f3b44068b9db86d0a1f11f7f61d599b8bc27f3c69b9aed26688cf2e62e8e"
+    },
+    {
+      "path": "assets/cosmos.js",
+      "bytes": 9753,
+      "sha256": "43cbc900611f390862cc83502709c007dcf102333a42ca6e0bd276d9f2cb991f"
+    },
+    {
+      "path": "assets/culture-tool.js",
+      "bytes": 8497,
+      "sha256": "471cf43587c7f648b6bb903e05c5011c79143e975e50be9a0edd944278bb8f5d"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 77536,
+      "sha256": "7e00958d63dd33141c178f2a7e4933c43dfc211cb7f153800180761fff3d8f85"
+    },
+    {
+      "path": "assets/heroes/about.webp",
+      "bytes": 256844,
+      "sha256": "81f3c84ead66d0454d7e4366b3e00e84aecfd8cc747c37a9928fd7b00462ee2b"
+    },
+    {
+      "path": "assets/heroes/ai-builders.webp",
+      "bytes": 18494,
+      "sha256": "2b3c59565a595d58e44648149dd544eeee4ce0174f52c662c3654b0fb477d9cc"
+    },
+    {
+      "path": "assets/heroes/alignment-lab.webp",
+      "bytes": 84940,
+      "sha256": "c9e56a659f7f07f9f5c4189a9d7c0fa2ea2610220de0986f07b17cbd4ac9a09a"
+    },
+    {
+      "path": "assets/heroes/archive.webp",
+      "bytes": 21488,
+      "sha256": "5660327559415e0160a9dbd2216b449c6f901f0033e7cf64b37b9e079a54a297"
+    },
+    {
+      "path": "assets/heroes/build-log.webp",
+      "bytes": 26896,
+      "sha256": "700c670cec5375c5d5837fd7cd569bb23b9e402f4552e28ebcbb3cd2b25d8f51"
+    },
+    {
+      "path": "assets/heroes/commitment.webp",
+      "bytes": 15336,
+      "sha256": "84a7ec3898a9206ee699625feb45191b57f84be8154ee373003f0dc03584e651"
+    },
+    {
+      "path": "assets/heroes/contribute.webp",
+      "bytes": 68688,
+      "sha256": "4c1df93b04cfb2b29d9198dd9b7d0142c7842ded1f91dcda83677f64f6ac1865"
+    },
+    {
+      "path": "assets/heroes/culture.webp",
+      "bytes": 20656,
+      "sha256": "cce8bdc20258039e9391aa8fbddda3a230430201fa4e13dc449390e15e444dee"
+    },
+    {
+      "path": "assets/heroes/data-garden.webp",
+      "bytes": 19398,
+      "sha256": "e6549c425aafd6e0e2fe2c8348a7a5020cf905b4bf797d55a2e97b083f9e9343"
+    },
+    {
+      "path": "assets/heroes/earth-time.webp",
+      "bytes": 37118,
+      "sha256": "2c5f6685174c2cd1a2c44d281de0862c496224724ada7562f937b3dc2eb52d30"
+    },
+    {
+      "path": "assets/heroes/ecosystem.webp",
+      "bytes": 19390,
+      "sha256": "5565f7adb9372e6b0e7931af2f31a443dd9794b4750c4dc2864d9d56d842b5b2"
+    },
+    {
+      "path": "assets/heroes/event-system.webp",
+      "bytes": 21780,
+      "sha256": "7f3420b4fa4d5edfc4b35ccf16f55ab6d1ac34d8da394e7786bca784f8af4aab"
+    },
+    {
+      "path": "assets/heroes/events.webp",
+      "bytes": 69290,
+      "sha256": "d81c050978866f12a393ad772bdddb6d4ac184b6f710ad9534dab5c8267575fc"
+    },
+    {
+      "path": "assets/heroes/everyday.webp",
+      "bytes": 12718,
+      "sha256": "36da9962178283693e1c8d8291ff43e5fdab092f34a63cf86dbe810d0943ab3a"
+    },
+    {
+      "path": "assets/heroes/experiments.webp",
+      "bytes": 25908,
+      "sha256": "3551ee645ceeb6fbe1965f14ceee20eb9964b4dd01d0f4a565b04d43c0e3e7e4"
+    },
+    {
+      "path": "assets/heroes/frontier-labs.webp",
+      "bytes": 65224,
+      "sha256": "2aac8ab62cb0b00712a23af38fe73ef4864ad2ebf598d84813198012b650c0d0"
+    },
+    {
+      "path": "assets/heroes/jra.webp",
+      "bytes": 26128,
+      "sha256": "4be3b309ef97438fcbc42bd272ba42ea3ce6552b28334f831ce0db5dd881b358"
+    },
+    {
+      "path": "assets/heroes/not-found.webp",
+      "bytes": 12108,
+      "sha256": "54f80b80f0487334935f1bd28a9cafbfaac7d0f98e8ad0cad6b9907b2e691922"
+    },
+    {
+      "path": "assets/heroes/research.webp",
+      "bytes": 18924,
+      "sha256": "cf61fe74603204ab4f0a22cbb5325eb1908fb6abff7316f1c3ff1ee3145b7e2b"
+    },
+    {
+      "path": "assets/heroes/simulations.webp",
+      "bytes": 18502,
+      "sha256": "11ac5762c24a08237766d536ce373bebe1f08c7edcf63075accbc598a497ba70"
+    },
+    {
+      "path": "assets/heroes/site-map.webp",
+      "bytes": 20732,
+      "sha256": "388aec8f5f57d78b88eafb6e1e4418cf3853d12e6c7f56582eb02837ea4afc68"
+    },
+    {
+      "path": "assets/heroes/status.webp",
+      "bytes": 12832,
+      "sha256": "96962a9c4d80928e256e4dbe10024d8affa5a40b43b24c8af6643b21c78a075f"
+    },
+    {
+      "path": "assets/media/gajra-flower-force-original.png",
+      "bytes": 2175143,
+      "sha256": "68b9dc4c8d43d5258b1d2f7e6fbd624ae4782134123ec438046e777fc6991ae8"
+    },
+    {
+      "path": "assets/media/gajra-flower-force.webp",
+      "bytes": 177766,
+      "sha256": "dbd7652bf54400fdcfbe03b2290fd753bbd8112972463fb553935284b7a29ce9"
+    },
+    {
+      "path": "assets/media/generated/about-hero-source-v1.png",
+      "bytes": 2436939,
+      "sha256": "465dc17308dd4a1cfb885430ed742be26a677c07d2eeb3c910dc6671345732f0"
+    },
+    {
+      "path": "assets/media/nasa-aurora-australis-2022.jpg",
+      "bytes": 92445,
+      "sha256": "e98571ea47da3260ea8e8a0ae6587ab56dd0a65426e3da01d433d1c1ae0be7fe"
+    },
+    {
+      "path": "assets/media/nasa-blue-marble-2012.jpg",
+      "bytes": 446230,
+      "sha256": "b008d548fadf09d174dac44ec290f0164589caddd039e2242f479b880c11a52f"
+    },
+    {
+      "path": "assets/media/nasa-iss-aurora-2022.jpg",
+      "bytes": 92445,
+      "sha256": "e98571ea47da3260ea8e8a0ae6587ab56dd0a65426e3da01d433d1c1ae0be7fe"
+    },
+    {
+      "path": "assets/media/nasa-iss-aurora-2025.png",
+      "bytes": 2756674,
+      "sha256": "ea9a0177ce67ba09d408dcb72cb73611336ee75887568d3873f1422c39bf755c"
+    },
+    {
+      "path": "assets/media/nasa-iss-aurora-2025.webp",
+      "bytes": 99138,
+      "sha256": "057e18f779996cd62325ca7f01fc16d9d2fcbfa3334d87741b7e50ba066be5e4"
+    },
+    {
+      "path": "assets/meeting-tools.js",
+      "bytes": 13608,
+      "sha256": "926a688eb2b08f34ab7e03a57256a2cbdc21f88af50c63b0ea63f13df5986cf0"
+    },
+    {
+      "path": "assets/site.css",
+      "bytes": 60764,
+      "sha256": "1c1180f738a6ae9ebb72d44d2eda25c35a21aa271d86614e542abbe5bcc6ee4d"
+    },
+    {
+      "path": "assets/site.js",
+      "bytes": 10055,
+      "sha256": "659a17c5817691bec4ee817cb5a21b8161a2c384a79164431104154752e55615"
+    },
+    {
+      "path": "assets/upcoming-watch.js",
+      "bytes": 4274,
+      "sha256": "8718ecfc07905b95c3ea93160ceb1f6c8048ad098994e4d66254650cb015a7c6"
+    },
+    {
+      "path": "assets/vendor/maplibre-gl-LICENSE.txt",
+      "bytes": 6100,
+      "sha256": "e319065a0691dcc07633701b436e178f1759dda7d5199ceee469282ff653e761"
+    },
+    {
+      "path": "assets/vendor/maplibre-gl-shared.mjs",
+      "bytes": 477805,
+      "sha256": "8da8d1cc72220c944876f543e0b08eacb0a9f2aaa9000881e821a5d6f3f22fe5"
+    },
+    {
+      "path": "assets/vendor/maplibre-gl.css",
+      "bytes": 70024,
+      "sha256": "9467ecb10416776e4ec880d662c20bbc1d1ea4e439ac3aeda45901bdf124b609"
+    },
+    {
+      "path": "assets/vendor/maplibre-gl.mjs",
+      "bytes": 565106,
+      "sha256": "8baa051d9e28254df41019d82f49dc995286f39639975347e3022fd47345ac8a"
+    },
+    {
+      "path": "assets/world-map.js",
+      "bytes": 9866,
+      "sha256": "a101ca704c0fcc9e25dc15eac606ee354523be77464a9c953162b9a6c7cc7848"
+    },
+    {
+      "path": "build-log.html",
+      "bytes": 17407,
+      "sha256": "7b018fcd9bbfdf8c52e0105c312cdfd6bcb0a3c01d1b14ce0d2c429ef20e48d8"
+    },
+    {
+      "path": "commitment.html",
+      "bytes": 1083,
+      "sha256": "5b71980999c9d1b2b427ff92fc136ef5289b33a84cbcead2c8035bc2cf642a0b"
+    },
+    {
+      "path": "contribute.html",
+      "bytes": 9732,
+      "sha256": "fb9ad999a963c776506b1a0ea9aa84ebb7304068725b5bec770ea7d003ee2884"
+    },
+    {
+      "path": "culture.html",
+      "bytes": 8829,
+      "sha256": "68b0f00121c3cb3cff41a5843d59997270a915387c5fb893040272f6aae96b29"
+    },
+    {
+      "path": "data-garden.html",
+      "bytes": 1077,
+      "sha256": "c91bf27b517f6bd5c3b64e3958b909753934fc5be3b65c0d2d1a7177fa1810de"
+    },
+    {
+      "path": "data/map-records.json",
+      "bytes": 1810,
+      "sha256": "c3b9537838e3d5262798be5e3f188e964c88c35c83fc4aca86dd56dbd9fda0dd"
+    },
+    {
+      "path": "data/upcoming-events.json",
+      "bytes": 6728,
+      "sha256": "f164e8a61a9ac101d3a02c5c11917ef7bbcf9aabf0581ac1436a8c5fb2ead30b"
+    },
+    {
+      "path": "docs/ASSET_PROVENANCE.md",
+      "bytes": 6323,
+      "sha256": "3fb179f1887bf3d3b71f0b0ece7a0c59aee7c6720cfc1dd86e9f5f2b90b2df9a"
+    },
+    {
+      "path": "docs/DESIGN.md",
+      "bytes": 9264,
+      "sha256": "0076277d5b5ccb78bdcc7e180802efef797c397e4e42f3db11d19ab51cbd4d16"
+    },
+    {
+      "path": "docs/RECONNAISSANCE.md",
+      "bytes": 4979,
+      "sha256": "55695b01563c81dac515dcaef3ca94a36f3865f020de9076bea70f3b003009f3"
+    },
+    {
+      "path": "docs/VOICE_AND_TONE.md",
+      "bytes": 1270,
+      "sha256": "301412c7f0b532609099e315d0b37d30fa0139aacd30573d7c3137b19a40a9b0"
+    },
+    {
+      "path": "earth-time.html",
+      "bytes": 1090,
+      "sha256": "55018e74e5546a26c7735da18ff59a7591ec76382f1dabafd62945b9ecba36b0"
+    },
+    {
+      "path": "ecosystem.html",
+      "bytes": 11600,
+      "sha256": "df39ee571c838a6eb72b2f160fa86cd5579d64e27f0afcefd5e116dcd3a038c1"
+    },
+    {
+      "path": "event-system.html",
+      "bytes": 1090,
+      "sha256": "ca24bea3e64d99d3dee8a04ba15856e17ce23883a133e6e29862a013e4e8050f"
+    },
+    {
+      "path": "events.html",
+      "bytes": 9307,
+      "sha256": "3ca37aa82eb73ec44d165b3c2a6a99e188627c5911fb6b5b708e979956080644"
+    },
+    {
+      "path": "everyday.html",
+      "bytes": 1096,
+      "sha256": "88649150fc5afd44332767542c47f261ed8c80c1b46f3b9b4be3235668e04804"
+    },
+    {
+      "path": "experiments.html",
+      "bytes": 1087,
+      "sha256": "8ef9e643deaa652e8bf97ac89968670590a6571e05cd2ac6df7945e30622c278"
+    },
+    {
+      "path": "frontier-labs.html",
+      "bytes": 24666,
+      "sha256": "59fa5938b2ae6a1ca0f1c3c501ede1d561081f91598d7644fb666372b15f5012"
+    },
+    {
+      "path": "index.html",
+      "bytes": 13640,
+      "sha256": "aafd0a8870ac18f25349d239a4c4784f4910ff01d8509bf245ccba13c761335b"
+    },
+    {
+      "path": "jra.html",
+      "bytes": 1057,
+      "sha256": "758323797b8d065e8e9ed54cf0a7ac815ab1fe5e6b13cbcab319fa3479865723"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 9493,
+      "sha256": "6769a1af6780772a7bc3da1da317fd2a3e3355eb4934b9330489322b3e52b7c4"
+    },
+    {
+      "path": "package.json",
+      "bytes": 292,
+      "sha256": "ccfd655c6fcd88ab617a79b6dff354dc26cfb476381814896a749bd91f5f866a"
+    },
+    {
+      "path": "research.html",
+      "bytes": 1078,
+      "sha256": "75cdc773d920c2a599a0bee74ea1ebeb2ce3da428dc20addf6efe3b6ddcda7f2"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 105,
+      "sha256": "3d25203c8efaa25e8b9561dd757350edf7529752b0d8a7671fedb21082f743c6"
+    },
+    {
+      "path": "simulations.html",
+      "bytes": 1077,
+      "sha256": "d81ee294e25f8861fac713b241728c216c87bd8408703928e7edff7901b095f1"
+    },
+    {
+      "path": "site-map.html",
+      "bytes": 7560,
+      "sha256": "dfa1a7cedeeeb2a459d042a586c1d9b8579bca399650e5787eb57499c8d5540a"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 1188,
+      "sha256": "3940d867531fe903a6cdc1cb7f821f2ee3db944b35ae928b2681c6cffc23f06e"
+    },
+    {
+      "path": "src/site-data.mjs",
+      "bytes": 31882,
+      "sha256": "79544f8f16b17c51fc98e1d66255882e7ca9d69d4a37e5fbb12251bad7583096"
+    },
+    {
+      "path": "status.html",
+      "bytes": 1106,
+      "sha256": "c72fa089b18701b9e32973f585a05aac4528354f40c80cd5d58d75a48de70bab"
+    },
+    {
+      "path": "tools/build-hero-images.py",
+      "bytes": 13875,
+      "sha256": "86178239a7b0cc573b33fd43239315c5bcacd02a903fa25413cc9b242a452509"
+    },
+    {
+      "path": "tools/build-site.mjs",
+      "bytes": 62046,
+      "sha256": "479325af12a4c41c318fac1c294d3ff8f5c79e09e809b725b946fe6b3b572cf5"
+    },
+    {
+      "path": "tools/check-site.mjs",
+      "bytes": 20758,
+      "sha256": "8b8248fb6995103aa323d059f47e29db3cbfd54f9a00702fa209639ae2a46493"
+    }
+  ],
+  "files_sha256": "2e2d71c4ea3a6a2e61b233d82b81303b9c49e7d065a4dc3a9b1580f9176e2819",
+  "file_count": 90,
+  "source_bytes": 10995079,
+  "excluded": []
+}

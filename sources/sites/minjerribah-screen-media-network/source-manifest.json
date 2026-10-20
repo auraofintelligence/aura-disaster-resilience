@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/minjerribah-screen-media-network",
+  "slug": "minjerribah-screen-media-network",
+  "capture_started_utc": "2026-10-20T07:57:57+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:57+00:00",
+  "source_version_start": {
+    "head": "08059fb8ce6aba77c5c98cfc79a325b66ada82c4",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "08059fb8ce6aba77c5c98cfc79a325b66ada82c4",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/collaborate.yml",
+      "bytes": 2338,
+      "sha256": "a41ff1e94d476bb11f8ef94fe945c73770d7dc5a09266b2247da9e88a02fe515"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 47,
+      "sha256": "433aafbd008e7014e59d0ccbe7bd20e8c19bb968da765a94726c4dce827c2d99"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1070,
+      "sha256": "ecfda3bf390a08af84ed8e7380dbd3d320cc55ff44065c19b8d89db1ae6827a9"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 547,
+      "sha256": "7739a6da1dd5b8082533d75487b975adb1918a19f027a17912e7698f83656641"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 96,
+      "sha256": "920d94e9adeff8b54809c81b923f9a4ae4f255f5f276952efd11c43c983fb707"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 2405,
+      "sha256": "800fbfd0a45a6974c2d5f99d3be7791b5147249b1d3f8ab49febb9117ec09e06"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4413,
+      "sha256": "59ea4c1678549b94948b75f2db260ccd47ec4ff7f4b8f9aa938d020f864dd64e"
+    },
+    {
+      "path": "app/chatgpt-auth.ts",
+      "bytes": 2490,
+      "sha256": "1407f614cc83d7049fdb08cd713d2516866ba58e24e820f7f4fd9d718b9d3007"
+    },
+    {
+      "path": "app/funding/page.tsx",
+      "bytes": 376,
+      "sha256": "2fc4d8e4330f529f8470452872a98df714410d3dbd8f3704642518bc0bca01bc"
+    },
+    {
+      "path": "app/globals.css",
+      "bytes": 78283,
+      "sha256": "912f9e6c6981812d813a4d1bec4ffd3e643c08bd1bb819d61dc7c4008bf53c10"
+    },
+    {
+      "path": "app/join/page.tsx",
+      "bytes": 388,
+      "sha256": "9d1850ecd98469cd9a3c8d830a07d550adfdb55b8cabfa38707248199a9f45f4"
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 1506,
+      "sha256": "fcad556cc9a88a9cf5847c9a97d77777bb561e81707f388434e0b94221315b50"
+    },
+    {
+      "path": "app/network/page.tsx",
+      "bytes": 385,
+      "sha256": "efd84c1165c7cb9de8bed918feddcb8070988ed24b8427fa8902da12a04bf8f8"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 115,
+      "sha256": "36d266d3548ef5cb8500c8eb7ad41ae0c971a11e85c286ae8125850f1712d38e"
+    },
+    {
+      "path": "app/places/page.tsx",
+      "bytes": 399,
+      "sha256": "6c8827ba6c8d874fbb1da2a79ca8b65e066203e831d144e3baa5fd6df4ddc344"
+    },
+    {
+      "path": "app/sources/page.tsx",
+      "bytes": 379,
+      "sha256": "abfec9f00cfce0d9578e681caed40c4c7405e2a58c7121a66a1a920edb36218b"
+    },
+    {
+      "path": "build/sites-vite-plugin.ts",
+      "bytes": 1299,
+      "sha256": "abd6bc3a592961e978ab72fceb8ee7647824d9a2321ee5b5777b2a05d69526cc"
+    },
+    {
+      "path": "components/EmergencyDemo.tsx",
+      "bytes": 2455,
+      "sha256": "0cc5f84081f698d5145cab10379737be39f25ce4b100c4da7784b1636f1603b6"
+    },
+    {
+      "path": "components/FundingBubbleGame.tsx",
+      "bytes": 2118,
+      "sha256": "d6d97c383ff13e7a567676f6a0bb3545945d0f4978a2c80bd156636ae2af43f4"
+    },
+    {
+      "path": "components/FundingModel.tsx",
+      "bytes": 4108,
+      "sha256": "766c349a30a9f7be2f1ff86e3978273ecbdc57524929807a9589e2896f7073fa"
+    },
+    {
+      "path": "components/FundingPage.tsx",
+      "bytes": 6127,
+      "sha256": "4cd2ea063502875cb66586924c85588f5f954f92088ce41521d747e573b84b5f"
+    },
+    {
+      "path": "components/HeroSignal.tsx",
+      "bytes": 935,
+      "sha256": "dc6ad7116dfcd69ea884977827217501180b342e801e61ad149e695db2524f36"
+    },
+    {
+      "path": "components/HomePage.tsx",
+      "bytes": 14292,
+      "sha256": "13e77f55e0fa06b677063ecf438650448e55a88f5fcc923410950f9776492bc0"
+    },
+    {
+      "path": "components/JoinPage.tsx",
+      "bytes": 7672,
+      "sha256": "6400d37c0c803b99737b5175e1536d9ba12219c53519b3eb80464c0edf6d8e1a"
+    },
+    {
+      "path": "components/NetworkPage.tsx",
+      "bytes": 11752,
+      "sha256": "a5897a25b3ab8fe8bea641ca697b4d623ae9d511b8523f9230c46619329e2bf6"
+    },
+    {
+      "path": "components/PlacesPage.tsx",
+      "bytes": 15765,
+      "sha256": "cf3088f7f53fb276cb5e0cff7c674506be4fad3f22423b185f2f9d238e0c7c18"
+    },
+    {
+      "path": "components/SiteShell.tsx",
+      "bytes": 5837,
+      "sha256": "5e56f801126c1a193c81bb246a5084e5f0107fe201b9ffe9784527851fdc3808"
+    },
+    {
+      "path": "components/SourcesPage.tsx",
+      "bytes": 7276,
+      "sha256": "5e2f82e94b9ad13fcc8d7775e31e0a685e99470319779521109568f963ac00fb"
+    },
+    {
+      "path": "components/StaticSiteApp.tsx",
+      "bytes": 678,
+      "sha256": "d0af92cdfb787848b23d812ff55c95214ff479e23a6ee4b893c02377461b255d"
+    },
+    {
+      "path": "data/site-content.ts",
+      "bytes": 11503,
+      "sha256": "216f0b297dbc7e29cc1068b47af9457440793a51fa52fbe9b26642e8b2df180e"
+    },
+    {
+      "path": "db/index.ts",
+      "bytes": 436,
+      "sha256": "effa59e46bcbb42dfb7b46911e809a1de0f2c37df1fd935e3dca89023eaf97e4"
+    },
+    {
+      "path": "db/schema.ts",
+      "bytes": 173,
+      "sha256": "48b4f7fafee1f2720b8977ba31bc0cf03dedb7ea8826c4bcbc8dfd74f2d8744f"
+    },
+    {
+      "path": "docs/image-prompts.md",
+      "bytes": 3773,
+      "sha256": "8d5c3be503a66727491fd9fe8fbc499cf52c404b8d8adb08a5c84f17ea47febb"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "bytes": 155,
+      "sha256": "73d0807c58e541dc3eaf175909fb5acc966faed61f74ff659d9d55027bf3e25b"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "bytes": 66,
+      "sha256": "5a5f57f8f48fcf1d065725c0f3dab19e590e96e7e1e5bf8ddff17339a0de8d9a"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 483,
+      "sha256": "275a07c13fc7c83a652efcfa9fb6a207c451a2f5088e6793415ce44281285720"
+    },
+    {
+      "path": "examples/d1/app/api/notes/route.ts",
+      "bytes": 1758,
+      "sha256": "b0b134b9b0b4a9f5947abbd13fd4425b88b59c64f91db1aacb0cecbc16c38f45"
+    },
+    {
+      "path": "examples/d1/db/schema.ts",
+      "bytes": 379,
+      "sha256": "1acd70317bcaf22cb140436fb47754c2144e7c2adfc59a3f427ecb1d816fa0f3"
+    },
+    {
+      "path": "lib/site-paths.ts",
+      "bytes": 339,
+      "sha256": "122b579a8d62cfbd451d848c001002ee1413e1e951caab3fb41b17287100b4d7"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 140,
+      "sha256": "a972c4f0ffa6dd714e7909b02d1ac19d2f2fe3d01f191efd2c5054bd6f142ec1"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 391437,
+      "sha256": "005d1881e6a451e84edccf33e5d969e035d3d390a10325470876ed90e5aa0d5b"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1255,
+      "sha256": "f8502ba99208c3d0f741a8f2eae9ad83940b3bfe91ba8c3fb670cc499f40cb63"
+    },
+    {
+      "path": "pages-html/funding/index.html",
+      "bytes": 1219,
+      "sha256": "acd5cf7a1ed00b214cfa73352f4b11ff8bf7d78919757ba3327cc23aaa794923"
+    },
+    {
+      "path": "pages-html/index.html",
+      "bytes": 1175,
+      "sha256": "652237dd0af7327f2ba2979aab8ee522bd438f046b34596809c0b7db60f1caa6"
+    },
+    {
+      "path": "pages-html/join/index.html",
+      "bytes": 1201,
+      "sha256": "64579e42f99f40ad631f544ee381cb388e3fbc0b01104a22a771d1055d94f683"
+    },
+    {
+      "path": "pages-html/main.tsx",
+      "bytes": 439,
+      "sha256": "4bdc6302fc744aac9bbe4dd192a7cda7e2f66263cce98fc034be5d2513283cd8"
+    },
+    {
+      "path": "pages-html/network/index.html",
+      "bytes": 1194,
+      "sha256": "e6ffd23005005dbea8a1c779dcda81c6158153c83db14ce1e0e2e7006e4739e0"
+    },
+    {
+      "path": "pages-html/places/index.html",
+      "bytes": 1196,
+      "sha256": "3ba831721b3ab7ad515354cabe04d18ffebfc7248e4a4ae9c48ad51de7e312ee"
+    },
+    {
+      "path": "pages-html/sources/index.html",
+      "bytes": 1214,
+      "sha256": "5a6eabd0f37740a460025186bd1f4838bfac9e5db7eae58b3e7b0a03662e8409"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "bytes": 101,
+      "sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21"
+    },
+    {
+      "path": "public/.nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 406,
+      "sha256": "9e72df95def8d9e831d5a47649672d0f8990acd1d42681439229533cdb949924"
+    },
+    {
+      "path": "public/screen-network-art.png",
+      "bytes": 2017763,
+      "sha256": "fc62973582a0bb0e79188053b9441bcf12e856bec7004b249363ec9a5641c79b"
+    },
+    {
+      "path": "tests/rendered-html.test.mjs",
+      "bytes": 3110,
+      "sha256": "71d8e47513939b2f1c813ce7846b274a20b7e49763bce2df88f8a6ba320d4dad"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 700,
+      "sha256": "fbff01604d6cb54694be707f26e7a0eb21a6ef796b888c6a1dab1839fa7c6ccc"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 1756,
+      "sha256": "5d68239b2f24f42354e8a05cf69b83fd8f3ce34727f2edf2b55283e4f732c77a"
+    },
+    {
+      "path": "vite.pages.config.ts",
+      "bytes": 1082,
+      "sha256": "54ce16b1e9838c79fdc88c51f01774f7ee233b7369cabb977671f052e8b0988a"
+    },
+    {
+      "path": "worker/index.ts",
+      "bytes": 1778,
+      "sha256": "6f8983ab616309202039ad672b1a46a835bede1bb77636dc751613c664f969e5"
+    }
+  ],
+  "files_sha256": "ca3665617cba608cf1ee8b134ce15e1ac043adcab246f9bee8b10ad24af333a1",
+  "file_count": 58,
+  "source_bytes": 2621784,
+  "excluded": []
+}

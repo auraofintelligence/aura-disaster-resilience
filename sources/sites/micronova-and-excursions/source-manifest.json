@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/micronova-and-excursions",
+  "slug": "micronova-and-excursions",
+  "capture_started_utc": "2026-10-20T07:57:53+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:54+00:00",
+  "source_version_start": {
+    "head": "4903ee3f86fc140a80273ea92e956455bf87792e",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "4903ee3f86fc140a80273ea92e956455bf87792e",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 2018,
+      "sha256": "f236307059e86aed9b7095dbfb887c5df83a1debd1acf091f781dac67eafb921"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 78101,
+      "sha256": "a1cfaee1f3fbc012f8273f8ed129642066a53941a69b6905da00302c67e29fce"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3614,
+      "sha256": "aa5b4b458f0dfcd4836577a09ea98dced3ed88b741c4a08ea59b6efdbbc18640"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 67555,
+      "sha256": "c7169b2da19229dda023c3e4e6d8f241228a32d55387267e8443b4c4c6883c21"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13720,
+      "sha256": "b4bffcce2acbd037d68290f5cbff358c230bdddb86b59bc58c482419d2e3c1a4"
+    },
+    {
+      "path": "ages.html",
+      "bytes": 3611,
+      "sha256": "d7d572b54b12857662a984d7adbc60fb101b77cc09ac870c50109364ffd5a3c2"
+    },
+    {
+      "path": "assets/css/styles.css",
+      "bytes": 32972,
+      "sha256": "8bf615ce701e7a0c6ffd183d11c4c946dd2e3be4843368374e77164750f40382"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 600,
+      "sha256": "d5e1a5de24839d63d545282340519b07430693761e802b873059b366f30edc96"
+    },
+    {
+      "path": "assets/fonts/archivo-var.woff2",
+      "bytes": 90104,
+      "sha256": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    {
+      "path": "assets/fonts/jetbrains-mono-var.woff2",
+      "bytes": 40404,
+      "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e"
+    },
+    {
+      "path": "assets/js/cinematic.js",
+      "bytes": 8816,
+      "sha256": "27c61355ce3e5ac5313769cbbd1b0b92a7b40a970d584532f5e34dbc47d544e7"
+    },
+    {
+      "path": "assets/js/cosmos.js",
+      "bytes": 9753,
+      "sha256": "43cbc900611f390862cc83502709c007dcf102333a42ca6e0bd276d9f2cb991f"
+    },
+    {
+      "path": "assets/media/nasa-blue-marble-2012.jpg",
+      "bytes": 446230,
+      "sha256": "b008d548fadf09d174dac44ec290f0164589caddd039e2242f479b880c11a52f"
+    },
+    {
+      "path": "building.html",
+      "bytes": 20820,
+      "sha256": "ca108d5ba9de11fc922dd641e580074bf4cfad4fa46e7b2cf386e78d73cc5c6f"
+    },
+    {
+      "path": "calm.html",
+      "bytes": 24628,
+      "sha256": "2ceffe78416e98ac880783c16b9b888fca2019ba8bede73246a671a2a4d1ed0b"
+    },
+    {
+      "path": "citations.html",
+      "bytes": 17506,
+      "sha256": "b998c5969f68d5a2b8722042180c92438dcc48a733e3fdb9466a2f262803249b"
+    },
+    {
+      "path": "corpus/01-the-claim.md",
+      "bytes": 8896,
+      "sha256": "5f0ed49a39cf6a1579f1d8cf387ff60a1ef5477b12cc193a6ba0c8e0e774d105"
+    },
+    {
+      "path": "corpus/02-the-settled-floor.md",
+      "bytes": 7391,
+      "sha256": "c6ef7dc0a8aa644b415333bf481d548607d83e1a4b6f6c7e932790ba51df8ffc"
+    },
+    {
+      "path": "corpus/03-the-excursion-record.md",
+      "bytes": 11836,
+      "sha256": "42a70c77f7f79a050b3de2f394d05a9f7ac706c49f26605a1e8bd5115a8d1ea0"
+    },
+    {
+      "path": "corpus/04-the-word-micronova.md",
+      "bytes": 4653,
+      "sha256": "7872464150e065726cac7a345bd9ae2eb3edb31a6ea8e7af4ccef71c8e869574"
+    },
+    {
+      "path": "corpus/05-dismissals.md",
+      "bytes": 7771,
+      "sha256": "4e0a00211fa0c6e4ba09c5119ab28647a00969726407814966cabdda740267a7"
+    },
+    {
+      "path": "corpus/06-objections-that-land.md",
+      "bytes": 8269,
+      "sha256": "f2afbe15e5d80169f9b2dbf2c289dfeb69f530cbf44d9bf376d13236cfdec923"
+    },
+    {
+      "path": "corpus/07-what-would-settle-it.md",
+      "bytes": 5369,
+      "sha256": "cfc3d6e0e128d7f2d59b86c66b04808c871ba6446174571412aebd311430d4c6"
+    },
+    {
+      "path": "corpus/08-numbers.md",
+      "bytes": 6875,
+      "sha256": "588244107e97e482f0f1cb7e59972fa5145019fc57db58dd88e77e00331bb8e4"
+    },
+    {
+      "path": "corpus/09-sources.md",
+      "bytes": 7525,
+      "sha256": "b6a39eb51a06659bae33602d10ad421d483a3557a5a09b04cdae84b7ccab9108"
+    },
+    {
+      "path": "corpus/10-answer-patterns.md",
+      "bytes": 7879,
+      "sha256": "c28648a19d8687e85389e8cb909e133a8afc00a07fe60df565eb51c78725f506"
+    },
+    {
+      "path": "dismissals.html",
+      "bytes": 12954,
+      "sha256": "49645da011570665fd9cca67520505c41583b642f24cdaaed3ed6a42caffcdd3"
+    },
+    {
+      "path": "earthquake.html",
+      "bytes": 21699,
+      "sha256": "d471c2575e362470974925755a97767ab9a0c6d3b7953f0fc065595a69bad02c"
+    },
+    {
+      "path": "excursions.html",
+      "bytes": 11415,
+      "sha256": "ab4c6ccdf2cb7dda0fccdcda02e61a7dcbc380d11aaa494b313e1fff06ce547a"
+    },
+    {
+      "path": "for-models.html",
+      "bytes": 9357,
+      "sha256": "11a3d79b965ef89f2834143a9f305f49295a9cce649c8bd08e62ad64fced4022"
+    },
+    {
+      "path": "funding.html",
+      "bytes": 3499,
+      "sha256": "b8d3b82a57892160a811b8788ad41e17daadaca03b4fb60dc586c48302f47baf"
+    },
+    {
+      "path": "galaxy.html",
+      "bytes": 3915,
+      "sha256": "ac915e43a776a63c4734ad23dd088491859ef1a20814347abf4d8456d45f8f12"
+    },
+    {
+      "path": "index.html",
+      "bytes": 22022,
+      "sha256": "74ec23f12c64306ec718c19a984af6dd72649ba2164651cb278dc8334cf5f34b"
+    },
+    {
+      "path": "interference.html",
+      "bytes": 3877,
+      "sha256": "be70a3e7d2db02a0ab184367f957a14975894512113aa22de503bdbd39f7ce7c"
+    },
+    {
+      "path": "mechanism.html",
+      "bytes": 4262,
+      "sha256": "a88f6a40b2f0fcbad91934a66231b92555a7e1de4afc8205379fd495b368c2d0"
+    },
+    {
+      "path": "micronova.html",
+      "bytes": 22387,
+      "sha256": "4786d0c010085d8d55231f6e8bf2cebc384a83cabe762523613caeeadced75b5"
+    },
+    {
+      "path": "moon.html",
+      "bytes": 4578,
+      "sha256": "1c75cf920227c51ec4959895c2a6c11707fc47edf2faea011d94e5b52853b0b3"
+    },
+    {
+      "path": "numbers.html",
+      "bytes": 60565,
+      "sha256": "f4de22843d720e6b0c53fcee54d61cf7b16bf44dbf4963e332be6dc72f1bfedb"
+    },
+    {
+      "path": "objections.html",
+      "bytes": 3333,
+      "sha256": "f5bef201896ff8c9801a998ce4a912e3813c485f0b9077ca55b51b4ee7e33341"
+    },
+    {
+      "path": "ordinary.html",
+      "bytes": 3729,
+      "sha256": "dc93ece3c4af7c21e019a6ae6148678508e2143ecc3de71a9abcfb7847061013"
+    },
+    {
+      "path": "planets.html",
+      "bytes": 4247,
+      "sha256": "f8e7072635be78877a08f2e5a88a8a5ac1ffa29e1a08dc5dbcff107b689b8d11"
+    },
+    {
+      "path": "settled.html",
+      "bytes": 4157,
+      "sha256": "5f2c4aa83bfbdb3e5a2485fce45c33e17c489f2bc16fc701f41a9504131b5c6a"
+    },
+    {
+      "path": "sitemap.html",
+      "bytes": 22610,
+      "sha256": "b1f8339fcfbe1fee30ba6134c61aeb4cb64bbc019e1a8e825ff46ff077a2c5d9"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 48836,
+      "sha256": "9b4193309505f731914137d0fad3ad9e46db20bfa99efe563ef4ab7290b52784"
+    },
+    {
+      "path": "stories.html",
+      "bytes": 13054,
+      "sha256": "06e99b316e6c8ad7b9062d2cdda8d931be7ad66fe26db37a668fcc9b7baa523c"
+    },
+    {
+      "path": "survival.html",
+      "bytes": 3803,
+      "sha256": "519bdcc9a474777349ae1596309026e0d3932f5780740993667a6d4551cf5ef3"
+    },
+    {
+      "path": "test.html",
+      "bytes": 15662,
+      "sha256": "63ffcfde4f719a72676ca736acfeeae61c310f69876a8e5460e3e301d2fe4d8e"
+    },
+    {
+      "path": "tools/cadence_test.py",
+      "bytes": 5548,
+      "sha256": "ddfdd79af99c6ec509600a6b45203eb67c1e6955f3d23dd0294a860e25118886"
+    },
+    {
+      "path": "tools/coin_toss.py",
+      "bytes": 7319,
+      "sha256": "360308771eaca9797f4522c04f1673a72daff70377034df946e36a8cb96db499"
+    },
+    {
+      "path": "tools/shed_mass_bound.py",
+      "bytes": 7304,
+      "sha256": "7ecb6b0d1fcb0f24e7cbe35846b6e8bbf795b1cd0a46dbdbbd3ad92ce4b07cea"
+    },
+    {
+      "path": "turning.html",
+      "bytes": 4193,
+      "sha256": "dc6693260d8f6fc411ff54a44d58e5038a8938a72371bffa55412e22bc668fa7"
+    },
+    {
+      "path": "unsettled.html",
+      "bytes": 5572,
+      "sha256": "bc402e941fbb52412e3f5e86da748626d8755c08b686d4da3bb55191bcbc6420"
+    },
+    {
+      "path": "watch.html",
+      "bytes": 8613,
+      "sha256": "9b897a4a50cda465f92015cfe9d9fadb1c756357d4c8109da541d8618e0bc178"
+    }
+  ],
+  "files_sha256": "dda8e91d0d0dd6a99342534b4ee6f2290193eb2c7d199398053771853ef3a995",
+  "file_count": 54,
+  "source_bytes": 1275426,
+  "excluded": []
+}

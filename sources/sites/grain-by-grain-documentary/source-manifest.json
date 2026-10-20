@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/grain-by-grain-documentary",
+  "slug": "grain-by-grain-documentary",
+  "capture_started_utc": "2026-10-20T07:57:53+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:53+00:00",
+  "source_version_start": {
+    "head": "192fff98cbb0624a477fa0b5b5d111b5502d8cfd",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "192fff98cbb0624a477fa0b5b5d111b5502d8cfd",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 6,
+      "sha256": "bdde0742f11db516c14b2868f17657ffe90170ce0d7a7e0fac37ded6c5d35ca9"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "404.html",
+      "bytes": 1274,
+      "sha256": "d32b8073306b2bce0417bdd47ccf853d849329dcc4b263baef0493a8940cfcd4"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2219,
+      "sha256": "21068463ba3619bad24b89d23fcffe79b37e11c8eec55c4b8a4bec14dd06f12d"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3032,
+      "sha256": "95a4e0e08d95e4bf49a4f0a1638297569e2be25afb6528f2817305ab463de2ab"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8929,
+      "sha256": "c484bafeec4ef4893c364278d64912a4a0fbfb625ed6be61b521210d3768ecbc"
+    },
+    {
+      "path": "assets/css/site.css",
+      "bytes": 20698,
+      "sha256": "d14dec063fd3c7eecba64caf064ea57bdfb9cf0731ba10d16bd60b6fe9fb21dc"
+    },
+    {
+      "path": "assets/img/apple-touch-icon.png",
+      "bytes": 60858,
+      "sha256": "68d5bb1292f6119ad4ebe1d13280a2ea6ab2d27b93d96f080485f2ec406e350a"
+    },
+    {
+      "path": "assets/img/favicon-192.png",
+      "bytes": 68738,
+      "sha256": "1b66303aedf88ca5bec684ca90f8a325849906574753d473c38f2544f7ee2b4b"
+    },
+    {
+      "path": "assets/img/favicon-32.png",
+      "bytes": 2176,
+      "sha256": "bc46b3a106a26f1b4007f60d617a09a7bcf19cfb6b83462821f0fee753589c4e"
+    },
+    {
+      "path": "assets/img/favicon-512.png",
+      "bytes": 404229,
+      "sha256": "f05d3751e7d8ecaadd168c80d8981deb285581d7c3f006d1c351fba75f86da39"
+    },
+    {
+      "path": "assets/img/favicon.ico",
+      "bytes": 169423,
+      "sha256": "a646bc78a00b1aabb71ab9184cddc043e9fb2ceb9f91a76a89ac0b5082d5431c"
+    },
+    {
+      "path": "assets/img/hero-boundaries.webp",
+      "bytes": 92222,
+      "sha256": "6466f952f962286a0822f7e2e99da3b4fb018e20bde5fe4de8fadac11e42b8db"
+    },
+    {
+      "path": "assets/img/hero-field-map.webp",
+      "bytes": 132470,
+      "sha256": "bfe50558ebe6e7e451003fec6eb6585e128d92ba1b3d5fcd2c698b40a6d1597f"
+    },
+    {
+      "path": "assets/img/hero-home.webp",
+      "bytes": 170960,
+      "sha256": "4bcf89fc8a247da0144d704899b410effff55b36f4993ee5e0d1fcafb05af9dc"
+    },
+    {
+      "path": "assets/img/hero-mission.webp",
+      "bytes": 444244,
+      "sha256": "4c48dd3038c16531f2d2ba0e2f159d13edb7752eb81feee34454ed7799770f32"
+    },
+    {
+      "path": "assets/img/hero-playbook.webp",
+      "bytes": 236172,
+      "sha256": "441f7defc0f2740b89c34eeabcce62ee75a97f5e57a2c996af56dd372c7d6d4f"
+    },
+    {
+      "path": "assets/img/hero-production.webp",
+      "bytes": 144652,
+      "sha256": "92ec835276745ba0c1806cbf6fdbb7511f150f82665646a16a7b0bf36d06847e"
+    },
+    {
+      "path": "assets/img/hero-runtime.webp",
+      "bytes": 175532,
+      "sha256": "5fcf58973cfde8c65f0a1153573173dcdb977f9a5d63104417fc8b0cf6e405a0"
+    },
+    {
+      "path": "assets/img/og-card.png",
+      "bytes": 2625175,
+      "sha256": "e723d66289ae184d0fcfcc395ede426bdf5df1c7d86325ab953f9a65133cbb0e"
+    },
+    {
+      "path": "assets/js/field-map.js",
+      "bytes": 19908,
+      "sha256": "7105c41a6680228d089ef63f8f99146ef1f696f0ba820c3836814a39582db97e"
+    },
+    {
+      "path": "assets/js/site.js",
+      "bytes": 2434,
+      "sha256": "bac7559c7c4a979bdea8c9d99633fe962d4b9dc68867caa5a9bd4fba3c1b6f4d"
+    },
+    {
+      "path": "boundaries.html",
+      "bytes": 10589,
+      "sha256": "9bdc22a6b94179ea0ee4e1f10bdff97c7254d8157816afd2ae5786cb4afe95e9"
+    },
+    {
+      "path": "docs/90-minute-treatment.md",
+      "bytes": 10026,
+      "sha256": "8a96feaab0b59469da78b77e1e906fc65674ce7bad1c7e001e24ada3c65bd6e9"
+    },
+    {
+      "path": "docs/evidence-register.md",
+      "bytes": 4928,
+      "sha256": "4909716869d604e0cb0072021eee8dc9070f04312c9176d8e718d02efc6ca9d2"
+    },
+    {
+      "path": "docs/repo-source-map.md",
+      "bytes": 5317,
+      "sha256": "36ac1fb393cef04876b0ac33d2034b84470f1ab4497aa676b44f24d22271db1b"
+    },
+    {
+      "path": "field-map.html",
+      "bytes": 5275,
+      "sha256": "cb4021a9480493d02e1ccbd868c365c6246e1731f58ea9eb31adbe7f58fc5d27"
+    },
+    {
+      "path": "index.html",
+      "bytes": 15017,
+      "sha256": "9f1ae25e38519f1b7ea13b4ca13cd58fefb059befab0015c21c898c90b2e5505"
+    },
+    {
+      "path": "mission.html",
+      "bytes": 21180,
+      "sha256": "7ab3e7e13c6da3d04ef2e1902a7e7edd508a86272092744f1b393858e55e9be7"
+    },
+    {
+      "path": "playbook.html",
+      "bytes": 11012,
+      "sha256": "cc58c3ed0b278f89c1c42fcfc5c77608dfb6c462e75a231f006f73bae1e637ca"
+    },
+    {
+      "path": "production.html",
+      "bytes": 11164,
+      "sha256": "ef2c2d85c168fc6a027c28909aacc26e7bf551471116483c6d0330ab1a6e6de1"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 113,
+      "sha256": "f64b83e1b6b588693f98033789e694bb9ea7afc923503d30645d986edc2e7524"
+    },
+    {
+      "path": "runtime.html",
+      "bytes": 13574,
+      "sha256": "d4b6168ef4e2f15166d77f5b36b9e9750563c07d3dca075185e72ba6ba37cc8a"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 824,
+      "sha256": "199b373fe1d648d6f5899ac26befc5fee46dbe7bff0a0b4f7c958913be74264b"
+    }
+  ],
+  "files_sha256": "5b38a4c5a913f6c3a4d0b11562c06c52573e8058b307b4a902e2f927079bd41b",
+  "file_count": 34,
+  "source_bytes": 4894372,
+  "excluded": []
+}

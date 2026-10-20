@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/gajra-earth-public-hub",
+  "slug": "gajra-earth-public-hub",
+  "capture_started_utc": "2026-10-20T07:57:51+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:51+00:00",
+  "source_version_start": {
+    "head": "1b017c1db9540fda3bd93543d2e958b19e81dcf2",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "1b017c1db9540fda3bd93543d2e958b19e81dcf2",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 60,
+      "sha256": "dc4041e6b8d951e8c3f5dc66efa39b785681f0c4110f884f90d0649c80a5e2c0"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 3608,
+      "sha256": "91a37e2b73aaf0b91f7287832ef0026146cbe81c59ac0e7cc1e680de085a15f4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3641,
+      "sha256": "eda4903b3d4b4564d6497f31c9ed39643ea122b5a6fc3699487e2b1b8b376de3"
+    },
+    {
+      "path": "actions.html",
+      "bytes": 5827,
+      "sha256": "800fc52b5d366f65651254ae1f6d7381a4ae4e0d6bda47ab2dc3193191a31ceb"
+    },
+    {
+      "path": "assets/app.js",
+      "bytes": 5258,
+      "sha256": "90bb7fd4c2b408cbc6f3cfa3787abb9f13a6c39966955301b47a3ff7712e414d"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 30681,
+      "sha256": "8c1a5d5c02a9f354de4ebc62c131c5b88febf5ead3652aa7885038d16531ebc2"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 34283,
+      "sha256": "66e5893455b5eed307fd5ff49b1aa82a5fee51a9b54673d18ab0a077cafbed47"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 1677,
+      "sha256": "7115aa76dd386490f72d491d27f8525f9c501c5cc0c38c12fb77ef3df11204b9"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 184309,
+      "sha256": "3f8008be30a313deb11ba4adc339f252467fd1d456929c8a5e8f467bb50f25fd"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 77536,
+      "sha256": "7e00958d63dd33141c178f2a7e4933c43dfc211cb7f153800180761fff3d8f85"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1695,
+      "sha256": "4509662bdf9cc588dae7c94556950a239e40df3b52e5dc722418adf125118d81"
+    },
+    {
+      "path": "assets/images/gajra-earth-hero.webp",
+      "bytes": 405914,
+      "sha256": "6caf34ea8a68421782c00c77d7a49be9659ebd0f782cf532cd5e6ab0481fe687"
+    },
+    {
+      "path": "assets/images/hero-actions.webp",
+      "bytes": 121220,
+      "sha256": "ba941c49c690c45c92b2351db58509521b39b60761f2f32d820077a217f583cb"
+    },
+    {
+      "path": "assets/images/hero-boundaries.webp",
+      "bytes": 94616,
+      "sha256": "5f7e1bee5ab327774e5427817a882b1a4abae1e814b142139b81ab85b4e1343a"
+    },
+    {
+      "path": "assets/images/hero-contribute.webp",
+      "bytes": 122960,
+      "sha256": "b60e038f2d87b123280ea92c3fe6610dcc0879e68b6cde3b472c0aa45d053ebc"
+    },
+    {
+      "path": "assets/images/hero-ecosystem.webp",
+      "bytes": 164226,
+      "sha256": "c30c5cb4a4f2095c4107f6c9b6422b388c33d8efb43c27bbfda9f9462be81ab0"
+    },
+    {
+      "path": "assets/images/hero-events.webp",
+      "bytes": 253770,
+      "sha256": "2da6a32a00060efe520d207406c354dda8fe2ed43e35680a4f21e9fe0201fec8"
+    },
+    {
+      "path": "assets/images/hero-ledger.webp",
+      "bytes": 87298,
+      "sha256": "6bd9fc961162beb410128214a9ec817c42ea7e27b1d58b295b183222ca228ed4"
+    },
+    {
+      "path": "assets/images/hero-research.webp",
+      "bytes": 115112,
+      "sha256": "daa612b6c5c05fe24453b9bdf1ab40f1e4f6d69717ac06d1cb62f77bf51375de"
+    },
+    {
+      "path": "assets/images/hero-sources.webp",
+      "bytes": 109814,
+      "sha256": "f9c09695fc6abcfdd1d0a1400fba131b9a0d1e85c3648ebad7a8bd4ea35c13fc"
+    },
+    {
+      "path": "assets/images/hero-travel.webp",
+      "bytes": 122140,
+      "sha256": "27c95de55b5c9559796785460520a3a5105c037f74eb66605f8f82d3bc0291c0"
+    },
+    {
+      "path": "assets/styles.css",
+      "bytes": 18343,
+      "sha256": "4226d7a8c958813e3ec0438a2b269233d9f6f3544c06db3730cf896836788574"
+    },
+    {
+      "path": "boundaries.html",
+      "bytes": 5469,
+      "sha256": "ecb249a553e96ae6582dead08cc3ed4c612ca30eb8c25c94cc9ea1ccdfeaa5fd"
+    },
+    {
+      "path": "contribute.html",
+      "bytes": 6034,
+      "sha256": "8b47978f265ba636fe9b1522e00c8e09603e2e2315179cf06098ff8f3267dc60"
+    },
+    {
+      "path": "docs/deep-research-inbox.md",
+      "bytes": 1069,
+      "sha256": "7799b523ab9c334568504a9a92d53af38a1d64b566b0d4b78e30b72edefe06cc"
+    },
+    {
+      "path": "docs/research-source-board.md",
+      "bytes": 3619,
+      "sha256": "f6b2e9853c185840bc2759158e54eb6ada29dd2769e59626ec722bff2f27e6e8"
+    },
+    {
+      "path": "docs/source-context.md",
+      "bytes": 1124,
+      "sha256": "b42046ba01077262a46aaa933864809561bca3f6ec0147d5e79f41340bf54493"
+    },
+    {
+      "path": "ecosystem.html",
+      "bytes": 20755,
+      "sha256": "0b7e2d0a63d01ec1bfb996a7835569f7d5d051af170a065a24a977b38ea553a9"
+    },
+    {
+      "path": "events.html",
+      "bytes": 5960,
+      "sha256": "1c3c6860e6cad7cab690f01e024dac2be4077778dde034a4a39f7a2c0573059a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7809,
+      "sha256": "3439b5662b77cb36ccbadf2698a7b248c142ca2be6ee2419339ba6a31f478ef4"
+    },
+    {
+      "path": "ledger.html",
+      "bytes": 5665,
+      "sha256": "567e2eb312913e36349b5711cba640c47ec373cbc5e99c338d70142c25aa36a8"
+    },
+    {
+      "path": "research.html",
+      "bytes": 9876,
+      "sha256": "1928ee33ae60d3653192ffd87adb8e8c56deb84d80900f764adca97702a86e6a"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 6138,
+      "sha256": "846c1b48acf5ec6b8281a144b87e948c6df572e95c180e38c8deb29b05bb5a87"
+    },
+    {
+      "path": "travel.html",
+      "bytes": 5491,
+      "sha256": "d3fec0e26fb818f8f565ed7ed980173181c3257a584ff91e81f0268e340d556c"
+    }
+  ],
+  "files_sha256": "2d80ed49585cb602e78527ac237f5c8637a7f1b42a4443a9e253cd9ef6fb47b0",
+  "file_count": 34,
+  "source_bytes": 2042997,
+  "excluded": []
+}

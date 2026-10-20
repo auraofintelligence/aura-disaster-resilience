@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops",
+  "slug": "Oceania-healthy-de-slop-co-ops",
+  "capture_started_utc": "2026-10-20T07:56:52+00:00",
+  "capture_completed_utc": "2026-10-20T07:56:59+00:00",
+  "source_version_start": {
+    "head": "d2717429db6128c69c1992fd0cf1cba7dc801879",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "d2717429db6128c69c1992fd0cf1cba7dc801879",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 41,
+      "sha256": "d461ee72ddf1f3e3aca6787e167add5c1e13d48d5a4f174701fe317e9462bf93"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 4287,
+      "sha256": "f4e916b18b9323b09a5ad8ba02dccbbd9915fb44c093983573d22d254e65fb12"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9194,
+      "sha256": "e439e8ab640407b3947d226514971e3890b1c01533411d3ed8d6517ddf36a720"
+    },
+    {
+      "path": "a-protopian-gambit/index.html",
+      "bytes": 13604,
+      "sha256": "7e43d53226dbb156aa5b4f6df00eb445031dd5dfd61fee40457877a5d51992e0"
+    },
+    {
+      "path": "about/index.html",
+      "bytes": 15310,
+      "sha256": "79de4e81a481cf1f3ed5eb60fb3e7803566182552e9cfffb49d6b9e782429ee5"
+    },
+    {
+      "path": "assets/css/base.css",
+      "bytes": 3222,
+      "sha256": "84ae1739fc7d8b8373c649ba3f0d0abd8bba310373feb445e483edbddeea665c"
+    },
+    {
+      "path": "assets/css/components.css",
+      "bytes": 15170,
+      "sha256": "27c939eb3f716cec808b9dd3dabd511e276286e7f3eb8a141605bd98a79f62ed"
+    },
+    {
+      "path": "assets/css/layout.css",
+      "bytes": 14329,
+      "sha256": "f6dd7f74488e4736175f12353504b11bf1fad350aeb1c477bd111ed592ce6a2f"
+    },
+    {
+      "path": "assets/css/motion.css",
+      "bytes": 2755,
+      "sha256": "58577e84cbd440c9993a6fdf4ead205c869d4eadcbcd0b793e27450ed8308418"
+    },
+    {
+      "path": "assets/css/pages.css",
+      "bytes": 112934,
+      "sha256": "c016b3949f61eb7548bb235082d583992ab72acc5f309fe2ef9c5dc76d979c26"
+    },
+    {
+      "path": "assets/css/tokens.css",
+      "bytes": 1642,
+      "sha256": "8ec6beeeb9c354fd329009593b799581d89bb804c96a17a8e96e3cc191cd42a3"
+    },
+    {
+      "path": "assets/icons/apple-touch-icon.png",
+      "bytes": 50691,
+      "sha256": "b1c5afe8f3783865f5d90b28bc81196fa2f18b6edd78a21758f85d7725e7bf09"
+    },
+    {
+      "path": "assets/icons/favicon-16x16.png",
+      "bytes": 1038,
+      "sha256": "6bcfbd3cf0e9079b3126e7154c25e448a7e4e62c63119d4f58f7e8ffd1436ce6"
+    },
+    {
+      "path": "assets/icons/favicon-192.png",
+      "bytes": 69904,
+      "sha256": "5d57cb594192073a0ddf87e2aee45f2dcc9f1edb2733f2db63884aef63672aba"
+    },
+    {
+      "path": "assets/icons/favicon-32x32.png",
+      "bytes": 3164,
+      "sha256": "2cdd45252aebd4b3031f17c4399d26ac5a3097a6a4e74829b9a91d69ba12f5af"
+    },
+    {
+      "path": "assets/icons/favicon.ico",
+      "bytes": 10185,
+      "sha256": "9a8251634d0ac6331ba80c155e9f7af19a6eb6454812ec567186402d00f0de36"
+    },
+    {
+      "path": "assets/icons/source/favicon-connected-gems-original.png",
+      "bytes": 1954976,
+      "sha256": "7955d562bab590ca2494a15715b5b78afd16b6aedf45ac754e3aa58f4d6c150c"
+    },
+    {
+      "path": "assets/images/geode-local-twin.webp",
+      "bytes": 136926,
+      "sha256": "e38444946680d87c08a8d6441e1c99d8f4c7f5d4e25a88dec27516a13bf4a1af"
+    },
+    {
+      "path": "assets/images/geode-plasma-wound-research.webp",
+      "bytes": 166246,
+      "sha256": "fe0df1864dddde585fb38b32089627d32e181df049adec07003bed551fdeec95"
+    },
+    {
+      "path": "assets/images/geode-prototype-mineral-session.webp",
+      "bytes": 223554,
+      "sha256": "449437679e0698b09c856dcc6dfe91fa22144627cec82676b4d6e7c9e0f1e128"
+    },
+    {
+      "path": "assets/images/geode-prototype-modular-exit.webp",
+      "bytes": 221762,
+      "sha256": "85378f99e5f6e0256bbf03b3414d63ebe56f79dd17b60cb417cb42140391210e"
+    },
+    {
+      "path": "assets/images/geode-prototype-steel-entry.webp",
+      "bytes": 259024,
+      "sha256": "3bf0bfee129b33d8f769d48e4f8053cde75aa9c260540007d11d8c37a627f6a2"
+    },
+    {
+      "path": "assets/images/geode-telomere-research.webp",
+      "bytes": 234608,
+      "sha256": "47947a4d47de339aea3f8a65197ad3bbc9b2dca4068d994cc008fa5fc43c9a32"
+    },
+    {
+      "path": "assets/images/hero-a-protopian-gambit.webp",
+      "bytes": 252704,
+      "sha256": "88d3e833d778245b413d2f9f997a0d5d8a18fb19cc31ee6fa69728c3966f1476"
+    },
+    {
+      "path": "assets/images/hero-about.webp",
+      "bytes": 147020,
+      "sha256": "8611b35daddd01db3a22db849e928367af44fbbf03b0265f4a5dbcfa12d8d8ef"
+    },
+    {
+      "path": "assets/images/hero-aura-geode.webp",
+      "bytes": 176284,
+      "sha256": "f797e783d615ce716126fe4f2e5b4fe745a7d7bd6534ae9d8d3403e0e1e8d1ee"
+    },
+    {
+      "path": "assets/images/hero-co-operative-paths-v2.webp",
+      "bytes": 241490,
+      "sha256": "e01699c941fbf7a6ecf9d9d2c31d375e0b3574f7d1c1a59f21147d6f517e6131"
+    },
+    {
+      "path": "assets/images/hero-co-operative-paths.webp",
+      "bytes": 262326,
+      "sha256": "b9c74eebf5fe6231a1538019f4fc9a14b9cb497492b37b98fd2d210156f71ee2"
+    },
+    {
+      "path": "assets/images/hero-evidence.webp",
+      "bytes": 197956,
+      "sha256": "b0424c8f8041f8c07b90f6bc57a78f370785ebf5a05a8e609528de62aef20da4"
+    },
+    {
+      "path": "assets/images/hero-home-v2.webp",
+      "bytes": 302892,
+      "sha256": "5ed89b77f6e5d9c2f1ac6ca2018dcbe2daa0812f07059868e69968518413fb41"
+    },
+    {
+      "path": "assets/images/hero-home.webp",
+      "bytes": 174312,
+      "sha256": "58157a1fcb19eaac7e29e6f49f8361613eac64a1e10e80317fb2756cf11de69b"
+    },
+    {
+      "path": "assets/images/hero-oceania.webp",
+      "bytes": 216930,
+      "sha256": "e00d2af29ad6aa835e259904bcca439401b5394ca029cc9fe0caf131ec227e9b"
+    },
+    {
+      "path": "assets/images/hero-public-value.webp",
+      "bytes": 365360,
+      "sha256": "762ee404be19b082c9709bb3ce7adab56d3898fd5efbc0d318f2a26bc4d5bb26"
+    },
+    {
+      "path": "assets/images/hero-shared-wellbeing.webp",
+      "bytes": 167690,
+      "sha256": "eff4a37f8a9d910c574ab5acd32dc2e028b3d21a572794e76d913da9450575d9"
+    },
+    {
+      "path": "assets/images/hero-site-map.webp",
+      "bytes": 140932,
+      "sha256": "0d3e2cc0b9ef320198b4d65b19f7c6b091101093afd2600e9a69170bcc89e44a"
+    },
+    {
+      "path": "assets/images/hero-your-digital-self.webp",
+      "bytes": 201438,
+      "sha256": "0fe67fb07b8b9bbb946160a9094eaa236648490fcc23e424be7a14fe9e12a460"
+    },
+    {
+      "path": "assets/images/source/geode-local-twin-original.png",
+      "bytes": 2065973,
+      "sha256": "fe8abab85e38f4c2d17328fad95ff625cfda27850dda587229e36a6375414f49"
+    },
+    {
+      "path": "assets/images/source/geode-plasma-wound-research-original.png",
+      "bytes": 2212189,
+      "sha256": "e42696e2ecd37d4408c2af78f630179fc9b4b2a834881aed8af5b5a7bb44c5ed"
+    },
+    {
+      "path": "assets/images/source/geode-prototype-mineral-session-original.png",
+      "bytes": 2470447,
+      "sha256": "a34bef45e195ee1d67dfde06d6b3d1fafaf4a2acbcf0056b50a8e286d82aa84a"
+    },
+    {
+      "path": "assets/images/source/geode-prototype-modular-exit-original.png",
+      "bytes": 2361390,
+      "sha256": "84df856f2421281ddae133bc4e5eb0c0dbe1eddcb515e56e38d1380f806f3913"
+    },
+    {
+      "path": "assets/images/source/geode-prototype-steel-entry-original.png",
+      "bytes": 2606818,
+      "sha256": "567436490443ed84a7e2f8deb3a29f7e7d045c3e484fe26ade048b5775edfdc3"
+    },
+    {
+      "path": "assets/images/source/geode-telomere-research-original.png",
+      "bytes": 2508511,
+      "sha256": "04fc2d017bd7e83dd4b4d1cc21aa768272a273f4bfd42988def9afa7a21c3be8"
+    },
+    {
+      "path": "assets/images/source/hero-a-protopian-gambit-original.png",
+      "bytes": 2451616,
+      "sha256": "ddae514d63834a73454146493533806382c9858c8f66a50ca9e2e283353a681f"
+    },
+    {
+      "path": "assets/images/source/hero-about-original.png",
+      "bytes": 2027880,
+      "sha256": "2d69c3f58bd51d8a872666868438935869be909ec080ae46b02c4767683611a8"
+    },
+    {
+      "path": "assets/images/source/hero-aura-geode-original.png",
+      "bytes": 2273141,
+      "sha256": "33165cf9def564c828b0a0e419360d47ba9aedfe285be213ca74325da920d101"
+    },
+    {
+      "path": "assets/images/source/hero-co-operative-paths-original.png",
+      "bytes": 2567990,
+      "sha256": "19bb393f2bd1d6786310d981aa3d0f0a80433f9defcd95f40b94863a845522a9"
+    },
+    {
+      "path": "assets/images/source/hero-co-operative-paths-v2-original.png",
+      "bytes": 2258735,
+      "sha256": "9008642a4be72f46667baa2b5509954b34aa39ea6bfcd231e350af3afcd20d19"
+    },
+    {
+      "path": "assets/images/source/hero-evidence-original.png",
+      "bytes": 2331803,
+      "sha256": "21a00f787c88224247f1a3076ee622a50c6801244c6164e1048e35272f4d1e31"
+    },
+    {
+      "path": "assets/images/source/hero-home-original.png",
+      "bytes": 2200333,
+      "sha256": "0012ac62a406b6ecc316e2b71064219ca3e33653f374fe29729cb4b09cf83c27"
+    },
+    {
+      "path": "assets/images/source/hero-home-v2-original.png",
+      "bytes": 2591157,
+      "sha256": "58e903cfe86bcea27298111c8b9859d3fe743bf053166bb236ae0c0df05add28"
+    },
+    {
+      "path": "assets/images/source/hero-oceania-original.png",
+      "bytes": 2395070,
+      "sha256": "fea180ed8b086f4f735dba0bf913144219de029b29ab1dd72b09e03c7d90f478"
+    },
+    {
+      "path": "assets/images/source/hero-public-value-original.png",
+      "bytes": 2733975,
+      "sha256": "133a8b76afe5f888bdba710a5dd4f150bd293b9cb357f65f4db623989caca806"
+    },
+    {
+      "path": "assets/images/source/hero-shared-wellbeing-original.png",
+      "bytes": 2094670,
+      "sha256": "fb722639840cf97f52d6b087bdd539a1fc803c73fc3c452528d696fb4da7d3db"
+    },
+    {
+      "path": "assets/images/source/hero-site-map-original.png",
+      "bytes": 1946155,
+      "sha256": "71ff244c86d2b35156150f9c593a0aa85c75cdd340f369bd3c91226f025687f7"
+    },
+    {
+      "path": "assets/images/source/hero-your-digital-self-original.png",
+      "bytes": 2284035,
+      "sha256": "d7ca3b904fd42a804457aad96be6df447bb04e3ff721b11e73c7b1f4d7a7a6c9"
+    },
+    {
+      "path": "assets/images/source/sovereign-modern-wellbeing-original.png",
+      "bytes": 2340062,
+      "sha256": "8ee0c30569ebae0118f8686ced5c16e5ab09d0f8e823af38945b97dcf7f97d53"
+    },
+    {
+      "path": "assets/images/source/track-60-days-original.png",
+      "bytes": 2165012,
+      "sha256": "69c2abfba4e9074a97c58c792b0dc5aeb1d11ccdce9ed5a498c1f6385a83fb67"
+    },
+    {
+      "path": "assets/images/source/track-kintsugi-protocol-original.png",
+      "bytes": 2294283,
+      "sha256": "d3b397365b5bfb653e56fa9041cdc313e02cb5e3d3d05045b9631c4bc9b16867"
+    },
+    {
+      "path": "assets/images/source/track-primordial-consent-original.png",
+      "bytes": 2218558,
+      "sha256": "c747049c5035db885c42381297c1ca014b4f16fb2df2affe8407585ce33c352e"
+    },
+    {
+      "path": "assets/images/source/wellbeing-clinical-concept-original.png",
+      "bytes": 2133455,
+      "sha256": "70e57790ae52a298d0b279120b747c417336a3840a503ab26eededfe423fc451"
+    },
+    {
+      "path": "assets/images/source/wellbeing-sauna-concept-original.png",
+      "bytes": 2235350,
+      "sha256": "c4910939c536b6b0f611e8bc38a3bfd5bfd451417ca1321b20a21b310dfd7842"
+    },
+    {
+      "path": "assets/images/sovereign-modern-wellbeing.webp",
+      "bytes": 268000,
+      "sha256": "0d8e384585ee4c5b33395a2676a403369d8f83d4b514895ecb761b03ce37e254"
+    },
+    {
+      "path": "assets/images/track-60-days.webp",
+      "bytes": 223666,
+      "sha256": "6eb8395f8763685d69ed05be6215bd53d66db87cd38298bc883b51a462dbf91c"
+    },
+    {
+      "path": "assets/images/track-kintsugi-protocol.webp",
+      "bytes": 216030,
+      "sha256": "1b9400c1f73f0f0e3f46d6a71307d6d61da8fb62281b007380c2b94968e151b1"
+    },
+    {
+      "path": "assets/images/track-primordial-consent.webp",
+      "bytes": 217480,
+      "sha256": "2ff87d6f2575b3761e8ceb3ab2c3e0a69a7122ff83ffd2643446b52eaac6354e"
+    },
+    {
+      "path": "assets/images/wellbeing-clinical-concept.webp",
+      "bytes": 213454,
+      "sha256": "cd9530c5f722046494ac1e04661f812def08d1b64a3f63e366930acbf005a039"
+    },
+    {
+      "path": "assets/images/wellbeing-sauna-concept.webp",
+      "bytes": 235194,
+      "sha256": "9bc5d35182f83525c2c6e853c8f37d3bb73a271050035c71592c649f84922050"
+    },
+    {
+      "path": "assets/js/site.js",
+      "bytes": 12234,
+      "sha256": "f863dbab67ed2df600af980ecf482462256e40aba5d97194616bb5c3f56f057a"
+    },
+    {
+      "path": "aura-geode/index.html",
+      "bytes": 30139,
+      "sha256": "2545e5e8acfd16e5581eb4e704520b34974046157def5fa29df2ba30d547988b"
+    },
+    {
+      "path": "co-operative-paths/index.html",
+      "bytes": 13562,
+      "sha256": "b84b42419a53b3e6d3790823cb698eebb94ae1894a7e65d7cc4e510d0ef1a270"
+    },
+    {
+      "path": "docs/author-clarifications.md",
+      "bytes": 2839,
+      "sha256": "1dc6717d7f3e265a015816533a1766878542e01f824718c56d350e87040b0f30"
+    },
+    {
+      "path": "docs/image-prompts.md",
+      "bytes": 41005,
+      "sha256": "9869f7ce075bba2d2da1cefa2b077c67040e1da62a9154a58745ddd6baabd886"
+    },
+    {
+      "path": "docs/research-deep-dive.md",
+      "bytes": 8483,
+      "sha256": "b0fb002e6c58695b6f8792347fd894b052dcf87fed5aac2ffe427e5ca0750c4b"
+    },
+    {
+      "path": "docs/seated-chamber-supplier-reference.md",
+      "bytes": 3181,
+      "sha256": "ac1e4d6265bdea3fa22a72f30c595c3b58bfe541eaab70fb2d747c29e67b4198"
+    },
+    {
+      "path": "docs/source-audit.md",
+      "bytes": 13299,
+      "sha256": "c9c0935bfec03d60f88b34adc1d11c4788521691dfd28406c92be0241d66c738"
+    },
+    {
+      "path": "docs/source-register.md",
+      "bytes": 3983,
+      "sha256": "03361dfe2ee05ed78fb595b75a68b3383318f795fb05451a91e3f013da49ccb3"
+    },
+    {
+      "path": "evidence/index.html",
+      "bytes": 17230,
+      "sha256": "c5cf5924014db284c99c1cb6341ff11286cdc010520863e87e078e0d373e86b2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 19213,
+      "sha256": "8f8302d8791b6bf0a95d400a01c7a0baaa4d0a56489318096661a906e788b4f1"
+    },
+    {
+      "path": "oceania/index.html",
+      "bytes": 13286,
+      "sha256": "657b1bcceeb0595f13c9a715ef67772b3c5cbc9eaf25a44c968c228584a7c86f"
+    },
+    {
+      "path": "package.json",
+      "bytes": 200,
+      "sha256": "629df3cb629adc21a99ba11faf8ad0a3cb6e040ca0fdb5415cd266006048e6e5"
+    },
+    {
+      "path": "public-value/index.html",
+      "bytes": 16116,
+      "sha256": "089bd55c6af8828d1245a14ad81130ffd7f98b0787f836543bda995e5621b0b7"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 115,
+      "sha256": "3334008fb0147d0027c80b501614b46e5ce9b07f67d3b6fe09f8f69415640259"
+    },
+    {
+      "path": "shared-wellbeing/index.html",
+      "bytes": 17848,
+      "sha256": "1bbc19526f7b6f6a5d86b6e33e22de7c3ad1e571910e06d0ece771b6bb84fe11"
+    },
+    {
+      "path": "site-map/index.html",
+      "bytes": 16977,
+      "sha256": "f0bc044767fb0cc05f852bc89aed38fcf7bca6be63db58364dc4309098141cfa"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 1276,
+      "sha256": "0529650a35075a18587c1e17a6c61e3941624ee9b2fc895679b2e339b466e829"
+    },
+    {
+      "path": "tools/build-site.mjs",
+      "bytes": 123086,
+      "sha256": "c9de4b52784675bb1541edc4c3c6326b0dae194afcc00240b86aac54e17b0ed1"
+    },
+    {
+      "path": "tools/check-site.mjs",
+      "bytes": 15055,
+      "sha256": "27d073b289d46e416e0eb839868d941c3be907cf49363420a766720c468daf87"
+    },
+    {
+      "path": "your-digital-self/index.html",
+      "bytes": 17455,
+      "sha256": "362b13483f867e6c1aaf2d178d1dc75a81adaa9a7a7cdc649013ca62962c0b66"
+    }
+  ],
+  "files_sha256": "db090fb684bc277b66a59f0b83803dd1602317c2ce150e3dec218cebbb4df50d",
+  "file_count": 89,
+  "source_bytes": 65900916,
+  "excluded": []
+}
