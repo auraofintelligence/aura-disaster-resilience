@@ -6,7 +6,7 @@
 
 **Guardian IMS is incident-management software made by QIT Plus.** The vendor describes it as helping organisations organise information and work during incidents and everyday operations. Think of the working desk behind a public notice: people record what happened, locate it on a map, assign work, report progress and hand over to the next shift. A public disaster dashboard is a related product with a different audience and access level. [QIT product descriptions](https://www.qitplus.com/products/)
 
-**The working scenario requested by Luke:** if Guardian continues as Council's contracted system and develops well, people with Auras could eventually interact with it through supported connections. This is a promising partnership direction: Guardian continues its agreed operational role, while Aura of Intelligence helps people understand information, communicate a need and learn the next step. Redland's plan documents Guardian use; the public material reviewed here does not establish its current contract term, renewal or an Aura partnership.
+**The working scenario requested by Luke:** if Guardian continues as Council's contracted system and develops well, people with Auras could eventually interact with it through supported connections. This is a promising partnership direction: Guardian continues its agreed operational role, while Aura of Intelligence helps people understand information, communicate a need and learn the next step. Redland's plan documents Guardian use; the public material reviewed here does not establish its current contract term or renewal.
 
 ## The company behind the software
 
@@ -40,7 +40,7 @@ The IMS page advertises an **offline capability in its roads/maintenance descrip
 
 ## Existing integration experience and the partnership opening
 
-QIT publicly lists **Office 365 email**, a **DocuSign API for situation reports**, and connections between dashboards and its Roads Closed App. An API is an agreed way software exchanges information. These examples establish integration experience; they do not publish a general Guardian developer contract. Its [Partners page](https://www.qitplus.com/partners/) also exists, but the reviewed pages did not provide developer-program terms, an open interface specification, test environment or Aura agreement. [QIT integrations](https://www.qitplus.com/integrations/)
+QIT publicly lists **Office 365 email**, a **DocuSign API for situation reports**, and connections between dashboards and its Roads Closed App. An API is an agreed way software exchanges information. These examples establish integration experience; they do not publish a general Guardian developer contract. Its [Partners page](https://www.qitplus.com/partners/) also exists, but the reviewed pages did not provide developer-program terms, an open interface specification or test environment. [QIT integrations](https://www.qitplus.com/integrations/)
 
 The vendor's linked **2025 newsletter** describes configurable packages, ReadSpeaker accessibility support, StoryMaps, training and support during activated disaster coordination. It describes scalable AWS hosting for dashboards. These are useful questions for a discussion, with the purchased configuration, hosting region, recovery promises and support terms to establish for the actual service. [QIT newsletter](https://mailchi.mp/ea8d6c4385d9/the-guardian-newsletter-18004330)
 
