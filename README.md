@@ -6,6 +6,8 @@ We are designing kiosks, information services, power, communications and local s
 
 The work welcomes tradespeople, trade assistants, drivers, artists, nurses, carers, retirees, students, researchers and people who know their community. Bring the ways you observe, make, repair, teach, organise and care. Planning and design are underway; community discussion, prototypes and measured field trials are the next milestones.
 
+[About this project](ABOUT.md) · [About settings and topic slugs](GITHUB-ABOUT.md) · [Strange But True Public Source Licence](LICENCE.md) · [Crawler preferences](robots.txt)
+
 ## Start in the wiki
 
 - [Start here](wiki/Home.md)

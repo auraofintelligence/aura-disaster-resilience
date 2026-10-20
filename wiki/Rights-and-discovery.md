@@ -24,6 +24,8 @@ Keep quotations, adaptations and original material identifiable. A public plan, 
 
 ## Help people find the public work
 
+The [About page](../ABOUT.md) explains the project and its stage. [GitHub About settings and topic slugs](../GITHUB-ABOUT.md) and the [machine-readable metadata](../repository-metadata.json) identify its stable name, place, purpose and related work. They follow the project-identity, build-date and subject-tag pattern used in the Cultural Intelligence Node and Mutual Futures repositories. Discovery and indexing grant no additional reuse or AI-training permission; the existing licence applies.
+
 The project's [robots.txt](https://github.com/auraofintelligence/aura-disaster-resilience/blob/main/robots.txt) follows the established discovery pattern:
 
 - General web and search discovery are welcomed.

@@ -2,6 +2,7 @@
 
 - [Start here](Home.md)
 - [The whole system](Stack-map.md)
+- [About and topic slugs](../ABOUT.md)
 - [First choices](First-review.md)
 - [All-weather design](All-weather-design.md)
 - [Questions](Question-register.md)

@@ -1,0 +1,51 @@
+{
+  "name": "aura-disaster-resilience",
+  "slug": "aura-disaster-resilience",
+  "title": "Aura Disaster Resilience",
+  "description": "Planning kiosks and a disaster resilience network for Minjerribah/Straddie: everyday services, power, communications, learning and Aura of Intelligence. Public source under the Strange But True Public Source Licence.",
+  "homepage": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki",
+  "repository_url": "https://github.com/auraofintelligence/aura-disaster-resilience",
+  "status": "Planning and design",
+  "first_repository_build": "2026-10-20",
+  "metadata_updated_on": "2026-10-21",
+  "language": "en-AU",
+  "alternate_names": ["Minjerribah disaster kiosk network", "Straddie disaster resilience network", "North Stradbroke Island disaster kiosks"],
+  "author": {
+    "name": "Luke Nathan Hayes",
+    "identity": "Strange But True / Aura of Intelligence",
+    "url": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main"
+  },
+  "proposed_operator": "Ready S.E.T. Co-op — Ready Sustainable Employment and Training Cooperative",
+  "licence": {
+    "name": "Strange But True Public Source Licence",
+    "url": "https://github.com/auraofintelligence/aura-disaster-resilience/blob/main/LICENCE.md",
+    "copyright": "Copyright (c) 2026 Luke Nathan Hayes / Strange But True / Aura of Intelligence.",
+    "discovery_notice": "Discovery and indexing grant no additional reuse or AI-training permission. The existing licence applies. Third-party sources retain their rights."
+  },
+  "topics": [
+    "aura-disaster-resilience",
+    "auraofintelligence-aura-disaster-resilience",
+    "built-2026-10-20",
+    "aura-of-intelligence",
+    "minjerribah",
+    "north-stradbroke-island",
+    "queensland",
+    "australia",
+    "disaster-resilience",
+    "community-kiosks",
+    "emergency-communications",
+    "offline-first",
+    "backup-power",
+    "digital-twins",
+    "personal-ai",
+    "just-in-time-learning",
+    "cooperative",
+    "ready-set-co-op",
+    "human-in-the-loop",
+    "github-wiki"
+  ],
+  "pattern_references": [
+    "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
+    "https://github.com/auraofintelligence/mutual-futures"
+  ]
+}
