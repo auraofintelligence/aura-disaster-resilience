@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/australian-legal-engine",
+  "slug": "australian-legal-engine",
+  "capture_started_utc": "2026-10-20T07:57:35+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:35+00:00",
+  "source_version_start": {
+    "head": "fdc04c7d0421094d9b147102d29a7359020ea25e",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "fdc04c7d0421094d9b147102d29a7359020ea25e",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 34,
+      "sha256": "fc9e267479f2a140d4b575cb6a9d2a9ca2d38519e079ea2049f31c03516aa608"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3611,
+      "sha256": "d31b0267cf9f3ce60089d66cea18c98829a780398b95284878c84f08ba7efb2d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11978,
+      "sha256": "c740238d2b4ac5c6e49154cedc40ffbabcc64c1a1c0ea4ef0f26203227430131"
+    },
+    {
+      "path": "docs/DESIGN.md",
+      "bytes": 8364,
+      "sha256": "dad4fc473284a810202da2c2631736dfdbf4b7ab2ed38cb1af2c666e4940c486"
+    },
+    {
+      "path": "docs/PARLIAMENTARY-COUNSEL-LETTER.md",
+      "bytes": 3731,
+      "sha256": "207c54b92435c641c26d682eeab07154cf7dd023fe40dadfc29befabdd1da60d"
+    },
+    {
+      "path": "engine/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "engine/__main__.py",
+      "bytes": 51,
+      "sha256": "482b8693e2fe6dbd732e3d7961e03827d3efa187bad11d29da188be580ebbeea"
+    },
+    {
+      "path": "engine/answer.py",
+      "bytes": 10196,
+      "sha256": "4554535eac5af0f4ee8a9c84a572e8f0c4f3a91b247884074e6544b0d810d8bd"
+    },
+    {
+      "path": "engine/cli.py",
+      "bytes": 12709,
+      "sha256": "5ff4222f10235b0163b90246b0b893a61a3b3f575f6a33951071325fe5d3be3e"
+    },
+    {
+      "path": "engine/extract.py",
+      "bytes": 10420,
+      "sha256": "d4194253aaed3e1dacb3e1fa5fdf012ec0208cc365f8b4cd6f14b155b20a7bcb"
+    },
+    {
+      "path": "engine/index.py",
+      "bytes": 13057,
+      "sha256": "6e3fd74250ac55bd24a3447255ea084ff42fd8df0403047e7e4d6bd72fef95b7"
+    },
+    {
+      "path": "engine/parse.py",
+      "bytes": 17399,
+      "sha256": "b271f9b383f8dae707d54b5a811cd96204a79ab34e1727fd8c4cacfc8c80c832"
+    },
+    {
+      "path": "engine/profiles.py",
+      "bytes": 6702,
+      "sha256": "cb6876d876640d25db61a1914a5bf9e07c7cb696fe9d9513c97efa8f84a7812c"
+    },
+    {
+      "path": "engine/textclean.py",
+      "bytes": 5924,
+      "sha256": "9e517c383c06181c592090a22145833503e909936e4ebe86714c8e112f4b9fa7"
+    },
+    {
+      "path": "engine/threads.py",
+      "bytes": 11605,
+      "sha256": "96df2cb0884e647b4d8c68cd19bee9973364d1867374cab0eeecc0fa59d0f24f"
+    },
+    {
+      "path": "engine/vocab.py",
+      "bytes": 8777,
+      "sha256": "e73d5b37db386b895767ed59397b10fbc4dcce87e6341b0e424825011800697d"
+    },
+    {
+      "path": "examples/2012-cabinet-threads.json",
+      "bytes": 16243,
+      "sha256": "0b62a2901f9714e1be3c0aecf0b0ad8820ce4043f4319856a179179640b675e1"
+    },
+    {
+      "path": "examples/2012-cabinet-threads.md",
+      "bytes": 6213,
+      "sha256": "818cea822d8b384e539ddb9c954b6442984e61a34e9f9fc0465b59a24ab313a1"
+    },
+    {
+      "path": "tests/smoke.py",
+      "bytes": 1639,
+      "sha256": "9cc788b3e975ef0b07e571ad696a2c360e90688e2e03a7fda23716afef6afa68"
+    },
+    {
+      "path": "tests/test_engine.py",
+      "bytes": 17551,
+      "sha256": "8be623c2fd9118a432c8a3e1f95d1a8164f836dcd84596a62286ff638caf29ea"
+    }
+  ],
+  "files_sha256": "af1b58cfbf80903a6df2a76cc53902913a5b57ce83cd308a7616065d0161d573",
+  "file_count": 20,
+  "source_bytes": 166204,
+  "excluded": []
+}

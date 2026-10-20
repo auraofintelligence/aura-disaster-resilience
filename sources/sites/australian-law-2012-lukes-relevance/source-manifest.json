@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
+  "slug": "australian-law-2012-lukes-relevance",
+  "capture_started_utc": "2026-10-20T07:57:23+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:34+00:00",
+  "source_version_start": {
+    "head": "349b97b4cc1eb3e43572177420e4e9c52bd070c0",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "349b97b4cc1eb3e43572177420e4e9c52bd070c0",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": "LICENCE.md",
+      "bytes": 3647,
+      "sha256": "10a8db6c53f95ac91f521b7aabe8add090bc317dabb5748ea5f09b802c1df2ba"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4766,
+      "sha256": "c7b9752c3e6688bc333dd64deb37c2707351662b8e61135ec15fa149c6c8b7cb"
+    },
+    {
+      "path": "assets/corpus-data.js",
+      "bytes": 16785,
+      "sha256": "7690b84e3cd234f52730df12e63add1932f4cb27fa2da38e760d5cce5c7fcd79"
+    },
+    {
+      "path": "assets/countdown.js",
+      "bytes": 1830,
+      "sha256": "1491a81b8fde51b79c9fce5190e32a8f935c06539609f1a715d468705bec99d6"
+    },
+    {
+      "path": "assets/eclipse/path-2028.png",
+      "bytes": 236079,
+      "sha256": "bc600428b16b516f3f1db1bc21b10f9b65ee3708278949d1482c23c8493a8682"
+    },
+    {
+      "path": "assets/eclipse/path-2030.png",
+      "bytes": 308910,
+      "sha256": "4d45d70fd6851b7c1271c18bbe7c1bf44c5548786a25de02d1aa7b925ccec4c1"
+    },
+    {
+      "path": "assets/eclipse/path-2037.png",
+      "bytes": 236530,
+      "sha256": "03120b51f4d179e0b5e57481324304cef1ffd9eb828a7fb4a8520d16c4400ed1"
+    },
+    {
+      "path": "assets/eclipse/path-2038.png",
+      "bytes": 314061,
+      "sha256": "077291cdf775b8ab3c026849067c2887e93319b7501a8c79821b1d7fe0a41f36"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 518,
+      "sha256": "6221a4701459f67157a0803b570c2191660e60b1308a62175d52c8b8b3bbd090"
+    },
+    {
+      "path": "assets/political-clocks.js",
+      "bytes": 7168,
+      "sha256": "0e33543c1254aed44e6032dc9c947c010cb30b546eea6b26a686d3b2ff1cae0b"
+    },
+    {
+      "path": "assets/site-nav.js",
+      "bytes": 8946,
+      "sha256": "34b5537f7975e520a8ec65159c727a12e00566e7424f3685b2df486898a2cffe"
+    },
+    {
+      "path": "assets/styles.css",
+      "bytes": 18788,
+      "sha256": "3a46d9d64cb3cd9beb79684787b40611eee9c3c11eda1c3db7ad349752e47a26"
+    },
+    {
+      "path": "assets/video/a-protopian-gambit.jpg",
+      "bytes": 86387,
+      "sha256": "4311f2812840c31511103172cccea4e59f58240e312c1a1fea1652d5c49e5c6a"
+    },
+    {
+      "path": "assets/video/a-protopian-gambit.mp4",
+      "bytes": 22147695,
+      "sha256": "d5ea5128cf7cc3ac371cdaceeec5ffb142283796679dbe256535f79d0d2829cd"
+    },
+    {
+      "path": "assets/video/dont-throw-a-brick.jpg",
+      "bytes": 85056,
+      "sha256": "49d58b79a98c25eb983be4fd0e5836bc166cc92b6835b02e43e10def9261e70b"
+    },
+    {
+      "path": "assets/video/dont-throw-a-brick.mp4",
+      "bytes": 21982971,
+      "sha256": "bf543c8877802b3282e6149b891b322cc1f30a9de04fac59f2a1922587732283"
+    },
+    {
+      "path": "assets/video/luke-11am-amity.jpg",
+      "bytes": 71151,
+      "sha256": "4bdde8a50a70b1b50c60eeec9ec18d5f21adf96c22ca2367c6fe17bd41f57054"
+    },
+    {
+      "path": "assets/video/luke-11am-amity.mp4",
+      "bytes": 32652176,
+      "sha256": "38ae2103eed0eb60145fbdeb2bed79dc72c884d93533c535b2bd3228080e9349"
+    },
+    {
+      "path": "assets/video/my-view-of-our-conversation.jpg",
+      "bytes": 50197,
+      "sha256": "fe4770454548d8ea0c6396cbd6cc052501a79387044591962706584c6da994bd"
+    },
+    {
+      "path": "assets/video/my-view-of-our-conversation.mp4",
+      "bytes": 19857443,
+      "sha256": "22b5dbba37844f3ee764b92ca64426bcd05d04ef7e0c8f0284d15e44e5115fd9"
+    },
+    {
+      "path": "assets/video/strange-but-true.jpg",
+      "bytes": 90277,
+      "sha256": "b39195c530d65132b2d1fd9b0a76a68df2533c661c27c340f35d6342a711b1f6"
+    },
+    {
+      "path": "assets/video/strange-but-true.mp4",
+      "bytes": 10069482,
+      "sha256": "6440a4fcaa995e6d41d7402f4ee2ea74970624f41bef6a8f1fcb1b660e634a2d"
+    },
+    {
+      "path": "assets/video/we-go-beyond-female.jpg",
+      "bytes": 51596,
+      "sha256": "5e6cea6030e468e9a1a8e23fa4d278f9b02a907fd42c50dda4ecefc9e9bbd228"
+    },
+    {
+      "path": "assets/video/we-go-beyond-female.mp4",
+      "bytes": 13751827,
+      "sha256": "28ec92898b2174134387618e0b7954c912eb9dc82de46c7ab9e4b7b98df39bf2"
+    },
+    {
+      "path": "assets/video/we-go-beyond-male.jpg",
+      "bytes": 40451,
+      "sha256": "c5352cae51fd98816a5bc379ecab9667fb1d34fb8fa53db84c550ea7559d43a5"
+    },
+    {
+      "path": "assets/video/we-go-beyond-male.mp4",
+      "bytes": 13200605,
+      "sha256": "b191ac5aec2b9b343092da1df75e8bfe374ec3d3165a9453bbddbc9dd0f8ccb8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14664,
+      "sha256": "419e37dc645b9f3026716bc50b2b20b8ac162ea892b9a2bcd40a8395acb2f908"
+    },
+    {
+      "path": "licence.html",
+      "bytes": 7525,
+      "sha256": "acd3d369e380c2d83a5798e7498953051d7306794a0abbdff9d1dc8e69d9b22f"
+    },
+    {
+      "path": "pages/change-the-law.html",
+      "bytes": 20951,
+      "sha256": "6a194c08417a3df148e58fd927cbd5bba36d6e53245da49119d7005fd24cc6e2"
+    },
+    {
+      "path": "pages/clocks.html",
+      "bytes": 12995,
+      "sha256": "54fa4bbbf840c52b9d498c1eba73a8d9cabd01b595292403b443abd60e6fb105"
+    },
+    {
+      "path": "pages/cyber-republic.html",
+      "bytes": 25918,
+      "sha256": "f24596c4aac8a516f5ee533fa6f4b42a02593adeb72d24cc512674f544fbe842"
+    },
+    {
+      "path": "pages/filing-cabinet.html",
+      "bytes": 21041,
+      "sha256": "9481b005214137765c66f6d7ee9bda0b9a9493aede726878d5b9df27d405911e"
+    },
+    {
+      "path": "pages/gamify-democracy.html",
+      "bytes": 21391,
+      "sha256": "2425fcae1c04bef2bb628d14c5cadff6f9d7cd4b59b9486c882f303a0673b92c"
+    },
+    {
+      "path": "pages/limits.html",
+      "bytes": 20225,
+      "sha256": "6601c25e2722b7e206dffe65cd21bb2ea35e7012c448c3679570a117af48f339"
+    },
+    {
+      "path": "pages/nine-registers.html",
+      "bytes": 25792,
+      "sha256": "49015b2a063be33baf9920a2a7a640cc876809acc0b56bbfeb2535fbe672f00a"
+    },
+    {
+      "path": "pages/site-map.html",
+      "bytes": 6559,
+      "sha256": "63ed5c372f1ee56ee20655098e6c58741a836c6a44c122d9a1d636f344897eed"
+    },
+    {
+      "path": "pages/sort-bench.html",
+      "bytes": 22515,
+      "sha256": "fda7768b7bf2d69e1bb25d6a72d18ed38cdf07563beb98daf100c326c4fbce86"
+    },
+    {
+      "path": "pages/the-engine.html",
+      "bytes": 29824,
+      "sha256": "119e750685ef35f2a3e4a4e546cdd6f7f42bcdc307ca4b90ab4c261908601344"
+    },
+    {
+      "path": "pages/the-method.html",
+      "bytes": 20125,
+      "sha256": "d2a511a4d10f182280fac89b62b3953e723cce0524629ecb318b7e49ed229308"
+    },
+    {
+      "path": "pages/workbench-bridge.html",
+      "bytes": 20932,
+      "sha256": "44cba02ef72aad68bf3c690fd34a32b5d015ae01047205195eaea32aaed4f48a"
+    },
+    {
+      "path": "pages/your-relevance.html",
+      "bytes": 18051,
+      "sha256": "f1fd856a5d1045fee109e234b15545ab7141a7aac08a24ee994e932dd297ee14"
+    },
+    {
+      "path": "reference/building-an-australian-legal-rag-system.md",
+      "bytes": 47545,
+      "sha256": "03843575d9d6a32ca41d78288bf91470e14c34594123ba3d07477fa383f57a40"
+    },
+    {
+      "path": "reference/legal-rag-llm-plan-aus-qld-redlands.md",
+      "bytes": 90391,
+      "sha256": "e8b90f2fad3267453a97f95cd6268c68bd773cd2df9066e1627b65c72ec86a0e"
+    }
+  ],
+  "files_sha256": "4ef417e25d0fbc9b49bdebb0a9869f4d4a2c3ae25ff2e050325d1563a6d2f790",
+  "file_count": 43,
+  "source_bytes": 135721786,
+  "excluded": []
+}

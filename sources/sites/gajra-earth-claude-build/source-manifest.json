@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/gajra-earth-claude-build",
+  "slug": "gajra-earth-claude-build",
+  "capture_started_utc": "2026-10-20T07:57:46+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:50+00:00",
+  "source_version_start": {
+    "head": "14c7b9afc80f2cdab773c369ec2cedac45c1f8fe",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "14c7b9afc80f2cdab773c369ec2cedac45c1f8fe",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "AGENT-HANDOVER.md",
+      "bytes": 11884,
+      "sha256": "7057c86cc5ed1732261d2eb15c851b2bf4284b83edf691d53fcc17937a990c43"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 2456,
+      "sha256": "5fdff3d9568d4a807025deeca0c59f299e0f1e5d9553c727b3c7ed8e1f167317"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1593,
+      "sha256": "5a1374495fd1620602d279ec64bc4cd9ee2afa3bb1211f85543e9d6a87dab6cf"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 3622,
+      "sha256": "b8d6ef38ddfc3427c59ff417270e2fea6f106da7eed3a2078164d242edf5c4f1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5735,
+      "sha256": "2768864b4b572b0e034916377d3dcdc3b92412ac4cf42e24be212fcb7d9e338e"
+    },
+    {
+      "path": "SIGNATORIES.md",
+      "bytes": 1380,
+      "sha256": "3a990967e974995e6d06ea83be5c4f3b1da117cfdafb89d508f6fcdf2e94edf1"
+    },
+    {
+      "path": "STYLE-GUIDE.md",
+      "bytes": 6039,
+      "sha256": "bd19d57c44b8bd125167c66eb846ff57ac2783add163c6149230069ea6191eee"
+    },
+    {
+      "path": "ahead.html",
+      "bytes": 208818,
+      "sha256": "5cde3d2963506e3a9a8015347fa28372c01ffd1b5853147d9bf0718fb3bb78f7"
+    },
+    {
+      "path": "ahead/index.html",
+      "bytes": 261099,
+      "sha256": "4e9be20053e98ccdcb426df78e56e2101c3057fcf1035cdbd076cf1484d3c53b"
+    },
+    {
+      "path": "archive.html",
+      "bytes": 15113,
+      "sha256": "ce2ac5ec056a1420eab7135e6bbf3bb595b0306c4023308881f8cd4c8244411e"
+    },
+    {
+      "path": "archive/ico-era/LICENSE-as-shipped.md",
+      "bytes": 3575,
+      "sha256": "14754b462b6188b65b84422c09e2fbf924363ca7bd93becf33b70e754c851869"
+    },
+    {
+      "path": "archive/ico-era/assets/favicon.ico",
+      "bytes": 77536,
+      "sha256": "7e00958d63dd33141c178f2a7e4933c43dfc211cb7f153800180761fff3d8f85"
+    },
+    {
+      "path": "archive/ico-era/assets/favicon.svg",
+      "bytes": 1611,
+      "sha256": "6d0a35c8ca4b985f0f02b499ac87f6b1836cb1c706cb8d4ea02f58b4c675a397"
+    },
+    {
+      "path": "archive/ico-era/index.html",
+      "bytes": 23873,
+      "sha256": "d863f9960f94fe2f66a5a543d4b6385618a256ce0c7f471a7451fe65f0a95121"
+    },
+    {
+      "path": "asking.html",
+      "bytes": 18282,
+      "sha256": "fcf07848292850335359552e32ecb7870c7c8800abebc005589ffe94e2cbe98a"
+    },
+    {
+      "path": "assets/ahead-calendar.js",
+      "bytes": 7702,
+      "sha256": "48a74bebab7978568221bb22240ba0a44b48a9bca00dfb6905cfe93afa911017"
+    },
+    {
+      "path": "assets/ahead-countdown.js",
+      "bytes": 2205,
+      "sha256": "126a048730f112743215f59132279f72039061296f16216cdac27136c34545df"
+    },
+    {
+      "path": "assets/aura-heart-180.png",
+      "bytes": 21901,
+      "sha256": "1039f71aa3cbd1d4f486805ef81331783846f6b0d24b565844840e1a0135c125"
+    },
+    {
+      "path": "assets/aura-heart-192.png",
+      "bytes": 24012,
+      "sha256": "628519b04dbb607bcdaff01838364c5818c8983fa63cae3cfd0ff88eb45bfbfa"
+    },
+    {
+      "path": "assets/aura-heart-32.png",
+      "bytes": 1690,
+      "sha256": "d69270afc0089682951aed328eb262ca0468a5d1210822faf2cb3eed966600ea"
+    },
+    {
+      "path": "assets/aura-heart-full.png",
+      "bytes": 104987,
+      "sha256": "d7f0cc751841f9275235d774043126094fab132b9373aa7ebb59944d43ee14bd"
+    },
+    {
+      "path": "assets/aurora-iss-1080.mp4",
+      "bytes": 45118927,
+      "sha256": "adb4d5f7b2f1d167406a3f99a9b581c614f4b70d10cd00bfeb7e92e97c98a298"
+    },
+    {
+      "path": "assets/aurora-iss-poster.jpg",
+      "bytes": 92445,
+      "sha256": "e98571ea47da3260ea8e8a0ae6587ab56dd0a65426e3da01d433d1c1ae0be7fe"
+    },
+    {
+      "path": "assets/aurora.js",
+      "bytes": 1938,
+      "sha256": "14a8e3a6a5c1ae02d0e9eb707fd85faa4e1eeac951418826a6cb17af0ebfbf84"
+    },
+    {
+      "path": "assets/earth-1600.jpg",
+      "bytes": 190019,
+      "sha256": "bbf4b65f873ad69d3c16ed9257a4afb9c8f204aeb677cbf3bfe908f1f38faac6"
+    },
+    {
+      "path": "assets/earth-4096.jpg",
+      "bytes": 1030380,
+      "sha256": "095bdfa1579434f5d7cfcc7976da2bf06ad591975f8502e187877ddd18fb5fec"
+    },
+    {
+      "path": "assets/earth-map.js",
+      "bytes": 24105,
+      "sha256": "a84765b925345948b46f34c6843edf851795dd087c8ea3400f757e1cc8c87075"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 77536,
+      "sha256": "7e00958d63dd33141c178f2a7e4933c43dfc211cb7f153800180761fff3d8f85"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1611,
+      "sha256": "6d0a35c8ca4b985f0f02b499ac87f6b1836cb1c706cb8d4ea02f58b4c675a397"
+    },
+    {
+      "path": "assets/fieldkit.js",
+      "bytes": 6485,
+      "sha256": "e62a502c77d082290480eeaa72b996043944adc0d65e8386c95c05a6a7b88273"
+    },
+    {
+      "path": "assets/reveal.js",
+      "bytes": 1732,
+      "sha256": "1b2d533b1bc8bd49770f6394e0016eea4f2870cceea3341462f1dfdc3921225d"
+    },
+    {
+      "path": "assets/signon.js",
+      "bytes": 6365,
+      "sha256": "432559433f01b9544636eb03e3ab01c3d18b5af466ecc87e167089e157092db8"
+    },
+    {
+      "path": "assets/styles.css",
+      "bytes": 45601,
+      "sha256": "0edb5a8b99604d0c6cd29954610e09f98279d8f198db3d52204c1a58dc3630b4"
+    },
+    {
+      "path": "assets/watch-filter.js",
+      "bytes": 1802,
+      "sha256": "776ced9172748df918325d99a08fc5548b3da424506d1e430ddb80a831b97a02"
+    },
+    {
+      "path": "data/ahead.jsonl",
+      "bytes": 528059,
+      "sha256": "9dd868bc49485eb251564559a8cf0daf866a0dc561c39c9e75561257001d464e"
+    },
+    {
+      "path": "data/groups.json",
+      "bytes": 528,
+      "sha256": "8692643273cb591ef05b6804ee90eba3fc6f13b1460dde285817c1554cd39206"
+    },
+    {
+      "path": "data/watch-keywords.json",
+      "bytes": 1283,
+      "sha256": "43f54833f36a136089b8d7e5ce00a879cc64b0d65a45b16e91bc8a3c1312127b"
+    },
+    {
+      "path": "data/watch.jsonl",
+      "bytes": 336894,
+      "sha256": "523b44af2c7b9c5cc7599fed6b8dca8555dde4ed27bda9d63e8c77c479c0aeb1"
+    },
+    {
+      "path": "future.html",
+      "bytes": 8770,
+      "sha256": "dcdc11f07bcbf5ebc0e5676aa1e676a954194e81c503b5e26992f6aa867895a8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 14400,
+      "sha256": "0d74cb29bc806a7948aab5f29886fbc601dd7410feb488a7572071ae35848372"
+    },
+    {
+      "path": "licence.html",
+      "bytes": 9011,
+      "sha256": "6ed21a3bd990b8591a3c17e2ceff7aaad6049f27767ff100c6c6de778b33735f"
+    },
+    {
+      "path": "map.html",
+      "bytes": 7553,
+      "sha256": "214434dfe8fd7b8368dfa3e286d685d600004d12ac318915e6eae0b8d37570e5"
+    },
+    {
+      "path": "past.html",
+      "bytes": 38451,
+      "sha256": "65386caf1def82af69e0053275b41ff0d02ecf5b4bd133698aef4647e464f58e"
+    },
+    {
+      "path": "present.html",
+      "bytes": 9134,
+      "sha256": "fb8aada124db0ab9bbd84b77fbb848dec27f42d123304dd8cf04486b293e8200"
+    },
+    {
+      "path": "questions.html",
+      "bytes": 13532,
+      "sha256": "6544509da9456b388665045b3d0804f61a71cb7126dbc4c23883116ea8b2b088"
+    },
+    {
+      "path": "scales.html",
+      "bytes": 9086,
+      "sha256": "8d153ba930cfe805fbcfdd4b99b4baf83b96c25a82fb85bb68bd811942c455f0"
+    },
+    {
+      "path": "sign-on.html",
+      "bytes": 43407,
+      "sha256": "3702da3889a52f25c481cf5f2650d6d4464316a03f24ec4eb91066853f0c0bdb"
+    },
+    {
+      "path": "site-map.html",
+      "bytes": 8647,
+      "sha256": "d8d61f97e080aa4118a9a74b2a3aa14f8272723db6722383f36a374e00122df3"
+    },
+    {
+      "path": "support.html",
+      "bytes": 17854,
+      "sha256": "af0bc7bf00fb0ef1e5749112070f5537653c105b998781061ebfb5c00ed34ad2"
+    },
+    {
+      "path": "tools/check-pages.py",
+      "bytes": 19959,
+      "sha256": "fd1b5ebbf2ffb408ca2f4a776b7f803efc65d90c413edceb3b187eb03c7ce4fe"
+    },
+    {
+      "path": "tools/lines.py",
+      "bytes": 1751,
+      "sha256": "054cad3f8ce14a00ddc35d556a7828faf1855bf722567763fe6badd41e6f3026"
+    },
+    {
+      "path": "tools/lint.py",
+      "bytes": 4781,
+      "sha256": "0cb88fd47c8414d6a1390945e667f3fb7d912b4a2a44ee1c83b21c75f266ce83"
+    },
+    {
+      "path": "trinity.html",
+      "bytes": 42352,
+      "sha256": "23e7a7d27c295237804461c1196ab8fdd983a2361917b879bf12bdf90b6003a8"
+    },
+    {
+      "path": "watch.html",
+      "bytes": 260021,
+      "sha256": "2dfd76fe684f68d29cc1f8f1acf0f286e42b472fd3db3113dea98ffa3a959cdb"
+    },
+    {
+      "path": "watch/2026-07.html",
+      "bytes": 29103,
+      "sha256": "7f9c2ce8d2c9c34befec3242eefa00d35592340171e955d6363336a2bd19f400"
+    },
+    {
+      "path": "watch/2026-08.html",
+      "bytes": 172419,
+      "sha256": "521f06385fcac2421338efb0eddaa1bbf93a63e47f89c7b416f3938ae3804dbc"
+    },
+    {
+      "path": "watch/index.html",
+      "bytes": 10400,
+      "sha256": "10f546512e9f10523588dedc764bf569c03a2d420201b5180fca0069dbe2956d"
+    },
+    {
+      "path": "where-it-stands.html",
+      "bytes": 18164,
+      "sha256": "17c782c22f2251e41f429fc3f978c0590b8f28cf227e32b37c1e62304a8ea0ad"
+    },
+    {
+      "path": "worker/README.md",
+      "bytes": 3483,
+      "sha256": "4ef240c0160d517aa3cc3ffac60ecf6f93924ff36ccbc8d66791c17697bc0c61"
+    },
+    {
+      "path": "worker/signon-worker.js",
+      "bytes": 9930,
+      "sha256": "d95a64f69a20b3b279324554296d67b0ebff66b04e69207ba1294d9a1b314a8c"
+    }
+  ],
+  "files_sha256": "0a6f1e6de16b96ffd37c42677e992ee6f34a72b8094602aa0b53dd7a48dc966f",
+  "file_count": 61,
+  "source_bytes": 49023031,
+  "excluded": []
+}

@@ -1,0 +1,553 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/C-Hour-introduction",
+  "slug": "C-Hour-introduction",
+  "capture_started_utc": "2026-10-20T07:56:48+00:00",
+  "capture_completed_utc": "2026-10-20T07:56:50+00:00",
+  "source_version_start": {
+    "head": "722725e442a3c62311bdd3ba43dd4616f35fbd0c",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "722725e442a3c62311bdd3ba43dd4616f35fbd0c",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 89,
+      "sha256": "feae41cb866fe5c29776acb1201e1272afd2697516da20dead2df09055315ad7"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1000,
+      "sha256": "12c0cb09283a207b12646750f7c46de9104de094a0f5c22bea07ee532fb98cb2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 79,
+      "sha256": "198b21eca30aeadfcf51f9009e00fb9260eaa1c864252c36f59379bd7a34e96e"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 3515,
+      "sha256": "403d57f083f1599ace3d84030ec0105d459780a6aa0bc1d076fa36ca08d6e0d0"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 3601,
+      "sha256": "6d69e0d97466a369a4060f1b5603fe1b2173a966239bb7db4788a62dcc2644bf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1890,
+      "sha256": "446e18cbda4befc1621a550cdcdc6602ade20f077ea9d989ba59876b7ef5b2c6"
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 54806,
+      "sha256": "eb9fd34832a95eb8cee0f866bf7c901ba16a4c7216f3f7d45b8d8e9fb0065f74"
+    },
+    {
+      "path": "assets/fonts/DM-Sans-OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "assets/fonts/Manrope-OFL.txt",
+      "bytes": 4480,
+      "sha256": "4b8929f05a122b7abb9059501dc7dc4df86f8c97d5a1769d60d82cf2d2795dde"
+    },
+    {
+      "path": "assets/fonts/font-1.ttf",
+      "bytes": 48280,
+      "sha256": "b0ae3e89a7d3ef2b1838bb4b1ceb0b17cc3435af061eee809d76aa623ff116e9"
+    },
+    {
+      "path": "assets/fonts/font-2.ttf",
+      "bytes": 48308,
+      "sha256": "376427b5322148d8de1e03f263bcca4935a2d60ba71d9f94f4947ab664c711ae"
+    },
+    {
+      "path": "assets/fonts/font-3.ttf",
+      "bytes": 48280,
+      "sha256": "b79a2ea7a38f33fd96a282fadb9ce97626bb0724a44d21075859f0e50239993a"
+    },
+    {
+      "path": "assets/fonts/font-4.ttf",
+      "bytes": 48200,
+      "sha256": "2a8e7f713ee79fbccdef3cef5c787aff47580299f7da60144961e7db2ec08211"
+    },
+    {
+      "path": "assets/fonts/font-5.ttf",
+      "bytes": 94972,
+      "sha256": "a13d9b41b0a471ce58f0e46d377fa3cc76615e4632c3b15eb397caadf7a13f0a"
+    },
+    {
+      "path": "assets/fonts/font-6.ttf",
+      "bytes": 95060,
+      "sha256": "f433e5d333be1128d8ec8a28b8aadd0314d10e14e4105406076666bc830fc15d"
+    },
+    {
+      "path": "assets/fonts/font-7.ttf",
+      "bytes": 95096,
+      "sha256": "6bad1a774228464cc88b8b0271555b266f7a3c64a7bedf15e165fdab4f6ac0ce"
+    },
+    {
+      "path": "assets/fonts/font-8.ttf",
+      "bytes": 94928,
+      "sha256": "b9584e099e0e7f1e1e914c3037aabb9010c50346a3ce8df5eeeeecc0563044d8"
+    },
+    {
+      "path": "assets/fonts/font-9.ttf",
+      "bytes": 95688,
+      "sha256": "b8f802f05b322a7345805f5b89f8bb976604cc719a91530918d5ce3c47160950"
+    },
+    {
+      "path": "assets/fonts/fonts.css",
+      "bytes": 1395,
+      "sha256": "0038192fa88ff5bc83d92111b2f928cc0fe4445967c5486416b77cdb317a6737"
+    },
+    {
+      "path": "assets/fonts/google-fonts-source.css",
+      "bytes": 2093,
+      "sha256": "691e3ab0a3c6b91d2d33754987317fbed9ccfe3205b09918a7008063f4824c4b"
+    },
+    {
+      "path": "assets/images/choose-an-adventure.webp",
+      "bytes": 462126,
+      "sha256": "d39cc90ee16cf8bc6fcdfe6bc30d919844444863b27720003f52a7637f350940"
+    },
+    {
+      "path": "assets/images/civic-ai.webp",
+      "bytes": 338696,
+      "sha256": "dd37c2f81eb2b7e5247b34d30718deed90b3d54d573ef37ce7aafc1b4997027c"
+    },
+    {
+      "path": "assets/images/community-hours.webp",
+      "bytes": 251418,
+      "sha256": "99c6115f87c5858a06da6f29d3066e399cdd31a43ca91f62f117e7f2e667f13d"
+    },
+    {
+      "path": "assets/images/corrections.webp",
+      "bytes": 271878,
+      "sha256": "48ed77e3950e3910cc7cde317e74d7599ac0c4f2f896f3454c1b866a710112bf"
+    },
+    {
+      "path": "assets/images/food-and-wellbeing.webp",
+      "bytes": 433810,
+      "sha256": "f950772e290a855205979dd25c843083e4b7e662ba1617f68957438a131a6bb5"
+    },
+    {
+      "path": "assets/images/growing-together.webp",
+      "bytes": 455224,
+      "sha256": "fda51215738d71c275f49f9c7ad240d0cd02bd06b2f285a9a41d8254ac306f44"
+    },
+    {
+      "path": "assets/images/home.webp",
+      "bytes": 547362,
+      "sha256": "f2f336d4c5d336da9314d532385a579420afcc4c37bdd01b85880ac55c4a7553"
+    },
+    {
+      "path": "assets/images/licence.webp",
+      "bytes": 259564,
+      "sha256": "9c4c92cf355f2564bb3a6e3c636e17925ee01edfd849c297aa53126210a07760"
+    },
+    {
+      "path": "assets/images/logo.png",
+      "bytes": 61166,
+      "sha256": "3a6351577e4ddf0be329869d0b5ddaaec9c307d8b46ddab73dbfd3d2d3843006"
+    },
+    {
+      "path": "assets/images/luke-formal.jpeg",
+      "bytes": 154229,
+      "sha256": "7ae62527a159b92f23a5f9c76b50f83d915f906106b29d66c0d2c1d2e170f021"
+    },
+    {
+      "path": "assets/images/luke-in-office.jpeg",
+      "bytes": 366027,
+      "sha256": "2df655cf5b9a7ca86a72f55f3bff5db1a631f930a4d1a4097dad0c819da65aec"
+    },
+    {
+      "path": "assets/images/mutual-futures.webp",
+      "bytes": 448954,
+      "sha256": "f1612ac6781e62dea056785d7d2ccf098b99d934feb68d5b5975ddda83016606"
+    },
+    {
+      "path": "assets/images/people-and-purpose.webp",
+      "bytes": 285548,
+      "sha256": "4b472016186e8766dbdc96229179b29efdf8610f9d8b97d7a1eaa5d36b55c0de"
+    },
+    {
+      "path": "assets/images/pilot.webp",
+      "bytes": 322232,
+      "sha256": "e6ca56810623a1aa7504ce8afbcc8e9cef0a47140b32e7f06bba33cfc4362b66"
+    },
+    {
+      "path": "assets/images/projects.webp",
+      "bytes": 387414,
+      "sha256": "b2cb508d17c4ab72e988862d0afeaabc4a4f65a500329a3af5bacfacce88b533"
+    },
+    {
+      "path": "assets/images/reciprocity.webp",
+      "bytes": 310048,
+      "sha256": "8f23c6ad708511629460b837774ccb9dfaef868a6cd72bf85fb8f5cd8246f6dc"
+    },
+    {
+      "path": "assets/images/references.webp",
+      "bytes": 289432,
+      "sha256": "cbaa61abe5165328ce3d1a9744655595bbee047627de49e15f3e1029d9400078"
+    },
+    {
+      "path": "assets/images/sensorium.webp",
+      "bytes": 273288,
+      "sha256": "4047f145c4e5e9ffd2c9711a773d1c4d113e8c1e8c349fff3a54fd295a2146da"
+    },
+    {
+      "path": "assets/images/sitemap.webp",
+      "bytes": 527774,
+      "sha256": "cee91a5a01974b1eb666c6640006d8ab7c35aef0ce9f3921a3b521953f37ad1b"
+    },
+    {
+      "path": "assets/images/software.webp",
+      "bytes": 280046,
+      "sha256": "cb8e64ea5fd9fd7314170937bc8f0d7138a7053f6db4cebe84f918482ef782fe"
+    },
+    {
+      "path": "assets/images/stories.webp",
+      "bytes": 252814,
+      "sha256": "aff445e29732f3b3a6b7558eb924beca06b5775de12c405769c598823040dc6e"
+    },
+    {
+      "path": "assets/images/why-now.webp",
+      "bytes": 338192,
+      "sha256": "f60cd4d4f4c86a316a7c936972c1e1acb4b18e1810172d490e0b5ffd742821c9"
+    },
+    {
+      "path": "assets/site.css",
+      "bytes": 15550,
+      "sha256": "85bf948371d9b7f62241a38f430f019a99d3f18dddb7d283b28f3bf402f32f6a"
+    },
+    {
+      "path": "assets/site.js",
+      "bytes": 2385,
+      "sha256": "7486f9b7309ed457010a01986acf41128a7601cb0909dd3d303de95fe97c80c4"
+    },
+    {
+      "path": "choose-an-adventure.html",
+      "bytes": 9897,
+      "sha256": "21e98cdd89e690ac0552f0e3cd7be681c9a5bdd3f3606bc2e2e46962b8047bf3"
+    },
+    {
+      "path": "civic-ai.html",
+      "bytes": 8283,
+      "sha256": "faf094f80f78f40c160e69009721623080a2aa7f453316a70c4c26d74f910da6"
+    },
+    {
+      "path": "community-hours.html",
+      "bytes": 9993,
+      "sha256": "93cdd8b5a65fe038453d2a119673c192b63328ec46f08099988a8ac5b0b6bb40"
+    },
+    {
+      "path": "corrections.html",
+      "bytes": 17044,
+      "sha256": "ab9be783cc814d8d6d451b359c11d6ac377830af4f9141f7c6b00cadeb4f0870"
+    },
+    {
+      "path": "data/artwork-chapters.json",
+      "bytes": 33949,
+      "sha256": "ea9a6f88b669d6a15f90544c9875cb54a18e1cede9c1e8cbb958259b1312625f"
+    },
+    {
+      "path": "data/artwork-home.json",
+      "bytes": 2475,
+      "sha256": "a9ede073d08982b809ba0bb3a6fb3fe1f2633f16c9554fd77ede11850a7a2ce4"
+    },
+    {
+      "path": "data/chapters.json",
+      "bytes": 88188,
+      "sha256": "6b1411869bc7e6233262f41be4b2ec08bb79de52dffd00b81077f19a96e49c3a"
+    },
+    {
+      "path": "data/missing-references.json",
+      "bytes": 1250,
+      "sha256": "e57864b0d8bc24224c84c3bed43691831d6b5f2f6650e18286b1f0d128fbc2fb"
+    },
+    {
+      "path": "data/plan-source.json",
+      "bytes": 348023,
+      "sha256": "1a23c897126694e1186da9f4490205c30db29cb95eb8c8910db362a5f60b7ba6"
+    },
+    {
+      "path": "data/projects.json",
+      "bytes": 15218,
+      "sha256": "c3967125483c89f57462da0ff36fb80144efe61e4b1f8ef522ded87b0052bef4"
+    },
+    {
+      "path": "data/references.json",
+      "bytes": 37742,
+      "sha256": "847e76f667c87c538274e7f1d5c27f5cb922de364073b70a8b9c4bff387d39e5"
+    },
+    {
+      "path": "favicon.png",
+      "bytes": 5733,
+      "sha256": "111714ff295718e53bf76a51755c9d3a7b9f9769071d7ef5c3041626ae2ba35a"
+    },
+    {
+      "path": "food-and-wellbeing.html",
+      "bytes": 8945,
+      "sha256": "0734db872657e5398b53d0840459b97e1b8b406002b76f8bc378713b873b66f7"
+    },
+    {
+      "path": "growing-together.html",
+      "bytes": 8733,
+      "sha256": "169ad4f6bfe91d3f4c01b000a29935662a77d46b61082c395e7f31eec368db8b"
+    },
+    {
+      "path": "index.html",
+      "bytes": 12659,
+      "sha256": "faba5dfd1d9ed8e1f921fe53a5cabea1db9c091b19dad8772ff34d4a9f62639a"
+    },
+    {
+      "path": "licence.html",
+      "bytes": 7595,
+      "sha256": "95ac0fac08b8cb1aad2f455a1d7fc414af2b0bec8670a461964c3a30766c3485"
+    },
+    {
+      "path": "mutual-futures.html",
+      "bytes": 14246,
+      "sha256": "a1eaa49642628e0a92216222ec8346d343c3dfab9ad5b69866403efcb59ae0c4"
+    },
+    {
+      "path": "people-and-purpose.html",
+      "bytes": 9239,
+      "sha256": "9c389f995ca0a6dec63243d014a152ed40c9461faddf1a8cbf565e827472398c"
+    },
+    {
+      "path": "pilot.html",
+      "bytes": 11053,
+      "sha256": "353401d14dc7da9e5b8170fbbdb83b9611eca03dfbce19637242e01d1e5d42ca"
+    },
+    {
+      "path": "projects.html",
+      "bytes": 23139,
+      "sha256": "3976e84b6527e7a73f43ab8c865e4e4ffe625dfe844e8ed422b803ce76f1a0d4"
+    },
+    {
+      "path": "reciprocity.html",
+      "bytes": 7690,
+      "sha256": "8e56dec6f2892ae20c7fe83fcfff925e8073753ec89b8a50fbf6c4fa8d4cbabd"
+    },
+    {
+      "path": "references.html",
+      "bytes": 37116,
+      "sha256": "c178c965d3c97746f9037132583da1265185f55511790249c74bae51a4a31007"
+    },
+    {
+      "path": "references/originals/82-Claytons-Road-Anglican-Partnership-Proposal.pdf",
+      "bytes": 135711,
+      "sha256": "e984ef8f737cb24ee8604d0c16b956baeaa13a69d6820835b16ab1467dab181d"
+    },
+    {
+      "path": "references/originals/AI_Kitchen_Food_Waste_Solution.md",
+      "bytes": 80708,
+      "sha256": "d7927140dcdc8e3ae9ab3599d1bf9981ea6415845c0047bb175ad5cc77c158f2"
+    },
+    {
+      "path": "references/originals/Australia's Olympic Space Gambit.pdf",
+      "bytes": 282556,
+      "sha256": "de5ec2c7ae701ddc9c99aff4f20f044aad0f8315f7f516be79f98102c25907f6"
+    },
+    {
+      "path": "references/originals/Australian C-Hour Legislative Strategy.pdf",
+      "bytes": 596494,
+      "sha256": "f5bdd4ff959d920b25c4c7897fae00d0d2dfb01d8071da7fc35499e377559e18"
+    },
+    {
+      "path": "references/originals/Australian_C-Hour_Legislative_Strategy.md",
+      "bytes": 78395,
+      "sha256": "28b0fb98eda234d79373e709cf10a9e0186430055f784c9a4d49c4fa208c8da9"
+    },
+    {
+      "path": "references/originals/C-Hour-Joyful-Responsible-Abundance-Plan.docx",
+      "bytes": 79407,
+      "sha256": "8b816f04578f028e0590eb72f266eeae50082a60499d45939b139da3c2b25a73"
+    },
+    {
+      "path": "references/originals/Dual-Track_Aura_Strategy_&_Civic_Infrastructure.md",
+      "bytes": 47099,
+      "sha256": "ef29fd96ad14c785e0fd6253750c38733dcf3020b7197a0ebdc28aec0ce11162"
+    },
+    {
+      "path": "references/originals/GAJRA Earth-Space-AI Summit.pdf",
+      "bytes": 302380,
+      "sha256": "e11a6edaf53a869e8c404ebf7dc89fecfeb83cdba511bbed6c10a454f46e4c40"
+    },
+    {
+      "path": "references/originals/Generative_Simulation_Engine_&_Asset_Pipeline_for_Quandamooka_Country.md",
+      "bytes": 83034,
+      "sha256": "e673f761ccf8480f40c6560b998dedbbde136e8a1a141068738290a810f3ec30"
+    },
+    {
+      "path": "references/originals/Health-Tech Cooperative Business Plan.md",
+      "bytes": 68095,
+      "sha256": "ef10f32d12686c45fcdb55468221087339488effb42cdcfb3f6b0cebcc4dea42"
+    },
+    {
+      "path": "references/originals/Integrated Food System AI Expansion.md",
+      "bytes": 73280,
+      "sha256": "7793d456d0b755ce8199e4538e89f0d4dec0ab12757b1288318a2b0f28e18c1d"
+    },
+    {
+      "path": "references/originals/Local Government 2Funding Inquiry Submission.pdf",
+      "bytes": 276605,
+      "sha256": "06e5d3e4f3c9bfb14a9d2439b9117e00a24176c4a2c6de9e9b18eeb187234d80"
+    },
+    {
+      "path": "references/originals/Oceania_Health_and_AI_Surge_Plan.md",
+      "bytes": 48719,
+      "sha256": "6a40753a486d998f2556efd0a751b0e4f29c88fd60c5330ed36d9113e116dc1c"
+    },
+    {
+      "path": "references/originals/Queens Venture Capital Planning Document.pdf",
+      "bytes": 403297,
+      "sha256": "cbd502197f1b30791141ddfcdb538806b8e26da5271292cc23f6f1ba0e69bb00"
+    },
+    {
+      "path": "references/originals/Queenslands Heart-First Ai Surge Plan.pdf",
+      "bytes": 284688,
+      "sha256": "2bb82584c3a47e997df873dc7f74e2f93580df3fea0b51c69f6a207bca34286e"
+    },
+    {
+      "path": "references/originals/Ready_SET_Co._Business_Strategy_Development.md",
+      "bytes": 69883,
+      "sha256": "73a70ac35e2e823f0caeb945b5ceeb09949ab9d9334319b86cdb1c22d9d7c02c"
+    },
+    {
+      "path": "references/originals/SETCo 2026 Pitch Plan Revision.pdf",
+      "bytes": 293853,
+      "sha256": "1be16446dc69d8dc6c8caee9dc9e1fd924826a65d5a3750560011960e73e0411"
+    },
+    {
+      "path": "references/originals/SETCo_Business_Setup_and_Compliance.md",
+      "bytes": 136545,
+      "sha256": "e378a397f2baeb49065b2901d4c584d316efc35fb7b25d18e305b438a8036558"
+    },
+    {
+      "path": "references/originals/Shared Table Initiative.md",
+      "bytes": 43703,
+      "sha256": "03f6e5308c14b31f4b11561bf372cea66b90e01ccaffc37764969c68d962a6f0"
+    },
+    {
+      "path": "references/originals/Sovereign_Space_Builder__Full_System_Specification.md",
+      "bytes": 100849,
+      "sha256": "b2e65f4f6e9cab560624d67d235db2eb344b42e6e89f8fd05f47b57844eca863"
+    },
+    {
+      "path": "references/originals/Sovereign_Space_Builder__Full_System_Specification_(2).md",
+      "bytes": 36285,
+      "sha256": "56383abdae18575c169675528febf251e83bfc5a9845c88f294415d7efc7bddd"
+    },
+    {
+      "path": "references/originals/Spec-Driven_AI_Governance_Architecture_Australia.pdf",
+      "bytes": 421329,
+      "sha256": "94f5c0ca2bdd6623b972173b2561ed3b5c41fc6b9d2eb48f3e2812fd475f1266"
+    },
+    {
+      "path": "references/originals/Straddie Employment and Training Company (SETCo) S....pdf",
+      "bytes": 539002,
+      "sha256": "0e7a00e7509138db3e5f7c7ac73bddbbd68942e914e4f53789e7a6688edd0657"
+    },
+    {
+      "path": "references/originals/UNGA81_Joyful_Responsible_Abundance_Refined (New Reference Links).pdf",
+      "bytes": 112210,
+      "sha256": "0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14"
+    },
+    {
+      "path": "references/originals/Unpaid_Work,_C-Hours,_Societal_Costs.md",
+      "bytes": 78889,
+      "sha256": "b2f9f011af3b536757d8b61fe9abcca8f606ec4ecb4b71a537c059f4b4684dc1"
+    },
+    {
+      "path": "references/originals/Virtual_Minjerribah_Design_Document.md",
+      "bytes": 57355,
+      "sha256": "4f927c7dd9d94386ea679116343797dbfbe910b4ff3428825ee2678b62978275"
+    },
+    {
+      "path": "references/originals/Virtual_Minjerribah__Time_Simulations_&_Data.md",
+      "bytes": 43643,
+      "sha256": "1bc23c39ac8374f02963bb08e0fc996a54778177fd76d64037e60f89d9563595"
+    },
+    {
+      "path": "references/originals/Web3 Sensorium for Science Debate.pdf",
+      "bytes": 604459,
+      "sha256": "f3808a7e57262f416d792639080e68b6010fcb1c53573cac9d8ea9d829a30122"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 104,
+      "sha256": "964d6bff131b874ff692c87b23c1ee2adb0843db8180ba751e1099727766a049"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 25580,
+      "sha256": "467c27d670b8234fbfd17ba7ff502317fb54e1ec477601c5003ff8b9306f1f89"
+    },
+    {
+      "path": "scripts/check_site.py",
+      "bytes": 1992,
+      "sha256": "6fc39c0a53ad60770ba6f21bea06c6881069be59544cd5742875b2197af7e9b2"
+    },
+    {
+      "path": "sensorium.html",
+      "bytes": 12353,
+      "sha256": "54bdcff58055ef439484c6bf8f74ba1ff29594c5bf013beb91f531c95b6ed37d"
+    },
+    {
+      "path": "site-map.html",
+      "bytes": 7508,
+      "sha256": "01539c35be8d5d89bdd2fe9650dd3f40f602aabb9605b81be347971aea1a80b8"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 1897,
+      "sha256": "ff6addde3aaa756d10fc61d03406556e1f77e22fb3145a73ab3658100588645a"
+    },
+    {
+      "path": "software.html",
+      "bytes": 19031,
+      "sha256": "5993394179c01597a420e2a65f3858a0da49fabaf76ebf6fce180ed352c3f452"
+    },
+    {
+      "path": "stories.html",
+      "bytes": 9970,
+      "sha256": "8097f2334c8ccf7145d831c44204157badb694b1420e1e16e32bad10b431f9de"
+    },
+    {
+      "path": "why-now.html",
+      "bytes": 12599,
+      "sha256": "fa61c2313c580655f8ad721191ee2a5b0f8cfa690576cef55a76d49a0f389982"
+    }
+  ],
+  "files_sha256": "5a92088d5a9bdbb2ded8559269e3447a001b8481e6ab9352a2cd0a9b1f6c32c2",
+  "file_count": 104,
+  "source_bytes": 14269136,
+  "excluded": []
+}

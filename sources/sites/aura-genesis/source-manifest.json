@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/aura-genesis",
+  "slug": "aura-genesis",
+  "capture_started_utc": "2026-10-20T07:57:06+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:07+00:00",
+  "source_version_start": {
+    "head": "b355a0a3a41c473d10a23c7653a1992a29ce7979",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "b355a0a3a41c473d10a23c7653a1992a29ce7979",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 3578,
+      "sha256": "688928fbc6f402d355ec732c73e7eef31d1867115c8352acfec69f800ddd6367"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4896,
+      "sha256": "b6948e6910f8b4f578edfdd50273f0bee738c62351f5da0bffaea0ff7da7db37"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 46432,
+      "sha256": "cde80433205b3f6244b74ba7b46b3945143666e08f28d53771b4893cfec7a12e"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 51865,
+      "sha256": "6f30e45ab0fca98d59ab2bfc0af65e8b2d41f1bb11b4bc5e045ff539f81b1379"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 2487,
+      "sha256": "2e2abf269d68d185ce22c13b5b2173515a2e111e8b72b2bf350678fa4f770fdf"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 1529485,
+      "sha256": "b81a774bcded668ac29d411b394419e68431c3dc6a7602c4bea90c702d1419b9"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 86523,
+      "sha256": "f7781814f860048e4175b492776f87e8e63985ab3561fc31dd6e0cc783c182d3"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1701,
+      "sha256": "aaf0d70fc8219f96fa84372f13df5246cc147671c951473a119708b12ebf27e5"
+    },
+    {
+      "path": "index.html",
+      "bytes": 28191,
+      "sha256": "ac3cc9627459428194e3cff05315d0b80dff1211e854059e12f8a0e17321fcd9"
+    }
+  ],
+  "files_sha256": "a77bb913b8bf8b45b5d2332ddeb6e4beb0bf2323d2d6daaf2ef3b1f436204222",
+  "file_count": 9,
+  "source_bytes": 1755158,
+  "excluded": []
+}

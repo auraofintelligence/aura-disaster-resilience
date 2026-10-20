@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/dunwich-gumpi-ferry-terminal-open-data-lab",
+  "slug": "dunwich-gumpi-ferry-terminal-open-data-lab",
+  "capture_started_utc": "2026-10-20T07:57:41+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:46+00:00",
+  "source_version_start": {
+    "head": "965acf50fbf202242267ac8ef512c8ff75876b07",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "965acf50fbf202242267ac8ef512c8ff75876b07",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 29,
+      "sha256": "f080e2999397a7e37ff7c6d5d2eea530cdbf7b3049e7866fc9e999cc1b700214"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3668,
+      "sha256": "973bc4e63f9eaa4c014e6f411d4ac86c1aa10a3a67f23e741f8044e8bc678c2b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5732,
+      "sha256": "a7fef35b04592abd741200a683ea22d4177ce0803b3aa4599b1886289419e712"
+    },
+    {
+      "path": "assets/downloads/dunwich-gumpi-mapped-360-panoramas.zip",
+      "bytes": 10308764,
+      "sha256": "1a300b4969ad4f216311679cc4b8fb59156058e2ffb174cfe65c4d8e4ec2bd2f"
+    },
+    {
+      "path": "assets/downloads/dunwich-gumpi-public-360-panoramas.zip",
+      "bytes": 10387517,
+      "sha256": "a4de8c483ee9c09bea2f0f9e632c7e2ba91c1613cce7813a67c1195893ccf093"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 742,
+      "sha256": "4c76011d7e1380962f4d28ddabd3dc584e72654c776e71cc46359e66a19956c2"
+    },
+    {
+      "path": "assets/images/community-genai/rodney-surawski-dgftu-cliff-lighting-night.webp",
+      "bytes": 179314,
+      "sha256": "e7a1f7844978fd176056b0811e182230681298cc232ae04896ca55f97ab1b92a"
+    },
+    {
+      "path": "assets/images/community-genai/rodney-surawski-dgftu-daytime-foreshore-walk.webp",
+      "bytes": 103788,
+      "sha256": "8d1b399698930f48fd74bcf570b080129f7e02f2b512ee49725bcd6ab3877707"
+    },
+    {
+      "path": "assets/images/community-genai/rodney-surawski-dgftu-evening-foreshore-walk.webp",
+      "bytes": 100646,
+      "sha256": "f6d1bc23a202c7d6d86f2682f7f9e21d9ade33ae9f505787cee1063cdfe38b48"
+    },
+    {
+      "path": "assets/images/community-genai/rodney-surawski-dgftu-foreshore-plan-map.webp",
+      "bytes": 150884,
+      "sha256": "dd00dfba4c17e2c36bccc91bdcca82cc4d9e9ceaaaf991a6180174754872622f"
+    },
+    {
+      "path": "assets/images/dunwich-public-hall-sign.webp",
+      "bytes": 815386,
+      "sha256": "5732cb280e8ea2b0d1564f0caf126518d4fb747744eb56fed147e6fb9afd128f"
+    },
+    {
+      "path": "assets/images/ferry-terminal-site-map-google.webp",
+      "bytes": 93868,
+      "sha256": "f1a2e28240f949c5d44ec87e87081e76aeba4151f137ba26bec660d25951cd89"
+    },
+    {
+      "path": "assets/images/hall-render-board.webp",
+      "bytes": 212826,
+      "sha256": "934a70ed1ae4251add7183820b48e177b482ccafde6322665bc52accc2f5b695"
+    },
+    {
+      "path": "assets/images/terminal-foreshore-card.webp",
+      "bytes": 114358,
+      "sha256": "399625878b4b5379e2831a9498e042d8d7a95e087c173b2b3ee2483bd99e95e4"
+    },
+    {
+      "path": "assets/images/terminal-foreshore-hero.webp",
+      "bytes": 262098,
+      "sha256": "1a8ef888dcc1a5777b351b44c11154020fbd494cf1be2bfbd6bf58733a585167"
+    },
+    {
+      "path": "assets/media/goompi-ferry-terminal-trip.mp4",
+      "bytes": 10770885,
+      "sha256": "8774aa0780746f514e21de8a327337310e922d9fc689b1be4239b441737a4275"
+    },
+    {
+      "path": "assets/media/gumpi-ferry-terminal-groove.mp4",
+      "bytes": 10507536,
+      "sha256": "b4cbd9208c142d4030a0a41f8bd4ee1b26dfb105782c2023b666b07cf2fed816"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-01-thumb.webp",
+      "bytes": 20876,
+      "sha256": "b29629cd75b597c0f9a8ef852127ea160c0aff23de03c008efa3fb5d457ce3a4"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-01.webp",
+      "bytes": 205104,
+      "sha256": "99d1f2fa94f826bbac0cdd6ebbca304546e4b986a829b29e5454bfa18af91673"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-02-thumb.webp",
+      "bytes": 21524,
+      "sha256": "6388719d44220555edf653ea625313f9950022adee6672b417a80c05ad4590ff"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-02.webp",
+      "bytes": 196530,
+      "sha256": "0e65f40bc1bcb06c4da737275d261582b691974f133cb6f7a02e5e654404e720"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-03-thumb.webp",
+      "bytes": 19388,
+      "sha256": "efb5613d8160f6c0b0c409b266069129a91d403e4c871bd7be92531974053dd9"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-03.webp",
+      "bytes": 178516,
+      "sha256": "af9e7cc6c8f8395c4f67e320579a187b36fe63777d6c7e9b7dbcd77ee907d2c5"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-04-thumb.webp",
+      "bytes": 21444,
+      "sha256": "14e9540148ca849dc9fdbdd6db46c54d3e1e0f8dcfef7aa5fd72f12d3fa8515c"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-04.webp",
+      "bytes": 231232,
+      "sha256": "2121677fd09ddfa3ac7c9eca98d8db1141f97e46c1dc659fe4b99ab5085e3158"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-05-thumb.webp",
+      "bytes": 35956,
+      "sha256": "0e6115efcaba376ed1dbd6ab6f9a5037f7cc1a5d62b8b75c111075612c1bfc2a"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-05.webp",
+      "bytes": 365222,
+      "sha256": "8790e5779c95f46e70fd291944bf69cca1b94507a275273d27bf1e9a19065d68"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-06-thumb.webp",
+      "bytes": 24694,
+      "sha256": "4c944e5ecd01074de271f644a88c1085aa019291f87badde27089df24a778485"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-06.webp",
+      "bytes": 199854,
+      "sha256": "79dcffa9d2e491f6f51207e0086450f23c440a973d1523d35a45ee105d8c79c3"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-07-thumb.webp",
+      "bytes": 20808,
+      "sha256": "d5b5f8fe08d6efe82edc75988546eb4b73dfcc2ac0601c9fc5ebac519d6e6d02"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-07.webp",
+      "bytes": 225638,
+      "sha256": "77e02e95045d74143d6493c6af4f9d6fcbd4dabdab14fa75d954e0658840f488"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-08-thumb.webp",
+      "bytes": 25642,
+      "sha256": "d5764aa54cb7d0fb7a3523a29978eb43f52a6fc9c7b16d283dec507205029484"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-08.webp",
+      "bytes": 260862,
+      "sha256": "d6392c24c4dba7f2068eafa0deeee9dd92b74bb01f5c9f264001ac39279ccc8f"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-09-thumb.webp",
+      "bytes": 23800,
+      "sha256": "88261cb42ee366d6239f67851eb22460021698453fcc70df6680afe1fa7eff00"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-09.webp",
+      "bytes": 233542,
+      "sha256": "5171bc69365954d75f37bd6bfcdc69eb5a3fce682913710e64fe194042ef0d3b"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-10-thumb.webp",
+      "bytes": 22628,
+      "sha256": "617aa0b2545d0ba368fd17b2cc29c53fa395c6dea31ea38939abe04d77110ab3"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-10.webp",
+      "bytes": 215330,
+      "sha256": "6e5b4c2decf40591a34a90178f970b0d34ba1fe0fd7901d90394d09939520cfc"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-11-thumb.webp",
+      "bytes": 24050,
+      "sha256": "bd5c31ac0351a710549d887b9279890ab0efd0567552a75c146a498a3a843892"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-11.webp",
+      "bytes": 266460,
+      "sha256": "cd02a3626fe19a1eb4cf8b0f63446f0e8bac34573d34b54afe7d0631ee8a55ee"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-12-thumb.webp",
+      "bytes": 23870,
+      "sha256": "fcbca78f6ad149cd3c12ef9d87bee93602462ae85255a0a88ae0e5a7ccedac57"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-12.webp",
+      "bytes": 216114,
+      "sha256": "0b6561e07b7b711c0e11dee9eee1f5e8e4feb06526cfe9ffef817ff1cff93bd0"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-13-thumb.webp",
+      "bytes": 27598,
+      "sha256": "167f86686c3442208f3d7d66eb59edbf926366172c3c864095d09eaa35db25fb"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-13.webp",
+      "bytes": 222784,
+      "sha256": "6a0eb9fd69648d34adfdc408b8ca4b6012fe213072f3059cf10cc687d8a59af4"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-14-thumb.webp",
+      "bytes": 26464,
+      "sha256": "22fe458532839518c439e2b6ae12a3085508e9b376f06327bd841b50706570cb"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-14.webp",
+      "bytes": 242682,
+      "sha256": "90ed37d0817b90285ac68c509c1c43601e346bc5637b6333a5562ec96db54840"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-15-thumb.webp",
+      "bytes": 44842,
+      "sha256": "e434617944261ff2f0a766adb661defeaab5f23f7410247ec0c6b1599be14ebe"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-15.webp",
+      "bytes": 377838,
+      "sha256": "f1aac4ff9dda4afecfe8733f724cd8d5c7565471071ffe35a7ad98be6ac7667e"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-16-thumb.webp",
+      "bytes": 40858,
+      "sha256": "0b5b0fa5c9a325937a1459eb72b92f6417d036f5ac3251834d0af943f2c8dce7"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-16.webp",
+      "bytes": 408370,
+      "sha256": "5bff98fbeeea8a2fa82f53ceda6dfe3993e217bdb5f076be8f1670e31cbc7c41"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-17-thumb.webp",
+      "bytes": 34318,
+      "sha256": "c3c1296e63ac84f55e7a8c4a18703c087676e918f265713b33a7bdbd0809d313"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-17.webp",
+      "bytes": 298290,
+      "sha256": "ced60d0fda196971d3569d38887a13361f141b6454cfcbe73d370bb2c0aa6eb8"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-18-thumb.webp",
+      "bytes": 31684,
+      "sha256": "ca6a145deaf44e41e71ef1d7e72b8b8b5126e63e9c52c57794db5d443c3ad899"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-18.webp",
+      "bytes": 285396,
+      "sha256": "1923a0e747692a27de563e0f41452ddb6257a988bf1b7e1b0b2ecc39f345a351"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-19-thumb.webp",
+      "bytes": 34988,
+      "sha256": "7ed1b3413592ba535630884c75b8ce785f89e79a9ac3170d0c2fa7443f3a858a"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-19.webp",
+      "bytes": 332922,
+      "sha256": "7f958d015cd6a7748c58e76627dee000ea011abc5b6ef4b40b7ecace0bc16bfe"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-20-thumb.webp",
+      "bytes": 38914,
+      "sha256": "24d64f2c6a99daea72452d228f8d814ed0fdcc5d06d2a5287445803c268d95ca"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-20.webp",
+      "bytes": 394454,
+      "sha256": "97a5248c4267955145a8bedbb37fca823d18ebb581fff9ceb27a5955fec336f8"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-21-thumb.webp",
+      "bytes": 55974,
+      "sha256": "c5cd42fe1bc45c10abffcd2152df31fa7d8ae39e2c64df5e2b28b9f762416049"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-21.webp",
+      "bytes": 502088,
+      "sha256": "255027ffa43a941cb03778c7d609b27d773010d1c27b42002597740703c6c92b"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-22-thumb.webp",
+      "bytes": 55066,
+      "sha256": "ffd9c30ab3ec47165f7478a74a805f34e18bdef598ebd120a9592f224ce041bb"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-22.webp",
+      "bytes": 518518,
+      "sha256": "96750db94f096cb77c5114a7e90159c514d8c01658ab6d762e668d79b336ba4e"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-23-thumb.webp",
+      "bytes": 34086,
+      "sha256": "d8dca1d42703bdc7753c47d7a13de1a0124f6efdb43df800ae5f4c9e803887d8"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-23.webp",
+      "bytes": 275510,
+      "sha256": "01913505356df4ece58645ae264ec06df23f2e11b14e2786c9122f5a0c099dea"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-24-thumb.webp",
+      "bytes": 31032,
+      "sha256": "69530b199faa342da1dc5288c13c33022bbfc57d486df8063bbc179085fa29e8"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-24.webp",
+      "bytes": 235500,
+      "sha256": "d0b7b4ae58cc2421f3982117777fcff968d2f25004b7e80ff3240a5f8168d2f7"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-25-thumb.webp",
+      "bytes": 35682,
+      "sha256": "4978a79f9cf96757bdc6404b8c793d4058cd4284e460df6c1b50da2bf3e924a6"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-25.webp",
+      "bytes": 301602,
+      "sha256": "112fd7db448ffe16fbb882cee1df757cd88b4d444926d25b1e63883c8a89e997"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-26-thumb.webp",
+      "bytes": 31910,
+      "sha256": "dfc9a995e47c92437501a5daf9b7233cf70c26363147efa62ac830edeb26cf02"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-26.webp",
+      "bytes": 353080,
+      "sha256": "ab0d0b083ed394bf41ad26315d2f65913f3210202c7adb1a2813c1ad1d4329ea"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-27-thumb.webp",
+      "bytes": 30612,
+      "sha256": "594d2d5694f813b7afebbf1b8bfcd26971cd9b67aa433ebf6ab4d48ce8c64ad3"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-27.webp",
+      "bytes": 306836,
+      "sha256": "8513c05186a8230fabb18508a17e9baddbcfdfe866b67e42fea03025d564dedf"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-28-thumb.webp",
+      "bytes": 36660,
+      "sha256": "3a29887b81d133b85f0582fe4fb4f1ad4479ac9042b748f1c6c594816ebdd779"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-28.webp",
+      "bytes": 333246,
+      "sha256": "e59abb64963f547c243e94120d5974e04de0db3d3d4e8c74139ba2731d7bed46"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-29-thumb.webp",
+      "bytes": 63936,
+      "sha256": "1b503a52b8033ab72b8d871dc3f82b9c1b2d034b238c9da7a487f762eedb75a8"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-29.webp",
+      "bytes": 580174,
+      "sha256": "ccd6e6471481100d5663b17c505b7a6012d6ed3a5feb3f092c9e9d913b8c3cec"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-30-thumb.webp",
+      "bytes": 31266,
+      "sha256": "4512e01d76a659f8ac9d30c158294d2b49647d7dc7b469b95efc394e10e20dfa"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-30.webp",
+      "bytes": 271654,
+      "sha256": "cdf61f145387d482fd7a9e04b5a80374a390fd6a04494f7b39ebe9f7d6ddbf1f"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-31-thumb.webp",
+      "bytes": 51022,
+      "sha256": "0a312e62cd77ad3c4a0822d8ac359781c2b3dc82cbd2437f793d678e902586c2"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-31.webp",
+      "bytes": 529864,
+      "sha256": "4382b75092481592fe7d03b84780bdc174ba860d0578b049c97f068594cd347e"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-32-thumb.webp",
+      "bytes": 43736,
+      "sha256": "ddfda5c1e6d0a4a950e7d0fadeee5328436f9e93438fce9fa120b7c356c52029"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-32.webp",
+      "bytes": 423318,
+      "sha256": "a0ed5542d6e033b819efebdc108a923ed5f56b16c7ddd017bbb8cc9516baa655"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-33-thumb.webp",
+      "bytes": 32688,
+      "sha256": "c5edeeba7a9a4e5b0f64c84bab6ecb58eca5f7c4ca1d4be6f059ffd7842af7ac"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-33.webp",
+      "bytes": 312824,
+      "sha256": "1ce53ad9fa838e2d2665d825b1134a35909468df58b949ac168ddd314903a1c4"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-unmapped-1933-thumb.webp",
+      "bytes": 13222,
+      "sha256": "af0ee1af2cc2d6a573f635c9335218b5e1f87e109fbaf142c31e681401b0a379"
+    },
+    {
+      "path": "assets/panos/dunwich-gumpi-360-unmapped-1933.webp",
+      "bytes": 78580,
+      "sha256": "95ad806a765513612adcba2c423d0fda2afda1907b537ff96fd0c314e6717e1e"
+    },
+    {
+      "path": "assets/photo-data.js",
+      "bytes": 15852,
+      "sha256": "4b41f6ec84cf9e532f36910a5bf7f31d1c816892070f3a02a3ebaebbba8b93c4"
+    },
+    {
+      "path": "assets/script.js",
+      "bytes": 28322,
+      "sha256": "3f8721357f333c0d2f9b56e87dbcf1837e7a1add7e1cf116995df62b92820150"
+    },
+    {
+      "path": "assets/styles.css",
+      "bytes": 33758,
+      "sha256": "f5f5ccbe188c2eae276b0e2a15b41617967b5a6150b214082e3781bf560bc62a"
+    },
+    {
+      "path": "community-genai-examples.html",
+      "bytes": 10778,
+      "sha256": "90be2f4425cc7ed17260f6b5ca2937a81f29dd23cbcf7b21b9753a2d67e62a69"
+    },
+    {
+      "path": "data-ladder.html",
+      "bytes": 6316,
+      "sha256": "5de2a332e0fa553c7116e0c20b76840e3b095c2ef3c4b949fbe6cc647aec0f7d"
+    },
+    {
+      "path": "design-spectrum.html",
+      "bytes": 5261,
+      "sha256": "19173bc1310a24158d546631101d8407e0a717b15e15d5aa6da526543e68263d"
+    },
+    {
+      "path": "docs/capture-log-template.md",
+      "bytes": 864,
+      "sha256": "868346eb843f4686bf505f63bff783e55d7a3ebdf3d07323a9d27e81bd9c9ec4"
+    },
+    {
+      "path": "docs/photo-manifest.json",
+      "bytes": 17945,
+      "sha256": "abee8b287049f5f19568008602d5059a51e84b8c28fada9b45304a07bf988cfc"
+    },
+    {
+      "path": "docs/source-notes.md",
+      "bytes": 711,
+      "sha256": "dd573988df03d611c73375ed50a492817b95ed673ff9463806386dc160e4e235"
+    },
+    {
+      "path": "evidence-map.html",
+      "bytes": 5113,
+      "sha256": "4942c3b8c50dedbf88f2992815f023eeaebbe4e46e2857a939ca36237e540ab7"
+    },
+    {
+      "path": "index.html",
+      "bytes": 9492,
+      "sha256": "7fc6a96bc86fea86aae10152b8e0252088741b505c589bbf0be28b6bbab8325f"
+    },
+    {
+      "path": "official-trail.html",
+      "bytes": 6030,
+      "sha256": "b0d7416b59cda9eb2857f6eb3dc9f0adcadc60d5007bbe7b32cb9a86c878be26"
+    },
+    {
+      "path": "simulation-workflows.html",
+      "bytes": 7010,
+      "sha256": "6151ee6b25ca1beacc144d2c95c047b6f98faf3da8dee1448f5a72631805ef9c"
+    },
+    {
+      "path": "song.html",
+      "bytes": 5245,
+      "sha256": "e58e6ac2faad71575ed367575a0a793f5c0c3048e6acee8c843d9addf23df39d"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 7587,
+      "sha256": "4203545d97f29774848f6c32efbf31aac030514fa9c06a11d78d24f98a132ac1"
+    },
+    {
+      "path": "tools.html",
+      "bytes": 5055,
+      "sha256": "9c129029174d63f923be6e667ee58a49fec96772be3330d5d0abc3d02c9450a1"
+    },
+    {
+      "path": "tools/generate_photo_assets.py",
+      "bytes": 10356,
+      "sha256": "0bf91d4b49cb08c479cc775978a37e48fbc4dc01dc99ebc86f06e7f2be006769"
+    }
+  ],
+  "files_sha256": "2c0b175032ef45f4a23c9b113cfa1258ebef1ac1aa857edbf99fed2ca7fee541",
+  "file_count": 103,
+  "source_bytes": 55684910,
+  "excluded": []
+}

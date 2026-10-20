@@ -1,0 +1,1838 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/aura-matrix-studio",
+  "slug": "aura-matrix-studio",
+  "capture_started_utc": "2026-10-20T07:57:09+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:15+00:00",
+  "source_version_start": {
+    "head": "2232f1d69cc90a6598953223f841441b708d8d9a",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "2232f1d69cc90a6598953223f841441b708d8d9a",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 5395,
+      "sha256": "118f601aac2098a341819da560dd18448462050ad91c55ab803a11d0af496e5f"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 104,
+      "sha256": "f2e600e801cced70e7ed9a5ba673ea62a4dbe8aec1a8fad4f8745c1065700f8d"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "CONNECTED-AURA.md",
+      "bytes": 1927,
+      "sha256": "703a5d81231be941e090a5b82550fed68239fc6acbb9ddf3a95e8a5cf1d64a1e"
+    },
+    {
+      "path": "DATASET-CATALOGUE.md",
+      "bytes": 42109,
+      "sha256": "50fa712e896ba32139c693cd953a30ffcd570c796d9bc5d711aad964568c13b7"
+    },
+    {
+      "path": "DEVELOPMENT-PLAN.md",
+      "bytes": 15397,
+      "sha256": "71d8a3c74e219ea7849fafc065c3ab714f10e957f8d19ee641fb7e19613d9978"
+    },
+    {
+      "path": "FUTURE-DIRECTIONS.md",
+      "bytes": 2162,
+      "sha256": "9f51ca95609da77bf78d535c1cc1e99fd0ce57973d95c93bf8b1a1a381cd25b4"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3596,
+      "sha256": "1739f16d59a26068610673df1a27f5cacb5d83af0602b59b7e7d01cc22afbdef"
+    },
+    {
+      "path": "MARKET-DATA.md",
+      "bytes": 2432,
+      "sha256": "86208862da6e65a5064bc01b7ba232b7d0adc224fdcf2368877d98cb843c758d"
+    },
+    {
+      "path": "ORIGINAL-LAYOUTS.md",
+      "bytes": 3174,
+      "sha256": "a56dd6d71b651775d49682d713ad3ae5102bb485132db1e659044f10cbbce42b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 45011,
+      "sha256": "1302c7a52eab0aa8502600b9ece33404d2f4ca8faabd65e9838e8aaac6b5d780"
+    },
+    {
+      "path": "Start Aura.cmd",
+      "bytes": 110,
+      "sha256": "e0a4a656f00e1ba985d56e6c50dcdd38fda26503d11a5190d5be5b151cad1a23"
+    },
+    {
+      "path": "TRAVEL-AND-TIMING.md",
+      "bytes": 6442,
+      "sha256": "debcf739c2bbb885a272dbe7ad78dc2b428301209ff29aceaebcbef5b63e95f5"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 32633,
+      "sha256": "e957f4403584857ef524646e6060a0887566c7f665d52322d4e1e49fef5d8429"
+    },
+    {
+      "path": "affinity-ui.js",
+      "bytes": 12775,
+      "sha256": "90474b9909336841b8ca545b54211225b1e466ebf69c4805fd36884233c43639"
+    },
+    {
+      "path": "app.js",
+      "bytes": 26344,
+      "sha256": "134936a3ca213be48ad615e837bdfaf458335b27c44bb804580ebbe6a23991f8"
+    },
+    {
+      "path": "assets/aura.png",
+      "bytes": 52080,
+      "sha256": "82cd7d00c6d7249ce1e48473b16b01440616ae85d9bc16e48f558a539b4838b0"
+    },
+    {
+      "path": "assets/avatar/README.md",
+      "bytes": 11027,
+      "sha256": "99648ae324f139ec5d8ffbec81e2979b44fb299e63bcc13ac0b4689be36f8e97"
+    },
+    {
+      "path": "assets/avatar/eyes-female.png",
+      "bytes": 1897572,
+      "sha256": "41b8759de31b280857ac4edc42b2aff2e55e32d00f9e01037f7ac0f67706cb8e"
+    },
+    {
+      "path": "assets/avatar/eyes-male.png",
+      "bytes": 2011424,
+      "sha256": "06a52bd21cd2e816b9dae6449cbb17a3113e6eabf90155f4e316b7e22b32c6e4"
+    },
+    {
+      "path": "assets/avatar/human-female-side.png",
+      "bytes": 1632942,
+      "sha256": "5cd9635d41cbf30a9da9d19ece2cf70c35c4abd589633fb64b271c343aa64177"
+    },
+    {
+      "path": "assets/avatar/human-female-top.png",
+      "bytes": 1359843,
+      "sha256": "e6ad3e5ead095a3b4555774324da36a06813aa457ab31149a99a569d1987ec7f"
+    },
+    {
+      "path": "assets/avatar/human-side.png",
+      "bytes": 1264449,
+      "sha256": "94df3db049aa2a72b04f4364c7ae900fc8682c1373c1880e73f8a9978a227485"
+    },
+    {
+      "path": "assets/avatar/human-top.png",
+      "bytes": 1149370,
+      "sha256": "24ae99d53006420094615157f34007d738805190182316f1d0e41a610b149243"
+    },
+    {
+      "path": "assets/avatar/measurements-female.png",
+      "bytes": 1488175,
+      "sha256": "9b0508f7a126141f65bf38d57c1bbf619d60dc898dab8c5b3811c4a85fe7d171"
+    },
+    {
+      "path": "assets/avatar/measurements-male.png",
+      "bytes": 1473332,
+      "sha256": "f84e4ebf8da6ad05ad81012440c6cb064d018f87e2bb1d3aef575b51872a7818"
+    },
+    {
+      "path": "assets/avatar/shoulders-female.png",
+      "bytes": 1351650,
+      "sha256": "2bcab19c2925b8b63fce8c3ef4d9a1d7a5110593fa72380203517ca6812e297f"
+    },
+    {
+      "path": "assets/avatar/shoulders-male.png",
+      "bytes": 1679474,
+      "sha256": "eec67ebaf243479406aa2cd1db92a1db071ab187c4d33cf9f53bbd4cd1b1b982"
+    },
+    {
+      "path": "assets/dataset-catalogue.json",
+      "bytes": 78262,
+      "sha256": "97bc6ab930512f68d12a56a0bd18ffffd68918b7a8f34985586291ebbd995e5f"
+    },
+    {
+      "path": "assets/earth/GLOBE-SOURCE.md",
+      "bytes": 716,
+      "sha256": "372f11ea619fa3b7f94817960403c62ce0a018bb1141db1790614cf0c350911b"
+    },
+    {
+      "path": "assets/earth/aura-affinity.json",
+      "bytes": 2784959,
+      "sha256": "a9ea0c6991ca8e26f579132e68e2aedd3470bac6005b7115bab92dd5ce193339"
+    },
+    {
+      "path": "assets/earth/aura-alliance.json",
+      "bytes": 54157,
+      "sha256": "1533acfbcb8da52c6f29339f2c504ace1f66033cb383cfcfe808fe2476f01b63"
+    },
+    {
+      "path": "assets/earth/australian-missions-abroad.json",
+      "bytes": 24635,
+      "sha256": "2e6d13cf5a4adeb0c59f36c128a9b0b952ca058ae84129a56273398b41ad96e6"
+    },
+    {
+      "path": "assets/earth/education-registry.json",
+      "bytes": 9287262,
+      "sha256": "988418796eb38f3831036efc738ce152ee41d053f506d1149cff28cb55f67b1f"
+    },
+    {
+      "path": "assets/earth/foreign-missions-australia.json",
+      "bytes": 277879,
+      "sha256": "e73aa4fea50638f9b40bd4d83a72ad77e6301c7196c1eee33f827653bc2a1cc9"
+    },
+    {
+      "path": "assets/earth/manifest.json",
+      "bytes": 10804,
+      "sha256": "3022f283093e66b51ca8df1f76c0e829653ad6c94cf27cac5631eb788506117c"
+    },
+    {
+      "path": "assets/earth/ne_110m_land.geojson",
+      "bytes": 138161,
+      "sha256": "3d34c10cebfdba17f5f97180dd7c5100c8c5e05f2f583061aa8de2e9f942a904"
+    },
+    {
+      "path": "assets/earth/north-stradbroke-reference.json",
+      "bytes": 30747,
+      "sha256": "9790e191225082bf9421b83a32dd808d4b4493b8575ab1de044ddbf61779b5b7"
+    },
+    {
+      "path": "assets/earth/starter-world.json",
+      "bytes": 1383,
+      "sha256": "e91352576159621ebad6f4e7b9d26a6e386875bc3ae97431427bb51ccf42724b"
+    },
+    {
+      "path": "assets/earth/world-cities.json",
+      "bytes": 5643842,
+      "sha256": "e60c461407b4ed50a9e805506b5c4846263fc3c432c2407ec0c06edec51b089b"
+    },
+    {
+      "path": "assets/market-data.json",
+      "bytes": 2719645,
+      "sha256": "dd164565451a5ad89ce569c43c0d310cc262f01d29ccaf89e84da0c0c6083ba8"
+    },
+    {
+      "path": "assets/mockplus/00710EA2E61D49D8D14CF8F7A84206C5.png",
+      "bytes": 115,
+      "sha256": "d09ddd81d51582e7bddf2a949c1a115d1a80ff73c52c512a7442e5feef314ac6"
+    },
+    {
+      "path": "assets/mockplus/02DAB36CF2D0E817822D46D2A025E6A4.jpg",
+      "bytes": 22660,
+      "sha256": "5230006436ed74783659c6f05456ad141c05c8689bb963f43924f6e3bf24c684"
+    },
+    {
+      "path": "assets/mockplus/02f06b7778ed7fc4918c66ce3baa7ee1.svg",
+      "bytes": 563,
+      "sha256": "86cb89a8ed223e32748b06d62a4713ad537dc365bca3f92f05f0c8e28de68f87"
+    },
+    {
+      "path": "assets/mockplus/04C8DA09B119E8E72A8D672B6A2B7CB0.gif",
+      "bytes": 491420,
+      "sha256": "22d087c37b3f63d3d3b5e7f35885d32a796ff5a60785ec85b3a72a4422e0ac80"
+    },
+    {
+      "path": "assets/mockplus/04D37F5E2F7AA97EA9C4D8DEA499B72E.PNG",
+      "bytes": 144099,
+      "sha256": "f15b782b42461023bd6456d6fa6ae073c6f0ef60d16fab483f4509820c1069c1"
+    },
+    {
+      "path": "assets/mockplus/06233E82D0AAD161C0576BC107BA83C9.png",
+      "bytes": 76094,
+      "sha256": "4a404240ad270274ab67248c864f61e3bbf69d9e93b966677cd4ca152ceda31a"
+    },
+    {
+      "path": "assets/mockplus/065D56874E184BC7A7961E1D5E403188.jpg",
+      "bytes": 40103,
+      "sha256": "04de76d3ed06b31ae321cfe45b65967be01d6e98c70241358a43b5101a57814e"
+    },
+    {
+      "path": "assets/mockplus/07A00D1F5F9271102A77FE2C9B232193.png",
+      "bytes": 149131,
+      "sha256": "b649a4f80cce4bb083ce795c0ad3aceba7de3f560cf9bcbd3e075570c7cc08e6"
+    },
+    {
+      "path": "assets/mockplus/07CDBA02C27F4471F13F69DBEEA9EB5C.PNG",
+      "bytes": 161283,
+      "sha256": "74f3992a9311e821dec4866926897d85997aa9092c9b43dd455f48f4d2904a5b"
+    },
+    {
+      "path": "assets/mockplus/08DFE210FF63CF04C04003C08DF14CE9.png",
+      "bytes": 44132,
+      "sha256": "fe6086ca71676854ae349ccd8f3146beed300db3ac3e45e0f97c4b7604c6e70d"
+    },
+    {
+      "path": "assets/mockplus/092D4D4834D6BB9E9BD27F8C8F759F95.jpg",
+      "bytes": 26464,
+      "sha256": "393454ff110e8e2c842d4bf4416570d36b3d71eb31e47e3c7a8b794f65e93fb0"
+    },
+    {
+      "path": "assets/mockplus/0953B260ACA92DC6386B518705D16FC7.jpg",
+      "bytes": 9633,
+      "sha256": "48a435add09b2c52de920a2aee7cf1fbcfb49f92e14f3c42e77807910df89ee5"
+    },
+    {
+      "path": "assets/mockplus/0A2A7E2791395ED30ED25BA9DFF321B9.PNG",
+      "bytes": 40950,
+      "sha256": "11d02e45f6959060fd90e1dcd78763af391571470b690a6492bd5e6c3a6bbe7c"
+    },
+    {
+      "path": "assets/mockplus/0ABCA333E72572EBF1DB75F78521F259.PNG",
+      "bytes": 74872,
+      "sha256": "061fa4d2ce3f22f54c967d58bb7bf335c707cff6cd200892b7c67582f186b9da"
+    },
+    {
+      "path": "assets/mockplus/0B5212C5C7894B847B20F68A5CF6E14F.png",
+      "bytes": 120190,
+      "sha256": "19343387aeebbac613d50f9be8d2a4892dac23d1ec2edf27221055e1cbcb025f"
+    },
+    {
+      "path": "assets/mockplus/0BCF25E47B15C7F1666B9EAFE53586FF.jpg",
+      "bytes": 24038,
+      "sha256": "551a611c3884d1ac852b0120f1b0f39e04e28619402516c9177e18c4b5195e1f"
+    },
+    {
+      "path": "assets/mockplus/0C3F06CAEEDE8CB8A06C966089E874B3.png",
+      "bytes": 89672,
+      "sha256": "1515c53c9109cd301745dfa7e9b13dae0e686bf22469602469ad7a1f4c635242"
+    },
+    {
+      "path": "assets/mockplus/0C76859B695E067F4CED4A3BC4435401.png",
+      "bytes": 23413,
+      "sha256": "51be04795a51a8d938de5baecf5a7084f7ab1fc39f1f11777eb00192f55bd845"
+    },
+    {
+      "path": "assets/mockplus/0E97B46351CBE7901E2CB3A1198907F7.jpg",
+      "bytes": 28142,
+      "sha256": "c3c3bb0fa6afe29bfd17964f812ccb83d3d4a2426a58b23709212b8a865508f5"
+    },
+    {
+      "path": "assets/mockplus/1105A4F5B166469A25DB500CDC00E28C.png",
+      "bytes": 15172,
+      "sha256": "b3c9af1d16746884e19834e71d42bb6a58a76d7331a92eb63625a048735be86e"
+    },
+    {
+      "path": "assets/mockplus/17D302A0B3BBD767F83DE3BB842A7814.png",
+      "bytes": 238342,
+      "sha256": "839c9bca452d695b6047b2af13021e8e3ff2cfc5e21adefef82f27ad6619852d"
+    },
+    {
+      "path": "assets/mockplus/18ed50f13768cf03193aa1d5b410d178.svg",
+      "bytes": 573,
+      "sha256": "86215e3d1395730840020cbf862e58db6cb09877cafc0ab6147718397acfae3d"
+    },
+    {
+      "path": "assets/mockplus/1A6BA9625BD55EAFEA2453BF3128602E.PNG",
+      "bytes": 244874,
+      "sha256": "fc814842b8e1129503f2678ff6875bd36052d887ec08dd71daa26f60aa8cafcc"
+    },
+    {
+      "path": "assets/mockplus/1AE44B0146F489F2E241C21805148E90.png",
+      "bytes": 98271,
+      "sha256": "9e9ee21f614b119bd37b013b8fec9032d0163807c5555cd52174512fa74f706e"
+    },
+    {
+      "path": "assets/mockplus/1B465AE35B01C7D6F0612E62F764A57D.jpg",
+      "bytes": 16422,
+      "sha256": "79058de8ef87ce6102610db7d8231ecb61a3008e7103ab2083f4edd7d7d7b8e1"
+    },
+    {
+      "path": "assets/mockplus/1FAEA460BA2DD1F481CAA4F083500742.png",
+      "bytes": 94570,
+      "sha256": "00fd1316240341e1e9be3e8da31ea990ced67c078fc2e307b20eaedf88f66482"
+    },
+    {
+      "path": "assets/mockplus/21a36676dc214819ef3df2693c91f5e7.svg",
+      "bytes": 475,
+      "sha256": "6678cf8956172f83457be69908dff5f5dee2fe1995603d159e9a94660ea7347f"
+    },
+    {
+      "path": "assets/mockplus/221BB19480789B4B222416B9E640FD2B.png",
+      "bytes": 540225,
+      "sha256": "cb7934b8b45285916c4d790963b4268895e02847e75602c245ea8ee17293fa96"
+    },
+    {
+      "path": "assets/mockplus/2293BC4F9F6AFF17F7D8D83951DF0304.svg",
+      "bytes": 272,
+      "sha256": "97359df46566fcfdfe115300d04c7733c0e0f583a5850b82976dbe5595f384a4"
+    },
+    {
+      "path": "assets/mockplus/230051b5e6ce659396811bb13650c7bc.svg",
+      "bytes": 535,
+      "sha256": "35ed94ee1af70a13758e027e58f0782a400ab780f9d0c4833d60de75114bd194"
+    },
+    {
+      "path": "assets/mockplus/23471620998841C8586A29E30A5E0B0A.jpg",
+      "bytes": 21026,
+      "sha256": "b1105df048e8766ba012401d41094297ec189f0ed99addca2331f8de245e8955"
+    },
+    {
+      "path": "assets/mockplus/23E3C63C1955CA65B42D77692EE3325B.png",
+      "bytes": 29847,
+      "sha256": "819b1c8d0aa075655750be7da307ad9effbba154e6162ce6b3958c46a66611fe"
+    },
+    {
+      "path": "assets/mockplus/24F8DD6C0F438B0649D45F055D982E96.png",
+      "bytes": 46041,
+      "sha256": "3c50a643939a204cdfea3f7b2191cc6c0988a3e1ccc2383a825fecd7800ebe58"
+    },
+    {
+      "path": "assets/mockplus/258bd6e394710023bcba8698bdaffa90.svg",
+      "bytes": 227,
+      "sha256": "83e607420e02615d095e2b932d43acfb57564a04399dbae80a17fb689843fbe5"
+    },
+    {
+      "path": "assets/mockplus/28F06C76D2160B9A0A3FE46DE2092965.png",
+      "bytes": 372239,
+      "sha256": "ecf36b6ea1313ccddcd7fe063428627ff07b454f8eb28c37cd351a6a2375ff50"
+    },
+    {
+      "path": "assets/mockplus/29F962FFB03566A7FBECD5389C215D83.png",
+      "bytes": 115,
+      "sha256": "3d294e850369632bc64a0b617f9f428d5f3bbc933ce131c78404bb5e88c2fe91"
+    },
+    {
+      "path": "assets/mockplus/2A66AD5F70E931FBDD63345060494B7C.svg",
+      "bytes": 587,
+      "sha256": "2dafdbe6f648e7bbbb701eaeb19f4dc6e7bf6d3c7ed4c169d6275bf20c10c97e"
+    },
+    {
+      "path": "assets/mockplus/2AABA349401DCCD92E2ADE5027AEE1B6.PNG",
+      "bytes": 36324,
+      "sha256": "93f906dc413f41bfe280d4dc0e7b6d68304509cde21d7c078d69b62e963d9cec"
+    },
+    {
+      "path": "assets/mockplus/2ABFEC3A913EDE79B68C14182DAA2D1F.PNG",
+      "bytes": 204708,
+      "sha256": "47355e6fea2c94e75f983edb1ca561e08b9e2b4e5387d7da2376836acaa28d0d"
+    },
+    {
+      "path": "assets/mockplus/2BC62A2A39E76DADB7FDF760D42CCD58.png",
+      "bytes": 6571,
+      "sha256": "f59f85e4970bb70ca0ec9ec88ecbc596672f3f477e0d9b201b8dc1a014728a9f"
+    },
+    {
+      "path": "assets/mockplus/2BDE46FB74CDFCE26ED4C5EDDE027204.jpg",
+      "bytes": 96530,
+      "sha256": "3b03e8a7f9eeb1776fdc62a97564bb49431e7b4dabab4ba405af2043928606f8"
+    },
+    {
+      "path": "assets/mockplus/2D0AAEEA1F543459C9F086DE92D76DCB.png",
+      "bytes": 38947,
+      "sha256": "c9bd3c28c5715943ce9305c7f6b8e64625f8c00e645b06e4cb0403bb4b5af46f"
+    },
+    {
+      "path": "assets/mockplus/2F4718B8F8FE47B565BB55847DA63B34.jpg",
+      "bytes": 8719,
+      "sha256": "e8babab73dbd090db0142ccccd69589365d27d5d13264aff003b4c18b959e1c7"
+    },
+    {
+      "path": "assets/mockplus/2FC66D24A7DB3DFDAADE9F12BAF542DA.jpg",
+      "bytes": 18436,
+      "sha256": "df40eefdda5d391930a083565ffb0b50dae43cc30b433cbfbb83217fe67cdc6a"
+    },
+    {
+      "path": "assets/mockplus/305F48349317696D0821FE158EFABFDD.jpg",
+      "bytes": 25899,
+      "sha256": "8fd9c5bd2c7f648e03d945c7ac1fb1f0b88b1a44941368c911c7afcd5550b1c0"
+    },
+    {
+      "path": "assets/mockplus/3161510E7F2F81ECAB38FE6D4E856966.PNG",
+      "bytes": 153518,
+      "sha256": "181ba5359f16b06f250e3314ffec6a939823c25f89ea4869e83a7fd3ebaa5eeb"
+    },
+    {
+      "path": "assets/mockplus/339BCD9C880E1AA9003CB7D0D5AD9536.jpg",
+      "bytes": 45450,
+      "sha256": "7a01d2c98bf9b3d44355e22f4d03c6dd70b8d84a5d13441227d17cd261b8269f"
+    },
+    {
+      "path": "assets/mockplus/378FB940BB4454535D931F9395494EAB.png",
+      "bytes": 130308,
+      "sha256": "891a6ca827b1e7730f3f5c30db96065633730387df384cd62d79d04e8d94dd88"
+    },
+    {
+      "path": "assets/mockplus/38FDCC2985DBA59F2801E5245308F6A8.jpg",
+      "bytes": 18738,
+      "sha256": "bd250b5e984411f1ae36db3cca872df50f4f78a7badac9fe18372e6baaa9ef8a"
+    },
+    {
+      "path": "assets/mockplus/3A43AAEB0662F95DD43CB91BFC1B0ACC.PNG",
+      "bytes": 145237,
+      "sha256": "5c3f6b7b5085f2cba0802c41ed5abc44e8728cd2d19171b156b823a132c69011"
+    },
+    {
+      "path": "assets/mockplus/3C8164AEB81BCC8797F268EF2D39C870.png",
+      "bytes": 23640,
+      "sha256": "34707a2dff4f9a24f5a574b3e9d383a60b61f6be6dfb16328be02d501900c5be"
+    },
+    {
+      "path": "assets/mockplus/3CB426F4D3FCDFE603A18864A6182A02.PNG",
+      "bytes": 51788,
+      "sha256": "1f0d7a3b1e0e329a0d079d21f9e062b43635c54090b6a3d7f880491f1eec2650"
+    },
+    {
+      "path": "assets/mockplus/3f03d807d57bb7396692a9695527e1c2.svg",
+      "bytes": 280,
+      "sha256": "9d6726e57c5f2091da280a4e626385104a9eb81a835e471170221b824c28391f"
+    },
+    {
+      "path": "assets/mockplus/40E6BC2771C52E5D887B03999495474F.png",
+      "bytes": 461533,
+      "sha256": "243a0c9c587251a2ea4cbaa11c2b09d176d30a65d086ce6af115ba70a96d5e57"
+    },
+    {
+      "path": "assets/mockplus/439A2368A0181898732B7053F34EED64.jpg",
+      "bytes": 32038,
+      "sha256": "bf57593c57fe3987e365f166a2daf06e28ae3366069e2e389059d3348aa0836c"
+    },
+    {
+      "path": "assets/mockplus/439ae5cb6d0ba37d354033be6ff6132d.svg",
+      "bytes": 284,
+      "sha256": "5e2e714ff057d761e9583aef970adb11d04395d0d05185f6efdd7b17dfc27540"
+    },
+    {
+      "path": "assets/mockplus/467605F5F90D9FF65132C1A6EF883F26.svg",
+      "bytes": 1376,
+      "sha256": "9105c3f4f28b544de5d74c97598dfce689ff0396e4640e84670bfad08f6d112d"
+    },
+    {
+      "path": "assets/mockplus/46BC72960953FCF45AD1438334CE9BED.jpg",
+      "bytes": 27182,
+      "sha256": "c5b27f0a219e2e6ea4ac03e670aebe241418fb5b8abb150afbb6f67ede74a215"
+    },
+    {
+      "path": "assets/mockplus/46BE05D6127E6CCC0C8AE92AC3027C63.svg",
+      "bytes": 397,
+      "sha256": "ee49fb42388f4f8720a0f766308ebbda71844af91fc6187b8bfefe1e4e7163f0"
+    },
+    {
+      "path": "assets/mockplus/48b694914383666a336ebaeb0b0cc7ce.svg",
+      "bytes": 281,
+      "sha256": "6976f40027cb484fe50ee5b50aa2e7e95743e7e5b816ed724695a9dc2e60bba8"
+    },
+    {
+      "path": "assets/mockplus/4A693F0E9FF171F51975FD49D6932AE0.png",
+      "bytes": 12676,
+      "sha256": "b8d38544e32c562f502442c634fe1f08b163f2a26b1cdc5d4abf92ae4c37197d"
+    },
+    {
+      "path": "assets/mockplus/4D1F1FDFBBF610B2A61FEF4F20F491DA.svg",
+      "bytes": 979,
+      "sha256": "beac1a266f81729dbc5b3796107455013e2505b1896244151f773f55fe1cf5d5"
+    },
+    {
+      "path": "assets/mockplus/5048D1594D360437BC04ECB3EA097601.png",
+      "bytes": 93456,
+      "sha256": "bd5be894e20d17c379c2cc5fb811ce48cc3de2da6b7928fff06f55f0796abb59"
+    },
+    {
+      "path": "assets/mockplus/51AC507866FF36FCB4B68BD5106BB37D.jpg",
+      "bytes": 7940,
+      "sha256": "0a550079f1af0d0ea533a6562c995783d097411ab550db655e08136f8d78d3ca"
+    },
+    {
+      "path": "assets/mockplus/522030BC225C33B53D271536EBAE0872.png",
+      "bytes": 32814,
+      "sha256": "e5b752193c992fdaab5a5079c25ef528c5e3a232c13a3e8467a824b113a26de3"
+    },
+    {
+      "path": "assets/mockplus/537E87BE45454DC8C39F53A3E1204353.png",
+      "bytes": 80285,
+      "sha256": "22969edabb4b792d31579c5e0f1acb45611c66ab606116398e1ce178d853da03"
+    },
+    {
+      "path": "assets/mockplus/53CB63424B374FD9CA6D040DA17CFA36.jpg",
+      "bytes": 20259,
+      "sha256": "102a812c84f37f352b07d2c14817d9977d2de18e3ad2a4d344711683f99d311d"
+    },
+    {
+      "path": "assets/mockplus/558FDD80F2586CB5E4C89E321D8C75B7.PNG",
+      "bytes": 152473,
+      "sha256": "8e5bc9a6aeb04dbc11426379827528b99df1d19f412f9f7e1e925316bf32ed35"
+    },
+    {
+      "path": "assets/mockplus/586794C26C30303BFA67B8EC0907C3BA.PNG",
+      "bytes": 6327,
+      "sha256": "4bad7842cb1a34c9448121345eef201dc75c021a0f9f98f3db80eeab1dbf73ff"
+    },
+    {
+      "path": "assets/mockplus/5AA63218A3DB30082BE3CB50EE3AB2B1.PNG",
+      "bytes": 157805,
+      "sha256": "2f1e3f8e368e2526d3ee5bf7af1a298bd6fcee292451cd719e1bc9077567d614"
+    },
+    {
+      "path": "assets/mockplus/5CDC77AB5EFB9147994DCC383CB22438.jpg",
+      "bytes": 10782,
+      "sha256": "53661d320c7275abd80bdd053882b5c3329727d9220c2eaa3876b16affea2d6d"
+    },
+    {
+      "path": "assets/mockplus/5D7DC63A1D7E8DC2B41549BD36AEB538.jpg",
+      "bytes": 32069,
+      "sha256": "e7f0e9cb71c9fa37ccd51649ffdaa1da614dda9b099440d9c460558460d71c7f"
+    },
+    {
+      "path": "assets/mockplus/60439613C09C71558320259CEB249B88.jpg",
+      "bytes": 13792,
+      "sha256": "9202ac56072a5d17b27cd9660542aff5f1c5c994c1510beaebdd4f6648969978"
+    },
+    {
+      "path": "assets/mockplus/60E4503AC5AA95EF64287D5C0DF65A6C.jpg",
+      "bytes": 23376,
+      "sha256": "d042a0f4c1792e64389c91d36ad53f0aea9dad1255c90374d1d94100812bdfaa"
+    },
+    {
+      "path": "assets/mockplus/64FE869119EEFA9732916C7BC35AAA51.png",
+      "bytes": 372953,
+      "sha256": "4d04b3b0cf7477ce8721f4fca8060da5a89c7d45c4b876a75fd4ce586a81a163"
+    },
+    {
+      "path": "assets/mockplus/65E3262E54DE6043A23E44777A7D0548.jpg",
+      "bytes": 43160,
+      "sha256": "f281ba016c4ac915b093a3539d957197e63b04237fd107d294ed23533403dfc1"
+    },
+    {
+      "path": "assets/mockplus/65F8CF4E2D457460421D422760C1045B.png",
+      "bytes": 42987,
+      "sha256": "ac6f45c84dea76d8556ab84cd2de98e3409ee16644f35ca3b874f9d24ae12aca"
+    },
+    {
+      "path": "assets/mockplus/6A45EECC51FD2DA2D97D3058FB267722.png",
+      "bytes": 21281,
+      "sha256": "9ca8754194e77e6bc91170e1236736640756e37aeddde446ab0f1d6bb6e0914d"
+    },
+    {
+      "path": "assets/mockplus/711F3000F2D6B125740C3C76275F2011.PNG",
+      "bytes": 155316,
+      "sha256": "427d36fbdcd9a8c681d2abeb1c99272c99048b08111e3cb1f59e75fad612bdad"
+    },
+    {
+      "path": "assets/mockplus/7535b1cc8693e40102c4a54616532dcb.svg",
+      "bytes": 524,
+      "sha256": "5c2ac8a4870e476e507b391c764f6f09657be225df3d69323cc72609d70c13f7"
+    },
+    {
+      "path": "assets/mockplus/761729663F904DB8A9144E63AE19A501.svg",
+      "bytes": 445,
+      "sha256": "103307abbcdce855de369af1103783b05ef779f881c7ceba1efe7c9fdcf135fa"
+    },
+    {
+      "path": "assets/mockplus/776b5c535aff966b398bb8b76d498204.svg",
+      "bytes": 249,
+      "sha256": "f80444f3a674d07b54599bf7ee5bc21660f6631069714868ce8ada2a0203c8c7"
+    },
+    {
+      "path": "assets/mockplus/79E681A0879BEB9EEA0055755B4D934E.svg",
+      "bytes": 1345,
+      "sha256": "4dcfbe0f7f3e2df23c4429bfceac1c36f7cbfb9eef22fd3a5568e7e0717328e6"
+    },
+    {
+      "path": "assets/mockplus/7A66F07529AA0EEBE30C127C19B3FC19.jpg",
+      "bytes": 27657,
+      "sha256": "22c19edca8ed5540963a36a624d470868e80a75bdd3625e0f8cc52c74181e284"
+    },
+    {
+      "path": "assets/mockplus/7B763900231880F6A03595E80F5DFA08.png",
+      "bytes": 64949,
+      "sha256": "1d6a2eabc6b6f34db9373ee3d2cc2adf99c2f96abedde15eff0e86ffa0cef906"
+    },
+    {
+      "path": "assets/mockplus/7D04C2AA20A9DB0F936FFA08FEA12CD0.jpg",
+      "bytes": 35317,
+      "sha256": "6c7277baccaf193418eaa0ae2338997fa1265f3c748634f0f199ad344965a0ca"
+    },
+    {
+      "path": "assets/mockplus/7FF2D7399530FCC9B4665A0818130C4C.png",
+      "bytes": 65877,
+      "sha256": "4b5b231d535f3ccc07218dae8666cc1cb9e463d0efb2a193bba5ad0034d689f3"
+    },
+    {
+      "path": "assets/mockplus/811BE375CE1F46DA79ECD44D2DA99F94.PNG",
+      "bytes": 145228,
+      "sha256": "f148e4770c22ec489fae3eea627d1ddab79989815d1562204fd936e06ddab2ef"
+    },
+    {
+      "path": "assets/mockplus/8258E12795829FF401FF1DA814C61C7C.jpg",
+      "bytes": 12189,
+      "sha256": "40b95fcec104c83f8b9616beeada525875136dba781b0b7889fc7b32df08ad59"
+    },
+    {
+      "path": "assets/mockplus/84E43FD667F4EA128EEFBAD7B03B51F5.svg",
+      "bytes": 268,
+      "sha256": "874332b9122b5592fe3d0d254b73e46d23ae7a6baf3a450c50bb8075f7cff94b"
+    },
+    {
+      "path": "assets/mockplus/86B0ADA6055984BBBE033B37BAFCB445.png",
+      "bytes": 23260,
+      "sha256": "d58539121fafa7dcd35cf7d942e76a284a8f5aac00d37dbd299d3e7ecd832fd4"
+    },
+    {
+      "path": "assets/mockplus/8989BAD90B7F1D591B4686E7E8A732B6.png",
+      "bytes": 16403,
+      "sha256": "32ee4f42f8e539b7448a3b4d7e742f204b237fbfea2810bc29e9052903a68bba"
+    },
+    {
+      "path": "assets/mockplus/89DA205C597D9A35F474CF82346E0A47.jpg",
+      "bytes": 14615,
+      "sha256": "02e1f88cb17eb117f11c9640d454ff5baf9b2da271f40a0344f5d804da9f65ef"
+    },
+    {
+      "path": "assets/mockplus/8AF6EDCB02DB7C0BAFC8CF272C6B642A.jpg",
+      "bytes": 36646,
+      "sha256": "790f8d2e66f4a9e97dcf3fd84ab91a68a80b05caba28ffc772fc808ceb98e466"
+    },
+    {
+      "path": "assets/mockplus/8B466A8D806CF8DEEBB46899F773B7F6.png",
+      "bytes": 75566,
+      "sha256": "76077ebae58104e7d30372752c4ceec3c6aa33d32a80390d01f9b3a439ffc124"
+    },
+    {
+      "path": "assets/mockplus/8CC6417FBAA5327E3F41379B1C75B109.png",
+      "bytes": 37055,
+      "sha256": "a5c43262c0ff5c9dbec993007b50d3cd490f896389ba8098fa595e74e272aff1"
+    },
+    {
+      "path": "assets/mockplus/8D1750ABD2D2696F501DD4054F86AA3F.jpg",
+      "bytes": 18605,
+      "sha256": "b19da99a9e90fee58110e1a462424978c36b5e211068dc20497253cdb16e8fc8"
+    },
+    {
+      "path": "assets/mockplus/8E53D59652AE6774117B4777BC6F5C95.png",
+      "bytes": 334496,
+      "sha256": "d6eff80e645538c3b2197d87a40b52c00088bf867f5947ff3cc5f639706c162b"
+    },
+    {
+      "path": "assets/mockplus/8ED5332F9A1FF7B644566B5EE51BB8CF.png",
+      "bytes": 76897,
+      "sha256": "dd867b5fcb09f03ccb75405587997b9ad6ab03058a37b55628f3c9e83754b15b"
+    },
+    {
+      "path": "assets/mockplus/8F5E2CE3F42C6D01CB68ACBA0B0689D3.jpg",
+      "bytes": 13237,
+      "sha256": "20034d87f03fc4623b977eff7228803dc717c7d8acd58740ba8f04c3b701dcf3"
+    },
+    {
+      "path": "assets/mockplus/9144B16154E7A469322B7C1FF446DC13.jpg",
+      "bytes": 35454,
+      "sha256": "72fe1325f5f0f5b1318cd17633903cbb6c1b8e3f7dcb13f93447dfd03316e7c3"
+    },
+    {
+      "path": "assets/mockplus/922B216C70351D6B914E1278AB7DCA25.PNG",
+      "bytes": 294241,
+      "sha256": "0b75b2b0f4a7872fdbb4400067c8cad253d6c21b94dc27cea29898d60527b85b"
+    },
+    {
+      "path": "assets/mockplus/950BDC01DF7685334DB13CF552A16714.PNG",
+      "bytes": 260457,
+      "sha256": "fd09f43bdedb69789ffa6e30e9a24c3aa4622e201aa274938b67f746e65d5868"
+    },
+    {
+      "path": "assets/mockplus/95e067e6aaad7455399e92a53e6cdd37.svg",
+      "bytes": 257,
+      "sha256": "4deec3cd43f9021c18416ff531cd27033f2dfd43f1b3b96ca2150e54f6dac86b"
+    },
+    {
+      "path": "assets/mockplus/97A34A4B137BC6221C59BDCD52003E1C.jpg",
+      "bytes": 15759,
+      "sha256": "355057baf9a964a62e1dba7984f7d651dbe6db95bd3aa72ecd5037498c6fa332"
+    },
+    {
+      "path": "assets/mockplus/98E23008755DE0192AD5EDA13E4BDF98.jpg",
+      "bytes": 46234,
+      "sha256": "a4b586d68fd7ec23525205d68bb976a9acb33eb568b84db563f5dc2acdcd5819"
+    },
+    {
+      "path": "assets/mockplus/9B0EA5F59A3ED2569A83778A19D4C507.PNG",
+      "bytes": 7474,
+      "sha256": "60373bbf63fdc06fb3fddbfc07d4bf7991c6b23309b3d512e1b32c9226a7d4de"
+    },
+    {
+      "path": "assets/mockplus/9C56D40C6F78A914D67376B1360D0FFD.jpg",
+      "bytes": 14970,
+      "sha256": "3299a4e1f55817ea314c7581200add7167382efdec2c04b382be817cf495c115"
+    },
+    {
+      "path": "assets/mockplus/9DDACFA1CF56DBAEDCDB44BD9EE77A8A.svg",
+      "bytes": 310,
+      "sha256": "b211ade1c208131e22a64aa181862a02aa8a3f4da177af94beb28c6c40796b7a"
+    },
+    {
+      "path": "assets/mockplus/A0DA1E2AD8715BC9992E4C2944F20A97.jpg",
+      "bytes": 10599,
+      "sha256": "0e7f27b5344539ce238cece38c5ae39fcc246aedb1560086c1cab2badf3aef3a"
+    },
+    {
+      "path": "assets/mockplus/A26123CD79DE48FA0021302580F43E7A.PNG",
+      "bytes": 189641,
+      "sha256": "c0560397fb3a6f330260c869d9294d8a877a8dbe6fe3747bbb4d03b353666b59"
+    },
+    {
+      "path": "assets/mockplus/A30DCA1AF78A9BC702E7D9853E31BD72.png",
+      "bytes": 435930,
+      "sha256": "384af86b591d25a6fdf565c477bad063ee74c2e3d8d7e96cf1f76b9042bad673"
+    },
+    {
+      "path": "assets/mockplus/A669B7DC6571DABA232C26DA234D23FF.PNG",
+      "bytes": 155736,
+      "sha256": "dbff4c5026a73e1f83959969416af179051aac85fd10a2cf2bec664dd49a7cc8"
+    },
+    {
+      "path": "assets/mockplus/A724643DD6A4D56F6D1C10301B8C4CD6.png",
+      "bytes": 5942,
+      "sha256": "3b947d33fde4c726b08927ac5f7a4233ba14c3e287e18619e12a2c95ad6fb1e5"
+    },
+    {
+      "path": "assets/mockplus/A7B7B1C79F928B8450EA77B3AB7C9031.jpg",
+      "bytes": 11900,
+      "sha256": "b3de3452d4f2f39b421907218a738d7f280ad04d5489fd67743376cdfd76d795"
+    },
+    {
+      "path": "assets/mockplus/A93913F070D52A25BE794E64E2E4DC23.gif",
+      "bytes": 437839,
+      "sha256": "060ba9c87de19e570587b8a2f277d6121caa749ecf2d55ef73ca01ce598583df"
+    },
+    {
+      "path": "assets/mockplus/A95C1B93E69747649F0DD819C3B71AC1.svg",
+      "bytes": 710,
+      "sha256": "09dfaa192b150b442acd37c8f7957d9590678ac66de1bae4adbfc9a1f36641ed"
+    },
+    {
+      "path": "assets/mockplus/A99B2E2C0EB2AB278C2DFA08290538C5.jpg",
+      "bytes": 17099,
+      "sha256": "04e4be3c60c65d9de882d4ec8ef41298b8020781f5f43aa095e5a55374e25941"
+    },
+    {
+      "path": "assets/mockplus/AB022E2843DD5DDE810CE5A68E5CE80A.png",
+      "bytes": 203495,
+      "sha256": "eec5c1881c6e37021321dc4eb8588539bc16fd1c5f88d61a14314d5483fbe744"
+    },
+    {
+      "path": "assets/mockplus/AC802049D4F819A63D2EB63F383EE902.PNG",
+      "bytes": 158128,
+      "sha256": "a4b0c9c073e9dfdfc4d9d33a11fdb56bfef019e9377516c3be04a917dc3ff392"
+    },
+    {
+      "path": "assets/mockplus/ADFC1A0FE0D88CC94F43EB3229931A19.PNG",
+      "bytes": 11684,
+      "sha256": "005001c525ff1682169fef6f21f6d06b1190cb7be7442953e302aa4c07c00f9a"
+    },
+    {
+      "path": "assets/mockplus/B0F900780AE4275767489E053B720578.png",
+      "bytes": 30655,
+      "sha256": "082fdea3bc48890fef866d47661927c7cf384dabf5f926070da3fc3ddd85f3a5"
+    },
+    {
+      "path": "assets/mockplus/B5094F6A3BDD45CB45D712365D17FD7E.png",
+      "bytes": 133757,
+      "sha256": "9ec2c78f9d6fa85622a77b99aed3b2fe68683fb305d239c18c21ac945ce379d1"
+    },
+    {
+      "path": "assets/mockplus/B59FA708F6C265FB3126C6C7973E517A.PNG",
+      "bytes": 115451,
+      "sha256": "8b57bc65a7adf03bce2010079cf6473a2b589588998664663c64814743b87dcd"
+    },
+    {
+      "path": "assets/mockplus/B79996B2909EB2302BAA8787A1A73E9C.PNG",
+      "bytes": 30914,
+      "sha256": "a0187237c3c0924dd1b21d6657d096b2f1b12ce60a2430380a37e95b44a58ae2"
+    },
+    {
+      "path": "assets/mockplus/B8225B5A26D3B51DA6C5D7C489719B3B.svg",
+      "bytes": 341,
+      "sha256": "501c39ba7e80b7d3a171b75e86d7b957ebb1e71381d0dde49a17cec36141d0ab"
+    },
+    {
+      "path": "assets/mockplus/B844E17A92E64A339A6FEA309BC251F4.PNG",
+      "bytes": 99931,
+      "sha256": "3b8e93e05ceb0aba82ddc91258f9456cf2e29b97b1b5d8c1a9af7bfe2ca2b1cd"
+    },
+    {
+      "path": "assets/mockplus/B857167EC56E70EDB747FCBFA60FB555.png",
+      "bytes": 15032,
+      "sha256": "ca2dd9804ac37295575386de494f6a41a37e566786cc7bab6afca3ca7e6c5f8c"
+    },
+    {
+      "path": "assets/mockplus/B8CD14D422FC62336AA5AFBD51E6189F.png",
+      "bytes": 4707,
+      "sha256": "00c546c5467cbdb0249cad85d03165303fd28f18c7fd88af1af8cf3f8d7fc98a"
+    },
+    {
+      "path": "assets/mockplus/BBDCAA8BFCDF53893CCAF54094F9EC55.png",
+      "bytes": 97311,
+      "sha256": "487091e94c72bad1accfb224c4a936e71ec347aa0f0acfd680ba9328c4b27781"
+    },
+    {
+      "path": "assets/mockplus/BF61D7C757682CDEE3E85FB4D112B595.png",
+      "bytes": 36600,
+      "sha256": "4e75d323f05364980179b0c7b62691dee4cbf436ccf487a85c434d6ed0c1a1cf"
+    },
+    {
+      "path": "assets/mockplus/C019584ED44A9974D237AEBC1F49FE6A.svg",
+      "bytes": 841,
+      "sha256": "8fe0f0d3c31db5c9089442220c25b0ccf7f524b01ce49899ea59ee479c6b4d6d"
+    },
+    {
+      "path": "assets/mockplus/C2B0E1551216218DABC588533789B156.png",
+      "bytes": 78089,
+      "sha256": "c26dcbabed85886d486cdaa4ec97a523cdf6d8279e66e99f70065c2a885c336d"
+    },
+    {
+      "path": "assets/mockplus/C4821398CFE57EC421EAAC7A6F69C6FC.jpg",
+      "bytes": 49945,
+      "sha256": "a22ab1fd2ef1f37da189be8119fa859eb032a179d27038d8d847c9919470d4c9"
+    },
+    {
+      "path": "assets/mockplus/C65D10D93B413F1DEBA88AD49E9BBDBC.jpg",
+      "bytes": 13875,
+      "sha256": "db0286752ad668ffbd9a49e3cea1767acef1de989fac1ab8f89a55eeb567541b"
+    },
+    {
+      "path": "assets/mockplus/C6D1682E78671920EA29BADF02B32DCF.jpg",
+      "bytes": 31170,
+      "sha256": "a80943afffd6e06c32d0d8be9b9eeece2d0154c561857ed2c562350b2d021dbc"
+    },
+    {
+      "path": "assets/mockplus/C72B6B0382079F7042429B92AA3B311D.png",
+      "bytes": 23469,
+      "sha256": "a08baa1904a96ebc6b998caf746d8eddfe00a6a03c5a1d7ac3f868781614d4dd"
+    },
+    {
+      "path": "assets/mockplus/C9B3B4533C41246DFEA387FF40CAB31F.jpg",
+      "bytes": 23259,
+      "sha256": "65826b62cf71ff8a8d61cb422ca2f7c7671c3978c103e77af3d55ed2642d599b"
+    },
+    {
+      "path": "assets/mockplus/C9BAFB215043F9A05C4892774B58E857.png",
+      "bytes": 11688,
+      "sha256": "06c14885c7292b7815ffb39c56b8ed10edf2f5216d36b6ade75a2ff5f21b3e24"
+    },
+    {
+      "path": "assets/mockplus/D191D8B91A2C1BE04C36BE8B754E60EC.jpg",
+      "bytes": 12575,
+      "sha256": "8713f6aca01dcf7fee5b14559691af8416c45e2ec84ee81c50a8313c7cc95123"
+    },
+    {
+      "path": "assets/mockplus/D1EEB7C2C1F17E7C2D7051FE7661187C.png",
+      "bytes": 145504,
+      "sha256": "8f901adabfd037a5598b63f9593d9a0cb9821017638247d2b5da4b9313085cea"
+    },
+    {
+      "path": "assets/mockplus/D25F86A1D0434FC05CCE8D1A2A928BE2.jpg",
+      "bytes": 18248,
+      "sha256": "8619c6ca07e947620436209c5983ed73347bda44728c5c83b35c0caca41b2ca0"
+    },
+    {
+      "path": "assets/mockplus/D52CE30DEF548874D92448790837F294.jpg",
+      "bytes": 26953,
+      "sha256": "fee613419ca21e485de48e92d6abea94b2845434302ae648c456175434503adf"
+    },
+    {
+      "path": "assets/mockplus/D56341A6BC2E62B2481474D7110F2E0F.PNG",
+      "bytes": 79549,
+      "sha256": "f08982858fa0fbee0ca4b50c5ca1030d252eabded8341517b99c7f60efb13e66"
+    },
+    {
+      "path": "assets/mockplus/D60FD6BD08381421403D499D11DD9AD8.png",
+      "bytes": 72164,
+      "sha256": "47b92cc6af2ff533d485ac11efb84a956cf41e1a5b445ad3b41a5fb097679ad4"
+    },
+    {
+      "path": "assets/mockplus/D74729803A40BC3C4F1444B2FFFF0696.png",
+      "bytes": 102150,
+      "sha256": "8cd5d33af2ab042f3c699945b44ae62d4d25fd5c0c92f78e5da0ae503599c153"
+    },
+    {
+      "path": "assets/mockplus/D8D030EFB34BC40AF79358C5893372E2.png",
+      "bytes": 31203,
+      "sha256": "9920026a8c25df26800f3ec0c8b0e88a45057b9b903765ca64846444b48e5101"
+    },
+    {
+      "path": "assets/mockplus/D95E480717200F895E41DB6E5B869596.svg",
+      "bytes": 273,
+      "sha256": "1514c2c54e0295833977cfbc7d5c13620c4f74e4bec47cf903d9825c6501245f"
+    },
+    {
+      "path": "assets/mockplus/DAA8C50504C6EE18F482649418C156AC.svg",
+      "bytes": 705,
+      "sha256": "2a69b9b689ac9c4d0f7ab7bed123dada01c2ea669795559f21cd05ed0136247a"
+    },
+    {
+      "path": "assets/mockplus/DD265A7EB43D5A420340F4456F6ADC7A.png",
+      "bytes": 84096,
+      "sha256": "648d22fabdce1d2f6e6e20863268e3b1e8eecbc7985cda422e7bf877fcc77a50"
+    },
+    {
+      "path": "assets/mockplus/DE9B91A18E991A6416AEBE249B41C3EA.png",
+      "bytes": 48045,
+      "sha256": "916dacedfdb56624f480f8ec46c7122da3d31087f3acb88bc9ef65ed832ab4b2"
+    },
+    {
+      "path": "assets/mockplus/DED36B010C2FDEB67372B71A3095795B.png",
+      "bytes": 6704,
+      "sha256": "e9cfda8939cd965edc7935e529959cc1456c823aaabdba8322cabd5a35de19b6"
+    },
+    {
+      "path": "assets/mockplus/E006D88D393D3D1D726AB6E6DE41D677.jpg",
+      "bytes": 29912,
+      "sha256": "befefe367cd157360b07c53e2716495d167e8e0346fac786c400017fc6cac3c4"
+    },
+    {
+      "path": "assets/mockplus/E388F6EC9E64D1DBADF386A0F4CA496D.PNG",
+      "bytes": 80413,
+      "sha256": "9ee0d469a35340c16d0be3a3cd69cc787e4594e83fc837affa0d567a34399a47"
+    },
+    {
+      "path": "assets/mockplus/E5A0B609C1DAFB51B6DE559A956E9E27.PNG",
+      "bytes": 292390,
+      "sha256": "0b1a22b93c0f4f94ed41a4fe091614b9fc48f0b86e816ae846f250cdfd536bee"
+    },
+    {
+      "path": "assets/mockplus/E66A461DB38E1FD9ACA520D02552D3F8.png",
+      "bytes": 41483,
+      "sha256": "618312699db6c4f49d38617cfcb52ba8af84bd824e4678fa3ea79aea8d1cb5b8"
+    },
+    {
+      "path": "assets/mockplus/E6781B79C2909C8C407910ECB9E69280.png",
+      "bytes": 133423,
+      "sha256": "b5a634b8a5c17a6fb909e0a6369cfe4b6ff2c538158b887bd9467e296f2ed61a"
+    },
+    {
+      "path": "assets/mockplus/E803607D6203EA53C917FB511413423D.jpg",
+      "bytes": 37515,
+      "sha256": "f2024f969535993055849d62755034640ed3aec4cc6f82e5cfa83ec73d94f090"
+    },
+    {
+      "path": "assets/mockplus/EAE666E675CBD805AB41A3B263053F64.png",
+      "bytes": 9060,
+      "sha256": "9aa99390dfc954c7c0f6098e43052e5f635cfb808525e4fd7df4f1bfe3abf29b"
+    },
+    {
+      "path": "assets/mockplus/EF8A38052D5654F820619C422004C4D3.jpg",
+      "bytes": 13190,
+      "sha256": "72430067166c8c7fbef651981cbfcc9cc35c2b890722fcf8f03d0590c536ff28"
+    },
+    {
+      "path": "assets/mockplus/F39512CF6EA47474B9258CA62D75832E.PNG",
+      "bytes": 222440,
+      "sha256": "2ba3e1e297204b051d6fe6ffa55a57602d9538b37e74ed4164ae89dd63aed8a5"
+    },
+    {
+      "path": "assets/mockplus/F4F82079FFCAFB15A30A8CDFA10ACFC5.png",
+      "bytes": 20038,
+      "sha256": "ac19387dd469ba4d18d3d55411098c87c370d9462791403215d0713ed12adf65"
+    },
+    {
+      "path": "assets/mockplus/F57D8A5C58C3B1DCF435530DC57CA8AB.png",
+      "bytes": 70476,
+      "sha256": "a9c1e6af074c4de5fa89d37cef4282e848135e54c40be95575a18657100da113"
+    },
+    {
+      "path": "assets/mockplus/F8B7AE3554E89970A191B251BACE6CD0.svg",
+      "bytes": 270,
+      "sha256": "c5dd31bf5909606f2403459f6fcdfa292d6481e41d65f5073ccc8abbe325c395"
+    },
+    {
+      "path": "assets/mockplus/FDAECBE8F4BB5DE9FCFFC2F642D8E424.png",
+      "bytes": 14696,
+      "sha256": "820cf63264b50ca6b65ebc27e78db5d0649e99602a70c8155cc8631d0e7693f3"
+    },
+    {
+      "path": "assets/mockplus/FDB89905CDE2D5C4574B97AA17EF79FD.png",
+      "bytes": 34123,
+      "sha256": "7d7c59bb290e95ca059d58842a522cfb0f546a8a1dcd33f16fba98cf87b0ec3b"
+    },
+    {
+      "path": "assets/mockplus/a36913eba89a4533e2a0d767ec8701a4.svg",
+      "bytes": 605,
+      "sha256": "9a3687fd89b152b697dc5fc05a7b6371a6da0c11227e3c370e29c49d30ac2888"
+    },
+    {
+      "path": "assets/mockplus/a5d5c34f8c5f9537daa8bc19d9778b15.svg",
+      "bytes": 241,
+      "sha256": "1f4b557dea5c5f70c19b75ad275ef0f540f1c2b43f73ef52b336948b870ea208"
+    },
+    {
+      "path": "assets/mockplus/a92b0f7d88bbc412a9fd36139d947e5f.svg",
+      "bytes": 281,
+      "sha256": "f7cdb5079ab736354bd2e1b36de4a464460498d20f091c5086196ab87c7b7ae1"
+    },
+    {
+      "path": "assets/mockplus/aura-data.svg",
+      "bytes": 300,
+      "sha256": "33935489f76322ad9af6748050d35fd3e0bc2d03e7dd6e5a6025209d2051c6a9"
+    },
+    {
+      "path": "assets/mockplus/aura-guide.svg",
+      "bytes": 359,
+      "sha256": "32fbcf999fdf117dfcd4609c7743a8ff8bbf9d0f94ce18caaa497cf662b589b1"
+    },
+    {
+      "path": "assets/mockplus/aura-merch.svg",
+      "bytes": 580,
+      "sha256": "b0a9f86e9d5e456b5a3e52fb719e26b03184a6de5f9d05dc66b8ad973a90b1b0"
+    },
+    {
+      "path": "assets/mockplus/aura-vector-space.svg",
+      "bytes": 485,
+      "sha256": "947274d4237a10e0ed4e332150aa6afb25c9bb4fd17799e61184ba16f9c54740"
+    },
+    {
+      "path": "assets/mockplus/b2f6e9c3a27c60781c041752d810ecf7.svg",
+      "bytes": 222,
+      "sha256": "3cb29847cc1f353e9539d731a1439e6966bb8c4dc2df396b2179c0f718ca8f7a"
+    },
+    {
+      "path": "assets/mockplus/b884ae0076d21ec2632119a50c7a73b9.svg",
+      "bytes": 286,
+      "sha256": "d3fa404b123892a88fadb42823eae6d24639e5e53cb451481143728cb56500bf"
+    },
+    {
+      "path": "assets/mockplus/bfc5707cafaddf92818264b2d8e572d9.svg",
+      "bytes": 277,
+      "sha256": "e66e728a8ac3727b9d841ff9db0442e2c8dede6bf5ecc12cc52dd779b228b2fe"
+    },
+    {
+      "path": "assets/mockplus/c2bd7a40682d75a800194cde29625827.svg",
+      "bytes": 417,
+      "sha256": "fbae3bc93aa72927fa809f24ab6123e10e8dc646b91a04bc9a052b6927925414"
+    },
+    {
+      "path": "assets/mockplus/c6925e06bf43cd55492bcd3dbc2d897b.svg",
+      "bytes": 288,
+      "sha256": "8c8dae4554e4f69fe2b1447cfa8d58d03c65a3306ef4b796de64d33abf2b34a6"
+    },
+    {
+      "path": "assets/mockplus/c72c0684707ce2c0ac81f02a0921267a.svg",
+      "bytes": 472,
+      "sha256": "eeb5ffc5b173cb38c139f2fe438061cc0eb91bdbfa7a6473e91cb52721ad1fea"
+    },
+    {
+      "path": "assets/mockplus/cc576b741c24441d3821f2c573f1c0ab.svg",
+      "bytes": 299,
+      "sha256": "e4bced7eb3152e21f2f35c12db227f701a1a7ab583f7e93556deea3c6089b9ca"
+    },
+    {
+      "path": "assets/mockplus/dc13a292c98d43cf28b7d60bd12ba444.svg",
+      "bytes": 282,
+      "sha256": "699dac2a72ccb5bb4a9b86ea4a3fc58b1b5bb8a804021e6a0201e140809c55d6"
+    },
+    {
+      "path": "assets/mockplus/e52e13020193a983b8e416d07ffa104f.svg",
+      "bytes": 511,
+      "sha256": "0788f560fbe4aada4059941b6b6d7cfad40ac2c4e2a70ab1d49ab952aceedd2b"
+    },
+    {
+      "path": "assets/mockplus/e586fa1a9b65bea4c58e5f4162b443ae.svg",
+      "bytes": 536,
+      "sha256": "234b62d9750d983c8934838356790817174356bd2526d5369f977486c30d58d4"
+    },
+    {
+      "path": "assets/mockplus/e836bbd1b14d03e493ed4ab583ba5352.svg",
+      "bytes": 260,
+      "sha256": "1e4cebe9f047e2c19bc0c8c42354e021fe0dc7dd31d34e575d6bde1be6aa2ee0"
+    },
+    {
+      "path": "assets/mockplus/f2032619482e2540b25ac0930e08c974.svg",
+      "bytes": 282,
+      "sha256": "8d790b9eacd6397d133db61507b0ec4b8296aee582399429ddfb21fe85d587d4"
+    },
+    {
+      "path": "assets/mockplus/pages.json",
+      "bytes": 741250,
+      "sha256": "59eb50dabf8348dbcad1601b2cfce08c646632cd5e929d9ef646f7f7aa11ab03"
+    },
+    {
+      "path": "assets/travel-destinations.json",
+      "bytes": 16321,
+      "sha256": "fa542743edac3067ee641c7a3c08521588de3d0cb280dd8c7f70ad97b5d3f20a"
+    },
+    {
+      "path": "attraction-data.js",
+      "bytes": 6879,
+      "sha256": "fc7e34555d41d206624dc2eb2e91a8507d1d45e1834449f38ad206d09c824543"
+    },
+    {
+      "path": "aura-dimensions-preview.js",
+      "bytes": 4147,
+      "sha256": "067fec7dc5a954da4d5593287cda12740e3fd0c8f4f518ad9720cdd845005bc6"
+    },
+    {
+      "path": "aura-glow-data.js",
+      "bytes": 1708,
+      "sha256": "9013904a8a2f6d4ff87dc391b2f99cd8582bf140c82b55a4662f3003058e5e35"
+    },
+    {
+      "path": "aura-glow-ui.js",
+      "bytes": 7454,
+      "sha256": "42b1b99fd7ffeeb5ede323894f8bf7dbcf33206225b6a3bd6338c91a8c91d535"
+    },
+    {
+      "path": "aura-human.js",
+      "bytes": 1899,
+      "sha256": "4409aa183c9f4cc3b341829bf8746d69eebf5024a201c0e085526ffb43940447"
+    },
+    {
+      "path": "avatar-data.js",
+      "bytes": 7990,
+      "sha256": "3001d32ed4306a4cf549955d1b9cbc17dd8ae66e36ca599988ccd88749a58534"
+    },
+    {
+      "path": "avatar-photo-ui.js",
+      "bytes": 7259,
+      "sha256": "0ec579a0d594393420dbae160ce23f65480d4e3f33678b9ad9c04a08cf832bb7"
+    },
+    {
+      "path": "avatar-photos-data.js",
+      "bytes": 3699,
+      "sha256": "bcd6556937094a3141853d6719fea923a385c987b3bc4f61571d025231d297a4"
+    },
+    {
+      "path": "avatar-ui.js",
+      "bytes": 11287,
+      "sha256": "d3afb8042e85397ef065b0dd7a49794bc5e539f07ad2d88aa6f20672a62d3cf0"
+    },
+    {
+      "path": "backup-data.js",
+      "bytes": 3399,
+      "sha256": "cdfdde0a4bace883bf8862ae4c9e6b3426e84548f0e343f7336204e47389abc3"
+    },
+    {
+      "path": "celestial-clock.js",
+      "bytes": 11715,
+      "sha256": "7e156410f59ab1ae668bdc444c1bb9daf97e889c1d4a489285a3d2f907894e4a"
+    },
+    {
+      "path": "chakra-art.js",
+      "bytes": 1289,
+      "sha256": "667b7a97ad81e489a8dc25392e78177d2ea968e5b6e42fbb747c45dfd5934877"
+    },
+    {
+      "path": "chakra-workspace.js",
+      "bytes": 14023,
+      "sha256": "c7f1c990ee0166439f456c70611c377f198ca72a09032f092088cf5cd2c619b6"
+    },
+    {
+      "path": "connection-flow.js",
+      "bytes": 4370,
+      "sha256": "aa95a57868b10c2e09570074484dc4da85fe846446ca7a8f9975fb782e585dea"
+    },
+    {
+      "path": "connection-inputs.js",
+      "bytes": 14801,
+      "sha256": "ca61402ad99bfa2f2f3f156605cbe046285d877237418b96a74c8ba491ba690b"
+    },
+    {
+      "path": "connection-sharing.js",
+      "bytes": 2239,
+      "sha256": "28b7d163b2d204d898ec4c447b8535c9dc522ce18ea64534716901019e6b5fa8"
+    },
+    {
+      "path": "core.js",
+      "bytes": 10041,
+      "sha256": "86086dd0f17bac46822b9098799e669e594eecaee79e16a831a9a4783018b4f2"
+    },
+    {
+      "path": "data-transfer-ui.js",
+      "bytes": 3555,
+      "sha256": "d30d988ced1b36166c64b064045912545808c26adde313c8c8c70dfeefb258ce"
+    },
+    {
+      "path": "dataset-allocation.js",
+      "bytes": 2905,
+      "sha256": "9d436e960784311cd5ac09e5ab2eaa31b349cd6a06f7d8e1230ef2163bb20c64"
+    },
+    {
+      "path": "dataset-schema.js",
+      "bytes": 3502,
+      "sha256": "12e8bc174444e77b88171891df9049262399d0b409f2de079e533271ef663851"
+    },
+    {
+      "path": "dating-data.js",
+      "bytes": 19522,
+      "sha256": "ab73bd06bdae08947a58ff5404b0f41d4491e4fa3a39b51fb3308a6dc1c5e47c"
+    },
+    {
+      "path": "dating-ui.js",
+      "bytes": 26731,
+      "sha256": "8490473146ce922d7697a61a22b9db2ebf319c1bcf6ff2fe7d88be82e75ba149"
+    },
+    {
+      "path": "demo-guide.css",
+      "bytes": 2640,
+      "sha256": "db205b0f6fed6970f28807933e7435a2e144b5a10a5a9566e0657c12e3a54585"
+    },
+    {
+      "path": "demo-guide.js",
+      "bytes": 5437,
+      "sha256": "9413ecc574e886ac9e35bee87e79bfe2db3c919d192ea9f57cbb57a71bfb21a5"
+    },
+    {
+      "path": "earth-data.js",
+      "bytes": 4598,
+      "sha256": "7e267551f5f6b146eeb7364a3bbb3370bbf56fc7f5b276583c7733513e322a9d"
+    },
+    {
+      "path": "earth-map.js",
+      "bytes": 12814,
+      "sha256": "bea27628ed6ff2925ed5234b7fe4db6ce84eac0175fa43fb3a1ecda5694c1192"
+    },
+    {
+      "path": "explainer.html",
+      "bytes": 6504,
+      "sha256": "5bb5279d5910006ce40c858f744cea73561eb5401064c7bb3be3354d14027c61"
+    },
+    {
+      "path": "extra-pages.js",
+      "bytes": 753,
+      "sha256": "82591b08598a65eb7faa62f270ca674cd44a041c4ca2bf4c3f9cf62536b4a7cd"
+    },
+    {
+      "path": "eye-photos.js",
+      "bytes": 2658,
+      "sha256": "8b73c61527a168bfced55ab44bd3ee8678239978c14df10308c74be0df188fc6"
+    },
+    {
+      "path": "favourite-groups.js",
+      "bytes": 2005,
+      "sha256": "085ca161b82457c153395997ab22ed730e3ea3d27bafdfc963963dcad16d8a1f"
+    },
+    {
+      "path": "favourites-data.js",
+      "bytes": 1874,
+      "sha256": "74169528d1994f33fb5dd70a69aee4ef73dcbc653f4d26545f4227febe3f9fe3"
+    },
+    {
+      "path": "favourites-sharing.js",
+      "bytes": 1868,
+      "sha256": "8d5be7769bf814ef70006fbfb8663983dfa2095797d7c585da68d5a2d6b6ab78"
+    },
+    {
+      "path": "frame-dialog.js",
+      "bytes": 553,
+      "sha256": "375dddc8013ada5365da815fa9b3f2d27e5b9d903d63032bbd938dddccfd6685"
+    },
+    {
+      "path": "frame-display.js",
+      "bytes": 521,
+      "sha256": "b7153567e3e969ef2decf7fca2bc6c4d228cfaebe286adaaa9a1fff5f0a0895a"
+    },
+    {
+      "path": "friendship-data.js",
+      "bytes": 7379,
+      "sha256": "e7e28e7256143eb8d896c39b8b91f87120c5df8b9c245d4d622f44d44a9ad09f"
+    },
+    {
+      "path": "guide.html",
+      "bytes": 15611,
+      "sha256": "d86ed86a6f40f77ce2f1c896eac48ed842ba3aff0388189a126967ae9cb98cdd"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1442,
+      "sha256": "987c57d53ccb1d8a6d6ef2ab3fdd4475c76ef0c05c915e9eceb5b55d3c5aaf55"
+    },
+    {
+      "path": "inventory.html",
+      "bytes": 4202,
+      "sha256": "fd5742be1db7194b44d6d62d0833ccd7dca75a41b9bf777149d3c4ae0a47c03b"
+    },
+    {
+      "path": "life-data.js",
+      "bytes": 18964,
+      "sha256": "5f1f9a96db646df8a15b88f7bdfcf2d0af7cf5228edc6db08526d284c575e1eb"
+    },
+    {
+      "path": "life-ui.js",
+      "bytes": 26613,
+      "sha256": "06124de68fd576943db5d99c1abb53c25a9bac34fcc0453e37beb8056881ed97"
+    },
+    {
+      "path": "local-tools.js",
+      "bytes": 5058,
+      "sha256": "b2638d8b1292d2bd2a60e3d83a36206e82cf1e43f41b8cbb759ff033a4220229"
+    },
+    {
+      "path": "market-map.js",
+      "bytes": 7969,
+      "sha256": "4cde2436de97729b5d68f3fdd323129910bda66a19f02fdebd7c43a0ca3e510e"
+    },
+    {
+      "path": "matrix.html",
+      "bytes": 7243,
+      "sha256": "94e3a61fe781da979d7704e5f0223451383e9228e0a17b7c25938686e82bccde"
+    },
+    {
+      "path": "measurement-ui.js",
+      "bytes": 15108,
+      "sha256": "9c524b840e6a347db54ca963ea845fd4b57a398f590c2b7c04bffa7b982dd7b9"
+    },
+    {
+      "path": "menu-camera.js",
+      "bytes": 2124,
+      "sha256": "d470eb46d33a869474bfb8dc1a82ea7f733ecd6e6f7dec992e35ed2b153ecb4e"
+    },
+    {
+      "path": "merch-ui.js",
+      "bytes": 534,
+      "sha256": "2b2625ed5beee26b5f2d0f48271170c81dfb6154330089edd3a8cdcc92faceee"
+    },
+    {
+      "path": "navigation-tree.js",
+      "bytes": 2284,
+      "sha256": "594b3d5945b7a3725655e8b229a809984fc2f7bfbaa8e8b44fb90e9faf6886bd"
+    },
+    {
+      "path": "navigation-ui.js",
+      "bytes": 1333,
+      "sha256": "a4b2c067eb33b32b0351d5c3c6cdad64bc6dcc37e8897e9d3d3811f83bc0a5e2"
+    },
+    {
+      "path": "original-favourites.js",
+      "bytes": 15713,
+      "sha256": "d71183d734d5aefd9f2cc35824aed00e55cf2394e270d1341bbf64bbb8a65793"
+    },
+    {
+      "path": "original-live.js",
+      "bytes": 9313,
+      "sha256": "c5501ae91df2612e4fd39555221dfbe8207a52ebd2c09aabbafa27ead2caa499"
+    },
+    {
+      "path": "original-routes.js",
+      "bytes": 2747,
+      "sha256": "d246e15021ce71dab2d5cdab348644f9d93a30e2ecfd12b8a7ba3fb0c5fee319"
+    },
+    {
+      "path": "original-sitemap.js",
+      "bytes": 7714,
+      "sha256": "3ecf5c3c4a9897b4db0018afa20360b00b2619e6a8f87692245ad6324cfd87d9"
+    },
+    {
+      "path": "original.css",
+      "bytes": 102509,
+      "sha256": "6bdba53db3b52e56dfa48e00387b1a0e05e36c0dbb79b3680f12c6438366800c"
+    },
+    {
+      "path": "original.js",
+      "bytes": 18724,
+      "sha256": "90e3fe6fcfcc40709d52b58432b766273feeebf4d95eb6ad1b080778f9d8a677"
+    },
+    {
+      "path": "package.json",
+      "bytes": 161,
+      "sha256": "370fea4bb3967e160039219bb3e22c92db9af8c919ebb2684ece2d25a1c51c99"
+    },
+    {
+      "path": "page-icons.js",
+      "bytes": 14032,
+      "sha256": "fc0a19515f1148f84ff6e649c304c64d3a51879278a3c26d037fc74c6d5ab349"
+    },
+    {
+      "path": "palace-capture-ui.js",
+      "bytes": 9789,
+      "sha256": "5034d7d78b3c532b8518af286df2ba94ed6d2e97b065535e336bbf49e77aead8"
+    },
+    {
+      "path": "palace-media.js",
+      "bytes": 3968,
+      "sha256": "d01715c7ad13c8b2ffbf8d84ce70d0d754a73dd85121bea10faf721a03880f68"
+    },
+    {
+      "path": "palace-ui.js",
+      "bytes": 10197,
+      "sha256": "a9d8c624c3e2bb2e274358f8a44d1376cd29d19361f2df2417c3dc1193846cc5"
+    },
+    {
+      "path": "personal-space-data.js",
+      "bytes": 5534,
+      "sha256": "a01373fee7e94995ae793fe6731f7e89b13e77e0c3a8f8c275a4f3c5e5092545"
+    },
+    {
+      "path": "personal-space-ui.js",
+      "bytes": 16534,
+      "sha256": "984428f8e84c86e30acb095500c2978fac88275b7aa1b225454750cb41928768"
+    },
+    {
+      "path": "preferences-ui.js",
+      "bytes": 11590,
+      "sha256": "fa732c849b2627b30a4b231a751d83ce8a33342520dce3e89abe6ddf37bdb8de"
+    },
+    {
+      "path": "quickstart-data.js",
+      "bytes": 5802,
+      "sha256": "c3c138f46bf2e0286b7ebb9896eae101a9d2d458ec6451a90be4d307aff24276"
+    },
+    {
+      "path": "quickstart.js",
+      "bytes": 45051,
+      "sha256": "f872ad63297bf15a77522ea87ccc894ab002345997eaa3c26b64e010568953a8"
+    },
+    {
+      "path": "renderer.js",
+      "bytes": 21099,
+      "sha256": "7ea934de1551b4dc425ffb29eaa505a2042279777aff5463573c02d8496bc6e4"
+    },
+    {
+      "path": "shell-style.js",
+      "bytes": 1071,
+      "sha256": "9808959c4055e327bd22978eec3d0a363e3aba9813e1f3f070995c159d4ea342"
+    },
+    {
+      "path": "social-ui.js",
+      "bytes": 12117,
+      "sha256": "d3480f9daff95f0c2481c8e9bd18a757431c2eb277d8191b78fd3ce9d442d614"
+    },
+    {
+      "path": "solar-system.js",
+      "bytes": 4321,
+      "sha256": "4734ed436245031b67f057ccc038a61847546291c53a9215ea1fe928fcf90e93"
+    },
+    {
+      "path": "space-weather-cinema.css",
+      "bytes": 7022,
+      "sha256": "43fe294d919443b1208b7b8fe6f478740f12c90ce2c3501c7e01afa01e0446f3"
+    },
+    {
+      "path": "space-weather-cinema.html",
+      "bytes": 4578,
+      "sha256": "2b13c33810c1ff9d5f72095e4cd80bb8405f3f366561a82f1ca8fbab99324c49"
+    },
+    {
+      "path": "space-weather-cinema.js",
+      "bytes": 16244,
+      "sha256": "c94480c6ede805d8fef4a9617e762be5563624af21335de8f8676d1de5bed115"
+    },
+    {
+      "path": "spatial-ui.js",
+      "bytes": 23588,
+      "sha256": "e9af829684e3fbf1c8e6470f394615d306a632d38870aaa97a87f670e4346f3f"
+    },
+    {
+      "path": "spatial.js",
+      "bytes": 14647,
+      "sha256": "54f8bb3a8ac7de38a96560df3c36108e843b2fdedb46de6efde2d958903522bd"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 22104,
+      "sha256": "b767be48a72203ef28a95fbdaeba16c414609f70486454cbf362b7548a446fce"
+    },
+    {
+      "path": "tests/attraction.test.js",
+      "bytes": 5390,
+      "sha256": "4635dd42ad82e758951e4ed6fd41ca5d7b2063c3ac472508897504e921728ef8"
+    },
+    {
+      "path": "tests/aura-glow.test.js",
+      "bytes": 1981,
+      "sha256": "3ad6a3bfd7f43987e8546d5159d85ad47c445d29491442440f5d4227a8c43803"
+    },
+    {
+      "path": "tests/avatar-profile-photos.test.js",
+      "bytes": 1879,
+      "sha256": "aaf37f8f47ef8b366f3e9b8ec110ba3b39660580ae2e235e3b4688ef0f66120c"
+    },
+    {
+      "path": "tests/avatar.test.js",
+      "bytes": 3699,
+      "sha256": "78aa6e10b4a8c21404ec526fba86def1a5b1dfbe719d7157e4b3df800552ecc0"
+    },
+    {
+      "path": "tests/backup-history.test.js",
+      "bytes": 3932,
+      "sha256": "d3aef554bd757dc9a9993c9238773f9824d5f28d5acf60d0f35d7a2235fba1ce"
+    },
+    {
+      "path": "tests/chakra-workspace.test.js",
+      "bytes": 2091,
+      "sha256": "793fe122b77f19a86896ca35585bd3d0158271baaaf43886f5556dfe28eddc63"
+    },
+    {
+      "path": "tests/connection-flow.test.js",
+      "bytes": 3042,
+      "sha256": "5ad57a3f9cebf65a13370b677af67c2fb62d81a33cb63e922515e162f63e3065"
+    },
+    {
+      "path": "tests/connection-inputs.test.js",
+      "bytes": 5458,
+      "sha256": "e16e1eaa3a3a5f017467fd3c07559718c90c0230952a5b7e9b53e728c5645ff2"
+    },
+    {
+      "path": "tests/core.test.js",
+      "bytes": 5482,
+      "sha256": "8558a07819811b06609283137734815e1953cb2c682c56aed5aa21c7900df9b3"
+    },
+    {
+      "path": "tests/datasets.test.js",
+      "bytes": 9910,
+      "sha256": "154f576ceeeadc84fdb566466b1a49aa593d03a522ce5741c5f8ec50101b8247"
+    },
+    {
+      "path": "tests/dating.test.js",
+      "bytes": 4726,
+      "sha256": "4d53fe45573a9870d5f6c14c09f4a98cba920fbd227aa1697159ad2dcc71fdf8"
+    },
+    {
+      "path": "tests/earth.test.js",
+      "bytes": 3140,
+      "sha256": "4baea82cbb563c2963a4cf2f08aeb57193dcb03142601ff41c51b13bb44897d8"
+    },
+    {
+      "path": "tests/eye-photos.test.js",
+      "bytes": 2672,
+      "sha256": "077bbeadf120049246877de0a6a4855c14590a73064c5152186dc3949c327349"
+    },
+    {
+      "path": "tests/favourites-sharing.test.js",
+      "bytes": 1773,
+      "sha256": "908bd44f8639f9d2bc11b14852caa33e41cc25277c520fcf5a668f672d8a2a53"
+    },
+    {
+      "path": "tests/life.test.js",
+      "bytes": 10031,
+      "sha256": "ec6948d2ce4b7f2843857ef180f5a9a1fa913980214e0ffa803831f2836ab9cd"
+    },
+    {
+      "path": "tests/local-tools.test.js",
+      "bytes": 4716,
+      "sha256": "3ed8fb8bdb6bc127fef78cddece67261878b49d3096b0d287f097a41be140153"
+    },
+    {
+      "path": "tests/market-navigation.test.js",
+      "bytes": 3560,
+      "sha256": "d27cef068fc246d37012e12f2d49e2410322a938ac5d668b3e73eef5e9165a95"
+    },
+    {
+      "path": "tests/menu-camera.test.js",
+      "bytes": 2285,
+      "sha256": "4892efab0ae45048e16d2d7243f832038ef635c2b537170279bbca8d63d3886e"
+    },
+    {
+      "path": "tests/navigation-tree.test.js",
+      "bytes": 2060,
+      "sha256": "777c42eba25c7a00b9d873878ac128d75853d131dfea06f166e3dd7b87a7a70f"
+    },
+    {
+      "path": "tests/original.test.js",
+      "bytes": 6280,
+      "sha256": "08b5d6212e2ab23f7091617eedb48943e429acf409a5a72ac355809f88368d79"
+    },
+    {
+      "path": "tests/palace-media.test.js",
+      "bytes": 2669,
+      "sha256": "b1a41324217e7cb1c65ab24e1fabd269ecb5dafa3d7e6577c949caf8f6be30ca"
+    },
+    {
+      "path": "tests/personal-space.test.js",
+      "bytes": 5108,
+      "sha256": "f541791e8fb9e069e4bb8a91b03df74d2353b003497d97ed0838a5d6eb4b3313"
+    },
+    {
+      "path": "tests/quickstart-sections.test.js",
+      "bytes": 4224,
+      "sha256": "a01ecfc412e2443ed5443e3357f9fe430555471bab572d58f2cbc72db8a8a621"
+    },
+    {
+      "path": "tests/rays.test.js",
+      "bytes": 1996,
+      "sha256": "6f0019eca6940fa454cbd2fa4a631dfa18f48d2b42e07c8a3f61721233028c8f"
+    },
+    {
+      "path": "tests/renderer.test.js",
+      "bytes": 3148,
+      "sha256": "6db0be09dd0a8da1abeaacdd3ff712dd687f9815164589825507cbccf095adf9"
+    },
+    {
+      "path": "tests/spatial.test.js",
+      "bytes": 13478,
+      "sha256": "6dfbe130022bcc691213b2b21804e9d0e6345682da101f28f30d816d14ee215b"
+    },
+    {
+      "path": "tests/timing-ideas.test.js",
+      "bytes": 2360,
+      "sha256": "9081c1d2cbed3086b0c5ea471591cab69d0ff6b5818fb074517be8957299c067"
+    },
+    {
+      "path": "tests/timing.test.js",
+      "bytes": 4684,
+      "sha256": "90529f316d7205b3849928a14eca14cfaf8ad5ff5f01ee85ec7ade8691026d26"
+    },
+    {
+      "path": "tests/travel.test.js",
+      "bytes": 6207,
+      "sha256": "1129aa84468c7cff9e63b13abd6cbd244558e7535d1317d6bb2b902d7814dfea"
+    },
+    {
+      "path": "tests/vector-lab.test.js",
+      "bytes": 5820,
+      "sha256": "dd7a9765b035d8e84c6a9220f96c0ea11128aab741e56f883cce5ac8b3e12aeb"
+    },
+    {
+      "path": "time-context.js",
+      "bytes": 6642,
+      "sha256": "612562bb4ef10150eef2bd44c7435af9480102e2e49fdabfb6d91fdc0fd06662"
+    },
+    {
+      "path": "timing-data.js",
+      "bytes": 8727,
+      "sha256": "50731164a3d18f4240f15ef9f8217378674ebb4c8d6e292ac95b6834be108c65"
+    },
+    {
+      "path": "timing-ideas.js",
+      "bytes": 12306,
+      "sha256": "4984b04772b4d015444ac3f8a294366ce4b52c7c74be4d25c7617bfa8cf4d981"
+    },
+    {
+      "path": "timing-ui.js",
+      "bytes": 18627,
+      "sha256": "e09047e2832fbe29845da5ac6b0317a47047e19efc36267bfad16662f8b80368"
+    },
+    {
+      "path": "tools/blender_import.py",
+      "bytes": 10573,
+      "sha256": "b641d933d48ccaedc4d454816544808bff15b37d2ce68c71c4501ab2a9c52175"
+    },
+    {
+      "path": "tools/build_dataset_catalogue.py",
+      "bytes": 18298,
+      "sha256": "12c05d706f08fee7e7b1ff78f09fcb1773f628cf0dda3019e1e306e0c9e9d379"
+    },
+    {
+      "path": "tools/build_earth_data.py",
+      "bytes": 2246,
+      "sha256": "6aada636f909b24c5201618ba669dbd2a1fb4f98b4d0c273f15f3a7d3d7251e3"
+    },
+    {
+      "path": "tools/build_market_data.py",
+      "bytes": 4894,
+      "sha256": "981a8061a364683482632a3ed48c8e5dd40dee0e3664a8f8333951ea957217ae"
+    },
+    {
+      "path": "tools/import_mockplus.py",
+      "bytes": 3826,
+      "sha256": "4505dad3ff46a1c2ac05b3fbf6fb84759b35c86f0d65d3f0862bc7e2139d35a5"
+    },
+    {
+      "path": "tools/serve.cjs",
+      "bytes": 1064,
+      "sha256": "f1791e13c7dc20f3b46a5f77d63d0be34d622ece3116c31b278a19a0c7e96087"
+    },
+    {
+      "path": "tools/start.ps1",
+      "bytes": 1219,
+      "sha256": "b443b405116e74614a1ab5e968501469a57361503f4328ef43025b48eb680e4b"
+    },
+    {
+      "path": "tools/test_market_filter.py",
+      "bytes": 1138,
+      "sha256": "9e20d969d82014cf1a461925e6ff58ba5ea6a9121051612e3d51f6126a73354e"
+    },
+    {
+      "path": "travel-data.js",
+      "bytes": 4086,
+      "sha256": "d108f6143a2b55a1d9429f437a895904c580829d38a18bd8a79eda7024de3590"
+    },
+    {
+      "path": "travel-ui.js",
+      "bytes": 11729,
+      "sha256": "573099a8d1e6f3addba011936248b76d27adef3871c0281d2ec54482e47c00af"
+    },
+    {
+      "path": "vector-lab-data.js",
+      "bytes": 9393,
+      "sha256": "98668e74a5e5f45f77f170f45f134f923ac5a6ad4f0faa25e6d8799b87929072"
+    },
+    {
+      "path": "vector-lab-scene.js",
+      "bytes": 18176,
+      "sha256": "e1d02a260f4394e0090da910b506bc8aeac8f5fc1173a21dd2b0a61dca4dd2ad"
+    },
+    {
+      "path": "vector-lab-store.js",
+      "bytes": 810,
+      "sha256": "3bda856083b89d6607601d90e8965992ee10c4596d75c1fc4eead92decf85411"
+    },
+    {
+      "path": "vector-lab-ui.js",
+      "bytes": 22114,
+      "sha256": "116039ffa94c5a6547aa31d1f3ebafff7db7fc68e68269cf9a5c061cd338744a"
+    },
+    {
+      "path": "vector-lab-worker.js",
+      "bytes": 215,
+      "sha256": "e1bca1bbd7db78f833547a9217b5c40299e3eb3755c4740991734339b2fa6c92"
+    },
+    {
+      "path": "vector-lab.css",
+      "bytes": 6602,
+      "sha256": "18af0f4339195fee3f1e4947167951d1405d561ea7914d18b95a7c9bba14206f"
+    },
+    {
+      "path": "vendor/THREE-LICENSE.txt",
+      "bytes": 1102,
+      "sha256": "abe364d9a4939d4c0bae8c091c26f9e576381729f329f0d23fd428b752b71a84"
+    },
+    {
+      "path": "vendor/astronomy/VERSION",
+      "bytes": 75,
+      "sha256": "c2e5d876fd80acb16213de714e76704d94014b8f97099eb88123d617175c4c8c"
+    },
+    {
+      "path": "vendor/astronomy/astronomy.browser.min.js",
+      "bytes": 116682,
+      "sha256": "9c3538c9addfd666799a77b2e318a6237fa23885cc706c1612516d54003eed36"
+    },
+    {
+      "path": "vendor/leaflet/LICENSE",
+      "bytes": 1395,
+      "sha256": "53e8dc25862014e4324741ca18fbe3611e11d42ef69f59f86ea8c5389647d4cb"
+    },
+    {
+      "path": "vendor/leaflet/leaflet.css",
+      "bytes": 14806,
+      "sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6"
+    },
+    {
+      "path": "vendor/leaflet/leaflet.js",
+      "bytes": 147557,
+      "sha256": "3104b526504d0d61fd3099a4521e87f732ccc3174dec54e08de6ba8bde3e15ff"
+    },
+    {
+      "path": "vendor/three.min.js",
+      "bytes": 603451,
+      "sha256": "7ae04663bb431808bc025280122162029ea3a354efc5fcca8bd8f95d1a1933e9"
+    },
+    {
+      "path": "visit-history.js",
+      "bytes": 610,
+      "sha256": "bbff21d6af0af54fa304f0a8a404444db05b7430cba17ad25d5fb8e19cc56c01"
+    },
+    {
+      "path": "workspace.js",
+      "bytes": 9395,
+      "sha256": "aec2157d94c16f6abc493dfebe0c794d4e03763c77c5d21aa1fff1d121179253"
+    }
+  ],
+  "files_sha256": "b95e8dc19a6313d2e07d3bb7a6094bdc5054305017747dd42b40d6a87921b060",
+  "file_count": 361,
+  "source_bytes": 51149209,
+  "excluded": []
+}

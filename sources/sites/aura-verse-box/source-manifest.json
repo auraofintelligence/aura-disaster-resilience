@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/aura-verse-box",
+  "slug": "aura-verse-box",
+  "capture_started_utc": "2026-10-20T07:57:15+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:17+00:00",
+  "source_version_start": {
+    "head": "c19109be56d423c797cd76c85af023e1149bb4db",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "c19109be56d423c797cd76c85af023e1149bb4db",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": ".github/repository.json",
+      "bytes": 671,
+      "sha256": "31cdcc94e34b214dae7e1f34c712a3c89f70cd76ae6ab42c37fb5795c28d5e41"
+    },
+    {
+      "path": ".github/robots-root-snippet.txt",
+      "bytes": 1170,
+      "sha256": "e961f9e923d0bb4d105835a82d656bc6c3df6964dee186df2fd4f48d71245f81"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1053,
+      "sha256": "22517a5efa872b0cad13b214b1670ffe910401298dd1492883f4d6b67dabe8b9"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 38,
+      "sha256": "f2657058912c31cdd46673ba5a4384c6444f1fc9bb5531a0990084a7d43c1dd8"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "bytes": 4586,
+      "sha256": "183d68f30b05cc8a7c4c2794830b12e29b1a019c60c21c5a7af0f311e4c53225"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1740,
+      "sha256": "5308ce594d3425b2d0e19d6a770500be770c1ba24bde972e0868d8e106ef7e6b"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 3584,
+      "sha256": "d491bcab9748213edd505068ddf8f2ca9871cc3f6f09acfee104b536ca9ced3f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8245,
+      "sha256": "174fc51b17617d580c283be279093ce82c769ad1ef7e3526984c7922a4fbe38a"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 3767,
+      "sha256": "7d18bada57b1896715c90f1cefb39268864ab81982283c88e234768119970002"
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "bytes": 6160,
+      "sha256": "ba61a305ed5414a36522d53212505d0c2e908804b820458e57445e051844c680"
+    },
+    {
+      "path": "assets/app.js",
+      "bytes": 783,
+      "sha256": "244ee8b17d7e118c917fb822366a0481cf91f502d3ef0b235fb63263364c54b8"
+    },
+    {
+      "path": "assets/documents.json",
+      "bytes": 16886,
+      "sha256": "1dcba8047828a112c15aba4c7ce8e2985ceea94cd398cea757b503c66e92b87f"
+    },
+    {
+      "path": "assets/documents.sha256",
+      "bytes": 1726,
+      "sha256": "1179a0e85ab78c520147969444713b6e6639cbe2426d459b564dcbbf82a3bee2"
+    },
+    {
+      "path": "assets/images/hero-community.webp",
+      "bytes": 194784,
+      "sha256": "a29c8a21a115562f990ae3a497055c6a947abc510c38bd86b34c1693a73836b7"
+    },
+    {
+      "path": "assets/images/hero-experience.webp",
+      "bytes": 125102,
+      "sha256": "8b6a6b83ef33a16ccd3d966add53995a604348e54fdde90e547d364da8a46ae9"
+    },
+    {
+      "path": "assets/images/hero-index-v2.webp",
+      "bytes": 157512,
+      "sha256": "cea9d31ebb8a6a96275489e6054add3d60716dd873128ac09592f8b98ff078f3"
+    },
+    {
+      "path": "assets/images/hero-index.webp",
+      "bytes": 121666,
+      "sha256": "64ff260f9d280be1eedb2956ec5379fa5899f00f3acfb6ce2236143e8d32c219"
+    },
+    {
+      "path": "assets/images/hero-personal-aura-v2.webp",
+      "bytes": 237280,
+      "sha256": "69474642724fdb19924c23f206abfe6ef03de1debfec7afd61b22cdcbf91e324"
+    },
+    {
+      "path": "assets/images/hero-personal-aura.webp",
+      "bytes": 175838,
+      "sha256": "ab97d0cc0283c8b72dd8c1292268b01ce8abd9be0c8a7cdd4cb57de3c8ee5419"
+    },
+    {
+      "path": "assets/images/hero-sitemap.webp",
+      "bytes": 176686,
+      "sha256": "6915b1bba520d24800628178531db91952d247967b5cfdc512143e6ff40939ab"
+    },
+    {
+      "path": "assets/images/hero-sources.webp",
+      "bytes": 115482,
+      "sha256": "383dbe2395d3893f7da5a59e2111e50c174addd5341f6b27a7a81e0aa7d795f3"
+    },
+    {
+      "path": "assets/images/hero-trial-v2.webp",
+      "bytes": 223320,
+      "sha256": "a5dd8449caafcd5addba64a4e3e17a5dd2e74191f162bed702a56d1d817e8534"
+    },
+    {
+      "path": "assets/images/hero-trial.webp",
+      "bytes": 157746,
+      "sha256": "f37af10a2f6e04b2ac00c3aaf60ad7a99c47971adce1507ba5be576d50b02a5d"
+    },
+    {
+      "path": "assets/images/verse-box-mark.png",
+      "bytes": 9289,
+      "sha256": "cf8e7e459f612e0f711a53676fcae0bf39487925213b6da8459fd7ae5bed9f1e"
+    },
+    {
+      "path": "assets/link-status.json",
+      "bytes": 7453,
+      "sha256": "c0613ab690718984d2e128913e09f8ddfa009fc3e2e28c5e24cca203fd5d8486"
+    },
+    {
+      "path": "assets/references.json",
+      "bytes": 3902,
+      "sha256": "c52afe701ae48c3ebbe01bd205612ce2d5b10a242d497bcafcbb512f49278644"
+    },
+    {
+      "path": "assets/style.css",
+      "bytes": 13119,
+      "sha256": "86dcd1f82b42797381536ce02dbf29e5415e60ffcfb0a05244cfaa45a9c4af65"
+    },
+    {
+      "path": "community.html",
+      "bytes": 9240,
+      "sha256": "b698f13b17c344858bca665df1f737753102f4357fd170e2167798b2d4cc2ee3"
+    },
+    {
+      "path": "content/artwork.json",
+      "bytes": 27388,
+      "sha256": "ff9c0fb8ebb25560a8b8ebb4fd470042924c981be53db5cfb3a0d37ed9bf633e"
+    },
+    {
+      "path": "content/bibliography.json",
+      "bytes": 6469,
+      "sha256": "3ea81035644e44aa386355cdd32292e4b324e351b5cee3d22baf6cfd0dd4aafd"
+    },
+    {
+      "path": "content/documents.json",
+      "bytes": 16886,
+      "sha256": "1dcba8047828a112c15aba4c7ce8e2985ceea94cd398cea757b503c66e92b87f"
+    },
+    {
+      "path": "content/pages.mjs",
+      "bytes": 21526,
+      "sha256": "b0dfdb7bfdd2c4ece4b2bd9265ece2979977dbb2d97bc60fdcc746651c3c57a2"
+    },
+    {
+      "path": "content/proposal-hyperlinks.json",
+      "bytes": 3714,
+      "sha256": "8ebfc79444bb7e9cf1078b87a994ffd85677b95ee87da0c53c0c079158c8dffa"
+    },
+    {
+      "path": "documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
+      "bytes": 691604,
+      "sha256": "add4102f8f7bccef97fbd0b63b06e99aaa89d04f6a807398b8b5f985ff0f5496"
+    },
+    {
+      "path": "documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+      "bytes": 755061,
+      "sha256": "9bdd89c91d002ed39f03abf23177f127f5147535133229087b0620e61d826a54"
+    },
+    {
+      "path": "documents/Aura_OZ_Mini_Pitch_June_2018_Alternate_PDF.pdf",
+      "bytes": 1305452,
+      "sha256": "939203e264b9bb368d0e060d24aea6c5c1b81455f76474b3c002694a469daa11"
+    },
+    {
+      "path": "documents/Aura_Operating_Zeitgeist_Whitepaper_2018.docx",
+      "bytes": 3641345,
+      "sha256": "e66cb283281c22a194e9acb2080cf9e544e1bd298d3b83b379e7c18d72c5339d"
+    },
+    {
+      "path": "documents/Aura_Teacher_Training_60_Days.pdf",
+      "bytes": 458131,
+      "sha256": "13bb521a9f754aedb2cb88c5af981efa778bd7ec844297d92d7256534ea2418c"
+    },
+    {
+      "path": "documents/Aura_of_Intelligence_Version_7_July_2023.pdf",
+      "bytes": 5258366,
+      "sha256": "65945eb96e4857b53506ee661d44e24b66b2522d889eb7f8429628f1d7bca052"
+    },
+    {
+      "path": "documents/Blend_Aura_to_Unity.pdf",
+      "bytes": 1501986,
+      "sha256": "8a7dd6bdb0ce918a2ca7bba5255c0608fdae6b5e5d4fdb81e1010fb586455b33"
+    },
+    {
+      "path": "documents/C_Hour_Joyful_Responsible_Abundance_Plan_Edition_5.pdf",
+      "bytes": 455417,
+      "sha256": "56eb762e28b1a4c759312694035ebc9bb8f87b3ce045b4d120d76b8c934542db"
+    },
+    {
+      "path": "documents/Local_Government_Funding_Inquiry_Submission.pdf",
+      "bytes": 276605,
+      "sha256": "06e5d3e4f3c9bfb14a9d2439b9117e00a24176c4a2c6de9e9b18eeb187234d80"
+    },
+    {
+      "path": "documents/Sovereign_Space_Builder_Part_2_Full_System_Implementation.pdf",
+      "bytes": 655325,
+      "sha256": "9cd835754187b5e8bcac2ec6c1d437b645df8442f4135ef656f207673431aea7"
+    },
+    {
+      "path": "documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+      "bytes": 112210,
+      "sha256": "0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14"
+    },
+    {
+      "path": "documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
+      "bytes": 137304,
+      "sha256": "1f4020b0e0b914d3830aa20f55377b44a02ab4e9368024ae8906cc33b3271198"
+    },
+    {
+      "path": "documents/Virtual_Cloning_Aura_Creation_Learning_Progression_Alternate_DOCX.docx",
+      "bytes": 155670,
+      "sha256": "5062835d183c4a0f53cbbd6be4fbd20228fc20f0168c9c2b77721cc1c3cf31b0"
+    },
+    {
+      "path": "documents/Web3_Sensorium_for_Science_Debate.pdf",
+      "bytes": 604459,
+      "sha256": "f3808a7e57262f416d792639080e68b6010fcb1c53573cac9d8ea9d829a30122"
+    },
+    {
+      "path": "documents/verse-box-supplied-reference.jpg",
+      "bytes": 135733,
+      "sha256": "b460390fcb5133b24186abf26347e613c9b1813909c2f8de44799b252bb9f53b"
+    },
+    {
+      "path": "experience.html",
+      "bytes": 8447,
+      "sha256": "c46cbb7ccf0ab92da8d3a9dbb60b4875d204eccddb730e8ffc0b6061b7120fd0"
+    },
+    {
+      "path": "favicon.ico",
+      "bytes": 18618,
+      "sha256": "bec33b93dba99c03f491187802010f663dd6ac474f6bfd817c7e45cc943bd19e"
+    },
+    {
+      "path": "index.html",
+      "bytes": 9397,
+      "sha256": "ecca0ceb60d50a13e7ec34e95ce9c00b4d8e08d05602c1bc6c0fd8a7a6cfddbb"
+    },
+    {
+      "path": "llms.txt",
+      "bytes": 5822,
+      "sha256": "203d0722231a695540a2eb55556c1099fcf6a7f0203352ea63a87381da98fcbc"
+    },
+    {
+      "path": "package.json",
+      "bytes": 333,
+      "sha256": "c8108453a3bb00536a2b532ec7c20b1e0cecf7e3433876f21d5efa4463e674c7"
+    },
+    {
+      "path": "personal-aura.html",
+      "bytes": 9298,
+      "sha256": "2dadadb5ebe28a23e0f8be138f8d89c275a2e1234b5c54fc057a6b9dfd6e6fb7"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 339,
+      "sha256": "f905ea8c1e53f9b8455692c20ba27e8c2f33fc88314f6f28ae82c2de03c1eb6f"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 13996,
+      "sha256": "2be6ceefaac14a124d5abfefd45d71e2ae40487f7b055204ee00fb8bc8a67ecd"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 14558,
+      "sha256": "993452e1810c637be1bf374503094d38c0ebd8edf060cfc2937885fd59045a8f"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "bytes": 1511,
+      "sha256": "1a08f15b587b5b9adcb4da658bcb3f8ecfb7f997def43ac4edd55ef7bb0028e6"
+    },
+    {
+      "path": "sitemap.html",
+      "bytes": 8540,
+      "sha256": "fb47780a2e89794723ab11a90dea5a6c3c7693c6cda97b77162e1fccaab105a9"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 919,
+      "sha256": "43795c49329e7eb63db166041cc72a19c57924655aaaf941c08cd31829534e20"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 22903,
+      "sha256": "b1bf72c65b1465a7593501b2bf137b24e55ec1173c90fb20cc1a95604eca3a7a"
+    },
+    {
+      "path": "trial.html",
+      "bytes": 8969,
+      "sha256": "95ef4eaf4a8bb8baaabc4d05cb5205731b0af443e307459e3d13c3b2dfd9fe91"
+    }
+  ],
+  "files_sha256": "753a3fa9d1cd58e23bd39db17f699e89a4b18f46c0f1a2e3e0811e61cd912ecd",
+  "file_count": 63,
+  "source_bytes": 18123129,
+  "excluded": []
+}

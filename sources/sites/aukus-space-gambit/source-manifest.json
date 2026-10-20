@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/auraofintelligence/aukus-space-gambit",
+  "slug": "aukus-space-gambit",
+  "capture_started_utc": "2026-10-20T07:57:06+00:00",
+  "capture_completed_utc": "2026-10-20T07:57:06+00:00",
+  "source_version_start": {
+    "head": "e80c23ccfc3cb25528ea43b5abb7a5636dce8d16",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_version_end": {
+    "head": "e80c23ccfc3cb25528ea43b5abb7a5636dce8d16",
+    "branch": "main",
+    "working_status": []
+  },
+  "source_git_status_unchanged": true,
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "files": [
+    {
+      "path": "LICENCE.md",
+      "bytes": 3596,
+      "sha256": "b11008ceed7bef79d09468927e598931a3f9dde9a0924328afb64fcbb90cd300"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2272,
+      "sha256": "1172c2085ef3567652abad73c942df87ab6cc86f4a68448ca112e4ca941c3847"
+    },
+    {
+      "path": "assets/apple-touch-icon-raster-180.png",
+      "bytes": 36581,
+      "sha256": "455f6b70c3fc839729c650f3b9db257dbcdc64f76c94cd08ee9a5618202368ab"
+    },
+    {
+      "path": "assets/favicon-raster-192.png",
+      "bytes": 41345,
+      "sha256": "5a398783d26bdff8b47625293c7716b2347b6127b24d9a4d3a703d981c7f30fa"
+    },
+    {
+      "path": "assets/favicon-raster-32.png",
+      "bytes": 2505,
+      "sha256": "d61c9b398340d45a8f52e328df89dac7784ec263fd2c7117ee16b3c877aebc26"
+    },
+    {
+      "path": "assets/favicon-raster-source.png",
+      "bytes": 213521,
+      "sha256": "4e653090af21ef0c64463c714568b327dc741c48e647dbda3f122c1e34825250"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "bytes": 81164,
+      "sha256": "5ab13a44cdd19b08b630805a8dfeab6c9a621d3328a41dded3befb9bf07fb3b1"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 1586,
+      "sha256": "93242f17ea3d99a5ad66af5f0b060122177b153d7eea991e79eba0c78d29a42a"
+    },
+    {
+      "path": "assets/iss-flyaround-nasa.webp",
+      "bytes": 112112,
+      "sha256": "958a0c71b543880320bc7dede1da8f99e26d3082310ea5d336a6f3aa70aedfbc"
+    },
+    {
+      "path": "baseline.html",
+      "bytes": 5830,
+      "sha256": "75714399c6bcc53216ce87e2eb3b7523a376a4926ec657646cc09ceb08d2cc66"
+    },
+    {
+      "path": "feasibility.html",
+      "bytes": 5709,
+      "sha256": "c04b53cfc63e85dd35b4216ebeea623736f0b96c8679a1f340f710963a048e50"
+    },
+    {
+      "path": "gambit.html",
+      "bytes": 6151,
+      "sha256": "03bbfd37b08af72f413e33e2b7b2cd771db75ade17ead226daaf1d8d141c4882"
+    },
+    {
+      "path": "index.html",
+      "bytes": 8933,
+      "sha256": "359c794f7fa942afc8bbea7561d739144f11820426fc101ba491a913dace42d2"
+    },
+    {
+      "path": "script.js",
+      "bytes": 3538,
+      "sha256": "29785bdfbe82e228343bafb0e95dd88c11be7a349a805d51965615da569b2d3a"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 7019,
+      "sha256": "19c4920a7cca37ab3d80ae000596104c392c24f3e7e750cbf5cf4f8818e40ac5"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 12217,
+      "sha256": "86a6dcb8cf24d4066e959d5508ee92683d865e93b9f12688a36162e31ab3865b"
+    },
+    {
+      "path": "support.html",
+      "bytes": 6756,
+      "sha256": "0abd2783540757c051adca3cd399bd8296b3b4f6c630d8ff4d7f7f7caf5f44b4"
+    }
+  ],
+  "files_sha256": "9956fb94db212940f1ec0cd6f307525bc423a68adcb662850d0cfe865bfd2127",
+  "file_count": 17,
+  "source_bytes": 550835,
+  "excluded": []
+}
