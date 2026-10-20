@@ -12,16 +12,17 @@ This is the recorded build state at handover. Check the current local files and 
 
 | Part | Recorded state | Continuation check |
 | --- | --- | --- |
-| Core project and repository wiki | Published on main at initial commit `666c387`. | Compare the current local and remote main commits; preserve subsequent work. |
+| Core project and repository wiki | Complete build published and checked at source commit `010481b`; [publication record](docs/publication-record.json) identifies the exact edition. | Compare the current local and remote main commits; preserve subsequent work. |
 | Question workshop | 96 questions across 13 work areas, with stable IDs, connected questions and 13 starter jobs. | Maintain `data/questions.json` and `data/tasks.json`; the earlier seed files are lineage. |
 | Human decisions | Three proposals ready for review; GitHub conversations 1, 2 and 3 created. Zero recorded human approvals. | Read the actual issue comments and current `data/reviews.json` before reporting a new decision. |
-| Source documents | 32 distinct files verified: 27 PDFs and five Word documents, 56,989,754 bytes. All 29 user-supplied originals are included; 59 source aliases identify shared copies and public locations. | Verify the manifest and actual remote download availability after publication. |
+| Source documents | 32 distinct files verified and uploaded: 27 PDFs and five Word documents, 56,989,754 bytes. All 29 user-supplied originals are included; 59 source aliases identify shared copies and public locations. | Use the manifest and preserved files; add a new edition deliberately when sources change. |
 | Saved project sources | 43 source packages verified, preserving 9,968 files, with a contents list and restoration tools. | Check the manifest for coverage, package paths and any separate hosting/source-export items. Verify the current published edition before using it. |
-| Native GitHub Wiki | 129 linked pages exported and published at wiki commit `708c944`; final reading and source-publication checks are underway. | Compare the current source and wiki publication records before editing or republishing. |
-| Automated checks | Most recent local run: 26 tests passed for the wiki and review tools. | Run the relevant checks after changes. Confirm GitHub's check results for the actual published revision. |
+| Public-page editions | All 14 linked public pages captured and uploaded, 523,097 exact response-body bytes, each with a recorded HTTP 200 response. | Read response dates and boundaries in the page manifest; source packages hold the related code and assets. |
+| Native GitHub Wiki | 127 reading pages plus navigation and footer published at wiki commit `d83ab40`; reading and navigation checked. | Compare the current source and wiki publication records before editing or republishing. |
+| Automated checks | 26 local tests passed. [GitHub checks passed](https://github.com/auraofintelligence/aura-disaster-resilience/actions/runs/39392927825) for source commit `010481b`, including document, source-package and page-byte verification. | Run the relevant checks after changes and confirm results for the new revision. |
 | Field capability | Service planning and design are underway. | Community agreements, installations, equipment measurements, field trials and continuing support are the next real-world milestones. |
 
-Archive upload batches, final native-wiki export and GitHub automated-run results were still being completed at this handover. Treat their status as awaiting a remote check rather than infer completion from locally verified files. The publication coordinator may already have advanced them.
+The full library is uploaded. The remote file-object comparison matched all 338 files in source commit `010481b`, including every expected document, source manifest and archive part. The publication record and this handover are subsequent documentation of that checked edition. Follow later commit and check records when continuing.
 
 The native wiki is a **separate Git repository** at [aura-disaster-resilience.wiki.git](https://github.com/auraofintelligence/aura-disaster-resilience.wiki.git). An existing checkout named `native-wiki` was prepared in the task workspace outside the project. Locate and inspect that checkout before creating another. Keep workstation-specific paths out of published records.
 
@@ -86,7 +87,7 @@ At handover, `design_curator` is mapped to the `auraofintelligence` GitHub accou
 
 A genuine review records the person's identity, date, scope, exact edition and evidence URL. Changes to bound content or conditions reopen the affected review. Keep produced work, validation results, human review, publication and field operation as separate states. Missing network verification leaves a review awaiting checking; silence and an AI recommendation do not supply approval.
 
-## Finish the publication checks without rebuilding completed work
+## Continue from the published edition
 
 The coordinator should inspect the existing main and wiki checkouts, active agent claims and remote state first. Useful read-only checks include:
 
@@ -155,10 +156,11 @@ https://github.com/auraofintelligence/aura-disaster-resilience
 Read SWARM_HANDOVER.md, AGENTS.md, README.md and wiki/Constraints.md first.
 The planning workshop is built: 96 questions across 13 areas, three review
 proposals and a verified library of 32 documents plus 43 project-source
-packages. Initial core publication was main commit 666c387. Check current
-local and remote commits, archive availability, native Wiki export and
-GitHub check results before reporting publication complete. Preserve work
-already produced and current agent claims.
+packages and 14 public-page captures. The full library was uploaded and
+checked at source commit 010481b; native Wiki publication was d83ab40.
+Read docs/publication-record.json, then check current local and remote
+commits and subsequent GitHub results. Preserve work already produced
+and current agent claims.
 
 D-001, D-002 and D-003 use GitHub issues 1, 2 and 3. At the handover there
 were zero recorded human approvals. Read current evidence and genuine

@@ -1,0 +1,39 @@
+{
+  "recorded_utc": "2026-10-20T08:23:35+00:00",
+  "source_repository": "https://github.com/auraofintelligence/aura-disaster-resilience",
+  "verified_source_commit": "010481b4d1d87a5e3ce78be0025647d68de7ca6e",
+  "native_wiki_commit": "d83ab400163e007caf3e19f82de1e80f4b215ef8",
+  "native_wiki_url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki",
+  "published_file_objects_compared": 338,
+  "all_published_file_objects_match_local_edition": true,
+  "all_expected_source_paths_present": true,
+  "reading_pages": 127,
+  "navigation_and_footer_files": 2,
+  "questions": 96,
+  "work_areas": 13,
+  "review_proposals": 3,
+  "human_approvals_recorded": 0,
+  "documents": 32,
+  "supplied_original_requests_accounted_for": 29,
+  "source_repository_packages": 43,
+  "saved_source_files": 9968,
+  "archive_or_part_files": 76,
+  "archive_bytes": 1717096359,
+  "public_page_captures": 14,
+  "public_page_response_bytes": 523097,
+  "local_review_and_record_tests_passed": 26,
+  "validation": [
+    "Document byte counts, SHA-256, original-request coverage and PDF page counts passed.",
+    "All source archives and archived file fingerprints passed, with single and multipart restoration checks.",
+    "All public-page response-body byte counts and SHA-256 fingerprints passed.",
+    "The named source commit's public GitHub file objects match the complete local delivery edition.",
+    "Independent read-only review cleared the scoped human-review logic fixes."
+  ],
+  "github_check": {
+    "head_sha": "010481b4d1d87a5e3ce78be0025647d68de7ca6e",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/auraofintelligence/aura-disaster-resilience/actions/runs/39392927825"
+  },
+  "scope": "Planning wiki, source preservation and review workflow. Community agreements, engineering acceptance, installations, field trials and operating capability are future milestones. This receipt records the named edition; later commits retain their own checks."
+}
