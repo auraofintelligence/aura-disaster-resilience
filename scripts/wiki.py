@@ -27,6 +27,18 @@ def load(root=ROOT):
             ('questions', 'domains', 'decisions', 'reviews', 'roles', 'constraints', 'tasks', 'ecosystem')}
 
 
+def content_digest(path):
+    """Keep review fingerprints stable across Git's text line-ending conversion."""
+    if path.suffix == '.json':
+        content = json.dumps(json.loads(path.read_text(encoding='utf-8')),
+                             sort_keys=True, ensure_ascii=False, separators=(',', ':')).encode()
+    elif path.suffix in {'.md', '.txt', '.py', '.yml', '.yaml'}:
+        content = path.read_text(encoding='utf-8').encode()
+    else:
+        content = path.read_bytes()
+    return hashlib.sha256(content).hexdigest()
+
+
 def evidence_fingerprint(decision, root=ROOT):
     """Identify the evidence presented with this choice, including source snapshots."""
     proposal = dict(decision['proposal'])
@@ -35,7 +47,7 @@ def evidence_fingerprint(decision, root=ROOT):
         p = (root / name).resolve()
         if not p.is_relative_to(root.resolve()) or not p.is_file():
             raise ValueError(f'{decision["id"]}: supporting file is unavailable: {name}')
-        files[name] = hashlib.sha256(p.read_bytes()).hexdigest()
+        files[name] = content_digest(p)
     questions = {q['id']: q for q in read_json('questions.json', root)}
     selected = {qid: {k: v for k, v in questions[qid].items()
                      if k not in {'work_status', 'assigned_to', 'answer', 'decision_id'}}
@@ -46,7 +58,7 @@ def evidence_fingerprint(decision, root=ROOT):
         if path.exists():
             if name == 'site-manifest.json' and json.loads(path.read_text(encoding='utf-8')).get('capture_status') != 'complete':
                 continue
-            manifests[name] = hashlib.sha256(path.read_bytes()).hexdigest()
+            manifests[name] = content_digest(path)
     payload = {'files': files, 'questions': selected, 'source_manifests': manifests}
     return hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False,
                                      separators=(',', ':')).encode()).hexdigest()

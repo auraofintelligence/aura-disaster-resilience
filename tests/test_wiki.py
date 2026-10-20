@@ -1,6 +1,7 @@
 import copy
 from pathlib import Path
 import sys
+import tempfile
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
@@ -29,6 +30,26 @@ class WikiChecks(unittest.TestCase):
         approved, _ = wiki.validate(self.data)
         self.assertGreaterEqual(len(self.data['questions']), 90)
         self.assertEqual(approved, set())
+
+    def test_text_fingerprints_survive_git_line_endings(self):
+        with tempfile.TemporaryDirectory(dir=wiki.ROOT) as folder:
+            path = Path(folder) / 'evidence.md'
+            path.write_bytes(b'First line\nSecond line\n')
+            original = wiki.content_digest(path)
+            path.write_bytes(b'First line\r\nSecond line\r\n')
+            self.assertEqual(wiki.content_digest(path), original)
+            path.write_bytes(b'First line\r\nChanged evidence\r\n')
+            self.assertNotEqual(wiki.content_digest(path), original)
+
+    def test_json_fingerprints_bind_values_independently_of_formatting(self):
+        with tempfile.TemporaryDirectory(dir=wiki.ROOT) as folder:
+            path = Path(folder) / 'manifest.json'
+            path.write_bytes(b'{"a":1,"b":2}\n')
+            original = wiki.content_digest(path)
+            path.write_bytes(b'{\r\n  "b": 2,\r\n  "a": 1\r\n}\r\n')
+            self.assertEqual(wiki.content_digest(path), original)
+            path.write_bytes(b'{"a":1,"b":3}\n')
+            self.assertNotEqual(wiki.content_digest(path), original)
 
     def test_duplicate_question_is_rejected(self):
         self.data['questions'].append(copy.deepcopy(self.data['questions'][0]))
