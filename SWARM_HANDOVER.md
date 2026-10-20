@@ -6,6 +6,8 @@ The planning workshop is built: a linked wiki, stable question records, review t
 
 Project home: [Aura Disaster Resilience](https://github.com/auraofintelligence/aura-disaster-resilience). Begin with [Home](wiki/Home.md), the [whole-system map](wiki/Stack-map.md), [questions](wiki/Question-register.md), [first review](wiki/First-review.md) and [source library](wiki/Source-library.md).
 
+**Latest governance direction, 20 October 2026:** Luke initiates and drives the project. Professional overlap calls for the applicable good-practice and legal-source comparison, with differences, improvements and deficiencies recorded in either approach. This is now carried through 36 responsibility descriptions, 86 relevant question cards, the review method and templates. D-001, D-002 and D-003 are proposal revision 2 and include the professional-review method in their fingerprinted evidence. Existing human-review records remain empty. Read [Professional review](wiki/Professional-review.md) before preparing the next packet.
+
 ## What is completed, and what to check next
 
 This is the recorded build state at handover. Check the current local files and remote publication before continuing; publication may have advanced since this edition.
@@ -18,7 +20,7 @@ This is the recorded build state at handover. Check the current local files and 
 | Source documents | 32 distinct files verified and uploaded: 27 PDFs and five Word documents, 56,989,754 bytes. All 29 user-supplied originals are included; 59 source aliases identify shared copies and public locations. | Use the manifest and preserved files; add a new edition deliberately when sources change. |
 | Saved project sources | 43 source packages verified, preserving 9,968 files, with a contents list and restoration tools. | Check the manifest for coverage, package paths and any separate hosting/source-export items. Verify the current published edition before using it. |
 | Public-page editions | All 14 linked public pages captured and uploaded, 523,097 exact response-body bytes, each with a recorded HTTP 200 response. | Read response dates and boundaries in the page manifest; source packages hold the related code and assets. |
-| Native GitHub Wiki | 127 reading pages plus navigation and footer published at wiki commit `d83ab40`; reading and navigation checked. | Compare the current source and wiki publication records before editing or republishing. |
+| Native GitHub Wiki | The workshop now contains 128 reading pages plus navigation and footer, including Professional review. Initial publication was wiki commit `d83ab40`; the governance update follows it in the wiki history. | Compare the current source and wiki publication records before editing or republishing. |
 | Automated checks | 26 local tests passed. [GitHub checks passed](https://github.com/auraofintelligence/aura-disaster-resilience/actions/runs/39392927825) for source commit `010481b`, including document, source-package and page-byte verification. | Run the relevant checks after changes and confirm results for the new revision. |
 | Field capability | Service planning and design are underway. | Community agreements, installations, equipment measurements, field trials and continuing support are the next real-world milestones. |
 
@@ -31,6 +33,7 @@ The native wiki is a **separate Git repository** at [aura-disaster-resilience.wi
 Read [Constraints](wiki/Constraints.md) and [AGENTS.md](AGENTS.md). These choices already establish the direction:
 
 - Focus the current work on the complete disaster kiosk and resilience network: useful every day and dependable through storms, cyclones, fires and prolonged disruption. Wider projects connect through agreed information and support relationships as capability grows.
+- Luke is the initiator driving research, coordination and proposals. Where decisions overlap SES, police, fire and rescue, ambulance, Defence or other qualified professionals, his opinions and research are reviewed against applicable industry and international good practice and relevant legal sources. Record differences, reasonable improvements and deficiencies in either approach. Use [Professional review](wiki/Professional-review.md) and the comparison template; actual professional participation, operational responsibility and statutory authority retain their own records.
 - Use **Ready S.E.T. Co-op** or **Ready Sustainable Employment and Training Cooperative**. It is the proposed intermediary; its formation, mandate, members, hosts, staffing and funding are development work.
 - **Aura of Intelligence** is Luke's personal AI operating system in development, from light to ultra high definition. It supports network navigation and just-in-time learning: explain the next task, rehearse it, apply it and check the result.
 - Keep personal context/model depth, presentation detail, computing location, communications and emergency energy state independently understandable. Public information and assistance remain available to guests without a personal profile, biometrics, a pledge or permission to train on their data.

@@ -21,6 +21,8 @@ This wiki turns that ambition into connected questions, clear jobs and reviewabl
 | [Documents and site sources](Source-library.md) | Read the originals, find preserved source editions and carry the work into the next job. |
 | [People decide](Human-review.md) | Understand who reviews each choice and exactly what an approval covers. |
 
+Luke drives the work as project initiator. [Professional review](Professional-review.md) compares proposals that overlap professional responsibilities with applicable good practice and legal sources, recording differences, improvements and deficiencies alongside the responsible people's decisions.
+
 ## Where we are
 
 **96 linked questions · 13 work areas · 3 review packages ready · 0 approvals recorded and checked.**

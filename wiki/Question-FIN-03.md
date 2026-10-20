@@ -17,7 +17,7 @@ A funding-fit table for planning and access, equipment, power and communications
 
 ## People and connected choices
 
-**Who reviews:** Luke prioritises funding research. An actual eligible applicant or auspice decides whether to take on responsibility and apply; the funder decides eligibility and any award.
+**Who reviews:** Luke, as project initiator, coordinates and prioritises funding research within the planning work. An actual eligible applicant or auspice decides whether to take on responsibility and apply; the funder decides eligibility and any award.
 
 **Connected questions:** [FIN-01](Question-FIN-01.md), [FIN-02](Question-FIN-02.md), [GOV-01](Question-GOV-01.md)
 

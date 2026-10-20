@@ -14,10 +14,11 @@ A participant evaluation plan covering physical and digital access, phone-free a
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 2, 8-10)
 - supporting research — reviewed source; public copy can be added through the evidence process (Aura personal operating system and GAJRA values)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke develops the evaluation plan. Participants choose involvement and disclosure, accessibility reviewers assess their scope, and cultural custodians guide relevant material.
+**Who reviews:** Luke, as project initiator, coordinates the evaluation proposal and its response to findings. Participants choose involvement and disclosure, relevant accessibility reviewers assess methods and results within their scope, and cultural custodians guide relevant material.
 
 **Connected questions:** [OPS-01](Question-OPS-01.md), [OPS-04](Question-OPS-04.md), [DAT-05](Question-DAT-05.md), [DAT-06](Question-DAT-06.md), [GOV-02](Question-GOV-02.md), [TEST-01](Question-TEST-01.md)
 

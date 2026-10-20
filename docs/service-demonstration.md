@@ -21,3 +21,5 @@ Aura helps the steward find an approved learning item, understand it, rehearse t
 Keep a configuration list, sources and versions, test steps, observations, timings, message receipts, energy measurements where real equipment is used, access barriers and the changes people suggest. A 24-hour disconnected software exercise and a nine-day scenario timeline establish different evidence. Real hardware endurance and all-weather performance develop through their own measured tests.
 
 The D-003 review selects the prototype service brief. Future public service, sites and construction receive their relevant people, agreements and reviews.
+
+Luke drives this proposal as initiator. Where the demonstration models professional or emergency-service responsibilities, prepare a comparison with the applicable practice, procedures and relevant legal sources. Record differences, potential improvements and deficiencies, and obtain the relevant professional assessment for the action being proposed. Use the [professional-review method](../wiki/Professional-review.md); simulation results and actual service agreements retain their own status.

@@ -35,10 +35,11 @@ Develop coordinated designs for a sheltered arcade demonstrator, an operational 
 - Can a person use and maintain the equipment comfortably and safely?
 - Do the drawings show water paths, heat management, power separation, access and mounting?
 - Does each claimed capability have a planned measurement or review?
+- Does the proposal identify overlapping professional responsibilities, applicable practice and legal sources, and the comparison of differences, improvements and deficiencies?
 
 **Questions:** [PHY-01](Question-PHY-01.md), [PHY-02](Question-PHY-02.md), [ENE-01](Question-ENE-01.md), [COM-01](Question-COM-01.md), [TEST-01](Question-TEST-01.md)
 
-**Reviewers:** Luke, reviewing the project design and working method
+**Reviewers:** Luke, as project initiator, reviewing planning choices within his responsibilities alongside the relevant professional review process
 
 [Open the GitHub review conversation](https://github.com/auraofintelligence/aura-disaster-resilience/issues/2).
 
@@ -46,14 +47,14 @@ Develop coordinated designs for a sheltered arcade demonstrator, an operational 
 
 The fingerprint below identifies this exact proposal and its supporting files. A changed proposal gets a fresh fingerprint and review. A person may approve, request changes or reject it. [How reviews work](Human-review.md).
 
-`a0e062e4e6836f49237896c10ed10e3585c6f4b5582828af5d0f45fedb7c4564`
+`d4f368c8909dbc96de77bdb8b57b572ea7bfe585461b2a378082ebba6067d033`
 
-Evidence fingerprint: `e78e8eec85b77641be9a89dfc0876584e80685cb800649c47c642cf33786c742`.
+Evidence fingerprint: `1cc2a419d57fee1f624d9d2c724c903fbd80f31ffe52c99f4c0a1e35fdaff316`.
 
 For approval, the named person posts this line in the linked GitHub issue after reading the proposal:
 
 ```text
-HITL APPROVE D-002 a0e062e4e6836f49237896c10ed10e3585c6f4b5582828af5d0f45fedb7c4564 scope=design_brief
+HITL APPROVE D-002 d4f368c8909dbc96de77bdb8b57b572ea7bfe585461b2a378082ebba6067d033 scope=design_brief
 Conditions: none
 ```
 

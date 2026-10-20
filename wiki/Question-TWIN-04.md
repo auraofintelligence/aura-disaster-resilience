@@ -16,6 +16,7 @@ Draw these dependencies and replay failures involving staff and skills, charging
 - supporting research — reviewed source; public copy can be added through the evidence process
 - [Aura_Teacher_Training_60_Days.pdf](https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf) (pp.41,55)
 - [site-data.js](https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/assets/site-data.js) (run-sheet and supplier-request definitions)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 

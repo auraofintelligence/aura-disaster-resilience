@@ -13,10 +13,11 @@ A review scorecard and decision record covering everyday value, information qual
 ## What we know so far
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 9-11 and 13)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke leads proposed design changes. Actual operators, members, hosts and authorities decide continuation within their responsibilities, with user feedback and disagreement retained as evidence.
+**Who reviews:** Luke, as project initiator, coordinates proposed design changes and their supporting evidence. Actual operators, members, hosts and authorities review relevant requirements and decide continuation within their responsibilities, with user feedback, differences and the response to findings retained as evidence.
 
 **Connected questions:** [TEST-05](Question-TEST-05.md), [FIN-02](Question-FIN-02.md), [GOV-06](Question-GOV-06.md)
 

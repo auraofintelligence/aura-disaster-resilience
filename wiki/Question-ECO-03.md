@@ -16,6 +16,7 @@ Agree the transport information record: issuing authority, affected route or ser
 - [site.html](https://github.com/auraofintelligence/ballow-road-sand-screen-hub/blob/main/site.html) (ferry gateway distinctions)
 - [PLACE_COORDINATE_AUDIT.md](https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/docs/PLACE_COORDINATE_AUDIT.md)
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 

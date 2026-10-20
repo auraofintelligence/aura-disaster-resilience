@@ -58,5 +58,9 @@
   {
     "id": "C15",
     "constraint": "Use Your Relevance, P4A Legal RAG and Australian Legal Engine as the current legal-exploration references. Link author context about Luke Nathan Hayes to his chosen open-record repository. The ecosystem and source register retain those exact addresses."
+  },
+  {
+    "id": "C16",
+    "constraint": "Luke is the project initiator and will drive research, coordination and proposals forward. Where decisions overlap SES, police, fire and rescue, ambulance, Defence or other qualified professional responsibilities, review his opinions and research against applicable industry and international good practice and relevant legal sources. Record differences, reasonable improvements and deficiencies in the proposal or existing approach, with evidence and the relevant professional assessment. Actual operational, statutory, technical, cultural, site and personal decisions remain with the responsible people and processes; confirm participation and scope when agreed."
   }
 ]

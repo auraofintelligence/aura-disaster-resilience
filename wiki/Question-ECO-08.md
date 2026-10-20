@@ -18,6 +18,7 @@ Create readable and computer-readable entries for calendar, notices, media, tran
 - [web3-sensorium.html](https://github.com/auraofintelligence/p4a-xyz-cinema/blob/main/pages/web3-sensorium.html)
 - [Sovereign_Space_Builder_Part_2_Full_System_Implementation.pdf](https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Sovereign_Space_Builder_Part_2_Full_System_Implementation.pdf)
 - [Verse_Box_Trial_Proposal_Version_1_Corrected.pdf](https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 **Starting idea for review:** For human consideration: agree versioned information exchanges and clear project references, with each participant retaining custody, approval responsibilities and the ability to change providers.
 

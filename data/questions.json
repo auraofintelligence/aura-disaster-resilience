@@ -6,12 +6,17 @@
     "why": "A clear service envelope, meaning the people, tasks and conditions the service is designed to support, lets every part of the stack work towards useful outcomes.",
     "expected_deliverable": "A service brief naming priority users, the first three everyday tasks, essential disaster tasks, success measures, service limits and accessible ways to take part.",
     "depends_on": [],
-    "decision_authority_role": "Luke leads the service proposal. Prospective users and the people responsible for receiving help requests review practical suitability; their participation and roles are next to agree.",
+    "decision_authority_role": "Luke, as project initiator, coordinates the service proposal and brings research and options forward. Prospective users and the people responsible for receiving help requests review practical suitability; relevant qualified professionals and authorities review any overlap with their duties. Their participation and roles are to be agreed.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 1-2 and 13"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -33,12 +38,17 @@
     "depends_on": [
       "OPS-01"
     ],
-    "decision_authority_role": "Luke leads the proposed service area. Each actual host or landholder confirms its own participation and access, with the relevant public authorities and qualified people reviewing their responsibilities.",
+    "decision_authority_role": "Luke, as project initiator, develops candidate service areas and coordinates the comparison. Each actual host or landholder confirms its own participation and access, with the relevant public authorities and qualified people reviewing matters within their responsibilities.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 5, 7 and 13"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -61,7 +71,7 @@
       "OPS-01",
       "OPS-02"
     ],
-    "decision_authority_role": "Luke approves the exercise design. Prospective operators and subject specialists review its realism, while official issuers and site authorities retain their own decisions about public instructions and field activity.",
+    "decision_authority_role": "Luke, as project initiator, prepares and advances the exercise proposal. Prospective operators and relevant subject specialists review its assumptions, realism and professional requirements; official issuers and site authorities retain their decisions about public instructions and field activity. Participation and review roles are to be confirmed.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -72,6 +82,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "Alfred source distinction and scenario-learning originals"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -93,12 +108,17 @@
       "OPS-01",
       "OPS-03"
     ],
-    "decision_authority_role": "Luke leads the proposed service behaviour. The future operator and actual information issuers agree responsibility for changes within their authority.",
+    "decision_authority_role": "Luke, as project initiator, coordinates proposed service behaviour and the reasons for each choice. The future operator and actual information issuers review the proposal and agree responsibility for changes within their authority, with relevant qualified professionals reviewing overlapping requirements.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 2, 5-7 and 8"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -121,12 +141,17 @@
       "OPS-01",
       "OPS-03"
     ],
-    "decision_authority_role": "Luke leads the interaction design. Each actual receiving-service lead decides which requests it accepts and staffs; authorised emergency services retain their emergency responsibilities.",
+    "decision_authority_role": "Luke, as project initiator, develops the interaction proposal for review. Each actual receiving-service lead decides which requests it accepts and staffs; authorised emergency services retain their emergency responsibilities and review any proposed overlap with their work.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 3-4 and 9"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -150,12 +175,17 @@
       "OPS-04",
       "OPS-05"
     ],
-    "decision_authority_role": "Luke develops the staffing proposal. Actual workers, employers, service owners and qualified practitioners confirm availability, duties and the work they are qualified to perform.",
+    "decision_authority_role": "Luke, as project initiator, coordinates the staffing proposal and supporting research. Actual workers, employers, service owners and qualified practitioners review it and confirm availability, duties and the work they are qualified to perform; participation remains to be agreed.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 1, 4, 7 and 8"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -178,7 +208,7 @@
       "OPS-03",
       "OPS-05"
     ],
-    "decision_authority_role": "Luke develops the information workflow. Actual owners, stock custodians and receiving services confirm allocation and assess condition within their responsibilities.",
+    "decision_authority_role": "Luke, as project initiator, develops the information-workflow proposal. Actual owners, stock custodians and receiving services review practical and professional requirements, confirm allocation and assess condition within their responsibilities.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -189,6 +219,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "Shared Table, food-system originals and enabling-project interfaces"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -211,12 +246,17 @@
       "OPS-03",
       "OPS-04"
     ],
-    "decision_authority_role": "Luke develops the continuity design. Actual hosts, incident authorities and qualified site personnel decide access and closure within their authority, with alternatives confirmed by their responsible operators.",
+    "decision_authority_role": "Luke, as project initiator, coordinates the continuity proposal and its alternatives. Actual hosts, incident authorities and qualified site personnel review relevant requirements and decide access and closure within their authority, with alternatives confirmed by their responsible operators.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 4, 7-9"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -248,6 +288,11 @@
         "title": "GPT Straddie Disaster Kiosks.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": "For review: develop these as separate types, with a clear service and test plan for each.",
@@ -271,6 +316,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -295,6 +345,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -320,6 +375,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -349,6 +409,11 @@
         "title": "GPT Straddie Disaster Kiosks.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -374,6 +439,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -398,6 +468,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -423,6 +498,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -449,6 +529,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -477,6 +562,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -501,6 +591,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -530,6 +625,11 @@
         "title": "GPT Straddie Disaster Kiosks.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -554,6 +654,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -579,6 +684,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -605,6 +715,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": "For review: give the essential information channel its own dependable power path, then use measured demand and reserve needs to choose the switching levels.",
@@ -630,6 +745,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -660,6 +780,11 @@
         "title": "GPT Straddie Disaster Kiosks.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -684,6 +809,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -714,6 +844,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -741,6 +876,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -765,6 +905,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": "For review: give short, verified essential notices priority and keep large maps and media available locally or transfer them over connections with suitable capacity.",
@@ -789,6 +934,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -812,6 +962,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -841,6 +996,11 @@
         "title": "GPT Straddie Disaster Kiosks.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -864,6 +1024,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -889,6 +1054,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -916,6 +1086,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -942,6 +1117,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -968,6 +1148,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -1000,6 +1185,11 @@
         "title": "Straddie Disaster Kiosk Pitch.pdf",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": null,
@@ -1017,7 +1207,7 @@
       "OPS-01",
       "OPS-04"
     ],
-    "decision_authority_role": "Luke identifies candidate sources. Each actual information owner confirms permitted use and update arrangements, while the authorised issuer retains responsibility for official instructions.",
+    "decision_authority_role": "Luke, as project initiator, researches candidate sources and brings the comparison forward. Each actual information owner confirms permitted use and update arrangements, while the authorised issuer retains responsibility for official instructions and reviews proposed use within its scope.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -1028,6 +1218,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "Official disaster and warning sources"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -1049,12 +1244,17 @@
       "DAT-01",
       "OPS-04"
     ],
-    "decision_authority_role": "Luke leads the record design. Actual issuers and service reviewers confirm the meaning, timing and continuing status of information they are responsible for.",
+    "decision_authority_role": "Luke, as project initiator, develops the proposed record design and its supporting evidence. Actual issuers and relevant service reviewers assess applicable requirements and confirm the meaning, timing and continuing status of information they are responsible for.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 2-3, 5-6 and 9"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -1076,12 +1276,17 @@
       "DAT-01",
       "DAT-02"
     ],
-    "decision_authority_role": "Luke proposes the roles and tools. Actual issuing bodies, the future operator, cultural custodians and hosts agree publishing authority within their own responsibilities.",
+    "decision_authority_role": "Luke, as project initiator, proposes publishing roles and tools for review. Actual issuing bodies, the future operator, cultural custodians and hosts agree publishing authority within their own responsibilities; their participation and roles are to be confirmed.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 3, 5-6 and 8"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -1105,12 +1310,17 @@
       "OPS-05",
       "OPS-07"
     ],
-    "decision_authority_role": "Luke leads the proposed record-handling rules. Actual issuers, request owners and stock custodians decide how to resolve real-world conflicts within their responsibilities.",
+    "decision_authority_role": "Luke, as project initiator, prepares proposed record-handling rules and comparisons. Actual issuers, request owners and stock custodians review requirements and decide how to resolve real-world conflicts within their responsibilities.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 4-6 and 9"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -1132,7 +1342,7 @@
       "OPS-05",
       "DAT-02"
     ],
-    "decision_authority_role": "Luke leads the privacy design. People choose optional disclosures; the actual receiving service and accountable data steward confirm necessary records, access and retention arrangements.",
+    "decision_authority_role": "Luke, as project initiator, develops the privacy proposal for review. People choose optional disclosures; the actual receiving service and accountable data steward assess applicable professional and legal requirements and confirm necessary records, access and retention arrangements.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -1143,6 +1353,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "Aura personal operating system and GAJRA values"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -1166,7 +1381,7 @@
       "DAT-02",
       "DAT-03"
     ],
-    "decision_authority_role": "Luke develops the publishing workflow. Actual authors, rights holders, relevant cultural custodians and authorised publishers decide their own releases and conditions.",
+    "decision_authority_role": "Luke, as project initiator, prepares the publishing-workflow proposal. Actual authors, rights holders, relevant cultural custodians and authorised publishers review the proposed handling of their material and decide their own releases and conditions.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -1177,6 +1392,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "Noticeboard, events, media and cultural-source reviews"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -1216,6 +1436,11 @@
         "title": "Straddie_Disaster_Kiosk_Pitch.pdf",
         "url": "https://github.com/auraofintelligence/straddie-disaster-kiosks/blob/main/docs/Straddie_Disaster_Kiosk_Pitch.pdf",
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": "For human consideration: keep the essential local service independently usable and connect richer services through agreed, replaceable information exchanges.",
@@ -1249,6 +1474,11 @@
         "title": "Aura_Teacher_Training_60_Days.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf",
         "locator": "pp.42,55"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1281,6 +1511,11 @@
         "title": "Web3_Sensorium_for_Science_Debate.pdf",
         "url": "https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Web3_Sensorium_for_Science_Debate.pdf",
         "locator": "pp.9,30"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1313,6 +1548,11 @@
         "title": "Aura_Teacher_Training_60_Days.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf",
         "locator": "p.42"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1350,6 +1590,11 @@
         "title": "Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
         "url": "https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
         "locator": "pp.8-13"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1383,6 +1628,11 @@
         "title": "Aura_Teacher_Training_60_Days.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf",
         "locator": "p.55"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1415,6 +1665,11 @@
         "title": "youth-elders.html",
         "url": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub/blob/main/youth-elders.html",
         "locator": "older residents section"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1453,6 +1708,11 @@
         "title": "Aura_Teacher_Training_60_Days.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf",
         "locator": "p.55"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1486,6 +1746,11 @@
         "title": "youth-elders.html",
         "url": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub/blob/main/youth-elders.html",
         "locator": "practical crew roles"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1520,6 +1785,11 @@
         "title": "Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
         "locator": "pp.28,37"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1548,6 +1818,11 @@
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": "For human consideration: begin with assistance for the person's current task and invite useful personal context as they choose.",
@@ -1581,6 +1856,11 @@
         "title": "Aura_Genesis_Geode_Development_Edition_3.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
         "locator": "p.22"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1615,6 +1895,11 @@
         "title": "Web3_Sensorium_for_Science_Debate.pdf",
         "url": "https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Web3_Sensorium_for_Science_Debate.pdf",
         "locator": "pp.29-30"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1647,6 +1932,11 @@
         "title": "youth-elders.html",
         "url": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub/blob/main/youth-elders.html",
         "locator": "practical supervised roles"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1680,6 +1970,11 @@
         "title": "Aura_Teacher_Training_60_Days.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf",
         "locator": "p.42"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1713,6 +2008,11 @@
         "title": "Aura_Teacher_Training_60_Days.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf",
         "locator": "p.55"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1750,6 +2050,11 @@
         "title": "Aura_Genesis_Geode_Development_Edition_3.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
         "locator": "p.32"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1787,6 +2092,11 @@
         "title": "Web3_Sensorium_for_Science_Debate.pdf",
         "url": "https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Web3_Sensorium_for_Science_Debate.pdf",
         "locator": "pp.19-22"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1814,6 +2124,11 @@
         "title": "Aura_Teacher_Training_60_Days.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf",
         "locator": "pp.26,52-53"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1854,6 +2169,11 @@
         "title": "site-data.js",
         "url": "https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/assets/site-data.js",
         "locator": "run-sheet and supplier-request definitions"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1887,6 +2207,11 @@
         "title": "Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
         "url": "https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
         "locator": "p.4"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1921,6 +2246,11 @@
         "title": "Aura_Teacher_Training_60_Days.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf",
         "locator": "p.53"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -1938,7 +2268,7 @@
       "OPS-05",
       "OPS-06"
     ],
-    "decision_authority_role": "Luke develops the operating proposal. Prospective members choose whether and how to form the cooperative; actual applicants, employers, hosts and advisers agree their own responsibilities as the model develops.",
+    "decision_authority_role": "Luke, as project initiator, drives development of the operating proposal and coordinates its review. Prospective members choose whether and how to form the cooperative; actual applicants, employers, hosts and advisers assess relevant requirements and agree their own responsibilities as the model develops.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -1949,6 +2279,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "Cooperative original-document reviews"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -1972,7 +2307,7 @@
       "OPS-01",
       "OPS-02"
     ],
-    "decision_authority_role": "Luke leads the invitation and design response. Participants choose their involvement and express their own views; anyone representing a wider group needs that group's authority.",
+    "decision_authority_role": "Luke, as project initiator, coordinates the invitation and prepares responses to design feedback. Participants choose their involvement and express their own views; anyone representing a wider group needs that group's authority. Participants help shape the proposal and see how their contributions are addressed.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -2006,7 +2341,7 @@
       "OPS-02",
       "DAT-06"
     ],
-    "decision_authority_role": "Relevant cultural custodians decide the conditions for their material and participation. Luke prepares the proposal and records the guidance; engagement pathways develop through actual agreement.",
+    "decision_authority_role": "Relevant cultural custodians decide the conditions for their material and participation. Luke, as project initiator, prepares proposals and records the guidance and resulting design response; engagement pathways develop through actual agreement.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -2040,7 +2375,7 @@
       "OPS-08",
       "GOV-01"
     ],
-    "decision_authority_role": "Each actual host, landholder and asset owner confirms its own rights and duties. Relevant public authorities and qualified practitioners make the formal and technical decisions they are responsible for; Luke leads the design response.",
+    "decision_authority_role": "Each actual host, landholder and asset owner confirms its own rights and duties. Relevant public authorities and qualified practitioners review applicable requirements and make the formal and technical decisions they are responsible for. Luke, as project initiator, coordinates the proposal and documents its response to that review.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -2051,6 +2386,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "Host and transport-infrastructure source boundaries"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2074,7 +2414,7 @@
       "GOV-02",
       "DAT-05"
     ],
-    "decision_authority_role": "Each participating community chooses reciprocal recognition. Contributors choose participation and disclosure, while Luke proposes the tools and the future operator's role is agreed.",
+    "decision_authority_role": "Each participating community chooses reciprocal recognition. Contributors choose participation and disclosure. Luke, as project initiator, develops proposed tools for community review, and the future operator's role is agreed with the people taking that responsibility.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -2108,7 +2448,7 @@
       "GOV-04",
       "DAT-03"
     ],
-    "decision_authority_role": "Luke develops the accountability proposal. Future members, actual hosts, receiving services and responsible officers agree their duties, with cultural, public-authority and qualified decisions following their relevant review routes.",
+    "decision_authority_role": "Luke, as project initiator, coordinates the accountability proposal and its review. Future members, actual hosts, receiving services and responsible officers agree their duties, with cultural, public-authority and qualified decisions following their relevant review routes. Findings, differences and the design response remain visible.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -2119,6 +2459,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "GAJRA values and cooperative governance sources"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2144,7 +2489,7 @@
       "OPS-06",
       "GOV-04"
     ],
-    "decision_authority_role": "Luke sets the proposed prototype budget. Actual suppliers provide quotes, and the future operator or eligible applicant confirms its financial responsibilities before procurement or spending commitments.",
+    "decision_authority_role": "Luke, as project initiator, prepares a proposed prototype budget and the reasons for its estimates. Actual suppliers provide quotes, relevant specialists review assumptions within their scope, and the future operator or eligible applicant confirms its financial responsibilities before procurement or spending commitments.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -2155,6 +2500,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "Historical kiosk pitches and funding source register"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2178,7 +2528,7 @@
       "OPS-03",
       "GOV-01"
     ],
-    "decision_authority_role": "Luke develops the financial scenarios. Actual future members, operators, hosts and funders choose and confirm their contributions as agreements are established.",
+    "decision_authority_role": "Luke, as project initiator, develops financial scenarios for comparison and review. Actual future members, operators, hosts and funders assess their requirements and choose and confirm their contributions as agreements are established.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -2189,6 +2539,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "Funding leads and cooperative source boundaries"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2213,7 +2568,7 @@
       "FIN-02",
       "GOV-01"
     ],
-    "decision_authority_role": "Luke prioritises funding research. An actual eligible applicant or auspice decides whether to take on responsibility and apply; the funder decides eligibility and any award.",
+    "decision_authority_role": "Luke, as project initiator, coordinates and prioritises funding research within the planning work. An actual eligible applicant or auspice decides whether to take on responsibility and apply; the funder decides eligibility and any award.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -2247,12 +2602,17 @@
       "FIN-02",
       "FIN-03"
     ],
-    "decision_authority_role": "Luke decides the design and prototype allowance. A later entity, host, applicant or funder approves its own financial commitments through its actual decision process.",
+    "decision_authority_role": "Luke, as project initiator, proposes the design-stage and prototype allowance for review. Any spending within his control follows his actual authorisation; a future entity, host, applicant or funder decides its own financial commitments through its decision process, informed by relevant specialist review.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 10-11 and 13"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2279,12 +2639,17 @@
       "OPS-04",
       "DAT-02"
     ],
-    "decision_authority_role": "Luke agrees the prototype test limits with prospective operators and participating specialists. Actual responsible parties make the separate decision about field acceptance.",
+    "decision_authority_role": "Luke, as project initiator, prepares prototype test limits for review with prospective operators and relevant specialists. Those reviewers assess the conditions and professional requirements within their competence; actual responsible parties make the decision about field acceptance. Participation and review roles are to be confirmed.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 6 and 9-10"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2309,12 +2674,17 @@
       "DAT-03",
       "DAT-04"
     ],
-    "decision_authority_role": "Luke leads prototype acceptance with technical reviewers. Actual operators and relevant qualified people review field readiness within their roles, alongside the required installation decisions.",
+    "decision_authority_role": "Luke, as project initiator, coordinates the prototype evidence and proposed acceptance criteria. Relevant technical reviewers assess the criteria and results against applicable practice; actual operators and qualified people determine field readiness within their roles, alongside the required installation decisions.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 5-6 and 9"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2340,12 +2710,17 @@
       "FIN-02",
       "TEST-01"
     ],
-    "decision_authority_role": "Luke agrees the evidence plan. Actual operators, hosts and qualified power or site specialists validate measurements and the conditions those measurements support.",
+    "decision_authority_role": "Luke, as project initiator, develops the evidence plan for review. Actual operators, hosts and qualified power or site specialists assess the methods, validate measurements within their competence and determine the conditions those measurements support; their participation is to be agreed.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 1, 7 and 9-10"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2371,7 +2746,7 @@
       "GOV-02",
       "TEST-01"
     ],
-    "decision_authority_role": "Luke develops the evaluation plan. Participants choose involvement and disclosure, accessibility reviewers assess their scope, and cultural custodians guide relevant material.",
+    "decision_authority_role": "Luke, as project initiator, coordinates the evaluation proposal and its response to findings. Participants choose involvement and disclosure, relevant accessibility reviewers assess methods and results within their scope, and cultural custodians guide relevant material.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
@@ -2382,6 +2757,11 @@
         "title": "supporting research",
         "url": null,
         "locator": "Aura personal operating system and GAJRA values"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2412,12 +2792,17 @@
       "TEST-03",
       "TEST-04"
     ],
-    "decision_authority_role": "Luke approves the design proposal. Each actual host, cultural custodian, receiving service, relevant public authority and qualified practitioner records the decisions they are responsible for as readiness is established.",
+    "decision_authority_role": "Luke, as project initiator, brings the design proposal and readiness evidence forward for review. Each actual host, cultural custodian, receiving service, relevant public authority and qualified practitioner assesses applicable requirements and records the decisions they are responsible for as readiness is established.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 7-10"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2442,12 +2827,17 @@
       "FIN-02",
       "GOV-06"
     ],
-    "decision_authority_role": "Luke leads proposed design changes. Actual operators, members, hosts and authorities decide continuation within their responsibilities, with user feedback and disagreement retained as evidence.",
+    "decision_authority_role": "Luke, as project initiator, coordinates proposed design changes and their supporting evidence. Actual operators, members, hosts and authorities review relevant requirements and decide continuation within their responsibilities, with user feedback, differences and the response to findings retained as evidence.",
     "current_evidence": [
       {
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": "Sections 9-11 and 13"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "constraint_refs": [
@@ -2494,6 +2884,11 @@
         "title": "PUBLIC_BOUNDARY.md",
         "url": "https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/docs/PUBLIC_BOUNDARY.md",
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -2532,6 +2927,11 @@
         "title": "PUBLIC_BOUNDARY.md",
         "url": "https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/docs/PUBLIC_BOUNDARY.md",
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -2570,6 +2970,11 @@
         "title": "comprehensive rebuild plan",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -2607,6 +3012,11 @@
         "title": "funding.html",
         "url": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub/blob/main/funding.html",
         "locator": "separate funding and effort records"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -2644,6 +3054,11 @@
         "title": "Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
         "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
         "locator": "pp.28-29"
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -2682,6 +3097,11 @@
         "title": "supporting research",
         "url": null,
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -2720,6 +3140,11 @@
         "title": "web3-sensorium.html",
         "url": "https://github.com/auraofintelligence/p4a-xyz-cinema/blob/main/pages/web3-sensorium.html",
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "work_status": "open",
@@ -2775,6 +3200,11 @@
         "title": "Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
         "url": "https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
         "locator": ""
+      },
+      {
+        "title": "Professional review and comparison of proposed improvements",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review",
+        "locator": "When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance."
       }
     ],
     "proposed_answer": "For human consideration: agree versioned information exchanges and clear project references, with each participant retaining custody, approval responsibilities and the ability to change providers.",
@@ -2789,7 +3219,7 @@
     "why": "A shared working method lets several teams move quickly and bring their work together.",
     "expected_deliverable": "A worked example following one kiosk question from assignment through evidence, alternatives, a human review and the next authorised job.",
     "depends_on": [],
-    "decision_authority_role": "Luke reviews the project working method; contributors help test its clarity and usefulness.",
+    "decision_authority_role": "Luke, as project initiator, reviews the project working method within the authorised planning and wiki scope; contributors help test its clarity and usefulness. Each reviewer retains responsibility for decisions within their actual role.",
     "current_evidence": [
       {
         "title": "User directions for a linked GitHub wiki and human decisions, 20 October 2026",
@@ -2810,7 +3240,7 @@
     "depends_on": [
       "WRK-01"
     ],
-    "decision_authority_role": "Luke reviews the project working method; contributors help test its clarity and usefulness.",
+    "decision_authority_role": "Luke, as project initiator, reviews the project working method within the authorised planning and wiki scope; contributors help test its clarity and usefulness. Each reviewer retains responsibility for decisions within their actual role.",
     "current_evidence": [
       {
         "title": "User directions for a linked GitHub wiki and human decisions, 20 October 2026",
@@ -2831,7 +3261,7 @@
     "depends_on": [
       "WRK-01"
     ],
-    "decision_authority_role": "Luke reviews the project working method; contributors help test its clarity and usefulness.",
+    "decision_authority_role": "Luke, as project initiator, reviews the project working method within the authorised planning and wiki scope; contributors help test its clarity and usefulness. Each reviewer retains responsibility for decisions within their actual role.",
     "current_evidence": [
       {
         "title": "User directions for a linked GitHub wiki and human decisions, 20 October 2026",
@@ -2852,7 +3282,7 @@
     "depends_on": [
       "WRK-01"
     ],
-    "decision_authority_role": "Luke reviews the project working method; contributors help test its clarity and usefulness.",
+    "decision_authority_role": "Luke, as project initiator, reviews the project working method within the authorised planning and wiki scope; contributors help test its clarity and usefulness. Each reviewer retains responsibility for decisions within their actual role.",
     "current_evidence": [
       {
         "title": "User directions for a linked GitHub wiki and human decisions, 20 October 2026",
@@ -2873,7 +3303,7 @@
     "depends_on": [
       "WRK-02"
     ],
-    "decision_authority_role": "Luke reviews the project working method; contributors help test its clarity and usefulness.",
+    "decision_authority_role": "Luke, as project initiator, reviews the project working method within the authorised planning and wiki scope; contributors help test its clarity and usefulness. Each reviewer retains responsibility for decisions within their actual role.",
     "current_evidence": [
       {
         "title": "User directions for a linked GitHub wiki and human decisions, 20 October 2026",
@@ -2894,7 +3324,7 @@
     "depends_on": [
       "WRK-01"
     ],
-    "decision_authority_role": "Luke reviews the project working method; contributors help test its clarity and usefulness.",
+    "decision_authority_role": "Luke, as project initiator, reviews the project working method within the authorised planning and wiki scope; contributors help test its clarity and usefulness. Each reviewer retains responsibility for decisions within their actual role.",
     "current_evidence": [
       {
         "title": "User directions for a linked GitHub wiki and human decisions, 20 October 2026",

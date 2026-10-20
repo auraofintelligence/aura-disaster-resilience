@@ -268,6 +268,8 @@ This wiki turns that ambition into connected questions, clear jobs and reviewabl
 ('[Documents and site sources](Source-library.md)', 'Read the originals, find preserved source editions and carry the work into the next job.'),
 ('[People decide](Human-review.md)', 'Understand who reviews each choice and exactly what an approval covers.')])}
 
+Luke drives the work as project initiator. [Professional review](Professional-review.md) compares proposals that overlap professional responsibilities with applicable good practice and legal sources, recording differences, improvements and deficiencies alongside the responsible people's decisions.
+
 ## Where we are
 
 **{len(questions)} linked questions · {len(data['domains'])} work areas · {len(ready)} review packages ready · {len(approved)} approvals recorded and checked.**
@@ -461,7 +463,7 @@ For a new piece of evidence, record the question IDs it helps answer, the file o
         out[p.name] = p.read_text(encoding='utf-8')
     out['_Sidebar.md'] = '\n'.join(['**Aura Disaster Resilience**', '', '- [Start here](Home.md)', '- [The whole system](Stack-map.md)',
         '- [First choices](First-review.md)', '- [All-weather design](All-weather-design.md)', '- [Questions](Question-register.md)',
-        '- [Progress](Progress.md)', '- [People decide](Human-review.md)', '- [AI assistant jobs](Agent-work.md)',
+        '- [Progress](Progress.md)', '- [People decide](Human-review.md)', '- [Professional review](Professional-review.md)', '- [AI assistant jobs](Agent-work.md)',
         '- [Connections](Ecosystem.md)', '- [Agreed direction](Constraints.md)', '- [Evidence](Evidence.md)',
         '- [Source library](Source-library.md)', '- [Useful words](Glossary.md)', '- [Rights and discovery](Rights-and-discovery.md)', '', '**Work areas**', ''] +
         [f'- [{d["name"]}](Domain-{d["id"]}.md)' for d in data['domains']]) + '\n'

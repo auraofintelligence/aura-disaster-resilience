@@ -16,6 +16,7 @@ Define an exchange record for the item or service, quantity, time, location-shar
 - supporting research — reviewed source; public copy can be added through the evidence process
 - [site-data.js](https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/assets/site-data.js) (supplier-request and crew-roster definitions)
 - [funding.html](https://github.com/auraofintelligence/ballow-road-sand-screen-hub/blob/main/funding.html) (separate funding and effort records)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 

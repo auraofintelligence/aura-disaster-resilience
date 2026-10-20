@@ -13,10 +13,11 @@ A reconciliation guide, meaning rules for bringing changed records together, wit
 ## What we know so far
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 4-6 and 9)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke leads the proposed record-handling rules. Actual issuers, request owners and stock custodians decide how to resolve real-world conflicts within their responsibilities.
+**Who reviews:** Luke, as project initiator, prepares proposed record-handling rules and comparisons. Actual issuers, request owners and stock custodians review requirements and decide how to resolve real-world conflicts within their responsibilities.
 
 **Connected questions:** [DAT-02](Question-DAT-02.md), [OPS-05](Question-OPS-05.md), [OPS-07](Question-OPS-07.md)
 

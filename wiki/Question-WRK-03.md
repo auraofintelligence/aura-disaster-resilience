@@ -16,7 +16,7 @@ A job sheet and assignment board with file boundaries, evidence expectations, co
 
 ## People and connected choices
 
-**Who reviews:** Luke reviews the project working method; contributors help test its clarity and usefulness.
+**Who reviews:** Luke, as project initiator, reviews the project working method within the authorised planning and wiki scope; contributors help test its clarity and usefulness. Each reviewer retains responsibility for decisions within their actual role.
 
 **Connected questions:** [WRK-01](Question-WRK-01.md)
 

@@ -14,10 +14,11 @@ An operating and reserve model showing responsible payers, confirmed and prospec
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 7-8 and 11)
 - supporting research — reviewed source; public copy can be added through the evidence process (Funding leads and cooperative source boundaries)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke develops the financial scenarios. Actual future members, operators, hosts and funders choose and confirm their contributions as agreements are established.
+**Who reviews:** Luke, as project initiator, develops financial scenarios for comparison and review. Actual future members, operators, hosts and funders assess their requirements and choose and confirm their contributions as agreements are established.
 
 **Connected questions:** [FIN-01](Question-FIN-01.md), [OPS-03](Question-OPS-03.md), [GOV-01](Question-GOV-01.md)
 

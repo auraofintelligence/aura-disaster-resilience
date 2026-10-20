@@ -13,10 +13,11 @@ A stage budget and approval record showing the design allowance, evidence to rev
 ## What we know so far
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 10-11 and 13)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke decides the design and prototype allowance. A later entity, host, applicant or funder approves its own financial commitments through its actual decision process.
+**Who reviews:** Luke, as project initiator, proposes the design-stage and prototype allowance for review. Any spending within his control follows his actual authorisation; a future entity, host, applicant or funder decides its own financial commitments through its decision process, informed by relevant specialist review.
 
 **Connected questions:** [FIN-01](Question-FIN-01.md), [FIN-02](Question-FIN-02.md), [FIN-03](Question-FIN-03.md)
 

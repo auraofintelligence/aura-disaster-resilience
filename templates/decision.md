@@ -44,6 +44,8 @@ Include a useful comparison or a staged option. Give units, timeframe and assump
 
 ## Evidence and checks
 
+Where the proposal overlaps professional or emergency-service responsibilities, add a [practice comparison](practice-comparison.md): applicable Australian and international practice, the relevant legal sources and their dates, agreement and differences, reasonable improvements or deficiencies in either approach, evidence, uncertainty and the actual reviewer's assessment. Use the [professional-review method](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review). Identify the particular next action and the relevant responsible decision-maker.
+
 | Claim | Source and page/section | Source version/fingerprint and checked date | Observation, proposal, model or estimate | Check result and exact version checked | Limits and contrary evidence |
 | --- | --- | --- | --- | --- | --- |
 | Not established | Not recorded | Not recorded | Awaiting classification | Awaiting check | Unresolved |

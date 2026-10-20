@@ -14,10 +14,11 @@ A scenario pack with starting conditions, a timed sequence of failures and recov
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 1, 7 and 9)
 - supporting research — reviewed source; public copy can be added through the evidence process (Alfred source distinction and scenario-learning originals)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke approves the exercise design. Prospective operators and subject specialists review its realism, while official issuers and site authorities retain their own decisions about public instructions and field activity.
+**Who reviews:** Luke, as project initiator, prepares and advances the exercise proposal. Prospective operators and relevant subject specialists review its assumptions, realism and professional requirements; official issuers and site authorities retain their decisions about public instructions and field activity. Participation and review roles are to be confirmed.
 
 **Connected questions:** [OPS-01](Question-OPS-01.md), [OPS-02](Question-OPS-02.md)
 

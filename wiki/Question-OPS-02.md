@@ -13,10 +13,11 @@ A service-area map and equipment-role table showing candidate locations, everyda
 ## What we know so far
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 5, 7 and 13)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke leads the proposed service area. Each actual host or landholder confirms its own participation and access, with the relevant public authorities and qualified people reviewing their responsibilities.
+**Who reviews:** Luke, as project initiator, develops candidate service areas and coordinates the comparison. Each actual host or landholder confirms its own participation and access, with the relevant public authorities and qualified people reviewing matters within their responsibilities.
 
 **Connected questions:** [OPS-01](Question-OPS-01.md)
 

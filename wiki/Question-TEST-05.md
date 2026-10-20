@@ -13,10 +13,11 @@ A pilot readiness and sign-off register showing each requirement, the actual res
 ## What we know so far
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 7-10)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke approves the design proposal. Each actual host, cultural custodian, receiving service, relevant public authority and qualified practitioner records the decisions they are responsible for as readiness is established.
+**Who reviews:** Luke, as project initiator, brings the design proposal and readiness evidence forward for review. Each actual host, cultural custodian, receiving service, relevant public authority and qualified practitioner assesses applicable requirements and records the decisions they are responsible for as readiness is established.
 
 **Connected questions:** [GOV-03](Question-GOV-03.md), [GOV-04](Question-GOV-04.md), [GOV-06](Question-GOV-06.md), [OPS-05](Question-OPS-05.md), [OPS-06](Question-OPS-06.md), [FIN-04](Question-FIN-04.md), [TEST-02](Question-TEST-02.md), [TEST-03](Question-TEST-03.md), [TEST-04](Question-TEST-04.md)
 

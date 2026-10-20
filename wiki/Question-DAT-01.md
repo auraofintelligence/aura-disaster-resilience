@@ -14,10 +14,11 @@ A source-agreement register naming each owner, its authority, permitted use, upd
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Section 3)
 - supporting research — reviewed source; public copy can be added through the evidence process (Official disaster and warning sources)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke identifies candidate sources. Each actual information owner confirms permitted use and update arrangements, while the authorised issuer retains responsibility for official instructions.
+**Who reviews:** Luke, as project initiator, researches candidate sources and brings the comparison forward. Each actual information owner confirms permitted use and update arrangements, while the authorised issuer retains responsibility for official instructions and reviews proposed use within its scope.
 
 **Connected questions:** [OPS-01](Question-OPS-01.md), [OPS-04](Question-OPS-04.md)
 

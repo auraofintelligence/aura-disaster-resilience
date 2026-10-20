@@ -14,10 +14,11 @@ A governance and incident runbook covering responsibilities, complaints and revi
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 8-11)
 - supporting research — reviewed source; public copy can be added through the evidence process (GAJRA values and cooperative governance sources)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke develops the accountability proposal. Future members, actual hosts, receiving services and responsible officers agree their duties, with cultural, public-authority and qualified decisions following their relevant review routes.
+**Who reviews:** Luke, as project initiator, coordinates the accountability proposal and its review. Future members, actual hosts, receiving services and responsible officers agree their duties, with cultural, public-authority and qualified decisions following their relevant review routes. Findings, differences and the design response remain visible.
 
 **Connected questions:** [GOV-01](Question-GOV-01.md), [GOV-03](Question-GOV-03.md), [GOV-04](Question-GOV-04.md), [DAT-03](Question-DAT-03.md)
 

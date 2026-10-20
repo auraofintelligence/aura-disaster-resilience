@@ -13,10 +13,11 @@ A record guide with worked warnings, service notices and calendar occurrences, c
 ## What we know so far
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 2-3, 5-6 and 9)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke leads the record design. Actual issuers and service reviewers confirm the meaning, timing and continuing status of information they are responsible for.
+**Who reviews:** Luke, as project initiator, develops the proposed record design and its supporting evidence. Actual issuers and relevant service reviewers assess applicable requirements and confirm the meaning, timing and continuing status of information they are responsible for.
 
 **Connected questions:** [DAT-01](Question-DAT-01.md), [OPS-04](Question-OPS-04.md)
 

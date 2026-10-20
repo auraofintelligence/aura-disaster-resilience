@@ -4,7 +4,7 @@
     "work_status": "ready_for_review",
     "github_issue_url": "https://github.com/auraofintelligence/aura-disaster-resilience/issues/1",
     "proposal": {
-      "version": 1,
+      "version": 2,
       "title": "Work together through linked questions and human decisions",
       "scope": "working_method",
       "scope_label": "The planning workflow",
@@ -38,7 +38,8 @@
       "review_checks": [
         "Can a newcomer find a useful job and understand what to bring back?",
         "Can a reviewer see the exact proposal, evidence, responsibilities and next action?",
-        "Do changed proposals return to review while earlier decisions remain traceable?"
+        "Do changed proposals return to review while earlier decisions remain traceable?",
+        "Does the proposal identify overlapping professional responsibilities, applicable practice and legal sources, and the comparison of differences, improvements and deficiencies?"
       ],
       "question_ids": [
         "WRK-01",
@@ -50,7 +51,8 @@
       ],
       "files": [
         "content/Agent-work.md",
-        "content/Human-review.md"
+        "content/Human-review.md",
+        "content/Professional-review.md"
       ],
       "required_roles": [
         "design_curator"
@@ -62,7 +64,7 @@
     "work_status": "ready_for_review",
     "github_issue_url": "https://github.com/auraofintelligence/aura-disaster-resilience/issues/2",
     "proposal": {
-      "version": 1,
+      "version": 2,
       "title": "Design a kiosk family around its weather and working conditions",
       "scope": "design_brief",
       "scope_label": "The physical design brief and comparison drawings",
@@ -98,7 +100,8 @@
         "Are operating conditions, protection through a severe event, storage and recovery conditions clearly described?",
         "Can a person use and maintain the equipment comfortably and safely?",
         "Do the drawings show water paths, heat management, power separation, access and mounting?",
-        "Does each claimed capability have a planned measurement or review?"
+        "Does each claimed capability have a planned measurement or review?",
+        "Does the proposal identify overlapping professional responsibilities, applicable practice and legal sources, and the comparison of differences, improvements and deficiencies?"
       ],
       "question_ids": [
         "PHY-01",
@@ -108,7 +111,8 @@
         "TEST-01"
       ],
       "files": [
-        "content/All-weather-design.md"
+        "content/All-weather-design.md",
+        "content/Professional-review.md"
       ],
       "required_roles": [
         "design_curator"
@@ -120,7 +124,7 @@
     "work_status": "ready_for_review",
     "github_issue_url": "https://github.com/auraofintelligence/aura-disaster-resilience/issues/3",
     "proposal": {
-      "version": 1,
+      "version": 2,
       "title": "Build a complete everyday-to-disaster service demonstration",
       "scope": "prototype_service",
       "scope_label": "The first software and service demonstration",
@@ -157,7 +161,8 @@
         "Does a changed or unresolved warning keep its source, time and meaning when a connection fails?",
         "Can people see whether a request is saved, received, assigned or completed?",
         "Does Aura offer relevant learning with a source, prerequisites and a human handover?",
-        "Can another steward restore the service and continue outstanding work?"
+        "Can another steward restore the service and continue outstanding work?",
+        "Does the proposal identify overlapping professional responsibilities, applicable practice and legal sources, and the comparison of differences, improvements and deficiencies?"
       ],
       "question_ids": [
         "OPS-01",
@@ -168,7 +173,8 @@
         "TEST-01"
       ],
       "files": [
-        "docs/service-demonstration.md"
+        "docs/service-demonstration.md",
+        "content/Professional-review.md"
       ],
       "required_roles": [
         "design_curator"

@@ -15,6 +15,7 @@ Describe each proposed level's personal context, permitted tasks, evidence quali
 - [Verse_Box_Trial_Proposal_Version_1_Corrected.pdf](https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf) (pp.14,16)
 - [Aura_Genesis_Protocol_Game_Design_Document_V2.pdf](https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf) (pp.26-28)
 - [Aura_Genesis_Geode_Development_Edition_3.pdf](https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Genesis_Geode_Development_Edition_3.pdf) (p.22)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 

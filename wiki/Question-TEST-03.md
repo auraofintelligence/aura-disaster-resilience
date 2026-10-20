@@ -13,10 +13,11 @@ An evidence matrix linking each claim to measured demand, equipment settings, ge
 ## What we know so far
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 1, 7 and 9-10)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke agrees the evidence plan. Actual operators, hosts and qualified power or site specialists validate measurements and the conditions those measurements support.
+**Who reviews:** Luke, as project initiator, develops the evidence plan for review. Actual operators, hosts and qualified power or site specialists assess the methods, validate measurements within their competence and determine the conditions those measurements support; their participation is to be agreed.
 
 **Connected questions:** [OPS-03](Question-OPS-03.md), [OPS-06](Question-OPS-06.md), [OPS-07](Question-OPS-07.md), [FIN-02](Question-FIN-02.md), [TEST-01](Question-TEST-01.md)
 

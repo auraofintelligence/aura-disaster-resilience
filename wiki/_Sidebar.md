@@ -7,6 +7,7 @@
 - [Questions](Question-register.md)
 - [Progress](Progress.md)
 - [People decide](Human-review.md)
+- [Professional review](Professional-review.md)
 - [AI assistant jobs](Agent-work.md)
 - [Connections](Ecosystem.md)
 - [Agreed direction](Constraints.md)

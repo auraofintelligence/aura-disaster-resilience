@@ -14,10 +14,11 @@ A publishing workflow and example content set showing source type, permission, a
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 2-3 and 8)
 - supporting research — reviewed source; public copy can be added through the evidence process (Noticeboard, events, media and cultural-source reviews)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke develops the publishing workflow. Actual authors, rights holders, relevant cultural custodians and authorised publishers decide their own releases and conditions.
+**Who reviews:** Luke, as project initiator, prepares the publishing-workflow proposal. Actual authors, rights holders, relevant cultural custodians and authorised publishers review the proposed handling of their material and decide their own releases and conditions.
 
 **Connected questions:** [OPS-01](Question-OPS-01.md), [DAT-02](Question-DAT-02.md), [DAT-03](Question-DAT-03.md)
 

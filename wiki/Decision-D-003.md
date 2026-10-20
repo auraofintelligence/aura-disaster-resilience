@@ -36,10 +36,11 @@ Start with a connected service demonstration using sample records at three logic
 - Can people see whether a request is saved, received, assigned or completed?
 - Does Aura offer relevant learning with a source, prerequisites and a human handover?
 - Can another steward restore the service and continue outstanding work?
+- Does the proposal identify overlapping professional responsibilities, applicable practice and legal sources, and the comparison of differences, improvements and deficiencies?
 
 **Questions:** [OPS-01](Question-OPS-01.md), [DAT-01](Question-DAT-01.md), [SW-01](Question-SW-01.md), [AUR-01](Question-AUR-01.md), [TWIN-01](Question-TWIN-01.md), [TEST-01](Question-TEST-01.md)
 
-**Reviewers:** Luke, reviewing the project design and working method
+**Reviewers:** Luke, as project initiator, reviewing planning choices within his responsibilities alongside the relevant professional review process
 
 [Open the GitHub review conversation](https://github.com/auraofintelligence/aura-disaster-resilience/issues/3).
 
@@ -47,14 +48,14 @@ Start with a connected service demonstration using sample records at three logic
 
 The fingerprint below identifies this exact proposal and its supporting files. A changed proposal gets a fresh fingerprint and review. A person may approve, request changes or reject it. [How reviews work](Human-review.md).
 
-`aa69e4c5e69acb2d200d90c6c875843096d5f1266743207909ca3ca9a7b7d7fa`
+`60efd43b05c855271a54e76597b8fa51396fab37cba095b46f451680a7760b67`
 
-Evidence fingerprint: `c34b45c7ca22df0c368239e6b7a5306d98c124083aac3c1092acabd4a825de3b`.
+Evidence fingerprint: `e8256dbd0be815c6dc443eace50f9454881a70c47b014f7c8f5043fbe1ecdbfb`.
 
 For approval, the named person posts this line in the linked GitHub issue after reading the proposal:
 
 ```text
-HITL APPROVE D-003 aa69e4c5e69acb2d200d90c6c875843096d5f1266743207909ca3ca9a7b7d7fa scope=prototype_service
+HITL APPROVE D-003 60efd43b05c855271a54e76597b8fa51396fab37cba095b46f451680a7760b67 scope=prototype_service
 Conditions: none
 ```
 

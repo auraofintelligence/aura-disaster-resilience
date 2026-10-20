@@ -63,7 +63,7 @@ A research packet can be produced while its human review is still `none` and its
 
 ## 6. Keep decisions with the right people
 
-The user can choose the design and authorise work within their control. Technical reviewers assess their field; cultural custodians decide use of their knowledge; site owners decide access and hosting; public authorities make their formal determinations. Record each person's actual scope. [Human review](Human-review.md) explains how these decisions fit together.
+Luke initiates and drives the project, develops proposals and authorises work within his own responsibilities. Technical and emergency-service reviewers assess the relevant professional scope; cultural custodians decide use of their knowledge; site owners decide access and hosting; public authorities make their formal determinations. Record each person's actual scope. Compare overlapping proposals with applicable Australian and international good practice and relevant legal sources, preserving differences, reasonable improvements and deficiencies. [Professional review](Professional-review.md) gives the comparison method; [human review](Human-review.md) explains the decisions.
 
 Use recorded authorisation for external actions. Contacting someone, posting an issue, sharing private material, spending money and deploying a service each need authority covering that action. Prepare the material and identify the relevant permission before moving beyond the agreed scope.
 

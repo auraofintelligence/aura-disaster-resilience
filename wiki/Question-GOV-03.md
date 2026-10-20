@@ -17,7 +17,7 @@ A cultural engagement and permission register showing the material, the authorit
 
 ## People and connected choices
 
-**Who reviews:** Relevant cultural custodians decide the conditions for their material and participation. Luke prepares the proposal and records the guidance; engagement pathways develop through actual agreement.
+**Who reviews:** Relevant cultural custodians decide the conditions for their material and participation. Luke, as project initiator, prepares proposals and records the guidance and resulting design response; engagement pathways develop through actual agreement.
 
 **Connected questions:** [OPS-02](Question-OPS-02.md), [DAT-06](Question-DAT-06.md)
 

@@ -17,7 +17,7 @@ A recognition workflow covering voluntary consent, elapsed-time verification, co
 
 ## People and connected choices
 
-**Who reviews:** Each participating community chooses reciprocal recognition. Contributors choose participation and disclosure, while Luke proposes the tools and the future operator's role is agreed.
+**Who reviews:** Each participating community chooses reciprocal recognition. Contributors choose participation and disclosure. Luke, as project initiator, develops proposed tools for community review, and the future operator's role is agreed with the people taking that responsibility.
 
 **Connected questions:** [GOV-01](Question-GOV-01.md), [GOV-02](Question-GOV-02.md), [DAT-05](Question-DAT-05.md)
 

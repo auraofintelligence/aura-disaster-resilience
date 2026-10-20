@@ -13,10 +13,11 @@ A service brief naming priority users, the first three everyday tasks, essential
 ## What we know so far
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 1-2 and 13)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke leads the service proposal. Prospective users and the people responsible for receiving help requests review practical suitability; their participation and roles are next to agree.
+**Who reviews:** Luke, as project initiator, coordinates the service proposal and brings research and options forward. Prospective users and the people responsible for receiving help requests review practical suitability; relevant qualified professionals and authorities review any overlap with their duties. Their participation and roles are to be agreed.
 
 **Connected questions:** This is a starting question.
 

@@ -16,6 +16,7 @@ Prepare a readiness record showing connection and commissioning, the last test u
 - supporting research — reviewed source; public copy can be added through the evidence process
 - [Aura_Teacher_Training_60_Days.pdf](https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf) (p.41)
 - [Aura_Genesis_Protocol_Game_Design_Document_V2.pdf](https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf) (pp.28-29)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 

@@ -13,10 +13,11 @@ A continuity runbook covering closure decisions, last-confirmed availability, no
 ## What we know so far
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 4, 7-9)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke develops the continuity design. Actual hosts, incident authorities and qualified site personnel decide access and closure within their authority, with alternatives confirmed by their responsible operators.
+**Who reviews:** Luke, as project initiator, coordinates the continuity proposal and its alternatives. Actual hosts, incident authorities and qualified site personnel review relevant requirements and decide access and closure within their authority, with alternatives confirmed by their responsible operators.
 
 **Connected questions:** [OPS-02](Question-OPS-02.md), [OPS-03](Question-OPS-03.md), [OPS-04](Question-OPS-04.md)
 

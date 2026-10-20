@@ -16,6 +16,7 @@ Agree an exchange format with event-series and individual-date IDs, timezone, re
 - [app.js](https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/assets/app.js) (lines319-464)
 - [SOURCE_NOTES.md](https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/docs/SOURCE_NOTES.md)
 - [PUBLIC_BOUNDARY.md](https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/docs/PUBLIC_BOUNDARY.md)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 

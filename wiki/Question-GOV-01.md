@@ -14,10 +14,11 @@ An operating-model brief covering current design responsibility, possible interi
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 8 and 11)
 - supporting research — reviewed source; public copy can be added through the evidence process (Cooperative original-document reviews)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Luke develops the operating proposal. Prospective members choose whether and how to form the cooperative; actual applicants, employers, hosts and advisers agree their own responsibilities as the model develops.
+**Who reviews:** Luke, as project initiator, drives development of the operating proposal and coordinates its review. Prospective members choose whether and how to form the cooperative; actual applicants, employers, hosts and advisers assess relevant requirements and agree their own responsibilities as the model develops.
 
 **Connected questions:** [OPS-01](Question-OPS-01.md), [OPS-05](Question-OPS-05.md), [OPS-06](Question-OPS-06.md)
 

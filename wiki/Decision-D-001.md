@@ -33,10 +33,11 @@ Use the linked wiki as the reading and question map, GitHub issues for review co
 - Can a newcomer find a useful job and understand what to bring back?
 - Can a reviewer see the exact proposal, evidence, responsibilities and next action?
 - Do changed proposals return to review while earlier decisions remain traceable?
+- Does the proposal identify overlapping professional responsibilities, applicable practice and legal sources, and the comparison of differences, improvements and deficiencies?
 
 **Questions:** [WRK-01](Question-WRK-01.md), [WRK-02](Question-WRK-02.md), [WRK-03](Question-WRK-03.md), [WRK-04](Question-WRK-04.md), [WRK-05](Question-WRK-05.md), [WRK-06](Question-WRK-06.md)
 
-**Reviewers:** Luke, reviewing the project design and working method
+**Reviewers:** Luke, as project initiator, reviewing planning choices within his responsibilities alongside the relevant professional review process
 
 [Open the GitHub review conversation](https://github.com/auraofintelligence/aura-disaster-resilience/issues/1).
 
@@ -44,14 +45,14 @@ Use the linked wiki as the reading and question map, GitHub issues for review co
 
 The fingerprint below identifies this exact proposal and its supporting files. A changed proposal gets a fresh fingerprint and review. A person may approve, request changes or reject it. [How reviews work](Human-review.md).
 
-`840da54405c3dc179949e8601154c80b6a3fa6c52b4b7cdc41cf636292a79397`
+`740a95295bb9b381dd3f709650a2af41841b0d95cf569710840268f3d6a2484b`
 
-Evidence fingerprint: `659587d274e51db04bc2decb916ae35cfb256992a90fa9836857168bee558ffb`.
+Evidence fingerprint: `9ae90cff044e392af83c7986bc269590da5107622d6fc3a329e8082024c67a23`.
 
 For approval, the named person posts this line in the linked GitHub issue after reading the proposal:
 
 ```text
-HITL APPROVE D-001 840da54405c3dc179949e8601154c80b6a3fa6c52b4b7cdc41cf636292a79397 scope=working_method
+HITL APPROVE D-001 740a95295bb9b381dd3f709650a2af41841b0d95cf569710840268f3d6a2484b scope=working_method
 Conditions: none
 ```
 

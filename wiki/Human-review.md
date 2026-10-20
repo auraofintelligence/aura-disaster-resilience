@@ -8,9 +8,11 @@ Use the [Question register](Question-register.md), [Decisions](Decisions.md) and
 
 ## Match the decision to the person
 
+Luke is the project initiator and will drive research, coordination and proposals forward. Where the work overlaps SES, police, fire and rescue, ambulance, Defence or other qualified professional responsibilities, his research and opinions receive review against applicable industry and international good practice and relevant legal sources. Record differences, reasonable improvements and deficiencies in the proposal or existing approach, with the evidence and the reviewer's actual assessment. [Professional review](Professional-review.md) explains the comparison method.
+
 | Decision | Person and scope |
 | --- | --- |
-| Design choice | The user chooses purpose, priorities, preferred options and work within their control. |
+| Project initiation and design direction | Luke drives the proposal and chooses work within his own responsibilities, informed by participants, evidence and the relevant professional reviews. |
 | Technical assessment | A suitably qualified reviewer assesses a defined question within their competence and responsibility. Record the equipment, task or installation covered. |
 | Cultural or knowledge permission | The relevant custodian decides the permitted use, interpretation, audience and release conditions for their material. |
 | Site or asset permission | The owner or delegated custodian decides hosting, access, installation, use and duties for that place or asset. |

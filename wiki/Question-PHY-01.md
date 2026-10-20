@@ -14,6 +14,7 @@ Draw four use cards showing who uses each type, what it provides, how long it st
 
 - Straddie Disaster Kiosk Pitch.pdf — reviewed source; public copy can be added through the evidence process
 - GPT Straddie Disaster Kiosks.pdf — reviewed source; public copy can be added through the evidence process
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 **Starting idea for review:** For review: develop these as separate types, with a clear service and test plan for each.
 

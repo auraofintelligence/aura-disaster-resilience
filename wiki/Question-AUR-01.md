@@ -14,6 +14,7 @@ Walk through an everyday visit and a disaster visit with optional personal detai
 
 - [Verse_Box_Trial_Proposal_Version_1_Corrected.pdf](https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf) (pp.4,8,14,16)
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 **Starting idea for review:** For human consideration: begin with assistance for the person's current task and invite useful personal context as they choose.
 

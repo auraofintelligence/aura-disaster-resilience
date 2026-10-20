@@ -17,7 +17,7 @@ An engagement plan with accessible participation, groups to seek out, ways to de
 
 ## People and connected choices
 
-**Who reviews:** Luke leads the invitation and design response. Participants choose their involvement and express their own views; anyone representing a wider group needs that group's authority.
+**Who reviews:** Luke, as project initiator, coordinates the invitation and prepares responses to design feedback. Participants choose their involvement and express their own views; anyone representing a wider group needs that group's authority. Participants help shape the proposal and see how their contributions are addressed.
 
 **Connected questions:** [OPS-01](Question-OPS-01.md), [OPS-02](Question-OPS-02.md)
 

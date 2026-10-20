@@ -15,6 +15,7 @@ Draw the parts and how they exchange information: public screens, private help, 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process
 - supporting research — reviewed source; public copy can be added through the evidence process
 - [Straddie_Disaster_Kiosk_Pitch.pdf](https://github.com/auraofintelligence/straddie-disaster-kiosks/blob/main/docs/Straddie_Disaster_Kiosk_Pitch.pdf)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 **Starting idea for review:** For human consideration: keep the essential local service independently usable and connect richer services through agreed, replaceable information exchanges.
 

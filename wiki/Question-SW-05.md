@@ -16,6 +16,7 @@ Describe the separate workspaces, what each saves and how a session ends. Check 
 - [app.js](https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/assets/app.js) (sessionStorage and localStorage code)
 - [Aura_Genesis_Protocol_Game_Design_Document_V2.pdf](https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf) (p.27)
 - [Verse_Box_Trial_Proposal_Version_1_Corrected.pdf](https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf) (pp.8-13)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 

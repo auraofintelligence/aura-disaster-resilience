@@ -14,6 +14,7 @@ Create a model and run record naming its purpose, source editions, assumptions, 
 
 - [Web3_Sensorium_for_Science_Debate.pdf](https://github.com/auraofintelligence/aura-verse-box/blob/main/documents/Web3_Sensorium_for_Science_Debate.pdf) (pp.16,18-22,26,30)
 - [Aura_Teacher_Training_60_Days.pdf](https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Teacher_Training_60_Days.pdf) (pp.26,52-53)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 

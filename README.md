@@ -34,6 +34,8 @@ The source library preserves **32 distinct documents and 43 project-source editi
 
 The first review packages cover the working method, the weather-ready kiosk family and a complete everyday-to-disaster service demonstration. Research can move across the stack while those choices develop. Each approval states its scope; later engineering, site and operating milestones have their relevant people and evidence.
 
+Luke is the project initiator and will drive proposals forward. Where the work overlaps SES, police, fire and rescue, ambulance, Defence or other qualified professional responsibilities, his research and opinions receive review against applicable industry and international good practice and relevant legal sources. Record differences, reasonable improvements and deficiencies in either the proposal or existing approach. [Professional review](wiki/Professional-review.md) explains how evidence, professional assessment and the responsible decisions fit together.
+
 ## Keep the wiki current
 
 The `data/` folder contains readable question, task, connection and decision records. The `content/` folder contains the longer explanations. Python builds them into the linked pages in `wiki/` using its standard library, with no extra packages required.

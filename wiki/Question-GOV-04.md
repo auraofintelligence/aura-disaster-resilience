@@ -14,10 +14,11 @@ A host and asset agreement checklist covering access, ownership or lease, respon
 
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 7-8 and 10)
 - supporting research — reviewed source; public copy can be added through the evidence process (Host and transport-infrastructure source boundaries)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
-**Who reviews:** Each actual host, landholder and asset owner confirms its own rights and duties. Relevant public authorities and qualified practitioners make the formal and technical decisions they are responsible for; Luke leads the design response.
+**Who reviews:** Each actual host, landholder and asset owner confirms its own rights and duties. Relevant public authorities and qualified practitioners review applicable requirements and make the formal and technical decisions they are responsible for. Luke, as project initiator, coordinates the proposal and documents its response to that review.
 
 **Connected questions:** [OPS-02](Question-OPS-02.md), [OPS-08](Question-OPS-08.md), [GOV-01](Question-GOV-01.md)
 

@@ -16,6 +16,7 @@ Define the place record: source, date, position and accuracy, measured or inferr
 - [site-360-data.js](https://github.com/auraofintelligence/ballow-road-sand-screen-hub/blob/main/assets/js/site-360-data.js)
 - [site.html](https://github.com/auraofintelligence/ballow-road-sand-screen-hub/blob/main/site.html) (slope and due-diligence sections)
 - [Aura_Genesis_Geode_Development_Edition_3.pdf](https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/main/documents/Aura_Genesis_Geode_Development_Edition_3.pdf) (p.32)
+- [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
 ## People and connected choices
 
