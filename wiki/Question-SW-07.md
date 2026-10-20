@@ -17,6 +17,33 @@ Prepare an equipment comparison and repeatable practical checks using representa
 - [youth-elders.html](https://github.com/auraofintelligence/ballow-road-sand-screen-hub/blob/main/youth-elders.html) (older residents section)
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Compare a compact local-information computer with a more capable protected mini-PC using identical tasks and measured energy, heat and response. Size optional AI work separately. Retain the tested public information and request functions as the system changes its energy settings.
+
+### Measure a compact server and a mini-PC
+
+**AI-generated adaptation of an existing pattern.** Use a Kiwix-style Raspberry Pi library as one reference workload and compare a mini-PC carrying the complete service. Run the same touch, text, audio and request examples before choosing equipment or storage.
+
+Research basis: [Kiwix Hotspots: an offline library over a local Wi-Fi network](https://get.kiwix.org/en/solutions/hotspots/) · [Web Content Accessibility Guidelines 2.2](https://www.w3.org/TR/WCAG22/).
+
+### Move deeper AI work to available shared compute
+
+**AI-generated future concept.** Trial an arrangement where the kiosk requests optional richer Aura processing from a local shared computer when power and connection permit. Public information remains local; the trial would measure context permissions, delays and energy savings.
+
+Research basis: [llama.cpp: local and hosted language-model inference](https://github.com/ggml-org/llama.cpp).
+
+### Examples and local differences
+
+- [Kiwix Hotspots: an offline library over a local Wi-Fi network](https://get.kiwix.org/en/solutions/hotspots/): **AI transfer assessment:** An existing small-computer hotspot provides a concrete offline-library comparison. **Local difference to check:** A protected operational kiosk must additionally meet complete service, thermal, wet-weather, accessibility and prolonged-outage requirements.
+
+### Evidence to bring back next
+
+- Measure start-up, task completion, energy and enclosure temperature with representative content and visitors.
+- Include low storage, incorrect time, simultaneous users and the agreed nine-day operating profile in the comparison.
+
 ## People and connected choices
 
 **Who reviews:** Proposed device engineering lead and accessibility lead (unconfirmed)

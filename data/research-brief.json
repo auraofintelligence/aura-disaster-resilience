@@ -1,0 +1,13 @@
+{
+  "id": "PROMPT-2026-10-20-ANSWERS",
+  "requested_by": "Luke Nathan Hayes",
+  "recorded_on": "2026-10-20",
+  "timezone": "Australia/Brisbane",
+  "verbatim_prompt": "on [https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Question-register](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Question-register) please offer potential some answers in line along with research into existing services and equipment as well as other similar regional locations and councils/towns, jurisdictions and businesses plus plausibly viable future forward ideas. demarcate them as AI generated and insert this prompt as a reference.",
+  "generated_by": "OpenAI Codex AI research assistants, integrated and checked by the coordinating AI assistant",
+  "generation_label": "AI-generated potential answer — for discussion and review",
+  "human_approval": "No human design approval is inferred from this research request.",
+  "scope": "Prepare options for all 96 questions, drawing on primary sources for existing services, equipment, regional locations, councils, towns, jurisdictions and businesses, and distinguish those facts from AI-generated adaptations and future concepts.",
+  "source_policy": "Use official service and council material, original product documentation, standards or protocol owners, and primary research. Record the checked date, the limited claim established and the differences requiring local assessment. Provider claims are attributed to the provider. Product selection, pricing, eligibility, permission, professional assessment and demonstrated local performance have their own checks.",
+  "future_policy": "Assume near-future XR, personal Auras, AI/SI and robotics in the design. Mark each future concept as an AI-generated proposal and state the next evidence or development needed. Preserve the user's settled naming, C-Hour, personal-choice, cultural and professional-review requirements."
+}

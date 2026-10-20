@@ -48,14 +48,14 @@ Start with a connected service demonstration using sample records at three logic
 
 The fingerprint below identifies this exact proposal and its supporting files. A changed proposal gets a fresh fingerprint and review. A person may approve, request changes or reject it. [How reviews work](Human-review.md).
 
-`80789076dcc1fdcd383ce49a12d80c4bebf947cc66f5f2572a4cdee06dd93ac7`
+`87f40b1aba1d2c94bdc592e21b6ecb64458e56204b454550432301d5ddda35b1`
 
-Evidence fingerprint: `48af539b8e8d7215d7c977417634fcc0255bef328d265f7a49cf1b8f3fabcc01`.
+Evidence fingerprint: `69f194a18530b97040b4909af38e12b4f124161e8ebd4bfd169fadfc40e60108`.
 
 For approval, the named person posts this line in the linked GitHub issue after reading the proposal:
 
 ```text
-HITL APPROVE D-003 80789076dcc1fdcd383ce49a12d80c4bebf947cc66f5f2572a4cdee06dd93ac7 scope=prototype_service
+HITL APPROVE D-003 87f40b1aba1d2c94bdc592e21b6ecb64458e56204b454550432301d5ddda35b1 scope=prototype_service
 Conditions: none
 ```
 

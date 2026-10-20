@@ -18,6 +18,33 @@ Define a repair-and-learning exchange covering equipment, fault description, saf
 - supporting research — reviewed source; public copy can be added through the evidence process
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Connect repair and learning through a task record identifying the equipment edition, fault, permitted first checks, parts, tools and qualified support. Keep compatible local spares and practised handovers. Broader making and materials projects would contribute through specific tested parts, lessons and agreed supply arrangements.
+
+### A repair pack with local lessons and checked software
+
+**AI-generated adaptation of an existing pattern.** Combine an offline learning channel with labelled spares and verified recovery packages. Test an agreed low-risk replacement task and link its result to the fault record and the next maintenance review.
+
+Research basis: [About Kolibri: offline learning on devices and local networks](https://learningequality.org/kolibri/about-kolibri/) · [Mender Artifacts: compatible, signed and resumable software editions](https://docs.mender.io/overview/artifact).
+
+### A distributed maker-and-robot support trial
+
+**AI-generated future concept.** Explore a makerspace validating a replacement component and an authorised robot assisting inspection or parts movement. Compare material quality, fit, maintainability and qualified-work requirements before using a new part in an operational kiosk.
+
+Research basis: [Robots to the rescue in hazardous environments](https://www.csiro.au/en/news/all/articles/2021/december/robots-to-the-rescue-in-hazardous-environments) · [NIST AI Risk Management Framework 1.0: core functions](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/).
+
+### Examples and local differences
+
+- [About Kolibri: offline learning on devices and local networks](https://learningequality.org/kolibri/about-kolibri/): **AI transfer assessment:** Locally distributed learning material can support practice where the internet is unavailable. **Local difference to check:** Maintenance needs equipment-matched instructions, compatible parts, professional boundaries and verified restoration of the actual service.
+
+### Evidence to bring back next
+
+- Rehearse a repair with the usual maintainer and outside freight unavailable.
+- Record time, tools, spare compatibility, instruction gaps and the service check required before returning equipment to use.
+
 ## People and connected choices
 
 **Who reviews:** Proposed maintenance coordinator and relevant qualified trainer/repairer (unconfirmed)

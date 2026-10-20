@@ -19,6 +19,33 @@ Draw the parts and how they exchange information: public screens, private help, 
 
 **Starting idea for review:** For human consideration: keep the essential local service independently usable and connect richer services through agreed, replaceable information exchanges.
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Build a local service core holding approved public information, a private request queue and a staff publishing workspace. Offer personal Aura assistance as a separate choice. Internet connections would refresh and exchange records while essential local tasks continue through a disconnection.
+
+### Combine existing offline components
+
+**AI-generated adaptation of an existing pattern.** Compare Kiwix for saved reference material, Kolibri for lessons and ODK for structured collection. Connect chosen parts through an agreed record format, with a purpose-built public screen and separate staff permissions.
+
+Research basis: [Kiwix Hotspots: an offline library over a local Wi-Fi network](https://get.kiwix.org/en/solutions/hotspots/) · [About Kolibri: offline learning on devices and local networks](https://learningequality.org/kolibri/about-kolibri/) · [ODK Collect: managing draft, ready-to-send and sent forms](https://docs.getodk.org/collect-forms/).
+
+### A portable community service capsule
+
+**AI-generated future concept.** Develop a versioned package of public information, approved lessons and recoverable settings that another authorised hub can host. Test portability between different machines before depending on it during an outage.
+
+Research basis: [Mender Artifacts: compatible, signed and resumable software editions](https://docs.mender.io/overview/artifact).
+
+### Examples and local differences
+
+- [Kiwix Hotspots: an offline library over a local Wi-Fi network](https://get.kiwix.org/en/solutions/hotspots/): **AI transfer assessment:** A local library can serve visitors' browsers without the internet. **Local difference to check:** The disaster service must also manage approved changing notices, private requests and handovers across multiple sites.
+
+### Evidence to bring back next
+
+- Demonstrate guest information, a private request and staff publishing with the external internet unplugged.
+- Measure retained service after loss of the main local computer, and name the receiving operator.
+
 ## People and connected choices
 
 **Who reviews:** Proposed service owner and software architecture lead (unconfirmed)

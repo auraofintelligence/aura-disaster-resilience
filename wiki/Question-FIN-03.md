@@ -15,6 +15,31 @@ A funding-fit table for planning and access, equipment, power and communications
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Section 11)
 - supporting research — reviewed source; public copy can be added through the evidence process (Funding leads and Stradbroke Grants Lab audit)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Match separate work packages to verified funding rules and actual applicant readiness. Explore Redland community funding and FRRR resilience funding, resolve equipment eligibility questions and confirm any auspice, public benefit and co-funding arrangements before relying on them.
+
+### Existing-practice adaptation
+
+**AI-generated adaptation of an existing pattern.** Prepare a funding-fit table for engagement, design, training, equipment and service operation. Record eligible entity, location, purpose, exclusions, quotes, permissions, dates and written clarification. Redland's equipment wording needs clarification; FRRR eligibility and charitable regional benefit need confirmation.
+
+Research basis: [Redland City Council: Community Support Grant](https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant) · [Strengthening Rural Communities: Prepare & Recover](https://frrr.org.au/funding/src-prepare-recover/).
+
+### Future concept to explore
+
+**AI-generated future concept.** Aura-assisted grant research could flag changed rules and assemble a source-linked draft from approved evidence. A shared commitments register could prevent duplicate funding of the same cost while people check the application, relationships and reporting obligations.
+
+### Examples and local differences
+
+- [Redland City Council: Community Support Grant](https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant): **AI transfer assessment:** Treat applicant status and eligible cost categories as evidence to establish for each package. **Local difference to check:** Neither Luke nor the proposed Ready S.E.T. Co-op is assumed eligible; broader civic or political aspirations do not establish grant fit.
+
+### Evidence to bring back next
+
+- Check current official guidelines and seek authorised funder clarification on ambiguous items.
+- Confirm the legal applicant or an agreed eligible auspice and avoid retrospective commitments.
+
 ## People and connected choices
 
 **Who reviews:** Luke, as project initiator, coordinates and prioritises funding research within the planning work. An actual eligible applicant or auspice decides whether to take on responsibility and apply; the funder decides eligibility and any award.

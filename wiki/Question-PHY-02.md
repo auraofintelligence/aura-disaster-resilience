@@ -15,6 +15,31 @@ Prepare a dated site sheet and map for each option. Mark what was observed, esti
 - Straddie Disaster Kiosk Pitch.pdf — reviewed source; public copy can be added through the evidence process
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Prepare a site card before selecting a cabinet. Compare an accessible sheltered host with an exposed public position using island hazard mapping, observed drainage, salt and wind exposure, maintenance access and alternate safe destinations. Record landholder and cultural permissions separately.
+
+### Mapped and walked site shortlist
+
+**AI-generated adaptation of an existing pattern.** Use Redland's current property and island hazard information to shortlist sites, then walk each route with hosts and access users. Photograph levels, drainage paths, potential debris and routes for replacement equipment.
+
+Research basis: [Storm tide mapping information](https://www.redland.qld.gov.au/Planning-building-and-development/Redland-City-Plan/Storm-tide-mapping-information) · [D.D.A. guide: The ins and outs of access](https://www.humanrights.gov.au/our-work/disability-rights/dda-guide-ins-and-outs-access).
+
+### Continuously improved site twin
+
+**AI-generated future concept.** Build a versioned place twin joining surveyed levels, exposure readings, access routes and maintenance history. XR walkthroughs could help residents compare proposed positions before physical mock-ups, with evidence dates visible.
+
+### Examples and local differences
+
+- [Community hubs with energy backup systems](https://www.energy.vic.gov.au/about-energy/safety/community-hubs-energy-backup-systems): **AI transfer assessment:** Victorian hubs use existing community facilities as practical service locations. **Local difference to check:** Straddie candidate properties require their own hazard, permission and opening arrangements.
+
+### Evidence to bring back next
+
+- Confirm current maps and site-specific survey needs with qualified reviewers.
+- Test public and maintenance journeys during ordinary heavy rain without entering unsafe conditions.
+
 ## People and connected choices
 
 **Who reviews:** Proposed site host and land decision-maker with hazard and maintenance reviewers; role and appointment awaiting confirmation

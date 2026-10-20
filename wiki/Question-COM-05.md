@@ -15,6 +15,31 @@ Prepare trust rules for publishers and devices: who has been given authority, wh
 - Straddie Disaster Kiosk Pitch.pdf — reviewed source; public copy can be added through the evidence process
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Separate transport encryption from authority to publish. Give each authorised issuer a bounded role and signing identity, with offline-verifiable records, expiry and a planned withdrawal path. Show uncertainty when the kiosk cannot confirm current authority, while retaining the issuer's original wording and source reference.
+
+### Offline trust pack
+
+**AI-generated adaptation of an existing pattern.** Compare a signed local issuer register with managed device credentials, protected backups and a lost-key drill. Use NIST's device-security capabilities as a review checklist; check the chosen radio firmware's authentication limits independently.
+
+Research basis: [NIST's IoT Cybersecurity Capabilities Catalog](https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/) · [Meshtastic encryption](https://meshtastic.org/docs/overview/encryption/).
+
+### Time-bounded delegated publisher
+
+**AI-generated future concept.** Explore short-lived publication delegation for an Aura acting within a named person's or organisation's mandate. The signed record would preserve the delegator, permitted subjects, expiry and review trail, with clear public labelling of assisted drafting.
+
+### Examples and local differences
+
+- [Meshtastic encryption](https://meshtastic.org/docs/overview/encryption/): **AI transfer assessment:** Meshtastic's version-dependent protections show why a network label alone does not establish message trust. **Local difference to check:** Official-issuer authority and stolen-device recovery require additional local agreements and security design.
+
+### Evidence to bring back next
+
+- Run stolen-device, expired-authority and delayed-withdrawal exercises while offline.
+- Have security reviewers compare the design with current Australian obligations and threat assumptions.
+
 ## People and connected choices
 
 **Who reviews:** Proposed information authority and security reviewer with operator; role and appointment awaiting confirmation

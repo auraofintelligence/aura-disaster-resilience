@@ -16,6 +16,31 @@ Draw the boundary between the kiosk and mains, local generators, portable suppli
 - GPT Straddie Disaster Kiosks.pdf — reviewed source; public copy can be added through the evidence process
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+List external supplies as explicit offers with owners, usable capacity, connection method and activation evidence. Compare a precommissioned host backup circuit, compatible portable supply and planned charging rotation. Keep future microgrids or vehicle support as separate options until their equipment and authorised arrangements are demonstrated.
+
+### Precommissioned backup boundary
+
+**AI-generated adaptation of an existing pattern.** Develop an electrician-reviewed host connection and test it under the kiosk's actual load before storm season. Record supply owner, fuel or replenishment, changeover steps, qualified backup and access when ferries stop.
+
+Research basis: [Permanently connected generators](https://www.electricalsafety.qld.gov.au/electrical-equipment/permanently-connected-generators) · [Mallacoota Area Grid Storage community updates](https://www.ausnetservices.com.au/projects-and-innovation/completed-projects/mallacoota-area-grid-storage-mags-community-update).
+
+### Future shared energy dispatch
+
+**AI-generated future concept.** Explore participating building batteries and compatible vehicles as future sources through reviewed interfaces. A network coordinator could propose charging or supply rotations, with each custodian confirming availability and each site retaining its protected reserve.
+
+### Examples and local differences
+
+- [Community hubs with energy backup systems](https://www.energy.vic.gov.au/about-energy/safety/community-hubs-energy-backup-systems): **AI transfer assessment:** Omeo and Corryong illustrate backup energy serving essential-service and business buildings. **Local difference to check:** Candidate Straddie buildings and businesses have not committed equipment, hosting or supply.
+
+### Evidence to bring back next
+
+- Run an observed activation drill with the usual operator unavailable.
+- Confirm the physical connection, tested load, fuel and qualified response arrangements.
+
 ## People and connected choices
 
 **Who reviews:** Proposed electrical designer and operator with energy asset owner; role and appointment awaiting confirmation

@@ -15,6 +15,31 @@ An evidence matrix linking each claim to measured demand, equipment settings, ge
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 1, 7 and 9-10)
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Support each endurance claim with its own evidence: model assumptions, bench measurements and site observations. For the nine-day exercise, include changing energy, weather, staff, fuel, supplies, connectivity and recovery rather than equating battery capacity with service continuity.
+
+### Existing-practice adaptation
+
+**AI-generated adaptation of an existing pattern.** Create a claim-to-evidence table for each proposed service state. Measure actual loads and startup demand, document generation assumptions and staff cover, and identify what was simulated, what was bench-tested and what still needs a supervised site exercise.
+
+Research basis: [Managing Exercises Handbook](https://knowledge.aidr.org.au/resources/handbook-managing-exercises/) · [Shoalhaven: Community Information Hubs Launched](https://getinvolved.shoalhaven.nsw.gov.au/rrp/news_feed/information-hubs).
+
+### Future concept to explore
+
+**AI-generated future concept.** A living twin could compare measured behaviour with its forecast and show the resulting uncertainty. Advanced AI/SI could suggest the next high-value measurement, while qualified reviewers assess whether the evidence supports a particular installation or operating claim.
+
+### Examples and local differences
+
+- [Shoalhaven: Community Information Hubs Launched](https://getinvolved.shoalhaven.nsw.gov.au/rrp/news_feed/information-hubs): **AI transfer assessment:** Include the supporting power and communications system in the service assessment. **Local difference to check:** Shoalhaven's reported equipment installation does not establish nine-day autonomy, local weather performance or the proposed network's endurance.
+
+### Evidence to bring back next
+
+- Write each claim before measuring and name the evidence needed to support it.
+- Check qualified cover, resource replenishment and recovery alongside electrical measurements.
+
 ## People and connected choices
 
 **Who reviews:** Luke, as project initiator, develops the evidence plan for review. Actual operators, hosts and qualified power or site specialists assess the methods, validate measurements within their competence and determine the conditions those measurements support; their participation is to be agreed.

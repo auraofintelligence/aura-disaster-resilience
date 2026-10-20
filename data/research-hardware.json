@@ -1,0 +1,1172 @@
+{
+  "sources": [
+    {
+      "id": "HW-S01",
+      "title": "Storm tide mapping information",
+      "url": "https://www.redland.qld.gov.au/Planning-building-and-development/Redland-City-Plan/Storm-tide-mapping-information",
+      "publisher": "Redland City Council",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "Council distinguishes statutory flood and storm-tide overlay mapping from its non-statutory 2070 map and provides separate island mapping.",
+      "local_fit": "Direct local planning reference. A map does not establish a particular kiosk's finished floor level, access safety, permissions or engineered design conditions. Confirm the current applicable property information."
+    },
+    {
+      "id": "HW-S02",
+      "title": "D.D.A. guide: The ins and outs of access",
+      "url": "https://www.humanrights.gov.au/our-work/disability-rights/dda-guide-ins-and-outs-access",
+      "publisher": "Australian Human Rights Commission",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "The Commission's guide explains access to public premises and accessible information, including reachable controls and tactile or audible information examples.",
+      "local_fit": "Useful starting guidance for inclusive journeys. Obtain current access-design advice and assess the actual installation; this guide does not provide all kiosk dimensions or certify compliance."
+    },
+    {
+      "id": "HW-S03",
+      "title": "Rittal protective roof SZ 2475000",
+      "url": "https://www.rittal.com/com-en/products/PG20231215SCH101/PG20231512SCH301/PRO70850?variantId=2475000",
+      "publisher": "Rittal",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "Rittal recommends a rain canopy for outdoor siting and says IP water-protection tests cannot be equated with real outdoor exposure; additional measures may be needed.",
+      "local_fit": "A useful enclosure-design comparison, not a selected kiosk product. Coastal corrosion, heat, connectors, foundations and cyclone loading require installation-specific assessment."
+    },
+    {
+      "id": "HW-S04",
+      "title": "HOFFMAN wall-mount solar shields",
+      "url": "https://www.nvent.com/sites/default/files/acquiadam_assets/2021-11/Cat-00059_Chapter2.pdf",
+      "publisher": "nVent HOFFMAN",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "HOFFMAN documents outer solar shields for wall-mounted enclosures to reduce solar heating and provide weather protection.",
+      "local_fit": "The shielding principle can inform competing layouts. The catalogue's particular test result does not predict Straddie cabinet temperature or establish coastal suitability. Request a current compatible specification."
+    },
+    {
+      "id": "HW-S05",
+      "title": "Pelican 1507 Air Case",
+      "url": "https://www.pelican.com/index.php/ca/en/product/cases/1507",
+      "publisher": "Pelican",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "The 1507 Air product page provides internal dimensions, an O-ring closure, a pressure-equalisation valve and an IP67 rating for the case.",
+      "local_fit": "Compare as a transport enclosure. Drilled openings, open-lid use, installed equipment, heat and the completed assembly need their own checks; the case rating does not transfer automatically."
+    },
+    {
+      "id": "HW-S06",
+      "title": "E Ink technology benefits",
+      "url": "https://www.eink.com/tech/detail/Benefits",
+      "publisher": "E Ink",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "E Ink describes bistability: its display image can remain visible after power is removed.",
+      "local_fit": "Useful for a low-energy notice layer. Image retention cannot prove that a notice remains current; controllers, communications, illumination and updates still need energy and a dated status design."
+    },
+    {
+      "id": "HW-S07",
+      "title": "Cerbo GX manual: configuration",
+      "url": "https://www.victronenergy.com/media/pg/Cerbo_GX/en/configuration.html",
+      "publisher": "Victron Energy",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "The Cerbo GX manual documents connected energy devices, battery-monitor selection, sensors and relays, with SmartShunt configurations for measuring DC-system energy.",
+      "local_fit": "A concrete monitoring/control candidate to compare with independent industrial controllers. Compatibility, settings, measurement accuracy, local access, support and fail-safe behaviour require a tested design."
+    },
+    {
+      "id": "HW-S08",
+      "title": "Lithium NG battery manual: operation",
+      "url": "https://www.victronenergy.com/media/pg/Lithium_NG_battery_12,8_V/en/operation.html",
+      "publisher": "Victron Energy",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "Victron describes low-cell-voltage BMS shutdown as a last resort to prevent imminent battery damage, with battery monitoring and operating limits documented separately.",
+      "local_fit": "Supports comparing controlled service reduction with an abrupt protective cut-off. Use the exact chosen battery, BMS, temperature limits, warranty and charging requirements in calculations and commissioning."
+    },
+    {
+      "id": "HW-S09",
+      "title": "Permanently connected generators",
+      "url": "https://www.electricalsafety.qld.gov.au/electrical-equipment/permanently-connected-generators",
+      "publisher": "Queensland Electrical Safety Office",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "Queensland guidance requires a licensed electrician and a permanently wired changeover switch for a generator connected to house circuits, preventing supply backfeeding.",
+      "local_fit": "Relevant safety starting point when comparing fixed-site supplies. A public kiosk's precise installation, network connection, earthing, protection and inspection requirements need its licensed designer and applicable current rules."
+    },
+    {
+      "id": "HW-S10",
+      "title": "Finding new energy solutions for the town of Kalbarri",
+      "url": "https://www.westernpower.com.au/resources-education/network-improvements/network-upgrade-projects/kalbarri-microgrid/",
+      "publisher": "Western Power",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_case_study",
+      "fact": "Kalbarri's microgrid combines local renewable generation and battery storage; its community notices ask residents to adjust usage when the network is disconnected.",
+      "local_fit": "A coastal tourism-town comparison for local supply and demand cooperation. Its utility-scale system, climate and network arrangement differ from an island kiosk; no local microgrid commitment is implied."
+    },
+    {
+      "id": "HW-S11",
+      "title": "Mallacoota Area Grid Storage community updates",
+      "url": "https://www.ausnetservices.com.au/projects-and-innovation/completed-projects/mallacoota-area-grid-storage-mags-community-update",
+      "publisher": "AusNet",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_case_study",
+      "fact": "AusNet records MAGS backup interruptions, functional testing, remote-start improvements, parts delays and periods with an electrical contractor stationed in Mallacoota.",
+      "local_fit": "Useful evidence that installed assets, operability, local skills and parts are separate readiness questions. These dated incidents do not establish MAGS's present performance or Straddie's supply capability."
+    },
+    {
+      "id": "HW-S12",
+      "title": "Community hubs with energy backup systems",
+      "url": "https://www.energy.vic.gov.au/about-energy/safety/community-hubs-energy-backup-systems",
+      "publisher": "Victorian Department of Energy, Environment and Climate Action",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_case_study",
+      "fact": "Victoria describes solar, battery and generator backup at community hubs, including Monbulk RSL, and essential-service/business energy projects in Mallacoota, Omeo and Corryong.",
+      "local_fit": "Comparators for hosting, shared loads and community/business cooperation. Their climate, permissions, staffing and funding differ; participating Straddie hosts and service opening arrangements remain to be developed."
+    },
+    {
+      "id": "HW-S13",
+      "title": "How to prepare: nbn and emergency events",
+      "url": "https://www.nbnco.com.au/corporate-information/about-nbn-co/newsroom/articles/community/how-to-prepare-nbn-and-emergency-events",
+      "publisher": "NBN Co",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "NBN Co describes pre-positioned temporary network infrastructure, satellite equipment and emergency deployments that can support evacuation centres and community hubs.",
+      "local_fit": "An existing-service comparison for portable and fixed communications. Deployment, activation, eligibility and local availability require confirmation through actual responsible arrangements; they are not automatically available to this project."
+    },
+    {
+      "id": "HW-S14",
+      "title": "Starlink Mini specification sheet, pages 3 and 8",
+      "url": "https://www.starlink.com/public-files/specification_sheet_mini.pdf",
+      "publisher": "Starlink",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "Starlink's Mini specification sheet lists average power of 25–40 W and 12–48 V/60 W input; its stated IP67 rating depends on fitted power and port plugs/cables.",
+      "local_fit": "A candidate input for a portable uplink budget, subject to current Australian plans, sky view, mounting and actual measured power. The PDF specifies connector conditions; a standard RJ45 cable changes its stated enclosure rating. Use the selected edition and complete assembly in tests."
+    },
+    {
+      "id": "HW-S15",
+      "title": "Meshtastic encryption",
+      "url": "https://meshtastic.org/docs/overview/encryption/",
+      "publisher": "Meshtastic project",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "Meshtastic documents version-dependent signing and authenticated encryption, a public default channel key, exposed packet headers and limitations including no forward secrecy.",
+      "local_fit": "A low-power community-radio experiment to evaluate, with firmware and security settings pinned. It is not an emergency-service dispatch network or proof of authorised public-notice authorship without additional controls."
+    },
+    {
+      "id": "HW-S16",
+      "title": "Class licences for radiocommunications",
+      "url": "https://www.acma.gov.au/class-licences",
+      "publisher": "Australian Communications and Media Authority",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "ACMA explains class licences for shared-frequency radio devices and distinguishes public-safety/emergency-response access reserved for public safety agencies.",
+      "local_fit": "Determine the exact applicable class licence, frequency, power, antenna and equipment conditions for each Australian radio configuration. Community ownership does not provide access to public-safety networks."
+    },
+    {
+      "id": "HW-S18",
+      "title": "NIST's IoT Cybersecurity Capabilities Catalog",
+      "url": "https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/",
+      "publisher": "US National Institute of Standards and Technology",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "NIST's IoT catalogue covers device identification, configuration, data protection, interface access, software updates, security-state awareness and supporting manufacturer capabilities.",
+      "local_fit": "A US technical comparison to adapt to Australian obligations, local risk and chosen hardware. Meeting selected catalogue items alone does not certify the disaster network."
+    },
+    {
+      "id": "HW-S19",
+      "title": "Oyster3 GPS asset tracker",
+      "url": "https://www.digitalmatter.com/devices/oyster3/",
+      "publisher": "Digital Matter",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "Oyster3 documents replaceable batteries, movement-based reporting, records stored without cellular coverage and low-battery alerts; its onboard temperature is not intended for precise logging.",
+      "local_fit": "A commercial comparator for tracking portable equipment, not a selected device. Check Australian network compatibility, platform dependence, permissions, actual reporting energy and recovery after a cellular outage."
+    },
+    {
+      "id": "HW-S20",
+      "title": "Raspberry Pi EEPROM bootloader documentation",
+      "url": "https://github.com/raspberrypi/documentation/blob/master/documentation/asciidoc/computers/raspberry-pi/eeprom-bootloader.adoc",
+      "publisher": "Raspberry Pi",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "Raspberry Pi documents bootloader watchdog and alternate-partition recovery settings on supported models for recovery from unsuccessful boots.",
+      "local_fit": "A prototype-computer recovery pattern to compare. Exact board, bootloader version, storage, power integrity and recovery images need testing; watchdog availability does not prove application or record recovery."
+    }
+  ],
+  "answers": [
+    {
+      "question_id": "PHY-01",
+      "summary": "Consider four complementary roles: a sheltered learning doorway, a reviewed outdoor information point, a carryable continuity station and small replaceable relays or sensors. Share formats and spare modules so losing one housing still leaves useful local service.",
+      "options": [
+        {
+          "label": "Shared core, different protection",
+          "kind": "adaptation",
+          "text": "Compare a sheltered screen with a protected outdoor cabinet and a Pelican-style carry case. Each would run the same local information package but carry its own exposure and operating limits.",
+          "source_ids": [
+            "HW-S03",
+            "HW-S05",
+            "HW-S13"
+          ]
+        },
+        {
+          "label": "Aura-guided module family",
+          "kind": "future_concept",
+          "text": "Develop a common removable service module that identifies its housing and loads the matching power, access and weather profile. An Aura could guide an authorised swap while preserving the outgoing device's records.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S13",
+          "lesson": "NBN Co's temporary equipment illustrates distinct restoration and community-connectivity roles.",
+          "local_difference": "This project would develop its own host agreements and equipment; no NBN deployment is committed."
+        }
+      ],
+      "next_checks": [
+        "Draw and weigh a working packing layout for each role.",
+        "Agree the service preserved after losing each role in turn."
+      ]
+    },
+    {
+      "question_id": "PHY-02",
+      "summary": "Prepare a site card before selecting a cabinet. Compare an accessible sheltered host with an exposed public position using island hazard mapping, observed drainage, salt and wind exposure, maintenance access and alternate safe destinations. Record landholder and cultural permissions separately.",
+      "options": [
+        {
+          "label": "Mapped and walked site shortlist",
+          "kind": "adaptation",
+          "text": "Use Redland's current property and island hazard information to shortlist sites, then walk each route with hosts and access users. Photograph levels, drainage paths, potential debris and routes for replacement equipment.",
+          "source_ids": [
+            "HW-S01",
+            "HW-S02"
+          ]
+        },
+        {
+          "label": "Continuously improved site twin",
+          "kind": "future_concept",
+          "text": "Build a versioned place twin joining surveyed levels, exposure readings, access routes and maintenance history. XR walkthroughs could help residents compare proposed positions before physical mock-ups, with evidence dates visible.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S12",
+          "lesson": "Victorian hubs use existing community facilities as practical service locations.",
+          "local_difference": "Straddie candidate properties require their own hazard, permission and opening arrangements."
+        }
+      ],
+      "next_checks": [
+        "Confirm current maps and site-specific survey needs with qualified reviewers.",
+        "Test public and maintenance journeys during ordinary heavy rain without entering unsafe conditions."
+      ]
+    },
+    {
+      "question_id": "PHY-03",
+      "summary": "Offer one welcoming journey with readable text, reachable controls, clear paths and chosen audio assistance. Test a full-size mock-up with seated and standing users, wet hands, glare and darkness; retain a printed information surface and a useful assisted route.",
+      "options": [
+        {
+          "label": "Full-size access workshop",
+          "kind": "adaptation",
+          "text": "Build adjustable cardboard and timber mock-ups before committing to metalwork. Compare screen angles, control positions, sheltered standing space and personal-phone access with people who use wheelchairs, mobility aids and hearing or vision supports.",
+          "source_ids": [
+            "HW-S02"
+          ]
+        },
+        {
+          "label": "Chosen Aura access profile",
+          "kind": "future_concept",
+          "text": "Let a person temporarily bring their preferred language, reading scale or interaction method through an Aura or loan device. Keep the public controls usable independently and automatically clear session preferences afterward.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S02",
+          "lesson": "Public-place access and accessible information belong in the same design conversation.",
+          "local_difference": "The actual kiosk still needs measured design advice and trials with local users."
+        }
+      ],
+      "next_checks": [
+        "Seek access-design measurements and confirm the applicable current requirements.",
+        "Record independent task completion and participant feedback for each layout."
+      ]
+    },
+    {
+      "question_id": "PHY-04",
+      "summary": "Compare a public face with rear service access against separate public and technical cabinets. Give power, batteries, communications and computing defined spaces, labelled connectors and replacement clearances. Position antennas and solar only after testing access, balance, thermal behaviour and maintenance needs.",
+      "options": [
+        {
+          "label": "Protected cabinet and service trays",
+          "kind": "adaptation",
+          "text": "Use industrial-enclosure drawings to size removable low-voltage computer and radio trays, with a separately reviewed power compartment. Trial every connector and repair movement in a full-size open frame before enclosure purchase.",
+          "source_ids": [
+            "HW-S03",
+            "HW-S04"
+          ]
+        },
+        {
+          "label": "Machine-readable module passport",
+          "kind": "future_concept",
+          "text": "Give each tray a scanned parts passport and measured three-dimensional layout. XR instructions and a future service robot could locate the authorised replacement path while human technicians control isolation and return to service.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S04",
+          "lesson": "An outer solar shield can be designed separately from the equipment enclosure.",
+          "local_difference": "A kiosk also needs public controls, coastal materials and installation-specific structural assessment."
+        }
+      ],
+      "next_checks": [
+        "Produce dimensioned front, side and internal drawings for both arrangements.",
+        "Perform part-fit, lifting, isolation and service-clearance checks using actual components."
+      ]
+    },
+    {
+      "question_id": "PHY-05",
+      "summary": "Choose an explicit operating envelope for each physical type, followed by safe closure and withdrawal conditions. Treat the assembled kiosk, its openings and mounting as the test article. Separate weather operation, structural survival and availability of the information people need elsewhere.",
+      "options": [
+        {
+          "label": "Layered weather qualification",
+          "kind": "adaptation",
+          "text": "Compare canopy-plus-cabinet protection with a more enclosed public face. Commission a test plan covering driven rain, salt, heat, dust and impact; have structural and electrical reviewers define site-specific wind and flood requirements.",
+          "source_ids": [
+            "HW-S01",
+            "HW-S03"
+          ]
+        },
+        {
+          "label": "Forecast-assisted protective state",
+          "kind": "future_concept",
+          "text": "Develop a shuttered public screen and retractable exposed accessories that enter a reviewed protective state before deteriorating conditions. An independent local controller would retain a closure notice and report whether movement actually completed.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S03",
+          "lesson": "Rittal explicitly distinguishes IP water tests from real outdoor exposure.",
+          "local_difference": "No enclosure rating establishes whole-kiosk cyclone, debris, smoke or flood performance."
+        }
+      ],
+      "next_checks": [
+        "Agree separate operation, survival and withdrawal criteria with relevant specialists.",
+        "Test the complete assembly after all display, cable and service openings are fitted."
+      ]
+    },
+    {
+      "question_id": "PHY-06",
+      "summary": "Make heat and moisture measurable design inputs. Compare shaded, low-power equipment with a closed-loop cooling arrangement, including fan and cooling energy. Instrument the battery, computer, display and air spaces; practise reduced computing, closed vents and controlled restart during humid conditions.",
+      "options": [
+        {
+          "label": "Shade before active cooling",
+          "kind": "adaptation",
+          "text": "Trial an outer solar shield, separated hot components and temperature/humidity sensors. Compare it with a reviewed closed-loop cooling design under identical loads; include condensation observations after rain and temperature changes.",
+          "source_ids": [
+            "HW-S04",
+            "HW-S07"
+          ]
+        },
+        {
+          "label": "Thermal twin with power scheduling",
+          "kind": "future_concept",
+          "text": "Train a site-specific thermal model from measurements so an Aura can propose when to defer intensive AI or XR jobs. An independently tested local controller would enforce component limits if the model or network fails.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S04",
+          "lesson": "Commercial enclosure shielding offers a practical design starting point.",
+          "local_difference": "Vendor test results cannot predict this kiosk's temperature in salty, humid island conditions."
+        }
+      ],
+      "next_checks": [
+        "Measure hot-day steady loads and power peaks in both layouts.",
+        "Review dew-point, drainage, battery limits and smoke-related cooling changes with relevant designers."
+      ]
+    },
+    {
+      "question_id": "PHY-07",
+      "summary": "Separate faults by design: keep public controls, stored energy, power conversion and information service in reviewed compartments. Map every opening and shared cable, provide labelled isolation, and ensure one failed module can be removed while an independent notice layer explains available service.",
+      "options": [
+        {
+          "label": "Compartment and isolation drawing",
+          "kind": "adaptation",
+          "text": "Have the electrical designer compare separate cabinets with protected internal sections, documenting fault paths and safe maintenance access. Use enclosure accessories only within their documented installation conditions and inspect the completed openings.",
+          "source_ids": [
+            "HW-S03",
+            "HW-S09"
+          ]
+        },
+        {
+          "label": "Independent continuity cartridge",
+          "kind": "future_concept",
+          "text": "Develop a small independently powered notice-and-status cartridge that remains readable when the main cabinet is isolated. A tested physical boundary would separate it from high-energy faults; a retained image would always carry its update time.",
+          "source_ids": [
+            "HW-S06"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S09",
+          "lesson": "Source isolation is an explicit design responsibility in fixed generator connections.",
+          "local_difference": "A kiosk's battery and DC fault paths require their own engineered protection and inspection."
+        }
+      ],
+      "next_checks": [
+        "Review all drains, glands, barriers and isolation points on the assembled design.",
+        "Define any electromagnetic shielding claim as a separately measured protection objective."
+      ]
+    },
+    {
+      "question_id": "PHY-08",
+      "summary": "Build local repair capability around clearly bounded tasks: inspection, cleaning, checking status and swapping authorised low-voltage modules. Pair each task with isolation, tools, parts and a return-to-service check. Keep licensed electrical, structural and specialist repairs connected to confirmed qualified support.",
+      "options": [
+        {
+          "label": "Illustrated local repair packs",
+          "kind": "adaptation",
+          "text": "Prepare labelled photographs and spare-module kits, then run a workshop where a relief maintainer follows the instructions. Record where an electrician or specialist takes over and how information remains available during the interruption.",
+          "source_ids": [
+            "HW-S09",
+            "HW-S11"
+          ]
+        },
+        {
+          "label": "Offline Aura maintenance coach",
+          "kind": "future_concept",
+          "text": "Provide checked, versioned instructions through a local Aura with optional XR overlays. It would verify the equipment identity, show the authorised task boundary and capture observed completion, while escalation remains available when evidence differs.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S11",
+          "lesson": "Mallacoota's history links spare parts, remote controls and locally available electricians to readiness.",
+          "local_difference": "Straddie needs its own availability roster and arrangements for ferry isolation."
+        }
+      ],
+      "next_checks": [
+        "Trial each instruction with someone who did not write it.",
+        "Confirm qualification boundaries, spare compatibility and backup information routes."
+      ]
+    },
+    {
+      "question_id": "PHY-09",
+      "summary": "Pack portable capability as labelled modules with known weights, setup limits and a clear custodian. Practise moving the kit to an agreed shelter before conditions deteriorate, preserving records and directing people to the remaining service. Track equipment condition as carefully as location.",
+      "options": [
+        {
+          "label": "Case-based continuity station",
+          "kind": "adaptation",
+          "text": "Compare a protective carry case with a wheeled configuration after weighing the fitted equipment. Use check-in sheets and optional asset tracking, with off-network location records and scheduled manual checks when cellular reporting is unavailable.",
+          "source_ids": [
+            "HW-S05",
+            "HW-S19"
+          ]
+        },
+        {
+          "label": "Future assisted relocation",
+          "kind": "future_concept",
+          "text": "Explore a small cargo robot carrying standard continuity modules between approved safe locations. Begin with a supervised closed-site trial, defined payload and route limits, and a manual retrieval method before proposing any public operation.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S19",
+          "lesson": "Commercial asset trackers illustrate movement-aware reporting and stored records during cellular gaps.",
+          "local_difference": "Tracking cannot establish that a person can safely retrieve a device or that the device works."
+        }
+      ],
+      "next_checks": [
+        "Measure fitted case weights and agree handling and anchoring methods.",
+        "Practise withdrawal, missing equipment and replacement while another station carries information."
+      ]
+    },
+    {
+      "question_id": "PHY-10",
+      "summary": "Use one versioned design package for each physical type, tying drawings and exact parts to measured results. Progress from workshop mock-up to bounded field trial and then a public-installation proposal, with relevant professional comparisons, recorded differences and the responsible person's decision at each step.",
+      "options": [
+        {
+          "label": "Inspectable build and test dossier",
+          "kind": "adaptation",
+          "text": "Assemble measured drawings, enclosure modifications, electrical documentation, access trials, software versions and maintenance records. Compare observed results against the agreed requirements and vendor conditions before asking for the next installation scope.",
+          "source_ids": [
+            "HW-S02",
+            "HW-S03",
+            "HW-S09"
+          ]
+        },
+        {
+          "label": "Living evidence twin",
+          "kind": "future_concept",
+          "text": "Connect the physical equipment to a versioned digital twin so each replacement or altered setting prompts a targeted recheck. AI/SI could identify affected evidence and prepare a review pack while people retain the actual installation decisions.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S11",
+          "lesson": "AusNet's published functional testing and repair updates show the value of continuing evidence after commissioning.",
+          "local_difference": "Kiosk trials need their own acceptance measures and reviewers; another asset's tests cannot qualify them."
+        }
+      ],
+      "next_checks": [
+        "List required reviewers and exact trial boundaries for each physical form.",
+        "Check that every claimed result names the tested assembly, conditions and edition."
+      ]
+    },
+    {
+      "question_id": "ENE-01",
+      "summary": "Start with a measured energy ledger for each device and operating state. Record startup peaks separately from daily watt-hours, including display brightness, radio transmission, cooling and conversion losses. Compare always-on rich service with an essential local service plus scheduled larger jobs.",
+      "options": [
+        {
+          "label": "Metered operating profiles",
+          "kind": "adaptation",
+          "text": "Compare shunt-based DC measurement and a suitable AC meter, checking both against a reference. Include a Starlink Mini only as a candidate uplink: its published 25–40 W average needs confirmation on the actual unit.",
+          "source_ids": [
+            "HW-S07",
+            "HW-S14"
+          ]
+        },
+        {
+          "label": "Energy-aware Aura scheduler",
+          "kind": "future_concept",
+          "text": "Give each AI, XR and robotics job an estimated energy allowance and measured completion record. A local scheduler could offer a lower-energy route or defer work while reserving power for public information and request handling.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S10",
+          "lesson": "Kalbarri links local supply with community demand adjustment during islanded operation.",
+          "local_difference": "Kiosk priorities and actual device energy need finer measurement than a town-scale comparison provides."
+        }
+      ],
+      "next_checks": [
+        "Measure startup, idle, busy and failed-network states on actual devices.",
+        "Publish watt-hours per day with sampling method, uncertainty and service assumptions."
+      ]
+    },
+    {
+      "question_id": "ENE-02",
+      "summary": "Size storage from usable watt-hours and the agreed service schedule, then show reserve, ageing, temperature and conversion assumptions explicitly. Compare at least two battery sizes and a lower-power service mode. Treat a protective battery cut-off as the last boundary, with planned service reduction beforehand.",
+      "options": [
+        {
+          "label": "Usable-energy comparison",
+          "kind": "adaptation",
+          "text": "Compare documented lithium battery/BMS combinations against measured loads. Use the selected maker's discharge and temperature limits; show how much service remains after reserve and ageing allowances, including a zero-solar period.",
+          "source_ids": [
+            "HW-S08"
+          ]
+        },
+        {
+          "label": "Separate essential-service reserve",
+          "kind": "future_concept",
+          "text": "Explore independently protected storage for a modest notice and message relay, separate from intensive compute. A future module could display its measured remaining service allowance and preserve a dated notice if both supplies end.",
+          "source_ids": [
+            "HW-S06"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S12",
+          "lesson": "Community hubs combine storage with other energy sources to sustain useful services.",
+          "local_difference": "An individual kiosk needs its own load and reserve calculations; hub capacity figures do not transfer."
+        }
+      ],
+      "next_checks": [
+        "Run a complete discharge/recharge trial within manufacturer limits.",
+        "Review battery location, thermal limits, protection and replacement assumptions with the designer."
+      ]
+    },
+    {
+      "question_id": "ENE-03",
+      "summary": "Use a time-based energy model with conservative storm sequences and measured site shading, then compare it with logged output. Include dirty panels, a damaged array, charging losses and several zero-generation days. Show both remaining service and the time needed to restore the reserve.",
+      "options": [
+        {
+          "label": "Measured solar plus continuity supply",
+          "kind": "adaptation",
+          "text": "Compare fixed protected solar with a safely deployed portable array and an agreed external charging point. Log actual generation and charging; keep the kiosk's operation independent of assuming that any future community microgrid already exists.",
+          "source_ids": [
+            "HW-S07",
+            "HW-S12"
+          ]
+        },
+        {
+          "label": "Forecast-informed energy cooperation",
+          "kind": "future_concept",
+          "text": "Develop a shared energy model that proposes charging windows across participating sites and movable storage. Future AI/SI could compare forecasts with battery observations and negotiate permitted transfers while local controllers enforce each site's reserve.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S10",
+          "lesson": "Kalbarri's combination of local renewable sources and storage illustrates diversified supply.",
+          "local_difference": "Its wind, utility assets and WA conditions do not establish Straddie's storm-time solar yield."
+        }
+      ],
+      "next_checks": [
+        "Measure shading and charging efficiency at the actual shortlisted positions.",
+        "Run equal-condition models with zero generation and delayed access for maintenance."
+      ]
+    },
+    {
+      "question_id": "ENE-04",
+      "summary": "Ask the licensed electrical designer to define the complete supply boundary and its protection before selecting connections. Show mains, solar, storage, DC circuits and any generator changeover on one diagram, with labelled isolation and separate responsibilities for installation, inspection and authorised routine checks.",
+      "options": [
+        {
+          "label": "Reviewed AC/DC boundary",
+          "kind": "adaptation",
+          "text": "Compare a professionally installed fixed supply with a separated low-voltage service assembly. Where a generator connects to fixed wiring, use a licensed designer's changeover and protection arrangement and confirm applicable network requirements.",
+          "source_ids": [
+            "HW-S09"
+          ]
+        },
+        {
+          "label": "Standardised future energy port",
+          "kind": "future_concept",
+          "text": "Develop a keyed, monitored low-voltage service port for reviewed compatible sources. A future controller would identify the source, enforce limits and log isolation; unknown equipment would require a new reviewed connection path.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S09",
+          "lesson": "Queensland generator guidance makes qualified connection and supply separation explicit.",
+          "local_difference": "The actual kiosk adds battery, solar, public access and site-specific electrical requirements."
+        }
+      ],
+      "next_checks": [
+        "Commission the site-specific connection, earthing, surge and fault-protection review.",
+        "Map each installation and repair action to the required qualified role."
+      ]
+    },
+    {
+      "question_id": "ENE-05",
+      "summary": "Define normal, conserving, essential and protective-shutdown states with different entry and recovery thresholds. Keep core public information and request records on the essential budget; schedule rich displays, satellite sessions and larger AI jobs around available energy. Show the current state and its practical meaning.",
+      "options": [
+        {
+          "label": "Measured reserve controller",
+          "kind": "adaptation",
+          "text": "Compare an industrial energy controller with a documented Cerbo-based arrangement. Use measured battery energy, temperature and faults, with manual controls and clear recovery thresholds that avoid repeated on/off cycling.",
+          "source_ids": [
+            "HW-S07",
+            "HW-S08"
+          ]
+        },
+        {
+          "label": "Negotiated service quality",
+          "kind": "future_concept",
+          "text": "Let an Aura offer alternative ways to finish a task: text locally now, audio next, or high-detail XR when energy returns. Public priorities would remain recorded and a simple local rule set would handle AI unavailability.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S06",
+          "lesson": "A retained e-paper image can support a very low-energy information layer.",
+          "local_difference": "A visible retained message still needs a date and cannot certify a current connection or service."
+        }
+      ],
+      "next_checks": [
+        "Test every state transition with changing loads, temperatures and reserve estimates.",
+        "Confirm manual recovery and prioritised services with prospective operators and users."
+      ]
+    },
+    {
+      "question_id": "ENE-06",
+      "summary": "Give the kiosk a recovery path that starts essential information first, checks stored records and then enables larger services. Preserve queued messages across repeated power interruptions, identify uncertain time clearly and compare a known-good recovery image with a replaceable preconfigured computer module.",
+      "options": [
+        {
+          "label": "Known-good startup and spare",
+          "kind": "adaptation",
+          "text": "Prototype supported boot watchdog and alternate-image recovery, with protected configuration backups and a tested spare. Check voltage stability and local storage recovery before interpreting a successful reboot as successful service restoration.",
+          "source_ids": [
+            "HW-S20",
+            "HW-S18"
+          ]
+        },
+        {
+          "label": "Self-checking recovery twin",
+          "kind": "future_concept",
+          "text": "Develop an independent low-power supervisor that compares expected startup stages with observed health. An Aura could explain the fault and propose the next permitted check while the supervisor controls a bounded restart policy.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S11",
+          "lesson": "Mallacoota's updates distinguish equipment availability from successful automatic and remote startup.",
+          "local_difference": "Kiosk startup also requires intact records, trustworthy status and a usable public interface."
+        }
+      ],
+      "next_checks": [
+        "Inject repeated brownouts and incomplete writes in a controlled bench exercise.",
+        "Reconcile message queues and uncertain clocks before reconnecting simulated sites."
+      ]
+    },
+    {
+      "question_id": "ENE-07",
+      "summary": "List external supplies as explicit offers with owners, usable capacity, connection method and activation evidence. Compare a precommissioned host backup circuit, compatible portable supply and planned charging rotation. Keep future microgrids or vehicle support as separate options until their equipment and authorised arrangements are demonstrated.",
+      "options": [
+        {
+          "label": "Precommissioned backup boundary",
+          "kind": "adaptation",
+          "text": "Develop an electrician-reviewed host connection and test it under the kiosk's actual load before storm season. Record supply owner, fuel or replenishment, changeover steps, qualified backup and access when ferries stop.",
+          "source_ids": [
+            "HW-S09",
+            "HW-S11"
+          ]
+        },
+        {
+          "label": "Future shared energy dispatch",
+          "kind": "future_concept",
+          "text": "Explore participating building batteries and compatible vehicles as future sources through reviewed interfaces. A network coordinator could propose charging or supply rotations, with each custodian confirming availability and each site retaining its protected reserve.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S12",
+          "lesson": "Omeo and Corryong illustrate backup energy serving essential-service and business buildings.",
+          "local_difference": "Candidate Straddie buildings and businesses have not committed equipment, hosting or supply."
+        }
+      ],
+      "next_checks": [
+        "Run an observed activation drill with the usual operator unavailable.",
+        "Confirm the physical connection, tested load, fuel and qualified response arrangements."
+      ]
+    },
+    {
+      "question_id": "ENE-08",
+      "summary": "Develop a local maintenance ladder with named primary and relief people: observe status, follow approved isolation, exchange permitted modules and escalate licensed work. Store illustrated instructions and compatible spares locally. Exercise the plan with ferry access closed and the usual technician absent.",
+      "options": [
+        {
+          "label": "Island skills and spares roster",
+          "kind": "adaptation",
+          "text": "Separate routine observations from licensed electrical tasks and specialist battery work. Maintain dated availability, qualifications, tools, spare condition and a handover record, then rehearse a safe replacement with an independent observer.",
+          "source_ids": [
+            "HW-S09",
+            "HW-S11"
+          ]
+        },
+        {
+          "label": "XR practice and robot assistance",
+          "kind": "future_concept",
+          "text": "Use a training twin for repeated isolation and replacement practice before touching equipment. Future robots could assist with approved lifting or inspection tasks; qualified people would confirm the task limits and return-to-service evidence.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S11",
+          "lesson": "MAGS updates show the practical contribution of local electrical cover and parts availability.",
+          "local_difference": "The project needs actual local commitments and relief arrangements, with qualification evidence current."
+        }
+      ],
+      "next_checks": [
+        "Have relevant qualified reviewers check the task ladder and illustrated instructions.",
+        "Verify local spare availability and rehearse the absent-maintainer case."
+      ]
+    },
+    {
+      "question_id": "ENE-09",
+      "summary": "Rehearse the nine-day sequence with a traceable energy model first, then bench measurements and a bounded field exercise. Include zero generation, battery ageing allowances, lost cooling, delayed repair and failed high-power computing. Report the service actually delivered at each stage alongside energy and temperature.",
+      "options": [
+        {
+          "label": "Model-to-measurement exercise",
+          "kind": "adaptation",
+          "text": "Use logged controller measurements and a programmable load or real equipment to replay selected conditions. Label accelerated tests and simulated inputs clearly; preserve time histories showing reserve, interruptions, recovery and operator interventions.",
+          "source_ids": [
+            "HW-S07",
+            "HW-S08"
+          ]
+        },
+        {
+          "label": "AI-generated stress scenarios",
+          "kind": "future_concept",
+          "text": "Let AI/SI search the energy model for combinations that exhaust reserve early, then have people select meaningful physical tests. Future site twins could compare actual storms with those scenarios and suggest focused design improvements.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S11",
+          "lesson": "MAGS's functional testing and repair history support testing restart and support arrangements together.",
+          "local_difference": "The nine-day target is this project's exercise basis, not a performance claim about MAGS or kiosk equipment."
+        }
+      ],
+      "next_checks": [
+        "Agree useful-service pass criteria before running the comparison.",
+        "Publish model, bench and field results as distinct evidence with uncertainty."
+      ]
+    },
+    {
+      "question_id": "ENE-10",
+      "summary": "Create a commissioning passport tying each installation to its exact parts, firmware, wiring, settings and observed tests. Include usable reserve, qualified inspection, local training, maintenance ownership and exceptions. Every relevant equipment change should identify which checks need repeating and who decides the next operating scope.",
+      "options": [
+        {
+          "label": "Installation and change passport",
+          "kind": "adaptation",
+          "text": "Combine the licensed installation records with controller exports, battery settings, load-test results and a pictorial operator handover. Compare the actual installation with the reviewed drawing and record departures and their assessment.",
+          "source_ids": [
+            "HW-S07",
+            "HW-S08",
+            "HW-S09"
+          ]
+        },
+        {
+          "label": "Evidence-aware maintenance workflow",
+          "kind": "future_concept",
+          "text": "Scan a replacement module to let an Aura prepare affected drawings, energy calculations and retest tasks. The records would preserve the old edition and require the responsible person's recorded release for the changed operating scope.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S12",
+          "lesson": "Community backup hubs provide a useful service-scale comparison for coordinated facilities and energy support.",
+          "local_difference": "The site's own commissioning and trained cover establish its readiness; programme participation elsewhere does not."
+        }
+      ],
+      "next_checks": [
+        "Have installers and relief operators walk through the passport together.",
+        "Practise one equipment substitution and identify its required repeat tests."
+      ]
+    },
+    {
+      "question_id": "COM-01",
+      "summary": "Give each information class a clear journey: urgent checked notices, help requests, equipment status, maps and richer media. Set size and delay targets before choosing links. Treat saved, transported, received, accepted and acted-on as separate states, with sender authority and privacy attached to each record.",
+      "options": [
+        {
+          "label": "Message classes and existing uplinks",
+          "kind": "adaptation",
+          "text": "Map notices to CAP-compatible identifiers, times and update references. Compare ordinary fixed/mobile service with an activated satellite alternative; use compact summaries where bandwidth or energy is constrained while preserving the authoritative source.",
+          "source_ids": [
+            "HW-S13",
+            "HW-S14",
+            "DG-S04"
+          ]
+        },
+        {
+          "label": "Adaptive fidelity envelope",
+          "kind": "future_concept",
+          "text": "Design one signed information record with text, audio and richer spatial layers. A local Aura could choose the layer that fits available power and bandwidth while retaining common identity, issue time, meaning and receipt status.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S13",
+          "lesson": "NBN's restoration and community-support equipment illustrate several connectivity roles within disaster response.",
+          "local_difference": "Local delivery targets and receiving-service agreements remain to be designed and tested."
+        }
+      ],
+      "next_checks": [
+        "Measure representative record sizes and acceptable waits with prospective users and operators.",
+        "Confirm authority, privacy and receipt meaning for each information class."
+      ]
+    },
+    {
+      "question_id": "COM-02",
+      "summary": "Compare one well-supported hub with several independently useful settlement nodes. Give each node local information and queued records, then add measured radio links and more than one uplink route where feasible. Include a person carrying checked updates when every electronic path is unavailable.",
+      "options": [
+        {
+          "label": "Local-first mixed network",
+          "kind": "adaptation",
+          "text": "Trial local Wi-Fi and ordinary internet with a satellite-capable continuity station. Evaluate a small Meshtastic-type mesh for compact experimental status traffic, with Australian radio configuration checked and delivery limits measured separately.",
+          "source_ids": [
+            "HW-S13",
+            "HW-S14",
+            "HW-S15",
+            "HW-S16"
+          ]
+        },
+        {
+          "label": "Future mobile data carriers",
+          "kind": "future_concept",
+          "text": "Explore agreed service vehicles or future cargo robots carrying encrypted update bundles between settlements. A route planner could suggest transfers while custodians confirm safe journeys and the software exposes the age of each carried record.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S13",
+          "lesson": "Portable temporary connectivity can complement permanent infrastructure after a disruption.",
+          "local_difference": "Terrain, shared power and access on Straddie need measured paths and confirmed local arrangements."
+        }
+      ],
+      "next_checks": [
+        "Draw and compare shared failure points for two complete topologies.",
+        "Survey settlement links and rehearse an isolated node receiving carried records."
+      ]
+    },
+    {
+      "question_id": "COM-03",
+      "summary": "Select antenna positions from measured paths, structural assessment and maintainable cable routes. Compare a lower protected mounting with a higher exposed option, including sky view for satellite and a reviewed withdrawal plan. Treat connectors, earthing and surge protection as part of the installation.",
+      "options": [
+        {
+          "label": "Surveyed mounts and cable paths",
+          "kind": "adaptation",
+          "text": "Conduct temporary ground-level link surveys before designing permanent mounts. Compare the chosen radio's lawful Australian settings, cable loss and access needs; have qualified reviewers assess supports and electrical protection for the complete site.",
+          "source_ids": [
+            "HW-S16",
+            "HW-S03"
+          ]
+        },
+        {
+          "label": "Inspectable retractable accessories",
+          "kind": "future_concept",
+          "text": "Develop a low-height stowable antenna arrangement with position sensing and manual recovery. A future Aura could explain the expected coverage change when stowed, based on earlier measurements rather than assuming continued high-level coverage.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S13",
+          "lesson": "Temporary telecommunications infrastructure illustrates portable restoration alongside fixed equipment.",
+          "local_difference": "Each island position still requires site permission, weather assessment and actual link testing."
+        }
+      ],
+      "next_checks": [
+        "Measure signal quality and throughput at proposed heights and wet-weather conditions when safe.",
+        "Review mounting, cable penetrations, lightning/surge and maintenance access with relevant professionals."
+      ]
+    },
+    {
+      "question_id": "COM-04",
+      "summary": "Use durable queues with stable record identities, visible issue times and explicit update or cancellation references. Reconnection should preserve conflicting observations for review rather than silently replacing one. Compare retry schedules and transport sizes while protecting essential traffic from media or bulk sensor uploads.",
+      "options": [
+        {
+          "label": "Versioned local queue",
+          "kind": "adaptation",
+          "text": "Keep the durable queue in the kiosk application and use CAP-style alert references where applicable. Treat any low-power mesh as a constrained transport whose capacity, persistence and authentication are separately tested on pinned firmware.",
+          "source_ids": [
+            "DG-S04",
+            "HW-S15"
+          ]
+        },
+        {
+          "label": "Meaning-preserving transfer planner",
+          "kind": "future_concept",
+          "text": "Develop an Aura-assisted planner that sends essential structured records first and requests rich supporting material later. It could highlight contradictory road observations with their sources and dates while an authorised person decides the public update.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S04",
+          "lesson": "CAP provides explicit identities and references for changed or cancelled alert messages.",
+          "local_difference": "Request queues, observation conflicts, receipts and disconnected storage need additional application rules."
+        }
+      ],
+      "next_checks": [
+        "Reconnect two simulated settlements with duplicate, expired and contradictory records.",
+        "Measure backlog growth and recovery time across the slowest candidate link."
+      ]
+    },
+    {
+      "question_id": "COM-05",
+      "summary": "Separate transport encryption from authority to publish. Give each authorised issuer a bounded role and signing identity, with offline-verifiable records, expiry and a planned withdrawal path. Show uncertainty when the kiosk cannot confirm current authority, while retaining the issuer's original wording and source reference.",
+      "options": [
+        {
+          "label": "Offline trust pack",
+          "kind": "adaptation",
+          "text": "Compare a signed local issuer register with managed device credentials, protected backups and a lost-key drill. Use NIST's device-security capabilities as a review checklist; check the chosen radio firmware's authentication limits independently.",
+          "source_ids": [
+            "HW-S18",
+            "HW-S15"
+          ]
+        },
+        {
+          "label": "Time-bounded delegated publisher",
+          "kind": "future_concept",
+          "text": "Explore short-lived publication delegation for an Aura acting within a named person's or organisation's mandate. The signed record would preserve the delegator, permitted subjects, expiry and review trail, with clear public labelling of assisted drafting.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S15",
+          "lesson": "Meshtastic's version-dependent protections show why a network label alone does not establish message trust.",
+          "local_difference": "Official-issuer authority and stolen-device recovery require additional local agreements and security design."
+        }
+      ],
+      "next_checks": [
+        "Run stolen-device, expired-authority and delayed-withdrawal exercises while offline.",
+        "Have security reviewers compare the design with current Australian obligations and threat assumptions."
+      ]
+    },
+    {
+      "question_id": "COM-06",
+      "summary": "Start with sensors tied to decisions: battery reserve, cabinet temperature, water entry and link health. Add local environmental observations only when someone can maintain, interpret and act on them. Keep measured, estimated and simulated values distinct, with location, age, calibration and fault status visible.",
+      "options": [
+        {
+          "label": "Decision-led sensor register",
+          "kind": "adaptation",
+          "text": "Use energy-controller readings and independently checked temperature/moisture sensors first. Compare a commercial asset tracker for portable modules, recognising that a tracker's onboard temperature may be unsuitable for precise environmental measurements.",
+          "source_ids": [
+            "HW-S07",
+            "HW-S19"
+          ]
+        },
+        {
+          "label": "Cross-checked sensing twin",
+          "kind": "future_concept",
+          "text": "Develop an Aura that compares redundant sensors, model predictions and human observations, then proposes a maintenance check when they diverge. Future robotic inspection could supply another labelled observation rather than silently turning a prediction into a fact.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S19",
+          "lesson": "Oyster3's documentation explicitly qualifies temperature precision and reporting-energy assumptions.",
+          "local_difference": "Environmental and emergency decisions need purpose-specific sensor accuracy, calibration and responsible interpretation."
+        }
+      ],
+      "next_checks": [
+        "Name the action and responsible interpreter for every proposed measurement.",
+        "Test reference accuracy, drift, stale readings and stuck-value failures."
+      ]
+    },
+    {
+      "question_id": "COM-07",
+      "summary": "Provide several routes to the same essential information: kiosk controls, local Wi-Fi on a person's device, assisted access and a dated paper notice. Keep saved requests visible through disconnection, with separate confirmation when a responsible receiving service actually accepts them and an agreed immediate-danger route.",
+      "options": [
+        {
+          "label": "Accessible local information station",
+          "kind": "adaptation",
+          "text": "Trial a local web service with simple phone pages and a public screen alongside printed updates. Compare available host internet and an agreed satellite option; have receiving services review help-request wording and delivery status.",
+          "source_ids": [
+            "HW-S02",
+            "HW-S13"
+          ]
+        },
+        {
+          "label": "Personal Aura continuity session",
+          "kind": "future_concept",
+          "text": "Let a chosen personal Aura carry a minimal encrypted task between a phone, kiosk and assisted station. People without a profile or device would retain the same public information and a practical human help route.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S12",
+          "lesson": "Victorian community hubs combine information and practical services during outages.",
+          "local_difference": "A kiosk's messages and local Wi-Fi do not establish staffed reception or emergency dispatch."
+        }
+      ],
+      "next_checks": [
+        "Practise journeys with no phone, a basic browser and assistive technology.",
+        "Rehearse queued, received and accepted requests with a proposed receiving service in simulation."
+      ]
+    },
+    {
+      "question_id": "COM-08",
+      "summary": "Show people what the station can do now, when its information last changed and which messages are waiting. Give maintainers a separate detail view of links, queue age, battery and faults. When time is uncertain, preserve the last trusted check and explain uncertainty plainly.",
+      "options": [
+        {
+          "label": "Public status and maintenance view",
+          "kind": "adaptation",
+          "text": "Join measured energy status with device health and message receipts, publishing only useful non-private summaries. Compare a retained e-paper status face with a richer interactive display; both would carry update time and current capability.",
+          "source_ids": [
+            "HW-S07",
+            "HW-S18",
+            "HW-S06"
+          ]
+        },
+        {
+          "label": "Explainable network twin",
+          "kind": "future_concept",
+          "text": "Develop an Aura view that explains dependencies in everyday words: local notices available, mainland connection waiting, next check due. XR could help maintainers trace a fault while public users receive the same essential status in text or audio.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S18",
+          "lesson": "NIST includes cybersecurity-state awareness among device capabilities.",
+          "local_difference": "A useful public view also needs service, content freshness and privacy rules beyond security status."
+        }
+      ],
+      "next_checks": [
+        "Test whether users distinguish an old visible notice from a live service.",
+        "Inject clock loss, stale telemetry and a one-way link into the maintenance demonstration."
+      ]
+    },
+    {
+      "question_id": "COM-09",
+      "summary": "Prepare replaceable, labelled network modules with verified settings, protected recovery credentials and compatible spares. Practise restoring one failed node without the normal maintainer or internet. Record the newly installed identity and check queued messages, publisher permissions and public status before calling the service restored.",
+      "options": [
+        {
+          "label": "Preconfigured spare and local recovery",
+          "kind": "adaptation",
+          "text": "Compare a complete spare computer/radio module with a rebuild from protected recovery media. Use device-security and boot-recovery documentation to prepare instructions, including isolation of a stolen device and authorised restoration of credentials.",
+          "source_ids": [
+            "HW-S18",
+            "HW-S20"
+          ]
+        },
+        {
+          "label": "Aura-assisted replacement rehearsal",
+          "kind": "future_concept",
+          "text": "Use a local twin to practise replacement and show the technician exactly which settings differ. A future assistant could prepare the configuration and checklist, while the authorised maintainer verifies the physical device and its observed network behaviour.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S13",
+          "lesson": "Pre-positioned temporary infrastructure supports recovery when permanent infrastructure is damaged.",
+          "local_difference": "The community's own spares, skills, licences and access arrangements must be established locally."
+        }
+      ],
+      "next_checks": [
+        "Rebuild a spare offline using only the published instructions and authorised local materials.",
+        "Confirm antenna work boundaries, spare firmware and secure credential-recovery responsibilities."
+      ]
+    },
+    {
+      "question_id": "COM-10",
+      "summary": "Build a repeatable field exercise that measures useful message delivery through combined failures, rather than signal bars alone. Test busy traffic, isolated settlements, a failed hub, one-way links, satellite loss and low energy, then reconcile updates and requests with all original meanings intact.",
+      "options": [
+        {
+          "label": "Measured mixed-link exercise",
+          "kind": "adaptation",
+          "text": "Use agreed sample notices and requests across local Wi-Fi, candidate radio and ordinary or satellite uplinks. Record send, receive and acceptance times, backlog recovery, energy and weather; keep all public alerts clearly marked as exercise material.",
+          "source_ids": [
+            "HW-S13",
+            "HW-S14",
+            "DG-S04"
+          ]
+        },
+        {
+          "label": "Adversarial network twin",
+          "kind": "future_concept",
+          "text": "Let AI/SI propose failure combinations and compare alternative routes in a network twin before people choose physical tests. Future robotics could carry an exercise data bundle on a supervised safe route to measure mobile continuity.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "HW-S11",
+          "lesson": "Published backup-system incidents demonstrate why activation and recovery deserve explicit exercises.",
+          "local_difference": "Network capacity, authority checks and request receipt need their own measured acceptance criteria."
+        }
+      ],
+      "next_checks": [
+        "Agree success measures and exercise controls with prospective operators and relevant professionals.",
+        "Publish topology, versions, measurements, failures and the next design improvements together."
+      ]
+    }
+  ],
+  "provenance": {
+    "ai_generated": true,
+    "prompt_id": "PROMPT-2026-10-20-ANSWERS",
+    "generated_by": "OpenAI Codex AI research assistants",
+    "recorded_on": "2026-10-20",
+    "status": "AI-generated options for discussion and review"
+  }
+}

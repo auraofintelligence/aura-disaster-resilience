@@ -8,11 +8,13 @@ This board separates work produced, human decisions and performance demonstrated
 | --- | --- |
 | Questions mapped | 96 |
 | Work areas connected | 13 |
+| Questions with AI-generated options prepared | 96 |
+| Primary research references | 51 |
 | Review packages prepared | 3 |
 | Human approvals recorded and checked | 0 |
 | Operating pilot sites | Site discussions and pilot preparation are ahead |
 | All-weather performance | Design basis, drawings and measurements are the next evidence |
-| Research baseline | Kiosk sources and the connected ecosystem reviewed; see Evidence |
+| Research baseline | [AI options and preserved user prompt](Research-brief.md), [primary-source comparisons](Research-sources.md), and the original library; see [Evidence](Evidence.md) |
 
 ## Parallel jobs
 

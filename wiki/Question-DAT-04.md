@@ -15,6 +15,31 @@ A reconciliation guide, meaning rules for bringing changed records together, wit
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process (Sections 4-6 and 9)
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Keep an append-only change history so disconnected updates, cancellations and requests can be brought together without silently losing meaning. Automatically combine compatible changes and present genuine conflicts to the responsible person with their source histories.
+
+### Existing-practice adaptation
+
+**AI-generated adaptation of an existing pattern.** Use stable record IDs, explicit replacement links and separate acknowledgement events. Replaying the same message should not duplicate a request or reservation; a cancellation received after reconnection should remain linked to the original record.
+
+Research basis: [Common Alerting Protocol Version 1.2](https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html) · [Managing records created using artificial intelligence](https://www.naa.gov.au/information-management/manage-information-assets/types-information/information-management-records-created-using-artificial-intelligence-ai-technologies).
+
+### Future concept to explore
+
+**AI-generated future concept.** Future Auras could prepare a readable conflict comparison and propose a resolution grounded in the signed records. A twin could replay reconnection sequences to expose double allocations before software is used with real supplies or requests.
+
+### Examples and local differences
+
+- [Common Alerting Protocol Version 1.2](https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html): **AI transfer assessment:** Apply explicit update and cancellation relationships rather than relying only on arrival time. **Local difference to check:** CAP does not define the full reconciliation rules for resources or help-request ownership; those are proposed local workflows.
+
+### Evidence to bring back next
+
+- Test delayed cancellation, duplicate delivery and two competing ownership claims.
+- Agree which conflicts require human confirmation and how unresolved states appear publicly.
+
 ## People and connected choices
 
 **Who reviews:** Luke, as project initiator, prepares proposed record-handling rules and comparisons. Actual issuers, request owners and stock custodians review requirements and decide how to resolve real-world conflicts within their responsibilities.

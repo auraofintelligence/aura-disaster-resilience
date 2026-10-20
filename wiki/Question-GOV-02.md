@@ -16,6 +16,31 @@ An engagement plan with accessible participation, groups to seek out, ways to de
 - supporting research — reviewed source; public copy can be added through the evidence process (GAJRA values and UNGA81 contribution)
 - [Proposed councils, teams and committees model for the Aura age](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Working-together) (Proposed shared handbook home, organising meeting, XR/Aura/AI/SI/robot participation, delegated tasks and records; adoption and appointments are development milestones.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Invite residents, visitors, workers, community groups and people with varied access needs to try practical examples. Keep a public response record showing what changed, what remains contested and the next opportunity to influence the design.
+
+### Existing-practice adaptation
+
+**AI-generated adaptation of an existing pattern.** Run short workshops around real tasks: finding a ferry update, understanding a stale notice and offering help. Combine conversation, paper feedback and hands-on trials; publish themes and design responses with permission and protect individual private details.
+
+Research basis: [Digital Performance Standard: measure service success](https://www.digital.gov.au/policy/digital-experience/digital-performance-standard/dps-criterion-3-measure-success-your-digital-service) · [Privacy and the use of commercially available AI products](https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products).
+
+### Future concept to explore
+
+**AI-generated future concept.** Use accessible XR walkthroughs and Aura-assisted participation to let people explore a proposed kiosk in their own time. Summaries should distinguish each person's contribution from AI synthesis and give them an easy way to correct representation.
+
+### Examples and local differences
+
+- [Digital Performance Standard: measure service success](https://www.digital.gov.au/policy/digital-experience/digital-performance-standard/dps-criterion-3-measure-success-your-digital-service): **AI transfer assessment:** Assess success against the user's intended task rather than the amount of technology shown. **Local difference to check:** A national digital-service benchmark needs local participants and phone-free, account-free and assisted ways to contribute.
+
+### Evidence to bring back next
+
+- Recruit a varied first trial group through authorised outreach.
+- Test whether participants can trace one suggestion into a design response and correct the record.
+
 ## People and connected choices
 
 **Who reviews:** Luke, as project initiator, coordinates the invitation and prepares responses to design feedback. Participants choose their involvement and express their own views; anyone representing a wider group needs that group's authority. Participants help shape the proposal and see how their contributions are addressed.

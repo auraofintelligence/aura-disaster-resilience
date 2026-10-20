@@ -22,6 +22,33 @@ Create readable and computer-readable entries for calendar, notices, media, tran
 
 **Starting idea for review:** For human consideration: agree versioned information exchanges and clear project references, with each participant retaining custody, approval responsibilities and the ability to change providers.
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Maintain one readable connection register naming each project, current artefact, proposed exchange, owner, permission, offline fallback and acceptance evidence. Show how everyday events, media, mobility, supplies, energy, repair and optional Auras support the kiosk. Broader ambitions would connect through explicitly staged interfaces.
+
+### Shared records with familiar exchange formats
+
+**AI-generated adaptation of an existing pattern.** Compare iCalendar for events, GTFS for transport, CAP for warnings and SensorThings for observations. Keep source ownership and local approval visible, and record a small tested example for each adopted connection.
+
+Research basis: [RFC 5545: iCalendar](https://www.rfc-editor.org/rfc/rfc5545.html) · [Translink open data: schedules and real-time feeds](https://translink.com.au/about-translink/open-data) · [Common Alerting Protocol Version 1.2](https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html) · [OGC SensorThings API Standard](https://www.ogc.org/standards/sensorthings/).
+
+### A navigable service graph for people and Auras
+
+**AI-generated future concept.** Explore Auras navigating an agreed service graph across the cultural node, Verse Box, Aura Genesis, P4A and the Sensorium. C-Hours recognise verified voluntary human hours with community-chosen reciprocity, no monetary equivalent, sale or transfer; money, paid work, machine time and outcomes remain separate.
+
+Research basis: [NSW Spatial Services: mapping and the Emergency Management Digital Twin](https://www.nsw.gov.au/departments-and-agencies/spatial-services/emergency-services-organisations) · [NIST AI Risk Management Framework 1.0: core functions](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/).
+
+### Examples and local differences
+
+- [NSW Spatial Services: mapping and the Emergency Management Digital Twin](https://www.nsw.gov.au/departments-and-agencies/spatial-services/emergency-services-organisations): **AI transfer assessment:** Shared spatial services bring several custodians' information together while retaining access roles. **Local difference to check:** The proposed island ecosystem includes projects at different stages and needs actual agreements; a register entry establishes neither participation nor service readiness.
+
+### Evidence to bring back next
+
+- Choose one event cancellation, transport update, supply request and equipment observation; verify each end-to-end exchange.
+- Record current artefacts, named prospective owners, permissions, gaps and the next measured milestone without implying a partnership is already agreed.
+
 ## People and connected choices
 
 **Who reviews:** Proposed ecosystem integration lead and each participating capability owner (unconfirmed)

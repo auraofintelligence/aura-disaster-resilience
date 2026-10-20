@@ -18,6 +18,33 @@ Agree the transport information record: issuing authority, affected route or ser
 - comprehensive rebuild plan — reviewed source; public copy can be added through the evidence process
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Begin with the published island timetable and confirmed operator notices, showing their different meanings and age. Translink currently lists island schedules without real-time data. Show confirmed cancellations and contact routes; develop alternatives through actual operator confirmation and accessible-travel checks.
+
+### Verified feeds plus direct operator notice records
+
+**AI-generated adaptation of an existing pattern.** Investigate the North Stradbroke Island GTFS schedule dataset, which currently lacks a listed real-time feed. Map separate ferry, road and operator notices with issuer, route, check time, validity and accessible-travel details.
+
+Research basis: [Translink open data: schedules and real-time feeds](https://translink.com.au/about-translink/open-data).
+
+### A future mobility connection with explicit authority
+
+**AI-generated future concept.** Explore supervised and later autonomous mobility as a separate service interface, carrying operating permission, availability, accessibility and confirmed booking states. Model power, communications and weather dependencies before adding any vehicle to the public service offer.
+
+Research basis: [Translink open data: schedules and real-time feeds](https://translink.com.au/about-translink/open-data) · [NIST AI Risk Management Framework 1.0: core functions](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/).
+
+### Examples and local differences
+
+- [Translink open data: schedules and real-time feeds](https://translink.com.au/about-translink/open-data): **AI transfer assessment:** A reusable schedule can give island travel information a common structure and a clear edition. **Local difference to check:** The island dataset has no listed real-time feed. Separate ferries, disaster suspensions and access needs require actual operator information and confirmation.
+
+### Evidence to bring back next
+
+- Verify a real island stop, timetable, current feed timestamp and the source of ferry suspension notices.
+- Rehearse a changed last return, unavailable alternative and offline display using clearly labelled sample records.
+
 ## People and connected choices
 
 **Who reviews:** Proposed mobility information coordinator and relevant transport/road authority (unconfirmed)

@@ -13,6 +13,8 @@ The work welcomes tradespeople, trade assistants, drivers, artists, nurses, care
 - [Work through the first choices](wiki/First-review.md)
 - [Develop the all-weather kiosk designs](wiki/All-weather-design.md)
 - [Explore the connected questions](wiki/Question-register.md)
+- [Read the AI research request and method](wiki/Research-brief.md)
+- [Compare existing services, equipment and regional examples](wiki/Research-sources.md)
 - [See progress and useful jobs](wiki/Progress.md)
 - [Understand how people decide](wiki/Human-review.md)
 - [Start councils, teams and committees](wiki/Working-together.md)
@@ -23,6 +25,8 @@ The work welcomes tradespeople, trade assistants, drivers, artists, nurses, care
 The repository holds the source records and a complete, linked wiki. The native [GitHub Wiki](https://github.com/auraofintelligence/aura-disaster-resilience/wiki) presents the reading pages with its own navigation. Questions, evidence and decisions share stable IDs so work can move across several AI assistants and people while staying connected.
 
 The source library preserves **32 distinct documents and 44 project-source editions**, including 10,018 saved source files, with full checksums and restoration instructions. Dated HTML copies preserve the linked public pages as received. [The swarm handover](SWARM_HANDOVER.md) carries your settled direction, current milestones and clear next jobs into the next chat or team.
+
+All **96 questions** now offer clearly labelled **AI-generated potential answers**, with an adaptation of existing practice, a future concept, local differences and practical next checks. **51 primary references** cover councils, regional communities, public services, equipment businesses and technical research. The exact user prompt is preserved with the method. These prepared options support discussion and human decisions; their preparation does not select a design or establish field performance.
 
 **Ready S.E.T. Co-op**, fully **Ready Sustainable Employment and Training Cooperative**, is the proposed operating intermediary. **Aura of Intelligence** is [Luke Nathan Hayes's](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) personal AI operating system in development, from light to ultra high definition, supporting navigation and just-in-time learning. **GAJRA Earth**, the Global Association for Joyful Responsible Abundance on Earth, is the defining values starting point.
 

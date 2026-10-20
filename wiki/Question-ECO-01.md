@@ -18,6 +18,33 @@ Agree an exchange format with event-series and individual-date IDs, timezone, re
 - [PUBLIC_BOUNDARY.md](https://github.com/auraofintelligence/quandamooka-country-events-engine/blob/main/docs/PUBLIC_BOUNDARY.md)
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Give recurring events and individual dates stable identities, with local timezone, confirmation, cancellation and replacement history. Connect the Events Engine to an approved release stream for the notice network. Offline screens would explain the saved edition and remove or qualify expired information.
+
+### iCalendar plus a local approval record
+
+**AI-generated adaptation of an existing pattern.** Use iCalendar identities, recurrence exceptions and revisions as a starting exchange format. Add the issuer, rights, checking time, approval scope and expiry needed by the island publishing service.
+
+Research basis: [RFC 5545: iCalendar](https://www.rfc-editor.org/rfc/rfc5545.html).
+
+### An Aura rehearses the effects of a changed event
+
+**AI-generated future concept.** Explore an assistant showing an authorised organiser which linked notices, transport advice and roster entries may need review after a cancellation. It would draft updates for their actual owners and report which screens have received approved editions.
+
+Research basis: [RFC 5545: iCalendar](https://www.rfc-editor.org/rfc/rfc5545.html) · [RFC 9171: Bundle Protocol Version 7](https://www.rfc-editor.org/rfc/rfc9171.html).
+
+### Examples and local differences
+
+- [RFC 5545: iCalendar](https://www.rfc-editor.org/rfc/rfc5545.html): **AI transfer assessment:** A standard calendar can identify one occurrence separately from its repeating series. **Local difference to check:** Island publishing also needs release authority, cultural permissions, expiry and evidence that disconnected screens receive cancellations.
+
+### Evidence to bring back next
+
+- Cancel one date in a recurring series while a kiosk is offline and verify the right occurrence after reconnection.
+- Try a postponement, timezone boundary, duplicate import and organiser correction without changing unrelated dates.
+
 ## People and connected choices
 
 **Who reviews:** Proposed calendar/notice publishing owner and organiser approval role (unconfirmed)

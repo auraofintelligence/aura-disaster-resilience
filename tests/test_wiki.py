@@ -32,6 +32,43 @@ class WikiChecks(unittest.TestCase):
         self.assertGreaterEqual(len(self.data['questions']), 90)
         self.assertEqual(approved, set())
 
+    def test_all_questions_display_ai_options_without_recording_human_answers(self):
+        pages = wiki.render(self.data)
+        self.assertEqual(len(self.data['research']['answers']), len(self.data['questions']))
+        self.assertEqual(pages['Question-register.md'].count('**AI-generated option:**'), len(self.data['questions']))
+        for question in self.data['questions']:
+            self.assertIn('## AI-generated potential answers', pages['Question-' + question['id'] + '.md'])
+            self.assertFalse(question.get('answer'))
+            self.assertNotEqual(question['work_status'], 'answer_recorded')
+
+    def test_changed_loaded_research_invalidates_review_and_matches_displayed_fingerprint(self):
+        _, comment = self.review()
+        decision = self.data['decisions'][0]
+        original = wiki.fingerprint(decision)
+        answer = next(a for a in self.data['research']['answers']
+                      if a['question_id'] == decision['proposal']['question_ids'][0])
+        answer['summary'] += ' A locally revised comparison.'
+        changed = wiki.fingerprint(decision, questions=self.data['questions'], research=self.data['research'])
+        self.assertNotEqual(original, changed)
+        with self.assertRaisesRegex(ValueError, 'fresh review'):
+            wiki.validate(self.data, fetch=lambda url: comment)
+        self.data['reviews'] = []
+        page = wiki.render(self.data)['Decision-D-001.md']
+        self.assertIn(changed, page)
+        self.assertNotIn(original, page)
+
+    def test_same_second_reviews_use_source_comment_order(self):
+        approval, comment = self.review()
+        rejection = {**approval, 'outcome': 'rejected',
+                     'evidence_url': wiki.BASE + '/issues/1#issuecomment-124'}
+        rejection_comment = {**comment, 'body': comment['body'].replace('HITL APPROVE', 'HITL REJECT')}
+        def fetch(url):
+            return rejection_comment if url == rejection['evidence_url'] else comment
+        for records in ([approval, rejection], [rejection, approval]):
+            self.data['reviews'] = records
+            approved, _ = wiki.validate(self.data, fetch=fetch)
+            self.assertEqual(approved, set())
+
     def test_text_fingerprints_survive_git_line_endings(self):
         with tempfile.TemporaryDirectory(dir=wiki.ROOT) as folder:
             path = Path(folder) / 'evidence.md'

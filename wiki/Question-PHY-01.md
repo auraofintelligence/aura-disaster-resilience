@@ -18,6 +18,31 @@ Draw four use cards showing who uses each type, what it provides, how long it st
 
 **Starting idea for review:** For review: develop these as separate types, with a clear service and test plan for each.
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Consider four complementary roles: a sheltered learning doorway, a reviewed outdoor information point, a carryable continuity station and small replaceable relays or sensors. Share formats and spare modules so losing one housing still leaves useful local service.
+
+### Shared core, different protection
+
+**AI-generated adaptation of an existing pattern.** Compare a sheltered screen with a protected outdoor cabinet and a Pelican-style carry case. Each would run the same local information package but carry its own exposure and operating limits.
+
+Research basis: [Rittal protective roof SZ 2475000](https://www.rittal.com/com-en/products/PG20231215SCH101/PG20231512SCH301/PRO70850?variantId=2475000) · [Pelican 1507 Air Case](https://www.pelican.com/index.php/ca/en/product/cases/1507) · [How to prepare: nbn and emergency events](https://www.nbnco.com.au/corporate-information/about-nbn-co/newsroom/articles/community/how-to-prepare-nbn-and-emergency-events).
+
+### Aura-guided module family
+
+**AI-generated future concept.** Develop a common removable service module that identifies its housing and loads the matching power, access and weather profile. An Aura could guide an authorised swap while preserving the outgoing device's records.
+
+### Examples and local differences
+
+- [How to prepare: nbn and emergency events](https://www.nbnco.com.au/corporate-information/about-nbn-co/newsroom/articles/community/how-to-prepare-nbn-and-emergency-events): **AI transfer assessment:** NBN Co's temporary equipment illustrates distinct restoration and community-connectivity roles. **Local difference to check:** This project would develop its own host agreements and equipment; no NBN deployment is committed.
+
+### Evidence to bring back next
+
+- Draw and weigh a working packing layout for each role.
+- Agree the service preserved after losing each role in turn.
+
 ## People and connected choices
 
 **Who reviews:** Proposed service owner, mechanical designer and community access reviewers; role and appointment awaiting confirmation

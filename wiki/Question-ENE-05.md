@@ -17,6 +17,31 @@ Write a step-by-step operating plan for each power state, including manual contr
 
 **Starting idea for review:** For review: give the essential information channel its own dependable power path, then use measured demand and reserve needs to choose the switching levels.
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Define normal, conserving, essential and protective-shutdown states with different entry and recovery thresholds. Keep core public information and request records on the essential budget; schedule rich displays, satellite sessions and larger AI jobs around available energy. Show the current state and its practical meaning.
+
+### Measured reserve controller
+
+**AI-generated adaptation of an existing pattern.** Compare an industrial energy controller with a documented Cerbo-based arrangement. Use measured battery energy, temperature and faults, with manual controls and clear recovery thresholds that avoid repeated on/off cycling.
+
+Research basis: [Cerbo GX manual: configuration](https://www.victronenergy.com/media/pg/Cerbo_GX/en/configuration.html) · [Lithium NG battery manual: operation](https://www.victronenergy.com/media/pg/Lithium_NG_battery_12,8_V/en/operation.html).
+
+### Negotiated service quality
+
+**AI-generated future concept.** Let an Aura offer alternative ways to finish a task: text locally now, audio next, or high-detail XR when energy returns. Public priorities would remain recorded and a simple local rule set would handle AI unavailability.
+
+### Examples and local differences
+
+- [E Ink technology benefits](https://www.eink.com/tech/detail/Benefits): **AI transfer assessment:** A retained e-paper image can support a very low-energy information layer. **Local difference to check:** A visible retained message still needs a date and cannot certify a current connection or service.
+
+### Evidence to bring back next
+
+- Test every state transition with changing loads, temperatures and reserve estimates.
+- Confirm manual recovery and prioritised services with prospective operators and users.
+
 ## People and connected choices
 
 **Who reviews:** Proposed power-control and software leads with operator; role and appointment awaiting confirmation

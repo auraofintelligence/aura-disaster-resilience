@@ -10,6 +10,10 @@ Project home: [Aura Disaster Resilience](https://github.com/auraofintelligence/a
 
 **Working-together proposal:** The user next requested meetings, information flow, decisions, records and team commencement for councils, teams and committees, using Community Club Builder: Sandy Sports as a source. They explicitly asked to assume near-future XR, personal Auras, AI/SI and robotics. [Working together](wiki/Working-together.md) now proposes the shared model and recommends the existing Ready S.E.T. Co-op Trust Hub as its eventual shared handbook home, with the kiosk as the first worked example. Four new templates cover a charter, 90-minute organising meeting, meeting record and agent/robot task. D-001 is now revision 3 with that proposed method and its templates bound into the review packet; D-002 and D-003 remain revision 2. This work prepares discussion and a four-week exercise. Adoption, actual appointments, formal formation and Trust Hub implementation are future milestones.
 
+**AI-generated answer research, 20 October 2026:** The next request asks for inline potential answers, current equipment/services, comparable regions/councils/jurisdictions/businesses and plausible future ideas. Its exact wording is preserved in [Research brief](wiki/Research-brief.md) and `data/research-brief.json`, reference `PROMPT-2026-10-20-ANSWERS`. All 96 questions now have an AI-generated summary, an adaptation of an existing pattern, a future concept, a comparison with local differences and two practical checks: 192 options and 192 checks, supported by 51 distinct primary references. The main register and 13 work-area pages show inline options; individual cards give the full detail. Source facts and AI transfer assessments have separate labels. Preparation leaves all human answer and approval states unchanged. These research records now contribute to affected decision fingerprints, so reviewers use the newly generated statements.
+
+The preceding working-together edition was published at main `4b589d23913d1373b49646c772446fc18e388cd1`, native Wiki `c359116`, with [GitHub checks passed](https://github.com/auraofintelligence/aura-disaster-resilience/actions/runs/39421294755). The answer-research publication follows that edition. Read its subsequent commit and check records when continuing. The original library receipt below remains an immutable historical record.
+
 ## What is completed, and what to check next
 
 This is the recorded build state at handover. Check the current local files and remote publication before continuing; publication may have advanced since this edition.
@@ -17,13 +21,13 @@ This is the recorded build state at handover. Check the current local files and 
 | Part | Recorded state | Continuation check |
 | --- | --- | --- |
 | Core project and repository wiki | Complete build published and checked at source commit `010481b`; [publication record](docs/publication-record.json) identifies the exact edition. | Compare the current local and remote main commits; preserve subsequent work. |
-| Question workshop | 96 questions across 13 work areas, with stable IDs, connected questions and 13 starter jobs. | Maintain `data/questions.json` and `data/tasks.json`; the earlier seed files are lineage. |
+| Question workshop | 96 questions across 13 work areas, with stable IDs, connected questions and 14 starter jobs; AI-generated options cover all 96. | Maintain question/task records and the three research collections; the earlier seed files are lineage. |
 | Human decisions | Three proposals ready for review; GitHub conversations 1, 2 and 3 created. Zero recorded human approvals. | Read the actual issue comments and current `data/reviews.json` before reporting a new decision. |
 | Source documents | 32 distinct files verified and uploaded: 27 PDFs and five Word documents, 56,989,754 bytes. All 29 user-supplied originals are included; 59 source aliases identify shared copies and public locations. | Use the manifest and preserved files; add a new edition deliberately when sources change. |
 | Saved project sources | 44 source packages verified, preserving 10,018 files, including the club-builder source, with a contents list and restoration tools. | Check the manifest for coverage, package paths and any separate hosting/source-export items. Verify the current published edition before using it. |
 | Public-page editions | All 15 linked public pages captured, 534,097 exact response-body bytes, each with a recorded HTTP 200 response. | Read response dates and boundaries in the page manifest; source packages hold the related code and assets. |
-| Native GitHub Wiki | The workshop now contains 129 reading pages plus navigation and footer, including Professional review and Working together. Initial publication was wiki commit `d83ab40`; later governance and meeting proposals follow it in the wiki history. | Compare the current source and wiki publication records before editing or republishing. |
-| Automated checks | 26 local tests passed. [GitHub checks passed](https://github.com/auraofintelligence/aura-disaster-resilience/actions/runs/39392927825) for source commit `010481b`, including document, source-package and page-byte verification. | Run the relevant checks after changes and confirm results for the new revision. |
+| Native GitHub Wiki | The answer-research build contains 131 reading pages plus navigation and footer, including the preserved prompt and primary-source catalogue. Initial publication was wiki commit `d83ab40`; later editions follow in wiki history. | Compare current source and wiki commits before editing or republishing. |
+| Automated checks | All 38 local tests passed for answer-research, including coverage, provenance, same-snapshot review and review ordering. All 32 documents, 44 source packages (including every saved file) and 15 saved page responses verified. | Confirm GitHub results for the published source revision and repeat relevant checks after changes. |
 | Field capability | Service planning and design are underway. | Community agreements, installations, equipment measurements, field trials and continuing support are the next real-world milestones. |
 
 The full library is uploaded. The remote file-object comparison matched all 338 files in source commit `010481b`, including every expected document, source manifest and archive part. The publication record and this handover are subsequent documentation of that checked edition. Follow later commit and check records when continuing.
@@ -57,6 +61,7 @@ Write for people who learn quickly by doing: tradespeople, trade assistants, dri
 | Location | What to use it for |
 | --- | --- |
 | `data/questions.json`, `data/domains.json` | The maintained questions, work areas and dependencies. A dependency is a result or decision another job needs. |
+| `data/research-brief.json`, `data/research-hardware.json`, `data/research-service.json`, `data/research-digital.json` | Exact request, AI provenance, all 96 potential answers, 51 source records, future concepts, local differences and next checks. Keep separate from human-reviewed answers. |
 | `data/tasks.json` | Starter jobs and their assignment state. Confirm ownership before starting. |
 | `data/decisions.json`, `data/reviews.json`, `data/roles.json` | Exact proposals, attributable human responses and the roles permitted to decide their scopes. |
 | `content/` | Longer source explanations, including the working method and weather-ready design. |
@@ -185,6 +190,13 @@ templates. This is the proposed shared process for councils, teams and
 committees, designed for near-future XR, Auras, AI/SI and robotics. The
 recommended shared home is the existing Ready S.E.T. Co-op Trust Hub;
 its implementation and actual group formation remain future milestones.
+
+All 96 questions now have AI-generated potential answers, existing-pattern
+adaptations, future concepts and local checks. Read wiki/Research-brief.md
+for the exact user request, wiki/Research-sources.md for the 51 primary
+references and data/research-*.json for the maintained records. Keep
+options distinct from human-reviewed answers. Relevant research changes
+the affected proposal fingerprint; use current generated review statements.
 
 Keep the immediate scope on the everyday and hardened disaster kiosk
 network. Use Ready S.E.T. Co-op, Aura of Intelligence and GAJRA Earth

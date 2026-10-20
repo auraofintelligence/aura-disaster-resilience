@@ -15,6 +15,31 @@ Design a public status display and a maintenance view. Show last contact, age of
 - Straddie Disaster Kiosk Pitch.pdf — reviewed source; public copy can be added through the evidence process
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Show people what the station can do now, when its information last changed and which messages are waiting. Give maintainers a separate detail view of links, queue age, battery and faults. When time is uncertain, preserve the last trusted check and explain uncertainty plainly.
+
+### Public status and maintenance view
+
+**AI-generated adaptation of an existing pattern.** Join measured energy status with device health and message receipts, publishing only useful non-private summaries. Compare a retained e-paper status face with a richer interactive display; both would carry update time and current capability.
+
+Research basis: [Cerbo GX manual: configuration](https://www.victronenergy.com/media/pg/Cerbo_GX/en/configuration.html) · [NIST's IoT Cybersecurity Capabilities Catalog](https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/) · [E Ink technology benefits](https://www.eink.com/tech/detail/Benefits).
+
+### Explainable network twin
+
+**AI-generated future concept.** Develop an Aura view that explains dependencies in everyday words: local notices available, mainland connection waiting, next check due. XR could help maintainers trace a fault while public users receive the same essential status in text or audio.
+
+### Examples and local differences
+
+- [NIST's IoT Cybersecurity Capabilities Catalog](https://pages.nist.gov/IoT-Device-Cybersecurity-Requirement-Catalogs/): **AI transfer assessment:** NIST includes cybersecurity-state awareness among device capabilities. **Local difference to check:** A useful public view also needs service, content freshness and privacy rules beyond security status.
+
+### Evidence to bring back next
+
+- Test whether users distinguish an old visible notice from a live service.
+- Inject clock loss, stale telemetry and a one-way link into the maintenance demonstration.
+
 ## People and connected choices
 
 **Who reviews:** Proposed network operations lead with publisher and privacy reviewer; role and appointment awaiting confirmation

@@ -16,6 +16,14 @@ python -m unittest discover -s tests -v
 
 Propose the source change through a pull request so people can inspect the difference. Branch-review settings and named specialist reviewers are recorded as setup work until their actual configuration is checked. The review records below provide an additional, proposal-specific human decision trail.
 
+## Develop the AI-generated options
+
+The question register and cards draw their labelled potential answers from `data/research-hardware.json`, `data/research-service.json` and `data/research-digital.json`. `data/research-brief.json` preserves the exact request and method. Together these collections cover every question once. Each answer includes an adaptation of existing practice, a future concept, an example with local differences and practical next checks. Cross-file source references share one catalogue.
+
+Use primary sources and retain their publisher, exact address, checked date, evidence type and limited supported fact. Label local transfer assessments and future ideas as AI-generated. Check changing products, permissions, operating arrangements and funding again before a commitment. Preserve source rights; bibliography and limited facts can identify third-party research without copying entire sites.
+
+Keep options separate from the question's `answer` and from genuine human reviews. The builder binds relevant options, source records and prompt provenance into a proposal's evidence fingerprint. A changed comparison therefore receives a fresh fingerprint. Rebuild the wiki and run the checks after updating these records.
+
 ## Record a person's decision
 
 Each decision page shows its review scope and a content fingerprint: a SHA-256 identifier calculated from the exact proposal, supporting files, selected question evidence and source manifests. The named reviewer reads the package and posts the displayed `HITL APPROVE` line with `Conditions: none` in its linked GitHub issue. Put any conditions in that field; agreement then remains conditional until a fresh decision. An optional `Valid-until:` line records the date, time and timezone. Discuss reasons in a separate comment so the approval record stays unambiguous. `HITL CHANGE` and `HITL REJECT` record the other outcomes.

@@ -14,6 +14,8 @@
 - [Agreed direction](Constraints.md)
 - [Evidence](Evidence.md)
 - [Source library](Source-library.md)
+- [AI research and prompt](Research-brief.md)
+- [Research sources](Research-sources.md)
 - [Useful words](Glossary.md)
 - [Rights and discovery](Rights-and-discovery.md)
 

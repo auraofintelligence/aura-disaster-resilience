@@ -1,0 +1,1227 @@
+{
+  "sources": [
+    {
+      "id": "DG-S01",
+      "title": "Kiwix Hotspots: an offline library over a local Wi-Fi network",
+      "url": "https://get.kiwix.org/en/solutions/hotspots/",
+      "publisher": "Kiwix",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "Kiwix Hotspot creates a local Wi-Fi network for accessing saved knowledge without internet; its ready-made device uses Raspberry Pi hardware.",
+      "local_fit": "A candidate knowledge-library component for a protected kiosk or portable kit. Weather resistance, approved warning updates, private requests and island-wide links require their own design and tests."
+    },
+    {
+      "id": "DG-S02",
+      "title": "About Kolibri: offline learning on devices and local networks",
+      "url": "https://learningequality.org/kolibri/about-kolibri/",
+      "publisher": "Learning Equality",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "Kolibri serves learning resources over a local network without internet after preparation; content can also be distributed through external storage or peer-to-peer transfer.",
+      "local_fit": "A useful comparison for locally held task lessons and coach-supported practice. Equipment instructions need the correct edition, qualified review, permission and observation of the learner's actual work."
+    },
+    {
+      "id": "DG-S03",
+      "title": "ODK Collect: managing draft, ready-to-send and sent forms",
+      "url": "https://docs.getodk.org/collect-forms/",
+      "publisher": "ODK",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "ODK Collect keeps forms on a device, distinguishes drafts from forms ready to send, and supports sending queued forms when a connection becomes available.",
+      "local_fit": "An existing candidate for structured offline observations and non-emergency request trials. A sent form proves transport to its server; service acceptance, staffing, escalation and fulfilment require additional records and agreements."
+    },
+    {
+      "id": "DG-S04",
+      "title": "Common Alerting Protocol Version 1.2",
+      "url": "https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html",
+      "publisher": "OASIS",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "CAP defines identified alerts, updates, cancellations, validity times and separate actual, exercise, test and draft states in a common warning-message format.",
+      "local_fit": "Adopt the compatible message meanings while checking the Australian profile and each issuing service's requirements. A format supplies neither publisher authority nor guaranteed delivery, freshness or local conditions."
+    },
+    {
+      "id": "DG-S05",
+      "title": "NSW Spatial Services: mapping and the Emergency Management Digital Twin",
+      "url": "https://www.nsw.gov.au/departments-and-agencies/spatial-services/emergency-services-organisations",
+      "publisher": "NSW Government, Spatial Services",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_case_study",
+      "fact": "NSW's Emergency Management Digital Twin and Emergency Services Spatial Information Library provide authoritative spatial information; the wider collaboration portal separates open viewing, registered access and data-custodian roles.",
+      "local_fit": "An Australian jurisdictional comparison for shared maps and differentiated access. Minjerribah needs Queensland sources, local verification, cultural permissions, offline editions and actual agreements; NSW access or operational powers do not transfer."
+    },
+    {
+      "id": "DG-S06",
+      "title": "Robots to the rescue in hazardous environments",
+      "url": "https://www.csiro.au/en/news/all/articles/2021/december/robots-to-the-rescue-in-hazardous-environments",
+      "publisher": "CSIRO",
+      "checked_on": "2026-10-20",
+      "evidence_type": "research",
+      "fact": "CSIRO's 2021 Subterranean Challenge team combined ground robots, drones, mapping and relay hubs under one human supervisor in a demanding competition environment.",
+      "local_fit": "An Australian research example for future supervised inspection and communication support. Competition results establish neither island deployment readiness nor affordable procurement, local permission, weather performance or emergency-service acceptance."
+    },
+    {
+      "id": "DG-S07",
+      "title": "OGC SensorThings API Standard",
+      "url": "https://www.ogc.org/standards/sensorthings/",
+      "publisher": "Open Geospatial Consortium",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "SensorThings provides a common way to retrieve sensor observations and their metadata; sensing and tasking are defined as separate functions.",
+      "local_fit": "A useful candidate exchange model for dated equipment and environmental readings. Calibration, missing readings, local storage, access, energy cost and permission to control an asset remain practical design questions."
+    },
+    {
+      "id": "DG-S08",
+      "title": "NIST AI Risk Management Framework 1.0: core functions",
+      "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+      "publisher": "US National Institute of Standards and Technology",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "The AI RMF 1.0 organises continuing AI risk work around govern, map, measure and manage; its official page states that a revision is in progress.",
+      "local_fit": "A voluntary comparison framework for documenting purpose, measurements and responsibilities. It is neither Australian law nor certification, and does not establish future SI capability or delegated authority."
+    },
+    {
+      "id": "DG-S09",
+      "title": "Solid FAQ: personal data sharing, storage and copies",
+      "url": "https://solidproject.org/faq",
+      "publisher": "Solid Project",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "Solid lets people grant selective access to personal data; revoking access does not destroy copies already received, and storage encryption depends on the provider.",
+      "local_fit": "A comparison for personal Aura data choices and changing providers. Offline permission handling, device isolation, derived AI data, cultural restrictions and receiving-service deletion arrangements still need explicit design and tests."
+    },
+    {
+      "id": "DG-S10",
+      "title": "Translink open data: schedules and real-time feeds",
+      "url": "https://translink.com.au/about-translink/open-data",
+      "publisher": "Translink, Queensland Government",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "Translink publishes CC BY 4.0 transport data. Its table lists a North Stradbroke Island GTFS schedule dataset, with real-time data marked unavailable; available real-time feeds elsewhere must accompany schedules.",
+      "local_fit": "Start with the island schedule dataset and show its edition and planned-service meaning. Confirm individual routes, accessibility, disruptions and separate ferry operators; scheduled service does not establish current operation or live vehicle position."
+    },
+    {
+      "id": "DG-S11",
+      "title": "Mender Artifacts: compatible, signed and resumable software editions",
+      "url": "https://docs.mender.io/overview/artifact",
+      "publisher": "Northern.tech / Mender",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "Mender Artifacts carry software identity, compatibility and checksum information, support signing, and can resume interrupted downloads.",
+      "local_fit": "A vendor comparison for checked device updates and recovery media. Choose supported hardware, licensing and maintenance arrangements, then test recovery, earlier-edition restoration and data compatibility through actual power interruptions."
+    },
+    {
+      "id": "DG-S12",
+      "title": "RFC 9171: Bundle Protocol Version 7",
+      "url": "https://www.rfc-editor.org/rfc/rfc9171.html",
+      "publisher": "Internet Engineering Task Force / RFC Editor",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "Bundle Protocol supports store-carry-forward communication through delayed or intermittent connections. A delivery report does not by itself show that the receiving application processed the contents.",
+      "local_fit": "A standards-based candidate to compare with a simpler local message queue. Route planning, security, compatible implementations, storage limits and useful service acknowledgement need separate engineering and field evidence."
+    },
+    {
+      "id": "DG-S13",
+      "title": "Web Content Accessibility Guidelines 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "publisher": "World Wide Web Consortium",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "WCAG 2.2 supplies testable web-accessibility criteria covering devices including kiosks; the guidance also recognises that conformance does not address every person's needs.",
+      "local_fit": "Use as a design and checking baseline alongside trials with local people. Physical reach, glare, wet use, noise, privacy, language and equivalent access without XR require additional checks."
+    },
+    {
+      "id": "DG-S14",
+      "title": "RFC 5545: iCalendar",
+      "url": "https://www.rfc-editor.org/rfc/rfc5545.html",
+      "publisher": "Internet Engineering Task Force / RFC Editor",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "iCalendar defines event identities, recurrence exceptions, revisions, timezones and confirmation states including cancellation.",
+      "local_fit": "A common starting format for the Events Engine and notice network. Publishing authority, cancellation delivery, cultural permissions and freshness explanations belong in the local release process."
+    },
+    {
+      "id": "DG-S15",
+      "title": "NIST SP 800-63B-4: authenticator event management",
+      "url": "https://pages.nist.gov/800-63-4/sp800-63b/events/",
+      "publisher": "US National Institute of Standards and Technology",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_guidance",
+      "fact": "NIST's current digital-identity guidance addresses binding, replacement, recovery, suspension and invalidation of authenticators, with notification requirements for relevant account events.",
+      "local_fit": "A technical comparison for staff access and recovery; public information remains available to guests. Offline withdrawal delays, local role holders and Australian obligations need their own agreed design and review."
+    },
+    {
+      "id": "DG-S16",
+      "title": "llama.cpp: local and hosted language-model inference",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "publisher": "ggml-org / llama.cpp contributors",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "llama.cpp runs language and vision-language models across several hardware backends, including CPU and GPU arrangements, locally or in hosted environments.",
+      "local_fit": "An existing inference-engine candidate for Aura experiments. Model rights, preparation, answer quality, private data handling, thermal limits and energy must be evaluated on selected equipment; availability alone establishes no reliable advice capability."
+    },
+    {
+      "id": "DG-S17",
+      "title": "Our Changing City: Wellington's public climate-adaptation digital installation",
+      "url": "https://www.letstalk.wellington.govt.nz/climate-action-info-hub/our-changing-city",
+      "publisher": "Wellington City Council",
+      "checked_on": "2026-10-20",
+      "evidence_type": "official_case_study",
+      "fact": "Wellington's Our Changing City uses a public interactive digital model to explore climate impacts and adaptation, beginning with the Eastern Ward and bringing scientific information together with Mātauranga Māori.",
+      "local_fit": "A coastal council comparison for accessible discussion and learning. Queensland hazards, island journeys, cultural knowledge permissions, facilities and response responsibilities require local evidence and their actual decision holders."
+    },
+    {
+      "id": "DG-S18",
+      "title": "Xibo Emergency Alert widget and CAP connector",
+      "url": "https://account.xibosignage.com/manual/en/media_module_emergency_alerts",
+      "publisher": "Xibo Signage",
+      "checked_on": "2026-10-20",
+      "evidence_type": "vendor_documentation",
+      "fact": "Xibo documents a CAP connector and Emergency Alert widget with filters and display-area targeting, with scheduling behaviour depending on supported players.",
+      "local_fit": "A commercial/open-source signage ecosystem to compare for public screens. Confirm player licences, local hosting, offline freshness, accessible presentation, priority rules and permission withdrawal in the selected configuration."
+    }
+  ],
+  "answers": [
+    {
+      "question_id": "SW-01",
+      "summary": "Build a local service core holding approved public information, a private request queue and a staff publishing workspace. Offer personal Aura assistance as a separate choice. Internet connections would refresh and exchange records while essential local tasks continue through a disconnection.",
+      "options": [
+        {
+          "label": "Combine existing offline components",
+          "kind": "adaptation",
+          "text": "Compare Kiwix for saved reference material, Kolibri for lessons and ODK for structured collection. Connect chosen parts through an agreed record format, with a purpose-built public screen and separate staff permissions.",
+          "source_ids": [
+            "DG-S01",
+            "DG-S02",
+            "DG-S03"
+          ]
+        },
+        {
+          "label": "A portable community service capsule",
+          "kind": "future_concept",
+          "text": "Develop a versioned package of public information, approved lessons and recoverable settings that another authorised hub can host. Test portability between different machines before depending on it during an outage.",
+          "source_ids": [
+            "DG-S11"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S01",
+          "lesson": "A local library can serve visitors' browsers without the internet.",
+          "local_difference": "The disaster service must also manage approved changing notices, private requests and handovers across multiple sites."
+        }
+      ],
+      "next_checks": [
+        "Demonstrate guest information, a private request and staff publishing with the external internet unplugged.",
+        "Measure retained service after loss of the main local computer, and name the receiving operator."
+      ]
+    },
+    {
+      "question_id": "SW-02",
+      "summary": "Give each message an identity, origin, edition, priority, expiry and receipt history. Save it before transmission, retry without multiplying requests, and show waiting, delivered and accepted as different states. Compare a straightforward queue with delay-tolerant networking against the same outage cases.",
+      "options": [
+        {
+          "label": "Compare ordinary queues with Bundle Protocol",
+          "kind": "adaptation",
+          "text": "Trial a simple persistent queue alongside a compatible Bundle Protocol implementation. Send the same small notices over intermittent links and compare lost messages, duplicates, storage, operator effort and acknowledgement meanings.",
+          "source_ids": [
+            "DG-S12",
+            "DG-S03"
+          ]
+        },
+        {
+          "label": "Approved carry-and-sync journeys",
+          "kind": "future_concept",
+          "text": "Explore a portable device carrying authorised message bundles between separated hubs. A later robot or vehicle could perform that journey once capability, access, energy and responsibility are demonstrated; it would retain the same expiry and receipt rules.",
+          "source_ids": [
+            "DG-S12",
+            "DG-S06"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S12",
+          "lesson": "Delay-tolerant protocols allow sender and receiver to connect at different times.",
+          "local_difference": "Island routes, data permissions, storage budgets and receiving-service acceptance remain local engineering and operating work."
+        }
+      ],
+      "next_checks": [
+        "Reorder and duplicate messages, break a transfer, fill storage and reconnect two isolated groups.",
+        "Measure completion time and prove that network delivery cannot be mistaken for an operator accepting a request."
+      ]
+    },
+    {
+      "question_id": "SW-03",
+      "summary": "Publish complete identified notice editions, carrying their issuer, approval, validity and replacement history. Check the whole new edition before switching the screen. Explain when the last confirmed information is old, and retain cancellations so an older copy cannot quietly reappear.",
+      "options": [
+        {
+          "label": "CAP-compatible notices and checked editions",
+          "kind": "adaptation",
+          "text": "Use CAP update, cancellation and validity meanings for warning information, alongside a signed local contents list. Trial interrupted transfers and explicit stale-information displays before selecting the publishing tools.",
+          "source_ids": [
+            "DG-S04",
+            "DG-S11"
+          ]
+        },
+        {
+          "label": "Neighbouring hubs compare their latest editions",
+          "kind": "future_concept",
+          "text": "Let authorised hubs exchange compact edition summaries and identify a missing cancellation. A newer claim would trigger verification against the recognised issuer; agreement among devices would provide evidence of distribution rather than publishing authority.",
+          "source_ids": [
+            "DG-S04",
+            "DG-S12"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S04",
+          "lesson": "CAP distinguishes a fresh alert, an update and cancellation of identified messages.",
+          "local_difference": "A kiosk still needs trusted issuer settings, complete-screen updates and behaviour for uncertain time and disconnected operation."
+        }
+      ],
+      "next_checks": [
+        "Cancel a notice while one kiosk is offline; return an older signed edition and confirm the cancellation remains effective.",
+        "Interrupt each download stage and test a clock that is incorrect or cannot be checked."
+      ]
+    },
+    {
+      "question_id": "SW-04",
+      "summary": "Give staff named roles and individual access, with a practical backup and recorded shift handover. Prepare lost-device and absent-administrator recovery before deployment. Set explicit limits for offline permissions and explain when a disconnected kiosk has yet to receive an access withdrawal.",
+      "options": [
+        {
+          "label": "Named access with rehearsed recovery",
+          "kind": "adaptation",
+          "text": "Compare suitable staff authenticators and recovery arrangements using NIST's event-management guidance. Keep public browsing available as a guest, and rehearse qualified staff replacing a lost credential without exposing another person's account.",
+          "source_ids": [
+            "DG-S15"
+          ]
+        },
+        {
+          "label": "Short-lived delegated shift credentials",
+          "kind": "future_concept",
+          "text": "Explore a narrowly scoped temporary credential for an agreed relief shift, with a visible expiry and an independent recovery holder. Test clock uncertainty and delayed withdrawals before accepting it for sensitive actions.",
+          "source_ids": [
+            "DG-S15"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S15",
+          "lesson": "Access includes replacement, invalidation and recovery throughout an authenticator's life.",
+          "local_difference": "An island outage introduces delayed revocation information and a smaller roster of available, authorised relief staff."
+        }
+      ],
+      "next_checks": [
+        "Rehearse a stolen staff device, an expired permission and a withdrawn publishing credential during internet loss.",
+        "Agree who actually holds recovery responsibility, its limits and the review required for sensitive actions."
+      ]
+    },
+    {
+      "question_id": "SW-05",
+      "summary": "Provide separate public, private-visitor and staff workspaces, with a clear session exit and tested removal of temporary data. A person could keep their Aura on their own device or open a chosen temporary session. Public screens would use only material approved for publication.",
+      "options": [
+        {
+          "label": "Separate sessions and selective personal sharing",
+          "kind": "adaptation",
+          "text": "Compare isolated guest sessions with a personal-device connection that shares selected records. Use Solid's selective-access approach as one reference; separately verify screen privacy, clipboard handling, downloads, speech and locally stored copies.",
+          "source_ids": [
+            "DG-S09",
+            "DG-S13"
+          ]
+        },
+        {
+          "label": "Private continuation across different doorways",
+          "kind": "future_concept",
+          "text": "Explore a visitor-approved continuation token that moves a task from public touch screen to private phone, headset or assisted room. Show exactly what travels and expire the token without leaving a reusable public-session identity.",
+          "source_ids": [
+            "DG-S09"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S09",
+          "lesson": "Selective access can keep a personal record separate from the application reading it.",
+          "local_difference": "A shared kiosk additionally needs physical privacy, session isolation and careful handling of any already received copies."
+        }
+      ],
+      "next_checks": [
+        "Have a second visitor inspect history, clipboard, downloads, AI context and resumed sessions after exit and power loss.",
+        "Test equivalent access for someone using neither an Aura nor a personal device."
+      ]
+    },
+    {
+      "question_id": "SW-06",
+      "summary": "Create a private request with an understandable receipt and separate milestones for saved, sent, received, accepted, handed over and closed. The agreed receiving service would own acceptance and escalation. A waiting request would explain current contact options and its last confirmed status.",
+      "options": [
+        {
+          "label": "Offline collection plus a receiving-service workflow",
+          "kind": "adaptation",
+          "text": "Trial ODK for a structured, consent-based non-emergency request. Add the operator's acceptance and fulfilment records separately, so a server upload cannot be presented as help being assigned or on its way.",
+          "source_ids": [
+            "DG-S03",
+            "DG-S12"
+          ]
+        },
+        {
+          "label": "An Aura checks progress across authorised handovers",
+          "kind": "future_concept",
+          "text": "Explore a personal Aura tracking an approved request's receipts and preparing a reminder or alternate contact proposal. People would retain the choice to disclose more information or approve a changed recipient.",
+          "source_ids": [
+            "DG-S09",
+            "DG-S08"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S03",
+          "lesson": "Offline forms distinguish content waiting to send from content transmitted to a server.",
+          "local_difference": "Relief operators must separately agree supported needs, staffing, response expectations and what constitutes acceptance or completed assistance."
+        }
+      ],
+      "next_checks": [
+        "Rehearse repeated submissions, a power interruption, withdrawn consent and an unavailable recipient using fictional records.",
+        "Agree urgent-help wording and escalation with the responsible services, then observe whether visitors understand the receipt."
+      ]
+    },
+    {
+      "question_id": "SW-07",
+      "summary": "Compare a compact local-information computer with a more capable protected mini-PC using identical tasks and measured energy, heat and response. Size optional AI work separately. Retain the tested public information and request functions as the system changes its energy settings.",
+      "options": [
+        {
+          "label": "Measure a compact server and a mini-PC",
+          "kind": "adaptation",
+          "text": "Use a Kiwix-style Raspberry Pi library as one reference workload and compare a mini-PC carrying the complete service. Run the same touch, text, audio and request examples before choosing equipment or storage.",
+          "source_ids": [
+            "DG-S01",
+            "DG-S13"
+          ]
+        },
+        {
+          "label": "Move deeper AI work to available shared compute",
+          "kind": "future_concept",
+          "text": "Trial an arrangement where the kiosk requests optional richer Aura processing from a local shared computer when power and connection permit. Public information remains local; the trial would measure context permissions, delays and energy savings.",
+          "source_ids": [
+            "DG-S16"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S01",
+          "lesson": "An existing small-computer hotspot provides a concrete offline-library comparison.",
+          "local_difference": "A protected operational kiosk must additionally meet complete service, thermal, wet-weather, accessibility and prolonged-outage requirements."
+        }
+      ],
+      "next_checks": [
+        "Measure start-up, task completion, energy and enclosure temperature with representative content and visitors.",
+        "Include low storage, incorrect time, simultaneous users and the agreed nine-day operating profile in the comparison."
+      ]
+    },
+    {
+      "question_id": "SW-08",
+      "summary": "Map each site's actual local and outside connections, then assign routes for small urgent notices, private requests and larger learning material. Keep a working local doorway at separated sites. Choose relay positions and fallback journeys from measured trials and agreed access.",
+      "options": [
+        {
+          "label": "Site-specific paths with queued exchange",
+          "kind": "adaptation",
+          "text": "Compare direct local links, available internet connections and approved portable synchronisation using the same message contract. A delay-tolerant candidate would be evaluated alongside simpler links for service retained and operator effort.",
+          "source_ids": [
+            "DG-S12"
+          ]
+        },
+        {
+          "label": "A supervised movable relay",
+          "kind": "future_concept",
+          "text": "Investigate a movable relay carried by an authorised person, vehicle or future robot when a fixed link is lost. Trial safe positions, battery use and actual traffic capacity before including it in the service promise.",
+          "source_ids": [
+            "DG-S06"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S06",
+          "lesson": "CSIRO research combined robot mapping with relays in difficult underground communications.",
+          "local_difference": "Island bush, salt, wind, public access and day-long workloads require different equipment assessment, permissions and field trials."
+        }
+      ],
+      "next_checks": [
+        "Measure candidate paths with busy links, an unavailable gateway, separated groups and one portable unit.",
+        "State the largest useful message and maximum acceptable delay for each supported task, then compare observed performance."
+      ]
+    },
+    {
+      "question_id": "SW-09",
+      "summary": "Prepare a labelled recovery kit with a known-working software edition, compatible spares, approved settings, protected backups and illustrated instructions. Rehearse restoration with a relief operator. Record which visitor records survive, the time taken and when qualified support is needed.",
+      "options": [
+        {
+          "label": "Checked software and practical recovery media",
+          "kind": "adaptation",
+          "text": "Compare Mender's identified, signed software packages with a documented replacement-drive method. Use compatible hardware and verify saved settings and records before committing an update; rehearse returning to the earlier working edition.",
+          "source_ids": [
+            "DG-S11"
+          ]
+        },
+        {
+          "label": "XR-assisted recovery with an offline lesson",
+          "kind": "future_concept",
+          "text": "Develop optional overlays pointing to labelled replaceable parts, with the same approved lesson available as text, pictures and audio. Test whether the overlay helps an unfamiliar operator while maintaining qualified-work boundaries.",
+          "source_ids": [
+            "DG-S02",
+            "DG-S13"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S11",
+          "lesson": "Software packages can carry identity, compatibility checks and verified origin.",
+          "local_difference": "A relief operator also needs correct spares, accessible instructions, backup recovery and an actual interrupted-power rehearsal."
+        }
+      ],
+      "next_checks": [
+        "Cut power during update and restoration on test equipment, then recover with external internet unavailable.",
+        "Observe an unfamiliar authorised operator; record time, mistakes, support and data compatibility when returning to the earlier edition."
+      ]
+    },
+    {
+      "question_id": "SW-10",
+      "summary": "Show staff the last successful check of each essential function, its age and what remains unknown. Combine power, link, storage and clock observations with request and notice status. Preserve a local event history that helps the next operator diagnose an outage without exposing visitors.",
+      "options": [
+        {
+          "label": "Dated observations and end-to-end service checks",
+          "kind": "adaptation",
+          "text": "Use a SensorThings-style observation record for equipment readings, and add a harmless test request and notice check. Distinguish a measured fault from a sensor or connection that has stopped reporting.",
+          "source_ids": [
+            "DG-S07"
+          ]
+        },
+        {
+          "label": "An Aura prepares an evidence-linked shift brief",
+          "kind": "future_concept",
+          "text": "Explore an assistant that summarises changed conditions and proposes the next permitted checks. Its brief would link original observations and uncertainty; staff would confirm interpretation and any delegated maintenance action.",
+          "source_ids": [
+            "DG-S08"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S07",
+          "lesson": "Sensor metadata gives a reading context rather than an unexplained number.",
+          "local_difference": "Service health also includes expired notices, waiting work and staff availability, which sensors alone cannot establish."
+        }
+      ],
+      "next_checks": [
+        "Introduce a silent publisher, a stale sensor, a full disk and a stalled request while preserving local logs.",
+        "Check whether a relief operator identifies what failed and what is merely unconfirmed without opening private visitor content."
+      ]
+    },
+    {
+      "question_id": "AUR-01",
+      "summary": "Offer guest navigation first, with an optional personal Aura helping someone find notices, services and the next useful step. Let the person choose the context shared for that task. Show the source, its age and a clear path to human assistance and session exit.",
+      "options": [
+        {
+          "label": "Source-linked guest assistance and an optional Aura",
+          "kind": "adaptation",
+          "text": "Begin with accessible search and task cards over approved local material. Compare optional selective personal sharing with a guest-only journey, keeping the same essential public service available to each visitor.",
+          "source_ids": [
+            "DG-S01",
+            "DG-S09",
+            "DG-S13"
+          ]
+        },
+        {
+          "label": "A chosen multimodal companion",
+          "kind": "future_concept",
+          "text": "Explore an Aura explaining the same task through speech, text or XR using the person's chosen context. Evaluate comprehension, privacy, permissions and energy before claiming richer interaction improves the experience.",
+          "source_ids": [
+            "DG-S16",
+            "DG-S13"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S13",
+          "lesson": "Accessibility criteria apply to kiosk web content across different input and presentation methods.",
+          "local_difference": "Local testing must include people without devices, accounts, personal profiles, quiet surroundings or reliable internet."
+        }
+      ],
+      "next_checks": [
+        "Observe an everyday visit and an outage visit for guests and returning Aura users.",
+        "Check comprehension, source retrieval, minimal disclosure and a clean exit with people using different access methods."
+      ]
+    },
+    {
+      "question_id": "AUR-02",
+      "summary": "Describe Aura's proposed light-to-ultra-high-definition levels through the context a person chooses, tasks supported and evidence of useful results. Compare them on shared examples. Display quality, computing location and emergency energy settings would each remain separate choices, with GAJRA Earth as the values starting point.",
+      "options": [
+        {
+          "label": "Compare defined context-and-task profiles",
+          "kind": "adaptation",
+          "text": "Draft light, contextual and deeper research profiles, then test local and hosted candidate models on the same source-grounded tasks. Record quality, uncertainty, information shared, response time and energy instead of inferring capability from a profile name.",
+          "source_ids": [
+            "DG-S16",
+            "DG-S08"
+          ]
+        },
+        {
+          "label": "A person chooses richer modelling when useful",
+          "kind": "future_concept",
+          "text": "Explore an ultra-high-definition Aura combining personally chosen history, simulations and specialist agents, with inspectable sources and reversible sharing choices. Treat advanced AI/SI performance as a hypothesis measured for each task and model edition.",
+          "source_ids": [
+            "DG-S08",
+            "DG-S09"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S16",
+          "lesson": "One inference ecosystem supports several hardware arrangements and model types.",
+          "local_difference": "Aura definition levels describe a personal operating-system design; hardware support establishes neither personal-context quality nor emergency suitability."
+        }
+      ],
+      "next_checks": [
+        "Agree a readable profile table and evaluation tasks before naming a profile ready.",
+        "Compare identical answers across context levels, processing locations, display methods and low-energy settings as separate variables."
+      ]
+    },
+    {
+      "question_id": "AUR-03",
+      "summary": "Make an action card stating what the person can do, the issuing source and check time, and any confirmation still needed. The Aura could explain the card and compare options using chosen context. Official instructions and service availability would retain their actual source and status.",
+      "options": [
+        {
+          "label": "Action cards from checked transport and warning records",
+          "kind": "adaptation",
+          "text": "Combine current approved warning records with verified transport information, keeping schedules, predictions and confirmed closures distinct. Provide the same card as readable text and accessible audio, with a route to a responsible person.",
+          "source_ids": [
+            "DG-S04",
+            "DG-S10",
+            "DG-S13"
+          ]
+        },
+        {
+          "label": "An Aura rehearses a changing plan with its user",
+          "kind": "future_concept",
+          "text": "Explore a personal assistant comparing a ferry suspension or service closure against the person's chosen needs, then preparing a revised plan for confirmation. Show assumptions and withhold any claim that an unconfirmed alternative is available.",
+          "source_ids": [
+            "DG-S08",
+            "DG-S10"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S10",
+          "lesson": "Published timetables and real-time transport feeds have different meanings and work together.",
+          "local_difference": "A disaster journey needs current operator confirmation, accessible options and clear treatment of unavailable or old information."
+        }
+      ],
+      "next_checks": [
+        "Present conflicting updates, old sources and an uncertain device clock in a fictional visitor journey.",
+        "Observe whether people understand who issued the instruction, what is confirmed and when to seek assistance."
+      ]
+    },
+    {
+      "question_id": "AUR-04",
+      "summary": "Prepare short task lessons linked to the actual equipment and approved procedure: prerequisites, demonstration, practice, check and handover. An Aura would help someone find the next permitted step and recognise when to pause for qualified assistance. Observed practice would establish usefulness.",
+      "options": [
+        {
+          "label": "Locally held lessons with a coach's check",
+          "kind": "adaptation",
+          "text": "Compare Kolibri for videos, pictures, practice questions and coach-supported learning using one permitted kiosk task. Include an offline paper equivalent and record the exact equipment and procedure edition used.",
+          "source_ids": [
+            "DG-S02"
+          ]
+        },
+        {
+          "label": "XR rehearsal followed by supervised real practice",
+          "kind": "future_concept",
+          "text": "Develop a spatial rehearsal of a permitted task, with an Aura adapting explanation to the learner's chosen needs. Compare real task performance after the lesson; simulated success would remain distinct from qualification and work permission.",
+          "source_ids": [
+            "DG-S02",
+            "DG-S13"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S02",
+          "lesson": "Offline learning can combine local resources, practice and a coach's support.",
+          "local_difference": "Kiosk maintenance lessons need task-specific professional review, equipment matching and observed safe work within the person's actual permission."
+        }
+      ],
+      "next_checks": [
+        "Trial an unfamiliar relief operator finding and using one permitted lesson without internet.",
+        "Observe a related task later, record support needed and check that qualified-work pause points are understood."
+      ]
+    },
+    {
+      "question_id": "AUR-05",
+      "summary": "Attach understandable sharing choices to each record and derived item, naming purpose, recipient, copies, expiry and exit arrangements. Preview transfers between personal device, local hub and outside service. Track copies and AI derivatives explicitly, because withdrawing future access alone cannot recall information already received.",
+      "options": [
+        {
+          "label": "Selective access with a copy-and-purpose register",
+          "kind": "adaptation",
+          "text": "Evaluate Solid-style selective access alongside an explicit record of exports, summaries and search indexes. Agree how each recipient handles expiry and deletion, and test the service provider's actual storage protections and recovery arrangements.",
+          "source_ids": [
+            "DG-S09"
+          ]
+        },
+        {
+          "label": "An Aura checks a transfer before it happens",
+          "kind": "future_concept",
+          "text": "Explore an assistant comparing a proposed transfer with the person's recorded choices and producing a plain-language preview. Restricted cultural material would follow its custodians' actual conditions; the assistant's interpretation would remain open to review.",
+          "source_ids": [
+            "DG-S09",
+            "DG-S08"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S09",
+          "lesson": "Selective access helps control new sharing, while copies already exported need separate treatment.",
+          "local_difference": "The network must also govern offline copies, AI summaries, training permissions and cultural authority across different recipients."
+        }
+      ],
+      "next_checks": [
+        "Attempt a denied transfer, withdraw access, recover a device and inspect previously created copies and indexes.",
+        "Use synthetic private material to test whether it appears in a public screen, answer, export or model-training path."
+      ]
+    },
+    {
+      "question_id": "AUR-06",
+      "summary": "Give each Aura action a stated scope: read, draft, propose or execute. Match execution to the person's existing authorisation, the actual recipient and an expiry. Show a preview and completion receipt, with cancellation and a recorded reason when changed circumstances require a new decision.",
+      "options": [
+        {
+          "label": "A permission table and action record",
+          "kind": "adaptation",
+          "text": "Adapt lifecycle governance into a task-level record naming the person, permitted action, data, recipient, limit and result. Preserve recorded authorisation within its scope, and require the relevant issuer's release decision for public notices.",
+          "source_ids": [
+            "DG-S08",
+            "DG-S15"
+          ]
+        },
+        {
+          "label": "One inspectable delegation format for Auras and robots",
+          "kind": "future_concept",
+          "text": "Explore a shared task card that an Aura, advanced AI/SI or robot can interpret, with bounded tools and observable completion. Trial expired and repeated actions in simulation before allowing the card to trigger real equipment or external services.",
+          "source_ids": [
+            "DG-S08",
+            "DG-S06"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S08",
+          "lesson": "AI governance connects intended use, responsibility, measurement and continuing management.",
+          "local_difference": "Each actual action still needs valid user or organisational authority and task-specific evidence of completion."
+        }
+      ],
+      "next_checks": [
+        "Leave an action queued until its permission expires, then reconnect and confirm it is reviewed rather than silently executed.",
+        "Repeat the same task, change its recipient and cancel it; inspect the resulting receipt and permission history."
+      ]
+    },
+    {
+      "question_id": "TWIN-01",
+      "summary": "Begin with a dated, inspectable representation of the places and systems needed for kiosk service: access, facilities, routes and dependencies. Add personal twins only through each person's choices. Keep measurements, inferred features, gaps, permissions and corrections visible in every edition.",
+      "options": [
+        {
+          "label": "An evidence-led local map and asset record",
+          "kind": "adaptation",
+          "text": "Adapt NSW's separation of shared spatial information and custodianship to Queensland source layers and local inspections. Publish an offline public edition while keeping restricted site, personal and cultural records in their authorised spaces.",
+          "source_ids": [
+            "DG-S05"
+          ]
+        },
+        {
+          "label": "A community-inspectable spatial twin",
+          "kind": "future_concept",
+          "text": "Explore a layered XR view through which residents can examine a route, source date and proposed improvement, then submit a correction for review. Extend detail where a practical task demonstrates the value of richer modelling.",
+          "source_ids": [
+            "DG-S17"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S17",
+          "lesson": "A coastal council's interactive model helps people discuss climate impacts and choices.",
+          "local_difference": "Minjerribah has its own hazards, cultural authority, island transport and verified facility status; an attractive model cannot establish operational access."
+        }
+      ],
+      "next_checks": [
+        "Walk representative routes with actual users and compare map claims with dated observations.",
+        "Check source permissions and visibly distinguish a candidate gathering place from an officially activated shelter."
+      ]
+    },
+    {
+      "question_id": "TWIN-02",
+      "summary": "Build a nine-day exercise that progressively interrupts power, communications, ferries, supplies and available staff, while everyday tasks continue where possible. Begin with storms, cyclones and fire. Longer disruption assumptions can extend the same dependency tests, with each simulated event clearly identified.",
+      "options": [
+        {
+          "label": "A timed tabletop and connected-device exercise",
+          "kind": "adaptation",
+          "text": "Use a common exercise identifier, dated source pack and explicit practice notices. Rehearse service retained at each step before introducing field equipment, comparing a simple timeline with the proposed digital model.",
+          "source_ids": [
+            "DG-S04",
+            "DG-S05"
+          ]
+        },
+        {
+          "label": "A shared XR rehearsal with optional AI/SI roles",
+          "kind": "future_concept",
+          "text": "Explore a shared scenario where people and Auras practise handovers and compare changing resource choices. Keep advanced-agent performance and simulated robot tasks as measured exercise assumptions, with readable participation available outside XR.",
+          "source_ids": [
+            "DG-S17",
+            "DG-S08"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S04",
+          "lesson": "Warning-message formats explicitly distinguish an exercise from actual public instructions.",
+          "local_difference": "The island exercise must additionally isolate its publishing destinations, explain fictional resources and preserve real emergency contact routes."
+        }
+      ],
+      "next_checks": [
+        "Agree starting conditions and measures with participating service and technical reviewers.",
+        "Run lost staff cover, ferry suspension, limited charging and a failed hub in different sequences; compare retained service and handovers."
+      ]
+    },
+    {
+      "question_id": "TWIN-03",
+      "summary": "Give every model a purpose, input edition, assumptions, uncertainty and stated decision use. Compare it with an understandable baseline on cases held back for checking. Publish errors and useful limits alongside successful results, then seek relevant professional assessment before applying it to consequential decisions.",
+      "options": [
+        {
+          "label": "A model card and repeatable comparison",
+          "kind": "adaptation",
+          "text": "Adapt NIST's measurement and management approach into a plain-language run record. For a queue or battery estimate, compare predicted results with recorded test observations and a simple manual calculation using the same assumptions.",
+          "source_ids": [
+            "DG-S08",
+            "DG-S07"
+          ]
+        },
+        {
+          "label": "Independent agents challenge the proposed model",
+          "kind": "future_concept",
+          "text": "Explore separate Auras or advanced AI/SI agents proposing counterexamples and alternative assumptions. Keep their findings traceable, then evaluate against held-out evidence; agreement between agents would remain a research result awaiting external checking.",
+          "source_ids": [
+            "DG-S08"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S08",
+          "lesson": "AI management includes continuing measurement in the intended use context.",
+          "local_difference": "A kiosk resource or hazard model needs locally relevant validation, actual measurement quality and a clearly bounded professional decision scope."
+        }
+      ],
+      "next_checks": [
+        "Reserve some exercise observations before tuning the model and compare performance with the baseline.",
+        "Change missing-data and demand assumptions; record when the model's recommended choice changes and who reviews that difference."
+      ]
+    },
+    {
+      "question_id": "TWIN-04",
+      "summary": "Represent the dependencies behind each promised task, including qualified people, access, fuel, charging, cooling, freight and spares. Replay a failure through those connections and show the service retained. Connect measured asset observations to the scenario while preserving uncertain availability and human responsibility.",
+      "options": [
+        {
+          "label": "A dependency map linked to dated observations",
+          "kind": "adaptation",
+          "text": "Combine an inspectable service map with SensorThings-style readings and staff-confirmed availability. A generator record would show connection, usable supply and qualified cover alongside battery readings, so equipment ownership cannot be mistaken for ready service.",
+          "source_ids": [
+            "DG-S05",
+            "DG-S07"
+          ]
+        },
+        {
+          "label": "Rehearse future robot support as one dependency",
+          "kind": "future_concept",
+          "text": "Explore a supervised robot inspection or delivery role inside the exercise, including its charger, links, maintainer and safe recovery. Compare it with a person-led alternative using measured performance when available and stated assumptions beforehand.",
+          "source_ids": [
+            "DG-S06"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S06",
+          "lesson": "Robot performance in demanding environments depends on communication, power and coordinated roles.",
+          "local_difference": "An island service must plan repeated shifts, weather, access, replenishment and qualified maintenance across many days."
+        }
+      ],
+      "next_checks": [
+        "Replay loss of the only qualified operator, charging point, spare component or freight route.",
+        "For each failure, record the retained task, changed offer, responsible person and evidence needed to restore the service."
+      ]
+    },
+    {
+      "question_id": "TWIN-05",
+      "summary": "Carry purpose and time labels inside the content itself: current confirmed operation, saved information, historical playback or exercise. Use separate release destinations and permissions for practice. Repeat the label in screenshots, audio, exports and XR so context survives copying or a disconnected device.",
+      "options": [
+        {
+          "label": "Explicit status fields and visible purpose labels",
+          "kind": "adaptation",
+          "text": "Use CAP's actual, exercise, test and draft distinctions where appropriate, plus source time and saved-copy explanations. Check labels through each display and speech format, with a clear route back to current public information.",
+          "source_ids": [
+            "DG-S04",
+            "DG-S13"
+          ]
+        },
+        {
+          "label": "An XR scene carries its own evidence context",
+          "kind": "future_concept",
+          "text": "Explore a scene header and source panel that remain visible when a twin is shared or replayed. A personal Aura could explain what changed between editions while preserving the difference between observed conditions and a scenario.",
+          "source_ids": [
+            "DG-S17"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S04",
+          "lesson": "A common warning format already carries explicit handling states for actual and practice content.",
+          "local_difference": "Kiosk journeys must preserve those meanings in copied media, offline screens, uncertain clocks and mixed live/exercise demonstrations."
+        }
+      ],
+      "next_checks": [
+        "Copy a screenshot and audio clip out of context and ask readers what status and time they infer.",
+        "Offer exercise content to the live publisher and demonstrate its rejection; test a failed clock and mode change."
+      ]
+    },
+    {
+      "question_id": "TWIN-06",
+      "summary": "After each drill or outage, connect people's observations with the actual event record, expected service and differences. Name a reviewer for each proposed improvement. Preserve the original evidence, approve a specific change where needed, update the lesson or design and check the result again.",
+      "options": [
+        {
+          "label": "Structured observations and an improvement trail",
+          "kind": "adaptation",
+          "text": "Use an offline observation form during the exercise, then link each finding to a question, proposed change and repeated check. Include resident and relief-operator experience alongside device measurements.",
+          "source_ids": [
+            "DG-S03",
+            "DG-S08"
+          ]
+        },
+        {
+          "label": "An Aura reconstructs an inspectable event timeline",
+          "kind": "future_concept",
+          "text": "Explore an assistant preparing a timeline from authorised logs and participant notes, marking uncertain ordering and conflicting accounts. People would correct the account before it informs a proposal, training record or public summary.",
+          "source_ids": [
+            "DG-S08",
+            "DG-S07"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S03",
+          "lesson": "Structured field observations can be captured while disconnected and transferred later.",
+          "local_difference": "Learning requires interpretation, participant correction, privacy choices and a traceable decision followed by another practical check."
+        }
+      ],
+      "next_checks": [
+        "Take one exercise failure through a revised instruction, responsible review and repeated task.",
+        "Inspect whether later edits preserve the original observations and distinguish confirmed timing from reconstructed sequence."
+      ]
+    },
+    {
+      "question_id": "ECO-01",
+      "summary": "Give recurring events and individual dates stable identities, with local timezone, confirmation, cancellation and replacement history. Connect the Events Engine to an approved release stream for the notice network. Offline screens would explain the saved edition and remove or qualify expired information.",
+      "options": [
+        {
+          "label": "iCalendar plus a local approval record",
+          "kind": "adaptation",
+          "text": "Use iCalendar identities, recurrence exceptions and revisions as a starting exchange format. Add the issuer, rights, checking time, approval scope and expiry needed by the island publishing service.",
+          "source_ids": [
+            "DG-S14"
+          ]
+        },
+        {
+          "label": "An Aura rehearses the effects of a changed event",
+          "kind": "future_concept",
+          "text": "Explore an assistant showing an authorised organiser which linked notices, transport advice and roster entries may need review after a cancellation. It would draft updates for their actual owners and report which screens have received approved editions.",
+          "source_ids": [
+            "DG-S14",
+            "DG-S12"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S14",
+          "lesson": "A standard calendar can identify one occurrence separately from its repeating series.",
+          "local_difference": "Island publishing also needs release authority, cultural permissions, expiry and evidence that disconnected screens receive cancellations."
+        }
+      ],
+      "next_checks": [
+        "Cancel one date in a recurring series while a kiosk is offline and verify the right occurrence after reconnection.",
+        "Try a postponement, timezone boundary, duplicate import and organiser correction without changing unrelated dates."
+      ]
+    },
+    {
+      "question_id": "ECO-02",
+      "summary": "Use an approved media release record naming the creator, rights, audience, accessible versions and expiry. Everyday stories and notices would run through a defined screen schedule, with reviewed urgent-message priority. Offline copies and permission withdrawals need a clear refresh and removal process.",
+      "options": [
+        {
+          "label": "Compare signage players with the local release rules",
+          "kind": "adaptation",
+          "text": "Evaluate Xibo's CAP-connected alert display alongside the proposed Screen and Media Network. Test the selected player and licensing arrangement against urgent priority, captions, permitted audiences, withdrawn media and a disconnected screen.",
+          "source_ids": [
+            "DG-S18",
+            "DG-S13"
+          ]
+        },
+        {
+          "label": "Audience-chosen spatial stories and accessible alternatives",
+          "kind": "future_concept",
+          "text": "Explore optional XR storytelling and Aura-assisted explanations using material its rights holders and cultural custodians have approved. Keep public warnings understandable outside XR, and carry the same release identity into every presentation.",
+          "source_ids": [
+            "DG-S17",
+            "DG-S13"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S18",
+          "lesson": "Existing signage software can target CAP-linked alert content to selected display areas.",
+          "local_difference": "The island network needs its own authorised issuers, media rights, cultural conditions, offline behaviour and tested priority rules."
+        }
+      ],
+      "next_checks": [
+        "Interrupt a programme with an approved sample urgent notice, then cancel it and inspect the correct return state.",
+        "Withdraw an image's permission while a screen is offline and document what can be removed immediately and after reconnection."
+      ]
+    },
+    {
+      "question_id": "ECO-03",
+      "summary": "Begin with the published island timetable and confirmed operator notices, showing their different meanings and age. Translink currently lists island schedules without real-time data. Show confirmed cancellations and contact routes; develop alternatives through actual operator confirmation and accessible-travel checks.",
+      "options": [
+        {
+          "label": "Verified feeds plus direct operator notice records",
+          "kind": "adaptation",
+          "text": "Investigate the North Stradbroke Island GTFS schedule dataset, which currently lacks a listed real-time feed. Map separate ferry, road and operator notices with issuer, route, check time, validity and accessible-travel details.",
+          "source_ids": [
+            "DG-S10"
+          ]
+        },
+        {
+          "label": "A future mobility connection with explicit authority",
+          "kind": "future_concept",
+          "text": "Explore supervised and later autonomous mobility as a separate service interface, carrying operating permission, availability, accessibility and confirmed booking states. Model power, communications and weather dependencies before adding any vehicle to the public service offer.",
+          "source_ids": [
+            "DG-S10",
+            "DG-S08"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S10",
+          "lesson": "A reusable schedule can give island travel information a common structure and a clear edition.",
+          "local_difference": "The island dataset has no listed real-time feed. Separate ferries, disaster suspensions and access needs require actual operator information and confirmation."
+        }
+      ],
+      "next_checks": [
+        "Verify a real island stop, timetable, current feed timestamp and the source of ferry suspension notices.",
+        "Rehearse a changed last return, unavailable alternative and offline display using clearly labelled sample records."
+      ]
+    },
+    {
+      "question_id": "ECO-04",
+      "summary": "Keep an offer, checked available stock, a person's request, operator acceptance and completed handover as separate records. Share household details only with the agreed recipients. Connect Shared Table and other supply proposals through named custodians, consent, usable quantities and clearly confirmed participation.",
+      "options": [
+        {
+          "label": "Offline requests with a custodian's allocation record",
+          "kind": "adaptation",
+          "text": "Trial ODK-style collection and a separate stock/allocation register using fictional households. A responsible custodian would confirm usable quantities and each handover, with the public display showing only approved aggregate information.",
+          "source_ids": [
+            "DG-S03",
+            "DG-S09"
+          ]
+        },
+        {
+          "label": "Auras compare offers without revealing households publicly",
+          "kind": "future_concept",
+          "text": "Explore assistants preparing possible matches from consented needs and confirmed offers, then presenting them to the responsible operator. Future robot delivery would add its own permission and observed handover evidence before closing a request.",
+          "source_ids": [
+            "DG-S08",
+            "DG-S06"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S03",
+          "lesson": "Structured collection can work without an immediate internet connection.",
+          "local_difference": "Food safety, welfare privacy, stock allocation, actual relief participation and completed delivery require the relevant people and professional processes."
+        }
+      ],
+      "next_checks": [
+        "Rehearse duplicate allocation attempts, perishable stock, changed consent and a handover interrupted by a lost connection.",
+        "Agree participating custodians, supported requests and professional review before accepting real household information."
+      ]
+    },
+    {
+      "question_id": "ECO-05",
+      "summary": "Use a readiness record that joins connected and commissioned equipment with recent load tests, usable capacity, replenishment, access and qualified cover. Display the last confirmation and responsible person alongside measurements. Link kiosk energy settings to these observed limits and the service tasks they support.",
+      "options": [
+        {
+          "label": "Asset records plus dated sensor and staff checks",
+          "kind": "adaptation",
+          "text": "Use a common observation format for power-related readings, joined to qualified commissioning and test records. Review the complete readiness chain so a healthy sensor or installed generator is presented with its actual connection and operating status.",
+          "source_ids": [
+            "DG-S07"
+          ]
+        },
+        {
+          "label": "A shared energy rehearsal and proposed task schedule",
+          "kind": "future_concept",
+          "text": "Explore a local model that proposes times for optional AI, media and charging around measured reserves. Any equipment-control link would have separately agreed permission, protection and qualified review before actuation.",
+          "source_ids": [
+            "DG-S07",
+            "DG-S08"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S07",
+          "lesson": "Sensing and tasking have separate roles in a common equipment-information standard.",
+          "local_difference": "Readiness additionally depends on commissioned connections, usable fuel, qualified availability, site access and tests under the intended load."
+        }
+      ],
+      "next_checks": [
+        "Have the relevant qualified people review the readiness fields and the actual commissioning evidence.",
+        "Rehearse missing qualified cover or replenishment alongside healthy equipment readings and inspect the resulting service offer."
+      ]
+    },
+    {
+      "question_id": "ECO-06",
+      "summary": "Connect repair and learning through a task record identifying the equipment edition, fault, permitted first checks, parts, tools and qualified support. Keep compatible local spares and practised handovers. Broader making and materials projects would contribute through specific tested parts, lessons and agreed supply arrangements.",
+      "options": [
+        {
+          "label": "A repair pack with local lessons and checked software",
+          "kind": "adaptation",
+          "text": "Combine an offline learning channel with labelled spares and verified recovery packages. Test an agreed low-risk replacement task and link its result to the fault record and the next maintenance review.",
+          "source_ids": [
+            "DG-S02",
+            "DG-S11"
+          ]
+        },
+        {
+          "label": "A distributed maker-and-robot support trial",
+          "kind": "future_concept",
+          "text": "Explore a makerspace validating a replacement component and an authorised robot assisting inspection or parts movement. Compare material quality, fit, maintainability and qualified-work requirements before using a new part in an operational kiosk.",
+          "source_ids": [
+            "DG-S06",
+            "DG-S08"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S02",
+          "lesson": "Locally distributed learning material can support practice where the internet is unavailable.",
+          "local_difference": "Maintenance needs equipment-matched instructions, compatible parts, professional boundaries and verified restoration of the actual service."
+        }
+      ],
+      "next_checks": [
+        "Rehearse a repair with the usual maintainer and outside freight unavailable.",
+        "Record time, tools, spare compatibility, instruction gaps and the service check required before returning equipment to use."
+      ]
+    },
+    {
+      "question_id": "ECO-07",
+      "summary": "Prepare a separate host agreement for each candidate site, covering permission, ownership, hours, access, cultural relationships, upkeep, power, costs, incident roles and exit. Ready S.E.T. Co-op's proposed role would develop through formation and agreed mandates, with each host retaining its actual responsibilities.",
+      "options": [
+        {
+          "label": "A host pack and a practical site demonstration",
+          "kind": "adaptation",
+          "text": "Use Wellington's public-installation approach as a discussion example, then prepare a site-specific host pack and protected demonstration. Keep 9 Ballow Road, 10–12 Ballow Road and the ferry area as separate candidates with their own evidence.",
+          "source_ids": [
+            "DG-S17"
+          ]
+        },
+        {
+          "label": "A network of agreed host capabilities",
+          "kind": "future_concept",
+          "text": "Explore hosts offering different services such as public information, private assistance, portable relief or training. A common record would make confirmed hours, equipment and continuity arrangements discoverable, while each additional role receives its own agreement.",
+          "source_ids": [
+            "DG-S05",
+            "DG-S07"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S17",
+          "lesson": "A council can use a public digital installation to invite discussion and learning.",
+          "local_difference": "A disaster-service host needs site-specific access, ongoing duties, cultural permissions, qualified support and agreed continuity arrangements."
+        }
+      ],
+      "next_checks": [
+        "Walk each candidate site with its actual authorised host and relevant users when participation is agreed.",
+        "Review power, wet-weather access, privacy, available supervision, costs and exit arrangements before proposing a site commitment."
+      ]
+    },
+    {
+      "question_id": "ECO-08",
+      "summary": "Maintain one readable connection register naming each project, current artefact, proposed exchange, owner, permission, offline fallback and acceptance evidence. Show how everyday events, media, mobility, supplies, energy, repair and optional Auras support the kiosk. Broader ambitions would connect through explicitly staged interfaces.",
+      "options": [
+        {
+          "label": "Shared records with familiar exchange formats",
+          "kind": "adaptation",
+          "text": "Compare iCalendar for events, GTFS for transport, CAP for warnings and SensorThings for observations. Keep source ownership and local approval visible, and record a small tested example for each adopted connection.",
+          "source_ids": [
+            "DG-S14",
+            "DG-S10",
+            "DG-S04",
+            "DG-S07"
+          ]
+        },
+        {
+          "label": "A navigable service graph for people and Auras",
+          "kind": "future_concept",
+          "text": "Explore Auras navigating an agreed service graph across the cultural node, Verse Box, Aura Genesis, P4A and the Sensorium. C-Hours recognise verified voluntary human hours with community-chosen reciprocity, no monetary equivalent, sale or transfer; money, paid work, machine time and outcomes remain separate.",
+          "source_ids": [
+            "DG-S05",
+            "DG-S08"
+          ]
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S05",
+          "lesson": "Shared spatial services bring several custodians' information together while retaining access roles.",
+          "local_difference": "The proposed island ecosystem includes projects at different stages and needs actual agreements; a register entry establishes neither participation nor service readiness."
+        }
+      ],
+      "next_checks": [
+        "Choose one event cancellation, transport update, supply request and equipment observation; verify each end-to-end exchange.",
+        "Record current artefacts, named prospective owners, permissions, gaps and the next measured milestone without implying a partnership is already agreed."
+      ]
+    }
+  ],
+  "provenance": {
+    "ai_generated": true,
+    "prompt_id": "PROMPT-2026-10-20-ANSWERS",
+    "generated_by": "OpenAI Codex AI research assistants",
+    "recorded_on": "2026-10-20",
+    "status": "AI-generated options for discussion and review"
+  }
+}

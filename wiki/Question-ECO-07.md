@@ -18,6 +18,33 @@ Prepare a host pack covering permission, asset ownership, hours, public and priv
 - [web3-sensorium.html](https://github.com/auraofintelligence/p4a-xyz-cinema/blob/main/pages/web3-sensorium.html)
 - [Professional review and comparison of proposed improvements](https://github.com/auraofintelligence/aura-disaster-resilience/wiki/Professional-review) (When this work overlaps professional or public-authority responsibilities, compare the proposal and Luke's research with applicable industry/global best practice and relevant legal-engine sources. Record differences, reasonable improvements and deficiencies, with the responsible reviewer and response. Routine authorised drafting and wiki work can advance.)
 
+## AI-generated potential answers
+
+**For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
+
+Prepare a separate host agreement for each candidate site, covering permission, ownership, hours, access, cultural relationships, upkeep, power, costs, incident roles and exit. Ready S.E.T. Co-op's proposed role would develop through formation and agreed mandates, with each host retaining its actual responsibilities.
+
+### A host pack and a practical site demonstration
+
+**AI-generated adaptation of an existing pattern.** Use Wellington's public-installation approach as a discussion example, then prepare a site-specific host pack and protected demonstration. Keep 9 Ballow Road, 10–12 Ballow Road and the ferry area as separate candidates with their own evidence.
+
+Research basis: [Our Changing City: Wellington's public climate-adaptation digital installation](https://www.letstalk.wellington.govt.nz/climate-action-info-hub/our-changing-city).
+
+### A network of agreed host capabilities
+
+**AI-generated future concept.** Explore hosts offering different services such as public information, private assistance, portable relief or training. A common record would make confirmed hours, equipment and continuity arrangements discoverable, while each additional role receives its own agreement.
+
+Research basis: [NSW Spatial Services: mapping and the Emergency Management Digital Twin](https://www.nsw.gov.au/departments-and-agencies/spatial-services/emergency-services-organisations) · [OGC SensorThings API Standard](https://www.ogc.org/standards/sensorthings/).
+
+### Examples and local differences
+
+- [Our Changing City: Wellington's public climate-adaptation digital installation](https://www.letstalk.wellington.govt.nz/climate-action-info-hub/our-changing-city): **AI transfer assessment:** A council can use a public digital installation to invite discussion and learning. **Local difference to check:** A disaster-service host needs site-specific access, ongoing duties, cultural permissions, qualified support and agreed continuity arrangements.
+
+### Evidence to bring back next
+
+- Walk each candidate site with its actual authorised host and relevant users when participation is agreed.
+- Review power, wet-weather access, privacy, available supervision, costs and exit arrangements before proposing a site commitment.
+
 ## People and connected choices
 
 **Who reviews:** Proposed host/site owner, Ready S.E.T. Co-op representative and relevant cultural custodian (unconfirmed)

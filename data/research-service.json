@@ -1,0 +1,1307 @@
+{
+  "sources": [
+    {
+      "id": "SV-S01",
+      "title": "Redland City Council: disasters and emergencies",
+      "url": "https://www.redland.qld.gov.au/Community-safety-and-health/Disasters-and-emergencies",
+      "publisher": "Redland City Council",
+      "evidence_type": "official_guidance",
+      "fact": "Council links its Disaster Dashboard, local disaster plan and public preparedness information from a common emergency-information page.",
+      "local_fit": "Use as the local starting point. Public links do not establish a feed licence, integration agreement, staffed kiosk or acceptance of help requests.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S02",
+      "title": "Wellington Region: Community Emergency Hubs",
+      "url": "https://www.wremo.nz/get-ready/community-ready/community-emergency-hubs",
+      "publisher": "Wellington Region Emergency Management Office",
+      "evidence_type": "official_case_study",
+      "fact": "Neighbourhood hubs organise local information, needs, offers and skills. Guides describe agreed roles and alternate venues; hubs have limited equipment, including VHF radios, rather than stocked relief supplies.",
+      "local_fit": "A useful community-organising comparator from New Zealand. Queensland authority, radio access, local hosts, supplies and operating agreements need their own confirmation.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S03",
+      "title": "Shoalhaven: Community Information Hubs Launched",
+      "url": "https://getinvolved.shoalhaven.nsw.gov.au/rrp/news_feed/information-hubs",
+      "publisher": "Shoalhaven City Council",
+      "evidence_type": "official_case_study",
+      "fact": "Council's launch report describes community-facility information hubs with satellite connectivity, solar panels, Powerwall batteries and public screens accessible inside and outside facilities.",
+      "local_fit": "A close coastal comparator for integrated power, communications and information. The report establishes an example, not current uptime, island endurance or a priced design for Minjerribah.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S04",
+      "title": "Sunshine Coast: Disaster Hub helps Coast stay safe",
+      "url": "https://www.sunshinecoast.qld.gov.au/news/disaster-hub-helps-coast-stay-safe",
+      "publisher": "Sunshine Coast Council",
+      "evidence_type": "official_case_study",
+      "fact": "The council describes its Disaster Hub as a common place for warnings, road closures, evacuation-centre information, transport updates, mapping and council news.",
+      "local_fit": "Adapt the clear information categories. Live internet aggregation alone does not demonstrate an offline service, physical host readiness or a confirmed local feed.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S05",
+      "title": "Managing Exercises Handbook",
+      "url": "https://knowledge.aidr.org.au/resources/handbook-managing-exercises/",
+      "publisher": "Australian Institute for Disaster Resilience",
+      "evidence_type": "official_guidance",
+      "fact": "The 2023 handbook provides a national method for objective-driven exercise design, planning, conduct and evaluation, with companion templates for organisations and community groups.",
+      "local_fit": "Use as exercise-design guidance and record the chosen performance measures. It does not certify this kiosk, replace professional review or establish nine-day autonomy.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S06",
+      "title": "Privacy and the use of commercially available AI products",
+      "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/guidance-on-privacy-and-the-use-of-commercially-available-ai-products",
+      "publisher": "Office of the Australian Information Commissioner",
+      "evidence_type": "official_guidance",
+      "fact": "OAIC guidance covers assessing AI-product privacy, accuracy, transparency and information handling, including privacy impact assessments and controls over personal information supplied to AI products.",
+      "local_fit": "Assess the actual operator, activities and applicable privacy laws. Use the guidance as a design benchmark without assuming every future group has identical statutory obligations.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S07",
+      "title": "Queensland: holding a co-operative formation meeting",
+      "url": "https://www.qld.gov.au/community/fair-trading/associations-charities-and-non-for-profits/cooperatives/registering-a-cooperative/hold-a-formation-meeting",
+      "publisher": "Queensland Office of Fair Trading",
+      "evidence_type": "official_guidance",
+      "fact": "The formation meeting follows approval of proposed rules and any required disclosure statement, and includes membership, adoption of rules, director elections and appointment of the registration applicant.",
+      "local_fit": "Formation is a statutory process distinct from an informal organising workshop. Confirm the proposed co-operative type, current law and specialist advice before adopting rules.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S08",
+      "title": "AIATSIS Research Ethics Framework",
+      "url": "https://aiatsis.gov.au/research/ethical-research/research-ethics-framework",
+      "publisher": "Australian Institute of Aboriginal and Torres Strait Islander Studies",
+      "evidence_type": "official_guidance",
+      "fact": "The framework centres Indigenous self-determination, Indigenous leadership, impact and value, and sustainability and accountability in research involving Aboriginal and Torres Strait Islander peoples.",
+      "local_fit": "A reference for respectful research design; it cannot grant permission for Quandamooka knowledge. The relevant people determine authority, appropriate engagement and specific uses.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S09",
+      "title": "Redland City Council: Community Support Grant",
+      "url": "https://www.redland.qld.gov.au/Grants-and-sponsorship/Community-Support-Grant",
+      "publisher": "Redland City Council",
+      "evidence_type": "official_guidance",
+      "fact": "The program describes community-benefit funding and eligible incorporated not-for-profit or auspiced applicants. Its page contains both limited equipment allowances and equipment exclusions, requiring clarification for a kiosk proposal.",
+      "local_fit": "Current-page research checked 20 October 2026. Confirm the relevant round, exclusions and written interpretation before costing grant income; applicant and auspice arrangements remain to be established.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S10",
+      "title": "Strengthening Rural Communities: Prepare & Recover",
+      "url": "https://frrr.org.au/funding/src-prepare-recover/",
+      "publisher": "Foundation for Rural & Regional Renewal",
+      "evidence_type": "official_guidance",
+      "fact": "Prepare & Recover offers up to $25,000 for eligible rural or regional charitable resilience projects through not-for-profit legal entities or supported auspice arrangements; ongoing core costs alone are excluded.",
+      "local_fit": "Confirm Minjerribah location eligibility, public charitable purpose, applicant status, auspice consent, eligible items and round timing. A grant prospect is separate from awarded income.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S11",
+      "title": "Managing records created using artificial intelligence",
+      "url": "https://www.naa.gov.au/information-management/manage-information-assets/types-information/information-management-records-created-using-artificial-intelligence-ai-technologies",
+      "publisher": "National Archives of Australia",
+      "evidence_type": "official_guidance",
+      "fact": "The September 2026 statement recommends retaining significant AI records with the prompts, sources and metadata needed for context, using a managed recordkeeping system and proportionate retention.",
+      "local_fit": "These Commonwealth agency obligations are not automatically the co-operative's law. Adapt the practical recordkeeping principles to its actual legal duties, privacy commitments and agreed retention schedule.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S12",
+      "title": "Australia's AI Ethics Principles",
+      "url": "https://www.industry.gov.au/publications/australias-ai-ethics-principles",
+      "publisher": "Australian Government Department of Industry, Science and Resources",
+      "evidence_type": "official_guidance",
+      "fact": "The principles address human wellbeing, fairness, privacy, reliability, transparency, contestability and accountability, including identifiable responsibility and human oversight.",
+      "local_fit": "A national ethical reference for proposals, not a statement that superintelligence, robotics or this service has been validated or authorised.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S13",
+      "title": "Digital Performance Standard: measure service success",
+      "url": "https://www.digital.gov.au/policy/digital-experience/digital-performance-standard/dps-criterion-3-measure-success-your-digital-service",
+      "publisher": "Digital Transformation Agency",
+      "evidence_type": "official_guidance",
+      "fact": "The criterion recommends understanding users' goals and measuring successful task completion, with digital and non-digital channel performance distinguished.",
+      "local_fit": "Adapt a government service-design benchmark to community tasks. Local users, accessible channels and disaster conditions need their own measures and observations.",
+      "checked_on": "2026-10-20"
+    },
+    {
+      "id": "SV-S15",
+      "title": "GIVIT: national disaster resources",
+      "url": "https://www.givit.org.au/disaster-resources/national-resources",
+      "publisher": "GIVIT",
+      "evidence_type": "official_guidance",
+      "fact": "GIVIT supplies registration guidance, disaster-request resources and donation-management information for organisations supporting people in need.",
+      "local_fit": "A candidate external referral and needs-management service. Registration, acceptance of requests, fulfilment and any integration require the relevant organisation's actual agreement.",
+      "checked_on": "2026-10-20"
+    }
+  ],
+  "answers": [
+    {
+      "question_id": "OPS-01",
+      "summary": "Begin with an account-free local calendar, checked notices and service finding, then add a clearly explained disaster service for approved information, assistance pathways and practical learning. Agree success through completed tasks and service-owner participation.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Adapt Sunshine Coast's clear information categories and Wellington's community coordination approach. Demonstrate an everyday event lookup, a checked disruption notice and a help request to a simulated receiving desk before proposing staffed operation.",
+          "source_ids": [
+            "SV-S04",
+            "SV-S02",
+            "SV-S13"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Let a person's chosen Aura explain the same verified service record through voice, text or XR, adjusting detail to their needs. Shared public information remains available independently of personal accounts, advanced models and an internet connection.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S04",
+          "lesson": "Use familiar service categories as the first public doorway.",
+          "local_difference": "Sunshine Coast's live council hub does not establish Minjerribah offline capability, staffing or authority."
+        }
+      ],
+      "next_checks": [
+        "Ask prospective users to try the three tasks and record misunderstandings.",
+        "Prepare a service envelope with actual information owners and candidate receiving services."
+      ]
+    },
+    {
+      "question_id": "OPS-02",
+      "summary": "Compare a small network across the island's settlements using everyday journeys, hazard exposure, access and shared dependencies. Give each candidate location an agreed purpose and alternate location, backed by a portable continuity kit.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use Shoalhaven's community-facility model to compare candidate hosted kiosks in Gumpi/Dunwich, Pulan/Amity and Mooloomba/Point Lookout. Record host consent, power, communications, accessible approach, ferry dependency and whether multiple sites share one failure point.",
+          "source_ids": [
+            "SV-S03",
+            "SV-S02"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Build a map that lets teams rehearse loss of a site, road or communication route. Auras could explain the remaining options, while a supervised mobile unit could provide a temporary public doorway at an agreed safe host.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S03",
+          "lesson": "Compare a network of useful community facilities rather than treating every kiosk as an isolated purchase.",
+          "local_difference": "Shoalhaven's existing council facilities are a comparator; Minjerribah sites, names, permissions, hazards and coverage require local review."
+        }
+      ],
+      "next_checks": [
+        "Map candidate sites and journeys without presenting them as approved hosts.",
+        "Check each location's access, exposure and alternate arrangements with the responsible people."
+      ]
+    },
+    {
+      "question_id": "OPS-03",
+      "summary": "Practise a nine-day sequence connecting grid loss, ferry interruption, communications gaps, changing weather, staff relief and recovery. Use separate storm, cyclone and fire branches, with timed challenges and observable decisions rather than a single endurance claim.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Apply AIDR's objective-driven exercise method: start with ordinary service, introduce power and transport failures, add a request handover and staff absence, then restore connections and reconcile records. Label every injected message and simulated resource explicitly.",
+          "source_ids": [
+            "SV-S05"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Use an XR or desktop twin to generate branching challenges while an exercise controller authorises each change. Future AI/SI assistants could compare decisions across runs and suggest a fresh branch without turning a simulation into real operational instructions.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S05",
+          "lesson": "Set the learning objectives and evaluation method before running a scenario.",
+          "local_difference": "National exercise guidance supplies a method; Luke's Alfred account supplies a local starting experience, and professionals review scenario realism."
+        }
+      ],
+      "next_checks": [
+        "Write an exercise concept with objectives, participants, pause conditions and evaluation roles.",
+        "Run a short tabletop first and revise the nine-day sequence from observations."
+      ]
+    },
+    {
+      "question_id": "OPS-04",
+      "summary": "Agree four visible service states: everyday, disaster, disconnected and low energy. Each state should explain available tasks, information age, connection limits, human responsibility and the next change trigger, keeping essential public guidance available throughout.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Prepare a signed-off state table. In low energy, prioritise approved text notices, local lookup and request receipts; reduce display brightness and optional media. An accountable operator changes the public service state using measured conditions and agreed rules.",
+          "source_ids": [
+            "SV-S03",
+            "SV-S12"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Let Aura explain why functions changed and forecast available service from measured energy and connection data. AI/SI could propose a change with supporting evidence; a narrowly delegated controller might apply only pre-agreed bounded actions and record the result.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S03",
+          "lesson": "Treat power, connectivity and the public information experience as one service design.",
+          "local_difference": "Shoalhaven's equipment example does not provide this project's thresholds or authority to change an emergency service."
+        }
+      ],
+      "next_checks": [
+        "Reconcile the state table with measured hardware power budgets.",
+        "Test whether users understand disconnected status and the meaning of saved requests."
+      ]
+    },
+    {
+      "question_id": "OPS-05",
+      "summary": "Offer help-request categories only where an actual receiving service agrees to handle them. Show distinct stages for saved locally, delivered, accepted, assigned and completed, with responsibility and the next contact route clear at every stage.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Start with a simulated reception desk and a small set of non-emergency tasks. Explore an agreed referral pathway to a registered support organisation, including GIVIT where suitable, while preserving the receiving organisation's criteria and control of acceptance.",
+          "source_ids": [
+            "SV-S15",
+            "SV-S02"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "A personal Aura could assemble a person-approved request, track acknowledgements and help them choose another available route. A future logistics robot could receive a separately authorised delivery task after a human or delegated service accepts responsibility.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S15",
+          "lesson": "Connect a person's need to a recognised organisation with an explicit request process.",
+          "local_difference": "GIVIT's organisational support model does not mean a kiosk request is accepted, delivered or fulfilled, and is not emergency dispatch."
+        }
+      ],
+      "next_checks": [
+        "Draft receiving-service agreements and test unavailable-service wording.",
+        "Keep urgent emergency contact guidance distinct and have the relevant service review any overlap."
+      ]
+    },
+    {
+      "question_id": "OPS-06",
+      "summary": "Build a roster around actual availability, qualified duties, relief and handover, including periods when assistance is unavailable. Let people learn practical support roles while experienced practitioners retain tasks that require their competence and authority.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Adapt Wellington's clearly named hub roles into local role cards for reception, information checking, resource coordination and facilities. Add shift limits, two-deep cover where practical, qualification checks and a handover of outstanding work, site condition and service limits.",
+          "source_ids": [
+            "SV-S02",
+            "SV-S05"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Use Aura-supported practice and XR walkthroughs to help a relief worker learn an agreed task before taking over. Robotics could handle repeatable inspection or transport work within tested limits, with a named supervisor and a practical manual fallback.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S02",
+          "lesson": "Make roles understandable enough for local people to organise and practise together.",
+          "local_difference": "Wellington's volunteer role system does not appoint local workers or establish Queensland qualifications, employment terms or service cover."
+        }
+      ],
+      "next_checks": [
+        "Seek voluntary availability and role interest without treating it as a committed roster.",
+        "Review fatigue, supervision, qualifications and staffing costs with actual employers and practitioners."
+      ]
+    },
+    {
+      "question_id": "OPS-07",
+      "summary": "Track each resource's custodian, location, usable quantity, reservations, condition and last check. Make allocations explicit, keep disputed or old counts visible and require physical confirmation before promising scarce supplies across disconnected locations.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use a needs-and-offers register with numbered reservations, custodians and a paper fallback. Reconcile counts at shift change and reconnection. Explore GIVIT's organisational request process for appropriate unmet needs through an agreed registered support organisation.",
+          "source_ids": [
+            "SV-S02",
+            "SV-S15"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "With consent, sensors or scanned labels could help custodians update stock and condition. An AI planner could suggest replenishment and a future delivery robot could execute a bounded task after allocation, route and handover are authorised.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S15",
+          "lesson": "Separate recognising a need, requesting an item and confirming fulfilment.",
+          "local_difference": "Donation management is one supply pathway; island stock, fuel, food safety, transport and custodianship need their own arrangements."
+        }
+      ],
+      "next_checks": [
+        "Practise two disconnected sites requesting the same scarce item.",
+        "Agree reservation expiry, reconciliation and condition assessment with the resource owners."
+      ]
+    },
+    {
+      "question_id": "OPS-08",
+      "summary": "Give each site a closure and continuity plan with a named decision role, last-confirmed availability and alternate public doorway. Share closure notices through remaining channels and explain uncertainty before directing people toward a replacement location.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Adapt Wellington's alternate-venue approach into a local closure checklist: assess the site, stop unsuitable use, record time and reason, update other locations and arrange a portable service at a confirmed host. Keep printed directions available.",
+          "source_ids": [
+            "SV-S02",
+            "SV-S01"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Auras could compare signed availability reports and explain which options remain, with last-check times. A future portable robot or vehicle-based kiosk could relocate only after a competent person confirms the destination, route and operating scope.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S02",
+          "lesson": "Prepare an alternate venue before the usual community doorway becomes unavailable.",
+          "local_difference": "A New Zealand hub guide cannot determine Queensland evacuation directions or prove a proposed alternate site is safe and open."
+        }
+      ],
+      "next_checks": [
+        "Walk through a site-loss scenario with candidate hosts and relevant professionals.",
+        "Test redirection when both a road and the network connection are unavailable."
+      ]
+    },
+    {
+      "question_id": "DAT-01",
+      "summary": "Create a source agreement for every essential information type, beginning with Redland's official disaster information and the actual transport, utility and service owners. Record update rights, checking intervals, failed checks and the approved offline copy.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Prepare a feed inventory from the local council's official information directory, then confirm each publisher's actual API, licence, contact and permitted caching. Keep community observations in a separate review queue with their own provenance.",
+          "source_ids": [
+            "SV-S01",
+            "SV-S04",
+            "DG-S04"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Give each Aura a source-aware explanation layer that can show the original message, its age and applicable area. Future automated source checks could propose corrections or escalation while issuers retain control of their warnings.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S01",
+          "lesson": "Use the existing local public-information structure as the starting point for agreements.",
+          "local_difference": "A public website link does not establish an API, republishing licence, refresh guarantee or partnership."
+        }
+      ],
+      "next_checks": [
+        "Complete one real source-agreement example before implementing broad ingestion.",
+        "Verify transport and utility information directly with the responsible publishers' current official documentation."
+      ]
+    },
+    {
+      "question_id": "DAT-02",
+      "summary": "Give each record a stable identity, source, issue and receipt times, applicable place, status and replacement links. Show information age and clock confidence plainly, and retain corrections so people can understand what changed.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Adapt CAP's warning-record ideas where the source uses them: sender, identifier, sent time, status, update and cancellation references. Add separate local receipt and checking times without inventing an expiry or changing an issuer's instructions.",
+          "source_ids": [
+            "DG-S04",
+            "SV-S11"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "A personal Aura could explain a record's history and why an older edition is no longer current. XR views could show the same provenance beside a map, with the ordinary text record always accessible.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S04",
+          "lesson": "Preserve message identity and explicit update relationships across delivery systems.",
+          "local_difference": "CAP is a format comparator; calendars, resource records and a particular local publisher may require different schemas."
+        }
+      ],
+      "next_checks": [
+        "Build worked examples for an update, cancellation, uncertain clock and continuing instruction.",
+        "Ask the actual issuer to review how stale or superseded instructions are displayed."
+      ]
+    },
+    {
+      "question_id": "DAT-03",
+      "summary": "Use a publishing table that names who prepares, checks, approves, withdraws and corrects each information category. Bind every delegation to its scope and edition, with recoverable access and a visible record of accountable overrides.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Keep official warnings under their issuer's meaning and authority. Assign calendar changes, community notices and service availability to their respective owners; test lost-account recovery and withdrawal without allowing one broad role to authorise every category.",
+          "source_ids": [
+            "SV-S12",
+            "DG-S04",
+            "SV-S11"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Auras and advanced AI/SI could prepare alternate formats and identify missing sources, while a permissions service restricts publication to the exact approved content and scope. Urgent delegated actions could be pre-agreed and reviewed afterwards from their full logs.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S12",
+          "lesson": "Make accountability and contestability visible in the design of automated assistance.",
+          "local_difference": "Ethical principles guide the working model; actual statutory powers, issuer contracts and cultural permissions still determine authority."
+        }
+      ],
+      "next_checks": [
+        "Create example delegations for a notice editor, warning relay and site operator.",
+        "Rehearse credential loss, incorrect publication and withdrawal at an offline location."
+      ]
+    },
+    {
+      "question_id": "DAT-04",
+      "summary": "Keep an append-only change history so disconnected updates, cancellations and requests can be brought together without silently losing meaning. Automatically combine compatible changes and present genuine conflicts to the responsible person with their source histories.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use stable record IDs, explicit replacement links and separate acknowledgement events. Replaying the same message should not duplicate a request or reservation; a cancellation received after reconnection should remain linked to the original record.",
+          "source_ids": [
+            "DG-S04",
+            "SV-S11"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Future Auras could prepare a readable conflict comparison and propose a resolution grounded in the signed records. A twin could replay reconnection sequences to expose double allocations before software is used with real supplies or requests.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "DG-S04",
+          "lesson": "Apply explicit update and cancellation relationships rather than relying only on arrival time.",
+          "local_difference": "CAP does not define the full reconciliation rules for resources or help-request ownership; those are proposed local workflows."
+        }
+      ],
+      "next_checks": [
+        "Test delayed cancellation, duplicate delivery and two competing ownership claims.",
+        "Agree which conflicts require human confirmation and how unresolved states appear publicly."
+      ]
+    },
+    {
+      "question_id": "DAT-05",
+      "summary": "Collect the least information needed for the agreed help task, keep optional Aura context under the person's control and separate public records from private casework. Explain recipients, retention, correction, export and deletion before sharing.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Carry out a privacy impact assessment and create field-by-field collection notices. Use fictional records in demonstrations; give a person a clear request receipt and a practical route to correct information or end a shared session.",
+          "source_ids": [
+            "SV-S06"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Explore a personal Aura-held profile that releases only the selected information for a particular task, with expiring permissions and a readable sharing receipt. Test how withdrawal affects cached copies, backups and already-completed actions.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S06",
+          "lesson": "Assess AI-product data flows and privacy choices before connecting personal information.",
+          "local_difference": "OAIC guidance informs the assessment; applicable Commonwealth and Queensland laws depend on the actual operator, records and activities."
+        }
+      ],
+      "next_checks": [
+        "Map every proposed recipient, device, vendor and cross-border data flow.",
+        "Have the applicable privacy and retention duties reviewed before using real personal information."
+      ]
+    },
+    {
+      "question_id": "DAT-06",
+      "summary": "Offer a contribution-to-publication path with source type, permission, accessible versions, named review and withdrawal. Keep unconfirmed reports clearly labelled, preserve an original alongside any AI adaptation and let contributors see the response to their input.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Trial one event change, local observation and approved learning item using a common editorial checklist. Ask contributors about publication permission and cultural conditions; provide text, captions and audio as appropriate, with a reviewer checking meaning.",
+          "source_ids": [
+            "SV-S08",
+            "SV-S06",
+            "SV-S11"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "An Aura could draft a translation, easy-read version or XR presentation with links back to its source and human review. Cultural custodians could set audience and reuse permissions that every format and downstream assistant carries forward.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S08",
+          "lesson": "Build permission and accountable interpretation into the publishing process.",
+          "local_difference": "An ethics framework does not identify or replace the relevant Quandamooka custodians or grant rights to their material."
+        }
+      ],
+      "next_checks": [
+        "Create a worked example showing permission, accessible versions, revision and withdrawal.",
+        "Test the reporting and correction path with users and the actual content owners."
+      ]
+    },
+    {
+      "question_id": "GOV-01",
+      "summary": "Develop Ready S.E.T. Co-op through an organising group, a clear service purpose and a staged formation pathway. Compare interim hosting and co-operative models while specifying membership, assets, employment and agreements for the proposed kiosk service.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use an informal organising workshop to draft purpose and responsibilities, then follow Queensland's current co-operative registration process with appropriate advice. Keep the workshop distinct from the formal formation meeting and avoid importing sports-association rules as co-operative law.",
+          "source_ids": [
+            "SV-S07",
+            "SV-S12"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Prepare councils, teams and committees to work with Auras, XR, advanced AI/SI and robots through explicit mandates. Participation tools can grow while the rules identify actual members, voting rights, responsible people and the limits of delegated automated work.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S07",
+          "lesson": "Separate developing a working model from the formal act of registering the organisation.",
+          "local_difference": "Ready S.E.T. Co-op's type, membership, rules and formation remain to be agreed; no registration or director appointment is assumed."
+        }
+      ],
+      "next_checks": [
+        "Compare distributing and non-distributing options against the intended activities and public benefit.",
+        "Obtain the relevant formation and legal review before adopting rules or representing registration."
+      ]
+    },
+    {
+      "question_id": "GOV-02",
+      "summary": "Invite residents, visitors, workers, community groups and people with varied access needs to try practical examples. Keep a public response record showing what changed, what remains contested and the next opportunity to influence the design.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Run short workshops around real tasks: finding a ferry update, understanding a stale notice and offering help. Combine conversation, paper feedback and hands-on trials; publish themes and design responses with permission and protect individual private details.",
+          "source_ids": [
+            "SV-S13",
+            "SV-S06"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Use accessible XR walkthroughs and Aura-assisted participation to let people explore a proposed kiosk in their own time. Summaries should distinguish each person's contribution from AI synthesis and give them an easy way to correct representation.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S13",
+          "lesson": "Assess success against the user's intended task rather than the amount of technology shown.",
+          "local_difference": "A national digital-service benchmark needs local participants and phone-free, account-free and assisted ways to contribute."
+        }
+      ],
+      "next_checks": [
+        "Recruit a varied first trial group through authorised outreach.",
+        "Test whether participants can trace one suggestion into a design response and correct the record."
+      ]
+    },
+    {
+      "question_id": "GOV-03",
+      "summary": "Begin with relationships and permission from the relevant Quandamooka people for each knowledge item, place layer or lesson. Record who can decide, the agreed audience and uses, review arrangements and a practical withdrawal process.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Prepare an item-level permission register with the custodian's chosen wording and conditions. Keep public information, restricted knowledge and material awaiting permission distinct, and include paid or otherwise agreed participation arrangements in the project budget.",
+          "source_ids": [
+            "SV-S08"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Explore custodian-controlled permissions that accompany cultural material into Aura responses, XR scenes and learning resources. Future automated tools could check audience and reuse conditions before access, while custodians retain interpretation, release and review choices.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S08",
+          "lesson": "Make self-determination and accountable use part of the design from the beginning.",
+          "local_difference": "The framework is guidance for ethical research, not permission or a substitute for local relationships and authority."
+        }
+      ],
+      "next_checks": [
+        "Agree the appropriate engagement process before requesting or publishing cultural material.",
+        "Test whether a withdrawal reaches cached displays and derived learning versions."
+      ]
+    },
+    {
+      "question_id": "GOV-04",
+      "summary": "Use a clear host agreement for each site and an asset record for each item. Bring access, ownership, installation, maintenance, insurance, public use, closure and exit together so responsibility can continue through changes.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Compare a hosted facility kiosk and a portable kit using a common checklist. Walk through key access, after-hours opening, electricity and communications arrangements, fault response, spare parts, caretaker relief and return of equipment with each actual owner.",
+          "source_ids": [
+            "SV-S03",
+            "SV-S02"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "A shared digital twin could show approved site layouts, equipment history and maintenance tasks to authorised workers. Future inspection robots could submit observations, while qualified people assess findings and owners decide repairs or site changes.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S03",
+          "lesson": "Plan information equipment as part of an actual host facility and its operating arrangements.",
+          "local_difference": "Shoalhaven's council ownership model does not settle local land tenure, building consent, insurance, maintenance duties or permission to install."
+        }
+      ],
+      "next_checks": [
+        "Prepare a draft host pack and cost each responsibility.",
+        "Have the actual site owner and relevant technical reviewers assess the proposed installation and exit arrangements."
+      ]
+    },
+    {
+      "question_id": "GOV-05",
+      "summary": "Recognise one verified elapsed hour of voluntary human contribution as one C-Hour. Each community chooses reciprocal recognition; keep records correctable, count time once across projects and maintain separate records for money, paid work, machine time and outcomes.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use a participant-confirmed task record with start and finish times, voluntary consent and a reviewer. Let the local community publish its own recognition opportunities, availability and review process. C-Hours have no monetary equivalent, sale or transfer.",
+          "source_ids": [
+            "SV-S06",
+            "SV-S12"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "A personal Aura could help someone keep a private contribution diary and submit only the agreed evidence. A privacy-preserving cross-project check could flag overlapping time for human correction without creating a public movement or personal-profile ledger.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S06",
+          "lesson": "Minimise personal information while giving people clear access and correction routes.",
+          "local_difference": "The C-Hour definition and non-monetary rules are the user's settled design direction, not a rule supplied by OAIC or a government rewards program."
+        }
+      ],
+      "next_checks": [
+        "Test a correction and overlapping-time example using fictional contributions.",
+        "Have each participating community decide its recognition opportunities and review arrangements."
+      ]
+    },
+    {
+      "question_id": "GOV-06",
+      "summary": "Provide an accessible route for concerns, incident review and conflicts of interest, with a named receiver and escalation path. Record what happened, the response and improvements, while protecting private and culturally restricted information.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Create separate public improvement summaries and restricted case records. Give a complainant an acknowledgement, review time and correction route; require people to declare relevant interests and record when they step aside from a decision.",
+          "source_ids": [
+            "SV-S12",
+            "SV-S06",
+            "SV-S11"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Offer an Aura-assisted concern form that helps a person explain an issue without forcing a personal AI profile. Advanced AI/SI could identify recurring patterns in approved de-identified records, with accountable people checking interpretations and corrective actions.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S12",
+          "lesson": "Design a practical way to question an AI-assisted outcome and identify the responsible decision-maker.",
+          "local_difference": "National ethical principles support the model; formal complaint, employment, privacy and statutory rights need review for the actual operator."
+        }
+      ],
+      "next_checks": [
+        "Walk through a privacy concern, disputed decision and supplier conflict.",
+        "Agree records access, escalation and continuity when the original receiver leaves."
+      ]
+    },
+    {
+      "question_id": "FIN-01",
+      "summary": "Build a dated whole-service cost inventory, including equipment, delivery, installation, staff, connectivity, content, training, insurance, maintenance and replacement. Compare options over an agreed planning period, with quotes, assumptions and the responsible payer visible.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Cost a hosted demonstrator, an outdoor kiosk and a portable kit separately, then include their shared service costs. Ask suppliers for itemised quotes and operating requirements; calculate low, expected and difficult-year scenarios using explicit assumptions.",
+          "source_ids": [
+            "SV-S03",
+            "SV-S13"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "An Aura-assisted cost twin could connect measured energy use, faults, staff effort and parts consumption to the budget. Future AI/SI could propose savings or shared purchasing while people approve commitments and verify that service quality is retained.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S03",
+          "lesson": "Cost power, connectivity, display and host work as a connected package.",
+          "local_difference": "A published hub example supplies categories and lessons, not current quotes, labour rates, replacement lives or a Minjerribah budget."
+        }
+      ],
+      "next_checks": [
+        "Obtain current itemised quotes and identify freight, commissioning and tax treatment.",
+        "Test cost sensitivity to ferry delay, battery replacement and staffing cover."
+      ]
+    },
+    {
+      "question_id": "FIN-02",
+      "summary": "Plan continuing service with a funded operating budget and explicit replacement reserves. Compare membership support, service agreements, donations, earned work and grants as distinct possibilities, keeping confirmed income separate from prospective sources and access commitments.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Prepare a month-by-month cash-flow model and a replacement schedule based on warranties, inspection and actual condition. Assess which service costs can be shared with agreed everyday uses, and show what changes if a prospective income source does not arrive.",
+          "source_ids": [
+            "SV-S10",
+            "SV-S13"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Use an Aura-supported budget dashboard to forecast replenishment and maintenance from actual service use. Future automation could reduce routine administration, with measured savings and human review before changing staffing, public access or reserve contributions.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S10",
+          "lesson": "Match a funding source to its purpose and restrictions rather than treating project grants as permanent operating income.",
+          "local_difference": "FRRR excludes solely ongoing core costs; applicant eligibility, award and alternative continuing income remain development milestones."
+        }
+      ],
+      "next_checks": [
+        "Agree a reserve policy and a realistic minimum service budget.",
+        "Test a difficult year with no new grant and delayed equipment replacement."
+      ]
+    },
+    {
+      "question_id": "FIN-03",
+      "summary": "Match separate work packages to verified funding rules and actual applicant readiness. Explore Redland community funding and FRRR resilience funding, resolve equipment eligibility questions and confirm any auspice, public benefit and co-funding arrangements before relying on them.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Prepare a funding-fit table for engagement, design, training, equipment and service operation. Record eligible entity, location, purpose, exclusions, quotes, permissions, dates and written clarification. Redland's equipment wording needs clarification; FRRR eligibility and charitable regional benefit need confirmation.",
+          "source_ids": [
+            "SV-S09",
+            "SV-S10"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Aura-assisted grant research could flag changed rules and assemble a source-linked draft from approved evidence. A shared commitments register could prevent duplicate funding of the same cost while people check the application, relationships and reporting obligations.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S09",
+          "lesson": "Treat applicant status and eligible cost categories as evidence to establish for each package.",
+          "local_difference": "Neither Luke nor the proposed Ready S.E.T. Co-op is assumed eligible; broader civic or political aspirations do not establish grant fit."
+        }
+      ],
+      "next_checks": [
+        "Check current official guidelines and seek authorised funder clarification on ambiguous items.",
+        "Confirm the legal applicant or an agreed eligible auspice and avoid retrospective commitments."
+      ]
+    },
+    {
+      "question_id": "FIN-04",
+      "summary": "Fund the next learning milestone as a defined stage, with an evidence list and a spending limit. Move from design comparison to bench demonstration and a supervised pilot when each stage's responsible reviewers assess the actual results.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use a stage budget that separates design work, borrowed or purchased demonstration equipment, professional review and possible field costs. Present alternatives to progress, revise, pause or stop, with the commitments and permissions associated with each option.",
+          "source_ids": [
+            "SV-S05",
+            "SV-S13"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "An AI/SI assistant could keep a live dependency and budget map that shows which evidence opens the next authorised job. Auras could explain trade-offs to participants while commitment authority remains tied to the actual person and approved scope.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S05",
+          "lesson": "Define the objective and evidence for a stage before committing to a larger exercise.",
+          "local_difference": "Exercise guidance does not approve expenditure or field use; the actual payer, host and qualified reviewers retain their decisions."
+        }
+      ],
+      "next_checks": [
+        "Prepare a priced next-stage proposal with contingency and return or exit options.",
+        "Link spending authority to the exact proposal, evidence, scope and conditions."
+      ]
+    },
+    {
+      "question_id": "TEST-01",
+      "summary": "Agree acceptance measures around successful public tasks, information age, message handling, recovery and operator workload. Test ordinary use and disruption under stated conditions, recording actual observations and each limit that the next version should improve.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use a small test matrix: one, ten and fifty simulated concurrent sessions; fresh and stale notices; delayed requests; duplicate messages; and restart without internet. Treat these as proposed starting loads and measure hardware behaviour before choosing service capacity.",
+          "source_ids": [
+            "SV-S05",
+            "SV-S13"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "A twin could generate repeatable demand bursts while an AI evaluator compares logs with expected outcomes. XR trials could reveal crowding or confusing layouts; observed participant results and equipment measurements would remain the basis for performance claims.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S13",
+          "lesson": "Measure whether people complete the intended task as well as whether the software runs.",
+          "local_difference": "Government digital-service guidance does not supply kiosk load targets; local demand and hardware measurements must establish them."
+        }
+      ],
+      "next_checks": [
+        "Agree performance and comprehension thresholds before collecting results.",
+        "Record the release, devices, dataset, load, failure conditions and operator effort for every run."
+      ]
+    },
+    {
+      "question_id": "TEST-02",
+      "summary": "Prove a candidate release can start offline, reject unsuitable updates and recover to a working edition. Rehearse delayed connections, uncertain time, frozen screens and lost credentials with test accounts, recording the observed result and recovery steps.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Build a repeatable fault exercise with an isolated test dataset: interrupt an update, replay a revoked credential, disconnect the network and restore a known working edition. Capture time to recovery and whether public records retained their meaning.",
+          "source_ids": [
+            "SV-S05",
+            "SV-S12"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "An AI/SI test team could search for failure combinations within a bounded laboratory and propose patches for review. A future device controller could detect a frozen screen, switch to an approved fallback and log exactly why it acted.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S05",
+          "lesson": "Test a defined recovery capability through controlled faults and evaluation.",
+          "local_difference": "An exercise result covers the recorded version and conditions; it does not prove protection against every attack or authorise live-system disruption."
+        }
+      ],
+      "next_checks": [
+        "Define a recoverable test environment and a responsible test lead.",
+        "Independently check restored information and account permissions after each recovery."
+      ]
+    },
+    {
+      "question_id": "TEST-03",
+      "summary": "Support each endurance claim with its own evidence: model assumptions, bench measurements and site observations. For the nine-day exercise, include changing energy, weather, staff, fuel, supplies, connectivity and recovery rather than equating battery capacity with service continuity.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Create a claim-to-evidence table for each proposed service state. Measure actual loads and startup demand, document generation assumptions and staff cover, and identify what was simulated, what was bench-tested and what still needs a supervised site exercise.",
+          "source_ids": [
+            "SV-S05",
+            "SV-S03"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "A living twin could compare measured behaviour with its forecast and show the resulting uncertainty. Advanced AI/SI could suggest the next high-value measurement, while qualified reviewers assess whether the evidence supports a particular installation or operating claim.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S03",
+          "lesson": "Include the supporting power and communications system in the service assessment.",
+          "local_difference": "Shoalhaven's reported equipment installation does not establish nine-day autonomy, local weather performance or the proposed network's endurance."
+        }
+      ],
+      "next_checks": [
+        "Write each claim before measuring and name the evidence needed to support it.",
+        "Check qualified cover, resource replenishment and recovery alongside electrical measurements."
+      ]
+    },
+    {
+      "question_id": "TEST-04",
+      "summary": "Ask varied participants to complete useful tasks through touch, text, audio, assistance and offline service. Observe understanding, successful completion, confidence and workload, then revise the design from what people actually do and explain.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Try an account-free event lookup, a changed warning and a saved help request with tradespeople, older residents, students and people with access needs. Record assistance required and misunderstandings with consent, then test the revised wording and interaction.",
+          "source_ids": [
+            "SV-S13",
+            "SV-S06"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Compare ordinary and XR or Aura-assisted versions of the same task, including a person declining personal AI. Future adaptive teaching could offer just-in-time practice, with users controlling context and observers checking learning rather than only engagement.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S13",
+          "lesson": "Count completion of the person's intended task and compare channels explicitly.",
+          "local_difference": "A digital benchmark needs physical reach, glare, hearing, language, fatigue and local assistance assessed in the actual kiosk setting."
+        }
+      ],
+      "next_checks": [
+        "Agree voluntary participation, privacy arrangements and accessible feedback methods.",
+        "Test reduced-capability service and confirm that essential public help remains understandable without an account."
+      ]
+    },
+    {
+      "question_id": "TEST-05",
+      "summary": "Prepare a supervised pilot packet connecting every readiness requirement to actual evidence and its responsible reviewer. Include host permission, engineering, staffing, information agreements, privacy, cultural conditions, maintenance and an agreed return to the previous service.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Run a readiness workshop against a specific candidate site and release. Record open items, conditions, stop criteria, who can authorise each action and how incidents will be handled; issue a clear pilot scope only after the required decisions exist.",
+          "source_ids": [
+            "SV-S05",
+            "SV-S12"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Let a shared twin and Aura-guided walkthrough explain readiness evidence to participants and reviewers. AI/SI could detect missing dependencies, while the actual qualified professionals, authorities, hosts and receiving services provide decisions within their respective responsibilities.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S05",
+          "lesson": "Treat the pilot as a defined, evaluated activity with agreed objectives and roles.",
+          "local_difference": "National guidance supplies a method; it does not appoint reviewers, confirm partners or substitute for site and professional permission."
+        }
+      ],
+      "next_checks": [
+        "Compare the proposal and Luke's research with applicable practice and current legal sources.",
+        "Record reasonable improvements, deficiencies and professional disagreement before the relevant decision."
+      ]
+    },
+    {
+      "question_id": "TEST-06",
+      "summary": "Review everyday usefulness, disaster tasks, reliability, access, privacy, learning, staffing and whole-service cost together. Compare results with agreed thresholds and record the reasons to grow, improve, pause or retire each capability and support people through the change.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use a recurring scorecard with task completion, information age, unresolved requests, faults, correction handling, staff effort and actual cost. Review after each exercise and meaningful incident, then assign an improvement with an owner and a later check.",
+          "source_ids": [
+            "SV-S13",
+            "SV-S05",
+            "SV-S12"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "An AI/SI learning system could identify trends across approved evidence and simulate improvement options. Auras could explain the alternatives to participants, with decisions preserving user choice, professional assessment and the history of why a capability changed.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S13",
+          "lesson": "Use observed service outcomes to guide continuing improvement.",
+          "local_difference": "National service measures need local thresholds and context; popularity alone does not demonstrate resilience or justify expansion."
+        }
+      ],
+      "next_checks": [
+        "Agree growth and exit criteria before a field pilot begins.",
+        "Review whether benefits and workload are shared fairly and whether fixes work in the next exercise."
+      ]
+    },
+    {
+      "question_id": "WRK-01",
+      "summary": "Use one traceable path from question to sources, alternatives, proposal, review, authorised work and observed result. Keep AI recommendations visibly labelled and preserve a person's actual decision, its scope and the evidence they considered.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Walk one kiosk question through the existing wiki records and an organising meeting. Capture the proposal, meaningful AI drafts, source list, decision and actions in managed project records, with a clear route for people to correct the account.",
+          "source_ids": [
+            "SV-S11",
+            "SV-S12"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Auras could prepare pre-reads and XR walkthroughs, while specialist AI/SI agents compare alternatives in parallel. Their contributions would retain source and task identities; councils, teams and committees would decide through their agreed human membership and delegations.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S11",
+          "lesson": "Retain the records and context that explain a significant AI-assisted recommendation or decision.",
+          "local_difference": "Commonwealth recordkeeping obligations do not automatically apply to this project; the handbook needs an appropriate local retention and access schedule."
+        }
+      ],
+      "next_checks": [
+        "Complete one worked example using fictional operational records.",
+        "Ask participants to find the source, disagreement, decision scope and next action without a verbal explanation."
+      ]
+    },
+    {
+      "question_id": "WRK-02",
+      "summary": "Give questions, drawings, releases, sources, tests and decisions stable identifiers and version histories. Link them through a common register, with content fingerprints for review packets and readable explanations so future contributors can reconstruct the work.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use versioned files and a decision register to preserve significant drafts, source editions and results. Keep review records outside the content they identify, and export a readable handover alongside machine-readable data with independent backup checks.",
+          "source_ids": [
+            "SV-S11"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "A future Aura could follow the evidence graph from a kiosk symptom to its design decision and test history. AI/SI agents could compare editions and explain changed assumptions before proposing updates for a person's review.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S11",
+          "lesson": "Keep enough context and metadata for a record to remain findable, understandable and reliable.",
+          "local_difference": "Project IDs and fingerprints are proposed controls; lawful retention, privacy, cultural rights and deletion arrangements still require an agreed schedule."
+        }
+      ],
+      "next_checks": [
+        "Test recovery from a fresh checkout and an offline records copy.",
+        "Check that a changed bound file changes the review packet fingerprint and preserves the earlier edition."
+      ]
+    },
+    {
+      "question_id": "WRK-03",
+      "summary": "Assign each job a clear owner, question IDs, file boundaries, source versions and expected result. Let people and AI assistants work in parallel, with one integration owner bringing the pieces together and a handover at each boundary.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use the task board and task-card template for a small swarm exercise. Give one assistant source research, another an equipment comparison and another verification; require sources and observed checks before their work enters a shared proposal.",
+          "source_ids": [
+            "SV-S12",
+            "SV-S11"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Extend task cards to Aura, SI and robot work with explicit permissions, resource limits, supervision, stop conditions and receipts. A coordinator could schedule dependent work while actual people retain authority over new commitments and sensitive decisions.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S12",
+          "lesson": "Make the responsible person and the scope of automated assistance identifiable.",
+          "local_difference": "Ethical principles do not establish a particular agent's competence or authority; test actual capability and permissions for each task."
+        }
+      ],
+      "next_checks": [
+        "Run a bounded multi-agent job and inspect file collisions, missing sources and handovers.",
+        "Check that an agent can finish preparation while leaving a dependent physical or external action awaiting its actual authority."
+      ]
+    },
+    {
+      "question_id": "WRK-04",
+      "summary": "Record a person's decision against the exact proposal, evidence, role and scope they reviewed. Preserve conditions, reasons, disagreement and validity, and seek a new decision when a material bound part changes.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Use a named review comment and its proposal fingerprint, with separate scopes for design direction, site access and professional assessment. Keep the attributable source record and review chronology so an earlier approval cannot silently override a later change request.",
+          "source_ids": [
+            "SV-S12",
+            "SV-S11"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "A person's Aura could compare the packet with their stated priorities and explain changes before they decide. Future signed personal delegations could allow narrowly bounded routine actions, with revocation and a clear record of what was done.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S12",
+          "lesson": "Make review meaningful through traceable responsibility and the ability to question outcomes.",
+          "local_difference": "A GitHub identity alone does not establish professional qualification, statutory authority or the scope of a delegation."
+        }
+      ],
+      "next_checks": [
+        "Test changed proposals, expired conditions and competing review chronology.",
+        "Confirm actual authority for the proposed next action and preserve professional comparisons and reasonable disagreement."
+      ]
+    },
+    {
+      "question_id": "WRK-05",
+      "summary": "Build the public wiki from versioned source records, check links and identities, then record the exact source edition and publication result. Keep recoverable backups and make an interrupted update easy for the next person to finish.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Treat the main repository as the source and the native Wiki as its reading edition. Run the current checks, export to a clean destination, compare the published content and save a publication receipt with both version identifiers.",
+          "source_ids": [
+            "SV-S11",
+            "SV-S12"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "Aura-assisted publishing could show a plain-language change summary and stage updates automatically after agreed checks. Future AI/SI maintainers could detect drift and prepare repairs, with access limited to the specific authorised publishing task.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S11",
+          "lesson": "Capture a managed final record and its supporting context outside a transient AI chat.",
+          "local_difference": "National Archives guidance supplies principles; the project's publication pipeline and recovery capability need direct verification."
+        }
+      ],
+      "next_checks": [
+        "Practise an interrupted publication and restore without losing source history.",
+        "Check that restricted records and private workstation details cannot enter the public output."
+      ]
+    },
+    {
+      "question_id": "WRK-06",
+      "summary": "Explain each page through a useful everyday task, plain words and a clear next action. Invite people with varied experience to try it, then improve wording and navigation from their questions and observed results.",
+      "options": [
+        {
+          "label": "Existing-practice adaptation",
+          "kind": "adaptation",
+          "text": "Give a new reader a practical job, such as comparing two kiosk power options or finding who reviews a site decision. Ask them to explain the choice in their own words and record where the page needs a clearer example.",
+          "source_ids": [
+            "SV-S13",
+            "SV-S12"
+          ]
+        },
+        {
+          "label": "Future concept to explore",
+          "kind": "future_concept",
+          "text": "A personal Aura could offer voice, translation, visual explanation or XR practice at the reader's chosen depth. Future adaptive teaching could use local task outcomes to suggest learning while public text remains complete and personally unprofiled access remains available.",
+          "source_ids": []
+        }
+      ],
+      "comparators": [
+        {
+          "source_id": "SV-S13",
+          "lesson": "Judge clarity by whether people accomplish the task they came to do.",
+          "local_difference": "A government digital standard is a useful benchmark; this wiki also needs local language, cultural guidance and hands-on reader feedback."
+        }
+      ],
+      "next_checks": [
+        "Try pages with a tradesperson, driver, artist, nurse, retiree and student where participation is agreed.",
+        "Check that technical terms, AI-generated suggestions and human decisions are easy to distinguish."
+      ]
+    }
+  ],
+  "provenance": {
+    "ai_generated": true,
+    "prompt_id": "PROMPT-2026-10-20-ANSWERS",
+    "generated_by": "OpenAI Codex AI research assistants",
+    "recorded_on": "2026-10-20",
+    "status": "AI-generated options for discussion and review"
+  }
+}

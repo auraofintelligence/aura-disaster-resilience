@@ -12,6 +12,8 @@ import sys
 from urllib.parse import quote, unquote
 from urllib.request import Request, urlopen
 
+import research_options
+
 ROOT = Path(__file__).resolve().parents[1]
 REPO = 'auraofintelligence/aura-disaster-resilience'
 BASE = f'https://github.com/{REPO}'
@@ -23,8 +25,10 @@ def read_json(name, root=ROOT):
 
 
 def load(root=ROOT):
-    return {key: read_json(key + '.json', root) for key in
+    data = {key: read_json(key + '.json', root) for key in
             ('questions', 'domains', 'decisions', 'reviews', 'roles', 'constraints', 'tasks', 'ecosystem')}
+    data['research'] = research_options.load(root)
+    return data
 
 
 def content_digest(path):
@@ -39,7 +43,7 @@ def content_digest(path):
     return hashlib.sha256(content).hexdigest()
 
 
-def evidence_fingerprint(decision, root=ROOT, questions=None):
+def evidence_fingerprint(decision, root=ROOT, questions=None, research=None):
     """Identify the evidence presented with this choice, including source snapshots."""
     proposal = dict(decision['proposal'])
     files = {}
@@ -59,13 +63,15 @@ def evidence_fingerprint(decision, root=ROOT, questions=None):
             if name in {'site-manifest.json', 'web-page-manifest.json'} and json.loads(path.read_text(encoding='utf-8')).get('capture_status') != 'complete':
                 continue
             manifests[name] = content_digest(path)
-    payload = {'files': files, 'questions': selected, 'source_manifests': manifests}
+    research = research if research is not None else research_options.load(root)
+    payload = {'files': files, 'questions': selected, 'source_manifests': manifests,
+               'ai_options': research_options.evidence_for(proposal['question_ids'], research)}
     return hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False,
                                      separators=(',', ':')).encode()).hexdigest()
 
 
-def fingerprint(decision, root=ROOT, questions=None):
-    payload = {'proposal': decision['proposal'], 'evidence_sha256': evidence_fingerprint(decision, root, questions)}
+def fingerprint(decision, root=ROOT, questions=None, research=None):
+    payload = {'proposal': decision['proposal'], 'evidence_sha256': evidence_fingerprint(decision, root, questions, research)}
     return hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False,
                                      separators=(',', ':')).encode()).hexdigest()
 
@@ -89,9 +95,9 @@ def github_comment(url):
     return value
 
 
-def verify_review(review, decision, roles, root=ROOT, fetch=github_comment, questions=None):
+def verify_review(review, decision, roles, root=ROOT, fetch=github_comment, questions=None, research=None):
     """Read the source comment each time; saved JSON alone never grants approval."""
-    digest = fingerprint(decision, root, questions)
+    digest = fingerprint(decision, root, questions, research)
     if review.get('proposal_sha256') != digest:
         raise ValueError(f'{decision["id"]}: the proposal changed; a fresh review is needed.')
     role = review.get('role')
@@ -137,7 +143,8 @@ def verify_review(review, decision, roles, root=ROOT, fetch=github_comment, ques
         if expiry <= datetime.now(timezone.utc):
             current_outcome = 'expired'
     return {**review, 'outcome': current_outcome, 'conditions': conditions, 'valid_until': valid_until,
-            'source_created_at': comment['created_at'], 'source_updated_at': comment['updated_at']}
+            'source_created_at': comment['created_at'], 'source_updated_at': comment['updated_at'],
+            'source_comment_id': int(review['evidence_url'].rsplit('-', 1)[1])}
 
 
 def validate(data, root=ROOT, fetch=github_comment):
@@ -145,6 +152,8 @@ def validate(data, root=ROOT, fetch=github_comment):
     index = {q['id']: q for q in questions}
     if len(index) != len(questions):
         raise ValueError('Question IDs must be unique.')
+    research = data['research'] if 'research' in data else research_options.load(root)
+    research_options.validate(research, index)
     domains = {d['id'] for d in data['domains']}
     required = {'id', 'domain', 'question', 'why', 'expected_deliverable', 'depends_on',
                 'decision_authority_role', 'current_evidence', 'work_status'}
@@ -179,7 +188,7 @@ def validate(data, root=ROOT, fetch=github_comment):
             raise ValueError(f'{d["id"]}: give the proposal a review scope and named roles.')
         if not set(d['proposal'].get('answers', {})) <= set(d['proposal']['question_ids']):
             raise ValueError(f'{d["id"]}: proposed answers must belong to the reviewed questions.')
-        fingerprint(d, root, questions)
+        fingerprint(d, root, questions, research)
         for qid in d['proposal']['question_ids']:
             if qid not in index:
                 raise ValueError(f'{d["id"]}: missing question {qid}')
@@ -187,12 +196,13 @@ def validate(data, root=ROOT, fetch=github_comment):
     for review in data['reviews']:
         if review['decision_id'] not in decisions:
             raise ValueError('Review refers to a missing decision.')
-        current_digest = fingerprint(decisions[review['decision_id']], root, questions)
+        current_digest = fingerprint(decisions[review['decision_id']], root, questions, research)
         if not review.get('active', True) and review['proposal_sha256'] != current_digest:
             continue
-        verified = verify_review(review, decisions[review['decision_id']], data['roles'], root, fetch, questions)
+        verified = verify_review(review, decisions[review['decision_id']], data['roles'], root, fetch, questions, research)
         key = (review['decision_id'], review['role'])
-        if key not in latest or verified['source_created_at'] > latest[key]['source_created_at']:
+        if key not in latest or (verified['source_created_at'], verified['source_comment_id']) > (
+                latest[key]['source_created_at'], latest[key]['source_comment_id']):
             latest[key] = verified
     approved = set()
     for d in data['decisions']:
@@ -244,6 +254,16 @@ def render(data, root=ROOT, fetch=github_comment):
     approved, reviews = validate(data, root, fetch)
     questions = data['questions']
     index = {q['id']: q for q in questions}
+    research = data['research'] if 'research' in data else research_options.load(root)
+    ai_answers = {a['question_id']: a for a in research['answers']}
+    ai_sources = {s['id']: s for s in research['sources']}
+    def question_table(items):
+        if not ai_answers:
+            return table(['Question', 'What we are working out', 'Work state'], [
+                (link(q['id']), q['question'], q['work_status'].replace('_', ' ')) for q in items])
+        return table(['Question', 'What we are working out', 'AI-generated potential answers and research', 'Work state'], [
+            (link(q['id']), q['question'], research_options.inline(ai_answers[q['id']], ai_sources),
+             q['work_status'].replace('_', ' ')) for q in items])
     out = {}
     nav = '[Start here](Home.md) · [Questions](Question-register.md) · [Progress](Progress.md) · [People decide](Human-review.md)'
     def page(name, title, body):
@@ -282,14 +302,14 @@ Each question is a job we can work through. It explains why the answer matters, 
 
 Work labels describe preparation: **open**, **researching**, **options ready**, **in review**, **answer recorded**, or **planned for later**. A produced drawing or report is progress. Human approval is recorded separately.
 
+**AI-generated potential answers:** The inline options draw on existing services, equipment, regional communities, councils, jurisdictions, businesses and plausible future concepts. Open a question for the alternatives, local differences and next checks. [The user prompt and research method](Research-brief.md) preserve the request; the [source catalogue](Research-sources.md) separates source facts from AI local-fit assessments. These options are prepared for discussion and professional review. An agreed answer is recorded through its own human decision.
+
 ''' + table(['Work area', 'Questions', 'Where it helps'], [(f'[{d["name"]}](Domain-{d["id"]}.md)',
               sum(q['domain'] == d['id'] for q in questions), d['purpose']) for d in data['domains']]) + '\n\n' +
-         table(['Question', 'What we are working out', 'Work state'], [(link(q['id']), q['question'], q['work_status'].replace('_', ' ')) for q in questions]))
+         question_table(questions))
     for d in data['domains']:
         subset = [q for q in questions if q['domain'] == d['id']]
-        page('Domain-' + d['id'], d['name'], d['purpose'] + '\n\n' + table(
-            ['Question', 'What we are working out', 'Work state'],
-            [(link(q['id']), q['question'], q['work_status'].replace('_', ' ')) for q in subset]))
+        page('Domain-' + d['id'], d['name'], d['purpose'] + '\n\n' + question_table(subset))
     for q in questions:
         body = f'''## Why this matters
 
@@ -304,6 +324,8 @@ Work labels describe preparation: **open**, **researching**, **options ready**, 
 ''' + '\n'.join('- ' + evidence(e) for e in q['current_evidence'])
         if q.get('proposed_answer'):
             body += '\n\n**Starting idea for review:** ' + q['proposed_answer']
+        if q['id'] in ai_answers:
+            body += research_options.detail(ai_answers[q['id']], research)
         body += f'''\n\n## People and connected choices
 
 **Who reviews:** {q['decision_authority_role']}
@@ -332,8 +354,8 @@ The kiosk and its resilience network are the first delivery focus. The wider eco
              ' · '.join(f'[{url.rstrip("/").split("/")[-1]}]({url})' for url in r.get('repositories', []) + r.get('public_urls', [])) for r in data['ecosystem']))
     for d in data['decisions']:
         p = d['proposal']
-        digest = fingerprint(d, root, questions)
-        evidence_digest = evidence_fingerprint(d, root, questions)
+        digest = fingerprint(d, root, questions, research)
+        evidence_digest = evidence_fingerprint(d, root, questions, research)
         body = f'**Review scope:** {p["scope_label"]}. **State:** ' + ('approval recorded and checked' if d['id'] in approved else 'ready for people to review')
         body += '\n\n' + p['summary'] + '\n\n## The choices\n\n' + table(['Choice', 'What it brings', 'What to plan for'], [
                     (x['name'], x['benefit'], x['tradeoff']) for x in p['options']])
@@ -388,10 +410,11 @@ This board separates work produced, human decisions and performance demonstrated
 
 {table(['Measure', 'Current record'], [
 ('Questions mapped', len(questions)), ('Work areas connected', len(data['domains'])),
+('Questions with AI-generated options prepared', len(ai_answers)), ('Primary research references', len(ai_sources)),
 ('Review packages prepared', len(data['decisions'])), ('Human approvals recorded and checked', len(approved)),
 ('Operating pilot sites', 'Site discussions and pilot preparation are ahead'),
 ('All-weather performance', 'Design basis, drawings and measurements are the next evidence'),
-('Research baseline', 'Kiosk sources and the connected ecosystem reviewed; see Evidence')])}
+('Research baseline', '[AI options and preserved user prompt](Research-brief.md), [primary-source comparisons](Research-sources.md), and the original library; see [Evidence](Evidence.md)')])}
 
 ## Parallel jobs
 
@@ -460,13 +483,16 @@ For a new piece of evidence, record the question IDs it helps answer, the file o
             library += '\n\n[Public-page packing list, response details and checksums](../data/web-page-manifest.json).\n'
     library += '\n## Carry the work forward\n\n[Swarm handover](../SWARM_HANDOVER.md) · [Question register](Question-register.md) · [Evidence](Evidence.md). The handover gives the next team the agreed direction, current work, decisions and next jobs.\n'
     page('Source-library', 'Documents and website source library', library)
+    if research.get('brief'):
+        out['Research-brief.md'] = research_options.brief_page(research)
+        out['Research-sources.md'] = research_options.sources_page(research)
     for p in sorted((root / 'content').glob('*.md')):
         out[p.name] = p.read_text(encoding='utf-8')
     out['_Sidebar.md'] = '\n'.join(['**Aura Disaster Resilience**', '', '- [Start here](Home.md)', '- [The whole system](Stack-map.md)',
         '- [First choices](First-review.md)', '- [All-weather design](All-weather-design.md)', '- [Questions](Question-register.md)',
         '- [Progress](Progress.md)', '- [Working together](Working-together.md)', '- [People decide](Human-review.md)', '- [Professional review](Professional-review.md)', '- [AI assistant jobs](Agent-work.md)',
         '- [Connections](Ecosystem.md)', '- [Agreed direction](Constraints.md)', '- [Evidence](Evidence.md)',
-        '- [Source library](Source-library.md)', '- [Useful words](Glossary.md)', '- [Rights and discovery](Rights-and-discovery.md)', '', '**Work areas**', ''] +
+        '- [Source library](Source-library.md)', '- [AI research and prompt](Research-brief.md)', '- [Research sources](Research-sources.md)', '- [Useful words](Glossary.md)', '- [Rights and discovery](Rights-and-discovery.md)', '', '**Work areas**', ''] +
         [f'- [{d["name"]}](Domain-{d["id"]}.md)' for d in data['domains']]) + '\n'
     out['_Footer.md'] = 'Growing capability together · Planning and design underway · [People decide](Human-review.md) · [Repository](' + BASE + ')\n'
     # Every local link must resolve before anything is published.
