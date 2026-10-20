@@ -14,6 +14,7 @@ The work welcomes tradespeople, trade assistants, drivers, artists, nurses, care
 - [Develop the all-weather kiosk designs](wiki/All-weather-design.md)
 - [Explore the connected questions](wiki/Question-register.md)
 - [Connect the design with Council plans](wiki/Council-integration.md)
+- [Research Guardian IMS, QIT Plus and an Aura partnership](wiki/Guardian-IMS.md)
 - [Read the AI research request and method](wiki/Research-brief.md)
 - [Compare existing services, equipment and regional examples](wiki/Research-sources.md)
 - [See progress and useful jobs](wiki/Progress.md)

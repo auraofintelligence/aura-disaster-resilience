@@ -20,6 +20,10 @@ JOB-15 prepares the Council-facing comparison exercise. The evidence template co
 
 The AI-options edition preceding this analysis was published at main `5f25ca7af3423cbe7a89a2487971475918d7872d` and native Wiki `3354f93`, with [GitHub checks passed](https://github.com/auraofintelligence/aura-disaster-resilience/actions/runs/39430978457). The Council analysis follows that edition; inspect its source/wiki commits and checks in the subsequent history.
 
+**Guardian research and partnership scenario, 21 October 2026:** [Guardian IMS and QIT Plus](wiki/Guardian-IMS.md) adds 18 public references and a conditional integration path requested by Luke: Guardian continues as Council's contracted platform and evolves, while personal Auras connect through supported, agreed interfaces. The [research record](data/guardian-research-record.json) preserves both user instructions, source identities, dates, limited findings and public-access boundaries. Distinguish operational IMS, public dashboards, flood intelligence and mobile tools; vendor claims, official records, Redland's configured arrangements and future proposals have separate scope. A general developer API, partner terms and Redland's actual contract permissions were not established in reviewed public material. No Council/QIT Plus contact, agreement or deployment occurred.
+
+The proposed path begins with public information, then separately permissioned personal requests and staff workflows. It develops Council sponsorship, joint supplier discovery, a supported interface/commercial arrangement, fictional-data tests and a bounded pilot. JOB-15 can carry the preparation. Existing proposal versions and approval states remain unchanged. Rebuilding refreshes affected evidence fingerprints for changed Council-page references; this background research does not authorise a partnership. The preceding Council-plan edition was main `eb5b107a7be40782a937b2aa2375aaee3c7ff9d8`, native Wiki `5de271b`, with [GitHub checks passed](https://github.com/auraofintelligence/aura-disaster-resilience/actions/runs/39437657345).
+
 ## What is completed, and what to check next
 
 This is the recorded build state at handover. Check the current local files and remote publication before continuing; publication may have advanced since this edition.
@@ -32,7 +36,7 @@ This is the recorded build state at handover. Check the current local files and 
 | Source documents | 34 distinct files packaged: 29 PDFs and five Word documents, 84,298,430 bytes. All 31 supplied originals are included; 61 aliases identify shared copies and public locations. | Verify the current manifest and publication; add a new edition deliberately when sources change. |
 | Saved project sources | 44 source packages verified, preserving 10,018 files, including the club-builder source, with a contents list and restoration tools. | Check the manifest for coverage, package paths and any separate hosting/source-export items. Verify the current published edition before using it. |
 | Public-page editions | All 15 linked public pages captured, 534,097 exact response-body bytes, each with a recorded HTTP 200 response. | Read response dates and boundaries in the page manifest; source packages hold the related code and assets. |
-| Native GitHub Wiki | The Council-analysis build contains 133 reading pages plus navigation and footer, including both new analysis pages. Initial publication was wiki commit `d83ab40`; later editions follow in wiki history. | Compare current source and wiki commits before editing or republishing. |
+| Native GitHub Wiki | The Guardian-research build contains 134 reading pages plus navigation and footer. Initial publication was wiki commit `d83ab40`; later editions follow in wiki history. | Compare current source and wiki commits before editing or republishing. |
 | Automated checks | All 38 local tests passed for Council analysis, including coverage, provenance, same-snapshot review and review ordering. All 34 documents verified with PDF page counts. The preceding edition also verified every saved file in 44 source packages and all 15 saved page responses. | Confirm GitHub results for the published source revision and repeat relevant checks after changes. |
 | Field capability | Service planning and design are underway. | Community agreements, installations, equipment measurements, field trials and continuing support are the next real-world milestones. |
 
@@ -69,6 +73,7 @@ Write for people who learn quickly by doing: tradespeople, trade assistants, dri
 | `data/questions.json`, `data/domains.json` | The maintained questions, work areas and dependencies. A dependency is a result or decision another job needs. |
 | `data/research-brief.json`, `data/research-hardware.json`, `data/research-service.json`, `data/research-digital.json` | Exact request, AI provenance, all 96 potential answers, 51 source records, future concepts, local differences and next checks. Keep separate from human-reviewed answers. |
 | `data/council-analysis-record.json`, `content/Council-integration.md`, `content/Council-plan-crosswalk.md` | The Council-analysis request, source coverage, edition/currentness checks, AI proposals, question crosswalk and approach path. The comparison template is under `templates/`. |
+| `data/guardian-research-record.json`, `content/Guardian-IMS.md` | Public software/company evidence and the user's conditional continuing-Guardian scenario, with a proposed personal-Aura partnership path. |
 | `data/tasks.json` | Starter jobs and their assignment state. Confirm ownership before starting. |
 | `data/decisions.json`, `data/reviews.json`, `data/roles.json` | Exact proposals, attributable human responses and the roles permitted to decide their scopes. |
 | `content/` | Longer source explanations, including the working method and weather-ready design. |
@@ -211,6 +216,12 @@ plan is December 2025; the 2016 recovery baseline is referenced by that
 plan and is being reviewed. Keep separate event-specific Alfred plans
 and future controlled editions identifiable. JOB-15 prepares a comparison
 exercise; no Council contact or integration has occurred through this work.
+
+Read wiki/Guardian-IMS.md and data/guardian-research-record.json for the
+next public-source study. Luke asks us to plan how personal Auras might
+connect if Guardian remains the contracted system and develops well.
+Keep public information, personal requests and staff permissions distinct,
+and prepare a supported Council–QIT Plus–community partnership proposal.
 
 Keep the immediate scope on the everyday and hardened disaster kiosk
 network. Use Ready S.E.T. Co-op, Aura of Intelligence and GAJRA Earth

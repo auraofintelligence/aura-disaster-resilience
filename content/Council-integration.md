@@ -2,6 +2,8 @@
 
 [Start here](Home.md) · [Plan crosswalk](Council-plan-crosswalk.md) · [Questions](Question-register.md) · [Professional review](Professional-review.md)
 
+[Guardian IMS and QIT Plus](Guardian-IMS.md) adds public-source research and a proposed partnership path under Luke's scenario of Guardian continuing as Council's contracted system while people with Auras connect through agreed interfaces.
+
 **AI-generated analysis and proposed development path · 21 October 2026.** This component analyses the two Council plans supplied by Luke and checked public publication routes. It supports design, comparison and eventual integration. Council participation, operational agreements and measured improvements will have their own records as they develop.
 
 The opportunity is to turn a plan people can read into dependable capability people can use: a warning that remains understandable when the internet drops, a generator that is connected and ready, a request whose next owner is clear, and recovery support that follows through. Aura of Intelligence could connect these jobs through personal guidance, shared information, artificial intelligence (AI), future superintelligence (SI), extended reality (XR) and robotics. XR includes information added to a view of the world and immersive practice spaces. We can aim for substantially better results and show exactly where they are achieved.

@@ -497,6 +497,7 @@ For a new piece of evidence, record the question IDs it helps answer, the file o
         '- [First choices](First-review.md)', '- [All-weather design](All-weather-design.md)', '- [Questions](Question-register.md)',
         '- [Progress](Progress.md)', '- [Working together](Working-together.md)', '- [People decide](Human-review.md)', '- [Professional review](Professional-review.md)', '- [AI assistant jobs](Agent-work.md)',
         '- [Council integration](Council-integration.md)', '- [Council plan crosswalk](Council-plan-crosswalk.md)',
+        '- [Guardian IMS and QIT Plus](Guardian-IMS.md)',
         '- [Connections](Ecosystem.md)', '- [Agreed direction](Constraints.md)', '- [Evidence](Evidence.md)',
         '- [Source library](Source-library.md)', '- [AI research and prompt](Research-brief.md)', '- [Research sources](Research-sources.md)', '- [Useful words](Glossary.md)', '- [Rights and discovery](Rights-and-discovery.md)', '', '**Work areas**', ''] +
         [f'- [{d["name"]}](Domain-{d["id"]}.md)' for d in data['domains']]) + '\n'

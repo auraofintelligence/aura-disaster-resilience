@@ -12,6 +12,7 @@
 - [AI assistant jobs](Agent-work.md)
 - [Council integration](Council-integration.md)
 - [Council plan crosswalk](Council-plan-crosswalk.md)
+- [Guardian IMS and QIT Plus](Guardian-IMS.md)
 - [Connections](Ecosystem.md)
 - [Agreed direction](Constraints.md)
 - [Evidence](Evidence.md)

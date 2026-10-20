@@ -48,14 +48,14 @@ Use the linked wiki as the reading and question map, GitHub issues for review co
 
 The fingerprint below identifies this exact proposal and its supporting files. A changed proposal gets a fresh fingerprint and review. A person may approve, request changes or reject it. [How reviews work](Human-review.md).
 
-`e2a982d34a1baedda0382ece23008a4c6b3f48842a5d8e3de88fcab585fff34a`
+`5916a6d8a2e17b82068746f934170379ad8fadac2953f48d8ce367a31207ae74`
 
-Evidence fingerprint: `897e1885220a4812448274081a705e77ff8ec6019020fa470a1206bbeabbfe66`.
+Evidence fingerprint: `fe5973faaab13bf79ca29489fd3fc77a81e3e4ac508b912a3b927e71e81b2968`.
 
 For approval, the named person posts this line in the linked GitHub issue after reading the proposal:
 
 ```text
-HITL APPROVE D-001 e2a982d34a1baedda0382ece23008a4c6b3f48842a5d8e3de88fcab585fff34a scope=working_method
+HITL APPROVE D-001 5916a6d8a2e17b82068746f934170379ad8fadac2953f48d8ce367a31207ae74 scope=working_method
 Conditions: none
 ```
 

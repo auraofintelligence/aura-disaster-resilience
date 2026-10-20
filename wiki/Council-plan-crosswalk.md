@@ -51,6 +51,8 @@
 
 The next review should establish current subsidiary plans, relevant Alfred actions, the replacement recovery-plan edition, actual service owners, data-sharing conditions, supported Guardian exchange and the observed baseline. Detailed procedures may sit outside these two public documents. An unlisted specification is a design question, rather than evidence that Council lacks the capability.
 
+[Guardian IMS and QIT Plus](Guardian-IMS.md) examines public product and company information, existing named integrations, the vendor's scoped offline claim and a proposed Council–supplier–community partnership path for personal Auras. It distinguishes supplier-wide descriptions from the plan's documented local arrangements.
+
 For a twin or AI explanation, retain source dates. M's risk summary at §2.3.3, printed p.45 / PDF46, explicitly uses a previous plan; demographic material also retains its census/estimate dates. Keep those editions distinct from new observations and modelled futures.
 
 Use current legal and professional review for the actual proposed action, including privacy and records duties. [Your Relevance](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html), [P4A Legal RAG](https://p4a.xyz/pages/legal-rag.html) and [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine) help trace sources; applicable law, operative dates and the responsible review remain explicit.

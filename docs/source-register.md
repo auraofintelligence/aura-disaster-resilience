@@ -62,6 +62,14 @@ The management plan's §7.6 still references the 2016 recovery baseline. Council
 
 The public-route review establishes matching edition fields and publication context; it does not claim live-download byte identity. Proposed capability, measured performance, human review and actual Council integration retain their separate evidence. The library now contains 34 documents, including all 31 supplied originals; earlier publication receipts continue to describe their original editions.
 
+## Guardian IMS and a future Aura partnership
+
+[Guardian IMS and QIT Plus](../wiki/Guardian-IMS.md) researches the software and supplier using 18 public registry, government, vendor and app-store sources, checked 21 October 2026. Its [research record](../data/guardian-research-record.json) preserves both the request and Luke's clarification: if Guardian continues as Council's contracted system and evolves well, people with Auras could eventually interface with it. Company-published claims, official records, documented Council arrangements and AI-generated partnership proposals retain their own labels.
+
+The research distinguishes Guardian IMS, public Disaster Dashboards, Flood Intelligence Dashboard/BRIDGE and mobile tools. Named integrations establish supplier experience, while a general supported developer interface and Redland's contract permissions remain matters to establish. The proposed route develops Council sponsorship, a joint QIT Plus discussion, an agreed commercial/support arrangement, a sample-data demonstration and a scoped pilot. No outreach, contract renewal or partnership is inferred.
+
+The new external layer preserves links, limited supported facts and checked dates rather than copies of complete third-party sites. Its 18 references are separate from the original 51-reference comparative-answer catalogue and the 34 preserved source documents.
+
 ## Preserved source editions
 
 The source library packages original documents and website-source snapshots with full checksums, edition notes and restore/verification helpers. The manifests record duplicate aliases and capture boundaries. Each source retains its existing licence and third-party conditions. Local working paths and the temporary chat screenshot stay outside the public package.

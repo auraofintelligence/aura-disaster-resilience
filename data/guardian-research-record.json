@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "id": "GUARDIAN-RESEARCH-2026-10-21",
+  "checked_on": "2026-10-21",
+  "timezone": "Australia/Brisbane",
+  "ai_generated": true,
+  "generated_by": "OpenAI Codex research assistants, integrated by the coordinating AI assistant",
+  "status": "Public-source research and proposed Aura partnership path for discussion and review",
+  "user_requests": [
+    "Thanks. please do another research page for the wiki on the guardian software system and the company behind it using publicly accessible information.",
+    "assuming that if guardian keeps the contract and evolves well, that people with Aura's will be interfacing with it eventually, so how partnership and integration might occur or be sought."
+  ],
+  "output": "content/Guardian-IMS.md",
+  "existing_local_evidence": [
+    {
+      "document_id": "DOC-033",
+      "locator": "Redland December 2025 management plan sections 6.2.4, 6.2.8 and6.2.26",
+      "scope": "Documented Council deployment and continuity arrangements; not a universal Guardian capability specification or contract-term record."
+    }
+  ],
+  "method": "Review public registry, government/customer, vendor and official app-store sources. Attribute vendor claims, distinguish product families and deployment-specific arrangements, and identify a proposed partnership route under the user's conditional continuing-Guardian scenario.",
+  "access_boundary": "Public pages only. No private accounts, paid company reports, protected system access, endpoint probing or external contact.",
+  "sources": [
+    {
+      "id": "G-01",
+      "title": "ABN Lookup: QIT PLUS PTY LTD",
+      "publisher": "Australian Business Register",
+      "url": "https://abr.business.gov.au/ABN/View/95128637598",
+      "evidence_type": "official_registry",
+      "fact": "ABN 95 128 637 598 identifies QIT PLUS PTY LTD, an Australian private company, with active ABN/GST registration from 1 December 2007 and ACN 128 637 598.",
+      "limit": "Public registration record retrieved during research; does not establish shareholding, every ASIC status detail or a customer agreement."
+    },
+    {
+      "id": "G-02",
+      "title": "About QIT Plus",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/about/",
+      "evidence_type": "vendor_statement",
+      "fact": "The company describes its 2007 founding by Chris Madsen and Phill Glindemann and lists their public CEO/Chairman roles and Australian, Canadian and Pacific operations.",
+      "limit": "Company-published history, roles and locations; office lists vary between pages and ownership structure was not independently established."
+    },
+    {
+      "id": "G-03",
+      "title": "Contact and product demonstration route",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/contact-copy/",
+      "evidence_type": "vendor_statement",
+      "fact": "QIT publishes contact, quotation and demonstration routes, with office locations and weekday hours.",
+      "limit": "A contact route is not a partnership programme, invitation, agreement or universal customer support entitlement."
+    },
+    {
+      "id": "G-04",
+      "title": "QIT PLUS PTY LTD supplier profile",
+      "publisher": "buy.nsw",
+      "url": "https://buy.nsw.gov.au/supplier/profile/82639",
+      "evidence_type": "official_supplier_profile",
+      "source_date": "2025-10-20",
+      "fact": "The profile lists the same business and ABN, with supplier-identified cloud-support and development services.",
+      "limit": "Profile information is distinct from government verification of every claim or approval of a specific procurement."
+    },
+    {
+      "id": "G-05",
+      "title": "QIT products",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/products/",
+      "evidence_type": "vendor_statement",
+      "fact": "QIT presents separate incident-management, public-dashboard and flood-intelligence offerings.",
+      "limit": "Advertised offerings do not establish which modules or licences a particular Council holds."
+    },
+    {
+      "id": "G-06",
+      "title": "Guardian IMS",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/guardian-ims/",
+      "evidence_type": "vendor_statement",
+      "fact": "The IMS page describes operational workflows and reports, cloud/mobile access, two-factor authentication, and a scoped roads/maintenance offline claim.",
+      "limit": "Offline capture, view, transmission and reconciliation details require a supported specification and tests for the selected configuration."
+    },
+    {
+      "id": "G-07",
+      "title": "Guardian Disaster Dashboards",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/guardian-disaster-dashboards/",
+      "evidence_type": "vendor_statement",
+      "fact": "The dashboard product provides public information, maps and optional notification features.",
+      "limit": "Public display features do not provide staff IMS access or establish automated reuse rights."
+    },
+    {
+      "id": "G-08",
+      "title": "Flood Intelligence Dashboard",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/flood-intelligence/",
+      "evidence_type": "vendor_statement",
+      "fact": "The flood product combines historical, observed and predictive information and is described as hosted through Guardian IMS.",
+      "limit": "Forecast quality and suitability require local source, configuration and validation evidence."
+    },
+    {
+      "id": "G-09",
+      "title": "Guardian IMS app: Apple Australia",
+      "publisher": "Apple App Store; developer-supplied product information",
+      "url": "https://apps.apple.com/au/app/guardian-ims/id1433843970",
+      "evidence_type": "official_app_listing",
+      "fact": "The listing describes a mobile component of the larger IMS and identifies QIT Plus Pty Ltd as developer.",
+      "limit": "Free app download does not establish free server licensing; privacy declarations are developer-provided and deployment-specific data arrangements need confirmation."
+    },
+    {
+      "id": "G-10",
+      "title": "Guardian IMS app: Google Play",
+      "publisher": "Google Play; developer-supplied product information",
+      "url": "https://play.google.com/store/apps/details?id=au.com.guardianims",
+      "evidence_type": "official_app_listing",
+      "fact": "The Android listing describes Guardian as a mobile-ready cloud solution.",
+      "limit": "Listing information does not verify complete offline operation, a Council's configuration or every operational data flow."
+    },
+    {
+      "id": "G-11",
+      "title": "Property Level Flood Information Portals: QRA-led solution",
+      "publisher": "Queensland Reconstruction Authority",
+      "url": "https://www.qra.qld.gov.au/resilient-homes-fund/property-level-flood-information-portals-program/property-level-flood-information-portals-qra-led-solution",
+      "evidence_type": "official_program_record",
+      "source_date": "2026-09-23",
+      "fact": "QRA identifies QIT Plus as awarded portal supplier and the Guardian/dashboard framework as the basis for the solution.",
+      "limit": "Program procurement and dashboard adoption are distinct from IMS customer counts or Redland's contract status."
+    },
+    {
+      "id": "G-12",
+      "title": "2025 Significant Weather Events Summary Report",
+      "publisher": "Office of the Inspector-General of Emergency Management, Queensland",
+      "url": "https://www.igem.qld.gov.au/sites/default/files/2025-12/Summary%20Report%20%28OFFICIAL-Public%29%20-%20colour.pdf",
+      "evidence_type": "official_review",
+      "source_date": "2025-10-14",
+      "locator": "Printed/PDF pp.59–60; evidence date and scope pp.2–4",
+      "fact": "The review describes common-system benefits and cross-system information-sharing concerns involving Guardian, district and state systems during reviewed 2025 events.",
+      "limit": "Historical sector findings are not a current performance test of every product, site or connection."
+    },
+    {
+      "id": "G-13",
+      "title": "QIT News: NSW User Group Event",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/news/",
+      "evidence_type": "vendor_announcement",
+      "fact": "The page advertises a 28 October 2026 event covering Guardian V2 Dashboard, mobile dashboard app and future AI capabilities; its stated RSVP deadline was 16 October.",
+      "limit": "An event agenda signals development discussion, not demonstrated AI/SI capability, invitation or a delivery commitment."
+    },
+    {
+      "id": "G-14",
+      "title": "QIT integrations",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/integrations/",
+      "evidence_type": "vendor_statement",
+      "fact": "The page names Office 365 email, DocuSign API for situation reports, and dashboard/Roads Closed App connections.",
+      "limit": "Named integrations do not constitute a public general Guardian API contract or permission for a new connector."
+    },
+    {
+      "id": "G-15",
+      "title": "QIT Partners",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/partners/",
+      "evidence_type": "vendor_page",
+      "fact": "QIT has a public Partners page with partner imagery.",
+      "limit": "The reviewed page supplied no developer-programme terms, SDK, test environment or interface contract."
+    },
+    {
+      "id": "G-16",
+      "title": "QIT Guardian newsletter, 2025 roundup",
+      "publisher": "QIT Plus via Mailchimp",
+      "url": "https://mailchi.mp/ea8d6c4385d9/the-guardian-newsletter-18004330",
+      "evidence_type": "vendor_newsletter",
+      "source_date_precision": "2025 roundup; exact publication day not established",
+      "fact": "The newsletter describes packages, accessibility/extensions, training, activated-LDCC support and scalable AWS hosting for dashboards.",
+      "limit": "Confirm the purchased configuration, server/backup region, support conditions and contractual recovery commitments."
+    },
+    {
+      "id": "G-17",
+      "title": "QIT Plus homepage: certification statement",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/",
+      "evidence_type": "vendor_statement",
+      "fact": "The footer states ISO 27001 and ISO 9001 certification.",
+      "limit": "Certificate number, issuer, current validity, scope and deployment coverage were not independently established in this research."
+    },
+    {
+      "id": "G-18",
+      "title": "QIT Plus privacy policy",
+      "publisher": "QIT Plus",
+      "url": "https://www.qitplus.com/privacy-policy/",
+      "evidence_type": "vendor_policy",
+      "source_date_displayed": "07/01/20",
+      "fact": "The public policy covers website/business information and displays 07/01/20 as its last update.",
+      "limit": "It is not a complete customer deployment data-processing, AI-use, hosting or service-level agreement."
+    }
+  ],
+  "public_specification_gaps": [
+    "General supported Guardian API/SDK and versioned schema",
+    "Sandbox, authentication/delegation scopes and partner terms",
+    "Offline module coverage, reconnection conflict and receipt semantics",
+    "Deployment-specific hosting, backups, recovery, support and data-processing terms",
+    "Redland current contract term, permitted integrations and actual Council/vendor partnership approval"
+  ],
+  "proposal_status": "Aura interfaces, commercial partnership routes and future AI/SI connections are AI-generated development options. No approval, contract renewal, operational integration or measured superiority is inferred.",
+  "rights": "Retain bibliographic metadata and limited facts with links. Original sources retain their rights; complete third-party websites are not republished."
+}

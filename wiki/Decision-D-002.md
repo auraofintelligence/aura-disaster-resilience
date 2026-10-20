@@ -47,14 +47,14 @@ Develop coordinated designs for a sheltered arcade demonstrator, an operational 
 
 The fingerprint below identifies this exact proposal and its supporting files. A changed proposal gets a fresh fingerprint and review. A person may approve, request changes or reject it. [How reviews work](Human-review.md).
 
-`fd66d08b13087b20dc544bf43ed3e7979a8cef519bd1e2f3719e658ef5c68b44`
+`c0060e3348690340a492add2890b4e4cf184d7aa6aab25891d011ddc6b74c129`
 
-Evidence fingerprint: `078b5cb86ea1c7cc766356691782351f36d911bdcd84a45090cfa80b25628c15`.
+Evidence fingerprint: `8be46e59c95ce1c79e2277458747982387533d082659a63053ce2e47050b2b4c`.
 
 For approval, the named person posts this line in the linked GitHub issue after reading the proposal:
 
 ```text
-HITL APPROVE D-002 fd66d08b13087b20dc544bf43ed3e7979a8cef519bd1e2f3719e658ef5c68b44 scope=design_brief
+HITL APPROVE D-002 c0060e3348690340a492add2890b4e4cf184d7aa6aab25891d011ddc6b74c129 scope=design_brief
 Conditions: none
 ```
 
