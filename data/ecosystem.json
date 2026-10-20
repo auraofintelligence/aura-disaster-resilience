@@ -1,0 +1,532 @@
+[
+  {
+    "id": "disaster-service",
+    "name": "Disaster resilience service and kiosk lineage",
+    "repositories": [
+      "https://github.com/auraofintelligence/aura-disaster-resilience",
+      "https://github.com/auraofintelligence/straddie-disaster-kiosks",
+      "https://github.com/auraofintelligence/Minjerribah-Resilience"
+    ],
+    "role": "Build a whole disaster resilience service that people use every day and rely on through disruption. The new repository brings together public information, help requests, approved local content, power, communications, skilled people and continuing support. The predecessor kiosk and resilience work provide source material for demonstrations, community discussion and a tested network.",
+    "scope": "core",
+    "question_ids": [
+      "OPS-01",
+      "DAT-01",
+      "SW-01",
+      "PHY-01",
+      "ENE-01",
+      "COM-01",
+      "GOV-01",
+      "FIN-01",
+      "TEST-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "gajra-values",
+    "name": "GAJRA Earth values starting point",
+    "repositories": [
+      "https://github.com/auraofintelligence/gajra-earth-claude-build",
+      "https://github.com/auraofintelligence/GAJRA-earth-infinity",
+      "https://github.com/auraofintelligence/gajra-earth-public-hub"
+    ],
+    "role": "Global Association for Joyful Responsible Abundance on Earth is the values starting point: worthwhile experiences, responsibility for consequences and useful capability shared widely. People can interpret, question and improve these values locally. Public information and assistance remain open to everyone, with enrolment and pledges a separate voluntary choice.",
+    "scope": "core",
+    "question_ids": [
+      "OPS-01",
+      "AUR-01",
+      "GOV-02",
+      "TEST-04"
+    ],
+    "status": "proposed; source artefacts exist",
+    "public_urls": [
+      "https://auraofintelligence.github.io/gajra-earth-claude-build/",
+      "https://auraofintelligence.github.io/GAJRA-earth-infinity/"
+    ]
+  },
+  {
+    "id": "aura-personal-os",
+    "name": "Aura of Intelligence personal AI operating system",
+    "repositories": [
+      "https://github.com/auraofintelligence/auraofintelligence.github.io",
+      "https://github.com/auraofintelligence/aura-matrix-studio"
+    ],
+    "role": "Develop person-controlled guidance that helps someone find services, understand evidence, choose an action and learn what to do next. Light to ultra high definition describes growing depth and capability rather than fixed product tiers. Personal context, screen detail, computing location and emergency energy settings are separate choices. The hub and library-linked Aura Matrix Studio provide starting material for this work.",
+    "scope": "core",
+    "question_ids": [
+      "AUR-01",
+      "SW-01",
+      "DAT-05",
+      "TEST-04"
+    ],
+    "status": "proposed; source artefacts exist",
+    "public_urls": [
+      "https://auraofintelligence.github.io/",
+      "https://auraofintelligence.com/"
+    ]
+  },
+  {
+    "id": "genesis-geode-learning",
+    "name": "Aura Genesis, Geode atlas and teacher-training sources",
+    "repositories": [
+      "https://github.com/auraofintelligence/aura-genesis-geode-atlas",
+      "https://github.com/auraofintelligence/aura-genesis"
+    ],
+    "role": "Connect voluntary personal reflection, participant-reviewed models and task-linked learning to everyday community capability. Protocol V2, Geode Development Edition 3 and Teacher Training contribute different learning and permission patterns. People choose their research participation and disclosures, while public disaster information stays available independently.",
+    "scope": "interface",
+    "question_ids": [
+      "AUR-01",
+      "DAT-05",
+      "GOV-03",
+      "TEST-04"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "verse-box",
+    "name": "Verse Box",
+    "repositories": [
+      "https://github.com/auraofintelligence/aura-verse-box"
+    ],
+    "role": "Explore a person-controlled Aura with chosen memory, text, voice, lists and spatial views, using personal or shared computers as appropriate. Verse Box trial material helps shape practical interface and learning demonstrations. Host arrangements, physical equipment and trial evidence would be developed through their own milestones.",
+    "scope": "interface",
+    "question_ids": [
+      "AUR-01",
+      "PHY-01",
+      "ENE-01",
+      "GOV-04",
+      "TEST-04"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "legal-retrieval",
+    "name": "Australian legal reflection and retrieval",
+    "repositories": [
+      "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
+      "https://github.com/auraofintelligence/australian-legal-engine"
+    ],
+    "role": "Help people find, trace, understand and question source-linked civic and legal material. The supplied Legal RAG blueprint describes AI that retrieves relevant source passages before producing an explanation. The disaster service would build its current collection of official instructions and approved procedures with the responsible information owners.",
+    "scope": "interface",
+    "question_ids": [
+      "DAT-01",
+      "DAT-02",
+      "AUR-01",
+      "GOV-06"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "personal-place-specification",
+    "name": "Sovereign Space Builder source specification",
+    "repositories": [],
+    "role": "Use the supplied Sovereign Space Builder specification to explore chosen sharing of household and neighbourhood knowledge about places, tools and food. People would control which records stay private and which approved summaries reach the kiosk. The reviewed specification informs the design; private originals remain with their holders.",
+    "scope": "interface",
+    "question_ids": [
+      "DAT-05",
+      "TWIN-01",
+      "ECO-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "twin-family",
+    "name": "Straddie and Minjerribah twin family",
+    "repositories": [
+      "https://github.com/auraofintelligence/straddie-twins",
+      "https://github.com/auraofintelligence/straddie-twin-prototype",
+      "https://github.com/auraofintelligence/straddie-digital-twin-builders",
+      "https://github.com/auraofintelligence/straddie-digital-twin-explainer",
+      "https://github.com/auraofintelligence/minjerribah-living-twin",
+      "https://github.com/auraofintelligence/second-island"
+    ],
+    "role": "Bring dated maps, panoramas, notes and place evidence into useful journeys and rehearsals. A digital twin is a versioned representation of a place or system that people can inspect and correct. The catalogue, prototype, builders, explainer, Living Twin and Second Island provide different contributions. Essential local text and maps would remain available when richer views cannot run.",
+    "scope": "interface",
+    "question_ids": [
+      "TWIN-01",
+      "DAT-02",
+      "DAT-04",
+      "TEST-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "noticeboard-publishing",
+    "name": "Straddie Noticeboard Network",
+    "repositories": [
+      "https://github.com/auraofintelligence/straddie-noticeboard-network"
+    ],
+    "role": "Develop one reviewed publishing flow for local notices and urgent changes across kiosks, phones and community screens. Each version would retain its source, identity, revision, permissions and valid period. The next milestones connect the source patterns to working publishing tools, installed displays and accountable day-to-day care.",
+    "scope": "core",
+    "question_ids": [
+      "SW-01",
+      "DAT-03",
+      "DAT-04",
+      "COM-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "country-events",
+    "name": "Quandamooka Country Events Engine",
+    "repositories": [
+      "https://github.com/auraofintelligence/quandamooka-country-events-engine"
+    ],
+    "role": "Provide a useful public calendar with reviewed event occurrences, accessible details and timely cancellation or postponement notices. Each occurrence would carry its own date, source and current status. Event venue information and confirmed emergency facility activation would remain distinct records.",
+    "scope": "interface",
+    "question_ids": [
+      "OPS-01",
+      "DAT-02",
+      "DAT-06"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "screen-media",
+    "name": "Minjerribah Screen and Media Network",
+    "repositories": [
+      "https://github.com/auraofintelligence/minjerribah-screen-media-network"
+    ],
+    "role": "Connect local editorial work, accessible storytelling and community media to the reviewed publishing flow. Artists and editors could prepare formats for different screens while essential notices and urgent corrections receive priority. Delivery tools, editorial roles and device operations would be demonstrated together.",
+    "scope": "interface",
+    "question_ids": [
+      "DAT-06",
+      "SW-01",
+      "COM-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "ready-set-co-op",
+    "name": "Ready S.E.T. Co-op operating and trust model",
+    "repositories": [
+      "https://github.com/auraofintelligence/ready-set-co-op-trust-hub"
+    ],
+    "role": "Develop Ready Sustainable Employment and Training Cooperative as the proposed intermediary for kiosks, the Cultural Intelligence Node and the Screen and Media Network. Ready S.E.T. Co-op would connect useful work, learning, equipment care and accountable service. Community discussion, formation, membership, hosts, staffing and continuing resources are the next milestones.",
+    "scope": "core",
+    "question_ids": [
+      "GOV-01",
+      "GOV-04",
+      "OPS-06",
+      "FIN-02"
+    ],
+    "status": "proposed; source artefacts exist",
+    "public_urls": [
+      "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/"
+    ]
+  },
+  {
+    "id": "cultural-intelligence-node",
+    "name": "Ready S.E.T. Co-op Cultural Intelligence Node",
+    "repositories": [
+      "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node"
+    ],
+    "role": "Grow serious community-controlled computing for culture, learning and shared services. The kiosk would exchange agreed information and selected workloads with this larger capability. Its essential local service would continue independently, while relevant cultural custodians set the conditions for their material and participation.",
+    "scope": "interface",
+    "question_ids": [
+      "SW-01",
+      "ENE-01",
+      "GOV-03",
+      "FIN-02",
+      "ECO-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "c-hours",
+    "name": "C-Hours and the Braided Economy",
+    "repositories": [
+      "https://github.com/auraofintelligence/C-Hour-introduction"
+    ],
+    "role": "Recognise verified voluntary human contribution through an optional C-Hour interface. Each community chooses its reciprocal rewards. One elapsed hour stays one hour, with no monetary equivalent, sale or transfer. Paid work, money, machine time and outcomes remain separate, and linked projects count a person's elapsed time once. Assistance remains available independently of participation.",
+    "scope": "interface",
+    "question_ids": [
+      "GOV-05",
+      "DAT-05",
+      "FIN-02"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "shared-table-dig",
+    "name": "Shared Table and revised Dig for Australia",
+    "repositories": [
+      "https://github.com/auraofintelligence/shared-table-initiative"
+    ],
+    "role": "Connect food and water availability, growing, kitchen skills, preserving, shared meals and practical mutual help through approved information. Garden Mate and Kitchen Mate ideas offer future learning and coordination paths. Condition, storage history, responsible custodians and chosen disclosure would make summaries useful. The revised Shared Table material guides this connection while the original Dig chat remains to be located.",
+    "scope": "interface",
+    "question_ids": [
+      "OPS-07",
+      "DAT-05",
+      "ECO-01",
+      "TWIN-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "clean-energy",
+    "name": "Straddie Clean Energy Superpower",
+    "repositories": [
+      "https://github.com/auraofintelligence/straddie-clean-energy-superpower"
+    ],
+    "role": "Develop local energy capability that can support reliable everyday service and disaster continuity. The kiosk work would measure essential demand, usable storage, periods without generation, replenishment and connected operation with qualified people. The energy proposal offers a pathway for later supply agreements and demonstrated support.",
+    "scope": "interface",
+    "question_ids": [
+      "ENE-01",
+      "PHY-01",
+      "FIN-02",
+      "TEST-03"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "makerspace",
+    "name": "Straddie Makerspace Lab",
+    "repositories": [
+      "https://github.com/auraofintelligence/straddie-makerspace-lab"
+    ],
+    "role": "Build a pathway for repair, fabrication, spares, tool confidence and supervised learning. Kiosk maintainers could use approved replacement instructions and develop practical skills with mentors. Workshop access, qualified cover, available parts and response arrangements would become specific agreements as capability grows.",
+    "scope": "interface",
+    "question_ids": [
+      "PHY-01",
+      "OPS-06",
+      "OPS-08",
+      "TEST-03"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "tip-loop",
+    "name": "Straddie Tip Loop Lab",
+    "repositories": [
+      "https://github.com/auraofintelligence/straddie-tip-loop-lab"
+    ],
+    "role": "Turn recovery and reuse into traceable local capability. Material passports would record where an item came from, its condition, tests, custody and intended use. This offers future routes for kiosk components and spares, with suitability and reliable supply demonstrated before those items enter service.",
+    "scope": "interface",
+    "question_ids": [
+      "PHY-01",
+      "GOV-04",
+      "ECO-01",
+      "FIN-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "gumpi-terminal",
+    "name": "Dunwich Gumpi Ferry Terminal Open Data Lab",
+    "repositories": [
+      "https://github.com/auraofintelligence/dunwich-gumpi-ferry-terminal-open-data-lab"
+    ],
+    "role": "Connect confirmed transport information, accessible movement and collection points to the kiosk. Public photos, maps and simulations help people understand and discuss the gateway. Live status arrangements, location agreements and any kiosk funding would be established with the responsible operators and hosts.",
+    "scope": "interface",
+    "question_ids": [
+      "OPS-02",
+      "OPS-05",
+      "DAT-01",
+      "ECO-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "autonomous-mobility",
+    "name": "Moreton Bay Autonomous Mobility",
+    "repositories": [
+      "https://github.com/auraofintelligence/moreton-bay-autonomous-mobility"
+    ],
+    "role": "Explore assisted passenger journeys and essential deliveries through operator-confirmed availability. A future kiosk connection would show collection points, route conditions, charging, weather limits and human support. Demonstrating these arrangements would lead to a dependable request and handover service.",
+    "scope": "interface",
+    "question_ids": [
+      "OPS-05",
+      "OPS-07",
+      "COM-01",
+      "ENE-01",
+      "ECO-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "ballow-road",
+    "name": "Ballow Road Sand Screen Hub",
+    "repositories": [
+      "https://github.com/auraofintelligence/ballow-road-sand-screen-hub"
+    ],
+    "role": "Explore host, training, media and collection-point opportunities through site-specific discussion. The 9 Ballow Road doorway and 10-12 Ballow Road sand/screen concept have different purposes; Junner Street is another location. Each opportunity would progress through current availability, host agreement, access and installation planning.",
+    "scope": "interface",
+    "question_ids": [
+      "GOV-04",
+      "OPS-02",
+      "PHY-01",
+      "ECO-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "sandworm",
+    "name": "Sandworm and related materials research",
+    "repositories": [
+      "https://github.com/auraofintelligence/sandworm-subterranean-systems"
+    ],
+    "role": "Carry forward research into fortification, recovered materials for Aura Geode and community buildings, coastal protection, reefs, energy and practical skills. Material source, testing, review, destination and public benefit records offer useful connections. Engineering, environmental, host and supply evidence would establish future applications. Sand thermal storage stores heat; kiosk electricity needs its own demonstrated supply.",
+    "scope": "interface",
+    "question_ids": [
+      "ECO-01",
+      "PHY-01",
+      "ENE-01",
+      "TWIN-01",
+      "GOV-03"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "grants-lab",
+    "name": "Stradbroke Grants Lab",
+    "repositories": [
+      "https://github.com/auraofintelligence/stradbroke-grants-lab"
+    ],
+    "role": "Turn funding ideas into clear component budgets, current source checks, readiness evidence and reporting plans. The kiosk could combine planning, equipment, power, communications, training and content opportunities where each programme fits. Actual applicants and any auspice organisation would agree responsibilities before an application or financial commitment.",
+    "scope": "interface",
+    "question_ids": [
+      "FIN-01",
+      "FIN-03",
+      "FIN-04",
+      "GOV-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "cooperative-models",
+    "name": "Cooperative, shared-asset and Oceania model sources",
+    "repositories": [
+      "https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops"
+    ],
+    "role": "Learn from the supplied cooperative, shared-asset, health/AI and regional cooperation sources. They offer questions about ownership, shared purchasing, training, reserves and continuity. The kiosk would develop its own suitable operating and financial arrangements, while private originals remain with their holders and health research keeps its own purpose.",
+    "scope": "context",
+    "question_ids": [
+      "GOV-01",
+      "GOV-06",
+      "FIN-02"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "unga-aukus",
+    "name": "UNGA81, missing-middle thesis and AUKUS sources",
+    "repositories": [
+      "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+      "https://github.com/auraofintelligence/aukus-space-gambit"
+    ],
+    "role": "Connect useful local computing, personal choice, learning and disaster continuity through the missing-middle argument. UNGA81's library separates institutional references, author papers and related projects. The actual AUKUS submission, shorter Senate AI/data-centres paper and ISS Space Gambit remain distinct contributions, providing ideas to test and discuss through the kiosk programme.",
+    "scope": "context",
+    "question_ids": [
+      "ECO-01",
+      "GOV-02",
+      "AUR-01",
+      "SW-01"
+    ],
+    "status": "proposed; source artefacts exist",
+    "public_urls": [
+      "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/library.html"
+    ]
+  },
+  {
+    "id": "workforce-mutual",
+    "name": "Mutual Futures and supported Try Everything Once pathways",
+    "repositories": [
+      "https://github.com/auraofintelligence/mutual-futures"
+    ],
+    "role": "Develop paid, supervised work exploration and mentoring alongside useful community services. Mutual Futures and Try Everything Once connect varied experience, fair succession and shared capability. Kiosk work could help people learn operations and maintenance, with current qualified cover, clear employment conditions and voluntary contribution recorded separately.",
+    "scope": "interface",
+    "question_ids": [
+      "OPS-06",
+      "GOV-01",
+      "GOV-05",
+      "TEST-04"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "games-horizon",
+    "name": "Brisbane 2032 learning and volunteering horizon",
+    "repositories": [],
+    "role": "Use the Brisbane 2032 horizon to inspire practical learning and later volunteering opportunities. The skills would remain valuable in everyday community life. Relevant organisers would decide official recruitment, selection and qualifications, while local learning arrangements would progress through their own agreements.",
+    "scope": "context",
+    "question_ids": [
+      "OPS-06",
+      "GOV-02",
+      "ECO-01"
+    ],
+    "status": "proposed; source artefacts exist",
+    "public_urls": [
+      "https://www.qld.gov.au/government/strategies-initiatives/initiatives/brisbane2032/brisbane-2032-organising-committee"
+    ]
+  },
+  {
+    "id": "redlands-civic",
+    "name": "Redlands discovers Luke Hayes",
+    "repositories": [
+      "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes"
+    ],
+    "role": "Connect useful local installations and cooperation to the user's wider civic direction. Redlands discovers Luke Hayes provides narrative, source connections and questions for public discussion. Each connected initiative would develop its own people, evidence, resources and participation as the programme grows.",
+    "scope": "context",
+    "question_ids": [
+      "ECO-01",
+      "OPS-01",
+      "GOV-02"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "p4a-sensorium",
+    "name": "P4A, Web3 Sensorium and future scenario learning",
+    "repositories": [
+      "https://github.com/auraofintelligence/p4a-xyz-cinema"
+    ],
+    "role": "Explore how locally useful capability can inform wider civic platforms, democratic participation and shared research. P4A, the Cyber Republic horizon, Sensorium and Twinkle offer proposed directions and voluntary scenarios. Clear labels for observation, model, fiction and hypothesis help people learn, challenge claims and preserve official warning authority.",
+    "scope": "context",
+    "question_ids": [
+      "ECO-01",
+      "DAT-06",
+      "AUR-01",
+      "TEST-01"
+    ],
+    "status": "proposed; source artefacts exist",
+    "public_urls": [
+      "https://p4a.xyz",
+      "https://p4a.xyz/pages/web3-sensorium.html",
+      "https://p4a.xyz/pages/twinkle-uap.html",
+      "https://p4a.xyz/pages/twinkle.html"
+    ]
+  },
+  {
+    "id": "grain-capability",
+    "name": "Grain by Grain capability and documentary sources",
+    "repositories": [
+      "https://github.com/auraofintelligence/grain-by-grain-documentary",
+      "https://github.com/auraofintelligence/grain-by-grain"
+    ],
+    "role": "Use documentary, storytelling and capability-building material to connect practical learning across generations. Grain by Grain explores repair, materials and useful local skills. Treatments, scenarios and public evidence can support discussion as film, learning and infrastructure ideas each progress through their own development milestones.",
+    "scope": "context",
+    "question_ids": [
+      "ECO-01",
+      "TWIN-01",
+      "OPS-06"
+    ],
+    "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "future-hazards",
+    "name": "Micronova and excursions future-readiness sources",
+    "repositories": [
+      "https://github.com/auraofintelligence/micronova-and-excursions"
+    ],
+    "role": "Explore longer-horizon continuity through retained knowledge, food, water, repair and strong relationships. Micronova and excursions material can inform clearly labelled voluntary scenarios alongside established local hazards. Particular forecasts and solar-mechanism hypotheses would retain their research status while participants test useful preparedness skills.",
+    "scope": "context",
+    "question_ids": [
+      "ECO-01",
+      "TEST-01",
+      "TWIN-01"
+    ],
+    "status": "proposed; source artefacts exist"
+  }
+]
+

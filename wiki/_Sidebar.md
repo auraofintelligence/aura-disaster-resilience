@@ -1,0 +1,32 @@
+**Aura Disaster Resilience**
+
+- [Start here](Home.md)
+- [The whole system](Stack-map.md)
+- [First choices](First-review.md)
+- [All-weather design](All-weather-design.md)
+- [Questions](Question-register.md)
+- [Progress](Progress.md)
+- [People decide](Human-review.md)
+- [AI assistant jobs](Agent-work.md)
+- [Connections](Ecosystem.md)
+- [Agreed direction](Constraints.md)
+- [Evidence](Evidence.md)
+- [Source library](Source-library.md)
+- [Useful words](Glossary.md)
+- [Rights and discovery](Rights-and-discovery.md)
+
+**Work areas**
+
+- [Everyday service and disaster work](Domain-OPS.md)
+- [Weather-ready kiosks and places](Domain-PHY.md)
+- [Energy and backup power](Domain-ENE.md)
+- [Connections and messages](Domain-COM.md)
+- [Information people can trust](Domain-DAT.md)
+- [Software and device care](Domain-SW.md)
+- [Personal Aura and learning](Domain-AUR.md)
+- [Place models and practice exercises](Domain-TWIN.md)
+- [Community and operating responsibility](Domain-GOV.md)
+- [Budget and continuing support](Domain-FIN.md)
+- [Tests and field learning](Domain-TEST.md)
+- [Project connections](Domain-ECO.md)
+- [Working together and human review](Domain-WRK.md)

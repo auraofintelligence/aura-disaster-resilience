@@ -1,0 +1,25 @@
+# PHY-06 How will the equipment stay within its temperature and moisture limits during hot humid weather, intensive computing, energy-saving operation and smoke-related closure of vents?
+
+[Start here](Home.md) · [Questions](Question-register.md) · [Progress](Progress.md) · [People decide](Human-review.md)
+
+## Why this matters
+
+Managing heat and water helps electronics last and keeps the public information service dependable.
+
+## What to bring back
+
+Prepare a heat and moisture study for each layout. Compare airflow, reduced-power operation, drainage and protection against condensation - water forming on cool surfaces. Show sensor positions, safe shutdown points and tests of closed vents and restart.
+
+## What we know so far
+
+- Straddie Disaster Kiosk Pitch.pdf — reviewed source; public copy can be added through the evidence process
+
+## People and connected choices
+
+**Who reviews:** Proposed thermal/mechanical designer with electrical safety reviewer; role and appointment awaiting confirmation
+
+**Connected questions:** [PHY-04](Question-PHY-04.md), [PHY-05](Question-PHY-05.md), [ENE-01](Question-ENE-01.md), [ENE-02](Question-ENE-02.md)
+
+**Work state:** open. **Assigned person or AI assistant:** Ready to be assigned.
+
+Research and alternatives can move ahead while connected decisions develop. Before acting on a choice, check the people, evidence and approved scope in [People decide](Human-review.md).

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "JOB-01",
+    "title": "Shape the first service",
+    "output": "A service brief and everyday/disaster journeys with people and handovers",
+    "question_ids": [
+      "OPS-01",
+      "OPS-02",
+      "GOV-01"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-02",
+    "title": "Draw the weather-ready kiosk family",
+    "output": "Exposure requirements, comparison layouts, mounting and maintenance access",
+    "question_ids": [
+      "PHY-01",
+      "PHY-02",
+      "PHY-03"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-03",
+    "title": "Measure the energy job",
+    "output": "Workload measurements, energy budget, reserve and power-change test plan",
+    "question_ids": [
+      "ENE-01",
+      "ENE-02",
+      "ENE-03"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-04",
+    "title": "Map the available connections",
+    "output": "Network layout, message sizes, coverage and disconnected-group test plan",
+    "question_ids": [
+      "COM-01",
+      "COM-02",
+      "SW-02"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-05",
+    "title": "Build the information agreement",
+    "output": "Source owners, validity, correction, publication and request record designs",
+    "question_ids": [
+      "DAT-01",
+      "DAT-02",
+      "SW-03"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-06",
+    "title": "Design the working software",
+    "output": "Components, safe updates, recovery and device status",
+    "question_ids": [
+      "SW-01",
+      "SW-03",
+      "SW-04"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-07",
+    "title": "Work through Aura and learning",
+    "output": "Personal navigation, chosen context and a source-led practical learning journey",
+    "question_ids": [
+      "AUR-01",
+      "AUR-02",
+      "AUR-03"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-08",
+    "title": "Prepare useful place exercises",
+    "output": "Evidence-backed place models, scenario inputs and comparison methods",
+    "question_ids": [
+      "TWIN-01",
+      "TWIN-02",
+      "TEST-01"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-09",
+    "title": "Build the operating and support model",
+    "output": "People, responsibility, shifts, cultural engagement and handover",
+    "question_ids": [
+      "GOV-01",
+      "GOV-02",
+      "OPS-01"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-10",
+    "title": "Price continuing service",
+    "output": "Parts, installation, wages, connections, upkeep, replacement and funding leads",
+    "question_ids": [
+      "FIN-01",
+      "FIN-02"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-11",
+    "title": "Define the first project connections",
+    "output": "Public notice/calendar/media and later resource/mobility/energy interfaces",
+    "question_ids": [
+      "ECO-01",
+      "ECO-02",
+      "ECO-03"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-12",
+    "title": "Plan measurements and exercises",
+    "output": "Bench, network, accessibility, nine-day scenario and later field evidence",
+    "question_ids": [
+      "TEST-01",
+      "TEST-02",
+      "TEST-03"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  },
+  {
+    "id": "JOB-13",
+    "title": "Check the wiki as a practical workshop",
+    "output": "Clear questions, working links, review checks and the next useful jobs",
+    "question_ids": [
+      "WRK-01",
+      "WRK-04",
+      "WRK-05",
+      "WRK-06"
+    ],
+    "status": "ready for research and alternatives",
+    "assigned_to": null
+  }
+]

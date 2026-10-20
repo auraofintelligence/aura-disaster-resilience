@@ -1,0 +1,1534 @@
+{
+  "schema_version": 1,
+  "title": "Source documents for Aura Disaster Resilience",
+  "prepared_at_utc": "2026-10-20T07:54:32+00:00",
+  "package_root": "sources/documents",
+  "availability": "packaged",
+  "scope": "All 29 explicitly supplied planning and research originals, the reviewed Verse Box and Redlands variants, and the reviewed kiosk mesh document.",
+  "identity_method": "Full SHA-256 content fingerprints. Identical bytes share one packaged document with filename and public-location aliases. Different bytes retain separate originals.",
+  "public_path_policy": "Public records use original filenames, relative package paths and public repository references.",
+  "rights_note": "Original documents retain their attached authorship, source rights and third-party rights. Packaging preserves the source bytes and records their planning or research role.",
+  "publication_note": "This collection makes the evidence available for the resilience workshop. Source proposals, claims and embedded prompts remain source material for review.",
+  "maximum_document_bytes": 94371840,
+  "summary": {
+    "unique_documents": 32,
+    "unique_bytes": 56989754,
+    "user_supplied_requests": 29,
+    "packaged_requests": 29,
+    "missing_requests": 0,
+    "source_aliases": 59,
+    "oversize_documents": 0
+  },
+  "requests": [
+    {
+      "id": "REQ-001",
+      "category": "kiosk",
+      "original_filename": "Straddie Disaster Kiosk Pitch.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-001",
+      "public_path": "sources/documents/Straddie Disaster Kiosk Pitch.pdf",
+      "sha256": "2160c83b20144ab4d8093d20d4f036e65facc5381d875d1667a1424735bf69d3"
+    },
+    {
+      "id": "REQ-002",
+      "category": "kiosk",
+      "original_filename": "GPT Straddie Disaster Kiosks.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-002",
+      "public_path": "sources/documents/GPT Straddie Disaster Kiosks.pdf",
+      "sha256": "b66f3a73545b79e263acffcf6ef3b622b869c01bd5be9e95f8a12447cf33e57d"
+    },
+    {
+      "id": "REQ-003",
+      "category": "kiosk",
+      "original_filename": "Island_Resilience_Sovereign_Kiosks.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-003",
+      "public_path": "sources/documents/Island_Resilience_Sovereign_Kiosks.pdf",
+      "sha256": "32e38d2b2108278664e9c309042827d784c0ec44c91b40a9b1cf88f481fa78b5"
+    },
+    {
+      "id": "REQ-004",
+      "category": "cooperative",
+      "original_filename": "SETCo 2026 Pitch Plan Revision.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-004",
+      "public_path": "sources/documents/SETCo 2026 Pitch Plan Revision.pdf",
+      "sha256": "1be16446dc69d8dc6c8caee9dc9e1fd924826a65d5a3750560011960e73e0411"
+    },
+    {
+      "id": "REQ-005",
+      "category": "alignment",
+      "original_filename": "Joyful_Responsible_Abundance_Human_and_SI_Alignment_Revised.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-005",
+      "public_path": "sources/documents/Joyful_Responsible_Abundance_Human_and_SI_Alignment_Revised.pdf",
+      "sha256": "bf5ba0b11ad990c7829432f7949d5bd2989c8351db7566ea0d5969753e30a678"
+    },
+    {
+      "id": "REQ-006",
+      "category": "submission",
+      "original_filename": "Fiji_Australia_Vuvale_Union_Submission_Luke_Nathan_Hayes_2026.docx",
+      "availability": "packaged",
+      "document_id": "DOC-006",
+      "public_path": "sources/documents/Fiji_Australia_Vuvale_Union_Submission_Luke_Nathan_Hayes_2026.docx",
+      "sha256": "f62ae877f90e437583d9ecc2db29f3b11f20253c05b6feda573d7e694c3e8af0"
+    },
+    {
+      "id": "REQ-007",
+      "category": "submission",
+      "original_filename": "AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+      "availability": "packaged",
+      "document_id": "DOC-007",
+      "public_path": "sources/documents/AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+      "sha256": "1fcc88fe31b0192107683880a9c21c4ce7e83b63e91b576316e618e43363ffea"
+    },
+    {
+      "id": "REQ-008",
+      "category": "submission",
+      "original_filename": "Do Not Put All Our Eggs in One Basket.docx",
+      "availability": "packaged",
+      "document_id": "DOC-008",
+      "public_path": "sources/documents/Do Not Put All Our Eggs in One Basket.docx",
+      "sha256": "1d936a8432cb88c323010b0ca01fc497c8318c73356e63b49a6b2edf1c8c54c1"
+    },
+    {
+      "id": "REQ-009",
+      "category": "submission",
+      "original_filename": "A Fair Go for the AI Age_ Postcode-Level Sovereign Compute as Shared National Infrastructure.docx",
+      "availability": "packaged",
+      "document_id": "DOC-009",
+      "public_path": "sources/documents/A Fair Go for the AI Age_ Postcode-Level Sovereign Compute as Shared National Infrastructure.docx",
+      "sha256": "ccc0b69b4044892cbd5a50eed16e1c47656db8db03b6630d62a96836967d2c8d"
+    },
+    {
+      "id": "REQ-010",
+      "category": "submission",
+      "original_filename": "Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+      "availability": "packaged",
+      "document_id": "DOC-010",
+      "public_path": "sources/documents/Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+      "sha256": "71532df9fdd542df9a77506608746f187f71c82ed01b35ffee3e7f25c500060a"
+    },
+    {
+      "id": "REQ-011",
+      "category": "cooperative",
+      "original_filename": "Health-Tech Cooperative Business Plan.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-011",
+      "public_path": "sources/documents/Health-Tech Cooperative Business Plan.pdf",
+      "sha256": "191d3e8cb601b089aeed9e4cb400a8433246e75cb4910db3b8d994a3564f074b"
+    },
+    {
+      "id": "REQ-012",
+      "category": "cooperative",
+      "original_filename": "Oceania Health and AI Surge Plan.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-012",
+      "public_path": "sources/documents/Oceania Health and AI Surge Plan.pdf",
+      "sha256": "3f6c3b0704a36a9c75dd5b028b78c9c2f2f97ae1ffe882312d0180e574dff43e"
+    },
+    {
+      "id": "REQ-013",
+      "category": "food",
+      "original_filename": "Integrated Food System AI Expansion.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-013",
+      "public_path": "sources/documents/Integrated Food System AI Expansion.pdf",
+      "sha256": "19a1932f1742aad85b2ce32caa883575a9a9efbf911b633d327a60b8a1cd3809"
+    },
+    {
+      "id": "REQ-014",
+      "category": "food",
+      "original_filename": "AI Kitchen Food Waste Solution.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-014",
+      "public_path": "sources/documents/AI Kitchen Food Waste Solution.pdf",
+      "sha256": "8bd8d5da10a5345fae657b010692a60095fe9410eda1b8c31e31d818b1db924c"
+    },
+    {
+      "id": "REQ-015",
+      "category": "food",
+      "original_filename": "Sovereign Space Builder_ Full System Specification (2).pdf",
+      "availability": "packaged",
+      "document_id": "DOC-015",
+      "public_path": "sources/documents/Sovereign Space Builder_ Full System Specification (2).pdf",
+      "sha256": "2659e4d2bc52324a9d7b1772568b7d3dee84023400d67f3f3ed71b89b65e15e1"
+    },
+    {
+      "id": "REQ-016",
+      "category": "scenario-learning",
+      "original_filename": "AI Alignment CYOA For Film.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-016",
+      "public_path": "sources/documents/AI Alignment CYOA For Film.pdf",
+      "sha256": "ad6ca8a2f6b86f3dd241ceb54468e55131f50917eeef050e7d150cdaa9312e76"
+    },
+    {
+      "id": "REQ-017",
+      "category": "sensorium",
+      "original_filename": "Web3 Sensorium for Science Debate.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-017",
+      "public_path": "sources/documents/Web3 Sensorium for Science Debate.pdf",
+      "sha256": "f3808a7e57262f416d792639080e68b6010fcb1c53573cac9d8ea9d829a30122"
+    },
+    {
+      "id": "REQ-018",
+      "category": "personal-aura",
+      "original_filename": "Version7 Aura of Intelligence 2023 July.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-018",
+      "public_path": "sources/documents/Version7 Aura of Intelligence 2023 July.pdf",
+      "sha256": "65945eb96e4857b53506ee661d44e24b66b2522d889eb7f8429628f1d7bca052"
+    },
+    {
+      "id": "REQ-019",
+      "category": "legal-evidence",
+      "original_filename": "Building an Australian Legal RAG System.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-019",
+      "public_path": "sources/documents/Building an Australian Legal RAG System.pdf",
+      "sha256": "0aaef38f7b36cd96bca35d657ecd57bf45e9683988677d73d95a2e5c0b9aa498"
+    },
+    {
+      "id": "REQ-020",
+      "category": "aura-genesis",
+      "original_filename": "Aura_Teacher_Training_60_Days.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-020",
+      "public_path": "sources/documents/Aura_Teacher_Training_60_Days.pdf",
+      "sha256": "13bb521a9f754aedb2cb88c5af981efa778bd7ec844297d92d7256534ea2418c"
+    },
+    {
+      "id": "REQ-021",
+      "category": "aura-genesis",
+      "original_filename": "Aura_Genesis_Geode_Development_Edition_3.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-021",
+      "public_path": "sources/documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
+      "sha256": "add4102f8f7bccef97fbd0b63b06e99aaa89d04f6a807398b8b5f985ff0f5496"
+    },
+    {
+      "id": "REQ-022",
+      "category": "aura-genesis",
+      "original_filename": "Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-022",
+      "public_path": "sources/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+      "sha256": "9bdd89c91d002ed39f03abf23177f127f5147535133229087b0620e61d826a54"
+    },
+    {
+      "id": "REQ-023",
+      "category": "personal-aura",
+      "original_filename": "Verse_Box_Trial_Proposal_Version_1.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-023",
+      "public_path": "sources/documents/Verse_Box_Trial_Proposal_Version_1.pdf",
+      "sha256": "ba12692097ecdcb2385d022e83b9d4e9e4e1bcf665702dae444ebfafb6a99fb7"
+    },
+    {
+      "id": "REQ-024",
+      "category": "civic-context",
+      "original_filename": "When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-024",
+      "public_path": "sources/documents/When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+      "sha256": "0dae7fd76259a1e1b59163a2713965378f31aaac0165bae5f26d3864e3f8c7e2"
+    },
+    {
+      "id": "REQ-025",
+      "category": "capability",
+      "original_filename": "UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-025",
+      "public_path": "sources/documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+      "sha256": "0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14"
+    },
+    {
+      "id": "REQ-026",
+      "category": "values",
+      "original_filename": "GAJRA Code of Conduct.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-026",
+      "public_path": "sources/documents/GAJRA Code of Conduct.pdf",
+      "sha256": "681f64156f2d552e38fa97b462110d866faca823fda292542fe6c77d2d10656a"
+    },
+    {
+      "id": "REQ-027",
+      "category": "materials-horizon",
+      "original_filename": "Straddie Sovereign Wealth Fund & “Civilisation of Sand” – Research Brief (-4m).pdf",
+      "availability": "packaged",
+      "document_id": "DOC-027",
+      "public_path": "sources/documents/Straddie Sovereign Wealth Fund & “Civilisation of Sand” – Research Brief (-4m).pdf",
+      "sha256": "5bf89cf347e486d788529aa95ba393f709c6df42c0635318b8101eb529884f77"
+    },
+    {
+      "id": "REQ-028",
+      "category": "materials-horizon",
+      "original_filename": "Subterranean Eco-City Quandamooka Development.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-028",
+      "public_path": "sources/documents/Subterranean Eco-City Quandamooka Development.pdf",
+      "sha256": "e24caa05469429225696ef785f29fd8bb22da9bfebe7187d6d018e6dd2d8f7d3"
+    },
+    {
+      "id": "REQ-029",
+      "category": "materials-horizon",
+      "original_filename": "Subterranean Super Civilization Master Plan.pdf",
+      "availability": "packaged",
+      "document_id": "DOC-029",
+      "public_path": "sources/documents/Subterranean Super Civilization Master Plan.pdf",
+      "sha256": "5da9f0dc5968253a9f2ed2bd5dc3c9b7a75ff3ee28a7e39259ae3a01ba4e71f2"
+    }
+  ],
+  "variants": [
+    {
+      "id": "verse-box-version-1",
+      "document_ids": [
+        "DOC-023",
+        "DOC-030"
+      ],
+      "note": "The supplied Version 1 and the reviewed Corrected Version 1 have different bytes. The supplied copy adds a flatpack-study citation and bibliography entry; both editions are retained."
+    },
+    {
+      "id": "redlands-version-4",
+      "document_ids": [
+        "DOC-024",
+        "DOC-031"
+      ],
+      "note": "The supplied and repository copies have different bytes. Earlier comparison found identical extracted text and identical page renders at 72 dpi; both originals are retained."
+    }
+  ],
+  "documents": [
+    {
+      "id": "DOC-001",
+      "sha256": "2160c83b20144ab4d8093d20d4f036e65facc5381d875d1667a1424735bf69d3",
+      "size_bytes": 8751061,
+      "format": "PDF",
+      "original_filename": "Straddie Disaster Kiosk Pitch.pdf",
+      "public_path": "sources/documents/Straddie Disaster Kiosk Pitch.pdf",
+      "availability": "packaged",
+      "categories": [
+        "kiosk"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Straddie Disaster Kiosk Pitch.pdf",
+          "public_path": "sources/documents/Straddie Disaster Kiosk Pitch.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-001"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Straddie_Disaster_Kiosk_Pitch.pdf",
+          "public_path": "sources/documents/Straddie Disaster Kiosk Pitch.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/straddie-disaster-kiosks",
+            "repository_relative_path": "docs/Straddie_Disaster_Kiosk_Pitch.pdf",
+            "source_revision": "d95c87519624b09528fff322676ffeb379081415",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/straddie-disaster-kiosks/blob/d95c87519624b09528fff322676ffeb379081415/docs/Straddie_Disaster_Kiosk_Pitch.pdf"
+          }
+        }
+      ],
+      "pages": 18,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/straddie-disaster-kiosks",
+        "repository_relative_path": "docs/Straddie_Disaster_Kiosk_Pitch.pdf",
+        "source_revision": "d95c87519624b09528fff322676ffeb379081415",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/straddie-disaster-kiosks/blob/d95c87519624b09528fff322676ffeb379081415/docs/Straddie_Disaster_Kiosk_Pitch.pdf"
+      }
+    },
+    {
+      "id": "DOC-002",
+      "sha256": "b66f3a73545b79e263acffcf6ef3b622b869c01bd5be9e95f8a12447cf33e57d",
+      "size_bytes": 319007,
+      "format": "PDF",
+      "original_filename": "GPT Straddie Disaster Kiosks.pdf",
+      "public_path": "sources/documents/GPT Straddie Disaster Kiosks.pdf",
+      "availability": "packaged",
+      "categories": [
+        "kiosk"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "GPT Straddie Disaster Kiosks.pdf",
+          "public_path": "sources/documents/GPT Straddie Disaster Kiosks.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-002"
+        }
+      ],
+      "pages": 18
+    },
+    {
+      "id": "DOC-003",
+      "sha256": "32e38d2b2108278664e9c309042827d784c0ec44c91b40a9b1cf88f481fa78b5",
+      "size_bytes": 12340420,
+      "format": "PDF",
+      "original_filename": "Island_Resilience_Sovereign_Kiosks.pdf",
+      "public_path": "sources/documents/Island_Resilience_Sovereign_Kiosks.pdf",
+      "availability": "packaged",
+      "categories": [
+        "kiosk"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Island_Resilience_Sovereign_Kiosks.pdf",
+          "public_path": "sources/documents/Island_Resilience_Sovereign_Kiosks.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-003"
+        }
+      ],
+      "pages": 12
+    },
+    {
+      "id": "DOC-004",
+      "sha256": "1be16446dc69d8dc6c8caee9dc9e1fd924826a65d5a3750560011960e73e0411",
+      "size_bytes": 293853,
+      "format": "PDF",
+      "original_filename": "SETCo 2026 Pitch Plan Revision.pdf",
+      "public_path": "sources/documents/SETCo 2026 Pitch Plan Revision.pdf",
+      "availability": "packaged",
+      "categories": [
+        "cooperative"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "SETCo 2026 Pitch Plan Revision.pdf",
+          "public_path": "sources/documents/SETCo 2026 Pitch Plan Revision.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-004"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "hayes-ready-set-co-2026-strategy-undated.pdf",
+          "public_path": "sources/documents/SETCo 2026 Pitch Plan Revision.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "references/files/hayes-ready-set-co-2026-strategy-undated.pdf",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-ready-set-co-2026-strategy-undated.pdf"
+          }
+        }
+      ],
+      "pages": 12,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+        "repository_relative_path": "references/files/hayes-ready-set-co-2026-strategy-undated.pdf",
+        "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-ready-set-co-2026-strategy-undated.pdf"
+      }
+    },
+    {
+      "id": "DOC-005",
+      "sha256": "bf5ba0b11ad990c7829432f7949d5bd2989c8351db7566ea0d5969753e30a678",
+      "size_bytes": 410402,
+      "format": "PDF",
+      "original_filename": "Joyful_Responsible_Abundance_Human_and_SI_Alignment_Revised.pdf",
+      "public_path": "sources/documents/Joyful_Responsible_Abundance_Human_and_SI_Alignment_Revised.pdf",
+      "availability": "packaged",
+      "categories": [
+        "alignment"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Joyful_Responsible_Abundance_Human_and_SI_Alignment_Revised.pdf",
+          "public_path": "sources/documents/Joyful_Responsible_Abundance_Human_and_SI_Alignment_Revised.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-005"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "hayes-jra-human-superintelligence-alignment-revised-2026-10-11.pdf",
+          "public_path": "sources/documents/Joyful_Responsible_Abundance_Human_and_SI_Alignment_Revised.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "references/files/hayes-jra-human-superintelligence-alignment-revised-2026-10-11.pdf",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-jra-human-superintelligence-alignment-revised-2026-10-11.pdf"
+          }
+        }
+      ],
+      "pages": 29,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+        "repository_relative_path": "references/files/hayes-jra-human-superintelligence-alignment-revised-2026-10-11.pdf",
+        "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-jra-human-superintelligence-alignment-revised-2026-10-11.pdf"
+      }
+    },
+    {
+      "id": "DOC-006",
+      "sha256": "f62ae877f90e437583d9ecc2db29f3b11f20253c05b6feda573d7e694c3e8af0",
+      "size_bytes": 52947,
+      "format": "DOCX",
+      "original_filename": "Fiji_Australia_Vuvale_Union_Submission_Luke_Nathan_Hayes_2026.docx",
+      "public_path": "sources/documents/Fiji_Australia_Vuvale_Union_Submission_Luke_Nathan_Hayes_2026.docx",
+      "availability": "packaged",
+      "categories": [
+        "submission"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Fiji_Australia_Vuvale_Union_Submission_Luke_Nathan_Hayes_2026.docx",
+          "public_path": "sources/documents/Fiji_Australia_Vuvale_Union_Submission_Luke_Nathan_Hayes_2026.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-006"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "hayes-fiji-australia-vuvale-union-submission-2026-08-29.docx",
+          "public_path": "sources/documents/Fiji_Australia_Vuvale_Union_Submission_Luke_Nathan_Hayes_2026.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "references/files/hayes-fiji-australia-vuvale-union-submission-2026-08-29.docx",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-fiji-australia-vuvale-union-submission-2026-08-29.docx"
+          }
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "fiji-australia-vuvale-union-submission.docx",
+          "public_path": "sources/documents/Fiji_Australia_Vuvale_Union_Submission_Luke_Nathan_Hayes_2026.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+            "repository_relative_path": "documents/fiji-australia-vuvale-union-submission.docx",
+            "source_revision": "12afc71ba7375a2096ab4c307934198568e58bed",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/12afc71ba7375a2096ab4c307934198568e58bed/documents/fiji-australia-vuvale-union-submission.docx"
+          }
+        }
+      ],
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+        "repository_relative_path": "references/files/hayes-fiji-australia-vuvale-union-submission-2026-08-29.docx",
+        "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-fiji-australia-vuvale-union-submission-2026-08-29.docx"
+      }
+    },
+    {
+      "id": "DOC-007",
+      "sha256": "1fcc88fe31b0192107683880a9c21c4ce7e83b63e91b576316e618e43363ffea",
+      "size_bytes": 43828,
+      "format": "DOCX",
+      "original_filename": "AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+      "public_path": "sources/documents/AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+      "availability": "packaged",
+      "categories": [
+        "submission"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+          "public_path": "sources/documents/AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-007"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "hayes-aukus-public-inquiry-distributed-civic-ai-2026-08-24.docx",
+          "public_path": "sources/documents/AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "references/files/hayes-aukus-public-inquiry-distributed-civic-ai-2026-08-24.docx",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-aukus-public-inquiry-distributed-civic-ai-2026-08-24.docx"
+          }
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+          "public_path": "sources/documents/AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+            "repository_relative_path": "documents/AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx",
+            "source_revision": "12afc71ba7375a2096ab4c307934198568e58bed",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/12afc71ba7375a2096ab4c307934198568e58bed/documents/AUKUS_Public_Inquiry_Submission_Luke_Nathan_Hayes_2026.docx"
+          }
+        }
+      ],
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+        "repository_relative_path": "references/files/hayes-aukus-public-inquiry-distributed-civic-ai-2026-08-24.docx",
+        "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-aukus-public-inquiry-distributed-civic-ai-2026-08-24.docx"
+      }
+    },
+    {
+      "id": "DOC-008",
+      "sha256": "1d936a8432cb88c323010b0ca01fc497c8318c73356e63b49a6b2edf1c8c54c1",
+      "size_bytes": 41427,
+      "format": "DOCX",
+      "original_filename": "Do Not Put All Our Eggs in One Basket.docx",
+      "public_path": "sources/documents/Do Not Put All Our Eggs in One Basket.docx",
+      "availability": "packaged",
+      "categories": [
+        "submission"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Do Not Put All Our Eggs in One Basket.docx",
+          "public_path": "sources/documents/Do Not Put All Our Eggs in One Basket.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-008"
+        }
+      ]
+    },
+    {
+      "id": "DOC-009",
+      "sha256": "ccc0b69b4044892cbd5a50eed16e1c47656db8db03b6630d62a96836967d2c8d",
+      "size_bytes": 44117,
+      "format": "DOCX",
+      "original_filename": "A Fair Go for the AI Age_ Postcode-Level Sovereign Compute as Shared National Infrastructure.docx",
+      "public_path": "sources/documents/A Fair Go for the AI Age_ Postcode-Level Sovereign Compute as Shared National Infrastructure.docx",
+      "availability": "packaged",
+      "categories": [
+        "submission"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "A Fair Go for the AI Age_ Postcode-Level Sovereign Compute as Shared National Infrastructure.docx",
+          "public_path": "sources/documents/A Fair Go for the AI Age_ Postcode-Level Sovereign Compute as Shared National Infrastructure.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-009"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "hayes-fair-go-ai-age-postcode-sovereign-compute-2026-08-18.docx",
+          "public_path": "sources/documents/A Fair Go for the AI Age_ Postcode-Level Sovereign Compute as Shared National Infrastructure.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "references/files/hayes-fair-go-ai-age-postcode-sovereign-compute-2026-08-18.docx",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-fair-go-ai-age-postcode-sovereign-compute-2026-08-18.docx"
+          }
+        }
+      ],
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+        "repository_relative_path": "references/files/hayes-fair-go-ai-age-postcode-sovereign-compute-2026-08-18.docx",
+        "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-fair-go-ai-age-postcode-sovereign-compute-2026-08-18.docx"
+      }
+    },
+    {
+      "id": "DOC-010",
+      "sha256": "71532df9fdd542df9a77506608746f187f71c82ed01b35ffee3e7f25c500060a",
+      "size_bytes": 40964,
+      "format": "DOCX",
+      "original_filename": "Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+      "public_path": "sources/documents/Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+      "availability": "packaged",
+      "categories": [
+        "submission"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+          "public_path": "sources/documents/Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-010"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "hayes-ocean-of-peace-veitacini-treaty-submission-2026-08-27.docx",
+          "public_path": "sources/documents/Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "references/files/hayes-ocean-of-peace-veitacini-treaty-submission-2026-08-27.docx",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-ocean-of-peace-veitacini-treaty-submission-2026-08-27.docx"
+          }
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+          "public_path": "sources/documents/Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+            "repository_relative_path": "documents/Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx",
+            "source_revision": "12afc71ba7375a2096ab4c307934198568e58bed",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/12afc71ba7375a2096ab4c307934198568e58bed/documents/Ocean_of_Peace_Alliance_Veitacini_Treaty_Submission_Luke_Nathan_Hayes_2026.docx"
+          }
+        }
+      ],
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+        "repository_relative_path": "references/files/hayes-ocean-of-peace-veitacini-treaty-submission-2026-08-27.docx",
+        "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-ocean-of-peace-veitacini-treaty-submission-2026-08-27.docx"
+      }
+    },
+    {
+      "id": "DOC-011",
+      "sha256": "191d3e8cb601b089aeed9e4cb400a8433246e75cb4910db3b8d994a3564f074b",
+      "size_bytes": 630789,
+      "format": "PDF",
+      "original_filename": "Health-Tech Cooperative Business Plan.pdf",
+      "public_path": "sources/documents/Health-Tech Cooperative Business Plan.pdf",
+      "availability": "packaged",
+      "categories": [
+        "cooperative"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Health-Tech Cooperative Business Plan.pdf",
+          "public_path": "sources/documents/Health-Tech Cooperative Business Plan.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-011"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "hayes-project-aura-geode-hbot-cooperative-framework-undated.pdf",
+          "public_path": "sources/documents/Health-Tech Cooperative Business Plan.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "references/files/hayes-project-aura-geode-hbot-cooperative-framework-undated.pdf",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-project-aura-geode-hbot-cooperative-framework-undated.pdf"
+          }
+        }
+      ],
+      "pages": 29,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+        "repository_relative_path": "references/files/hayes-project-aura-geode-hbot-cooperative-framework-undated.pdf",
+        "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-project-aura-geode-hbot-cooperative-framework-undated.pdf"
+      }
+    },
+    {
+      "id": "DOC-012",
+      "sha256": "3f6c3b0704a36a9c75dd5b028b78c9c2f2f97ae1ffe882312d0180e574dff43e",
+      "size_bytes": 315454,
+      "format": "PDF",
+      "original_filename": "Oceania Health and AI Surge Plan.pdf",
+      "public_path": "sources/documents/Oceania Health and AI Surge Plan.pdf",
+      "availability": "packaged",
+      "categories": [
+        "cooperative"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Oceania Health and AI Surge Plan.pdf",
+          "public_path": "sources/documents/Oceania Health and AI Surge Plan.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-012"
+        }
+      ],
+      "pages": 15
+    },
+    {
+      "id": "DOC-013",
+      "sha256": "19a1932f1742aad85b2ce32caa883575a9a9efbf911b633d327a60b8a1cd3809",
+      "size_bytes": 409281,
+      "format": "PDF",
+      "original_filename": "Integrated Food System AI Expansion.pdf",
+      "public_path": "sources/documents/Integrated Food System AI Expansion.pdf",
+      "availability": "packaged",
+      "categories": [
+        "food"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Integrated Food System AI Expansion.pdf",
+          "public_path": "sources/documents/Integrated Food System AI Expansion.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-013"
+        }
+      ],
+      "pages": 22
+    },
+    {
+      "id": "DOC-014",
+      "sha256": "8bd8d5da10a5345fae657b010692a60095fe9410eda1b8c31e31d818b1db924c",
+      "size_bytes": 481828,
+      "format": "PDF",
+      "original_filename": "AI Kitchen Food Waste Solution.pdf",
+      "public_path": "sources/documents/AI Kitchen Food Waste Solution.pdf",
+      "availability": "packaged",
+      "categories": [
+        "food"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "AI Kitchen Food Waste Solution.pdf",
+          "public_path": "sources/documents/AI Kitchen Food Waste Solution.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-014"
+        }
+      ],
+      "pages": 25
+    },
+    {
+      "id": "DOC-015",
+      "sha256": "2659e4d2bc52324a9d7b1772568b7d3dee84023400d67f3f3ed71b89b65e15e1",
+      "size_bytes": 325124,
+      "format": "PDF",
+      "original_filename": "Sovereign Space Builder_ Full System Specification (2).pdf",
+      "public_path": "sources/documents/Sovereign Space Builder_ Full System Specification (2).pdf",
+      "availability": "packaged",
+      "categories": [
+        "food"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Sovereign Space Builder_ Full System Specification (2).pdf",
+          "public_path": "sources/documents/Sovereign Space Builder_ Full System Specification (2).pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-015"
+        }
+      ],
+      "pages": 17
+    },
+    {
+      "id": "DOC-016",
+      "sha256": "ad6ca8a2f6b86f3dd241ceb54468e55131f50917eeef050e7d150cdaa9312e76",
+      "size_bytes": 284553,
+      "format": "PDF",
+      "original_filename": "AI Alignment CYOA For Film.pdf",
+      "public_path": "sources/documents/AI Alignment CYOA For Film.pdf",
+      "availability": "packaged",
+      "categories": [
+        "scenario-learning"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "AI Alignment CYOA For Film.pdf",
+          "public_path": "sources/documents/AI Alignment CYOA For Film.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-016"
+        }
+      ],
+      "pages": 13
+    },
+    {
+      "id": "DOC-017",
+      "sha256": "f3808a7e57262f416d792639080e68b6010fcb1c53573cac9d8ea9d829a30122",
+      "size_bytes": 604459,
+      "format": "PDF",
+      "original_filename": "Web3 Sensorium for Science Debate.pdf",
+      "public_path": "sources/documents/Web3 Sensorium for Science Debate.pdf",
+      "availability": "packaged",
+      "categories": [
+        "sensorium"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Web3 Sensorium for Science Debate.pdf",
+          "public_path": "sources/documents/Web3 Sensorium for Science Debate.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-017"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Web3_Sensorium_for_Science_Debate.pdf",
+          "public_path": "sources/documents/Web3 Sensorium for Science Debate.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/aura-verse-box",
+            "repository_relative_path": "documents/Web3_Sensorium_for_Science_Debate.pdf",
+            "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/Web3_Sensorium_for_Science_Debate.pdf"
+          }
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "hayes-decentralized-global-sensorium-strategic-plan-undated.pdf",
+          "public_path": "sources/documents/Web3 Sensorium for Science Debate.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "references/files/hayes-decentralized-global-sensorium-strategic-plan-undated.pdf",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-decentralized-global-sensorium-strategic-plan-undated.pdf"
+          }
+        }
+      ],
+      "pages": 37,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/aura-verse-box",
+        "repository_relative_path": "documents/Web3_Sensorium_for_Science_Debate.pdf",
+        "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/Web3_Sensorium_for_Science_Debate.pdf"
+      }
+    },
+    {
+      "id": "DOC-018",
+      "sha256": "65945eb96e4857b53506ee661d44e24b66b2522d889eb7f8429628f1d7bca052",
+      "size_bytes": 5258366,
+      "format": "PDF",
+      "original_filename": "Version7 Aura of Intelligence 2023 July.pdf",
+      "public_path": "sources/documents/Version7 Aura of Intelligence 2023 July.pdf",
+      "availability": "packaged",
+      "categories": [
+        "personal-aura"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Version7 Aura of Intelligence 2023 July.pdf",
+          "public_path": "sources/documents/Version7 Aura of Intelligence 2023 July.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-018"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Aura_of_Intelligence_Version_7_July_2023.pdf",
+          "public_path": "sources/documents/Version7 Aura of Intelligence 2023 July.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/aura-verse-box",
+            "repository_relative_path": "documents/Aura_of_Intelligence_Version_7_July_2023.pdf",
+            "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/Aura_of_Intelligence_Version_7_July_2023.pdf"
+          }
+        }
+      ],
+      "pages": 28,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/aura-verse-box",
+        "repository_relative_path": "documents/Aura_of_Intelligence_Version_7_July_2023.pdf",
+        "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/Aura_of_Intelligence_Version_7_July_2023.pdf"
+      }
+    },
+    {
+      "id": "DOC-019",
+      "sha256": "0aaef38f7b36cd96bca35d657ecd57bf45e9683988677d73d95a2e5c0b9aa498",
+      "size_bytes": 303822,
+      "format": "PDF",
+      "original_filename": "Building an Australian Legal RAG System.pdf",
+      "public_path": "sources/documents/Building an Australian Legal RAG System.pdf",
+      "availability": "packaged",
+      "categories": [
+        "legal-evidence"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Building an Australian Legal RAG System.pdf",
+          "public_path": "sources/documents/Building an Australian Legal RAG System.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-019"
+        }
+      ],
+      "pages": 15
+    },
+    {
+      "id": "DOC-020",
+      "sha256": "13bb521a9f754aedb2cb88c5af981efa778bd7ec844297d92d7256534ea2418c",
+      "size_bytes": 458131,
+      "format": "PDF",
+      "original_filename": "Aura_Teacher_Training_60_Days.pdf",
+      "public_path": "sources/documents/Aura_Teacher_Training_60_Days.pdf",
+      "availability": "packaged",
+      "categories": [
+        "aura-genesis"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Aura_Teacher_Training_60_Days.pdf",
+          "public_path": "sources/documents/Aura_Teacher_Training_60_Days.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-020"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Aura_Teacher_Training_60_Days.pdf",
+          "public_path": "sources/documents/Aura_Teacher_Training_60_Days.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/aura-genesis-geode-atlas",
+            "repository_relative_path": "documents/Aura_Teacher_Training_60_Days.pdf",
+            "source_revision": "b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370/documents/Aura_Teacher_Training_60_Days.pdf"
+          }
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Aura_Teacher_Training_60_Days.pdf",
+          "public_path": "sources/documents/Aura_Teacher_Training_60_Days.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/aura-verse-box",
+            "repository_relative_path": "documents/Aura_Teacher_Training_60_Days.pdf",
+            "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/Aura_Teacher_Training_60_Days.pdf"
+          }
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "hayes-aura-teacher-training-sixty-days-2026-10-14.pdf",
+          "public_path": "sources/documents/Aura_Teacher_Training_60_Days.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "references/files/hayes-aura-teacher-training-sixty-days-2026-10-14.pdf",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-aura-teacher-training-sixty-days-2026-10-14.pdf"
+          }
+        }
+      ],
+      "pages": 60,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/aura-genesis-geode-atlas",
+        "repository_relative_path": "documents/Aura_Teacher_Training_60_Days.pdf",
+        "source_revision": "b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370/documents/Aura_Teacher_Training_60_Days.pdf"
+      }
+    },
+    {
+      "id": "DOC-021",
+      "sha256": "add4102f8f7bccef97fbd0b63b06e99aaa89d04f6a807398b8b5f985ff0f5496",
+      "size_bytes": 691604,
+      "format": "PDF",
+      "original_filename": "Aura_Genesis_Geode_Development_Edition_3.pdf",
+      "public_path": "sources/documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
+      "availability": "packaged",
+      "categories": [
+        "aura-genesis"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Aura_Genesis_Geode_Development_Edition_3.pdf",
+          "public_path": "sources/documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-021"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Aura_Genesis_Geode_Development_Edition_3.pdf",
+          "public_path": "sources/documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/aura-genesis-geode-atlas",
+            "repository_relative_path": "documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
+            "source_revision": "b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370/documents/Aura_Genesis_Geode_Development_Edition_3.pdf"
+          }
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Aura_Genesis_Geode_Development_Edition_3.pdf",
+          "public_path": "sources/documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/aura-verse-box",
+            "repository_relative_path": "documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
+            "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/Aura_Genesis_Geode_Development_Edition_3.pdf"
+          }
+        }
+      ],
+      "pages": 40,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/aura-genesis-geode-atlas",
+        "repository_relative_path": "documents/Aura_Genesis_Geode_Development_Edition_3.pdf",
+        "source_revision": "b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370/documents/Aura_Genesis_Geode_Development_Edition_3.pdf"
+      }
+    },
+    {
+      "id": "DOC-022",
+      "sha256": "9bdd89c91d002ed39f03abf23177f127f5147535133229087b0620e61d826a54",
+      "size_bytes": 755061,
+      "format": "PDF",
+      "original_filename": "Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+      "public_path": "sources/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+      "availability": "packaged",
+      "categories": [
+        "aura-genesis"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+          "public_path": "sources/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-022"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+          "public_path": "sources/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/aura-genesis-geode-atlas",
+            "repository_relative_path": "documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+            "source_revision": "b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf"
+          }
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+          "public_path": "sources/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/aura-verse-box",
+            "repository_relative_path": "documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+            "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf"
+          }
+        }
+      ],
+      "pages": 40,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/aura-genesis-geode-atlas",
+        "repository_relative_path": "documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf",
+        "source_revision": "b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas/blob/b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370/documents/Aura_Genesis_Protocol_Game_Design_Document_V2.pdf"
+      }
+    },
+    {
+      "id": "DOC-023",
+      "sha256": "ba12692097ecdcb2385d022e83b9d4e9e4e1bcf665702dae444ebfafb6a99fb7",
+      "size_bytes": 112941,
+      "format": "PDF",
+      "original_filename": "Verse_Box_Trial_Proposal_Version_1.pdf",
+      "public_path": "sources/documents/Verse_Box_Trial_Proposal_Version_1.pdf",
+      "availability": "packaged",
+      "categories": [
+        "personal-aura"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Verse_Box_Trial_Proposal_Version_1.pdf",
+          "public_path": "sources/documents/Verse_Box_Trial_Proposal_Version_1.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-023"
+        }
+      ],
+      "pages": 26,
+      "variant_group": "verse-box-version-1"
+    },
+    {
+      "id": "DOC-024",
+      "sha256": "0dae7fd76259a1e1b59163a2713965378f31aaac0165bae5f26d3864e3f8c7e2",
+      "size_bytes": 381385,
+      "format": "PDF",
+      "original_filename": "When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+      "public_path": "sources/documents/When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+      "availability": "packaged",
+      "categories": [
+        "civic-context"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+          "public_path": "sources/documents/When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-024"
+        }
+      ],
+      "pages": 25,
+      "variant_group": "redlands-version-4"
+    },
+    {
+      "id": "DOC-025",
+      "sha256": "0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14",
+      "size_bytes": 112210,
+      "format": "PDF",
+      "original_filename": "UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+      "public_path": "sources/documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+      "availability": "packaged",
+      "categories": [
+        "capability"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+          "public_path": "sources/documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-025"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+          "public_path": "sources/documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/aura-verse-box",
+            "repository_relative_path": "documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+            "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf"
+          }
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "hayes-fair-go-age-intelligence-unga81-2026-09.pdf",
+          "public_path": "sources/documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "references/files/hayes-fair-go-age-intelligence-unga81-2026-09.pdf",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/references/files/hayes-fair-go-age-intelligence-unga81-2026-09.pdf"
+          }
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+          "public_path": "sources/documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+            "repository_relative_path": "documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+            "source_revision": "12afc71ba7375a2096ab4c307934198568e58bed",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes/blob/12afc71ba7375a2096ab4c307934198568e58bed/documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf"
+          }
+        }
+      ],
+      "pages": 8,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/aura-verse-box",
+        "repository_relative_path": "documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf",
+        "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/UNGA81_Joyful_Responsible_Abundance_Refined.pdf"
+      }
+    },
+    {
+      "id": "DOC-026",
+      "sha256": "681f64156f2d552e38fa97b462110d866faca823fda292542fe6c77d2d10656a",
+      "size_bytes": 121636,
+      "format": "PDF",
+      "original_filename": "GAJRA Code of Conduct.pdf",
+      "public_path": "sources/documents/GAJRA Code of Conduct.pdf",
+      "availability": "packaged",
+      "categories": [
+        "values"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "GAJRA Code of Conduct.pdf",
+          "public_path": "sources/documents/GAJRA Code of Conduct.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-026"
+        }
+      ],
+      "pages": 1
+    },
+    {
+      "id": "DOC-027",
+      "sha256": "5bf89cf347e486d788529aa95ba393f709c6df42c0635318b8101eb529884f77",
+      "size_bytes": 374559,
+      "format": "PDF",
+      "original_filename": "Straddie Sovereign Wealth Fund & “Civilisation of Sand” – Research Brief (-4m).pdf",
+      "public_path": "sources/documents/Straddie Sovereign Wealth Fund & “Civilisation of Sand” – Research Brief (-4m).pdf",
+      "availability": "packaged",
+      "categories": [
+        "materials-horizon"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Straddie Sovereign Wealth Fund & “Civilisation of Sand” – Research Brief (-4m).pdf",
+          "public_path": "sources/documents/Straddie Sovereign Wealth Fund & “Civilisation of Sand” – Research Brief (-4m).pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-027"
+        }
+      ],
+      "pages": 25
+    },
+    {
+      "id": "DOC-028",
+      "sha256": "e24caa05469429225696ef785f29fd8bb22da9bfebe7187d6d018e6dd2d8f7d3",
+      "size_bytes": 268708,
+      "format": "PDF",
+      "original_filename": "Subterranean Eco-City Quandamooka Development.pdf",
+      "public_path": "sources/documents/Subterranean Eco-City Quandamooka Development.pdf",
+      "availability": "packaged",
+      "categories": [
+        "materials-horizon"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Subterranean Eco-City Quandamooka Development.pdf",
+          "public_path": "sources/documents/Subterranean Eco-City Quandamooka Development.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-028"
+        }
+      ],
+      "pages": 14
+    },
+    {
+      "id": "DOC-029",
+      "sha256": "5da9f0dc5968253a9f2ed2bd5dc3c9b7a75ff3ee28a7e39259ae3a01ba4e71f2",
+      "size_bytes": 252114,
+      "format": "PDF",
+      "original_filename": "Subterranean Super Civilization Master Plan.pdf",
+      "public_path": "sources/documents/Subterranean Super Civilization Master Plan.pdf",
+      "availability": "packaged",
+      "categories": [
+        "materials-horizon"
+      ],
+      "aliases": [
+        {
+          "kind": "user_supplied",
+          "original_filename": "Subterranean Super Civilization Master Plan.pdf",
+          "public_path": "sources/documents/Subterranean Super Civilization Master Plan.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "request_id": "REQ-029"
+        }
+      ],
+      "pages": 13
+    },
+    {
+      "id": "DOC-030",
+      "sha256": "1f4020b0e0b914d3830aa20f55377b44a02ab4e9368024ae8906cc33b3271198",
+      "size_bytes": 137304,
+      "format": "PDF",
+      "original_filename": "Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
+      "public_path": "sources/documents/variants/verse-box-version-1/repository-reviewed/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
+      "availability": "packaged",
+      "categories": [
+        "personal-aura"
+      ],
+      "aliases": [
+        {
+          "kind": "reviewed_repository_original",
+          "original_filename": "Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
+          "public_path": "sources/documents/variants/verse-box-version-1/repository-reviewed/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
+          "public_path": "sources/documents/variants/verse-box-version-1/repository-reviewed/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/aura-verse-box",
+            "repository_relative_path": "documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
+            "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf"
+          }
+        }
+      ],
+      "pages": 26,
+      "variant_group": "verse-box-version-1",
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/aura-verse-box",
+        "repository_relative_path": "documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf",
+        "source_revision": "c19109be56d423c797cd76c85af023e1149bb4db",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/aura-verse-box/blob/c19109be56d423c797cd76c85af023e1149bb4db/documents/Verse_Box_Trial_Proposal_Version_1_Corrected.pdf"
+      }
+    },
+    {
+      "id": "DOC-031",
+      "sha256": "4c0a71004bbbb6c4a15dedae77063575b89774eacca4dee5f9dee0bd7d97502b",
+      "size_bytes": 356241,
+      "format": "PDF",
+      "original_filename": "When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+      "public_path": "sources/documents/variants/redlands-version-4/repository-reviewed/When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+      "availability": "packaged",
+      "categories": [
+        "civic-context"
+      ],
+      "aliases": [
+        {
+          "kind": "reviewed_repository_original",
+          "original_filename": "When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+          "public_path": "sources/documents/variants/redlands-version-4/repository-reviewed/When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+          "public_path": "sources/documents/variants/redlands-version-4/repository-reviewed/When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+            "repository_relative_path": "When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+            "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/When_Redlands_Discovers_Luke_Hayes_v4.0.pdf"
+          }
+        }
+      ],
+      "pages": 25,
+      "variant_group": "redlands-version-4",
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+        "repository_relative_path": "When_Redlands_Discovers_Luke_Hayes_v4.0.pdf",
+        "source_revision": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes/blob/cd700c5bdcd94eee5afd74bef538ae68c6f705e7/When_Redlands_Discovers_Luke_Hayes_v4.0.pdf"
+      }
+    },
+    {
+      "id": "DOC-032",
+      "sha256": "8fa91cc89490426e247b27edfd580785157940f01b9da9d9039822fa9e92adfa",
+      "size_bytes": 22016158,
+      "format": "PDF",
+      "original_filename": "Minjerribah_Sovereign_Mesh.pdf",
+      "public_path": "sources/documents/Minjerribah_Sovereign_Mesh.pdf",
+      "availability": "packaged",
+      "categories": [
+        "kiosk"
+      ],
+      "aliases": [
+        {
+          "kind": "reviewed_repository_original",
+          "original_filename": "Minjerribah_Sovereign_Mesh.pdf",
+          "public_path": "sources/documents/Minjerribah_Sovereign_Mesh.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256"
+        },
+        {
+          "kind": "repository_copy",
+          "original_filename": "Minjerribah_Sovereign_Mesh.pdf",
+          "public_path": "sources/documents/Minjerribah_Sovereign_Mesh.pdf",
+          "availability": "packaged_alias",
+          "identity": "same_sha256",
+          "public_repo_copy": {
+            "repository": "https://github.com/auraofintelligence/straddie-disaster-kiosks",
+            "repository_relative_path": "docs/Minjerribah_Sovereign_Mesh.pdf",
+            "source_revision": "d95c87519624b09528fff322676ffeb379081415",
+            "matches_committed_revision": true,
+            "url": "https://github.com/auraofintelligence/straddie-disaster-kiosks/blob/d95c87519624b09528fff322676ffeb379081415/docs/Minjerribah_Sovereign_Mesh.pdf"
+          }
+        }
+      ],
+      "pages": 15,
+      "public_repo_copy": {
+        "repository": "https://github.com/auraofintelligence/straddie-disaster-kiosks",
+        "repository_relative_path": "docs/Minjerribah_Sovereign_Mesh.pdf",
+        "source_revision": "d95c87519624b09528fff322676ffeb379081415",
+        "matches_committed_revision": true,
+        "url": "https://github.com/auraofintelligence/straddie-disaster-kiosks/blob/d95c87519624b09528fff322676ffeb379081415/docs/Minjerribah_Sovereign_Mesh.pdf"
+      }
+    }
+  ]
+}

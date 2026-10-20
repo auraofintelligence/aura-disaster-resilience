@@ -1,0 +1,67 @@
+[
+  {
+    "id": "OPS",
+    "name": "Everyday service and disaster work",
+    "purpose": "Start with the jobs people need to complete and the support that makes those jobs dependable."
+  },
+  {
+    "id": "PHY",
+    "name": "Weather-ready kiosks and places",
+    "purpose": "Shape the cabinet, location, access and maintenance around real weather and the people using it."
+  },
+  {
+    "id": "ENE",
+    "name": "Energy and backup power",
+    "purpose": "Make useful power available through the required conditions, with a measured energy budget and people ready to maintain it."
+  },
+  {
+    "id": "COM",
+    "name": "Connections and messages",
+    "purpose": "Move the right information through available paths and show clearly when a message has reached its next person."
+  },
+  {
+    "id": "DAT",
+    "name": "Information people can trust",
+    "purpose": "Keep the source, time, authority, permissions and corrections with information people act on."
+  },
+  {
+    "id": "SW",
+    "name": "Software and device care",
+    "purpose": "Build the working parts that store, display, exchange and recover information across the network."
+  },
+  {
+    "id": "AUR",
+    "name": "Personal Aura and learning",
+    "purpose": "Help people navigate the network, keep control of personal information and learn the next practical step."
+  },
+  {
+    "id": "TWIN",
+    "name": "Place models and practice exercises",
+    "purpose": "Use a digital model of a place to understand evidence, compare choices and practise demanding situations."
+  },
+  {
+    "id": "GOV",
+    "name": "Community and operating responsibility",
+    "purpose": "Work out who owns, maintains, reviews and supports the service, respecting local and cultural authority."
+  },
+  {
+    "id": "FIN",
+    "name": "Budget and continuing support",
+    "purpose": "Price the equipment and continuing work, and match suitable funding to a service people can sustain."
+  },
+  {
+    "id": "TEST",
+    "name": "Tests and field learning",
+    "purpose": "Turn ideas into checkable results through demonstrations, measurements, exercises and field experience."
+  },
+  {
+    "id": "ECO",
+    "name": "Project connections",
+    "purpose": "Define useful connections to the wider ecosystem while keeping the kiosk and resilience network moving."
+  },
+  {
+    "id": "WRK",
+    "name": "Working together and human review",
+    "purpose": "Give people and AI assistants clear jobs, connected records and a dependable way to make decisions."
+  }
+]

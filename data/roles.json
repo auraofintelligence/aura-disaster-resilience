@@ -1,0 +1,32 @@
+{
+  "design_curator": {
+    "label": "Luke, reviewing the project design and working method",
+    "github_users": [
+      "auraofintelligence"
+    ]
+  },
+  "qualified_engineer": {
+    "label": "The suitably qualified engineering reviewer for the proposed work",
+    "github_users": []
+  },
+  "qualified_electrical": {
+    "label": "The qualified electrical reviewer for the installation",
+    "github_users": []
+  },
+  "site_controller": {
+    "label": "The person authorised to agree use of the site",
+    "github_users": []
+  },
+  "cultural_authority": {
+    "label": "The relevant cultural custodians and their chosen review process",
+    "github_users": []
+  },
+  "receiving_service": {
+    "label": "The service responsible for receiving and acting on requests",
+    "github_users": []
+  },
+  "statutory_issuer": {
+    "label": "The public body responsible for the relevant official instruction",
+    "github_users": []
+  }
+}

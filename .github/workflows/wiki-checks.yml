@@ -1,0 +1,26 @@
+name: Wiki records and human review checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: read
+jobs:
+  wiki-records:
+    name: Questions links fingerprints and review evidence
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Check the generated reading pages and review records
+        run: python scripts/wiki.py --check
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Exercise the record and review checks
+        run: python -m unittest discover -s tests -v

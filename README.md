@@ -1,0 +1,47 @@
+# Aura Disaster Resilience
+
+**A shared workshop for everyday community capability and a dependable disaster network.**
+
+We are designing kiosks, information services, power, communications and local support that work together through everyday life, storms, cyclones, fires and longer disruptions. A useful kiosk helps someone find what is happening, understand a checked update, reach assistance and learn the next step in a practical job.
+
+The work welcomes tradespeople, trade assistants, drivers, artists, nurses, carers, retirees, students, researchers and people who know their community. Bring the ways you observe, make, repair, teach, organise and care. Planning and design are underway; community discussion, prototypes and measured field trials are the next milestones.
+
+## Start in the wiki
+
+- [Start here](wiki/Home.md)
+- [See the whole system](wiki/Stack-map.md)
+- [Work through the first choices](wiki/First-review.md)
+- [Develop the all-weather kiosk designs](wiki/All-weather-design.md)
+- [Explore the connected questions](wiki/Question-register.md)
+- [See progress and useful jobs](wiki/Progress.md)
+- [Understand how people decide](wiki/Human-review.md)
+- [Give an AI assistant a clear job](wiki/Agent-work.md)
+- [Open the documents and site source library](wiki/Source-library.md)
+- [Continue from the swarm handover](SWARM_HANDOVER.md)
+
+The repository holds the source records and a complete, linked wiki. The native [GitHub Wiki](https://github.com/auraofintelligence/aura-disaster-resilience/wiki) presents the same reading pages when published. Questions, evidence and decisions share stable IDs so work can move across several AI assistants and people while staying connected.
+
+**Ready S.E.T. Co-op**, fully **Ready Sustainable Employment and Training Cooperative**, is the proposed operating intermediary. **Aura of Intelligence** is Luke's personal AI operating system in development, from light to ultra high definition, supporting navigation and just-in-time learning. **GAJRA Earth**, the Global Association for Joyful Responsible Abundance on Earth, is the defining values starting point.
+
+## How this becomes real
+
+1. Choose a question and bring back something useful: a drawing, comparison, measurement, demonstration, source agreement or priced work plan.
+2. Show the connected choices and the people who need to review the next action.
+3. Record the human decision against that exact proposal and its evidence.
+4. Carry out the agreed work, check what happened and share what the next person needs.
+
+The first review packages cover the working method, the weather-ready kiosk family and a complete everyday-to-disaster service demonstration. Research can move across the stack while those choices develop. Each approval states its scope; later engineering, site and operating milestones have their relevant people and evidence.
+
+## Keep the wiki current
+
+The `data/` folder contains readable question, task, connection and decision records. The `content/` folder contains the longer explanations. Python builds them into the linked pages in `wiki/` using its standard library, with no extra packages required.
+
+```text
+python scripts/wiki.py
+python scripts/wiki.py --check
+python -m unittest discover -s tests -v
+```
+
+The checks find missing links, circular dependencies, changed review proposals and approval claims that cannot be matched to a named person's GitHub comment. [Contributor guide](CONTRIBUTING.md) explains updates, reviews and publishing. Private household, welfare, contact and cultural records stay in their authorised places; the public wiki carries information cleared for sharing.
+
+[Earlier kiosk research](https://github.com/auraofintelligence/straddie-disaster-kiosks) · [UNGA81 library](https://auraofintelligence.github.io/UNGA81-Luke-Hayes/library.html) · [Source register](docs/source-register.md)

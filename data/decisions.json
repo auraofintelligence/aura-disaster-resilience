@@ -1,0 +1,178 @@
+[
+  {
+    "id": "D-001",
+    "work_status": "ready_for_review",
+    "github_issue_url": null,
+    "proposal": {
+      "version": 1,
+      "title": "Work together through linked questions and human decisions",
+      "scope": "working_method",
+      "scope_label": "The planning workflow",
+      "summary": "Choose how this wiki becomes our shared workshop: questions name the work, AI assistants prepare evidence and options, and people decide the next step.",
+      "options": [
+        {
+          "name": "One long planning document",
+          "benefit": "A single reading path explains the broad idea.",
+          "tradeoff": "Assignments, changes and connected choices need extra tracking."
+        },
+        {
+          "name": "Linked question cards and review packages",
+          "benefit": "Each job has an owner, evidence, connected questions and a review route.",
+          "tradeoff": "Keep the records and published wiki in step as work changes."
+        },
+        {
+          "name": "Issues as the primary workspace",
+          "benefit": "Discussion and assignments sit directly in GitHub.",
+          "tradeoff": "Provide a separate reading map so newcomers can follow the whole system."
+        }
+      ],
+      "recommendation": "Use the linked wiki as the reading and question map, GitHub issues for review conversations, and versioned repository records for evidence and history.",
+      "authorises": [
+        "Use the question IDs, work labels, agent job sheets and review records for planning.",
+        "Prepare research and design alternatives in parallel, with clear file ownership and handovers."
+      ],
+      "later_reviews": [
+        "Each technical design, spending commitment, site use and operating service receives its relevant review.",
+        "Repository protection settings and reviewer roles are checked during GitHub setup."
+      ],
+      "review_checks": [
+        "Can a newcomer find a useful job and understand what to bring back?",
+        "Can a reviewer see the exact proposal, evidence, responsibilities and next action?",
+        "Do changed proposals return to review while earlier decisions remain traceable?"
+      ],
+      "question_ids": [
+        "WRK-01",
+        "WRK-02",
+        "WRK-03",
+        "WRK-04",
+        "WRK-05",
+        "WRK-06"
+      ],
+      "files": [
+        "content/Agent-work.md",
+        "content/Human-review.md"
+      ],
+      "required_roles": [
+        "design_curator"
+      ]
+    }
+  },
+  {
+    "id": "D-002",
+    "work_status": "ready_for_review",
+    "github_issue_url": null,
+    "proposal": {
+      "version": 1,
+      "title": "Design a kiosk family around its weather and working conditions",
+      "scope": "design_brief",
+      "scope_label": "The physical design brief and comparison drawings",
+      "summary": "Choose a design approach that makes the public equipment, its power and its maintenance fit the conditions it will face. The existing artwork starts the visual conversation; this package starts the physical design.",
+      "options": [
+        {
+          "name": "A freestanding outdoor kiosk",
+          "benefit": "A visible public point can be placed where people gather and need information.",
+          "tradeoff": "Resolve enclosure, heat, water, wind, anchoring, safe access and maintenance together."
+        },
+        {
+          "name": "A public interface supported by a weather-protected host",
+          "benefit": "The public screen connects to computing and service equipment in an agreed protected space.",
+          "tradeoff": "Agree access, host responsibilities, cabling, independent power and support when the host is closed."
+        },
+        {
+          "name": "A portable continuity kit",
+          "benefit": "Crews can reach events, exercises and temporary gaps with a transportable unit.",
+          "tradeoff": "Plan transport, safe setup, deployment conditions, storage and return."
+        }
+      ],
+      "recommendation": "Develop coordinated designs for a sheltered arcade demonstrator, an operational outdoor public kiosk and a portable continuity kit. Compare freestanding and host-supported arrangements before choosing the outdoor build.",
+      "authorises": [
+        "Write the exposure and service requirements for each form.",
+        "Prepare alternative layouts, compartments, access arrangements and a measured parts-and-energy plan."
+      ],
+      "later_reviews": [
+        "Engineering review, prices and a build decision follow the comparison drawings.",
+        "A real site brings its own host, cultural, installation and operating agreements.",
+        "Measured weather, energy and communication performance supports a later field trial."
+      ],
+      "review_checks": [
+        "Are operating conditions, protection through a severe event, storage and recovery conditions clearly described?",
+        "Can a person use and maintain the equipment comfortably and safely?",
+        "Do the drawings show water paths, heat management, power separation, access and mounting?",
+        "Does each claimed capability have a planned measurement or review?"
+      ],
+      "question_ids": [
+        "PHY-01",
+        "PHY-02",
+        "ENE-01",
+        "COM-01",
+        "TEST-01"
+      ],
+      "files": [
+        "content/All-weather-design.md"
+      ],
+      "required_roles": [
+        "design_curator"
+      ]
+    }
+  },
+  {
+    "id": "D-003",
+    "work_status": "ready_for_review",
+    "github_issue_url": null,
+    "proposal": {
+      "version": 1,
+      "title": "Build a complete everyday-to-disaster service demonstration",
+      "scope": "prototype_service",
+      "scope_label": "The first software and service demonstration",
+      "summary": "Choose the first connected jobs to demonstrate, so we can test the kiosk, information, people, messages and Aura learning as a working whole.",
+      "options": [
+        {
+          "name": "Public information and calendar first",
+          "benefit": "Demonstrate reviewed notices, events, corrections and saved information.",
+          "tradeoff": "Request handovers and personal learning join in a later demonstration."
+        },
+        {
+          "name": "Connected service demonstration",
+          "benefit": "Demonstrate public information, bounded assistance, readiness records and Aura learning across several simulated locations.",
+          "tradeoff": "Use clear sample records and test the different receiving, approval and failure states."
+        },
+        {
+          "name": "Prepare a field pilot alongside the software",
+          "benefit": "Develop a real host and hardware trial while the service takes shape.",
+          "tradeoff": "Coordinate people, equipment, site arrangements and resources earlier."
+        }
+      ],
+      "recommendation": "Start with a connected service demonstration using sample records at three logical locations and a portable unit. Practise everyday work, lost connections and recovery, then prepare the measured hardware and field trials.",
+      "authorises": [
+        "Demonstrate three everyday tasks: find checked events and transport information; find a local notice or service; use guided assistance or learning.",
+        "Demonstrate disaster information, service/resource readiness and request handover with honest source and receipt states.",
+        "Prepare a 24-hour disconnected software exercise and a nine-day scenario timeline, each labelled by its test method."
+      ],
+      "later_reviews": [
+        "People responsible for real information and requests agree their service arrangements before public use.",
+        "Actual endurance, weather performance and pilot-site readiness are established through their own measurements and reviews."
+      ],
+      "review_checks": [
+        "Can residents and visitors complete the everyday jobs without a personal account?",
+        "Does a changed or unresolved warning keep its source, time and meaning when a connection fails?",
+        "Can people see whether a request is saved, received, assigned or completed?",
+        "Does Aura offer relevant learning with a source, prerequisites and a human handover?",
+        "Can another steward restore the service and continue outstanding work?"
+      ],
+      "question_ids": [
+        "OPS-01",
+        "DAT-01",
+        "SW-01",
+        "AUR-01",
+        "TWIN-01",
+        "TEST-01"
+      ],
+      "files": [
+        "docs/service-demonstration.md"
+      ],
+      "required_roles": [
+        "design_curator"
+      ]
+    }
+  }
+]

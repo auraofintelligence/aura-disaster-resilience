@@ -1,0 +1,33 @@
+name: A useful piece of work
+description: Take a question forward with evidence, choices and a practical handover.
+title: "[Work] "
+body:
+  - type: input
+    id: question
+    attributes:
+      label: Which question or decision?
+      description: Use the wiki ID, such as PHY-01 or D-002.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What will this help someone do?
+    validations:
+      required: true
+  - type: textarea
+    id: work
+    attributes:
+      label: What useful work will you bring back?
+      description: A drawing, measurement, comparison, demonstration, source agreement or clear explanation.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Evidence and connected questions
+  - type: textarea
+    id: handover
+    attributes:
+      label: Who works on it and who reviews the next action?
+      description: State the assigned files or job boundaries and the people to confirm.
