@@ -1722,7 +1722,7 @@
   {
     "id": "TWIN-01",
     "domain": "TWIN",
-    "question": "What dated local digital twin—a computer representation of places and services—will support useful kiosk navigation and outage planning?",
+    "question": "What dated local digital twin—a computer representation of a person, place or system—will support useful kiosk navigation and outage planning?",
     "why": "Measured places, photographs, catalogue entries and inferred map features each carry different evidence. People need to see that difference when planning a journey or service.",
     "expected_deliverable": "Define the place record: source, date, position and accuracy, measured or inferred features, access permissions, gaps and correction owner. Review representative routes and facilities. Keep uncertain points visible as uncertain, and distinguish a candidate gathering place from an officially activated shelter.",
     "depends_on": [

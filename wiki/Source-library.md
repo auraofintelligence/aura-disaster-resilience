@@ -94,6 +94,27 @@ The source library keeps the documents and site editions behind the work availab
 
 [Site packing list, source revisions and checksums](../data/site-manifest.json). Large ZIPs use numbered parts that the restore helper joins and checks. Source snapshots preserve website files; live outside services retain their own operating arrangements.
 
+## Saved public page editions
+
+These dated HTML copies preserve the linked public pages as received. HTML is the page source a browser reads. The project-source packages above preserve the related code and assets; separate hosting services and databases have their own handovers.
+
+| Public address | Saved page source | Captured, UTC |
+| --- | --- | --- |
+| [https://auraofintelligence.github.io/gajra-earth-claude-build/](https://auraofintelligence.github.io/gajra-earth-claude-build/) | [Open saved edition](../sources/web-pages/01-gajra-earth-claude-build/response.html) | 2026-10-20T08:14:23+00:00 |
+| [https://auraofintelligence.github.io/GAJRA-earth-infinity/](https://auraofintelligence.github.io/GAJRA-earth-infinity/) | [Open saved edition](../sources/web-pages/02-GAJRA-earth-infinity/response.html) | 2026-10-20T08:14:23+00:00 |
+| [https://auraofintelligence.github.io/](https://auraofintelligence.github.io/) | [Open saved edition](../sources/web-pages/03-auraofintelligence.github.io/response.html) | 2026-10-20T08:14:23+00:00 |
+| [https://auraofintelligence.com/](https://auraofintelligence.com/) | [Open saved edition](../sources/web-pages/04-auraofintelligence.com/response.html) | 2026-10-20T08:14:25+00:00 |
+| [https://auraofintelligence.github.io/ready-set-co-op-trust-hub/](https://auraofintelligence.github.io/ready-set-co-op-trust-hub/) | [Open saved edition](../sources/web-pages/05-ready-set-co-op-trust-hub/response.html) | 2026-10-20T08:14:23+00:00 |
+| [https://auraofintelligence.github.io/UNGA81-Luke-Hayes/library.html](https://auraofintelligence.github.io/UNGA81-Luke-Hayes/library.html) | [Open saved edition](../sources/web-pages/06-UNGA81-Luke-Hayes-library.html/response.html) | 2026-10-20T08:14:23+00:00 |
+| [https://www.qld.gov.au/government/strategies-initiatives/initiatives/brisbane2032/brisbane-2032-organising-committee](https://www.qld.gov.au/government/strategies-initiatives/initiatives/brisbane2032/brisbane-2032-organising-committee) | [Open saved edition](../sources/web-pages/07-government-strategies-initiatives-initiatives-brisbane2032-brisbane-2032-organising-committee/response.html) | 2026-10-20T08:14:23+00:00 |
+| [https://p4a.xyz](https://p4a.xyz) | [Open saved edition](../sources/web-pages/08-p4a.xyz/response.html) | 2026-10-20T08:14:24+00:00 |
+| [https://p4a.xyz/pages/web3-sensorium.html](https://p4a.xyz/pages/web3-sensorium.html) | [Open saved edition](../sources/web-pages/09-pages-web3-sensorium.html/response.html) | 2026-10-20T08:14:24+00:00 |
+| [https://p4a.xyz/pages/twinkle-uap.html](https://p4a.xyz/pages/twinkle-uap.html) | [Open saved edition](../sources/web-pages/10-pages-twinkle-uap.html/response.html) | 2026-10-20T08:14:24+00:00 |
+| [https://p4a.xyz/pages/twinkle.html](https://p4a.xyz/pages/twinkle.html) | [Open saved edition](../sources/web-pages/11-pages-twinkle.html/response.html) | 2026-10-20T08:14:24+00:00 |
+| [https://auraofintelligence.github.io/minjerribah-screen-media-network/](https://auraofintelligence.github.io/minjerribah-screen-media-network/) | [Open saved edition](../sources/web-pages/12-minjerribah-screen-media-network/response.html) | 2026-10-20T08:17:19+00:00 |
+
+[Public-page packing list, response details and checksums](../data/web-page-manifest.json).
+
 ## Carry the work forward
 
 [Swarm handover](../SWARM_HANDOVER.md) · [Question register](Question-register.md) · [Evidence](Evidence.md). The handover gives the next team the agreed direction, current work, decisions and next jobs.

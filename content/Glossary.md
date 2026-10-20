@@ -21,7 +21,7 @@ You can start with practical experience and pick up the terms as they become use
 | Release | A checked package of information and software made available to devices. |
 | Manifest | A packing list naming files, versions and checksums. |
 | Checksum or content fingerprint | A calculated identifier for exact file contents. A changed file produces a different identifier. SHA-256 is the method used here. |
-| Digital twin | A digital representation of a place, equipment or chosen personal context, built from identified evidence and assumptions. |
+| Digital twin | A versioned digital representation of a person, place or system, built from identified evidence and assumptions. A personal twin develops through that person's choices about its content, access and use. |
 | Simulation | A practice or comparison run using stated inputs and rules. It helps us ask what may happen and compare that with measurements. |
 | High fidelity | Detail and behaviour that serve the task accurately, with the source, time, location, uncertainty and assumptions visible. |
 | Retrieval | Finding the relevant passage or record before explaining an answer. RAG combines that search with an AI-generated explanation. |

@@ -84,7 +84,7 @@ The kiosk and its resilience network are the first delivery focus. The wider eco
 
 **Minjerribah Screen and Media Network**
 
-[minjerribah-screen-media-network](https://github.com/auraofintelligence/minjerribah-screen-media-network)
+[minjerribah-screen-media-network](https://github.com/auraofintelligence/minjerribah-screen-media-network) · [minjerribah-screen-media-network](https://auraofintelligence.github.io/minjerribah-screen-media-network/)
 
 **Ready S.E.T. Co-op operating and trust model**
 

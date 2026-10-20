@@ -53,10 +53,10 @@ def evidence_fingerprint(decision, root=ROOT, questions=None):
                      if k not in {'work_status', 'assigned_to', 'answer', 'decision_id'}}
                 for qid in proposal['question_ids']}
     manifests = {}
-    for name in ('document-manifest.json', 'site-manifest.json'):
+    for name in ('document-manifest.json', 'site-manifest.json', 'web-page-manifest.json'):
         path = root / 'data' / name
         if path.exists():
-            if name == 'site-manifest.json' and json.loads(path.read_text(encoding='utf-8')).get('capture_status') != 'complete':
+            if name in {'site-manifest.json', 'web-page-manifest.json'} and json.loads(path.read_text(encoding='utf-8')).get('capture_status') != 'complete':
                 continue
             manifests[name] = content_digest(path)
     payload = {'files': files, 'questions': selected, 'source_manifests': manifests}
@@ -445,6 +445,16 @@ For a new piece of evidence, record the question IDs it helps answer, the file o
         library += '\n\n[Site packing list, source revisions and checksums](../data/site-manifest.json). Large ZIPs use numbered parts that the restore helper joins and checks. Source snapshots preserve website files; live outside services retain their own operating arrangements.\n'
     else:
         library += 'Website-source snapshots are being packaged with their existing licences, source editions, per-file checksums and restoration instructions. The complete packing list and downloads will appear here when the capture is checked.\n'
+    web_path = root / 'data/web-page-manifest.json'
+    if web_path.exists():
+        web_pages = json.loads(web_path.read_text(encoding='utf-8'))
+        if web_pages.get('capture_status') == 'complete':
+            library += '\n## Saved public page editions\n\nThese dated HTML copies preserve the linked public pages as received. HTML is the page source a browser reads. The project-source packages above preserve the related code and assets; separate hosting services and databases have their own handovers.\n\n'
+            library += table(['Public address', 'Saved page source', 'Captured, UTC'], [
+                (f'[{r["url"]}]({r["url"]})',
+                 f'[Open saved edition](../{quote(r["public_path"], safe="/")})' if r['status'] == 'captured' else r['status'],
+                 r.get('captured_utc', 'See the packing list')) for r in web_pages['records']])
+            library += '\n\n[Public-page packing list, response details and checksums](../data/web-page-manifest.json).\n'
     library += '\n## Carry the work forward\n\n[Swarm handover](../SWARM_HANDOVER.md) · [Question register](Question-register.md) · [Evidence](Evidence.md). The handover gives the next team the agreed direction, current work, decisions and next jobs.\n'
     page('Source-library', 'Documents and website source library', library)
     for p in sorted((root / 'content').glob('*.md')):

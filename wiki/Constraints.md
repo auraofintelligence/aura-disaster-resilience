@@ -29,3 +29,5 @@ These directions come from Luke's instructions in this planning conversation on 
 **C12** Write for an average Australian who learns quickly by doing. Use optimistic, future-forward explanations, welcome practical experience, explain unfamiliar terms and give concrete examples. Keep the stage and evidence accurate as each capability grows.
 
 **C13** Use Purple Party for Australia or P4A. Preserve the existing repository identifier where it is a source link. Its intended referendum horizon is during or before 2031, with a hoped-for Brisbane 2032 showcase.
+
+**C14** A digital twin is a versioned representation of a person, place or system, built from selected evidence and assumptions. Personal twins develop through the person's choices about their content, access and use.

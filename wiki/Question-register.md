@@ -84,7 +84,7 @@ Work labels describe preparation: **open**, **researching**, **options ready**, 
 | [AUR-04](Question-AUR-04.md) | How can just-in-time learning help a resident or relief operator learn the next permitted task and recognise when a qualified person is needed? | open |
 | [AUR-05](Question-AUR-05.md) | How will a person's sharing choices travel with their records and AI work between a device, local hub and outside service? | open |
 | [AUR-06](Question-AUR-06.md) | How will a person decide which actions their Aura may read about, draft, propose or carry out on their behalf? | open |
-| [TWIN-01](Question-TWIN-01.md) | What dated local digital twin—a computer representation of places and services—will support useful kiosk navigation and outage planning? | open |
+| [TWIN-01](Question-TWIN-01.md) | What dated local digital twin—a computer representation of a person, place or system—will support useful kiosk navigation and outage planning? | open |
 | [TWIN-02](Question-TWIN-02.md) | Which demanding exercises will show how the network serves people through combined, prolonged failures? | open |
 | [TWIN-03](Question-TWIN-03.md) | What checks will show when a computer model is useful for a real decision and where its limits remain? | open |
 | [TWIN-04](Question-TWIN-04.md) | How will digital exercises show the connections between information, transport, supplies, power, equipment and available people? | open |

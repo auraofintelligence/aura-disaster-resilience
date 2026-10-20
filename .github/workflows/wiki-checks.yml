@@ -28,3 +28,4 @@ jobs:
         run: |
           python scripts/verify_documents.py
           python scripts/verify_sites.py
+          python scripts/verify_web_pages.py

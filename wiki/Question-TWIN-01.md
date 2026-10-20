@@ -1,4 +1,4 @@
-# TWIN-01 What dated local digital twin—a computer representation of places and services—will support useful kiosk navigation and outage planning?
+# TWIN-01 What dated local digital twin—a computer representation of a person, place or system—will support useful kiosk navigation and outage planning?
 
 [Start here](Home.md) · [Questions](Question-register.md) · [Progress](Progress.md) · [People decide](Human-review.md)
 

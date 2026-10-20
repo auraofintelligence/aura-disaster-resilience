@@ -6,7 +6,7 @@ Use a digital model of a place to understand evidence, compare choices and pract
 
 | Question | What we are working out | Work state |
 | --- | --- | --- |
-| [TWIN-01](Question-TWIN-01.md) | What dated local digital twin—a computer representation of places and services—will support useful kiosk navigation and outage planning? | open |
+| [TWIN-01](Question-TWIN-01.md) | What dated local digital twin—a computer representation of a person, place or system—will support useful kiosk navigation and outage planning? | open |
 | [TWIN-02](Question-TWIN-02.md) | Which demanding exercises will show how the network serves people through combined, prolonged failures? | open |
 | [TWIN-03](Question-TWIN-03.md) | What checks will show when a computer model is useful for a real decision and where its limits remain? | open |
 | [TWIN-04](Question-TWIN-04.md) | How will digital exercises show the connections between information, transport, supplies, power, equipment and available people? | open |

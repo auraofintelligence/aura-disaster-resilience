@@ -6,3 +6,5 @@
 sources/documents/** -text
 sources/sites/** -text
 data/site-manifest.json -text
+sources/web-pages/** -text
+data/web-page-manifest.json -text

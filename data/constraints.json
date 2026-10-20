@@ -50,5 +50,9 @@
   {
     "id": "C13",
     "constraint": "Use Purple Party for Australia or P4A. Preserve the existing repository identifier where it is a source link. Its intended referendum horizon is during or before 2031, with a hoped-for Brisbane 2032 showcase."
+  },
+  {
+    "id": "C14",
+    "constraint": "A digital twin is a versioned representation of a person, place or system, built from selected evidence and assumptions. Personal twins develop through the person's choices about their content, access and use."
   }
 ]

@@ -194,7 +194,10 @@
       "SW-01",
       "COM-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "public_urls": [
+      "https://auraofintelligence.github.io/minjerribah-screen-media-network/"
+    ]
   },
   {
     "id": "ready-set-co-op",

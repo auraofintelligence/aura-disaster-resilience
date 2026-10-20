@@ -35,7 +35,7 @@ A source repository offers material to learn from. The service team will choose 
 | UNGA81, AUKUS and workforce sources | Connect purposeful local computing with personal choice, paid supervised experience and community learning | [Operations](Domain-OPS.md), [staffing](Question-OPS-06.md) |
 | Redlands, P4A, Sensorium, Grain and future horizons | Explore wider grassroots cooperation, public participation, documentary, the Games horizon and clearly labelled future scenarios | [Ecosystem](Domain-ECO.md), [evaluation](Domain-TEST.md) |
 
-A digital twin is a versioned representation of a place or system, built from selected evidence and assumptions. Maps, photographs, observations and simulations will retain their dates and different meanings. People will be able to inspect a claim, propose a correction and understand what remains uncertain.
+A digital twin is a versioned representation of a person, place or system, built from selected evidence and assumptions. Maps, photographs, observations and simulations will retain their dates and different meanings. People will be able to inspect a claim, propose a correction and understand what remains uncertain. A personal twin develops through that person's choices about what it represents, who can use it and how it is updated.
 
 Legal RAG, or retrieval-augmented generation, is a pattern where AI finds relevant source passages before preparing an explanation. The service would develop its current collection of official instructions and approved procedures with the responsible information owners. A source document informs the work; actual people and organisations decide matters within their authority.
 
