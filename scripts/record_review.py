@@ -19,11 +19,11 @@ def main():
     if not decision:
         raise ValueError('Choose an existing decision ID from the wiki.')
     comment = github_comment(args.comment_url)
-    review = {'decision_id': decision['id'], 'proposal_sha256': fingerprint(decision),
+    review = {'decision_id': decision['id'], 'proposal_sha256': fingerprint(decision, questions=data['questions']),
               'role': args.role, 'outcome': args.outcome, 'reviewer': comment['user']['login'],
               'evidence_url': args.comment_url, 'active': True,
               'recorded_at': datetime.now(timezone.utc).isoformat()}
-    verified = verify_review(review, decision, data['roles'], fetch=lambda url: comment)
+    verified = verify_review(review, decision, data['roles'], fetch=lambda url: comment, questions=data['questions'])
     review.update(conditions=verified['conditions'], valid_until=verified['valid_until'],
                   source_created_at=verified['source_created_at'], source_updated_at=verified['source_updated_at'])
     if any(x.get('evidence_url') == args.comment_url and x.get('active', True) for x in data['reviews']):

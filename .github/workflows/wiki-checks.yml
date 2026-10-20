@@ -24,3 +24,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
       - name: Exercise the record and review checks
         run: python -m unittest discover -s tests -v
+      - name: Check preserved source documents and site packages
+        run: |
+          python scripts/verify_documents.py
+          python scripts/verify_sites.py

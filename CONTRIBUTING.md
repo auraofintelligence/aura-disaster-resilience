@@ -18,7 +18,7 @@ Propose the source change through a pull request so people can inspect the diffe
 
 ## Record a person's decision
 
-Each decision page shows its review scope and a content fingerprint: a SHA-256 identifier calculated from the exact proposal and its supporting files. The named reviewer reads the package and posts the displayed `HITL APPROVE` line in its linked GitHub issue, with any reasons or conditions. `HITL CHANGE` and `HITL REJECT` record the other outcomes.
+Each decision page shows its review scope and a content fingerprint: a SHA-256 identifier calculated from the exact proposal, supporting files, selected question evidence and source manifests. The named reviewer reads the package and posts the displayed `HITL APPROVE` line with `Conditions: none` in its linked GitHub issue. Put any conditions in that field; agreement then remains conditional until a fresh decision. An optional `Valid-until:` line records the date, time and timezone. Discuss reasons in a separate comment so the approval record stays unambiguous. `HITL CHANGE` and `HITL REJECT` record the other outcomes.
 
 An authorised maintainer can then import the existing comment:
 

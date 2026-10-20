@@ -38,6 +38,8 @@ Use the linked wiki as the reading and question map, GitHub issues for review co
 
 **Reviewers:** Luke, reviewing the project design and working method
 
+[Open the GitHub review conversation](https://github.com/auraofintelligence/aura-disaster-resilience/issues/1).
+
 ## Record the human decision
 
 The fingerprint below identifies this exact proposal and its supporting files. A changed proposal gets a fresh fingerprint and review. A person may approve, request changes or reject it. [How reviews work](Human-review.md).

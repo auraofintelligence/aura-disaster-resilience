@@ -41,6 +41,8 @@ Start with a connected service demonstration using sample records at three logic
 
 **Reviewers:** Luke, reviewing the project design and working method
 
+[Open the GitHub review conversation](https://github.com/auraofintelligence/aura-disaster-resilience/issues/3).
+
 ## Record the human decision
 
 The fingerprint below identifies this exact proposal and its supporting files. A changed proposal gets a fresh fingerprint and review. A person may approve, request changes or reject it. [How reviews work](Human-review.md).

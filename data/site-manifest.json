@@ -1,0 +1,1647 @@
+{
+  "schema_version": 1,
+  "purpose": "Portable source packages for the kiosk planning library and connected ecosystem.",
+  "capture_started_utc": "2026-10-20T07:56:48+00:00",
+  "capture_status": "complete",
+  "selection_rules": {
+    "selection": "Git tracked working files and untracked files not ignored by Git; current working contents, rather than only HEAD contents.",
+    "preserved": "Original code, static assets, documents, licences and notices remain unchanged inside each package.",
+    "excluded": "Git history, dependency folders, caches, temporary build output, credential/environment/key files, detected concrete secret formats, symlinks and unavailable working files.",
+    "working_changes": "Source repositories are read only. Each package records its own capture time, HEAD, branch, start/end working status and file fingerprints.",
+    "scope": "A repository snapshot preserves source artefacts. Live hosting configuration, external databases, unpublished records, ignored dependencies and an external WordPress installation require their own authorised handover.",
+    "licences": "Each source retains its own licence and notices. Inclusion here does not replace those terms or grant additional rights.",
+    "parts": "ZIP files over 90 MiB are divided into 32 MiB parts, with a fingerprint for every part and for the complete ZIP."
+  },
+  "external_sites": [
+    {
+      "url": "https://auraofintelligence.github.io/gajra-earth-claude-build/",
+      "source_repositories": [
+        "gajra-earth-claude-build"
+      ],
+      "relationship": "GitHub Pages address mapped to repository source",
+      "capture": "The selected local source files are packaged with their recorded edition."
+    },
+    {
+      "url": "https://auraofintelligence.github.io/GAJRA-earth-infinity/",
+      "source_repositories": [
+        "GAJRA-earth-infinity"
+      ],
+      "relationship": "GitHub Pages address mapped to repository source",
+      "capture": "The selected local source files are packaged with their recorded edition."
+    },
+    {
+      "url": "https://auraofintelligence.github.io/",
+      "source_repositories": [
+        "auraofintelligence.github.io"
+      ],
+      "relationship": "GitHub Pages address mapped to repository source",
+      "capture": "The selected local source files are packaged with their recorded edition."
+    },
+    {
+      "url": "https://auraofintelligence.com/",
+      "source_repositories": [
+        "auraofintelligence.github.io"
+      ],
+      "relationship": "external canonical address with related public repository source",
+      "capture": "The public repository source is packaged. A separate WordPress or hosting export remains a handover item when supplied."
+    },
+    {
+      "url": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
+      "source_repositories": [
+        "ready-set-co-op-trust-hub"
+      ],
+      "relationship": "GitHub Pages address mapped to repository source",
+      "capture": "The selected local source files are packaged with their recorded edition."
+    },
+    {
+      "url": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/library.html",
+      "source_repositories": [
+        "UNGA81-Luke-Hayes"
+      ],
+      "relationship": "GitHub Pages address mapped to repository source",
+      "capture": "The selected local source files are packaged with their recorded edition."
+    },
+    {
+      "url": "https://www.qld.gov.au/government/strategies-initiatives/initiatives/brisbane2032/brisbane-2032-organising-committee",
+      "relationship": "official external reference",
+      "capture": "Reference only; its owner publishes the authoritative site."
+    },
+    {
+      "url": "https://p4a.xyz",
+      "source_repositories": [
+        "p4a-xyz-cinema"
+      ],
+      "relationship": "external canonical address with mapped public source",
+      "capture": "The current local public source tree is packaged; live host configuration and external records have their own handover."
+    },
+    {
+      "url": "https://p4a.xyz/pages/web3-sensorium.html",
+      "source_repositories": [
+        "p4a-xyz-cinema"
+      ],
+      "relationship": "external canonical address with mapped public source",
+      "capture": "The current local public source tree is packaged; live host configuration and external records have their own handover."
+    },
+    {
+      "url": "https://p4a.xyz/pages/twinkle-uap.html",
+      "source_repositories": [
+        "p4a-xyz-cinema"
+      ],
+      "relationship": "external canonical address with mapped public source",
+      "capture": "The current local public source tree is packaged; live host configuration and external records have their own handover."
+    },
+    {
+      "url": "https://p4a.xyz/pages/twinkle.html",
+      "source_repositories": [
+        "p4a-xyz-cinema"
+      ],
+      "relationship": "external canonical address with mapped public source",
+      "capture": "The current local public source tree is packaged; live host configuration and external records have their own handover."
+    }
+  ],
+  "records": [
+    {
+      "slug": "C-Hour-introduction",
+      "repository": "https://github.com/auraofintelligence/C-Hour-introduction",
+      "state": "source_packaged",
+      "head": "722725e442a3c62311bdd3ba43dd4616f35fbd0c",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 104,
+      "source_bytes": 14269136,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/C-Hour-introduction/source-manifest.json",
+        "bytes": 19474,
+        "sha256": "c13f2f96e312141d4d095c827e7969f15576cdf683e6a7dfe43731ccf5de7109"
+      },
+      "files_sha256": "5a92088d5a9bdbb2ded8559269e3447a001b8481e6ab9352a2cd0a9b1f6c32c2",
+      "archive": {
+        "format": "zip",
+        "bytes": 11879168,
+        "sha256": "ea7591ee2c73c81eec1eb2003c38450dfc5e2e5509233becf0cfc54c0e89df2c",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/C-Hour-introduction/source.zip",
+            "bytes": 11879168,
+            "sha256": "ea7591ee2c73c81eec1eb2003c38450dfc5e2e5509233becf0cfc54c0e89df2c"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:56:50+00:00"
+    },
+    {
+      "slug": "GAJRA-earth-infinity",
+      "repository": "https://github.com/auraofintelligence/GAJRA-earth-infinity",
+      "state": "source_packaged",
+      "head": "ca920d7711fb4ae2e2c17b0f5dbfcdb4d6bd6951",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 90,
+      "source_bytes": 10995079,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/GAJRA-earth-infinity/source-manifest.json",
+        "bytes": 16070,
+        "sha256": "d0cad0d80d65f4a5109a5094a68554c357b7871bb8e2427be9025e6891b501db"
+      },
+      "files_sha256": "2e2d71c4ea3a6a2e61b233d82b81303b9c49e7d065a4dc3a9b1580f9176e2819",
+      "archive": {
+        "format": "zip",
+        "bytes": 9777323,
+        "sha256": "de09c38148ce839a89351167cb4c2490037728b3b59018b6477ea2baaf88938b",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/GAJRA-earth-infinity/source.zip",
+            "bytes": 9777323,
+            "sha256": "de09c38148ce839a89351167cb4c2490037728b3b59018b6477ea2baaf88938b"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:56:51+00:00"
+    },
+    {
+      "slug": "Minjerribah-Resilience",
+      "repository": "https://github.com/auraofintelligence/Minjerribah-Resilience",
+      "state": "source_packaged",
+      "head": "70d370d23b8bb4076ed44b73494567bcda80b9c3",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 9,
+      "source_bytes": 718111,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/Minjerribah-Resilience/source-manifest.json",
+        "bytes": 3289,
+        "sha256": "137e75307ad93784564567a68e1e24b4598f7c881c563b9a5de0ec7209d9f723"
+      },
+      "files_sha256": "941780a734fd4629617d2ee08abd22bf609a754e60266ce5384346a40ac18691",
+      "archive": {
+        "format": "zip",
+        "bytes": 687444,
+        "sha256": "f03f1bb5bd7f6266edeacd765238f513cf8bb687d1531e41c815cc82e94a2be8",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/Minjerribah-Resilience/source.zip",
+            "bytes": 687444,
+            "sha256": "f03f1bb5bd7f6266edeacd765238f513cf8bb687d1531e41c815cc82e94a2be8"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:56:52+00:00"
+    },
+    {
+      "slug": "Oceania-healthy-de-slop-co-ops",
+      "repository": "https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops",
+      "state": "source_packaged",
+      "head": "d2717429db6128c69c1992fd0cf1cba7dc801879",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 89,
+      "source_bytes": 65900916,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/Oceania-healthy-de-slop-co-ops/source-manifest.json",
+        "bytes": 17243,
+        "sha256": "c24aac460cd9319e303855e6ed53edac8262ee68298365bf452b7d57089b8a9e"
+      },
+      "files_sha256": "db090fb684bc277b66a59f0b83803dd1602317c2ce150e3dec218cebbb4df50d",
+      "archive": {
+        "format": "zip",
+        "bytes": 65200594,
+        "sha256": "e977e0792e2845ce7cb495cdc7e5b50fef11b758eb2364b86ba39d4965362c6e",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/Oceania-healthy-de-slop-co-ops/source.zip",
+            "bytes": 65200594,
+            "sha256": "e977e0792e2845ce7cb495cdc7e5b50fef11b758eb2364b86ba39d4965362c6e"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:56:59+00:00"
+    },
+    {
+      "slug": "Redlands_discovers_Luke_Hayes",
+      "repository": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes",
+      "state": "source_packaged",
+      "head": "cd700c5bdcd94eee5afd74bef538ae68c6f705e7",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 69,
+      "source_bytes": 45365119,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/Redlands_discovers_Luke_Hayes/source-manifest.json",
+        "bytes": 13800,
+        "sha256": "9750badfc3089caa055ed685c5ae2eebe2ca432a12a1af68dadb22f495eed706"
+      },
+      "files_sha256": "3b139d579c1e317b86e0d7f41a0b7caf6526b5467c1de4290d9421e7a1504d01",
+      "archive": {
+        "format": "zip",
+        "bytes": 41483650,
+        "sha256": "d04526d393b496a469c5f8ca87b5aa802c23ae95b5befeb94bbd8f903ecfa8ad",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/Redlands_discovers_Luke_Hayes/source.zip",
+            "bytes": 41483650,
+            "sha256": "d04526d393b496a469c5f8ca87b5aa802c23ae95b5befeb94bbd8f903ecfa8ad"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:04+00:00"
+    },
+    {
+      "slug": "UNGA81-Luke-Hayes",
+      "repository": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes",
+      "state": "source_packaged",
+      "head": "12afc71ba7375a2096ab4c307934198568e58bed",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 90,
+      "source_bytes": 13638073,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/UNGA81-Luke-Hayes/source-manifest.json",
+        "bytes": 17069,
+        "sha256": "354b7f3fc8e6f2b81c58b1c3319eff50eb946f9c3041a9dd20b98d7a6004ec1f"
+      },
+      "files_sha256": "bb38dbe21bd4d848b9237c65658f93e4e01e46cd0557f35e5adbf1f53de43867",
+      "archive": {
+        "format": "zip",
+        "bytes": 13296320,
+        "sha256": "61817363b15fa66806a561fe91346570be5f8fc504128154ae6df04fa68aee58",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/UNGA81-Luke-Hayes/source.zip",
+            "bytes": 13296320,
+            "sha256": "61817363b15fa66806a561fe91346570be5f8fc504128154ae6df04fa68aee58"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:06+00:00"
+    },
+    {
+      "slug": "aukus-space-gambit",
+      "repository": "https://github.com/auraofintelligence/aukus-space-gambit",
+      "state": "source_packaged",
+      "head": "e80c23ccfc3cb25528ea43b5abb7a5636dce8d16",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 17,
+      "source_bytes": 550835,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/aukus-space-gambit/source-manifest.json",
+        "bytes": 4480,
+        "sha256": "3d687b1a5b5bf37cac61fdaf4435adf34ee3f94ad4ffa91a7231d630a87cca5b"
+      },
+      "files_sha256": "9956fb94db212940f1ec0cd6f307525bc423a68adcb662850d0cfe865bfd2127",
+      "archive": {
+        "format": "zip",
+        "bytes": 513607,
+        "sha256": "97950f8527ebe071c6b22cb6381c756c607a6801646c6580deef2e060241c735",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/aukus-space-gambit/source.zip",
+            "bytes": 513607,
+            "sha256": "97950f8527ebe071c6b22cb6381c756c607a6801646c6580deef2e060241c735"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:06+00:00"
+    },
+    {
+      "slug": "aura-disaster-resilience",
+      "repository": "https://github.com/auraofintelligence/aura-disaster-resilience",
+      "state": "versioned_destination",
+      "capture": "This destination repository preserves its own complete files and version history. It is excluded from source archives to prevent recursion."
+    },
+    {
+      "slug": "aura-genesis",
+      "repository": "https://github.com/auraofintelligence/aura-genesis",
+      "state": "source_packaged",
+      "head": "b355a0a3a41c473d10a23c7653a1992a29ce7979",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 9,
+      "source_bytes": 1755158,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/aura-genesis/source-manifest.json",
+        "bytes": 3271,
+        "sha256": "06b6c4f9509cb36c22b034dfe6753e0669b53d1ff01d8c5543cd2824acf18f3a"
+      },
+      "files_sha256": "a77bb913b8bf8b45b5d2332ddeb6e4beb0bf2323d2d6daaf2ef3b1f436204222",
+      "archive": {
+        "format": "zip",
+        "bytes": 1719499,
+        "sha256": "ba6468a317eba9e9da56a4c73d183b8a9ffc753755471a02b57a0848e47489fe",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/aura-genesis/source.zip",
+            "bytes": 1719499,
+            "sha256": "ba6468a317eba9e9da56a4c73d183b8a9ffc753755471a02b57a0848e47489fe"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:07+00:00"
+    },
+    {
+      "slug": "aura-genesis-geode-atlas",
+      "repository": "https://github.com/auraofintelligence/aura-genesis-geode-atlas",
+      "state": "source_packaged",
+      "head": "b7e660e7f7c07c0dc1b15bfecde8b0e18f98c370",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 101,
+      "source_bytes": 7612901,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/aura-genesis-geode-atlas/source-manifest.json",
+        "bytes": 18077,
+        "sha256": "88a96cc18f93283ef7a40508ca383885c0535a061667512dc399762d62ce7422"
+      },
+      "files_sha256": "208f3b99de0ae857b40f33b51fdf29784c114c266269a4f8445d76891c3bc9ca",
+      "archive": {
+        "format": "zip",
+        "bytes": 5918915,
+        "sha256": "4201f903a7e6fe7b1ce3fd11041ee99738bbc623783931d08042ee061532b961",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/aura-genesis-geode-atlas/source.zip",
+            "bytes": 5918915,
+            "sha256": "4201f903a7e6fe7b1ce3fd11041ee99738bbc623783931d08042ee061532b961"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:08+00:00"
+    },
+    {
+      "slug": "aura-matrix-studio",
+      "repository": "https://github.com/auraofintelligence/aura-matrix-studio",
+      "state": "source_packaged",
+      "head": "2232f1d69cc90a6598953223f841441b708d8d9a",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 361,
+      "source_bytes": 51149209,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/aura-matrix-studio/source-manifest.json",
+        "bytes": 63920,
+        "sha256": "886a3dfc262cc039073310c774b29b12300ce31ce308b11b32268a6e60f46aa4"
+      },
+      "files_sha256": "b95e8dc19a6313d2e07d3bb7a6094bdc5054305017747dd42b40d6a87921b060",
+      "archive": {
+        "format": "zip",
+        "bytes": 33237963,
+        "sha256": "87702f5669b626c6c5b0e4f4b8f2e29f70098be380ee8a70d236221d70385617",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/aura-matrix-studio/source.zip",
+            "bytes": 33237963,
+            "sha256": "87702f5669b626c6c5b0e4f4b8f2e29f70098be380ee8a70d236221d70385617"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:15+00:00"
+    },
+    {
+      "slug": "aura-verse-box",
+      "repository": "https://github.com/auraofintelligence/aura-verse-box",
+      "state": "source_packaged",
+      "head": "c19109be56d423c797cd76c85af023e1149bb4db",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 63,
+      "source_bytes": 18123129,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/aura-verse-box/source-manifest.json",
+        "bytes": 12207,
+        "sha256": "65d7f7494fec62b258f1c0bcfaf1f4ff502a66d9cb5d827b6d0b4b9b79292b45"
+      },
+      "files_sha256": "753a3fa9d1cd58e23bd39db17f699e89a4b18f46c0f1a2e3e0811e61cd912ecd",
+      "archive": {
+        "format": "zip",
+        "bytes": 15899823,
+        "sha256": "76784341b55d80cd3ca4339ba412d2846a30b1dfda3e0a99a342134ebd58bc24",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/aura-verse-box/source.zip",
+            "bytes": 15899823,
+            "sha256": "76784341b55d80cd3ca4339ba412d2846a30b1dfda3e0a99a342134ebd58bc24"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:17+00:00"
+    },
+    {
+      "slug": "auraofintelligence.github.io",
+      "repository": "https://github.com/auraofintelligence/auraofintelligence.github.io",
+      "state": "source_packaged",
+      "head": "b1f7cd86a04c6a2f4123c8a246454345aef42faa",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 370,
+      "source_bytes": 43942568,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/auraofintelligence.github.io/source-manifest.json",
+        "bytes": 65208,
+        "sha256": "1665b71bbb87eb564ab88d838057115440a0e8786c8ed479886741a930b3f936"
+      },
+      "files_sha256": "051c7fad37b390512b6442b1cd10207ff55bf7956f690b9b15357d08f899057e",
+      "archive": {
+        "format": "zip",
+        "bytes": 43437403,
+        "sha256": "7e075651b61aad93700f6e2392a454c2b3ae98be4d878fe2b48414f47d90b1fb",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/auraofintelligence.github.io/source.zip",
+            "bytes": 43437403,
+            "sha256": "7e075651b61aad93700f6e2392a454c2b3ae98be4d878fe2b48414f47d90b1fb"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:22+00:00"
+    },
+    {
+      "slug": "australian-law-2012-lukes-relevance",
+      "repository": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
+      "state": "source_packaged",
+      "head": "349b97b4cc1eb3e43572177420e4e9c52bd070c0",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 43,
+      "source_bytes": 135721786,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/australian-law-2012-lukes-relevance/source-manifest.json",
+        "bytes": 8938,
+        "sha256": "dcfa12dbcbe0191d3d9a67e4c6a131d398bb96f95e0a06f4d8fc040d1da83a44"
+      },
+      "files_sha256": "4ef417e25d0fbc9b49bdebb0a9869f4d4a2c3ae25ff2e050325d1563a6d2f790",
+      "archive": {
+        "format": "zip",
+        "bytes": 134225046,
+        "sha256": "4dd64ce1c68b9fa0018be16b11cf1d68f962190ce2c2ec9bc5e6d324a8cbaa32",
+        "multipart": true,
+        "parts": [
+          {
+            "path": "sources/sites/australian-law-2012-lukes-relevance/source.zip.part-001",
+            "bytes": 33554432,
+            "sha256": "6cfee8b42da52f2f4a9fe4cc1caceda3f0d427ce47de509877a8c45a59c94040"
+          },
+          {
+            "path": "sources/sites/australian-law-2012-lukes-relevance/source.zip.part-002",
+            "bytes": 33554432,
+            "sha256": "2f6b2fbfea6e74a8374e88194b5af44d6dae6024374b3c4a1a5d9a8d57c8a231"
+          },
+          {
+            "path": "sources/sites/australian-law-2012-lukes-relevance/source.zip.part-003",
+            "bytes": 33554432,
+            "sha256": "af0d4405641cdfb04f1452ccc142cb511d82756a72a6538945edc8d3182b8c97"
+          },
+          {
+            "path": "sources/sites/australian-law-2012-lukes-relevance/source.zip.part-004",
+            "bytes": 33554432,
+            "sha256": "dd4ad995aa19d39242d4500de1bf9aad76bddf79b1f51528b6f48000aceead46"
+          },
+          {
+            "path": "sources/sites/australian-law-2012-lukes-relevance/source.zip.part-005",
+            "bytes": 7318,
+            "sha256": "7912eb18f80f7cc81927eb0d6fe3be84cdd0f159b32ce1a31e8a7d79dc99c56f"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:34+00:00"
+    },
+    {
+      "slug": "australian-legal-engine",
+      "repository": "https://github.com/auraofintelligence/australian-legal-engine",
+      "state": "source_packaged",
+      "head": "fdc04c7d0421094d9b147102d29a7359020ea25e",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 20,
+      "source_bytes": 166204,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/australian-legal-engine/source-manifest.json",
+        "bytes": 4944,
+        "sha256": "96a907efded619669ca19eec545d5b449b70efe0427ffd959b9dbc8f4d9ba3ed"
+      },
+      "files_sha256": "af1b58cfbf80903a6df2a76cc53902913a5b57ce83cd308a7616065d0161d573",
+      "archive": {
+        "format": "zip",
+        "bytes": 64532,
+        "sha256": "95a1eaaa8146164301414a31375884d2be70044d6a449eda6f34f264ff7d3cbf",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/australian-legal-engine/source.zip",
+            "bytes": 64532,
+            "sha256": "95a1eaaa8146164301414a31375884d2be70044d6a449eda6f34f264ff7d3cbf"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:35+00:00"
+    },
+    {
+      "slug": "ballow-road-sand-screen-hub",
+      "repository": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub",
+      "state": "source_packaged",
+      "head": "77ef8668fbef46ae8d020da6125005b9d2940ee7",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 182,
+      "source_bytes": 59655477,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/ballow-road-sand-screen-hub/source-manifest.json",
+        "bytes": 33124,
+        "sha256": "cf6511d938fa78966b98dd66c874eeeed21cdbe63ba6eb32a4c2f70d710744b7"
+      },
+      "files_sha256": "78399d0e71fcb4ad000916220c7b62973bb3752e0e4fa7f0623dc33e1af9f597",
+      "archive": {
+        "format": "zip",
+        "bytes": 59522638,
+        "sha256": "d07a82ba50b55dfb0dc1b5c3c2dbce18de94e033ebac57e7eec600e9e61a0243",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/ballow-road-sand-screen-hub/source.zip",
+            "bytes": 59522638,
+            "sha256": "d07a82ba50b55dfb0dc1b5c3c2dbce18de94e033ebac57e7eec600e9e61a0243"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:40+00:00"
+    },
+    {
+      "slug": "dunwich-gumpi-ferry-terminal-open-data-lab",
+      "repository": "https://github.com/auraofintelligence/dunwich-gumpi-ferry-terminal-open-data-lab",
+      "state": "source_packaged",
+      "head": "965acf50fbf202242267ac8ef512c8ff75876b07",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 103,
+      "source_bytes": 55684910,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/dunwich-gumpi-ferry-terminal-open-data-lab/source-manifest.json",
+        "bytes": 19867,
+        "sha256": "ab6e54f7971f0062da9437269e6a09324e9fe259d58822e9ebfdf6ef15bc9945"
+      },
+      "files_sha256": "2c0b175032ef45f4a23c9b113cfa1258ebef1ac1aa857edbf99fed2ca7fee541",
+      "archive": {
+        "format": "zip",
+        "bytes": 55302712,
+        "sha256": "104c7d09ea3983038072b0f0be53f7521f8d0e4a73cdb26d7549113fba58a913",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/dunwich-gumpi-ferry-terminal-open-data-lab/source.zip",
+            "bytes": 55302712,
+            "sha256": "104c7d09ea3983038072b0f0be53f7521f8d0e4a73cdb26d7549113fba58a913"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:46+00:00"
+    },
+    {
+      "slug": "gajra-earth-claude-build",
+      "repository": "https://github.com/auraofintelligence/gajra-earth-claude-build",
+      "state": "source_packaged",
+      "head": "14c7b9afc80f2cdab773c369ec2cedac45c1f8fe",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 61,
+      "source_bytes": 49023031,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/gajra-earth-claude-build/source-manifest.json",
+        "bytes": 11216,
+        "sha256": "8ff4a48178d71430db07f1c5c71e00a9f04cb84fbe45d7d641d76ea5020c7119"
+      },
+      "files_sha256": "0a6f1e6de16b96ffd37c42677e992ee6f34a72b8094602aa0b53dd7a48dc966f",
+      "archive": {
+        "format": "zip",
+        "bytes": 47510464,
+        "sha256": "383b0faea620cf647acfff82ecf96d3e4ab29352e91753cd99b6b8d12109f8e0",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/gajra-earth-claude-build/source.zip",
+            "bytes": 47510464,
+            "sha256": "383b0faea620cf647acfff82ecf96d3e4ab29352e91753cd99b6b8d12109f8e0"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:50+00:00"
+    },
+    {
+      "slug": "gajra-earth-public-hub",
+      "repository": "https://github.com/auraofintelligence/gajra-earth-public-hub",
+      "state": "source_packaged",
+      "head": "1b017c1db9540fda3bd93543d2e958b19e81dcf2",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 34,
+      "source_bytes": 2042997,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/gajra-earth-public-hub/source-manifest.json",
+        "bytes": 7235,
+        "sha256": "de6b6ec9be4ac7447e6c461719d7b519674d41157749a748b2a59edeb4a1726c"
+      },
+      "files_sha256": "2d80ed49585cb602e78527ac237f5c8637a7f1b42a4443a9e253cd9ef6fb47b0",
+      "archive": {
+        "format": "zip",
+        "bytes": 1973695,
+        "sha256": "1f0bdd37da90c94020ee9ef135f41ee1e16fa7443644ea7652c2470f2a176074",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/gajra-earth-public-hub/source.zip",
+            "bytes": 1973695,
+            "sha256": "1f0bdd37da90c94020ee9ef135f41ee1e16fa7443644ea7652c2470f2a176074"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:51+00:00"
+    },
+    {
+      "slug": "grain-by-grain",
+      "repository": "https://github.com/auraofintelligence/grain-by-grain",
+      "state": "source_packaged",
+      "head": "28c4fe9f1bf5b3578950f7c60e6d9a3cde3a8a6e",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 82,
+      "source_bytes": 6079131,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/grain-by-grain/source-manifest.json",
+        "bytes": 14630,
+        "sha256": "8ae8b07a6d655d84fd633e73436723f41980575d82ae95e75dacba7f256149c1"
+      },
+      "files_sha256": "8723bc78e1affdcfe873a5dd5c7e93056d31897ca7ab97e51c4151cd85f66b15",
+      "archive": {
+        "format": "zip",
+        "bytes": 5500324,
+        "sha256": "69403ca2d5960867d9496de486182e2c186b4d7ac96ef812c2c19b223bad9654",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/grain-by-grain/source.zip",
+            "bytes": 5500324,
+            "sha256": "69403ca2d5960867d9496de486182e2c186b4d7ac96ef812c2c19b223bad9654"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:52+00:00"
+    },
+    {
+      "slug": "grain-by-grain-documentary",
+      "repository": "https://github.com/auraofintelligence/grain-by-grain-documentary",
+      "state": "source_packaged",
+      "head": "192fff98cbb0624a477fa0b5b5d111b5502d8cfd",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 34,
+      "source_bytes": 4894372,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/grain-by-grain-documentary/source-manifest.json",
+        "bytes": 7156,
+        "sha256": "0ef050f62f749b53d979281f9502fd71f8dab52d90c709da0afd751b41ca761d"
+      },
+      "files_sha256": "5b38a4c5a913f6c3a4d0b11562c06c52573e8058b307b4a902e2f927079bd41b",
+      "archive": {
+        "format": "zip",
+        "bytes": 4782385,
+        "sha256": "3bfbb90c8e5671de7dfec771d69be36e1822587bd551bde3d33556b4c75d8fb3",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/grain-by-grain-documentary/source.zip",
+            "bytes": 4782385,
+            "sha256": "3bfbb90c8e5671de7dfec771d69be36e1822587bd551bde3d33556b4c75d8fb3"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:53+00:00"
+    },
+    {
+      "slug": "micronova-and-excursions",
+      "repository": "https://github.com/auraofintelligence/micronova-and-excursions",
+      "state": "source_packaged",
+      "head": "4903ee3f86fc140a80273ea92e956455bf87792e",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 54,
+      "source_bytes": 1275426,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/micronova-and-excursions/source-manifest.json",
+        "bytes": 10116,
+        "sha256": "f489bc21e6dfb9bc010bc7472428cc855bab6c2db7f3ed790a7cf1fd530e308b"
+      },
+      "files_sha256": "dda8e91d0d0dd6a99342534b4ee6f2290193eb2c7d199398053771853ef3a995",
+      "archive": {
+        "format": "zip",
+        "bytes": 874863,
+        "sha256": "0b3a3f0f9dd93edc8b6f441e85c47f22cab778ca8469fd9b8b860970f16fb2cc",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/micronova-and-excursions/source.zip",
+            "bytes": 874863,
+            "sha256": "0b3a3f0f9dd93edc8b6f441e85c47f22cab778ca8469fd9b8b860970f16fb2cc"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:54+00:00"
+    },
+    {
+      "slug": "minjerribah-living-twin",
+      "repository": "https://github.com/auraofintelligence/minjerribah-living-twin",
+      "state": "source_packaged",
+      "head": "75966f133b424907ec2e7a9a258a6c2b8e59b286",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 217,
+      "source_bytes": 21760544,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/minjerribah-living-twin/source-manifest.json",
+        "bytes": 37369,
+        "sha256": "883ba2f7f0518c6c0755ff52cb9867c7eae38bb37843662c72e6323c4cb94185"
+      },
+      "files_sha256": "e42844cc4c6ca4a1e9e0b58490e69c7ac281d0c619f4ab0a7ce5c7f98f958f65",
+      "archive": {
+        "format": "zip",
+        "bytes": 7050782,
+        "sha256": "89599e308127919aca5aad0ea36dc4e1aff259cdc09ec0c4e87801f6ce0bc191",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/minjerribah-living-twin/source.zip",
+            "bytes": 7050782,
+            "sha256": "89599e308127919aca5aad0ea36dc4e1aff259cdc09ec0c4e87801f6ce0bc191"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:57+00:00"
+    },
+    {
+      "slug": "minjerribah-screen-media-network",
+      "repository": "https://github.com/auraofintelligence/minjerribah-screen-media-network",
+      "state": "source_packaged",
+      "head": "08059fb8ce6aba77c5c98cfc79a325b66ada82c4",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 58,
+      "source_bytes": 2621784,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/minjerribah-screen-media-network/source-manifest.json",
+        "bytes": 10948,
+        "sha256": "6a4fa999b6ebde906c12317f1fdd39b69c415cbfbec93f3dcf8cf1dfd7d51ea4"
+      },
+      "files_sha256": "ca3665617cba608cf1ee8b134ce15e1ac043adcab246f9bee8b10ad24af333a1",
+      "archive": {
+        "format": "zip",
+        "bytes": 2091030,
+        "sha256": "a291a915305d00856d9ad9ab96567e6bbc5544f19804ae26f86f572e78301f1a",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/minjerribah-screen-media-network/source.zip",
+            "bytes": 2091030,
+            "sha256": "a291a915305d00856d9ad9ab96567e6bbc5544f19804ae26f86f572e78301f1a"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:57+00:00"
+    },
+    {
+      "slug": "moreton-bay-autonomous-mobility",
+      "repository": "https://github.com/auraofintelligence/moreton-bay-autonomous-mobility",
+      "state": "source_packaged",
+      "head": "75aa7fd60fc539e5f8a7c56c1a7738e2ccbcf143",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 35,
+      "source_bytes": 5841232,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/moreton-bay-autonomous-mobility/source-manifest.json",
+        "bytes": 7523,
+        "sha256": "26a2c19d1f844b301250a2dbdcf954ad3e053f90d453f4a7466d6cfcb74702c3"
+      },
+      "files_sha256": "b4127d3e180d4dc778b28ef6d540fb0a9c9900369dbc55aa4103c48a3a7dc0ea",
+      "archive": {
+        "format": "zip",
+        "bytes": 5681986,
+        "sha256": "101d17f370b592965712f59f455fb1972d7be5194944fb6d6fb9ed2371603d33",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/moreton-bay-autonomous-mobility/source.zip",
+            "bytes": 5681986,
+            "sha256": "101d17f370b592965712f59f455fb1972d7be5194944fb6d6fb9ed2371603d33"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:57:58+00:00"
+    },
+    {
+      "slug": "mutual-futures",
+      "repository": "https://github.com/auraofintelligence/mutual-futures",
+      "state": "source_packaged",
+      "head": "f10343567d115b354c12b689da373cd93203542d",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 258,
+      "source_bytes": 107696784,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/mutual-futures/source-manifest.json",
+        "bytes": 44820,
+        "sha256": "870ec04800e590098fc5470b16d6ddd7bbfd1651c842e3f7672042870894698a"
+      },
+      "files_sha256": "fda95f1f2332b2c04bffb7bf9e2c6248c4c62fc7ae3b92a0590e307ad578c384",
+      "archive": {
+        "format": "zip",
+        "bytes": 106077549,
+        "sha256": "b183ccaca497ab14adefd67015f398ddf30d74fb98076aeffb92f62fa3533da0",
+        "multipart": true,
+        "parts": [
+          {
+            "path": "sources/sites/mutual-futures/source.zip.part-001",
+            "bytes": 33554432,
+            "sha256": "be155678998ba56ba2e692afae87a5b2ad3d045ae8b914a65f47ba95cfb6a465"
+          },
+          {
+            "path": "sources/sites/mutual-futures/source.zip.part-002",
+            "bytes": 33554432,
+            "sha256": "fd597fbfc09c0708ac02cd7308e5aaae15d05a0855d44cf57e16b51fd22d136b"
+          },
+          {
+            "path": "sources/sites/mutual-futures/source.zip.part-003",
+            "bytes": 33554432,
+            "sha256": "486c96060dc71d8ecd3220d3aad8d119c825eeaa850666bb84dc916705bb5c77"
+          },
+          {
+            "path": "sources/sites/mutual-futures/source.zip.part-004",
+            "bytes": 5414253,
+            "sha256": "4944bd4772eb5ec81694d017d3498a1a188ff4ae4b3e3c72123211e122386ddc"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T07:58:09+00:00"
+    },
+    {
+      "slug": "p4a-xyz-cinema",
+      "repository": "https://github.com/auraofintelligence/p4a-xyz-cinema",
+      "state": "source_packaged",
+      "head": "6e924cc26a3c2e1fa50ec51e4b6a9874a2f6ab59",
+      "branch": "main",
+      "working_tree_changed_from_head": true,
+      "source_git_status_unchanged": true,
+      "file_count": 5572,
+      "source_bytes": 1464439559,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/p4a-xyz-cinema/source-manifest.json",
+        "bytes": 2557859,
+        "sha256": "94b3daebec397bd85a8082fa3e413ee2809fca2efe8eefb724a9d403253dc7dc"
+      },
+      "files_sha256": "81d62153d741c8e07aac32a59cc4fd3eb288216092005b57c872cf84144e1e07",
+      "archive": {
+        "format": "zip",
+        "bytes": 880420183,
+        "sha256": "0e547e34c442cc5ea918148d9b0616392d6eecb7b4bcabbe159ccd7b15c52387",
+        "multipart": true,
+        "parts": [
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-001",
+            "bytes": 33554432,
+            "sha256": "cc0f9065ba7c15708bca947fcc1c37b061d3d3b0ba293fc2b4f0b56f6789a061"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-002",
+            "bytes": 33554432,
+            "sha256": "35fafd53a1679e4278db6b64408ad6249ac786920ed9c504b14da5ea2a4fb8bd"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-003",
+            "bytes": 33554432,
+            "sha256": "3f84eb408da7b0c3a25d7cd28a4c6b4d64249aa3bee6731c93cdb22cfb14df65"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-004",
+            "bytes": 33554432,
+            "sha256": "1fa162142f6c7b9ec4a584ac4a2f2e22245900cea50035af7f5b6087363f22f7"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-005",
+            "bytes": 33554432,
+            "sha256": "971d0c3eac41251a0e6d3a33c9e27fc273797d18e45cceb01506019417bbab08"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-006",
+            "bytes": 33554432,
+            "sha256": "e0a0067a69b111e42910585e7e1a3c649dea3c55bc24234a80ae187c5c78df1e"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-007",
+            "bytes": 33554432,
+            "sha256": "c66c81fdf37710c04df789e724a97b7de38dc5e8aeca0a2ef51eeb8e457b4840"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-008",
+            "bytes": 33554432,
+            "sha256": "1500aaf7be3e4bb0feeda030ff78da351a062d546cfb806b4571c5e566851acc"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-009",
+            "bytes": 33554432,
+            "sha256": "d0dbb527ef93af1caa8d5954fce04b6c0683f9945529f5f34fdf93cfcd8d843d"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-010",
+            "bytes": 33554432,
+            "sha256": "c20c8d238ae4ac43c9e223850c3febb8ac6c19135af99771d1c2f2aac6f8fbc2"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-011",
+            "bytes": 33554432,
+            "sha256": "668eac8586bc926da896511a5f372e3ac1e0bdec8a3cb7bf164134ab4b5d8e95"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-012",
+            "bytes": 33554432,
+            "sha256": "cd916373b1361b52f106e4bcb08af299495d5a24ba545ee5ddc5c1b5a7b512a1"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-013",
+            "bytes": 33554432,
+            "sha256": "3e1b952802e8d81cb54075ac5c4b2dbbb89c4b5c5eb0837151945c372031bef2"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-014",
+            "bytes": 33554432,
+            "sha256": "c6771da38bac88d1eb27e308f6e5ff759f1a0bbce5982759852a001a0a085967"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-015",
+            "bytes": 33554432,
+            "sha256": "795d898804eaa32740e40a24e97162238f0cb7465bd5bc91317bc168fd452fd3"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-016",
+            "bytes": 33554432,
+            "sha256": "2ec453db069f662d8f473e6480496941bb72ce1901133e78d8fe65aa1ad714c8"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-017",
+            "bytes": 33554432,
+            "sha256": "c0bd591bcbe1bc2b0bb8b0948abd256bdacdc641184146062b0a4e383b0236ce"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-018",
+            "bytes": 33554432,
+            "sha256": "629c1e2784e54a2bf6a380b64c6824d2ee4546916bd4d219581de19dbe87bfdc"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-019",
+            "bytes": 33554432,
+            "sha256": "ebbc6c728f84080aac62406db5a21040d0876c1df4c832fa016a5a055354bf3c"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-020",
+            "bytes": 33554432,
+            "sha256": "a46c0adc8cb4b1a03397a5bc53e271806019dbebb5138c7c55fb391564d6d886"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-021",
+            "bytes": 33554432,
+            "sha256": "0eef9678212c70942748c0d425515bd4f6f7218fd9dc7c973b206c1c977516c3"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-022",
+            "bytes": 33554432,
+            "sha256": "64ac7c4913ff11fd509cb64a066e375cd290efe4a50c6fe8bd425519298fbd5d"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-023",
+            "bytes": 33554432,
+            "sha256": "62fcb9eadf5ca0f18145001fc0b35132e8a4990ea9d2de6e436feafebdf1aff9"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-024",
+            "bytes": 33554432,
+            "sha256": "f2830444f85b44e0b062e63b2f623eac2b5f8f35027251f5aeede92ff66ab275"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-025",
+            "bytes": 33554432,
+            "sha256": "7cc1a78a201eea4e45999c869e0aa1639f018d4c53e67da1649f0a987366ffea"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-026",
+            "bytes": 33554432,
+            "sha256": "cf42b84b9f29e468d2698f7b8d6db7a360ca6ddeaea64fb9f021b055e1267b39"
+          },
+          {
+            "path": "sources/sites/p4a-xyz-cinema/source.zip.part-027",
+            "bytes": 8004951,
+            "sha256": "3f941241c8b800697db5dd682532dcbe6e0624453e27ada44ab5288f6773b4a7"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:15+00:00"
+    },
+    {
+      "slug": "quandamooka-country-events-engine",
+      "repository": "https://github.com/auraofintelligence/quandamooka-country-events-engine",
+      "state": "source_packaged",
+      "head": "be7e463c2e36a6563acfcee4345c5c36051cc560",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 40,
+      "source_bytes": 3161908,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/quandamooka-country-events-engine/source-manifest.json",
+        "bytes": 8170,
+        "sha256": "4bebaeb85f4a0491bb6b25f0d0fa53b2c5ec212fb5ee17816aa6748bd251adf5"
+      },
+      "files_sha256": "3d730ae90e562bd85d97f070109df42be3955d522567eb88bc9997a1be3301b8",
+      "archive": {
+        "format": "zip",
+        "bytes": 2751031,
+        "sha256": "ca0e9da7f45b3af8d2ba791e43d31ba2e3d920fcb04129278556c8800256c887",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/quandamooka-country-events-engine/source.zip",
+            "bytes": 2751031,
+            "sha256": "ca0e9da7f45b3af8d2ba791e43d31ba2e3d920fcb04129278556c8800256c887"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:21+00:00"
+    },
+    {
+      "slug": "ready-set-co-op-cultural-intelligence-node",
+      "repository": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node",
+      "state": "source_packaged",
+      "head": "34bf9d82147eb0f3d99b2f2bab176de961ff3c27",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 74,
+      "source_bytes": 10298821,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/ready-set-co-op-cultural-intelligence-node/source-manifest.json",
+        "bytes": 13928,
+        "sha256": "0aec4b6c9cf5c276b9651ac8c52806551064406ae82e4e112c26258403b9edd0"
+      },
+      "files_sha256": "a69996623b3377b2e39b4795988c92c872b9ecbecb2147b968aac53d50b67b3f",
+      "archive": {
+        "format": "zip",
+        "bytes": 9822755,
+        "sha256": "7005d2e540750fda53deb13c86d4141c1783d04464f541faaef2aa6511208569",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/ready-set-co-op-cultural-intelligence-node/source.zip",
+            "bytes": 9822755,
+            "sha256": "7005d2e540750fda53deb13c86d4141c1783d04464f541faaef2aa6511208569"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:23+00:00"
+    },
+    {
+      "slug": "ready-set-co-op-trust-hub",
+      "repository": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub",
+      "state": "source_packaged",
+      "head": "63d2b49843806a6a84b3d10609993104fce200f7",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 50,
+      "source_bytes": 4032847,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/ready-set-co-op-trust-hub/source-manifest.json",
+        "bytes": 9995,
+        "sha256": "673bec17ff49b60721fff42e9ac89447c27e8b9b28095dd67fd275839a8672e1"
+      },
+      "files_sha256": "cb8cacb7aff977ff67d39cce446dc873dac45078e89fdbf96bd79e1eeb669dba",
+      "archive": {
+        "format": "zip",
+        "bytes": 3937917,
+        "sha256": "449a7f6e551463e24f5d395edd1fc03f6862a27d9915e67b4257a6d98c0e3d28",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/ready-set-co-op-trust-hub/source.zip",
+            "bytes": 3937917,
+            "sha256": "449a7f6e551463e24f5d395edd1fc03f6862a27d9915e67b4257a6d98c0e3d28"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:23+00:00"
+    },
+    {
+      "slug": "sandworm-subterranean-systems",
+      "repository": "https://github.com/auraofintelligence/sandworm-subterranean-systems",
+      "state": "source_packaged",
+      "head": "bbddf4073a66526b90ad25451330a988a75d7b14",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 57,
+      "source_bytes": 8201007,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/sandworm-subterranean-systems/source-manifest.json",
+        "bytes": 11088,
+        "sha256": "c4838179ddbdbb12508c42a91f02e30a795f824dce6bd65d142e9fce3ba0932e"
+      },
+      "files_sha256": "35532f77471bc2eb6497dbd20a0c4eb9f503a98e20bdaa674b51c70b84d8cbcf",
+      "archive": {
+        "format": "zip",
+        "bytes": 7950444,
+        "sha256": "5a492e885589f9e31348657ab5bc259f5b3987f2f439c460d3af66992cc6b0e1",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/sandworm-subterranean-systems/source.zip",
+            "bytes": 7950444,
+            "sha256": "5a492e885589f9e31348657ab5bc259f5b3987f2f439c460d3af66992cc6b0e1"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:25+00:00"
+    },
+    {
+      "slug": "second-island",
+      "repository": "https://github.com/auraofintelligence/second-island",
+      "state": "source_packaged",
+      "head": "74972f246a61b00f285257db88ded956c51c9dd4",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 141,
+      "source_bytes": 3624648,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/second-island/source-manifest.json",
+        "bytes": 25481,
+        "sha256": "5ee5c29647496e31b66db49dda625006f43dba201a5c511b3703a6d7d1bcaf49"
+      },
+      "files_sha256": "74a3569ef8407bdb11d2540291039763e826858d743142f7f2486760bfb39595",
+      "archive": {
+        "format": "zip",
+        "bytes": 2077855,
+        "sha256": "d3edc631388b65cba3a56d88f41b2d171ddfb6a2874808063ded3dbada19908f",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/second-island/source.zip",
+            "bytes": 2077855,
+            "sha256": "d3edc631388b65cba3a56d88f41b2d171ddfb6a2874808063ded3dbada19908f"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:26+00:00"
+    },
+    {
+      "slug": "shared-table-initiative",
+      "repository": "https://github.com/auraofintelligence/shared-table-initiative",
+      "state": "source_packaged",
+      "head": "183453dbd3414a1d2ff22dc0898e4c7280bab060",
+      "branch": "master",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 35,
+      "source_bytes": 2563958,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/shared-table-initiative/source-manifest.json",
+        "bytes": 7389,
+        "sha256": "b667d96e13569e63d7d62148d2581ef9b0a66dcf2c982f943fdbc3493a678ed1"
+      },
+      "files_sha256": "e2d66b54e70948c82caf9a8218fae2210369836d3683f728f510c952b3c9a5d0",
+      "archive": {
+        "format": "zip",
+        "bytes": 2495399,
+        "sha256": "69216b43a7fb6a17b66419ed8426a4bfb4ca6bc4c7ee323e2d827e52e9d47ab9",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/shared-table-initiative/source.zip",
+            "bytes": 2495399,
+            "sha256": "69216b43a7fb6a17b66419ed8426a4bfb4ca6bc4c7ee323e2d827e52e9d47ab9"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:26+00:00"
+    },
+    {
+      "slug": "stradbroke-grants-lab",
+      "repository": "https://github.com/auraofintelligence/stradbroke-grants-lab",
+      "state": "source_packaged",
+      "head": "45227eab2994b3751f139a19e253f3ff62185fca",
+      "branch": "master",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 51,
+      "source_bytes": 2073586,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/stradbroke-grants-lab/source-manifest.json",
+        "bytes": 9969,
+        "sha256": "5add69fe2a3ddfc607e7a9b995b2d9878da3b45b3dc04f84b7a87148aeae180c"
+      },
+      "files_sha256": "05afc8394cfc26eb085cedb27e6cef3a2859a01c96160337ba21ea1da7a9fbf9",
+      "archive": {
+        "format": "zip",
+        "bytes": 1398084,
+        "sha256": "d17a99affb8d498a8db6a6fcac1d3c5a15815d889eda7dab21fa03bed6dec26b",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/stradbroke-grants-lab/source.zip",
+            "bytes": 1398084,
+            "sha256": "d17a99affb8d498a8db6a6fcac1d3c5a15815d889eda7dab21fa03bed6dec26b"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:27+00:00"
+    },
+    {
+      "slug": "straddie-clean-energy-superpower",
+      "repository": "https://github.com/auraofintelligence/straddie-clean-energy-superpower",
+      "state": "source_packaged",
+      "head": "420affbc14f5df6998fec4c08638cdd1e581b938",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 65,
+      "source_bytes": 3426430,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/straddie-clean-energy-superpower/source-manifest.json",
+        "bytes": 12361,
+        "sha256": "483c76fdcf2370d3c641dadb9ad610d0595d78c7c24c6059f9c04db1e5a8bb87"
+      },
+      "files_sha256": "0b115e9ac4148f8bb66c665745eab617dc6eb2b8e0b0f22705e415939a5b18a7",
+      "archive": {
+        "format": "zip",
+        "bytes": 3060743,
+        "sha256": "b7ccf8b32945b37c5160bce1ad74165e09d36ef3f7c1eb657d654388e70d913d",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/straddie-clean-energy-superpower/source.zip",
+            "bytes": 3060743,
+            "sha256": "b7ccf8b32945b37c5160bce1ad74165e09d36ef3f7c1eb657d654388e70d913d"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:28+00:00"
+    },
+    {
+      "slug": "straddie-digital-twin-builders",
+      "repository": "https://github.com/auraofintelligence/straddie-digital-twin-builders",
+      "state": "source_packaged",
+      "head": "c8a7b3f72a2046c2a4486157b7aa0b2f082c1686",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 29,
+      "source_bytes": 2725396,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/straddie-digital-twin-builders/source-manifest.json",
+        "bytes": 6464,
+        "sha256": "a55f78ae5960d6bc1733e4c4ad073a730d1da35f9bdfb0449ed570a6461ed096"
+      },
+      "files_sha256": "409f4da08b904951f058f9ccdb781fc767bab33f76330a728c3eef95f706d6db",
+      "archive": {
+        "format": "zip",
+        "bytes": 2636290,
+        "sha256": "a9d9faa5425a8b08a4b84a1d9b583e6f9850588c5843e4d7779d1d199c528474",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/straddie-digital-twin-builders/source.zip",
+            "bytes": 2636290,
+            "sha256": "a9d9faa5425a8b08a4b84a1d9b583e6f9850588c5843e4d7779d1d199c528474"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:29+00:00"
+    },
+    {
+      "slug": "straddie-digital-twin-explainer",
+      "repository": "https://github.com/auraofintelligence/straddie-digital-twin-explainer",
+      "state": "source_packaged",
+      "head": "63838a4c2fb37ea58e525a49fcef2c5684f072ac",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 16,
+      "source_bytes": 275490,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/straddie-digital-twin-explainer/source-manifest.json",
+        "bytes": 4331,
+        "sha256": "45067b3c97e05a7209e3a609b0572fcb999b231aa52041453e2fd5c65d1dc7c6"
+      },
+      "files_sha256": "4129b6691a4343e6882955111a4f09b6bd7d9119d32607127a324ef024889678",
+      "archive": {
+        "format": "zip",
+        "bytes": 187380,
+        "sha256": "4054d0ff499a138bd462cd098c543afd5905c275c6941232d03c213486aa82c2",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/straddie-digital-twin-explainer/source.zip",
+            "bytes": 187380,
+            "sha256": "4054d0ff499a138bd462cd098c543afd5905c275c6941232d03c213486aa82c2"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:29+00:00"
+    },
+    {
+      "slug": "straddie-disaster-kiosks",
+      "repository": "https://github.com/auraofintelligence/straddie-disaster-kiosks",
+      "state": "source_packaged",
+      "head": "d95c87519624b09528fff322676ffeb379081415",
+      "branch": "main",
+      "working_tree_changed_from_head": true,
+      "source_git_status_unchanged": true,
+      "file_count": 41,
+      "source_bytes": 52182917,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/straddie-disaster-kiosks/source-manifest.json",
+        "bytes": 9152,
+        "sha256": "062921dfc755d551870a8af330f7c15df25a4ea8117739f19cff44a1886e823c"
+      },
+      "files_sha256": "bd825b6f1e606bf2e702ac1051190e3132f2adfe108f1876c0358faafa21558d",
+      "archive": {
+        "format": "zip",
+        "bytes": 51971613,
+        "sha256": "8d829aea50096cd2d2cd0386b0be42910ef9c2be7641b439fbb80d6383c4ebf5",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/straddie-disaster-kiosks/source.zip",
+            "bytes": 51971613,
+            "sha256": "8d829aea50096cd2d2cd0386b0be42910ef9c2be7641b439fbb80d6383c4ebf5"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:34+00:00"
+    },
+    {
+      "slug": "straddie-makerspace-lab",
+      "repository": "https://github.com/auraofintelligence/straddie-makerspace-lab",
+      "state": "source_packaged",
+      "head": "5e2978fd7361c7b0f4bace256f986a08d70eb67b",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 37,
+      "source_bytes": 4395721,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/straddie-makerspace-lab/source-manifest.json",
+        "bytes": 7784,
+        "sha256": "7a6a32961eaca8ec0c6c047275152fea99b5f3e15c37652c4fc40ed784d84498"
+      },
+      "files_sha256": "dd2debe814ddb0540c2591fc9d3ad4b8e7e9a396980b8bcb351814ca170ee789",
+      "archive": {
+        "format": "zip",
+        "bytes": 4309151,
+        "sha256": "1bc733e5e59532293219c5b4b1fa51129f1be2680401833ac8868bcac1c99022",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/straddie-makerspace-lab/source.zip",
+            "bytes": 4309151,
+            "sha256": "1bc733e5e59532293219c5b4b1fa51129f1be2680401833ac8868bcac1c99022"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:35+00:00"
+    },
+    {
+      "slug": "straddie-noticeboard-network",
+      "repository": "https://github.com/auraofintelligence/straddie-noticeboard-network",
+      "state": "source_packaged",
+      "head": "d5b5aa99efe2ca1c0076d34a31f958ca76dd13a7",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 213,
+      "source_bytes": 8502378,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/straddie-noticeboard-network/source-manifest.json",
+        "bytes": 37714,
+        "sha256": "166e25ba32fed7d1309c45533813996761aa48d07440051dd7f2907d3eb7d797"
+      },
+      "files_sha256": "843ec453931a473e66e3bc59d8e7a6931a59bb677cbcf9b4adc897b83f6712d9",
+      "archive": {
+        "format": "zip",
+        "bytes": 7869656,
+        "sha256": "2081d6bb376911e9cc2a86530c996fcd19040227034ccdf9501e469e808d2855",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/straddie-noticeboard-network/source.zip",
+            "bytes": 7869656,
+            "sha256": "2081d6bb376911e9cc2a86530c996fcd19040227034ccdf9501e469e808d2855"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:36+00:00"
+    },
+    {
+      "slug": "straddie-tip-loop-lab",
+      "repository": "https://github.com/auraofintelligence/straddie-tip-loop-lab",
+      "state": "source_packaged",
+      "head": "d77d97464533e75c6798ae334c21556c7f28be6e",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 40,
+      "source_bytes": 1506106,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/straddie-tip-loop-lab/source-manifest.json",
+        "bytes": 8399,
+        "sha256": "b91254ca351efbd9a332c95d0f0826fc5da3e7f3c071f8d219d63dc0514c7cc4"
+      },
+      "files_sha256": "79a0eccd6ef77f3139168e4b1a3cc311b70f60fea25cd115de440e4b227e6c13",
+      "archive": {
+        "format": "zip",
+        "bytes": 1405630,
+        "sha256": "c06f546a8f2f45cc2c585fbb0a17a4c6285f25248e1752300dc821bdefa3527c",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/straddie-tip-loop-lab/source.zip",
+            "bytes": 1405630,
+            "sha256": "c06f546a8f2f45cc2c585fbb0a17a4c6285f25248e1752300dc821bdefa3527c"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:37+00:00"
+    },
+    {
+      "slug": "straddie-twin-prototype",
+      "repository": "https://github.com/auraofintelligence/straddie-twin-prototype",
+      "state": "source_packaged",
+      "head": "a8521b2f1d21f283eef2dad8675b12bf62346368",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 571,
+      "source_bytes": 37508230,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/straddie-twin-prototype/source-manifest.json",
+        "bytes": 104169,
+        "sha256": "1838567fa55d87c669a860f34091a8d3e7f6ed0aaf5e75343ce7aad55c5e50d9"
+      },
+      "files_sha256": "2cf786055ccf66c2052495d42a3bd1a1cd503e612d441d7f3b325bc4c0164909",
+      "archive": {
+        "format": "zip",
+        "bytes": 30707561,
+        "sha256": "349f03f34f13f651063ef73a2d9c35d5f8ea784c08fc045b309467d1d052a832",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/straddie-twin-prototype/source.zip",
+            "bytes": 30707561,
+            "sha256": "349f03f34f13f651063ef73a2d9c35d5f8ea784c08fc045b309467d1d052a832"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:42+00:00"
+    },
+    {
+      "slug": "straddie-twins",
+      "repository": "https://github.com/auraofintelligence/straddie-twins",
+      "state": "source_packaged",
+      "head": "b934b0e5cb81eddee0f1b09d9a1f6848c4297a24",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 44,
+      "source_bytes": 4845952,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/straddie-twins/source-manifest.json",
+        "bytes": 8804,
+        "sha256": "91c0a8a1cdde17be60279fe3df752c133cf95e33e47eef0dc54a41af09d7cfbf"
+      },
+      "files_sha256": "8b0f196c0fc3d467a40bd1089e375f620719d5b6794db243137518f65efd987b",
+      "archive": {
+        "format": "zip",
+        "bytes": 4630404,
+        "sha256": "fc60a811e8167a408ac7c4c6c737b0eac150b01fa615dc56802c8cee9f4883ae",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/straddie-twins/source.zip",
+            "bytes": 4630404,
+            "sha256": "fc60a811e8167a408ac7c4c6c737b0eac150b01fa615dc56802c8cee9f4883ae"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:00:43+00:00"
+    }
+  ],
+  "summary": {
+    "repository_destinations": 43,
+    "source_packages": 42,
+    "versioned_destinations": 1,
+    "missing_sources": [],
+    "source_files": 9629,
+    "source_bytes": 2340248866,
+    "archive_bytes": 1691341811,
+    "archive_parts": 75,
+    "excluded_files": 0
+  },
+  "capture_completed_utc": "2026-10-20T08:00:43+00:00",
+  "verification": {
+    "checked_utc": "2026-10-20T08:01:52+00:00",
+    "result": "passed_for_recorded_bytes",
+    "checks": [
+      "Every archive part SHA-256 and byte count",
+      "Complete ZIP SHA-256 and byte count",
+      "Embedded and readable source manifests match",
+      "Every archived file SHA-256 and byte count",
+      "Single ZIP restoration: Minjerribah-Resilience, 9 files",
+      "Five-part ZIP restoration: australian-law-2012-lukes-relevance, 43 files"
+    ],
+    "source_packages_verified": 42,
+    "source_files_verified": 9629,
+    "restoration_check_directories": "Temporary check copies were removed after successful restoration.",
+    "scope": "These checks establish package integrity and source restoration. Each restored project has its own running, dependency, security and hosting checks as its next milestones."
+  }
+}

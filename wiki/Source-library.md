@@ -47,7 +47,52 @@ The source library keeps the documents and site editions behind the work availab
 
 ## Website source editions
 
-Website-source snapshots are being packaged with their existing licences, source editions, per-file checksums and restoration instructions. The complete packing list and downloads will appear here when the capture is checked.
+| Source project | Files | Archive size | Download |
+| --- | --- | --- | --- |
+| [C-Hour-introduction](https://github.com/auraofintelligence/C-Hour-introduction) | 104 | 11.3 MiB | [Part 1](../sources/sites/C-Hour-introduction/source.zip) |
+| [GAJRA-earth-infinity](https://github.com/auraofintelligence/GAJRA-earth-infinity) | 90 | 9.3 MiB | [Part 1](../sources/sites/GAJRA-earth-infinity/source.zip) |
+| [Minjerribah-Resilience](https://github.com/auraofintelligence/Minjerribah-Resilience) | 9 | 0.7 MiB | [Part 1](../sources/sites/Minjerribah-Resilience/source.zip) |
+| [Oceania-healthy-de-slop-co-ops](https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops) | 89 | 62.2 MiB | [Part 1](../sources/sites/Oceania-healthy-de-slop-co-ops/source.zip) |
+| [Redlands_discovers_Luke_Hayes](https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes) | 69 | 39.6 MiB | [Part 1](../sources/sites/Redlands_discovers_Luke_Hayes/source.zip) |
+| [UNGA81-Luke-Hayes](https://github.com/auraofintelligence/UNGA81-Luke-Hayes) | 90 | 12.7 MiB | [Part 1](../sources/sites/UNGA81-Luke-Hayes/source.zip) |
+| [aukus-space-gambit](https://github.com/auraofintelligence/aukus-space-gambit) | 17 | 0.5 MiB | [Part 1](../sources/sites/aukus-space-gambit/source.zip) |
+| [aura-genesis](https://github.com/auraofintelligence/aura-genesis) | 9 | 1.6 MiB | [Part 1](../sources/sites/aura-genesis/source.zip) |
+| [aura-genesis-geode-atlas](https://github.com/auraofintelligence/aura-genesis-geode-atlas) | 101 | 5.6 MiB | [Part 1](../sources/sites/aura-genesis-geode-atlas/source.zip) |
+| [aura-matrix-studio](https://github.com/auraofintelligence/aura-matrix-studio) | 361 | 31.7 MiB | [Part 1](../sources/sites/aura-matrix-studio/source.zip) |
+| [aura-verse-box](https://github.com/auraofintelligence/aura-verse-box) | 63 | 15.2 MiB | [Part 1](../sources/sites/aura-verse-box/source.zip) |
+| [auraofintelligence.github.io](https://github.com/auraofintelligence/auraofintelligence.github.io) | 370 | 41.4 MiB | [Part 1](../sources/sites/auraofintelligence.github.io/source.zip) |
+| [australian-law-2012-lukes-relevance](https://github.com/auraofintelligence/australian-law-2012-lukes-relevance) | 43 | 128.0 MiB | [Part 1](../sources/sites/australian-law-2012-lukes-relevance/source.zip.part-001) · [Part 2](../sources/sites/australian-law-2012-lukes-relevance/source.zip.part-002) · [Part 3](../sources/sites/australian-law-2012-lukes-relevance/source.zip.part-003) · [Part 4](../sources/sites/australian-law-2012-lukes-relevance/source.zip.part-004) · [Part 5](../sources/sites/australian-law-2012-lukes-relevance/source.zip.part-005) |
+| [australian-legal-engine](https://github.com/auraofintelligence/australian-legal-engine) | 20 | 0.1 MiB | [Part 1](../sources/sites/australian-legal-engine/source.zip) |
+| [ballow-road-sand-screen-hub](https://github.com/auraofintelligence/ballow-road-sand-screen-hub) | 182 | 56.8 MiB | [Part 1](../sources/sites/ballow-road-sand-screen-hub/source.zip) |
+| [dunwich-gumpi-ferry-terminal-open-data-lab](https://github.com/auraofintelligence/dunwich-gumpi-ferry-terminal-open-data-lab) | 103 | 52.7 MiB | [Part 1](../sources/sites/dunwich-gumpi-ferry-terminal-open-data-lab/source.zip) |
+| [gajra-earth-claude-build](https://github.com/auraofintelligence/gajra-earth-claude-build) | 61 | 45.3 MiB | [Part 1](../sources/sites/gajra-earth-claude-build/source.zip) |
+| [gajra-earth-public-hub](https://github.com/auraofintelligence/gajra-earth-public-hub) | 34 | 1.9 MiB | [Part 1](../sources/sites/gajra-earth-public-hub/source.zip) |
+| [grain-by-grain](https://github.com/auraofintelligence/grain-by-grain) | 82 | 5.2 MiB | [Part 1](../sources/sites/grain-by-grain/source.zip) |
+| [grain-by-grain-documentary](https://github.com/auraofintelligence/grain-by-grain-documentary) | 34 | 4.6 MiB | [Part 1](../sources/sites/grain-by-grain-documentary/source.zip) |
+| [micronova-and-excursions](https://github.com/auraofintelligence/micronova-and-excursions) | 54 | 0.8 MiB | [Part 1](../sources/sites/micronova-and-excursions/source.zip) |
+| [minjerribah-living-twin](https://github.com/auraofintelligence/minjerribah-living-twin) | 217 | 6.7 MiB | [Part 1](../sources/sites/minjerribah-living-twin/source.zip) |
+| [minjerribah-screen-media-network](https://github.com/auraofintelligence/minjerribah-screen-media-network) | 58 | 2.0 MiB | [Part 1](../sources/sites/minjerribah-screen-media-network/source.zip) |
+| [moreton-bay-autonomous-mobility](https://github.com/auraofintelligence/moreton-bay-autonomous-mobility) | 35 | 5.4 MiB | [Part 1](../sources/sites/moreton-bay-autonomous-mobility/source.zip) |
+| [mutual-futures](https://github.com/auraofintelligence/mutual-futures) | 258 | 101.2 MiB | [Part 1](../sources/sites/mutual-futures/source.zip.part-001) · [Part 2](../sources/sites/mutual-futures/source.zip.part-002) · [Part 3](../sources/sites/mutual-futures/source.zip.part-003) · [Part 4](../sources/sites/mutual-futures/source.zip.part-004) |
+| [p4a-xyz-cinema](https://github.com/auraofintelligence/p4a-xyz-cinema) | 5572 | 839.6 MiB | [Part 1](../sources/sites/p4a-xyz-cinema/source.zip.part-001) · [Part 2](../sources/sites/p4a-xyz-cinema/source.zip.part-002) · [Part 3](../sources/sites/p4a-xyz-cinema/source.zip.part-003) · [Part 4](../sources/sites/p4a-xyz-cinema/source.zip.part-004) · [Part 5](../sources/sites/p4a-xyz-cinema/source.zip.part-005) · [Part 6](../sources/sites/p4a-xyz-cinema/source.zip.part-006) · [Part 7](../sources/sites/p4a-xyz-cinema/source.zip.part-007) · [Part 8](../sources/sites/p4a-xyz-cinema/source.zip.part-008) · [Part 9](../sources/sites/p4a-xyz-cinema/source.zip.part-009) · [Part 10](../sources/sites/p4a-xyz-cinema/source.zip.part-010) · [Part 11](../sources/sites/p4a-xyz-cinema/source.zip.part-011) · [Part 12](../sources/sites/p4a-xyz-cinema/source.zip.part-012) · [Part 13](../sources/sites/p4a-xyz-cinema/source.zip.part-013) · [Part 14](../sources/sites/p4a-xyz-cinema/source.zip.part-014) · [Part 15](../sources/sites/p4a-xyz-cinema/source.zip.part-015) · [Part 16](../sources/sites/p4a-xyz-cinema/source.zip.part-016) · [Part 17](../sources/sites/p4a-xyz-cinema/source.zip.part-017) · [Part 18](../sources/sites/p4a-xyz-cinema/source.zip.part-018) · [Part 19](../sources/sites/p4a-xyz-cinema/source.zip.part-019) · [Part 20](../sources/sites/p4a-xyz-cinema/source.zip.part-020) · [Part 21](../sources/sites/p4a-xyz-cinema/source.zip.part-021) · [Part 22](../sources/sites/p4a-xyz-cinema/source.zip.part-022) · [Part 23](../sources/sites/p4a-xyz-cinema/source.zip.part-023) · [Part 24](../sources/sites/p4a-xyz-cinema/source.zip.part-024) · [Part 25](../sources/sites/p4a-xyz-cinema/source.zip.part-025) · [Part 26](../sources/sites/p4a-xyz-cinema/source.zip.part-026) · [Part 27](../sources/sites/p4a-xyz-cinema/source.zip.part-027) |
+| [quandamooka-country-events-engine](https://github.com/auraofintelligence/quandamooka-country-events-engine) | 40 | 2.6 MiB | [Part 1](../sources/sites/quandamooka-country-events-engine/source.zip) |
+| [ready-set-co-op-cultural-intelligence-node](https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node) | 74 | 9.4 MiB | [Part 1](../sources/sites/ready-set-co-op-cultural-intelligence-node/source.zip) |
+| [ready-set-co-op-trust-hub](https://github.com/auraofintelligence/ready-set-co-op-trust-hub) | 50 | 3.8 MiB | [Part 1](../sources/sites/ready-set-co-op-trust-hub/source.zip) |
+| [sandworm-subterranean-systems](https://github.com/auraofintelligence/sandworm-subterranean-systems) | 57 | 7.6 MiB | [Part 1](../sources/sites/sandworm-subterranean-systems/source.zip) |
+| [second-island](https://github.com/auraofintelligence/second-island) | 141 | 2.0 MiB | [Part 1](../sources/sites/second-island/source.zip) |
+| [shared-table-initiative](https://github.com/auraofintelligence/shared-table-initiative) | 35 | 2.4 MiB | [Part 1](../sources/sites/shared-table-initiative/source.zip) |
+| [stradbroke-grants-lab](https://github.com/auraofintelligence/stradbroke-grants-lab) | 51 | 1.3 MiB | [Part 1](../sources/sites/stradbroke-grants-lab/source.zip) |
+| [straddie-clean-energy-superpower](https://github.com/auraofintelligence/straddie-clean-energy-superpower) | 65 | 2.9 MiB | [Part 1](../sources/sites/straddie-clean-energy-superpower/source.zip) |
+| [straddie-digital-twin-builders](https://github.com/auraofintelligence/straddie-digital-twin-builders) | 29 | 2.5 MiB | [Part 1](../sources/sites/straddie-digital-twin-builders/source.zip) |
+| [straddie-digital-twin-explainer](https://github.com/auraofintelligence/straddie-digital-twin-explainer) | 16 | 0.2 MiB | [Part 1](../sources/sites/straddie-digital-twin-explainer/source.zip) |
+| [straddie-disaster-kiosks](https://github.com/auraofintelligence/straddie-disaster-kiosks) | 41 | 49.6 MiB | [Part 1](../sources/sites/straddie-disaster-kiosks/source.zip) |
+| [straddie-makerspace-lab](https://github.com/auraofintelligence/straddie-makerspace-lab) | 37 | 4.1 MiB | [Part 1](../sources/sites/straddie-makerspace-lab/source.zip) |
+| [straddie-noticeboard-network](https://github.com/auraofintelligence/straddie-noticeboard-network) | 213 | 7.5 MiB | [Part 1](../sources/sites/straddie-noticeboard-network/source.zip) |
+| [straddie-tip-loop-lab](https://github.com/auraofintelligence/straddie-tip-loop-lab) | 40 | 1.3 MiB | [Part 1](../sources/sites/straddie-tip-loop-lab/source.zip) |
+| [straddie-twin-prototype](https://github.com/auraofintelligence/straddie-twin-prototype) | 571 | 29.3 MiB | [Part 1](../sources/sites/straddie-twin-prototype/source.zip) |
+| [straddie-twins](https://github.com/auraofintelligence/straddie-twins) | 44 | 4.4 MiB | [Part 1](../sources/sites/straddie-twins/source.zip) |
+
+[Site packing list, source revisions and checksums](../data/site-manifest.json). Large ZIPs use numbered parts that the restore helper joins and checks. Source snapshots preserve website files; live outside services retain their own operating arrangements.
 
 ## Carry the work forward
 

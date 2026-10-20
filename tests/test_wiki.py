@@ -3,6 +3,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import wiki
@@ -50,6 +51,24 @@ class WikiChecks(unittest.TestCase):
             self.assertEqual(wiki.content_digest(path), original)
             path.write_bytes(b'{"a":1,"b":3}\n')
             self.assertNotEqual(wiki.content_digest(path), original)
+
+    def test_question_evidence_change_requires_a_fresh_review(self):
+        decision = self.data['decisions'][0]
+        original = wiki.fingerprint(decision)
+        questions = copy.deepcopy(self.data['questions'])
+        selected = next(q for q in questions if q['id'] == decision['proposal']['question_ids'][0])
+        selected['why'] += ' Additional evidence changes the review.'
+        with patch.object(wiki, 'read_json', return_value=questions):
+            self.assertNotEqual(wiki.fingerprint(decision), original)
+
+    def test_work_assignment_does_not_change_the_reviewed_proposal(self):
+        decision = self.data['decisions'][0]
+        original = wiki.fingerprint(decision)
+        questions = copy.deepcopy(self.data['questions'])
+        selected = next(q for q in questions if q['id'] == decision['proposal']['question_ids'][0])
+        selected.update(assigned_to='An assistant', work_status='researching')
+        with patch.object(wiki, 'read_json', return_value=questions):
+            self.assertEqual(wiki.fingerprint(decision), original)
 
     def test_duplicate_question_is_rejected(self):
         self.data['questions'].append(copy.deepcopy(self.data['questions'][0]))
@@ -107,6 +126,30 @@ class WikiChecks(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'human-reviewed'):
             wiki.validate(self.data)
 
+    def test_open_question_cannot_publish_an_unreviewed_recorded_answer(self):
+        self.data['questions'][0]['answer'] = 'An unreviewed choice'
+        with self.assertRaisesRegex(ValueError, 'answer_recorded work state'):
+            wiki.render(self.data)
+
+    def test_proposed_exact_answers_are_visible_to_the_reviewer(self):
+        decision = self.data['decisions'][0]
+        qid = decision['proposal']['question_ids'][0]
+        decision['proposal']['answers'] = {qid: 'The exact answer the reviewer is considering.'}
+        page = wiki.render(self.data)['Decision-D-001.md']
+        self.assertIn('Exact answers covered by this proposal', page)
+        self.assertIn(decision['proposal']['answers'][qid], page)
+
+    def test_displayed_questions_and_fingerprint_use_the_same_snapshot(self):
+        decision = self.data['decisions'][0]
+        original = wiki.fingerprint(decision)
+        question = next(q for q in self.data['questions'] if q['id'] == decision['proposal']['question_ids'][0])
+        question['why'] += ' Evidence added to the loaded snapshot.'
+        changed = wiki.fingerprint(decision, questions=self.data['questions'])
+        self.assertNotEqual(changed, original)
+        page = wiki.render(self.data)['Decision-D-001.md']
+        self.assertIn(changed, page)
+        self.assertNotIn(original, page)
+
     def test_archived_reviews_keep_history_without_current_authority(self):
         record, _ = self.review()
         record['active'] = False
@@ -135,6 +178,14 @@ class WikiChecks(unittest.TestCase):
         record['outcome'] = 'conditional'
         approved, _ = wiki.validate(self.data, fetch=lambda url: comment)
         self.assertEqual(approved, set())
+
+    def test_expired_review_is_displayed_as_expired(self):
+        _, comment = self.review()
+        comment['body'] += '\nValid-until: 2020-01-01T00:00:00Z'
+        approved, _ = wiki.validate(self.data, fetch=lambda url: comment)
+        self.assertEqual(approved, set())
+        page = wiki.render(self.data, fetch=lambda url: comment)['Decision-D-001.md']
+        self.assertIn('Review by auraofintelligence: expired', page)
 
     def test_unstructured_approval_condition_is_not_ignored(self):
         _, comment = self.review()

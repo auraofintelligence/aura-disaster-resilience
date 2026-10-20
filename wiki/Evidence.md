@@ -6,7 +6,7 @@ Evidence can be a source document, a photo with permission, a measurement, a dra
 
 For each important claim, keep its source, date, version, location or test setup, uncertainty and the person responsible for updating it. Distinguish an observation, an official instruction, an estimate, a simulation and an agreed decision. A clear source trail helps people challenge, improve and reuse the work.
 
-The question cards carry the starting sources. Some author-supplied documents were reviewed locally; their public copies can be added when sharing rights and privacy have been checked. Public releases carry information people can safely use; private household, welfare, contact and cultural records keep their chosen access conditions.
+The question cards carry the starting sources. The [source library](Source-library.md) holds the supplied originals and preserved website source editions, with packing lists, checksums and restoration instructions. Public releases carry information people can safely use; private household, welfare, contact and cultural records keep their chosen access conditions.
 
 [Research baseline and original-document register](../docs/source-register.md) · [Earlier kiosk proposal](https://github.com/auraofintelligence/straddie-disaster-kiosks) · [UNGA81 reference library](https://auraofintelligence.github.io/UNGA81-Luke-Hayes/library.html)
 

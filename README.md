@@ -19,7 +19,9 @@ The work welcomes tradespeople, trade assistants, drivers, artists, nurses, care
 - [Open the documents and site source library](wiki/Source-library.md)
 - [Continue from the swarm handover](SWARM_HANDOVER.md)
 
-The repository holds the source records and a complete, linked wiki. The native [GitHub Wiki](https://github.com/auraofintelligence/aura-disaster-resilience/wiki) presents the same reading pages when published. Questions, evidence and decisions share stable IDs so work can move across several AI assistants and people while staying connected.
+The repository holds the source records and a complete, linked wiki. The native [GitHub Wiki](https://github.com/auraofintelligence/aura-disaster-resilience/wiki) presents the reading pages with its own navigation. Questions, evidence and decisions share stable IDs so work can move across several AI assistants and people while staying connected.
+
+The source library preserves **32 distinct documents and 42 project-source editions**, including 9,629 saved source files, with full checksums and restoration instructions. [The swarm handover](SWARM_HANDOVER.md) carries your settled direction, current milestones and clear next jobs into the next chat or team.
 
 **Ready S.E.T. Co-op**, fully **Ready Sustainable Employment and Training Cooperative**, is the proposed operating intermediary. **Aura of Intelligence** is Luke's personal AI operating system in development, from light to ultra high definition, supporting navigation and just-in-time learning. **GAJRA Earth**, the Global Association for Joyful Responsible Abundance on Earth, is the defining values starting point.
 

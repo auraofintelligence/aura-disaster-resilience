@@ -39,7 +39,7 @@ def content_digest(path):
     return hashlib.sha256(content).hexdigest()
 
 
-def evidence_fingerprint(decision, root=ROOT):
+def evidence_fingerprint(decision, root=ROOT, questions=None):
     """Identify the evidence presented with this choice, including source snapshots."""
     proposal = dict(decision['proposal'])
     files = {}
@@ -48,8 +48,8 @@ def evidence_fingerprint(decision, root=ROOT):
         if not p.is_relative_to(root.resolve()) or not p.is_file():
             raise ValueError(f'{decision["id"]}: supporting file is unavailable: {name}')
         files[name] = content_digest(p)
-    questions = {q['id']: q for q in read_json('questions.json', root)}
-    selected = {qid: {k: v for k, v in questions[qid].items()
+    question_index = {q['id']: q for q in (questions if questions is not None else read_json('questions.json', root))}
+    selected = {qid: {k: v for k, v in question_index[qid].items()
                      if k not in {'work_status', 'assigned_to', 'answer', 'decision_id'}}
                 for qid in proposal['question_ids']}
     manifests = {}
@@ -64,8 +64,8 @@ def evidence_fingerprint(decision, root=ROOT):
                                      separators=(',', ':')).encode()).hexdigest()
 
 
-def fingerprint(decision, root=ROOT):
-    payload = {'proposal': decision['proposal'], 'evidence_sha256': evidence_fingerprint(decision, root)}
+def fingerprint(decision, root=ROOT, questions=None):
+    payload = {'proposal': decision['proposal'], 'evidence_sha256': evidence_fingerprint(decision, root, questions)}
     return hashlib.sha256(json.dumps(payload, sort_keys=True, ensure_ascii=False,
                                      separators=(',', ':')).encode()).hexdigest()
 
@@ -89,9 +89,9 @@ def github_comment(url):
     return value
 
 
-def verify_review(review, decision, roles, root=ROOT, fetch=github_comment):
+def verify_review(review, decision, roles, root=ROOT, fetch=github_comment, questions=None):
     """Read the source comment each time; saved JSON alone never grants approval."""
-    digest = fingerprint(decision, root)
+    digest = fingerprint(decision, root, questions)
     if review.get('proposal_sha256') != digest:
         raise ValueError(f'{decision["id"]}: the proposal changed; a fresh review is needed.')
     role = review.get('role')
@@ -177,7 +177,9 @@ def validate(data, root=ROOT, fetch=github_comment):
     for d in data['decisions']:
         if not d['proposal'].get('scope') or not d['proposal'].get('required_roles'):
             raise ValueError(f'{d["id"]}: give the proposal a review scope and named roles.')
-        fingerprint(d, root)
+        if not set(d['proposal'].get('answers', {})) <= set(d['proposal']['question_ids']):
+            raise ValueError(f'{d["id"]}: proposed answers must belong to the reviewed questions.')
+        fingerprint(d, root, questions)
         for qid in d['proposal']['question_ids']:
             if qid not in index:
                 raise ValueError(f'{d["id"]}: missing question {qid}')
@@ -185,10 +187,10 @@ def validate(data, root=ROOT, fetch=github_comment):
     for review in data['reviews']:
         if review['decision_id'] not in decisions:
             raise ValueError('Review refers to a missing decision.')
-        current_digest = fingerprint(decisions[review['decision_id']], root)
+        current_digest = fingerprint(decisions[review['decision_id']], root, questions)
         if not review.get('active', True) and review['proposal_sha256'] != current_digest:
             continue
-        verified = verify_review(review, decisions[review['decision_id']], data['roles'], root, fetch)
+        verified = verify_review(review, decisions[review['decision_id']], data['roles'], root, fetch, questions)
         key = (review['decision_id'], review['role'])
         if key not in latest or verified['source_created_at'] > latest[key]['source_created_at']:
             latest[key] = verified
@@ -198,6 +200,8 @@ def validate(data, root=ROOT, fetch=github_comment):
         if all(r and r['outcome'] == 'approved' for r in reviews):
             approved.add(d['id'])
     for q in questions:
+        if q.get('answer') and q['work_status'] != 'answer_recorded':
+            raise ValueError(f'{q["id"]}: a recorded answer needs the answer_recorded work state and its checked review.')
         if q['work_status'] == 'answer_recorded':
             if q.get('decision_id') not in approved or not q.get('answer'):
                 raise ValueError(f'{q["id"]}: an answer needs its matching human-reviewed decision.')
@@ -325,8 +329,8 @@ The kiosk and its resilience network are the first delivery focus. The wider eco
              ' · '.join(f'[{url.rstrip("/").split("/")[-1]}]({url})' for url in r.get('repositories', []) + r.get('public_urls', [])) for r in data['ecosystem']))
     for d in data['decisions']:
         p = d['proposal']
-        digest = fingerprint(d, root)
-        evidence_digest = evidence_fingerprint(d, root)
+        digest = fingerprint(d, root, questions)
+        evidence_digest = evidence_fingerprint(d, root, questions)
         body = f'**Review scope:** {p["scope_label"]}. **State:** ' + ('approval recorded and checked' if d['id'] in approved else 'ready for people to review')
         body += '\n\n' + p['summary'] + '\n\n## The choices\n\n' + table(['Choice', 'What it brings', 'What to plan for'], [
                     (x['name'], x['benefit'], x['tradeoff']) for x in p['options']])
@@ -335,6 +339,9 @@ The kiosk and its resilience network are the first delivery focus. The wider eco
         body += '\n\n## Later milestones with their own reviews\n\n' + '\n'.join('- ' + x for x in p['later_reviews'])
         body += '\n\n## What people review\n\n' + '\n'.join('- ' + x for x in p['review_checks'])
         body += '\n\n**Questions:** ' + ', '.join(link(q) for q in p['question_ids'])
+        if p.get('answers'):
+            body += '\n\n## Exact answers covered by this proposal\n\n' + '\n\n'.join(
+                f'**{link(qid)}**\n\n{answer}' for qid, answer in p['answers'].items())
         body += '\n\n**Reviewers:** ' + ', '.join(data['roles'][r]['label'] for r in p['required_roles'])
         if d.get('github_issue_url'):
             body += f'\n\n[Open the GitHub review conversation]({d["github_issue_url"]}).'
@@ -357,8 +364,14 @@ Use `CHANGE` or `REJECT` in place of `APPROVE` to record that outcome. For condi
 '''
         for review in data['reviews']:
             if review['decision_id'] == d['id']:
-                label = review['outcome'] if review.get('active', True) else review['outcome'] + ' — earlier record'
+                current = reviews.get((d['id'], review['role']))
+                is_current = current and current['evidence_url'] == review['evidence_url']
+                label = current['outcome'] if is_current else review['outcome'] + ' — earlier record'
                 body += f'\n\n[Review by {review["reviewer"]}: {label}]({review["evidence_url"]})'
+                if is_current:
+                    body += '\n\nConditions: ' + current['conditions']
+                    if current['valid_until']:
+                        body += '\n\nValid until: ' + current['valid_until']
         page('Decision-' + d['id'], d['id'] + ' ' + p['title'], body)
     page('Decisions', 'Decision register', 'A decision joins the evidence, the choice and the people responsible for its scope.\n\n' + table(
         ['Decision', 'Scope', 'Review state'], [(f'[{d["id"]} {d["proposal"]["title"]}](Decision-{d["id"]}.md)',
@@ -393,7 +406,7 @@ Evidence can be a source document, a photo with permission, a measurement, a dra
 
 For each important claim, keep its source, date, version, location or test setup, uncertainty and the person responsible for updating it. Distinguish an observation, an official instruction, an estimate, a simulation and an agreed decision. A clear source trail helps people challenge, improve and reuse the work.
 
-The question cards carry the starting sources. Some author-supplied documents were reviewed locally; their public copies can be added when sharing rights and privacy have been checked. Public releases carry information people can safely use; private household, welfare, contact and cultural records keep their chosen access conditions.
+The question cards carry the starting sources. The [source library](Source-library.md) holds the supplied originals and preserved website source editions, with packing lists, checksums and restoration instructions. Public releases carry information people can safely use; private household, welfare, contact and cultural records keep their chosen access conditions.
 
 [Research baseline and original-document register](../docs/source-register.md) · [Earlier kiosk proposal](https://github.com/auraofintelligence/straddie-disaster-kiosks) · [UNGA81 reference library](https://auraofintelligence.github.io/UNGA81-Luke-Hayes/library.html)
 
