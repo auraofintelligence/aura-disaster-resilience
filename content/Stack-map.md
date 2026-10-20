@@ -6,7 +6,7 @@ The disaster resilience network brings everyday usefulness and preparedness toge
 
 This is the planning stage for the proposed service. Source documents, code demonstrations and public workbenches provide foundations. The next milestones are a shared service brief, reviewable demonstrations, community discussion, agreed responsibilities, measured performance and supervised field use.
 
-The [ecosystem register](https://github.com/auraofintelligence/aura-disaster-resilience/blob/main/data/ecosystem.json) maps 31 related groups and 43 distinct repository destinations to the questions they help answer. It also retains relevant public website and library links. Private original documents remain with their holders.
+The [ecosystem register](https://github.com/auraofintelligence/aura-disaster-resilience/blob/main/data/ecosystem.json) maps the related projects and source repositories to the questions they help answer. It also retains relevant public website and library links. The [source library](Source-library.md) preserves the supplied planning originals and project editions; private personal and cultural records retain their chosen access conditions.
 
 ## Three kinds of connection
 
@@ -37,7 +37,7 @@ A source repository offers material to learn from. The service team will choose 
 
 A digital twin is a versioned representation of a person, place or system, built from selected evidence and assumptions. Maps, photographs, observations and simulations will retain their dates and different meanings. People will be able to inspect a claim, propose a correction and understand what remains uncertain. A personal twin develops through that person's choices about what it represents, who can use it and how it is updated.
 
-Legal RAG, or retrieval-augmented generation, is a pattern where AI finds relevant source passages before preparing an explanation. The service would develop its current collection of official instructions and approved procedures with the responsible information owners. A source document informs the work; actual people and organisations decide matters within their authority.
+Legal RAG, or retrieval-augmented generation, is a pattern where AI finds relevant source passages before preparing an explanation. The current legal explorations are [Your Relevance](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html), [P4A Legal RAG](https://p4a.xyz/pages/legal-rag.html) and [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine). These help us explore source-led understanding, precise retrieval and people making informed choices. The service would develop its collection of official instructions and approved procedures with the responsible information owners. A source document informs the work; actual people and organisations decide matters within their authority.
 
 ## Values, people and personal choice
 
@@ -45,7 +45,7 @@ Legal RAG, or retrieval-augmented generation, is a pattern where AI finds releva
 
 **Ready S.E.T. Co-op**, fully **Ready Sustainable Employment and Training Cooperative**, is the proposed intermediary for kiosks, the Cultural Intelligence Node and the Screen and Media Network. Community discussion, formation, membership, host arrangements, staffing and continuing resources are the milestones for developing that role. Relevant cultural custodians will determine how their material and participation are handled.
 
-Aura of Intelligence is the personal AI operating system Luke is designing from light to ultra high definition. A person would choose the depth of context and models they bring together. Personal context, screen detail, computing location and emergency energy settings are independent choices. When a demanding view or AI service is unavailable, locally stored approved information and useful human contact routes would remain available.
+Aura of Intelligence is the personal AI operating system [Luke Nathan Hayes](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) is designing from light to ultra high definition. A person would choose the depth of context and models they bring together. Personal context, screen detail, computing location and emergency energy settings are independent choices. When a demanding view or AI service is unavailable, locally stored approved information and useful human contact routes would remain available.
 
 C-Hours offer voluntary contribution recognition. Each community chooses its reciprocal rewards. One verified elapsed hour has no monetary equivalent and cannot be sold or transferred. Paid work, money, machine time and outcomes remain separate, with a person's elapsed time counted once across linked projects.
 

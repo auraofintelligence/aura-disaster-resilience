@@ -106,7 +106,7 @@
       "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance",
       "https://github.com/auraofintelligence/australian-legal-engine"
     ],
-    "role": "Help people find, trace, understand and question source-linked civic and legal material. The supplied Legal RAG blueprint describes AI that retrieves relevant source passages before producing an explanation. The disaster service would build its current collection of official instructions and approved procedures with the responsible information owners.",
+    "role": "Help people find, trace, understand and question source-linked civic and legal material. Your Relevance, the P4A Legal RAG page and Australian Legal Engine are the current legal explorations. The supplied Legal RAG blueprint adds design background. The disaster service would develop its collection of official instructions and approved procedures with the responsible information owners.",
     "scope": "interface",
     "question_ids": [
       "DAT-01",
@@ -114,7 +114,11 @@
       "AUR-01",
       "GOV-06"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "public_urls": [
+      "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html",
+      "https://p4a.xyz/pages/legal-rag.html"
+    ]
   },
   {
     "id": "personal-place-specification",
@@ -140,7 +144,7 @@
       "https://github.com/auraofintelligence/minjerribah-living-twin",
       "https://github.com/auraofintelligence/second-island"
     ],
-    "role": "Bring dated maps, panoramas, notes and place evidence into useful journeys and rehearsals. A digital twin is a versioned representation of a place or system that people can inspect and correct. The catalogue, prototype, builders, explainer, Living Twin and Second Island provide different contributions. Essential local text and maps would remain available when richer views cannot run.",
+    "role": "Bring dated maps, panoramas, notes and place evidence into useful journeys and rehearsals. A digital twin is a versioned representation of a person, place or system that people can inspect and correct. The catalogue, prototype, builders, explainer, Living Twin and Second Island provide different contributions. Essential local text and maps would remain available when richer views cannot run.",
     "scope": "interface",
     "question_ids": [
       "TWIN-01",
@@ -530,6 +534,17 @@
       "TWIN-01"
     ],
     "status": "proposed; source artefacts exist"
+  },
+  {
+    "id": "author-open-record",
+    "name": "Luke Nathan Hayes open record",
+    "repositories": [
+      "https://github.com/auraofintelligence/open-record-luke-nathan-hayes"
+    ],
+    "role": "Provide the author-selected reference for Luke Nathan Hayes and his public record. Link author context here while keeping the kiosk service, evidence, responsibilities and community decisions clear in their own records.",
+    "scope": "context",
+    "question_ids": ["WRK-01", "GOV-01"],
+    "status": "public reference supplied by the author"
   }
 ]
 

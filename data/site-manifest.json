@@ -46,6 +46,30 @@
       "capture": "The public repository source is packaged. A separate WordPress or hosting export remains a handover item when supplied."
     },
     {
+      "url": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html",
+      "source_repositories": [
+        "australian-law-2012-lukes-relevance"
+      ],
+      "relationship": "GitHub Pages address mapped to repository source",
+      "capture": "The selected local source files are packaged with their recorded edition."
+    },
+    {
+      "url": "https://p4a.xyz/pages/legal-rag.html",
+      "source_repositories": [
+        "p4a-xyz-cinema"
+      ],
+      "relationship": "external canonical address with mapped public source",
+      "capture": "The current local public source tree is packaged; live host configuration and external records have their own handover."
+    },
+    {
+      "url": "https://auraofintelligence.github.io/minjerribah-screen-media-network/",
+      "source_repositories": [
+        "minjerribah-screen-media-network"
+      ],
+      "relationship": "GitHub Pages address mapped to repository source",
+      "capture": "The selected local source files are packaged with their recorded edition."
+    },
+    {
       "url": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/",
       "source_repositories": [
         "ready-set-co-op-trust-hub"
@@ -1614,22 +1638,54 @@
         ]
       },
       "capture_completed_utc": "2026-10-20T08:00:43+00:00"
+    },
+    {
+      "slug": "open-record-luke-nathan-hayes",
+      "repository": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes",
+      "state": "source_packaged",
+      "head": "01a2bb64c66cdeff278dc659ebc6a91cad8035d7",
+      "branch": "main",
+      "working_tree_changed_from_head": false,
+      "source_git_status_unchanged": true,
+      "file_count": 339,
+      "source_bytes": 36131343,
+      "excluded_count": 0,
+      "tree_manifest": {
+        "path": "sources/sites/open-record-luke-nathan-hayes/source-manifest.json",
+        "bytes": 74604,
+        "sha256": "3bc83e6e0b05a21aedb12adc2c3624285028178c6fc87c59838d2a3e7ae03187"
+      },
+      "files_sha256": "e5b99353728a2f5076ef432b5058130805f4fddb44d45a19b28fa2ba573a89ea",
+      "archive": {
+        "format": "zip",
+        "bytes": 25754548,
+        "sha256": "f1ed4284c2705aba83841231c1f77d073fde7bd767705d72745210ce9013d296",
+        "multipart": false,
+        "parts": [
+          {
+            "path": "sources/sites/open-record-luke-nathan-hayes/source.zip",
+            "bytes": 25754548,
+            "sha256": "f1ed4284c2705aba83841231c1f77d073fde7bd767705d72745210ce9013d296"
+          }
+        ]
+      },
+      "capture_completed_utc": "2026-10-20T08:20:40+00:00"
     }
   ],
   "summary": {
-    "repository_destinations": 43,
-    "source_packages": 42,
+    "repository_destinations": 44,
+    "source_packages": 43,
     "versioned_destinations": 1,
     "missing_sources": [],
-    "source_files": 9629,
-    "source_bytes": 2340248866,
-    "archive_bytes": 1691341811,
-    "archive_parts": 75,
+    "source_files": 9968,
+    "source_bytes": 2376380209,
+    "archive_bytes": 1717096359,
+    "archive_parts": 76,
     "excluded_files": 0
   },
-  "capture_completed_utc": "2026-10-20T08:00:43+00:00",
+  "capture_completed_utc": "2026-10-20T08:20:40+00:00",
   "verification": {
-    "checked_utc": "2026-10-20T08:01:52+00:00",
+    "checked_utc": "2026-10-20T08:20:40+00:00",
     "result": "passed_for_recorded_bytes",
     "checks": [
       "Every archive part SHA-256 and byte count",
@@ -1639,9 +1695,18 @@
       "Single ZIP restoration: Minjerribah-Resilience, 9 files",
       "Five-part ZIP restoration: australian-law-2012-lukes-relevance, 43 files"
     ],
-    "source_packages_verified": 42,
-    "source_files_verified": 9629,
+    "source_packages_verified": 43,
+    "source_files_verified": 9968,
     "restoration_check_directories": "Temporary check copies were removed after successful restoration.",
-    "scope": "These checks establish package integrity and source restoration. Each restored project has its own running, dependency, security and hosting checks as its next milestones."
+    "scope": "These checks establish package integrity and source restoration. Each restored project has its own running, dependency, security and hosting checks as its next milestones.",
+    "last_addition": {
+      "slug": "open-record-luke-nathan-hayes",
+      "checks": [
+        "New ZIP and every saved file fingerprint verified",
+        "Existing 42 package records preserved unchanged",
+        "Overall repository coverage checked against current ecosystem list"
+      ],
+      "head": "01a2bb64c66cdeff278dc659ebc6a91cad8035d7"
+    }
   }
 }

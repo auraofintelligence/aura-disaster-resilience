@@ -400,27 +400,68 @@
       "public_path": "sources/web-pages/12-minjerribah-screen-media-network/response.html",
       "captured_utc": "2026-10-20T08:17:19+00:00",
       "edition": "Exact received HTTP response-body bytes; page edition, with source/assets held separately."
+    },
+    {
+      "id": "WEB-13",
+      "url": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html",
+      "request_started_utc": "2026-10-20T08:21:08+00:00",
+      "final_url": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html",
+      "http_status": 200,
+      "status": "captured",
+      "http_reason": "OK",
+      "server_date": "Tue, 20 Oct 2026 08:21:08 GMT",
+      "content_type": "text/html; charset=utf-8",
+      "content_encoding": null,
+      "declared_content_length": "19579",
+      "last_modified": "Sun, 18 Oct 2026 06:05:39 GMT",
+      "etag": "\"6ad461b3-4c7b\"",
+      "bytes": 19579,
+      "sha256": "d35bcdd42fef664b16cb8bd5d921049ee3bcab91f00ca43fd0c3130615fb3ba0",
+      "public_path": "sources/web-pages/13-australian-law-2012-lukes-relevance-pages-your-relevance.html/response.html",
+      "captured_utc": "2026-10-20T08:21:09+00:00",
+      "edition": "Exact received HTTP response-body bytes; page edition, with source/assets held separately."
+    },
+    {
+      "id": "WEB-14",
+      "url": "https://p4a.xyz/pages/legal-rag.html",
+      "request_started_utc": "2026-10-20T08:21:08+00:00",
+      "final_url": "https://p4a.xyz/pages/legal-rag.html",
+      "http_status": 200,
+      "status": "captured",
+      "http_reason": "OK",
+      "server_date": "Tue, 20 Oct 2026 08:21:08 GMT",
+      "content_type": "text/html; charset=utf-8",
+      "content_encoding": null,
+      "declared_content_length": "15349",
+      "last_modified": "Fri, 16 Oct 2026 15:59:50 GMT",
+      "etag": "\"6ad249f6-3bf5\"",
+      "bytes": 15349,
+      "sha256": "cb4c3e8d7be5f2272789c798e8d392a58b21238b2f9a5ef44e279bb9f9566854",
+      "public_path": "sources/web-pages/14-pages-legal-rag.html/response.html",
+      "captured_utc": "2026-10-20T08:21:09+00:00",
+      "edition": "Exact received HTTP response-body bytes; page edition, with source/assets held separately."
     }
   ],
-  "capture_completed_utc": "2026-10-20T08:17:19+00:00",
+  "capture_completed_utc": "2026-10-20T08:21:09+00:00",
   "summary": {
-    "supplied_unique_urls": 12,
-    "address_records": 12,
-    "attempts_recorded": 23,
-    "successful_page_captures": 12,
+    "supplied_unique_urls": 14,
+    "address_records": 14,
+    "attempts_recorded": 25,
+    "successful_page_captures": 14,
     "http_error_responses": 0,
     "network_or_size_failures": 0,
-    "saved_response_bytes": 488169
+    "saved_response_bytes": 523097
   },
   "verification": {
-    "checked_utc": "2026-10-20T08:17:19+00:00",
+    "checked_utc": "2026-10-20T08:21:09+00:00",
     "result": "passed_for_recorded_response_bytes",
-    "saved_response_bodies_verified": 12,
+    "saved_response_bodies_verified": 14,
     "checks": [
       "Each saved body byte count matches its response record",
       "Each saved body SHA-256 matches its response record",
       "All unique supplied public URLs have recorded attempts",
-      "The first 11 response bodies and attempt records remain unchanged after adding WEB-12"
+      "The first 11 response bodies and attempt records remain unchanged after adding WEB-12",
+      "The first 12 response bodies and attempt records remain unchanged after adding WEB-13 and WEB-14"
     ],
     "scope": "Exact received response-body editions; no remote JavaScript execution, asset crawl or external database/hosting export."
   }

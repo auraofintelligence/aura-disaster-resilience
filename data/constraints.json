@@ -54,5 +54,9 @@
   {
     "id": "C14",
     "constraint": "A digital twin is a versioned representation of a person, place or system, built from selected evidence and assumptions. Personal twins develop through the person's choices about their content, access and use."
+  },
+  {
+    "id": "C15",
+    "constraint": "Use Your Relevance, P4A Legal RAG and Australian Legal Engine as the current legal-exploration references. Link author context about Luke Nathan Hayes to his chosen open-record repository. The ecosystem and source register retain those exact addresses."
   }
 ]

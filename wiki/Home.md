@@ -6,7 +6,7 @@ We are designing a community-owned network that helps people every day and keeps
 
 This wiki turns that ambition into connected questions, clear jobs and reviewable choices. It welcomes practical knowledge from tradespeople, drivers, artists, carers, nurses, retirees, students, researchers and everyone who knows their place and their work. Planning and design are underway; community discussion, prototypes and field trials are the next milestones.
 
-**Ready S.E.T. Co-op**, fully **Ready Sustainable Employment and Training Cooperative**, is the proposed operating intermediary. **Aura of Intelligence** is the personal AI operating system Luke is designing, from light to ultra high definition, helping people navigate the network and learn when they need to. **GAJRA Earth**, the Global Association for Joyful Responsible Abundance on Earth, provides the values starting point.
+**Ready S.E.T. Co-op**, fully **Ready Sustainable Employment and Training Cooperative**, is the proposed operating intermediary. **Aura of Intelligence** is the personal AI operating system [Luke Nathan Hayes](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) is designing, from light to ultra high definition, helping people navigate the network and learn when they need to. **GAJRA Earth**, the Global Association for Joyful Responsible Abundance on Earth, provides the values starting point.
 
 ## Choose your way in
 

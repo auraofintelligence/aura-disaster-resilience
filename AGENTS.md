@@ -8,6 +8,8 @@ Write optimistically and look forward. Explain the work for an average Australia
 
 Use Ready S.E.T. Co-op or Ready Sustainable Employment and Training Cooperative. Use Purple Party for Australia or P4A; the older repository slug is a source identifier. Aura of Intelligence is the personal AI operating system Luke is designing from light to ultra high definition. GAJRA Earth is the values starting point. Apply the C-Hour rules in Constraints without reopening them.
 
+A digital twin represents a person, place or system. Use the author's [open record](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) when linking context about Luke Nathan Hayes. The current legal explorations are Your Relevance, P4A Legal RAG and Australian Legal Engine, linked in the source register and ecosystem records.
+
 ## Parallel work
 
 - Own a bounded task, question IDs and explicit files. Keep unrelated source repositories intact.

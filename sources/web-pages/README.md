@@ -6,7 +6,7 @@ The website source packages in [the site library](../sites/README.md) carry the 
 
 Capture requested only the listed addresses and followed ordinary redirects. It used no cookies or authentication, ran no remote JavaScript and performed no wider crawl. A refusal or network failure is recorded as received.
 
-Capture completed: 2026-10-20T08:17:19+00:00.
+Capture completed: 2026-10-20T08:21:09+00:00.
 
 | Public address | HTTP result | Saved edition | Bytes |
 | --- | --- | --- | --- |
@@ -22,6 +22,8 @@ Capture completed: 2026-10-20T08:17:19+00:00.
 | [https://p4a.xyz/pages/twinkle-uap.html](https://p4a.xyz/pages/twinkle-uap.html) | 200 | [Response bytes](10-pages-twinkle-uap.html/response.html) | 6,280 |
 | [https://p4a.xyz/pages/twinkle.html](https://p4a.xyz/pages/twinkle.html) | 200 | [Response bytes](11-pages-twinkle.html/response.html) | 41,610 |
 | [https://auraofintelligence.github.io/minjerribah-screen-media-network/](https://auraofintelligence.github.io/minjerribah-screen-media-network/) | 200 | [Response bytes](12-minjerribah-screen-media-network/response.html) | 1,353 |
+| [https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html) | 200 | [Response bytes](13-australian-law-2012-lukes-relevance-pages-your-relevance.html/response.html) | 19,579 |
+| [https://p4a.xyz/pages/legal-rag.html](https://p4a.xyz/pages/legal-rag.html) | 200 | [Response bytes](14-pages-legal-rag.html/response.html) | 15,349 |
 
 [Complete capture manifest](../../data/web-page-manifest.json)
 

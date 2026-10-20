@@ -1,6 +1,6 @@
 # The research starting point
 
-The kiosk design grows from Luke's original proposals, the island experience behind them and a connected body of public work. This register helps people find the source behind a question and understand what it contributes. Source documents keep their original editions, wording and rights; the wiki explains how we are using them in the current design.
+The kiosk design grows from [Luke Nathan Hayes's](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) original proposals, the island experience behind them and a connected body of public work. The linked open record is his chosen public reference for author context. This register helps people find the source behind a question and understand what it contributes. Source documents keep their original editions, wording and rights; the wiki explains how we are using them in the current design.
 
 ## Kiosk and island preparedness
 
@@ -20,7 +20,9 @@ The three current atlas originals are Protocol V2, 40 pages, dated 13 October 20
 
 [GAJRA Earth Claude build](https://github.com/auraofintelligence/gajra-earth-claude-build) and [GAJRA Earth Infinity](https://github.com/auraofintelligence/GAJRA-earth-infinity) provide the defining values and practical reflection process. The [UNGA81 contribution and library](https://auraofintelligence.github.io/UNGA81-Luke-Hayes/library.html) connect those values to personal agency, locally held computing and shared capability. The eight-page supplied original matches the retained New Reference Links edition: SHA-256 `0f1e22a671f010a9b9e285aa52c9c81e7d0469c422ce535bb5eee7f2e4555f14`.
 
-*Building an Australian Legal RAG System* is a 15-page blueprint for retrieving source-backed Australian statutory material. It supports careful source, jurisdiction, operative-date and citation design. The disaster network also needs the actual relevant warnings, directions, local restrictions and approved procedures. A question about current applicability reaches the appropriate person or authority.
+The current legal explorations are [Your Relevance](https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html), [P4A Legal RAG](https://p4a.xyz/pages/legal-rag.html) and [Australian Legal Engine](https://github.com/auraofintelligence/australian-legal-engine). They provide related work on civic relevance, source-led explanations and precise retrieval. Australian Legal Engine describes a separation between retrieving source provisions and preparing explanatory language; each retrieved text retains its source date and corpus context.
+
+*Building an Australian Legal RAG System* is a 15-page background blueprint for retrieving source-backed Australian statutory material. It supports careful source, jurisdiction, operative-date and citation design. The disaster network also needs the actual relevant warnings, directions, local restrictions and approved procedures. A question about current applicability reaches the appropriate person or authority.
 
 ## Connected everyday services
 

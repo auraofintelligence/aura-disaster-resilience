@@ -2,7 +2,7 @@
 
 [Start here](Home.md) · [Questions](Question-register.md) · [Progress](Progress.md) · [People decide](Human-review.md)
 
-These directions come from Luke's instructions in this planning conversation on 20 October 2026. They let people and AI assistants move forward without repeatedly reopening settled requirements. They establish the design direction; the decision register records specific proposals and their reviews.
+These directions come from [Luke Nathan Hayes's](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) instructions in this planning conversation on 20 October 2026. They let people and AI assistants move forward without repeatedly reopening settled requirements. They establish the design direction; the decision register records specific proposals and their reviews.
 
 **C01** Plan the disaster kiosk and resilience network as a whole service. Existing proposals, documents and code demonstrations provide foundations; community discussion, agreed operating roles, tested installations and continuing support are milestones ahead.
 
@@ -31,3 +31,5 @@ These directions come from Luke's instructions in this planning conversation on 
 **C13** Use Purple Party for Australia or P4A. Preserve the existing repository identifier where it is a source link. Its intended referendum horizon is during or before 2031, with a hoped-for Brisbane 2032 showcase.
 
 **C14** A digital twin is a versioned representation of a person, place or system, built from selected evidence and assumptions. Personal twins develop through the person's choices about their content, access and use.
+
+**C15** Use Your Relevance, P4A Legal RAG and Australian Legal Engine as the current legal-exploration references. Link author context about Luke Nathan Hayes to his chosen open-record repository. The ecosystem and source register retain those exact addresses.

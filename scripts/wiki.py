@@ -254,7 +254,7 @@ We are designing a community-owned network that helps people every day and keeps
 
 This wiki turns that ambition into connected questions, clear jobs and reviewable choices. It welcomes practical knowledge from tradespeople, drivers, artists, carers, nurses, retirees, students, researchers and everyone who knows their place and their work. Planning and design are underway; community discussion, prototypes and field trials are the next milestones.
 
-**Ready S.E.T. Co-op**, fully **Ready Sustainable Employment and Training Cooperative**, is the proposed operating intermediary. **Aura of Intelligence** is the personal AI operating system Luke is designing, from light to ultra high definition, helping people navigate the network and learn when they need to. **GAJRA Earth**, the Global Association for Joyful Responsible Abundance on Earth, provides the values starting point.
+**Ready S.E.T. Co-op**, fully **Ready Sustainable Employment and Training Cooperative**, is the proposed operating intermediary. **Aura of Intelligence** is the personal AI operating system [Luke Nathan Hayes](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) is designing, from light to ultra high definition, helping people navigate the network and learn when they need to. **GAJRA Earth**, the Global Association for Joyful Responsible Abundance on Earth, provides the values starting point.
 
 ## Choose your way in
 
@@ -315,7 +315,7 @@ Research and alternatives can move ahead while connected decisions develop. Befo
             body += '\n\n## Recorded answer\n\n' + q['answer']
         page('Question-' + q['id'], q['id'] + ' ' + q['question'], body)
     page('Constraints', 'The direction already agreed', '''
-These directions come from Luke's instructions in this planning conversation on 20 October 2026. They let people and AI assistants move forward without repeatedly reopening settled requirements. They establish the design direction; the decision register records specific proposals and their reviews.
+These directions come from [Luke Nathan Hayes's](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) instructions in this planning conversation on 20 October 2026. They let people and AI assistants move forward without repeatedly reopening settled requirements. They establish the design direction; the decision register records specific proposals and their reviews.
 
 ''' + '\n\n'.join(f'**{c["id"]}** {c["constraint"]}' for c in data['constraints']))
     page('Ecosystem', 'How the wider projects connect', '''
