@@ -20,7 +20,7 @@
 - [Source library](Source-library.md)
 - [AI research and prompt](Research-brief.md)
 - [Research sources](Research-sources.md)
-- [Useful words](Glossary.md)
+- [Useful words/glossary](Glossary.md)
 - [Rights and discovery](Rights-and-discovery.md)
 
 **Work areas**
