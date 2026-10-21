@@ -773,7 +773,7 @@
     },
     {
       "question_id": "ENE-09",
-      "summary": "Rehearse the nine-day sequence with a traceable energy model first, then bench measurements and a bounded field exercise. Include zero generation, battery ageing allowances, lost cooling, delayed repair and failed high-power computing. Report the service actually delivered at each stage alongside energy and temperature.",
+      "summary": "Prepare a 2–3-day practical test with people and equipment, using a traceable energy model to choose bench measurements and a bounded field exercise. Digital twin simulations can cover any chosen period, with simulated time and actual computer runtime recorded separately. Include zero generation, battery ageing allowances, lost cooling, delayed repair and failed high-power computing. Report delivered service, energy and temperature, keeping model results separate from measured performance.",
       "options": [
         {
           "label": "Model-to-measurement exercise",
@@ -795,7 +795,7 @@
         {
           "source_id": "HW-S11",
           "lesson": "MAGS's functional testing and repair history support testing restart and support arrangements together.",
-          "local_difference": "The nine-day target is this project's exercise basis, not a performance claim about MAGS or kiosk equipment."
+          "local_difference": "The 2–3-day practical test is this project's exercise baseline, not a performance claim about MAGS or kiosk equipment."
         }
       ],
       "next_checks": [

@@ -8,7 +8,7 @@ A repeatable exercise shows how the whole kiosk behaves as conditions change.
 
 ## What to bring back
 
-Prepare time-based tests and result sheets for five-to-nine-day cases and separately labelled longer scenarios. Record power use, battery energy, temperature, available services, waiting messages, interventions, uncertainty and pass/fail points. Compare measured results with the model.
+Prepare time-based tests and result sheets for two to three days of practical testing. Digital-twin models can explore any chosen outage duration. Record simulated time and computer runtime separately from actual test duration, power use, battery energy, temperature, available services, waiting messages, interventions, uncertainty and pass/fail points. Compare measured results with the model.
 
 ## What we know so far
 
@@ -20,7 +20,7 @@ Prepare time-based tests and result sheets for five-to-nine-day cases and separa
 
 **For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
 
-Rehearse the nine-day sequence with a traceable energy model first, then bench measurements and a bounded field exercise. Include zero generation, battery ageing allowances, lost cooling, delayed repair and failed high-power computing. Report the service actually delivered at each stage alongside energy and temperature.
+Prepare a 2–3-day practical test with people and equipment, using a traceable energy model to choose bench measurements and a bounded field exercise. Digital twin simulations can cover any chosen period, with simulated time and actual computer runtime recorded separately. Include zero generation, battery ageing allowances, lost cooling, delayed repair and failed high-power computing. Report delivered service, energy and temperature, keeping model results separate from measured performance.
 
 ### Model-to-measurement exercise
 
@@ -34,7 +34,7 @@ Research basis: [Cerbo GX manual: configuration](https://www.victronenergy.com/m
 
 ### Examples and local differences
 
-- [Mallacoota Area Grid Storage community updates](https://www.ausnetservices.com.au/projects-and-innovation/completed-projects/mallacoota-area-grid-storage-mags-community-update): **AI transfer assessment:** MAGS's functional testing and repair history support testing restart and support arrangements together. **Local difference to check:** The nine-day target is this project's exercise basis, not a performance claim about MAGS or kiosk equipment.
+- [Mallacoota Area Grid Storage community updates](https://www.ausnetservices.com.au/projects-and-innovation/completed-projects/mallacoota-area-grid-storage-mags-community-update): **AI transfer assessment:** MAGS's functional testing and repair history support testing restart and support arrangements together. **Local difference to check:** The 2–3-day practical test is this project's exercise baseline, not a performance claim about MAGS or kiosk equipment.
 
 ### Evidence to bring back next
 

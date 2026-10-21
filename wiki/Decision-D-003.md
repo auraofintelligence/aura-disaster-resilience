@@ -22,7 +22,7 @@ Start with a connected service demonstration using sample records at three logic
 
 - Demonstrate three everyday tasks: find checked events and transport information; find a local notice or service; use guided assistance or learning.
 - Demonstrate disaster information, service/resource readiness and request handover with honest source and receipt states.
-- Prepare a 24-hour disconnected software exercise and a nine-day scenario timeline, each labelled by its test method.
+- Prepare a two-to-three-day practical service exercise with disconnected operation, staff handovers and recovery. Digital-twin simulations can cover any chosen time span, recorded separately from practical test duration and computer runtime.
 
 ## Later milestones with their own reviews
 
@@ -48,14 +48,14 @@ Start with a connected service demonstration using sample records at three logic
 
 The fingerprint below identifies this exact proposal and its supporting files. A changed proposal gets a fresh fingerprint and review. A person may approve, request changes or reject it. [How reviews work](Human-review.md).
 
-`702aa7e58b2ad89016a12a4282fbf43ee41a60c3007948526b2090a16dd86b22`
+`272bb422f389c943449362edf52b9296e1c795540126c4dba9a2529ccfb84891`
 
-Evidence fingerprint: `1e36f9b8c787f374171eb00f324c667454261b2135432387ccdeb4d02497c645`.
+Evidence fingerprint: `4c613aeac3308dedbbdc4f129a7da24873dbaa8df0fdbd3a6a9d98829314a62f`.
 
 For approval, the named person posts this line in the linked GitHub issue after reading the proposal:
 
 ```text
-HITL APPROVE D-003 702aa7e58b2ad89016a12a4282fbf43ee41a60c3007948526b2090a16dd86b22 scope=prototype_service
+HITL APPROVE D-003 272bb422f389c943449362edf52b9296e1c795540126c4dba9a2529ccfb84891 scope=prototype_service
 Conditions: none
 ```
 

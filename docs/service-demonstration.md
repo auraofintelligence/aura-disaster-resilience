@@ -18,7 +18,11 @@ Aura helps the steward find an approved learning item, understand it, rehearse t
 
 ## Evidence to bring back
 
-Keep a configuration list, sources and versions, test steps, observations, timings, message receipts, energy measurements where real equipment is used, access barriers and the changes people suggest. A 24-hour disconnected software exercise and a nine-day scenario timeline establish different evidence. Real hardware endurance and all-weather performance develop through their own measured tests.
+Plan two to three days of practical testing so people can participate alongside work and everyday responsibilities. Use the first day for normal service and initial interruptions, the second for disconnected operation and relief handovers, and a third day where useful for restoration, repeated checks and feedback. The two-day version includes restoration and feedback on its second day.
+
+Digital twins can simulate any chosen time span, including longer disruptions. Record the simulated timeline and the computer's actual runtime separately from the time people spend in practical testing.
+
+Keep a configuration list, sources and versions, test steps, observations, timings, message receipts, energy measurements where real equipment is used, access barriers and the changes people suggest. Record which results came from simulation, bench measurements or field observations. Real hardware endurance and all-weather performance develop through their own measured tests.
 
 The D-003 review selects the prototype service brief. Future public service, sites and construction receive their relevant people, agreements and reviews.
 

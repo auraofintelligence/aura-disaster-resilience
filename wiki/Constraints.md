@@ -2,7 +2,7 @@
 
 [Start here](Home.md) · [Questions](Question-register.md) · [Progress](Progress.md) · [People decide](Human-review.md)
 
-These directions come from [Luke Nathan Hayes's](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) instructions in this planning conversation on 20 October 2026. They let people and AI assistants move forward without repeatedly reopening settled requirements. They establish the design direction; the decision register records specific proposals and their reviews.
+These directions come from [Luke Nathan Hayes's](https://github.com/auraofintelligence/open-record-luke-nathan-hayes/tree/main) instructions in this planning conversation on 20–21 October 2026. They let people and AI assistants move forward without repeatedly reopening settled requirements. They establish the design direction; the decision register records specific proposals and their reviews.
 
 **C01** Plan the disaster kiosk and resilience network as a whole service. Existing proposals, documents and code demonstrations provide foundations; community discussion, agreed operating roles, tested installations and continuing support are milestones ahead.
 
@@ -18,7 +18,7 @@ These directions come from [Luke Nathan Hayes's](https://github.com/auraofintell
 
 **C07** Grow from useful local installations, practical cooperation and shared learning. Wider food, media, mobility, energy, materials and other initiatives have their own development paths and can connect through agreed information and support relationships.
 
-**C08** Retain Luke's firsthand Alfred account alongside clearly identified official evidence. Use the nine-day disruption exercise to build capability, recording simulation, bench measurement and field demonstration as distinct achievements.
+**C08** Retain Luke's firsthand Alfred account of five to nine days without grid power depending on location, with nine days at Myora Caravan Park, alongside clearly identified official evidence. Use two to three days for practical testing with people and equipment. Digital twins can simulate any chosen time span. Record simulated duration, computer runtime, bench measurements and field demonstrations separately.
 
 **C09** Build readiness from actual evidence and agreed responsibility: host access, facility activation, resource condition, vehicle availability, qualified cover, partnerships, applicants, funding and approvals each belong to the relevant responsible party.
 

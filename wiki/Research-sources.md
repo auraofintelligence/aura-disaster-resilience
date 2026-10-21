@@ -424,7 +424,7 @@ The short source facts below are separated from the AI-generated local-fit asses
 
 **Limited fact established by the source:** The 2023 handbook provides a national method for objective-driven exercise design, planning, conduct and evaluation, with companion templates for organisations and community groups.
 
-**AI-generated local-fit assessment:** Use as exercise-design guidance and record the chosen performance measures. It does not certify this kiosk, replace professional review or establish nine-day autonomy.
+**AI-generated local-fit assessment:** Use as exercise-design guidance and record the chosen performance measures. Equipment endurance and service continuity require their own measured evidence and relevant professional review.
 
 ## SV-S06
 

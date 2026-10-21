@@ -420,7 +420,7 @@
       ],
       "next_checks": [
         "Measure start-up, task completion, energy and enclosure temperature with representative content and visitors.",
-        "Include low storage, incorrect time, simultaneous users and the agreed nine-day operating profile in the comparison."
+        "Include low storage, incorrect time, simultaneous users and the agreed 2–3-day practical test profile in the comparison."
       ]
     },
     {
@@ -768,7 +768,7 @@
     },
     {
       "question_id": "TWIN-02",
-      "summary": "Build a nine-day exercise that progressively interrupts power, communications, ferries, supplies and available staff, while everyday tasks continue where possible. Begin with storms, cyclones and fire. Longer disruption assumptions can extend the same dependency tests, with each simulated event clearly identified.",
+      "summary": "Build a 2–3-day practical exercise with people and equipment, walking through interruptions to power, communications, ferries, supplies and available staff. Begin with storms, cyclones and fire. Digital twins can simulate any chosen length of disruption; record simulated time separately from actual computer runtime. Clearly identify practice events and record simulation, bench measurements and field demonstrations as distinct evidence.",
       "options": [
         {
           "label": "A timed tabletop and connected-device exercise",

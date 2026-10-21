@@ -47,7 +47,7 @@
       "publisher": "Australian Institute for Disaster Resilience",
       "evidence_type": "official_guidance",
       "fact": "The 2023 handbook provides a national method for objective-driven exercise design, planning, conduct and evaluation, with companion templates for organisations and community groups.",
-      "local_fit": "Use as exercise-design guidance and record the chosen performance measures. It does not certify this kiosk, replace professional review or establish nine-day autonomy.",
+      "local_fit": "Use as exercise-design guidance and record the chosen performance measures. Equipment endurance and service continuity require their own measured evidence and relevant professional review.",
       "checked_on": "2026-10-20"
     },
     {
@@ -209,7 +209,7 @@
     },
     {
       "question_id": "OPS-03",
-      "summary": "Practise a nine-day sequence connecting grid loss, ferry interruption, communications gaps, changing weather, staff relief and recovery. Use separate storm, cyclone and fire branches, with timed challenges and observable decisions rather than a single endurance claim.",
+      "summary": "Plan a practical exercise over two to three days, connecting grid loss, ferry interruption, communications gaps, changing weather, staff relief and recovery. Use separate storm, cyclone and fire branches, with timed challenges and observable decisions. Record what was simulated and the actual participant time.",
       "options": [
         {
           "label": "Existing-practice adaptation",
@@ -235,7 +235,7 @@
       ],
       "next_checks": [
         "Write an exercise concept with objectives, participants, pause conditions and evaluation roles.",
-        "Run a short tabletop first and revise the nine-day sequence from observations."
+        "Run a short tabletop first and use the observations to refine the practical exercise over two to three days."
       ]
     },
     {
@@ -978,7 +978,7 @@
     },
     {
       "question_id": "TEST-03",
-      "summary": "Support each endurance claim with its own evidence: model assumptions, bench measurements and site observations. For the nine-day exercise, include changing energy, weather, staff, fuel, supplies, connectivity and recovery rather than equating battery capacity with service continuity.",
+      "summary": "Support each endurance claim with its own evidence: model assumptions, bench measurements and site observations. In the practical exercise over two to three days, include changing energy, weather, staff, fuel, supplies, connectivity and recovery. Record actual test duration and participant time; battery capacity alone does not establish service continuity.",
       "options": [
         {
           "label": "Existing-practice adaptation",
@@ -1000,7 +1000,7 @@
         {
           "source_id": "SV-S03",
           "lesson": "Include the supporting power and communications system in the service assessment.",
-          "local_difference": "Shoalhaven's reported equipment installation does not establish nine-day autonomy, local weather performance or the proposed network's endurance."
+          "local_difference": "Shoalhaven's reported equipment installation provides an example to investigate; local weather performance and the proposed network's endurance need their own measurements."
         }
       ],
       "next_checks": [

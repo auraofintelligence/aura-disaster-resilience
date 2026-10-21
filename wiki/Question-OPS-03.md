@@ -1,4 +1,4 @@
-# OPS-03 What changing sequence of failures and recovery should the nine-day exercise let people practise together?
+# OPS-03 What changing sequence of failures and recovery should a two-to-three-day practical exercise let people practise together?
 
 [Start here](Home.md) · [Questions](Question-register.md) · [Progress](Progress.md) · [People decide](Human-review.md)
 
@@ -8,7 +8,7 @@ Real preparedness connects power, communications, transport, supplies and availa
 
 ## What to bring back
 
-A scenario pack with starting conditions, a timed sequence of failures and recovery, sources and assumptions, changing dependencies and a clear account of what is simulated.
+A scenario pack for two to three days of practical testing, with starting conditions, a timed sequence of failures and recovery, sources and assumptions, changing dependencies and a clear account of what is simulated. Digital twins can model any chosen time span; record that span separately from the practical exercise and computer runtime.
 
 ## What we know so far
 
@@ -21,7 +21,7 @@ A scenario pack with starting conditions, a timed sequence of failures and recov
 
 **For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
 
-Practise a nine-day sequence connecting grid loss, ferry interruption, communications gaps, changing weather, staff relief and recovery. Use separate storm, cyclone and fire branches, with timed challenges and observable decisions rather than a single endurance claim.
+Plan a practical exercise over two to three days, connecting grid loss, ferry interruption, communications gaps, changing weather, staff relief and recovery. Use separate storm, cyclone and fire branches, with timed challenges and observable decisions. Record what was simulated and the actual participant time.
 
 ### Existing-practice adaptation
 
@@ -40,7 +40,7 @@ Research basis: [Managing Exercises Handbook](https://knowledge.aidr.org.au/reso
 ### Evidence to bring back next
 
 - Write an exercise concept with objectives, participants, pause conditions and evaluation roles.
-- Run a short tabletop first and revise the nine-day sequence from observations.
+- Run a short tabletop first and use the observations to refine the practical exercise over two to three days.
 
 ## People and connected choices
 

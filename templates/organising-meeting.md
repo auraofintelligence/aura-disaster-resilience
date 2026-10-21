@@ -36,7 +36,7 @@ Adapt dates and workload to participants. This sequence builds a worked example 
 | --- | --- |
 | 1 — Bring the group and records together | Confirm the agreed charter scope, accepted roles, record home and participation routes. Map the notice source, receiving service, site and professional reviews needed for the chosen example. Produce a labelled service sketch. |
 | 2 — Build the walkthrough | Prepare an everyday notice, a replacement disruption update, accessible screen/text versions and an operator handover. Use clearly labelled sample information. Record AI tools, source editions, costs and energy assumptions. |
-| 3 — Practise continuity | Run a tabletop or software exercise across three logical places and a portable unit, including a nine-day disruption timeline, stale information, relief staffing and restoration. Record simulated events and measured results separately. |
+| 3 — Practise continuity | Plan two to three days of practical testing across three logical places and a portable unit, including stale information, relief staffing and restoration. Digital twins can simulate any chosen time span. Record simulated duration, computer runtime and measured practical results separately. |
 | 4 — Review and choose the next milestone | Demonstrate the result, hear participant feedback, compare gaps with relevant practice and update the evidence. Ask the responsible people to decide the exact next scope, such as improved drawings or a separately authorised bench trial. |
 
 ## Outputs to carry forward

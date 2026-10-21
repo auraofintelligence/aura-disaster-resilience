@@ -73,7 +73,7 @@ Aim for superiority in **named outcomes under recorded conditions**. AI/SI capab
 | Outcome | Evidence to compare |
 | --- | --- |
 | People receive and understand the right information | Correct issuer, meaning, area and supersession; task completion across language, access and guest channels; time and assistance needed. |
-| Useful service continues through disruption | Tasks completed while disconnected, accurate age/status displays, measured power use, restart and recovery results. Distinguish the 24-hour software exercise, nine-day scenario and actual hardware endurance. |
+| Useful service continues through disruption | Tasks completed while disconnected, accurate age/status displays, measured power use, restart and recovery results. Plan two to three days of practical testing. Digital twins can simulate any chosen time span; record simulated duration and computer runtime separately from practical test duration and measured hardware endurance. |
 | Requests and resources have dependable ownership | Correct receipt/acceptance states, unresolved needs visible, duplicate handling, one agreed allocation of scarce resources and a complete relief handover. |
 | People and equipment are ready | Confirmed qualified cover, usable connections, tests, consumables, access and maintenance; time to identify and resolve a readiness gap. |
 | Coordination becomes more effective | Omissions and corrections in a reviewed situation report, staff effort, traceability, continuing support cost and practical recovery outcomes. |

@@ -42,7 +42,7 @@ Research basis: [llama.cpp: local and hosted language-model inference](https://g
 ### Evidence to bring back next
 
 - Measure start-up, task completion, energy and enclosure temperature with representative content and visitors.
-- Include low storage, incorrect time, simultaneous users and the agreed nine-day operating profile in the comparison.
+- Include low storage, incorrect time, simultaneous users and the agreed 2–3-day practical test profile in the comparison.
 
 ## People and connected choices
 

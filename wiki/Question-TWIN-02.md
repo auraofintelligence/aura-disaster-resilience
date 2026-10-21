@@ -23,7 +23,7 @@ Build a dated exercise set with starting conditions, timed events, resource assu
 
 **For discussion and review · research checked 2026-10-20.** These are AI-generated options and transfer assessments. [The user's request and research method](Research-brief.md) identify the source of this work. The [source catalogue](Research-sources.md) states what the references establish. The decision and approval record retains its own status.
 
-Build a nine-day exercise that progressively interrupts power, communications, ferries, supplies and available staff, while everyday tasks continue where possible. Begin with storms, cyclones and fire. Longer disruption assumptions can extend the same dependency tests, with each simulated event clearly identified.
+Build a 2–3-day practical exercise with people and equipment, walking through interruptions to power, communications, ferries, supplies and available staff. Begin with storms, cyclones and fire. Digital twins can simulate any chosen length of disruption; record simulated time separately from actual computer runtime. Clearly identify practice events and record simulation, bench measurements and field demonstrations as distinct evidence.
 
 ### A timed tabletop and connected-device exercise
 

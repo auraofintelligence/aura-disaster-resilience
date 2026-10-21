@@ -74,9 +74,9 @@
   {
     "id": "OPS-03",
     "domain": "OPS",
-    "question": "What changing sequence of failures and recovery should the nine-day exercise let people practise together?",
+    "question": "What changing sequence of failures and recovery should a two-to-three-day practical exercise let people practise together?",
     "why": "Real preparedness connects power, communications, transport, supplies and available people over time, so the exercise should show how these affect one another.",
-    "expected_deliverable": "A scenario pack with starting conditions, a timed sequence of failures and recovery, sources and assumptions, changing dependencies and a clear account of what is simulated.",
+    "expected_deliverable": "A scenario pack for two to three days of practical testing, with starting conditions, a timed sequence of failures and recovery, sources and assumptions, changing dependencies and a clear account of what is simulated. Digital twins can model any chosen time span; record that span separately from the practical exercise and computer runtime.",
     "depends_on": [
       "OPS-01",
       "OPS-02"
@@ -891,7 +891,7 @@
     "domain": "ENE",
     "question": "How will we test useful service through several days of storms and outages, including no generation, low reserve, a failed high-power computer and delayed repairs?",
     "why": "A repeatable exercise shows how the whole kiosk behaves as conditions change.",
-    "expected_deliverable": "Prepare time-based tests and result sheets for five-to-nine-day cases and separately labelled longer scenarios. Record power use, battery energy, temperature, available services, waiting messages, interventions, uncertainty and pass/fail points. Compare measured results with the model.",
+    "expected_deliverable": "Prepare time-based tests and result sheets for two to three days of practical testing. Digital-twin models can explore any chosen outage duration. Record simulated time and computer runtime separately from actual test duration, power use, battery energy, temperature, available services, waiting messages, interventions, uncertainty and pass/fail points. Compare measured results with the model.",
     "depends_on": [
       "OPS-01",
       "PHY-05",

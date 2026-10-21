@@ -140,7 +140,7 @@
     "work_status": "ready_for_review",
     "github_issue_url": "https://github.com/auraofintelligence/aura-disaster-resilience/issues/3",
     "proposal": {
-      "version": 3,
+      "version": 4,
       "title": "Build a complete everyday-to-disaster service demonstration",
       "scope": "prototype_service",
       "scope_label": "The first software and service demonstration",
@@ -166,7 +166,7 @@
       "authorises": [
         "Demonstrate three everyday tasks: find checked events and transport information; find a local notice or service; use guided assistance or learning.",
         "Demonstrate disaster information, service/resource readiness and request handover with honest source and receipt states.",
-        "Prepare a 24-hour disconnected software exercise and a nine-day scenario timeline, each labelled by its test method."
+        "Prepare a two-to-three-day practical service exercise with disconnected operation, staff handovers and recovery. Digital-twin simulations can cover any chosen time span, recorded separately from practical test duration and computer runtime."
       ],
       "later_reviews": [
         "People responsible for real information and requests agree their service arrangements before public use.",

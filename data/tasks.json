@@ -133,7 +133,7 @@
   {
     "id": "JOB-12",
     "title": "Plan measurements and exercises",
-    "output": "Bench, network, accessibility, nine-day scenario and later field evidence",
+    "output": "A two-to-three-day practical test plan, digital-twin simulations of chosen duration, and bench, network, accessibility and later field evidence",
     "question_ids": [
       "TEST-01",
       "TEST-02",
