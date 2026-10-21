@@ -26,6 +26,8 @@ The proposed path begins with public information, then separately permissioned p
 
 ## What is completed, and what to check next
 
+**Ecosystem navigation update, 21 October 2026:** Every connection in [the ecosystem](wiki/Ecosystem.md) now has named website, repository or supplied-document links in its own row. `data/ecosystem.json` holds the display labels and destinations in `links`, alongside the source-capture URL lists. Keep those destinations in step when adding or updating a project. The author open record is the final entry, following the user's requested ordering. The separate bottom-of-page source list has been brought into the table so readers can follow each connection as they read.
+
 **About and discovery update, 21 October 2026:** The existing `LICENCE.md` and `robots.txt` are preserved unchanged. `ABOUT.md`, `GITHUB-ABOUT.md` and `repository-metadata.json` add project identity, a wiki homepage, clear rights references and 20 topic slugs. Their pattern was checked against the public Cultural Intelligence Node and Mutual Futures repositories: project/owner identity, first-build date, place and subject terms. The first-build tag is `built-2026-10-20`; the current stage is planning and design. GitHub's live About description, wiki homepage and all 20 topics were applied and verified through its API. These host settings are maintained from the metadata file and checked separately from Git publication. Discovery grants no additional reuse or AI-training permission. The existing host-root crawler-policy explanation remains applicable.
 
 This is the recorded build state at handover. Check the current local files and remote publication before continuing; publication may have advanced since this edition.

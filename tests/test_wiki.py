@@ -245,6 +245,23 @@ class WikiChecks(unittest.TestCase):
         self.assertIn('Decision-D-002.md', pages)
         self.assertIn('0 approvals', pages['Home.md'])
 
+    def test_ecosystem_rows_link_all_project_sources_and_put_open_record_last(self):
+        page = wiki.render(self.data)['Ecosystem.md']
+        rows = [line for line in page.splitlines() if line.startswith('| **')]
+        self.assertEqual(len(rows), len(self.data['ecosystem']))
+        for record, row in zip(self.data['ecosystem'], rows):
+            self.assertIn('**' + record['name'] + '**', row)
+            self.assertTrue(record['links'], record['id'])
+            linked_urls = {item['url'] for item in record['links']}
+            for url in record.get('repositories', []) + record.get('public_urls', []):
+                self.assertIn(url, linked_urls, record['id'])
+            for item in record['links']:
+                self.assertIn(f'[{item["label"]}]({item["url"]})', row)
+        self.assertEqual(self.data['ecosystem'][-1]['id'], 'author-open-record')
+        specification = next(r for r in self.data['ecosystem'] if r['id'] == 'personal-place-specification')
+        self.assertTrue(any('Sovereign%20Space%20Builder_' in item['url']
+                            for item in specification['links']))
+
 
 if __name__ == '__main__':
     unittest.main()

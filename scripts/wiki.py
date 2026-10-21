@@ -352,9 +352,10 @@ The kiosk and its resilience network are the first delivery focus. The wider eco
 **Core** means a responsibility this service needs. **Interface** means a defined connection we can develop with another project. **Context** means a wider direction or research horizon. The source websites and demonstrations provide starting material; operating partnerships grow through their own conversations and agreements.
 
 ''' + table(['Connection', 'How it contributes', 'Place in this build', 'Questions'], [
-                (r['name'], r['role'], r['scope'], ', '.join(link(q) for q in r['question_ids'])) for r in data['ecosystem']]) +
-         '\n\n## Explore the source projects\n\n' + '\n\n'.join('**' + r['name'] + '**\n\n' +
-             ' · '.join(f'[{url.rstrip("/").split("/")[-1]}]({url})' for url in r.get('repositories', []) + r.get('public_urls', [])) for r in data['ecosystem']))
+                ('**' + r['name'] + '**<br>' +
+                 ' · '.join(f'[{item["label"]}]({item["url"]})' for item in r['links']),
+                 r['role'], r['scope'], ', '.join(link(q) for q in r['question_ids']))
+                for r in data['ecosystem']]))
     for d in data['decisions']:
         p = d['proposal']
         digest = fingerprint(d, root, questions, research)

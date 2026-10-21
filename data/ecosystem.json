@@ -20,7 +20,21 @@
       "FIN-01",
       "TEST-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Aura Disaster Resilience",
+        "url": "https://github.com/auraofintelligence/aura-disaster-resilience"
+      },
+      {
+        "label": "Earlier disaster kiosks",
+        "url": "https://github.com/auraofintelligence/straddie-disaster-kiosks"
+      },
+      {
+        "label": "Minjerribah Resilience",
+        "url": "https://github.com/auraofintelligence/Minjerribah-Resilience"
+      }
+    ]
   },
   {
     "id": "gajra-values",
@@ -42,6 +56,28 @@
     "public_urls": [
       "https://auraofintelligence.github.io/gajra-earth-claude-build/",
       "https://auraofintelligence.github.io/GAJRA-earth-infinity/"
+    ],
+    "links": [
+      {
+        "label": "GAJRA Earth",
+        "url": "https://auraofintelligence.github.io/gajra-earth-claude-build/"
+      },
+      {
+        "label": "GAJRA Earth Infinity",
+        "url": "https://auraofintelligence.github.io/GAJRA-earth-infinity/"
+      },
+      {
+        "label": "GAJRA Earth source",
+        "url": "https://github.com/auraofintelligence/gajra-earth-claude-build"
+      },
+      {
+        "label": "Infinity source",
+        "url": "https://github.com/auraofintelligence/GAJRA-earth-infinity"
+      },
+      {
+        "label": "Public hub source",
+        "url": "https://github.com/auraofintelligence/gajra-earth-public-hub"
+      }
     ]
   },
   {
@@ -63,6 +99,24 @@
     "public_urls": [
       "https://auraofintelligence.github.io/",
       "https://auraofintelligence.com/"
+    ],
+    "links": [
+      {
+        "label": "Aura of Intelligence hub",
+        "url": "https://auraofintelligence.github.io/"
+      },
+      {
+        "label": "Aura of Intelligence website",
+        "url": "https://auraofintelligence.com/"
+      },
+      {
+        "label": "Hub source",
+        "url": "https://github.com/auraofintelligence/auraofintelligence.github.io"
+      },
+      {
+        "label": "Aura Matrix Studio",
+        "url": "https://github.com/auraofintelligence/aura-matrix-studio"
+      }
     ]
   },
   {
@@ -80,7 +134,17 @@
       "GOV-03",
       "TEST-04"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Aura Genesis Geode Atlas",
+        "url": "https://github.com/auraofintelligence/aura-genesis-geode-atlas"
+      },
+      {
+        "label": "Aura Genesis",
+        "url": "https://github.com/auraofintelligence/aura-genesis"
+      }
+    ]
   },
   {
     "id": "verse-box",
@@ -97,7 +161,13 @@
       "GOV-04",
       "TEST-04"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Verse Box",
+        "url": "https://github.com/auraofintelligence/aura-verse-box"
+      }
+    ]
   },
   {
     "id": "legal-retrieval",
@@ -118,6 +188,24 @@
     "public_urls": [
       "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html",
       "https://p4a.xyz/pages/legal-rag.html"
+    ],
+    "links": [
+      {
+        "label": "Your Relevance",
+        "url": "https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html"
+      },
+      {
+        "label": "P4A Legal RAG",
+        "url": "https://p4a.xyz/pages/legal-rag.html"
+      },
+      {
+        "label": "Your Relevance source",
+        "url": "https://github.com/auraofintelligence/australian-law-2012-lukes-relevance"
+      },
+      {
+        "label": "Australian Legal Engine",
+        "url": "https://github.com/auraofintelligence/australian-legal-engine"
+      }
     ]
   },
   {
@@ -131,7 +219,13 @@
       "TWIN-01",
       "ECO-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Sovereign Space Builder specification (PDF)",
+        "url": "../sources/documents/Sovereign%20Space%20Builder_%20Full%20System%20Specification%20%282%29.pdf"
+      }
+    ]
   },
   {
     "id": "twin-family",
@@ -152,7 +246,33 @@
       "DAT-04",
       "TEST-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Straddie Twins",
+        "url": "https://github.com/auraofintelligence/straddie-twins"
+      },
+      {
+        "label": "Twin Prototype",
+        "url": "https://github.com/auraofintelligence/straddie-twin-prototype"
+      },
+      {
+        "label": "Digital Twin Builders",
+        "url": "https://github.com/auraofintelligence/straddie-digital-twin-builders"
+      },
+      {
+        "label": "Digital Twin Explainer",
+        "url": "https://github.com/auraofintelligence/straddie-digital-twin-explainer"
+      },
+      {
+        "label": "Minjerribah Living Twin",
+        "url": "https://github.com/auraofintelligence/minjerribah-living-twin"
+      },
+      {
+        "label": "Second Island",
+        "url": "https://github.com/auraofintelligence/second-island"
+      }
+    ]
   },
   {
     "id": "noticeboard-publishing",
@@ -168,7 +288,13 @@
       "DAT-04",
       "COM-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Straddie Noticeboard Network",
+        "url": "https://github.com/auraofintelligence/straddie-noticeboard-network"
+      }
+    ]
   },
   {
     "id": "country-events",
@@ -183,7 +309,13 @@
       "DAT-02",
       "DAT-06"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Quandamooka Country Events Engine",
+        "url": "https://github.com/auraofintelligence/quandamooka-country-events-engine"
+      }
+    ]
   },
   {
     "id": "screen-media",
@@ -201,6 +333,16 @@
     "status": "proposed; source artefacts exist",
     "public_urls": [
       "https://auraofintelligence.github.io/minjerribah-screen-media-network/"
+    ],
+    "links": [
+      {
+        "label": "Screen and Media Network",
+        "url": "https://auraofintelligence.github.io/minjerribah-screen-media-network/"
+      },
+      {
+        "label": "Project source",
+        "url": "https://github.com/auraofintelligence/minjerribah-screen-media-network"
+      }
     ]
   },
   {
@@ -220,6 +362,16 @@
     "status": "proposed; source artefacts exist",
     "public_urls": [
       "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/"
+    ],
+    "links": [
+      {
+        "label": "Ready S.E.T. Co-op Trust Hub",
+        "url": "https://auraofintelligence.github.io/ready-set-co-op-trust-hub/"
+      },
+      {
+        "label": "Trust Hub source",
+        "url": "https://github.com/auraofintelligence/ready-set-co-op-trust-hub"
+      }
     ]
   },
   {
@@ -237,7 +389,13 @@
       "FIN-02",
       "ECO-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Cultural Intelligence Node",
+        "url": "https://github.com/auraofintelligence/ready-set-co-op-cultural-intelligence-node"
+      }
+    ]
   },
   {
     "id": "c-hours",
@@ -252,7 +410,13 @@
       "DAT-05",
       "FIN-02"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "C-Hour introduction",
+        "url": "https://github.com/auraofintelligence/C-Hour-introduction"
+      }
+    ]
   },
   {
     "id": "shared-table-dig",
@@ -268,7 +432,13 @@
       "ECO-01",
       "TWIN-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Shared Table Initiative",
+        "url": "https://github.com/auraofintelligence/shared-table-initiative"
+      }
+    ]
   },
   {
     "id": "clean-energy",
@@ -284,7 +454,13 @@
       "FIN-02",
       "TEST-03"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Straddie Clean Energy Superpower",
+        "url": "https://github.com/auraofintelligence/straddie-clean-energy-superpower"
+      }
+    ]
   },
   {
     "id": "makerspace",
@@ -300,7 +476,13 @@
       "OPS-08",
       "TEST-03"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Straddie Makerspace Lab",
+        "url": "https://github.com/auraofintelligence/straddie-makerspace-lab"
+      }
+    ]
   },
   {
     "id": "tip-loop",
@@ -316,7 +498,13 @@
       "ECO-01",
       "FIN-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Straddie Tip Loop Lab",
+        "url": "https://github.com/auraofintelligence/straddie-tip-loop-lab"
+      }
+    ]
   },
   {
     "id": "gumpi-terminal",
@@ -332,7 +520,13 @@
       "DAT-01",
       "ECO-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Dunwich Gumpi Ferry Terminal Open Data Lab",
+        "url": "https://github.com/auraofintelligence/dunwich-gumpi-ferry-terminal-open-data-lab"
+      }
+    ]
   },
   {
     "id": "autonomous-mobility",
@@ -349,7 +543,13 @@
       "ENE-01",
       "ECO-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Moreton Bay Autonomous Mobility",
+        "url": "https://github.com/auraofintelligence/moreton-bay-autonomous-mobility"
+      }
+    ]
   },
   {
     "id": "ballow-road",
@@ -365,7 +565,13 @@
       "PHY-01",
       "ECO-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Ballow Road Sand Screen Hub",
+        "url": "https://github.com/auraofintelligence/ballow-road-sand-screen-hub"
+      }
+    ]
   },
   {
     "id": "sandworm",
@@ -382,7 +588,13 @@
       "TWIN-01",
       "GOV-03"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Sandworm Subterranean Systems",
+        "url": "https://github.com/auraofintelligence/sandworm-subterranean-systems"
+      }
+    ]
   },
   {
     "id": "grants-lab",
@@ -398,7 +610,13 @@
       "FIN-04",
       "GOV-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Stradbroke Grants Lab",
+        "url": "https://github.com/auraofintelligence/stradbroke-grants-lab"
+      }
+    ]
   },
   {
     "id": "cooperative-models",
@@ -413,7 +631,13 @@
       "GOV-06",
       "FIN-02"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Oceania health and AI co-operatives",
+        "url": "https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops"
+      }
+    ]
   },
   {
     "id": "unga-aukus",
@@ -433,6 +657,20 @@
     "status": "proposed; source artefacts exist",
     "public_urls": [
       "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/library.html"
+    ],
+    "links": [
+      {
+        "label": "UNGA81 library",
+        "url": "https://auraofintelligence.github.io/UNGA81-Luke-Hayes/library.html"
+      },
+      {
+        "label": "UNGA81 project source",
+        "url": "https://github.com/auraofintelligence/UNGA81-Luke-Hayes"
+      },
+      {
+        "label": "AUKUS Space Gambit",
+        "url": "https://github.com/auraofintelligence/aukus-space-gambit"
+      }
     ]
   },
   {
@@ -449,7 +687,13 @@
       "GOV-05",
       "TEST-04"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Mutual Futures",
+        "url": "https://github.com/auraofintelligence/mutual-futures"
+      }
+    ]
   },
   {
     "id": "games-horizon",
@@ -465,6 +709,12 @@
     "status": "proposed; source artefacts exist",
     "public_urls": [
       "https://www.qld.gov.au/government/strategies-initiatives/initiatives/brisbane2032/brisbane-2032-organising-committee"
+    ],
+    "links": [
+      {
+        "label": "Brisbane 2032 organising committee",
+        "url": "https://www.qld.gov.au/government/strategies-initiatives/initiatives/brisbane2032/brisbane-2032-organising-committee"
+      }
     ]
   },
   {
@@ -480,7 +730,13 @@
       "OPS-01",
       "GOV-02"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Redlands discovers Luke Hayes",
+        "url": "https://github.com/auraofintelligence/Redlands_discovers_Luke_Hayes"
+      }
+    ]
   },
   {
     "id": "p4a-sensorium",
@@ -502,6 +758,28 @@
       "https://p4a.xyz/pages/web3-sensorium.html",
       "https://p4a.xyz/pages/twinkle-uap.html",
       "https://p4a.xyz/pages/twinkle.html"
+    ],
+    "links": [
+      {
+        "label": "Purple Party for Australia",
+        "url": "https://p4a.xyz"
+      },
+      {
+        "label": "Web3 Sensorium",
+        "url": "https://p4a.xyz/pages/web3-sensorium.html"
+      },
+      {
+        "label": "Twinkle UAP",
+        "url": "https://p4a.xyz/pages/twinkle-uap.html"
+      },
+      {
+        "label": "Twinkle",
+        "url": "https://p4a.xyz/pages/twinkle.html"
+      },
+      {
+        "label": "P4A source",
+        "url": "https://github.com/auraofintelligence/p4a-xyz-cinema"
+      }
     ]
   },
   {
@@ -518,7 +796,17 @@
       "TWIN-01",
       "OPS-06"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Grain by Grain documentary",
+        "url": "https://github.com/auraofintelligence/grain-by-grain-documentary"
+      },
+      {
+        "label": "Grain by Grain",
+        "url": "https://github.com/auraofintelligence/grain-by-grain"
+      }
+    ]
   },
   {
     "id": "future-hazards",
@@ -533,7 +821,44 @@
       "TEST-01",
       "TWIN-01"
     ],
-    "status": "proposed; source artefacts exist"
+    "status": "proposed; source artefacts exist",
+    "links": [
+      {
+        "label": "Micronova and excursions",
+        "url": "https://github.com/auraofintelligence/micronova-and-excursions"
+      }
+    ]
+  },
+  {
+    "id": "community-club-builder",
+    "name": "Community Club Builder: Sandy Sports example",
+    "repositories": [
+      "https://github.com/auraofintelligence/community-club-builder-sandy-sports"
+    ],
+    "public_urls": [
+      "https://auraofintelligence.github.io/community-club-builder-sandy-sports/"
+    ],
+    "role": "Adapt the shared roles, backups, practical meeting rhythm and human-reviewed AI administration into a proposed Ready S.E.T. Co-op working-together model for councils, teams and committees. Develop near-future XR, personal Aura, AI/SI and robotics participation through clear mandates, accessible participation and traceable delegated tasks. Co-operative formation and meeting rules develop through their own applicable process.",
+    "scope": "interface",
+    "question_ids": [
+      "GOV-01",
+      "GOV-02",
+      "DAT-05",
+      "WRK-01",
+      "WRK-03",
+      "WRK-04"
+    ],
+    "status": "source playbook exists; co-operative adaptation proposed",
+    "links": [
+      {
+        "label": "Community Club Builder: Sandy Sports",
+        "url": "https://auraofintelligence.github.io/community-club-builder-sandy-sports/"
+      },
+      {
+        "label": "Club Builder source",
+        "url": "https://github.com/auraofintelligence/community-club-builder-sandy-sports"
+      }
+    ]
   },
   {
     "id": "author-open-record",
@@ -543,18 +868,16 @@
     ],
     "role": "Provide the author-selected reference for Luke Nathan Hayes and his public record. Link author context here while keeping the kiosk service, evidence, responsibilities and community decisions clear in their own records.",
     "scope": "context",
-    "question_ids": ["WRK-01", "GOV-01"],
-    "status": "public reference supplied by the author"
-  },
-  {
-    "id": "community-club-builder",
-    "name": "Community Club Builder: Sandy Sports example",
-    "repositories": ["https://github.com/auraofintelligence/community-club-builder-sandy-sports"],
-    "public_urls": ["https://auraofintelligence.github.io/community-club-builder-sandy-sports/"],
-    "role": "Adapt the shared roles, backups, practical meeting rhythm and human-reviewed AI administration into a proposed Ready S.E.T. Co-op working-together model for councils, teams and committees. Develop near-future XR, personal Aura, AI/SI and robotics participation through clear mandates, accessible participation and traceable delegated tasks. Co-operative formation and meeting rules develop through their own applicable process.",
-    "scope": "interface",
-    "question_ids": ["GOV-01", "GOV-02", "DAT-05", "WRK-01", "WRK-03", "WRK-04"],
-    "status": "source playbook exists; co-operative adaptation proposed"
+    "question_ids": [
+      "WRK-01",
+      "GOV-01"
+    ],
+    "status": "public reference supplied by the author",
+    "links": [
+      {
+        "label": "Luke Nathan Hayes open record",
+        "url": "https://github.com/auraofintelligence/open-record-luke-nathan-hayes"
+      }
+    ]
   }
 ]
-
