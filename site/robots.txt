@@ -1,0 +1,20 @@
+# Aura Disaster Resilience discovery policy.
+# Project-path reference: this is not an active GitHub Pages origin-root policy.
+# For project Pages, crawlers read https://auraofintelligence.github.io/robots.txt.
+# Native GitHub Wiki discovery is controlled by GitHub's host policy.
+# See .github/robots-root-snippet.txt for project-scoped root rules.
+# Licence: https://github.com/auraofintelligence/aura-disaster-resilience/blob/main/LICENCE.md
+# Discovery grants no additional reuse or AI-training permission.
+# Cooperative crawl directions do not enforce copyright or guarantee indexing.
+
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Separate request for this identified foundation-model training crawler.
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://auraofintelligence.github.io/aura-disaster-resilience/sitemap.xml

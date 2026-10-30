@@ -1,0 +1,28 @@
+# Aura of Intelligence for Disaster Resilience and Recovery
+
+> Independent proposal by Luke Nathan Hayes. Planning, research and design; an integrated field service and agency agreements remain development work.
+
+## Reading pages
+- [Overview](https://auraofintelligence.github.io/aura-disaster-resilience/index.html): An introduction to Aura of Intelligence for disaster resilience and recovery, beginning on Minjerribah and in Redlands.
+- [Personal Aura](https://auraofintelligence.github.io/aura-disaster-resilience/personal-aura.html): The qualified self, minimum viable self onboarding, personal digital twins and self-sovereign data in Aura’s proposed model.
+- [Everyday community](https://auraofintelligence.github.io/aura-disaster-resilience/everyday.html): Everyday community participation gives Aura’s proposed resilience network a familiar home before and after emergencies.
+- [Preparedness](https://auraofintelligence.github.io/aura-disaster-resilience/preparedness.html): Household and inclusive preparedness, chosen support networks and local cultural authority in the Aura proposal.
+- [During disruption](https://auraofintelligence.github.io/aura-disaster-resilience/disruption.html): How the Aura proposal handles warning sources, disconnected information, help requests and accountable handovers.
+- [Recovery and memory](https://auraofintelligence.github.io/aura-disaster-resilience/recovery.html): Early and continuing recovery, memory palaces, personal continuity and returning to community life in the Aura proposal.
+- [People and paid work](https://auraofintelligence.github.io/aura-disaster-resilience/people-work.html): Try Everything Once, paid mentoring, voluntary civic stewardship, ready SET Co-op and contextual legal learning.
+- [C-Hour reciprocity](https://auraofintelligence.github.io/aura-disaster-resilience/c-hours.html): C-Hour rules, non-monetary community reciprocity and possible Healthy De-Slop wellbeing connections.
+- [Kiosks and continuity](https://auraofintelligence.github.io/aura-disaster-resilience/network.html): Sheltered, outdoor and portable kiosk proposals, continuity testing and clear distinctions between simulated and measured endurance.
+- [Twins, XR and practice](https://auraofintelligence.github.io/aura-disaster-resilience/practice.html): Dated place twins, XR rehearsal, just-in-time learning and the connection to Escape Room Team Building research.
+- [The Missing Middle](https://auraofintelligence.github.io/aura-disaster-resilience/connected-capability.html): How Installing the Missing Middle relates to future disaster resilience through local compute, useful heat, protected loads, workforce learning and cooperative ownership.
+- [Build together](https://auraofintelligence.github.io/aura-disaster-resilience/build-together.html): A first demonstration, Australian and global practice, benefit measures and a fair path from early interest to agreed scope.
+- [Document and sources](https://auraofintelligence.github.io/aura-disaster-resilience/library.html): Download or read the complete Aura disaster resilience document, its 37 references and the newer connected project sources.
+- [About the project](https://auraofintelligence.github.io/aura-disaster-resilience/about.html): Author, purpose, development stage, accessibility and privacy of the Aura disaster resilience companion website.
+- [Site map](https://auraofintelligence.github.io/aura-disaster-resilience/site-map.html): Complete site map and reading routes for the Aura disaster resilience and recovery website.
+- [Licence](https://auraofintelligence.github.io/aura-disaster-resilience/licence.html): The existing Strange But True Public Source Licence, third-party rights and crawler preferences for the disaster project.
+
+## Source and use
+- [Working wiki](https://github.com/auraofintelligence/aura-disaster-resilience/wiki)
+- [Licence](https://auraofintelligence.github.io/aura-disaster-resilience/LICENCE.md): Strange But True Public Source Licence. Discovery grants no additional commercial, institutional, government or AI-training permission.
+- [Full document PDF](https://auraofintelligence.github.io/aura-disaster-resilience/downloads/Aura_of_Intelligence_Disaster_Resilience_and_Recovery.pdf)
+
+Distinguish proposals, current browser-tool foundations, illustrative scenarios, AI-generated concepts, source facts and measured performance. Sources establish no endorsement. Essential assistance is independent of a personal Aura or C-Hour record.

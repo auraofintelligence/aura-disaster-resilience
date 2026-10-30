@@ -1,0 +1,391 @@
+{
+  "title": "Aura disaster resilience website artwork",
+  "created": "2026-10-30",
+  "rights": "Original project artwork is provided under the Strange But True Public Source Licence.",
+  "assets": [
+    {
+      "slug": "index",
+      "alt": "Neighbours share a sunny bay-side community hall and garden beneath eucalyptus trees.",
+      "caption": "Concept illustration: readiness grows through everyday relationships, useful shared places and local stewardship.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape editorial concept illustration for the opening page of an Australian community disaster resilience website, 1536 by 1024 pixels, 3:2 aspect ratio.\nPrimary request: an optimistic bay island community hub where practical readiness is part of enjoyable everyday life.\nScene and subject: a modest timber-and-brick community hall beside the calm waters of Moreton Bay, Queensland, with eucalyptus trees and distant low islands. Everyday neighbours of varied ages share the shaded verandah and garden, chatting, checking a small ordinary phone together and tending a practical shared space. Near-future devices are unobtrusive and credible, with no showcased commercial equipment. Give the bay, the hall and human relationships equal importance.\nStyle and medium: luminous painterly editorial illustration with soft natural forms and subtle paper grain. A cohesive palette of teal water, eucalyptus green, warm ochre and restrained coral.\nComposition: a generous wide establishing view with foreground garden, central open verandah and bay beyond; the complete scene is composed inside the frame and ready to display uncropped.\nLighting and mood: clear warm morning light, respectful, hopeful and grounded.\nConstraints: an imagined proposed concept, not documentary evidence of an existing installation. No text, no lettering, no logos, no watermark. No floating arbitrary geometry, no science fantasy holograms or domes, no emergency rescue, no disaster damage, no staged hero poses.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "444f499a05358bab851ecf487d62e39c9417aa28c8bbbba83872909d91eced7f",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/index-768.webp",
+        "assets/images/index-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "personal-aura",
+      "alt": "A woman reflects over selected photographs, a notebook and a phone at her kitchen table.",
+      "caption": "Concept illustration: the person chooses the memories, context and permissions that give a personal Aura meaning.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape editorial concept illustration for a personal Aura and self-owned records web page, 1536 by 1024 pixels, 3:2 aspect ratio.\nPrimary request: a person reflecting at their kitchen table, choosing the parts of life they want to preserve and share.\nScene and subject: a middle-aged woman in a relaxed linen shirt sits at a modest Queensland coastal home's timber kitchen table, thoughtfully arranging a few selected printed family and landscape photographs beside an open analogue notebook and a small ordinary smartphone. She is engaged in her own reflection, not posing for a camera. An open window reveals soft eucalyptus leaves and coastal light. Her home and personal objects carry the story; technology remains small and familiar.\nStyle and medium: luminous painterly editorial illustration, soft natural forms, tactile brushwork and subtle paper grain. Cohesive teal, eucalyptus green, warm ochre and restrained coral palette.\nComposition and framing: an intimate three-quarter side view across the table, showing the person, her deliberate hand arranging a photo, the photographs and notebook, with the kitchen softly receding behind. A complete quiet scene composed within the frame for uncropped display, unlike an outdoor establishing scene.\nLighting and mood: gentle late-afternoon window light, private, reflective and hopeful.\nConstraints: an illustrative future concept, not documentary evidence of an installed service. No readable text on notebook, photos or phone. No logos, no watermark, no floating arbitrary geometry, no holograms or sci-fi domes, no intrusive monitoring equipment, no glowing data aura. The person is the owner and author of her life record.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "018ab31e693d52d8cc2917cc29eed1c168c4755e1ad96830d1b1d33e764fdf5a",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/personal-aura-768.webp",
+        "assets/images/personal-aura-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "everyday",
+      "alt": "Neighbours repair a radio and bicycle while others share food and acoustic music at a coastal gathering.",
+      "caption": "Concept illustration: music, meals, learning and practical contribution strengthen community life between disruptions.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape editorial concept illustration for an everyday community resilience web page, 1536 by 1024 pixels, 3:2 aspect ratio.\nPrimary request: joy and practical contribution at an outdoor Queensland community gathering, linking music, a shared meal and repair.\nScene and subject: a generous shaded courtyard under eucalyptus trees near a low community pavilion. In the foreground two adult neighbours sit across a workbench carefully repairing a small radio and a bicycle together. Further across the courtyard, people pass bowls along a long shared meal table while a small acoustic group plays guitar and hand percussion off to one side. People of different ages and backgrounds are relaxed participants with natural gestures. Hints of the bay and low coastal planting establish Queensland without becoming the focus.\nStyle and medium: luminous painterly editorial illustration with tactile brushwork and subtle paper grain. Cohesive teal, eucalyptus, ochre and coral palette; warm but restrained.\nComposition and framing: a lively horizontal eye-level scene with the repair activity anchoring the foreground, a diagonal meal table leading into the gathering and music completing the social setting. Plenty of breathing room, full scene composed inside the frame for uncropped display. No service kiosk or briefing scene.\nLighting and mood: dappled late-afternoon shade, convivial, purposeful and hopeful.\nConstraints: an imagined concept rather than a record of an existing event or service. No text, no lettering, no logos, no watermark. No floating arbitrary geometry, no hologram domes, no futuristic costumes, no emergency response, no visible disaster damage. Technology is ordinary and unobtrusive.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "754f53648aaebbc1040766c6fe19b1ba3002b8535af3d52cff90ac3e3f7d9c74",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/everyday-768.webp",
+        "assets/images/everyday-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "preparedness",
+      "alt": "A wheelchair user leads a household discussion around a local map and practical supplies.",
+      "caption": "Concept illustration: household preparedness draws on each person's knowledge, preferences and support needs.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape editorial concept illustration for a household disaster preparedness website page, 1536 by 1024 pixels, 3:2 aspect ratio.\nPrimary request: a multigenerational household planning together at home, with a wheelchair user actively leading part of the conversation.\nScene and subject: a practical accessible Queensland living and dining room with wide doors opening to a small green courtyard. A confident adult wheelchair user is seated at one short end of an everyday dining table, pointing to a simple local street map while a teenager, an older relative and another adult listen and contribute. A closed emergency supplies tote sits beside the table, with a torch, water bottle, small radio, analogue notebook and one ordinary phone placed neatly nearby. The wheelchair user has clear sight lines, personal space and agency; no one is pushing or hovering over them. The home feels lived in and modest.\nStyle and medium: luminous painterly editorial illustration with tactile brushwork, soft natural forms and subtle paper grain, in teal, eucalyptus green, warm ochre and restrained coral.\nComposition and framing: a slightly elevated diagonal view showing the whole collaborative table and the wheelchair naturally within the scene. The map and people's shared attention make the purpose understandable without labels. Full scene composed for uncropped display; do not crop any person at a joint.\nLighting and mood: soft bright midday light, thoughtful, collaborative and reassuring.\nConstraints: proposed concept, not evidence of a completed programme. No readable text or labels, no logos, no watermark. No floating arbitrary geometry, no hologram domes, no fantasy equipment, no emergency in progress. Avoid patronising care poses, distress, pity and institutional styling.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "e4f75eafa25f48c49c20b49ee1d25e94efb14069bc5dda1a3ce89e79f8dec43f",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/preparedness-768.webp",
+        "assets/images/preparedness-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "disruption",
+      "alt": "People discuss a map and tablet at a sheltered information desk during wet coastal weather.",
+      "caption": "Concept illustration: calm local support helps people understand checked information during disruption.",
+      "prompt": "Use case: illustration-story\nAsset type: landscape editorial concept illustration for a disaster disruption information page, 1536 by 1024 pixels, 3:2 aspect ratio.\nPrimary request: people calmly receiving checked information at a sheltered community kiosk during grey wet Queensland weather.\nScene and subject: a modest public community pavilion with a deep roof and a dry open-sided shelter. An approachable adult community information steward, wearing everyday clothing with no official insignia, sits at a small practical kiosk desk comparing a paper map and a small tablet before explaining the checked information to two neighbours. A third person waits comfortably nearby with a bicycle and a closed umbrella. Their clothes are slightly rain-damp, their expressions attentive rather than frightened. Beyond the roof, eucalyptus trees, a wet paved path and a distant muted bay are visible through steady light rain. The ground remains navigable and no water is flooding buildings.\nStyle and medium: luminous painterly editorial illustration with tactile brushwork and subtle paper grain. A cohesive teal, eucalyptus green, ochre and restrained coral palette, shifted to cool rain greys with warm shelter light.\nComposition and framing: a medium-wide street-level view angled into the shelter, the desk and calm conversation central, roof edge and falling rain establishing conditions. Show the entire useful scene without imposed cropping. Keep this composition visually different from a family dining table and a festive outdoor gathering.\nLighting and mood: overcast wet-day light outside, soft warm light under shelter, calm, practical and respectful.\nConstraints: an imagined preparedness concept, not documentary evidence of an operating Aura kiosk or endorsed public authority. No text, no lettering, no readable screen content, no logos, no watermark. No active flooding, rescue, injury, distress, emergency vehicles or official uniforms. No floating arbitrary geometry, no science fantasy holograms or domes.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "55b6fa95c6d60fd3c90ea01e0b5bc3a2a31403eb789a11323b65489b1dc207b7",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/disruption-768.webp",
+        "assets/images/disruption-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "recovery",
+      "alt": "Neighbours share a quiet meal beside a community garden being restored after a storm.",
+      "caption": "Imagined concept: recovery includes practical repair, a shared meal, rest and care.",
+      "prompt": "Use case: illustration-story. Asset type: editorial landscape hero illustration for an Australian disaster resilience companion website. Output: landscape 1536 x 1024 pixels, full coherent scene composed to retain every element uncropped. Style: luminous painterly editorial illustration with subtle paper grain; restrained teal, eucalyptus green, warm ochre and coral palette; credible Australian coastal civic surroundings. Human warmth and practical hope, respectful natural body language and believable anatomy. The image depicts an imagined proposal, not documentary evidence. No text, letters, readable writing, logos, symbols resembling organisational logos, watermarks, coins or currency. No arbitrary floating geometry, science-fiction holograms or translucent domes. Primary request: residents sharing a modest meal and restoring a small community garden after a storm. Composition: wide quiet garden scene viewed at seated human eye level; a simple outdoor table under a sturdy verandah has bowls, bread and cups; two neighbours sit in gentle conversation, including an older adult pausing with a cup, while two other adults restore a damaged garden bed nearby. A few repaired stakes and neatly stacked storm-broken branches imply recent disruption without spectacle. A coastal Queensland timber community building and eucalyptus foliage anchor the setting. Soft clearing-sky afternoon light. Leave room for grief, rest, dignity and mutual care; subdued faces with small moments of connection. No triumphal celebration, disaster-tourism spectacle, dramatic devastation, rescue action or emergency uniforms.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "81e52952ca005240796fadc271ae08326914ed34eb5710f641d6b23590748e8f",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/recovery-768.webp",
+        "assets/images/recovery-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "people-work",
+      "alt": "An experienced repairer mentors a younger adult at a tidy workbench with an unplugged fan.",
+      "caption": "Imagined concept: skilled workers pass on practical knowledge through paid, supervised work.",
+      "prompt": "Use case: illustration-story. Asset type: editorial landscape hero illustration for an Australian disaster resilience companion website. Output: landscape 1536 x 1024 pixels, full coherent scene composed to retain every element uncropped. Style: luminous painterly editorial illustration with subtle paper grain; restrained teal, eucalyptus green, warm ochre and coral palette; credible Australian coastal civic surroundings. Human warmth and practical hope, respectful natural body language and believable anatomy. The image depicts an imagined proposal, not documentary evidence. No text, letters, readable writing, logos, symbols resembling organisational logos, watermarks, coins or currency. No arbitrary floating geometry, science-fiction holograms or translucent domes. Primary request: paid practical mentoring at a well-organised repair workbench. Composition: medium-wide view inside an airy Australian coastal workshop, not a garden or dining scene. An older skilled repairer and a younger adult work side by side on a safely unplugged compact household fan. The older person calmly demonstrates how to inspect a removed cover and labelled-by-colour parts, and the younger adult uses a simple hand tool under clear respectful supervision. Practical work clothes, clear safety glasses, tidy tool shadow board without text, daylight from an open louvred window, solid timber bench with only relevant tools. Their expressions show concentration and equal dignity, rather than schoolteacher authority. Tools lie safely, no exposed live wiring, no electrical testing, no unsafe mains work, no uniforms suggesting emergency services. This depicts a proposed paid learning and mentoring arrangement; do not add pay slips or financial icons.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "156cf9dafd4886b0c8bec7721bc1f858c8c33ef8409b4e13e5e7a9db21201015",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/people-work-768.webp",
+        "assets/images/people-work-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "c-hours",
+      "alt": "Community members organise garden tools, art materials and leisure equipment in a shared shed.",
+      "caption": "Imagined concept: voluntary contribution strengthens community relationships and access to shared activities.",
+      "prompt": "Use case: illustration-story. Asset type: editorial landscape hero illustration for an Australian disaster resilience companion website. Output: landscape 1536 x 1024 pixels, full coherent scene composed to retain every element uncropped. Style: luminous painterly editorial illustration with subtle paper grain; restrained teal, eucalyptus green, warm ochre and coral palette; credible Australian coastal civic surroundings. Human warmth and practical hope, respectful natural body language and believable anatomy. The image depicts an imagined proposal, not documentary evidence. No text, letters, readable writing, logos, symbols resembling organisational logos, watermarks, coins or currency. No arbitrary floating geometry, science-fiction holograms or translucent domes. Primary request: community volunteers organising shared garden tools, arts supplies and leisure equipment for local reciprocity. Composition: an inviting angled view into a small airy coastal community shed with open double doors, deep shelves and a broad central sorting table. Three adults with different ages and appearances work together; one sorts clean garden hand tools, one checks a boxed collection of paintbrushes and easels, one places a beach game and a small folded picnic chair in a shared-equipment area. A fourth person returns a watering can at the doorway. Objects are modest and useful, each fully tangible, with well-spaced storage. Dappled late-morning light and eucalyptus shadows. Their interaction suggests belonging, contribution and access to shared community experiences. No coins, money, currency, tokens, credit counters, exchange-rate graphics, gift-card logos, prices or readable labels.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "29d6bca04d1e34abcf91ff84b7e6d51d893c586d59a77052ea333b975d0674d4",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/c-hours-768.webp",
+        "assets/images/c-hours-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "network",
+      "alt": "A sheltered public information kiosk has solar panels and an enclosed battery and communications cabinet.",
+      "caption": "Imagined concept: a practical local information point with provision for power and communications continuity.",
+      "prompt": "Use case: illustration-story. Asset type: editorial landscape hero illustration for an Australian disaster resilience companion website. Output: landscape 1536 x 1024 pixels, full coherent scene composed to retain every element uncropped. Style: luminous painterly editorial illustration with subtle paper grain; restrained teal, eucalyptus green, warm ochre and coral palette; credible Australian coastal civic surroundings. Human warmth and practical hope, respectful natural body language and believable anatomy. The image depicts an imagined proposal, not documentary evidence. No text, letters, readable writing, logos, symbols resembling organisational logos, watermarks, coins or currency. No arbitrary floating geometry, science-fiction holograms or translucent domes. Primary request: physically coherent sheltered all-weather public information kiosk in a coastal Australian civic precinct. Composition: a wide architectural three-quarter view, quietly cutaway-feeling through an already-open solid maintenance door on the side, not transparent walls or an exploded diagram. A compact sturdy pavilion has a deep metal roof, discreet roof-mounted solar panels, sheltered accessible display alcove, bench and wide dry paved approach. In the open side service cupboard, show a secured modest battery enclosure, neatly mounted communications unit and restrained cable conduits, all sheltered inside solid weatherproof construction. The front public screen displays only a simple abstract local map with no text. Two residents consult it in ordinary dry weather after light rain; visible shade and wet pavement beyond the roof. All doors have real hinges, panels connect plausibly and roof is structurally supported. Equipment is elevated within the enclosed service cabinet. No flood water, no dangerous use during a storm, no claim of technical certification, no emergency service branding, no fantasy technology.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "e2ebdc18eae194d36d6ed7953286ad4e887a5377edf4a80ead8571b8ee01bc52",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/network-768.webp",
+        "assets/images/network-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "practice",
+      "alt": "Four adults solve a tabletop puzzle together beside a screen showing a simple exercise map.",
+      "caption": "Imagined concept: a playful shared challenge creates opportunities to practise communication and reflect together.",
+      "prompt": "Use case: illustration-story. Asset type: editorial landscape hero illustration for an Australian disaster resilience companion website. Output: landscape 1536 x 1024 pixels, full coherent scene composed to retain every element uncropped. Style: luminous painterly editorial illustration with subtle paper grain; restrained teal, eucalyptus green, warm ochre and coral palette; credible Australian coastal civic surroundings. Human warmth and practical hope, respectful natural body language and believable anatomy. The image depicts an imagined proposal, not documentary evidence. No text, letters, readable writing, logos, symbols resembling organisational logos, watermarks, coins or currency. No arbitrary floating geometry, science-fiction holograms or translucent domes. Primary request: a small diverse adult group collaboratively solving a hands-on escape-room-style shared task in a playful workshop. Composition: close human-scale wide view around a solid central table, a distinctly interior setting with a warm ochre wall, eucalyptus-toned shelving and coral puzzle props. Four ordinary adults share attention and ideas while arranging tangible wooden route tiles, matching shaped keys to a simple locked puzzle box and inspecting a fold-out illustrated clue sheet without any letters or numbers. One person points, another listens, one checks a tile and another considers the puzzle. A nearby modest flat screen on a wall shows a stylised exercise map made of paths and blocks without readable text. Props are educational toys, not live emergency equipment; curiosity and good humour rather than fear or forced urgency. Soft warm pendant lighting plus natural side light. No costumes, emergency uniforms, helmets, weapons, smoke, hazardous obstacles or implied rescue qualification.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "c98acacb985db87d05444dc1e89766507da36df99d3ef6c2b0d8aafe74ccbdc6",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/practice-768.webp",
+        "assets/images/practice-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "connected-capability",
+      "alt": "A technician checks community computing equipment and heat recovery pipework.",
+      "caption": "Local infrastructure with responsibilities to test and maintain.",
+      "prompt": "Use case: illustration-story. Asset type: website hero concept illustration, landscape1536x1024. Style: luminous painterly editorial illustration with subtle paper grain, credible contemporary Australian coastal/civic environment, warm human scale, teal, eucalyptus green, ochre and coral accents. Optimistic grounded imagined concept, not documentary evidence. No text, letters, numbers, logos, watermarks, arbitrary geometric monoliths or science-fantasy hologram domes. Full composition suitable for uncropped display, no title or overlays. Primary scene: A small community computing equipment room in a contemporary coastal Queensland community building. A technician calmly examines a modest well-organised rack, credible useful-heat recovery pipework and labelled-by-colour valves with no writing, ventilation and tidy cable trays. Realistic ordinary infrastructure, enough space for maintenance, daylight through a high window, no futuristic floating UI.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "faaae178fad765a60523172ba5c27a91a56860484a2704b6f404d1729b0b93ef",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/connected-capability-768.webp",
+        "assets/images/connected-capability-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "build-together",
+      "alt": "Residents and practical workers compare drawings and a prototype in a community hall.",
+      "caption": "People bring different skills to the next practical proposal.",
+      "prompt": "Use case: illustration-story. Asset type: website hero concept illustration, landscape1536x1024. Style: luminous painterly editorial illustration with subtle paper grain, credible contemporary Australian coastal/civic environment, warm human scale, teal, eucalyptus green, ochre and coral accents. Optimistic grounded imagined concept, not documentary evidence. No text, letters, numbers, logos, watermarks, arbitrary geometric monoliths or science-fantasy hologram domes. Full composition suitable for uncropped display, no title or overlays. Primary scene: A mixed small group of adult residents, a tradesperson and community service workers sit around a long table in a light Queensland community hall, comparing practical site drawings, a small prototype and handwritten notes with no legible text. Everyone contributes at equal eye level. Open windows show eucalyptus and bay light, ordinary clothes, no uniforms implying affiliation.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "bfd75fe8f6651bac659f969270b3ba8cfdf502ff08376d8ffa3b4d92aebdd16c",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/build-together-768.webp",
+        "assets/images/build-together-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "library",
+      "alt": "Reports and an open laptop on a sunny reading table beside a coastal outlook.",
+      "caption": "Read the full document, follow the evidence and explore the wiki.",
+      "prompt": "Use case: illustration-story. Asset type: website hero concept illustration, landscape1536x1024. Style: luminous painterly editorial illustration with subtle paper grain, credible contemporary Australian coastal/civic environment, warm human scale, teal, eucalyptus green, ochre and coral accents. Optimistic grounded imagined concept, not documentary evidence. No text, letters, numbers, logos, watermarks, arbitrary geometric monoliths or science-fantasy hologram domes. Full composition suitable for uncropped display, no title or overlays. Primary scene: A quiet bright reading table in an airy coastal Australian room with a neat collection of reports, an open laptop displaying simple abstract unlabelled pages, a pen and an open book, with bay water and eucalyptus visible outside. Thoughtful study, no people, no logos, all paper pages and screens have no legible writing.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "21fc9203300407951875dd68bd4e2261a561ad983193f7bd3ff69904c1cfef1c",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/library-768.webp",
+        "assets/images/library-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "about",
+      "alt": "A bay-island path, coastal trees and a small community beside calm water.",
+      "caption": "A proposal beginning with place and the people who know it.",
+      "prompt": "Use case: illustration-story. Asset type: website hero concept illustration, landscape1536x1024. Style: luminous painterly editorial illustration with subtle paper grain, credible contemporary Australian coastal/civic environment, warm human scale, teal, eucalyptus green, ochre and coral accents. Optimistic grounded imagined concept, not documentary evidence. No text, letters, numbers, logos, watermarks, arbitrary geometric monoliths or science-fantasy hologram domes. Full composition suitable for uncropped display, no title or overlays. Primary scene: A beautiful bay-island landscape inspired by Minjerribah in Queensland, coastal sand and banksia/eucalyptus framing turquoise Moreton Bay, ordinary low community buildings and two small distant walkers at the edge of a path. Grounded natural beauty and an inhabited place, not a tourist resort. No named or recognisable people, no Aboriginal artwork, no signs.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "e7f1be26165431b2a3ee26835d5770a312ff4280d53d22d6c3cfbbc3f3901cde",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/about-768.webp",
+        "assets/images/about-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "site-map",
+      "alt": "Paths connect homes, a hall, a garden and a coastal community's shared spaces.",
+      "caption": "Choose a path through the ideas, evidence and practical next steps.",
+      "prompt": "Use case: illustration-story. Asset type: website hero concept illustration, landscape1536x1024. Style: luminous painterly editorial illustration with subtle paper grain, credible contemporary Australian coastal/civic environment, warm human scale, teal, eucalyptus green, ochre and coral accents. Optimistic grounded imagined concept, not documentary evidence. No text, letters, numbers, logos, watermarks, arbitrary geometric monoliths or science-fantasy hologram domes. Full composition suitable for uncropped display, no title or overlays. Primary scene: An elevated oblique view of a coherent small coastal Queensland community: walkable streets and paths connect houses, a modest library, community garden, hall and bay foreshore. Realistic civic layout with trees and people tiny in scale, paths are literal ground routes, no floating arrows or symbols. Inviting orientation illustration, no map labels or text.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "a302ef4cb18ef5e12ed3a7d41d4a511d9fd953260d591988ba94a540e04e0acc",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/site-map-768.webp",
+        "assets/images/site-map-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "licence",
+      "alt": "A sunlit maker's table with a sketchbook, handmade object and organised archives.",
+      "caption": "Original work, clear attribution and permission for its use.",
+      "prompt": "Use case: illustration-story. Asset type: website hero concept illustration, landscape1536x1024. Style: luminous painterly editorial illustration with subtle paper grain, credible contemporary Australian coastal/civic environment, warm human scale, teal, eucalyptus green, ochre and coral accents. Optimistic grounded imagined concept, not documentary evidence. No text, letters, numbers, logos, watermarks, arbitrary geometric monoliths or science-fantasy hologram domes. Full composition suitable for uncropped display, no title or overlays. Primary scene: A warm maker's studio in coastal Australia, close view of a sunlit work table with an artist's sketchbook, a modest handmade ceramic object, carefully stored archives and drawing tools. The sketchbook shows abstract non-lettered studies, honour authorship and creative care, no people, no legal seal, no coat of arms, no text.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "39823c94a290dd2811f0c7ed240d4654e6d2e77f4d1aebd9fc56558bf40f4dea",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/licence-768.webp",
+        "assets/images/licence-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "memory-place",
+      "alt": "An older adult selects household photographs and garden mementos while packing familiar belongings.",
+      "caption": "Personal continuity through change. AI-generated concept.",
+      "prompt": "Use case: illustration-story. Asset type: inline image for an Australian disaster resilience and recovery website. Create a luminous painterly editorial illustration, subtle paper grain, eucalyptus teal, warm ochre and coral accents, natural Australian light, 1536x1024 landscape composition. Scene: an ordinary older Australian adult sits at a kitchen table reviewing a small household photo album while packing a few selected belongings into a simple moving box. A small potted garden cutting and familiar garden mementos sit nearby, a leafy coastal garden visible through a real window. Dignified, reflective, quiet personal agency, continuity of memory through relocation or disruption. This is not a medical scenario. Physically coherent ordinary home, credible hands and objects, no technology spectacle. No readable text, no logos, no watermark, no arbitrary geometric objects or holograms. Full balanced scene, no inset panels.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "6af8f5bdbbd58f998be79258f58a80a478d70adbd32d435f6b8839f6ccd7f3d3",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/memory-place-768.webp",
+        "assets/images/memory-place-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "continuity-test",
+      "alt": "A technician checks portable communications equipment and a battery at a tidy workshop bench.",
+      "caption": "Measure the equipment, conditions and observed result. AI-generated concept.",
+      "prompt": "Use case: illustration-story. Asset type: inline concept image for Australian disaster resilience website. Landscape1536x1024. Luminous painterly editorial illustration with subtle paper grain, eucalyptus teal, warm ochre and coral details, credible ordinary Australian workshop in natural light. A trained adult technician performs a small controlled bench test of portable communications equipment: compact radio/router, small rugged battery, laptop, safe tidy cables and paper equipment tags with no readable letters, practical meter. Technician seated with actual hands checking a connector, sleeves and sensible workwear, no invented uniform or rescue badge. This scene represents checking what works and documenting limitations, not a live disaster. Physically plausible clear workbench layout and correctly grounded objects. No labels readable on screen, no text, no logo, no watermark, no holograms, no arbitrary geometry. Balanced full scene with workbench and technician visible, no collage.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "76261c2a35570ab334516d9f6578d3e65923631da8ed3574a5781bbed74b632e",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/continuity-test-768.webp",
+        "assets/images/continuity-test-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "de-slop",
+      "alt": "A quiet garden retreat has a cedar sauna, a separate cold plunge and a distinct consultation building beyond.",
+      "caption": "An imagined adult wellbeing setting. Clinical services require their own assessment and supervision. AI-generated concept.",
+      "prompt": "Use case: illustration-story. Asset type: inline editorial concept illustration for an Australian community recovery website. Landscape1536x1024. Luminous painterly scene, subtle paper grain, eucalyptus teal, warm cedar ochre and coral accents. A peaceful coastal Australian garden wellbeing retreat for adults, with one small credible cedar sauna cabin on the left and one clearly separate, modest cold plunge tub on a paved deck to the right, real footpaths and planted borders. A small distinct clinical consultation building entrance quietly in the far background, plain architectural door without medical emblem, separate from leisure facilities. No pressure chamber is pictured. One adult in ordinary comfortable clothing sits on a bench with towel and water, enjoying quiet rest. This is an imagined setting, not a medical efficacy claim. Safe dry walkway, solid physical construction, no extravagant geometry. No person inside sauna or cold tub, no visible therapy treatment, no readings or diagrams. No readable text, logos, watermark, emergency symbols or holograms. Full coherent composition, naturally sunny and calm.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "cd1e56ac41dc485ba3d1080541969deb31b4fc43efb455317ecff4ead0d72216",
+      "original_dimensions": [
+        1536,
+        1024
+      ],
+      "outputs": [
+        "assets/images/de-slop-768.webp",
+        "assets/images/de-slop-1536.webp"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    },
+    {
+      "slug": "brand-mark",
+      "alt": "Cream and coral open ripples surround an ochre seed on dark teal.",
+      "caption": "Aura disaster resilience companion mark. AI-generated.",
+      "prompt": "Use case: logo-brand. Asset type: new raster favicon source for Aura of Intelligence disaster resilience and recovery companion site. 1024x1024square graphic. Create a distinctive, beautifully simple flat emblem that stays readable at32pixels: on a solid deep dark teal square ground, two broad rounded concentric ripple strokes form an open protective circle around a tiny warm ochre seed of light. One cream ripple and one muted coral ripple, carefully balanced organic geometry, broad clean edges, generous clear space. The open circular arcs suggest mutual care and continuity; simple seed shape in the centre. No letters, text, watermark, gradients, texture, shadows, bevels, religious symbols, emergency agency emblems, shields, medical symbols, pictograms or photographic content. Flat raster mark only, confidently minimal, clear silhouette.",
+      "generator": "Built-in image generation",
+      "created": "2026-10-30",
+      "original_sha256": "74d15a47c327e87e60fe06814c9276ac449d26762c2ac22016f2eed1dc3b2dba",
+      "original_dimensions": [
+        1254,
+        1254
+      ],
+      "outputs": [
+        "assets/brand-mark.png",
+        "assets/favicon-32.png",
+        "assets/apple-touch-icon.png",
+        "assets/icon-192.png",
+        "assets/icon-512.png",
+        "favicon.ico"
+      ],
+      "frame": "Complete generated composition; no cropping",
+      "status": "AI-generated concept, not documentary evidence of deployed services"
+    }
+  ]
+}

@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 wiki-export/
 .local/
+.openai/
+site/assets/originals/
+site/qa/

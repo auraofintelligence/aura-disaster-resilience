@@ -1,0 +1,23 @@
+# Merge into https://auraofintelligence.github.io/robots.txt after owner review.
+# This file is a snippet, not a replacement for an existing origin-root policy.
+# If a User-agent group already exists, merge these paths into that group.
+# For a new named group, carry over applicable wildcard restrictions for other paths;
+# named groups do not inherit User-agent: * rules automatically.
+# All paths below are scoped to this project; preserve other projects' policies.
+# Discovery does not grant reuse or training rights. The existing licence applies:
+# https://github.com/auraofintelligence/aura-disaster-resilience/blob/main/LICENCE.md
+
+# General crawler discovery, including search crawlers without a specific group.
+User-agent: *
+Allow: /aura-disaster-resilience/
+
+# Search discovery is separate from model-training collection.
+User-agent: OAI-SearchBot
+Allow: /aura-disaster-resilience/
+
+# Request exclusion of OpenAI foundation-model training collection for this path.
+# This is not a universal training opt-out or a copyright enforcement mechanism.
+User-agent: GPTBot
+Disallow: /aura-disaster-resilience/
+
+Sitemap: https://auraofintelligence.github.io/aura-disaster-resilience/sitemap.xml

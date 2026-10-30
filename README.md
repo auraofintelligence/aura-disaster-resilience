@@ -8,6 +8,21 @@ The work welcomes tradespeople, trade assistants, drivers, artists, nurses, care
 
 [About this project](ABOUT.md) · [About settings and topic slugs](GITHUB-ABOUT.md) · [Strange But True Public Source Licence](LICENCE.md) · [Crawler preferences](robots.txt)
 
+## Read the companion website and document
+
+The [companion website](https://auraofintelligence.github.io/aura-disaster-resilience/)
+introduces the proposal for readers arriving without prior knowledge. It connects
+the qualified self, minimum viable self onboarding, data and twin ownership,
+household preparedness, continuing recovery, paid Try Everything work, voluntary
+civic stewardship and C-Hour reciprocity.
+
+The [document library](https://auraofintelligence.github.io/aura-disaster-resilience/library.html)
+includes the complete 39-page document in PDF, Word and HTML, with its original
+references. Clearly labelled new connections consider Installing the Missing
+Middle and the current Escape Room Team Building research. The website has its
+own [source and build guide](website/README.md); the wiki remains the detailed
+working record of questions, evidence and decisions.
+
 ## Start in the wiki
 
 - [Start here](wiki/Home.md)
